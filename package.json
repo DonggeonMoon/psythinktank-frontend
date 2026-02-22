@@ -13,21 +13,24 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.24",
     "gatsby": "^5.14.6",
     "gatsby-plugin-postcss": "^6.16.0",
-    "postcss": "^8.5.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tailwindcss": "^4.2.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.0",
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.24",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.2.0",
     "typescript": "^5.3.3"
   }
 }
