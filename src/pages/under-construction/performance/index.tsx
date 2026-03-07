@@ -2,7 +2,7 @@ import * as React from "react";
 import type {HeadFC, PageProps} from "gatsby";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
-import {useEffect, useMemo} from "react";
+import {useEffect, useMemo, useState} from "react";
 import Ticker from "../../../components/Ticker";
 
 type DataPoint = { label: string; y: number }
@@ -20,7 +20,15 @@ declare global {
 }
 
 const PerformancePage: React.FC<PageProps> = () => {
-    const isDark = document.documentElement.classList.contains("dark")
+    const [isDark, setIsDark] = useState(false)
+
+    useEffect(() => {
+        const saved = localStorage.getItem("theme")
+        if (saved === "dark") {
+            document.documentElement.classList.add("dark")
+            setIsDark(true)
+        }
+    }, [])
 
     const datasets: YearPerformance[] = useMemo(
         () => [
