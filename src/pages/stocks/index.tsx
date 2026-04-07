@@ -1,8 +1,8 @@
 import * as React from "react";
 import type {HeadFC, PageProps} from "gatsby";
-import Footer from "../../../components/Footer";
-import Header from "../../../components/Header";
-import Ticker from "../../../components/Ticker";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import Ticker from "../../components/Ticker";
 
 const StockPage: React.FC<PageProps> = () => {
     return (

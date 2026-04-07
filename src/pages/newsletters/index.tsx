@@ -1,8 +1,8 @@
 import * as React from "react";
 import type {HeadFC, PageProps} from "gatsby";
-import Header from "../../../components/Header";
-import Footer from "../../../components/Footer";
-import Ticker from "../../../components/Ticker";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import Ticker from "../../components/Ticker";
 
 const NewsletterPage: React.FC<PageProps> = () => {
     return (
