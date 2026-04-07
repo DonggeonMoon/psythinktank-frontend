@@ -22,15 +22,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Setup SSH Tunnel
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_KEY }}
-          port: ${{ secrets.SSH_PORT }}
-          proxy_host: ${{ secrets.SSH_HOST }} 
-
       - name: Open Tunnel and Extract Data
         run: |
           echo "${{ secrets.SSH_KEY }}" > private_key
