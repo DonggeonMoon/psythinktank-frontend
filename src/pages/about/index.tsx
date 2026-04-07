@@ -1,10 +1,10 @@
 import * as React from "react";
 import {HeadFC, Link, PageProps} from "gatsby";
-import Header from "../../../components/Header";
-import Footer from "../../../components/Footer";
-import aboutImg from "../../../images/about.jpg";
-import feature1 from "../../../images/featured-1.png";
-import Ticker from "../../../components/Ticker";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import aboutImg from "../../images/about.jpg";
+import feature1 from "../../images/featured-1.png";
+import Ticker from "../../components/Ticker";
 
 const AboutPage: React.FC<PageProps> = () => {
     return (
