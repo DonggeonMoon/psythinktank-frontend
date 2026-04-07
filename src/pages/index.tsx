@@ -152,7 +152,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                         </div>
                                         <div
                                             className="col-span-2 text-right font-black text-emerald-600 dark:text-emerald-500">
-                                            +{stock.growth}%
+                                            +{Number(stock.growth).toFixed(2)}%
                                         </div>
                                         <div
                                             className="col-span-3 text-right font-mono font-medium text-slate-700 dark:text-slate-200">
