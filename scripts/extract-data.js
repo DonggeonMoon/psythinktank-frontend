@@ -9,6 +9,7 @@ async function fetchData(client, country) {
                 e.symbol,
                 s.local_name as stock_name,
                 e.growth,
+                d.value as dividend,
                 spb.adjust_close as recent_price,
                 ROUND(((spb.adjust_close - spa.adjust_close) / NULLIF(spa.adjust_close, 0) * 100)::numeric, 2) as price_growth,
                 TO_CHAR(spb.date, 'YYYY-MM-DD') as basis_date
@@ -35,7 +36,7 @@ async function fetchData(client, country) {
 async function run() {
     const client = new Client({
         host: '127.0.0.1',
-        port: 5432, // 💡 터널링 포트 5432으로 변경 확인!
+        port: 5432,
         user: process.env.DB_USER,
         password: process.env.DB_PASSWORD,
         database: process.env.DB_NAME,
