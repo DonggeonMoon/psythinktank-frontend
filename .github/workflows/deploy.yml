@@ -1,0 +1,57 @@
+name: Data Sync and Deploy
+
+on:
+  push:
+    branches: [ main ]  # main에 푸시될 때 실행
+  schedule:
+    - cron: '0 0 * * *' # 매일 자정에 자동으로 실행 (선택 사항)
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Setup SSH Tunnel
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          proxy_host: ${{ secrets.SSH_HOST }} 
+
+      - name: Open Tunnel and Extract Data
+        run: |
+          echo "${{ secrets.SSH_KEY }}" > private_key
+          chmod 600 private_key
+          
+          ssh -o StrictHostKeyChecking=no -i private_key -p ${{ secrets.SSH_PORT }} -L 5432:127.0.0.1:5432 ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} -fN
+          
+          node scripts/extract-data.js
+        env:
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_HOST: '127.0.0.1'
+          DB_PORT: 5432
+
+      - name: Build Gatsby
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
