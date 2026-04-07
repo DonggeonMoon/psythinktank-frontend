@@ -34,7 +34,7 @@ async function fetchData(client, country) {
 async function run() {
     const client = new Client({
         host: '127.0.0.1',
-        port: 5433, // 💡 터널링 포트 5433으로 변경 확인!
+        port: 5432, // 💡 터널링 포트 5432으로 변경 확인!
         user: process.env.DB_USER,
         password: process.env.DB_PASSWORD,
         database: process.env.DB_NAME,
@@ -42,7 +42,7 @@ async function run() {
 
     try {
         await client.connect();
-        console.log("🚀 원격 DB 연결 성공 (Port: 5433)");
+        console.log("🚀 원격 DB 연결 성공 (Port: 5432)");
 
         const dataDir = path.join(__dirname, '../src/data');
         if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
