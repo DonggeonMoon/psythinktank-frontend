@@ -18,6 +18,7 @@ async function fetchData(client, country) {
                      INNER JOIN stock_price spb ON e.symbol = spb.symbol AND spb.date = CURRENT_DATE - INTERVAL '1 week'
                      INNER JOIN stock_price spa ON e.symbol = spa.symbol AND spa.date = CURRENT_DATE - INTERVAL '1 year'
             WHERE e.growth > 10
+              AND e.basis_date = (SELECT MAX(basis_date) FROM employees WHERE symbol = e.symbol)
               AND s.country = $1
               AND d.value > 0
               AND spa.adjust_close > 0 -- 💡 0으로 나누기 방지
