@@ -11,6 +11,7 @@ export const query = graphql`
         symbol
         stock_name
         growth
+        dividend
         recent_price
         price_growth
         basis_date
@@ -21,16 +22,18 @@ export const query = graphql`
         symbol
         stock_name
         growth
+        dividend
         recent_price
         price_growth
         basis_date
       }
     }
-    jpn: allStocksJapanJson(sort: { growth: DESC }) {
+    japan: allStocksJapanJson(sort: { growth: DESC }) {
       nodes {
         symbol
         stock_name
         growth
+        dividend
         recent_price
         price_growth
         basis_date
@@ -43,6 +46,7 @@ interface StockNode {
     symbol: string;
     stock_name: string;
     growth: number;
+    dividend: number;
     recent_price: number;
     price_growth: number;
     basis_date: string;
@@ -51,7 +55,7 @@ interface StockNode {
 interface DataProps {
     korea: { nodes: StockNode[] };
     usa: { nodes: StockNode[] };
-    jpn: { nodes: StockNode[] };
+    japan: { nodes: StockNode[] };
 }
 
 const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
@@ -62,7 +66,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
             case 'US':
                 return {nodes: data.usa.nodes, unit: '$'};
             case 'JP':
-                return {nodes: data.jpn.nodes, unit: '¥'};
+                return {nodes: data.japan.nodes, unit: '¥'};
             default:
                 return {nodes: data.korea.nodes, unit: '원'};
         }
@@ -123,15 +127,15 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                         </div>
                     </div>
 
-                    {/* 테이블 영역 */}
                     <div
                         className="rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950 overflow-hidden shadow-sm">
                         <div
                             className="grid grid-cols-12 gap-4 border-b border-slate-200 bg-slate-50/50 px-6 py-4 text-xs font-bold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400 uppercase tracking-wider">
                             <div className="col-span-1">순위</div>
-                            <div className="col-span-4">기업명 / 티커</div>
+                            <div className="col-span-3">기업명 / 티커</div>
                             <div className="col-span-2 text-right">성장률</div>
-                            <div className="col-span-3 text-right">현재가 ({lastUpdateDate} 종가)</div>
+                            <div className="col-span-2 text-right">주당 배당금</div>
+                            <div className="col-span-2 text-right">현재가 ({lastUpdateDate} 종가)</div>
                             <div className="col-span-2 text-right">연간 가격 증감률</div>
                         </div>
 
@@ -144,7 +148,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                             className="col-span-1 font-mono font-bold text-slate-400 dark:text-slate-600">
                                             {index + 1}
                                         </div>
-                                        <div className="col-span-4 flex flex-col gap-0.5">
+                                        <div className="col-span-3 flex flex-col gap-0.5">
                                             <span
                                                 className="font-bold text-slate-900 dark:text-slate-100">{stock.stock_name}</span>
                                             <span
@@ -155,8 +159,12 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                             +{Number(stock.growth).toFixed(2)}%
                                         </div>
                                         <div
-                                            className="col-span-3 text-right font-mono font-medium text-slate-700 dark:text-slate-200">
-                                            {stock.recent_price.toLocaleString()}{displayData.unit}
+                                            className="col-span-2 text-right font-mono font-medium text-slate-700 dark:text-slate-200">
+                                            {stock.dividend.toLocaleString()}{displayData.unit}
+                                        </div>
+                                        <div
+                                            className="col-span-2 text-right font-mono font-medium text-slate-700 dark:text-slate-200">
+                                            {stock.recent_price ? stock.recent_price.toLocaleString() : '0'}{displayData.unit}
                                         </div>
                                         <div className="col-span-2 text-right font-semibold text-rose-500">
                                             {stock.price_growth}%
