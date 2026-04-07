@@ -6,6 +6,9 @@ on:
   schedule:
     - cron: '0 0 * * *' # 매일 자정에 자동으로 실행 (선택 사항)
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
