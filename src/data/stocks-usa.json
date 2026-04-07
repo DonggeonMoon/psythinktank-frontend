@@ -1,52 +1,402 @@
 [
-  { "symbol": "NVDA", "stock_name": "엔비디아", "growth": 45.2, "recent_price": 880.41, "price_growth": -2.5, "basis_date": "2026-04-07" },
-  { "symbol": "AMZN", "stock_name": "아마존", "growth": 22.1, "recent_price": 185.07, "price_growth": -1.2, "basis_date": "2026-04-07" },
-  { "symbol": "MSFT", "stock_name": "마이크로소프트", "growth": 15.8, "recent_price": 425.52, "price_growth": -0.8, "basis_date": "2026-04-07" },
-  { "symbol": "META", "stock_name": "메타", "growth": 32.4, "recent_price": 510.92, "price_growth": -3.1, "basis_date": "2026-04-07" },
-  { "symbol": "GOOGL", "stock_name": "알파벳 A", "growth": 19.5, "recent_price": 154.85, "price_growth": -2.4, "basis_date": "2026-04-07" },
-  { "symbol": "TSLA", "stock_name": "테슬라", "growth": 14.2, "recent_price": 171.05, "price_growth": -12.5, "basis_date": "2026-04-07" },
-  { "symbol": "AVGO", "stock_name": "브로드컴", "growth": 28.7, "recent_price": 1330.12, "price_growth": -4.2, "basis_date": "2026-04-07" },
-  { "symbol": "AMD", "stock_name": "AMD", "growth": 25.1, "recent_price": 170.42, "price_growth": -8.4, "basis_date": "2026-04-07" },
-  { "symbol": "NFLX", "stock_name": "넷플릭스", "growth": 21.3, "recent_price": 610.55, "price_growth": -1.5, "basis_date": "2026-04-07" },
-  { "symbol": "ASML", "stock_name": "ASML", "growth": 18.9, "recent_price": 950.21, "price_growth": -5.6, "basis_date": "2026-04-07" },
-  { "symbol": "COST", "stock_name": "코스트코", "growth": 12.5, "recent_price": 720.11, "price_growth": -2.1, "basis_date": "2026-04-07" },
-  { "symbol": "LLY", "stock_name": "일라이 릴리", "growth": 35.6, "recent_price": 760.34, "price_growth": -1.1, "basis_date": "2026-04-07" },
-  { "symbol": "CRM", "stock_name": "세일즈포스", "growth": 17.2, "recent_price": 300.25, "price_growth": -4.8, "basis_date": "2026-04-07" },
-  { "symbol": "ADBE", "stock_name": "어도비", "growth": 14.8, "recent_price": 490.15, "price_growth": -10.2, "basis_date": "2026-04-07" },
-  { "symbol": "QCOM", "stock_name": "퀄컴", "growth": 16.5, "recent_price": 175.22, "price_growth": -3.5, "basis_date": "2026-04-07" },
-  { "symbol": "INTU", "stock_name": "인튜이트", "growth": 13.9, "recent_price": 640.88, "price_growth": -2.7, "basis_date": "2026-04-07" },
-  { "symbol": "AMAT", "stock_name": "어플라이드 머티어리얼즈", "growth": 20.4, "recent_price": 205.15, "price_growth": -5.1, "basis_date": "2026-04-07" },
-  { "symbol": "MU", "stock_name": "마이크론 테크놀로지", "growth": 29.8, "recent_price": 122.35, "price_growth": -4.6, "basis_date": "2026-04-07" },
-  { "symbol": "ISRG", "stock_name": "인튜이티브 서지컬", "growth": 18.2, "recent_price": 390.45, "price_growth": -2.0, "basis_date": "2026-04-07" },
-  { "symbol": "LRCX", "stock_name": "램 리서치", "growth": 19.1, "recent_price": 940.12, "price_growth": -6.3, "basis_date": "2026-04-07" },
-  { "symbol": "PANW", "stock_name": "팔로알토 네트웍스", "growth": 22.5, "recent_price": 285.45, "price_growth": -15.2, "basis_date": "2026-04-07" },
-  { "symbol": "VRTX", "stock_name": "버텍스 파마슈티컬", "growth": 14.5, "recent_price": 415.22, "price_growth": -3.4, "basis_date": "2026-04-07" },
-  { "symbol": "SNPS", "stock_name": "시놉시스", "growth": 16.8, "recent_price": 570.15, "price_growth": -2.8, "basis_date": "2026-04-07" },
-  { "symbol": "CDNS", "stock_name": "케이던스 디자인", "growth": 17.1, "recent_price": 310.45, "price_growth": -3.9, "basis_date": "2026-04-07" },
-  { "symbol": "MELI", "stock_name": "메르카도리브레", "growth": 38.4, "recent_price": 1520.12, "price_growth": -7.5, "basis_date": "2026-04-07" },
-  { "symbol": "SHOP", "stock_name": "쇼피파이", "growth": 24.5, "recent_price": 75.22, "price_growth": -18.4, "basis_date": "2026-04-07" },
-  { "symbol": "PDD", "stock_name": "핀둬둬", "growth": 42.1, "recent_price": 120.45, "price_growth": -11.2, "basis_date": "2026-04-07" },
-  { "symbol": "UBER", "stock_name": "우버", "growth": 30.5, "recent_price": 75.15, "price_growth": -5.4, "basis_date": "2026-04-07" },
-  { "symbol": "NOW", "stock_name": "서비스나우", "growth": 22.8, "recent_price": 760.35, "price_growth": -4.7, "basis_date": "2026-04-07" },
-  { "symbol": "ABNB", "stock_name": "에어비앤비", "growth": 16.2, "recent_price": 155.12, "price_growth": -6.8, "basis_date": "2026-04-07" },
-  { "symbol": "MDB", "stock_name": "몽고DB", "growth": 27.4, "recent_price": 350.25, "price_growth": -14.2, "basis_date": "2026-04-07" },
-  { "symbol": "DDOG", "stock_name": "데이터독", "growth": 25.6, "recent_price": 125.15, "price_growth": -10.5, "basis_date": "2026-04-07" },
-  { "symbol": "NET", "stock_name": "클라우드플레어", "growth": 29.2, "recent_price": 95.45, "price_growth": -12.1, "basis_date": "2026-04-07" },
-  { "symbol": "SQ", "stock_name": "블록", "growth": 18.5, "recent_price": 72.15, "price_growth": -15.6, "basis_date": "2026-04-07" },
-  { "symbol": "CRWD", "stock_name": "크라우드스트라이크", "growth": 33.4, "recent_price": 315.22, "price_growth": -4.8, "basis_date": "2026-04-07" },
-  { "symbol": "ZS", "stock_name": "지스케일러", "growth": 28.1, "recent_price": 185.15, "price_growth": -20.4, "basis_date": "2026-04-07" },
-  { "symbol": "TEAM", "stock_name": "아틀라시안", "growth": 21.4, "recent_price": 195.45, "price_growth": -12.8, "basis_date": "2026-04-07" },
-  { "symbol": "OKTA", "stock_name": "옥타", "growth": 17.5, "recent_price": 92.15, "price_growth": -10.2, "basis_date": "2026-04-07" },
-  { "symbol": "U", "stock_name": "유니티 소프트웨어", "growth": 15.2, "recent_price": 25.45, "price_growth": -35.6, "basis_date": "2026-04-07" },
-  { "symbol": "PLTR", "stock_name": "팔란티어", "growth": 30.2, "recent_price": 22.15, "price_growth": -5.4, "basis_date": "2026-04-07" },
-  { "symbol": "SNOW", "stock_name": "스노우플레이크", "growth": 26.8, "recent_price": 155.22, "price_growth": -22.1, "basis_date": "2026-04-07" },
-  { "symbol": "COIN", "stock_name": "코인베이스", "growth": 48.5, "recent_price": 245.15, "price_growth": -8.5, "basis_date": "2026-04-07" },
-  { "symbol": "DKNG", "stock_name": "드래프트킹스", "growth": 31.2, "recent_price": 42.45, "price_growth": -4.2, "basis_date": "2026-04-07" },
-  { "symbol": "SE", "stock_name": "씨 리미티드", "growth": 19.4, "recent_price": 55.12, "price_growth": -15.8, "basis_date": "2026-04-07" },
-  { "symbol": "RIVN", "stock_name": "리비안", "growth": 25.5, "recent_price": 10.45, "price_growth": -45.2, "basis_date": "2026-04-07" },
-  { "symbol": "LCID", "stock_name": "루시드", "growth": 20.2, "recent_price": 2.55, "price_growth": -55.1, "basis_date": "2026-04-07" },
-  { "symbol": "AFRM", "stock_name": "어펌", "growth": 35.8, "recent_price": 32.15, "price_growth": -20.4, "basis_date": "2026-04-07" },
-  { "symbol": "HOOD", "stock_name": "로빈후드", "growth": 18.2, "recent_price": 18.45, "price_growth": -5.1, "basis_date": "2026-04-07" },
-  { "symbol": "SOFI", "stock_name": "소파이", "growth": 24.1, "recent_price": 7.22, "price_growth": -12.8, "basis_date": "2026-04-07" },
-  { "symbol": "UPST", "stock_name": "업스타트", "growth": 15.5, "recent_price": 25.15, "price_growth": -32.4, "basis_date": "2026-04-07" }
+  {
+    "symbol": "IMMR",
+    "stock_name": "Immersion Corporation - Common Stock",
+    "growth": 26464.29,
+    "recent_price": 5.460000038146973,
+    "price_growth": "-19.53",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "RPC",
+    "stock_name": "Ridgepost Capital, Inc. Class A Common Stock",
+    "growth": 8900,
+    "recent_price": 7.260000228881836,
+    "price_growth": "-26.11",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "PX",
+    "stock_name": "P10, Inc. Class A Common Stock",
+    "growth": 8900,
+    "recent_price": 7.260000228881836,
+    "price_growth": "-26.40",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "NOA",
+    "stock_name": "North American Construction Group Ltd. Common Shares (no par)",
+    "growth": 769.05,
+    "recent_price": 13.479999542236328,
+    "price_growth": "-2.75",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "UWMC",
+    "stock_name": "UWM Holdings Corporation Class A Common Stock",
+    "growth": 700,
+    "recent_price": 3.619999885559082,
+    "price_growth": "-23.52",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "PMT",
+    "stock_name": "PennyMac Mortgage Investment Trust Common Shares of Beneficial Interest",
+    "growth": 600,
+    "recent_price": 11.65999984741211,
+    "price_growth": "-1.47",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "DNUT",
+    "stock_name": "Krispy Kreme, Inc. - Common Stock",
+    "growth": 303.85,
+    "recent_price": 3.390000104904175,
+    "price_growth": "-22.68",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "DOC",
+    "stock_name": "Healthpeak Properties, Inc. Common Stock",
+    "growth": 272.12,
+    "recent_price": 16.43000030517578,
+    "price_growth": "-6.59",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "DOMH",
+    "stock_name": "Dominari Holdings Inc. - Common Stock",
+    "growth": 250,
+    "recent_price": 3.25,
+    "price_growth": "-5.23",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "FG",
+    "stock_name": "F&G Annuities & Life, Inc. Common Stock",
+    "growth": 230.97,
+    "recent_price": 25.31999969482422,
+    "price_growth": "-26.68",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "CSW",
+    "stock_name": "CSW Industrials, Inc. Common Stock",
+    "growth": 215.07,
+    "recent_price": 260.5799865722656,
+    "price_growth": "-1.15",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "HNI",
+    "stock_name": "HNI Corporation Common Stock",
+    "growth": 143.42,
+    "recent_price": 33.38999938964844,
+    "price_growth": "-17.69",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "ELME",
+    "stock_name": "Elme Communities Common Stock",
+    "growth": 138.24,
+    "recent_price": 2.009999990463257,
+    "price_growth": "-86.62",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "AESI",
+    "stock_name": "Atlas Energy Solutions Inc. Common Stock",
+    "growth": 133.27,
+    "recent_price": 13.119999885559082,
+    "price_growth": "-1.26",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "NOA",
+    "stock_name": "North American Construction Group Ltd. Common Shares (no par)",
+    "growth": 129.61,
+    "recent_price": 13.479999542236328,
+    "price_growth": "-2.75",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "TPL",
+    "stock_name": "Texas Pacific Land Corporation Common Stock",
+    "growth": 121.88,
+    "recent_price": 474.55999755859375,
+    "price_growth": "-58.74",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "RITM",
+    "stock_name": "Rithm Capital Corp. Common Stock",
+    "growth": 116.98,
+    "recent_price": 9.479999542236328,
+    "price_growth": "-1.20",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "SXC",
+    "stock_name": "SunCoke Energy, Inc. Common Stock",
+    "growth": 112.07,
+    "recent_price": 6.510000228881836,
+    "price_growth": "-19.15",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "IRT",
+    "stock_name": "Independence Realty Trust, Inc. Common Stock",
+    "growth": 111.04,
+    "recent_price": 14.890000343322754,
+    "price_growth": "-16.67",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "KKR",
+    "stock_name": "KKR & Co. Inc. Common Stock",
+    "growth": 104.55,
+    "recent_price": 92.5,
+    "price_growth": "-4.89",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "HTCR",
+    "stock_name": "Heartcore Enterprises, Inc. - Common Stock",
+    "growth": 102.04,
+    "recent_price": 0.2240000069141388,
+    "price_growth": "-63.87",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "HUM",
+    "stock_name": "Humana Inc. Common Stock",
+    "growth": 95.36,
+    "recent_price": 173.38999938964844,
+    "price_growth": "-31.44",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "CLMB",
+    "stock_name": "Climb Global Solutions, Inc. - Common Stock",
+    "growth": 93.66,
+    "recent_price": 19.81999969482422,
+    "price_growth": "-79.69",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "TKLF",
+    "stock_name": "Tokyo Lifestyle Co., Ltd. - American Depositary Shares",
+    "growth": 92.86,
+    "recent_price": 2.128999948501587,
+    "price_growth": "-29.50",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "ELME",
+    "stock_name": "Elme Communities Common Stock",
+    "growth": 92.45,
+    "recent_price": 2.009999990463257,
+    "price_growth": "-86.62",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "AESI",
+    "stock_name": "Atlas Energy Solutions Inc. Common Stock",
+    "growth": 88.32,
+    "recent_price": 13.119999885559082,
+    "price_growth": "-1.26",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "IH",
+    "stock_name": "iHuman Inc. American depositary shares, each representing five Class A ordinary shares",
+    "growth": 86.96,
+    "recent_price": 1.7050000429153442,
+    "price_growth": "-1.23",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "MGPI",
+    "stock_name": "MGP Ingredients, Inc. - Common Stock",
+    "growth": 86.67,
+    "recent_price": 18.389999389648438,
+    "price_growth": "-31.37",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "EXPI",
+    "stock_name": "eXp World Holdings, Inc. - Common Stock",
+    "growth": 85.44,
+    "recent_price": 5.989999771118164,
+    "price_growth": "-34.38",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "EVTC",
+    "stock_name": "Evertec, Inc. Common Stock",
+    "growth": 85.19,
+    "recent_price": 28.219999313354492,
+    "price_growth": "-13.72",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "RC",
+    "stock_name": "Ready Capital Corporation Common Stock",
+    "growth": 83.02,
+    "recent_price": 1.6200000047683716,
+    "price_growth": "-62.54",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "CCOI",
+    "stock_name": "Cogent Communications Holdings, Inc. - Common Stock",
+    "growth": 80.95,
+    "recent_price": 18.84000015258789,
+    "price_growth": "-62.85",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "SMA",
+    "stock_name": "SmartStop Self Storage REIT, Inc. Common Stock",
+    "growth": 78.57,
+    "recent_price": 30.280000686645508,
+    "price_growth": "-3.84",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "SMA",
+    "stock_name": "SmartStop Self Storage REIT, Inc. Common Stock",
+    "growth": 78.57,
+    "recent_price": 30.280000686645508,
+    "price_growth": "-3.84",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "MGPI",
+    "stock_name": "MGP Ingredients, Inc. - Common Stock",
+    "growth": 77.13,
+    "recent_price": 18.389999389648438,
+    "price_growth": "-31.37",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "CCOI",
+    "stock_name": "Cogent Communications Holdings, Inc. - Common Stock",
+    "growth": 76.6,
+    "recent_price": 18.84000015258789,
+    "price_growth": "-62.85",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "HQI",
+    "stock_name": "HireQuest, Inc. - Common Stock",
+    "growth": 75,
+    "recent_price": 9.979999542236328,
+    "price_growth": "-6.54",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "YMM",
+    "stock_name": "Full Truck Alliance Co. Ltd. American Depositary Shares (each representing 20 Class A Ordinary Shares)",
+    "growth": 74.99,
+    "recent_price": 8.300000190734863,
+    "price_growth": "-21.03",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "SPGI",
+    "stock_name": "S&P Global Inc. Common Stock",
+    "growth": 74.84,
+    "recent_price": 425.3399963378906,
+    "price_growth": "-2.61",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "WSC",
+    "stock_name": "WillScot Holdings Corporation - Class A Common Stock",
+    "growth": 72,
+    "recent_price": 17.360000610351562,
+    "price_growth": "-27.24",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "IP",
+    "stock_name": "International Paper Company Common Stock",
+    "growth": 69.19,
+    "recent_price": 35.70000076293945,
+    "price_growth": "-22.13",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "RITM",
+    "stock_name": "Rithm Capital Corp. Common Stock",
+    "growth": 67.32,
+    "recent_price": 9.479999542236328,
+    "price_growth": "-1.20",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "DOMH",
+    "stock_name": "Dominari Holdings Inc. - Common Stock",
+    "growth": 66.67,
+    "recent_price": 3.25,
+    "price_growth": "-5.23",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "TPG",
+    "stock_name": "TPG Inc. - Class A Common Stock",
+    "growth": 66.67,
+    "recent_price": 40.5099983215332,
+    "price_growth": "-0.92",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "RKT",
+    "stock_name": "Rocket Companies, Inc. Class A Common Stock",
+    "growth": 65.49,
+    "recent_price": 14.25,
+    "price_growth": "-2.80",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "OTEX",
+    "stock_name": "Open Text Corporation - Common Shares",
+    "growth": 62.84,
+    "recent_price": 22.239999771118164,
+    "price_growth": "-1.76",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "VIOT",
+    "stock_name": "Viomi Technology Co., Ltd - American Depositary Shares",
+    "growth": 61.26,
+    "recent_price": 1.1100000143051147,
+    "price_growth": "-16.61",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "OWL",
+    "stock_name": "Blue Owl Capital Inc. Class A Common Stock",
+    "growth": 60.58,
+    "recent_price": 9.130000114440918,
+    "price_growth": "-43.09",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "DOMH",
+    "stock_name": "Dominari Holdings Inc. - Common Stock",
+    "growth": 60,
+    "recent_price": 3.25,
+    "price_growth": "-5.23",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "NOMD",
+    "stock_name": "Nomad Foods Limited Ordinary Shares",
+    "growth": 59.33,
+    "recent_price": 9.609999656677246,
+    "price_growth": "-47.93",
+    "basis_date": "2026-03-31"
+  }
 ]

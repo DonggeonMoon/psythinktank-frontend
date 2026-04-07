@@ -1,52 +1,402 @@
 [
-  { "symbol": "7203", "stock_name": "토요타 자동차", "growth": 13.5, "recent_price": 3505.5, "price_growth": -4.2, "basis_date": "2026-04-07" },
-  { "symbol": "6758", "stock_name": "소니 그룹", "growth": 11.2, "recent_price": 13200.0, "price_growth": -5.8, "basis_date": "2026-04-07" },
-  { "symbol": "8035", "stock_name": "도쿄 일렉트론", "growth": 28.5, "recent_price": 38500.0, "price_growth": -2.1, "basis_date": "2026-04-07" },
-  { "symbol": "9984", "stock_name": "소프트뱅크 그룹", "growth": 15.8, "recent_price": 8850.2, "price_growth": -1.5, "basis_date": "2026-04-07" },
-  { "symbol": "6857", "stock_name": "아드반테스트", "growth": 32.1, "recent_price": 6500.4, "price_growth": -6.2, "basis_date": "2026-04-07" },
-  { "symbol": "4063", "stock_name": "신에츠 화학", "growth": 14.7, "recent_price": 6200.5, "price_growth": -3.8, "basis_date": "2026-04-07" },
-  { "symbol": "6098", "stock_name": "리크루트 홀딩스", "growth": 18.2, "recent_price": 7200.0, "price_growth": -4.5, "basis_date": "2026-04-07" },
-  { "symbol": "6367", "stock_name": "다이킨 공업", "growth": 12.5, "recent_price": 22500.0, "price_growth": -8.1, "basis_date": "2026-04-07" },
-  { "symbol": "7741", "stock_name": "호야", "growth": 16.4, "recent_price": 18500.0, "price_growth": -2.7, "basis_date": "2026-04-07" },
-  { "symbol": "4519", "stock_name": "쥬가이 제약", "growth": 20.1, "recent_price": 5800.2, "price_growth": -3.2, "basis_date": "2026-04-07" },
-  { "symbol": "6981", "stock_name": "무라타 제작소", "growth": 11.8, "recent_price": 2850.5, "price_growth": -9.4, "basis_date": "2026-04-07" },
-  { "symbol": "6501", "stock_name": "히타치", "growth": 14.2, "recent_price": 14500.0, "price_growth": -2.0, "basis_date": "2026-04-07" },
-  { "symbol": "8001", "stock_name": "이토츄 상사", "growth": 10.5, "recent_price": 6800.4, "price_growth": -4.1, "basis_date": "2026-04-07" },
-  { "symbol": "8058", "stock_name": "미쓰비시 상사", "growth": 11.4, "recent_price": 3200.5, "price_growth": -5.3, "basis_date": "2026-04-07" },
-  { "symbol": "8306", "stock_name": "미쓰비시 UFJ", "growth": 10.1, "recent_price": 1550.2, "price_growth": -1.8, "basis_date": "2026-04-07" },
-  { "symbol": "8316", "stock_name": "미쓰이스미토모", "growth": 10.3, "recent_price": 8800.5, "price_growth": -2.4, "basis_date": "2026-04-07" },
-  { "symbol": "9432", "stock_name": "NTT", "growth": 10.2, "recent_price": 175.4, "price_growth": -1.1, "basis_date": "2026-04-07" },
-  { "symbol": "9433", "stock_name": "KDDI", "growth": 10.4, "recent_price": 4500.0, "price_growth": -3.5, "basis_date": "2026-04-07" },
-  { "symbol": "7974", "stock_name": "닌텐도", "growth": 13.8, "recent_price": 8200.5, "price_growth": -4.8, "basis_date": "2026-04-07" },
-  { "symbol": "4568", "stock_name": "다이이찌산쿄", "growth": 22.4, "recent_price": 5500.2, "price_growth": -2.9, "basis_date": "2026-04-07" },
-  { "symbol": "6902", "stock_name": "덴소", "growth": 12.7, "recent_price": 2850.4, "price_growth": -6.1, "basis_date": "2026-04-07" },
-  { "symbol": "6146", "stock_name": "디스코", "growth": 45.2, "recent_price": 55000.0, "price_growth": -1.5, "basis_date": "2026-04-07" },
-  { "symbol": "6594", "stock_name": "니덱 (일본전산)", "growth": 19.4, "recent_price": 6800.2, "price_growth": -15.4, "basis_date": "2026-04-07" },
-  { "symbol": "4661", "stock_name": "오리엔탈랜드", "growth": 11.5, "recent_price": 4800.5, "price_growth": -8.2, "basis_date": "2026-04-07" },
-  { "symbol": "6723", "stock_name": "르네사스", "growth": 25.4, "recent_price": 2500.4, "price_growth": -10.5, "basis_date": "2026-04-07" },
-  { "symbol": "6954", "stock_name": "화낙", "growth": 10.8, "recent_price": 4200.2, "price_growth": -12.1, "basis_date": "2026-04-07" },
-  { "symbol": "4901", "stock_name": "후지필름", "growth": 12.4, "recent_price": 3200.5, "price_growth": -3.1, "basis_date": "2026-04-07" },
-  { "symbol": "7733", "stock_name": "올림푸스", "growth": 14.5, "recent_price": 2100.4, "price_growth": -5.4, "basis_date": "2026-04-07" },
-  { "symbol": "8053", "stock_name": "스미토모 상사", "growth": 11.2, "recent_price": 3800.5, "price_growth": -4.6, "basis_date": "2026-04-07" },
-  { "symbol": "8031", "stock_name": "미쓰이 물산", "growth": 12.1, "recent_price": 7200.2, "price_growth": -2.8, "basis_date": "2026-04-07" },
-  { "symbol": "9101", "stock_name": "일본우선 (NYK)", "growth": 10.4, "recent_price": 4500.4, "price_growth": -18.2, "basis_date": "2026-04-07" },
-  { "symbol": "9104", "stock_name": "상선미쓰이 (MOL)", "growth": 10.2, "recent_price": 4800.5, "price_growth": -16.5, "basis_date": "2026-04-07" },
-  { "symbol": "6301", "stock_name": "고마쓰 제작소", "growth": 13.4, "recent_price": 4500.2, "price_growth": -5.1, "basis_date": "2026-04-07" },
-  { "symbol": "7267", "stock_name": "혼다", "growth": 11.5, "recent_price": 1850.4, "price_growth": -4.2, "basis_date": "2026-04-07" },
-  { "symbol": "4502", "stock_name": "다케다 제약", "growth": 10.1, "recent_price": 4200.5, "price_growth": -6.8, "basis_date": "2026-04-07" },
-  { "symbol": "8801", "stock_name": "미쓰이 부동산", "growth": 12.8, "recent_price": 1550.2, "price_growth": -3.4, "basis_date": "2026-04-07" },
-  { "symbol": "8802", "stock_name": "미쓰비시 지쇼", "growth": 11.4, "recent_price": 2800.5, "price_growth": -4.1, "basis_date": "2026-04-07" },
-  { "symbol": "2802", "stock_name": "아지노모토", "growth": 15.2, "recent_price": 5800.4, "price_growth": -2.7, "basis_date": "2026-04-07" },
-  { "symbol": "4452", "stock_name": "카오", "growth": 10.3, "recent_price": 6200.5, "price_growth": -12.4, "basis_date": "2026-04-07" },
-  { "symbol": "7269", "stock_name": "스즈키", "growth": 13.4, "recent_price": 1850.2, "price_growth": -5.5, "basis_date": "2026-04-07" },
-  { "symbol": "9020", "stock_name": "JR 동일본", "growth": 10.5, "recent_price": 2850.4, "price_growth": -3.1, "basis_date": "2026-04-07" },
-  { "symbol": "9022", "stock_name": "JR 도카이", "growth": 10.8, "recent_price": 3850.5, "price_growth": -2.4, "basis_date": "2026-04-07" },
-  { "symbol": "9201", "stock_name": "일본항공 (JAL)", "growth": 12.1, "recent_price": 2850.2, "price_growth": -8.5, "basis_date": "2026-04-07" },
-  { "symbol": "9202", "stock_name": "ANA 홀딩스", "growth": 11.4, "recent_price": 3200.5, "price_growth": -7.2, "basis_date": "2026-04-07" },
-  { "symbol": "2413", "stock_name": "엠쓰리 (M3)", "growth": 18.5, "recent_price": 2100.4, "price_growth": -35.2, "basis_date": "2026-04-07" },
-  { "symbol": "4385", "stock_name": "메르카리", "growth": 25.4, "recent_price": 2200.5, "price_growth": -22.1, "basis_date": "2026-04-07" },
-  { "symbol": "4755", "stock_name": "라쿠텐 그룹", "growth": 14.2, "recent_price": 850.2, "price_growth": -15.4, "basis_date": "2026-04-07" },
-  { "symbol": "3632", "stock_name": "그리 (GREE)", "growth": 12.4, "recent_price": 550.4, "price_growth": -20.1, "basis_date": "2026-04-07" },
-  { "symbol": "2121", "stock_name": "믹시", "growth": 11.5, "recent_price": 2500.2, "price_growth": -12.5, "basis_date": "2026-04-07" },
-  { "symbol": "3659", "stock_name": "넥슨", "growth": 16.8, "recent_price": 2850.5, "price_growth": -4.2, "basis_date": "2026-04-07" }
+  {
+    "symbol": "3907",
+    "stock_name": null,
+    "growth": 542.35,
+    "recent_price": 671,
+    "price_growth": "-1.32",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "4784",
+    "stock_name": null,
+    "growth": 303.09,
+    "recent_price": 690,
+    "price_growth": "-59.01",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "8273",
+    "stock_name": null,
+    "growth": 248.65,
+    "recent_price": 1037,
+    "price_growth": "-65.04",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "4431",
+    "stock_name": null,
+    "growth": 218.18,
+    "recent_price": 2176,
+    "price_growth": "-9.95",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "3979",
+    "stock_name": null,
+    "growth": 200,
+    "recent_price": 363,
+    "price_growth": "-3.20",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "3760",
+    "stock_name": null,
+    "growth": 193.55,
+    "recent_price": 639,
+    "price_growth": "-16.16",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "3261",
+    "stock_name": null,
+    "growth": 188.24,
+    "recent_price": 467,
+    "price_growth": "-48.74",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "3970",
+    "stock_name": null,
+    "growth": 150.96,
+    "recent_price": 907,
+    "price_growth": "-9.30",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "2931",
+    "stock_name": null,
+    "growth": 147.34,
+    "recent_price": 401,
+    "price_growth": "-1.72",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "7181",
+    "stock_name": null,
+    "growth": 142.83,
+    "recent_price": 1575,
+    "price_growth": "-37.13",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "3187",
+    "stock_name": null,
+    "growth": 138,
+    "recent_price": 258,
+    "price_growth": "-7.35",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "7095",
+    "stock_name": null,
+    "growth": 125.76,
+    "recent_price": 1255,
+    "price_growth": "-43.49",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "3962",
+    "stock_name": null,
+    "growth": 125.05,
+    "recent_price": 930,
+    "price_growth": "-6.91",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "4772",
+    "stock_name": null,
+    "growth": 122.22,
+    "recent_price": 88,
+    "price_growth": "-6.38",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "7352",
+    "stock_name": null,
+    "growth": 119.05,
+    "recent_price": 531,
+    "price_growth": "-28.20",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "2929",
+    "stock_name": null,
+    "growth": 112.97,
+    "recent_price": 665,
+    "price_growth": "-6.68",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "4431",
+    "stock_name": null,
+    "growth": 107.14,
+    "recent_price": 2176,
+    "price_growth": "-9.95",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "6560",
+    "stock_name": null,
+    "growth": 94.16,
+    "recent_price": 1632,
+    "price_growth": "-2.04",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "7033",
+    "stock_name": null,
+    "growth": 92.65,
+    "recent_price": 1266,
+    "price_growth": "-8.53",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "3187",
+    "stock_name": null,
+    "growth": 92.31,
+    "recent_price": 258,
+    "price_growth": "-7.35",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "8473",
+    "stock_name": null,
+    "growth": 89.99,
+    "recent_price": 2849,
+    "price_growth": "-9.93",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "3922",
+    "stock_name": null,
+    "growth": 86.67,
+    "recent_price": 2035,
+    "price_growth": "-3.96",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "4449",
+    "stock_name": null,
+    "growth": 85.13,
+    "recent_price": 1094,
+    "price_growth": "-7.68",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "4413",
+    "stock_name": null,
+    "growth": 84.5,
+    "recent_price": 1835,
+    "price_growth": "-7.44",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "7033",
+    "stock_name": null,
+    "growth": 76.94,
+    "recent_price": 1266,
+    "price_growth": "-8.53",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "9552",
+    "stock_name": null,
+    "growth": 76.74,
+    "recent_price": 584,
+    "price_growth": "-37.07",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "2929",
+    "stock_name": null,
+    "growth": 74.4,
+    "recent_price": 665,
+    "price_growth": "-6.68",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "3825",
+    "stock_name": null,
+    "growth": 74.15,
+    "recent_price": 221,
+    "price_growth": "-32.62",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "2146",
+    "stock_name": null,
+    "growth": 73.7,
+    "recent_price": 194,
+    "price_growth": "-87.26",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "4936",
+    "stock_name": null,
+    "growth": 72.16,
+    "recent_price": 336,
+    "price_growth": "-8.23",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "3922",
+    "stock_name": null,
+    "growth": 72.15,
+    "recent_price": 2035,
+    "price_growth": "-3.96",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "2497",
+    "stock_name": null,
+    "growth": 68.21,
+    "recent_price": 504,
+    "price_growth": "-17.68",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "3922",
+    "stock_name": null,
+    "growth": 68.09,
+    "recent_price": 2035,
+    "price_growth": "-3.96",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "4689",
+    "stock_name": null,
+    "growth": 59.03,
+    "recent_price": 382.70001220703125,
+    "price_growth": "-19.18",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "4058",
+    "stock_name": null,
+    "growth": 58.9,
+    "recent_price": 1620,
+    "price_growth": "-19.68",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "6196",
+    "stock_name": null,
+    "growth": 58.67,
+    "recent_price": 1354,
+    "price_growth": "-42.07",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "9345",
+    "stock_name": null,
+    "growth": 58.59,
+    "recent_price": 620,
+    "price_growth": "-30.61",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "7033",
+    "stock_name": null,
+    "growth": 57.71,
+    "recent_price": 1266,
+    "price_growth": "-8.53",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "6196",
+    "stock_name": null,
+    "growth": 57.14,
+    "recent_price": 1354,
+    "price_growth": "-42.07",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "5535",
+    "stock_name": null,
+    "growth": 56.2,
+    "recent_price": 315,
+    "price_growth": "-63.66",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "4449",
+    "stock_name": null,
+    "growth": 53.28,
+    "recent_price": 1094,
+    "price_growth": "-7.68",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "9552",
+    "stock_name": null,
+    "growth": 51.32,
+    "recent_price": 584,
+    "price_growth": "-37.07",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "4019",
+    "stock_name": null,
+    "growth": 47.76,
+    "recent_price": 600,
+    "price_growth": "-17.36",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "3695",
+    "stock_name": null,
+    "growth": 47.41,
+    "recent_price": 1657,
+    "price_growth": "-34.27",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "6560",
+    "stock_name": null,
+    "growth": 46.33,
+    "recent_price": 1632,
+    "price_growth": "-2.04",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "2670",
+    "stock_name": null,
+    "growth": 44.94,
+    "recent_price": 2525.5,
+    "price_growth": "-2.69",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "3962",
+    "stock_name": null,
+    "growth": 44.82,
+    "recent_price": 930,
+    "price_growth": "-6.91",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "4449",
+    "stock_name": null,
+    "growth": 44.21,
+    "recent_price": 1094,
+    "price_growth": "-7.68",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "6050",
+    "stock_name": null,
+    "growth": 44.06,
+    "recent_price": 1654,
+    "price_growth": "-5.26",
+    "basis_date": "2026-03-31"
+  },
+  {
+    "symbol": "7095",
+    "stock_name": null,
+    "growth": 43.48,
+    "recent_price": 1255,
+    "price_growth": "-43.49",
+    "basis_date": "2026-03-31"
+  }
 ]
