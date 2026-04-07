@@ -11,7 +11,7 @@ const Header = () => {
 
                 <div className="flex">
                     <Link
-                        to="/under-construction"
+                        to="/"
                         className="text-base font-semibold text-slate-800 dark:text-slate-200"
                     >
                         PSY Thinktank
@@ -19,31 +19,31 @@ const Header = () => {
 
                     <nav className="flex mx-6 items-center gap-6">
                         <Link
-                            to="/under-construction/stocks"
+                            to="/stocks"
                             className="hover:text-slate-900 dark:hover:text-white transition-colors"
                         >
                             종목
                         </Link>
                         <Link
-                            to="/under-construction/boards"
+                            to="/boards"
                             className="hover:text-slate-900 dark:hover:text-white transition-colors"
                         >
                             게시판
                         </Link>
                         <Link
-                            to="/under-construction/newsletters"
+                            to="/newsletters"
                             className="hover:text-slate-900 dark:hover:text-white transition-colors"
                         >
                             회보
                         </Link>
                         <Link
-                            to="/under-construction/performance"
+                            to="/performance"
                             className="hover:text-slate-900 dark:hover:text-white transition-colors"
                         >
                             성과
                         </Link>
                         <Link
-                            to="/under-construction/about"
+                            to="/about"
                             className="hover:text-slate-900 dark:hover:text-white transition-colors"
                         >
                             소개
