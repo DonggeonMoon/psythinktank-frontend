@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]  # main에 푸시될 때 실행
   schedule:
-    - cron: '0 0 * * *' # 매일 자정에 자동으로 실행 (선택 사항)
+    - cron: '0 15 * * *' # 매일 자정(KST 00:00에 자동으로 실행 
 
 permissions:
   contents: write
