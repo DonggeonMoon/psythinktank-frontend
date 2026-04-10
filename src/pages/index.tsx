@@ -9,6 +9,7 @@ export const query = graphql`
     korea: allStocksKoreaJson(sort: { growth: DESC }) {
       nodes {
         symbol
+        market
         stock_name
         growth
         dividend
@@ -20,6 +21,7 @@ export const query = graphql`
     usa: allStocksUsaJson(sort: { growth: DESC }) {
       nodes {
         symbol
+        market
         stock_name
         growth
         dividend
@@ -31,6 +33,7 @@ export const query = graphql`
     japan: allStocksJapanJson(sort: { growth: DESC }) {
       nodes {
         symbol
+        market
         stock_name
         growth
         dividend
@@ -44,6 +47,7 @@ export const query = graphql`
 
 interface StockNode {
     symbol: string;
+    market: string;
     stock_name: string;
     growth: number;
     dividend: number;
@@ -149,10 +153,20 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                             {index + 1}
                                         </div>
                                         <div className="col-span-3 flex flex-col gap-0.5">
-                                            <span
-                                                className="font-bold text-slate-900 dark:text-slate-100">{stock.stock_name}</span>
-                                            <span
-                                                className="text-xs text-slate-400 font-mono tracking-tighter">{stock.symbol}</span>
+                                            <span className="font-bold text-slate-900 dark:text-slate-100">
+                                                {stock.stock_name}
+                                            </span>
+                                            <div className="flex items-center gap-1.5">
+                                                <span className="text-xs text-slate-400 font-mono tracking-tighter">
+                                                    {stock.symbol}
+                                                </span>
+                                                <span
+                                                    className="h-2 w-[1px] bg-slate-200 dark:bg-slate-700"/> {/* 구분선 */}
+                                                <span
+                                                    className="text-[10px] font-bold uppercase text-slate-400 dark:text-slate-500">
+                                                    {stock.market}
+                                                </span>
+                                            </div>
                                         </div>
                                         <div
                                             className="col-span-2 text-right font-black text-emerald-600 dark:text-emerald-500">
