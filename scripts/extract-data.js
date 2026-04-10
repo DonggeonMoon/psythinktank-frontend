@@ -31,7 +31,8 @@ async function fetchData(client, country, criteria) {
     const query = {
         text: `
             SELECT
-                e.symbol,
+                s.symbol,
+                s.market,
                 s.local_name as stock_name,
                 e.growth,
                 d.value as dividend,
