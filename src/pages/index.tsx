@@ -89,7 +89,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                         <div className="space-y-2">
                             <div className="flex items-center gap-3">
                                 <h2 className="text-3xl font-bold text-slate-700 dark:text-slate-300">
-                                    성장성 Top 50
+                                    성장성 Top 100
                                 </h2>
                             </div>
                             <p className="text-sm text-slate-500 dark:text-slate-400">
