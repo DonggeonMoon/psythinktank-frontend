@@ -37,15 +37,17 @@ service cloud.firestore {
                     && request.resource.data.authorUid == request.auth.uid
                     && (request.resource.data.notice == false || isStaff());
 
-      // 조회수 증가만은 누구나(비로그인 포함) 허용. 작성자 본인은 제목/내용/카테고리만
-      // 수정 가능하고 authorUid/authorName/notice는 건드릴 수 없음(자기 글을 공지로
-      // 자체 승격하거나 작성자를 바꿔치기하는 것 방지). 그 필드들은 운영진만 변경 가능.
+      // 조회수는 누구나(비로그인 포함) +1씩만 증가 가능(임의 값 지정 방지).
+      // 작성자 본인은 제목/내용/카테고리만 수정 가능하고 authorUid/authorName/notice는
+      // 건드릴 수 없음(자기 글을 공지로 자체 승격하거나 작성자를 바꿔치기하는 것 방지).
+      // 그 필드들은 운영진만 변경 가능.
       allow update: if (isPostAuthor()
                           && request.resource.data.authorUid == resource.data.authorUid
                           && request.resource.data.authorName == resource.data.authorName
                           && request.resource.data.notice == resource.data.notice)
                     || isStaff()
-                    || request.resource.data.diff(resource.data).affectedKeys().hasOnly(["views"]);
+                    || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(["views"])
+                          && request.resource.data.views == resource.data.views + 1);
 
       allow delete: if isPostAuthor() || isStaff();
     }
