@@ -4,14 +4,20 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import {useEffect, useMemo, useState} from "react";
 import Ticker from "../../components/Ticker";
-
-type DataPoint = { label: string; y: number }
-type YearPerformance = {
-    year: number
-    title: string
-    note: string
-    dataPoints: DataPoint[]
-}
+import {
+    addDoc,
+    collection,
+    deleteDoc,
+    doc,
+    getDocs,
+    orderBy,
+    query,
+    serverTimestamp,
+    updateDoc,
+} from "firebase/firestore";
+import {db} from "../../firebase/client";
+import {useAuth} from "../../contexts/AuthContext";
+import {isStaffRole} from "../../lib/roles";
 
 declare global {
     interface Window {
@@ -19,109 +25,84 @@ declare global {
     }
 }
 
+interface PerformanceEntry {
+    id: string;
+    year: number;
+    stockName: string;
+    returnRate: number;
+}
+
+interface YearGroup {
+    year: number;
+    dataPoints: { label: string; y: number }[];
+}
+
+const inputClass =
+    "rounded-md border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:focus:ring-slate-700";
+
 const PerformancePage: React.FC<PageProps> = () => {
-    const [isDark, setIsDark] = useState(false)
+    const {profile} = useAuth();
+    const canManage = isStaffRole(profile?.role);
+
+    const [isDark, setIsDark] = useState(false);
+    useEffect(() => {
+        const updateIsDark = () => setIsDark(document.documentElement.classList.contains("dark"));
+        updateIsDark();
+
+        const observer = new MutationObserver(updateIsDark);
+        observer.observe(document.documentElement, {attributes: true, attributeFilter: ["class"]});
+        return () => observer.disconnect();
+    }, []);
+
+    const [entries, setEntries] = useState<PerformanceEntry[]>([]);
+    const [loading, setLoading] = useState(true);
+
+    const [formYear, setFormYear] = useState("");
+    const [formStock, setFormStock] = useState("");
+    const [formRate, setFormRate] = useState("");
+    const [editingId, setEditingId] = useState<string | null>(null);
+    const [submitting, setSubmitting] = useState(false);
+
+    const loadEntries = async () => {
+        if (!db) return;
+        const snapshot = await getDocs(query(collection(db, "performance"), orderBy("year", "asc")));
+        setEntries(
+            snapshot.docs.map((d) => {
+                const data = d.data();
+                return {
+                    id: d.id,
+                    year: data.year,
+                    stockName: data.stockName,
+                    returnRate: data.returnRate,
+                };
+            })
+        );
+        setLoading(false);
+    };
 
     useEffect(() => {
-        const saved = localStorage.getItem("theme")
-        if (saved === "dark") {
-            document.documentElement.classList.add("dark")
-            setIsDark(true)
-        }
-    }, [])
+        loadEntries();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
-    const datasets: YearPerformance[] = useMemo(
-        () => [
-            {
-                year: 2019,
-                title: "2019 년 PSY THINKTANK 수익률(%)",
-                fontColor: isDark ? "#ffffff" : "#0f172a",
-                note: "2019년 추천주식 모두 차익실현 완료",
-                dataPoints: [
-                    { label: "일지테크", y: 70 },
-                    { label: "ISC", y: 27 },
-                    { label: "화신", y: 34 },
-                    { label: "GH신소재", y: 51 },
-                    { label: "HDC아이콘트롤스", y: 56 },
-                    { label: "코스맥스엔비티", y: 28 },
-                ],
-            },
-            {
-                year: 2020,
-                title: "2020 년 PSY THINKTANK 수익률(%)",
-                fontColor: isDark ? "#ffffff" : "#0f172a",
-                note: "2020년 추천주식 모두 차익실현 완료",
-                dataPoints: [
-                    { label: "동우팜투테이블", y: 31.47 },
-                    { label: "새로닉스", y: 70 },
-                    { label: "한세실업", y: 54 },
-                    { label: "한국토지신탁", y: 30 },
-                    { label: "티에이치엔", y: 71.63 },
-                    { label: "인터엠", y: 36.78 },
-                    { label: "레이언스", y: 23.88 },
-                    { label: "CJ프레시웨이", y: 86.43 },
-                ],
-            },
-            {
-                year: 2021,
-                title: "2021 년 PSY THINKTANK 수익률(%)",
-                fontColor: isDark ? "#ffffff" : "#0f172a",
-                note: "현재 4종목 보유중",
-                dataPoints: [
-                    { label: "코스맥스비티아이[보유중]", y: 0 },
-                    { label: "알리코제약[보유중]", y: 0 },
-                    { label: "남화토건", y: 48.22 },
-                    { label: "KCI[보유중]", y: 0 },
-                    { label: "우리넷[보유중]", y: 0 },
-                    { label: "메카로", y: 22.34 },
-                    { label: "브이원텍", y: 48.92 },
-                    { label: "화성산업", y: 31.65 },
-                ],
-            },
-            {
-                year: 2022,
-                title: "2022 년 PSY THINKTANK 수익률(%)",
-                fontColor: isDark ? "#ffffff" : "#0f172a",
-                note: "현재 4종목 보유중",
-                dataPoints: [
-                    { label: "유신", y: 32.28 },
-                    { label: "휴메딕스", y: 29.4 },
-                    { label: "현대퓨처넷", y: 29.6 },
-                    { label: "휴네시온[보유중]", y: 0 },
-                    { label: "브이원텍", y: 31.55 },
-                    { label: "SGC에너지[보유중]", y: 0 },
-                    { label: "코웰패션", y: 50.42 },
-                    { label: "세이브존I&C[보유중]", y: 0 },
-                ],
-            },
-            {
-                year: 2023,
-                title: "2023 년 PSY THINKTANK 수익률(%)",
-                fontColor: isDark ? "#ffffff" : "#0f172a",
-                note: "현재 3종목 보유중",
-                dataPoints: [
-                    { label: "사람인에이치알[보유중]", y: 0 },
-                    { label: "CJ대한통운", y: 53.22 },
-                    { label: "대상[보유중]", y: 0 },
-                    { label: "모나리자[보유중]", y: 0 },
-                    { label: "헥토파이낸셜", y: 33.57 },
-                ],
-            },
-            {
-                year: 2024,
-                title: "2024 년 PSY THINKTANK 수익률(%)",
-                fontColor: isDark ? "#ffffff" : "#0f172a",
-                note: "현재 4종목 보유중",
-                dataPoints: [
-                    { label: "톱텍[보유중]", y: 0 },
-                    { label: "엠투아이[보유중]", y: 0 },
-                    { label: "회원공개[보유중]", y: 0 },
-                    { label: "회원공개[보유중]", y: 0 },
-                ],
-            },
-        ],
-        []
-    )
+    const yearGroups: YearGroup[] = useMemo(() => {
+        const byYear = new Map<number, PerformanceEntry[]>();
+        entries.forEach((e) => {
+            const list = byYear.get(e.year) ?? [];
+            list.push(e);
+            byYear.set(e.year, list);
+        });
+
+        return Array.from(byYear.entries())
+            .sort(([a], [b]) => a - b)
+            .map(([year, list]) => ({
+                year,
+                dataPoints: list.map((e) => ({
+                    label: e.returnRate === 0 ? `${e.stockName}[보유중]` : e.stockName,
+                    y: e.returnRate,
+                })),
+            }));
+    }, [entries]);
 
     useEffect(() => {
         const scriptId = "canvasjs-cdn"
@@ -129,14 +110,25 @@ const PerformancePage: React.FC<PageProps> = () => {
         const renderAll = () => {
             if (!window.CanvasJS) return
 
-            datasets.forEach((d) => {
+            yearGroups.forEach((d) => {
                 const containerId = `chart-${d.year}`
+                if (!document.getElementById(containerId)) return
+
+                const textColor = isDark ? "#f1f5f9" : "#0f172a"
+
                 const chart = new window.CanvasJS.Chart(containerId, {
                     animationEnabled: true,
                     backgroundColor: "transparent",
                     title: {
-                        text: d.title,
+                        text: `${d.year} 년 PSY THINKTANK 수익률(%)`,
                         fontSize: 18,
+                        fontColor: textColor,
+                    },
+                    axisX: {
+                        labelFontSize: 12,
+                        labelFontColor: textColor,
+                        labelAngle: 0,
+                        labelWrap: true,
                     },
                     axisY: {
                         title: "%",
@@ -154,6 +146,15 @@ const PerformancePage: React.FC<PageProps> = () => {
                 })
 
                 chart.render()
+
+                const removeCredit = () => {
+                    document
+                        .querySelectorAll(`#${containerId} a[href*="canvasjs.com"]`)
+                        .forEach((el) => el.remove())
+                }
+                removeCredit()
+                requestAnimationFrame(removeCredit)
+                setTimeout(removeCredit, 300)
             })
         }
 
@@ -170,20 +171,73 @@ const PerformancePage: React.FC<PageProps> = () => {
         script.defer = true
         script.onload = renderAll
         document.body.appendChild(script)
-
-        return () => {
-            // 차트 라이브러리는 전역 로드라 굳이 제거 안 함
-        }
-    }, [datasets])
+    }, [yearGroups, isDark])
 
     const summary = useMemo(() => {
-        const all = datasets.flatMap((d) => d.dataPoints.map((p) => p.y))
-        const realized = all.filter((v) => v !== 0)
+        const realized = entries.map((e) => e.returnRate).filter((v) => v !== 0)
         const max = realized.length ? Math.max(...realized) : 0
         const avg = realized.length ? realized.reduce((a, b) => a + b, 0) / realized.length : 0
-        const countYears = datasets.length
-        return { max, avg, countYears }
-    }, [datasets])
+        return { max, avg }
+    }, [entries])
+
+    const resetForm = () => {
+        setFormYear("");
+        setFormStock("");
+        setFormRate("");
+        setEditingId(null);
+    };
+
+    const handleSubmit = async (e: React.FormEvent) => {
+        e.preventDefault();
+        if (!db) return;
+        if (!formYear) {
+            window.alert("연도를 입력해주세요.");
+            return;
+        }
+        if (!formStock.trim()) {
+            window.alert("종목명을 입력해주세요.");
+            return;
+        }
+
+        setSubmitting(true);
+        try {
+            const payload = {
+                year: Number(formYear),
+                stockName: formStock.trim(),
+                returnRate: formRate === "" ? 0 : Number(formRate),
+                updatedAt: serverTimestamp(),
+            };
+
+            if (editingId) {
+                await updateDoc(doc(db, "performance", editingId), payload);
+            } else {
+                await addDoc(collection(db, "performance"), {
+                    ...payload,
+                    createdAt: serverTimestamp(),
+                });
+            }
+            resetForm();
+            await loadEntries();
+        } finally {
+            setSubmitting(false);
+        }
+    };
+
+    const startEdit = (entry: PerformanceEntry) => {
+        setEditingId(entry.id);
+        setFormYear(String(entry.year));
+        setFormStock(entry.stockName);
+        setFormRate(String(entry.returnRate));
+    };
+
+    const handleDelete = async (id: string) => {
+        if (!db) return;
+        if (!window.confirm("이 항목을 삭제하시겠습니까?")) return;
+
+        await deleteDoc(doc(db, "performance", id));
+        if (editingId === id) resetForm();
+        await loadEntries();
+    };
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
@@ -203,7 +257,9 @@ const PerformancePage: React.FC<PageProps> = () => {
                     <div className="rounded-lg border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-900">
                         <div className="text-xs text-slate-500 dark:text-slate-400">기간</div>
                         <div className="mt-2 text-xl font-semibold text-slate-900 dark:text-slate-100">
-                            {datasets[0].year}-{datasets[datasets.length - 1].year}
+                            {yearGroups.length
+                                ? `${yearGroups[0].year}-${yearGroups[yearGroups.length - 1].year}`
+                                : "-"}
                         </div>
                     </div>
 
@@ -222,40 +278,135 @@ const PerformancePage: React.FC<PageProps> = () => {
                     </div>
                 </section>
 
-                <section className="space-y-6">
-                    {datasets.map((d) => (
-                        <div
-                            key={d.year}
-                            className="rounded-lg border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950 overflow-hidden"
-                        >
-                            <div className="relative border-b border-slate-200 dark:border-slate-800">
-                                <div className="px-6 py-4">
-                                    <div className="text-sm font-semibold text-slate-900 dark:text-slate-100">
-                                        {d.year}년
-                                    </div>
-                                    <div className="mt-1 text-sm text-slate-600 dark:text-slate-400">
-                                        {d.note}
-                                    </div>
-                                </div>
-                            </div>
+                {canManage && (
+                    <section className="space-y-4 rounded-xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-950">
+                        <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400">실적 데이터 관리</h2>
 
-                            <div className="relative px-4 py-4">
-                                <div
-                                    id={`chart-${d.year}`}
-                                    className="w-full"
-                                    style={{
-                                        height: 320,
-                                        maxWidth: 1200,
-                                        margin: "0 auto",
-                                    }}
+                        <form onSubmit={handleSubmit} className="flex flex-wrap items-end gap-2">
+                            <div>
+                                <label className="block text-xs text-slate-500 dark:text-slate-400 mb-1">연도</label>
+                                <input
+                                    type="number"
+                                    value={formYear}
+                                    onChange={(e) => setFormYear(e.target.value)}
+                                    className={`${inputClass} w-24`}
+                                    placeholder="2026"
                                 />
+                            </div>
+                            <div>
+                                <label className="block text-xs text-slate-500 dark:text-slate-400 mb-1">종목</label>
+                                <input
+                                    type="text"
+                                    value={formStock}
+                                    onChange={(e) => setFormStock(e.target.value)}
+                                    className={`${inputClass} w-40`}
+                                    placeholder="종목명"
+                                />
+                            </div>
+                            <div>
+                                <label className="block text-xs text-slate-500 dark:text-slate-400 mb-1">수익률(%)</label>
+                                <input
+                                    type="number"
+                                    step="0.01"
+                                    value={formRate}
+                                    onChange={(e) => setFormRate(e.target.value)}
+                                    className={`${inputClass} w-28`}
+                                    placeholder="0=보유중"
+                                />
+                            </div>
+                            <button
+                                type="submit"
+                                disabled={submitting}
+                                className="rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 disabled:opacity-50 dark:bg-slate-100 dark:text-slate-900 transition-colors"
+                            >
+                                {editingId ? "수정 저장" : "추가"}
+                            </button>
+                            {editingId && (
+                                <button
+                                    type="button"
+                                    onClick={resetForm}
+                                    className="rounded-md border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 dark:border-slate-700 dark:text-slate-300"
+                                >
+                                    취소
+                                </button>
+                            )}
+                        </form>
 
-                                <div className="pointer-events-none absolute left-6 top-6 rounded-md border border-slate-200 bg-white/90 px-3 py-2 text-xs text-slate-700 shadow-sm dark:border-slate-800 dark:bg-slate-950/90 dark:text-slate-300">
-                                    {d.note}
+                        <div className="overflow-x-auto">
+                            <table className="w-full text-sm">
+                                <thead>
+                                    <tr className="border-b border-slate-200 text-left text-xs text-slate-500 dark:border-slate-800 dark:text-slate-400">
+                                        <th className="py-2 pr-4">연도</th>
+                                        <th className="py-2 pr-4">종목</th>
+                                        <th className="py-2 pr-4">수익률</th>
+                                        <th className="py-2 pr-4 text-right">관리</th>
+                                    </tr>
+                                </thead>
+                                <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
+                                    {[...entries]
+                                        .sort((a, b) => b.year - a.year)
+                                        .map((entry) => (
+                                            <tr key={entry.id}>
+                                                <td className="py-2 pr-4 text-slate-700 dark:text-slate-300">{entry.year}</td>
+                                                <td className="py-2 pr-4 text-slate-700 dark:text-slate-300">{entry.stockName}</td>
+                                                <td className="py-2 pr-4 font-mono text-slate-700 dark:text-slate-300">{entry.returnRate}%</td>
+                                                <td className="py-2 pr-4 text-right">
+                                                    <button
+                                                        onClick={() => startEdit(entry)}
+                                                        className="mr-2 text-slate-500 hover:text-slate-900 dark:hover:text-white"
+                                                    >
+                                                        수정
+                                                    </button>
+                                                    <button
+                                                        onClick={() => handleDelete(entry.id)}
+                                                        className="text-red-500 hover:text-red-700"
+                                                    >
+                                                        삭제
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                )}
+
+                <section className="space-y-6">
+                    {loading ? (
+                        <p className="text-sm text-slate-400">불러오는 중...</p>
+                    ) : yearGroups.length === 0 ? (
+                        <p className="text-sm text-slate-400">등록된 성과 데이터가 없습니다.</p>
+                    ) : (
+                        yearGroups.map((d) => (
+                            <div
+                                key={d.year}
+                                className="rounded-lg border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950 overflow-hidden"
+                            >
+                                <div className="relative border-b border-slate-200 dark:border-slate-800">
+                                    <div className="px-6 py-4">
+                                        <div className="text-sm font-semibold text-slate-900 dark:text-slate-100">
+                                            {d.year}년
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="relative px-4 py-4">
+                                    <div className="relative" style={{maxWidth: 1200, margin: "0 auto"}}>
+                                        <div
+                                            id={`chart-${d.year}`}
+                                            className="w-full"
+                                            style={{height: 320}}
+                                        />
+                                        {/* CanvasJS 무료판 워터마크는 캔버스 픽셀에 직접 그려져서 DOM 제거가 안 먹혀 배경색 판으로 덮음 */}
+                                        <div
+                                            className="pointer-events-none absolute left-0 bottom-0 h-6 w-25 bg-white dark:bg-slate-950"
+                                        />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        ))
+                    )}
                 </section>
             </main>
 
