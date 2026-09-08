@@ -1,7 +1,7 @@
 import * as React from "react";
 import {useState} from "react";
 import type {HeadFC, PageProps} from "gatsby";
-import {navigate} from "gatsby";
+import {Link, navigate} from "gatsby";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import {useAuth} from "../contexts/AuthContext";
@@ -85,6 +85,13 @@ const LoginPage: React.FC<PageProps> = () => {
                     >
                         {submitting ? "로그인 중..." : "로그인"}
                     </button>
+
+                    <p className="text-center text-sm text-slate-500 dark:text-slate-400">
+                        계정이 없으신가요?{" "}
+                        <Link to="/signup" className="text-slate-900 dark:text-slate-100 hover:underline">
+                            회원가입
+                        </Link>
+                    </p>
                 </form>
             </main>
 
