@@ -131,7 +131,7 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                     },
                 },
                 plugins: {
-                    legend: {labels: {color: textColor}},
+                    legend: {display: false},
                 },
             },
         });
@@ -180,7 +180,7 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                         </div>
                         <div className="flex items-baseline gap-1">
                             <span className="text-3xl font-bold">
-                                {stock.recent_price != null ? stock.recent_price.toLocaleString() : "N/A"}
+                                {stock.recent_price != null ? stock.recent_price.toLocaleString() : "없음"}
                             </span>
                             {stock.recent_price != null && (
                                 <span className="text-slate-400 text-sm font-medium">{getCurrency(stock.market)}</span>
@@ -195,7 +195,7 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                 {stock.growth > 0 ? "▲" : stock.growth < 0 ? "▼" : ""} {Math.abs(stock.growth).toFixed(2)}%
                             </div>
                         ) : (
-                            <div className="text-3xl font-bold text-slate-300 dark:text-slate-700 font-mono">N/A</div>
+                            <div className="text-3xl font-bold text-slate-300 dark:text-slate-700 font-mono">없음</div>
                         )}
                     </div>
 
@@ -207,7 +207,7 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                 <span className="text-sm font-medium">{getCurrency(stock.market)}</span>
                             </div>
                         ) : (
-                            <div className="text-3xl font-bold text-slate-300 dark:text-slate-700 font-mono">N/A</div>
+                            <div className="text-3xl font-bold text-slate-300 dark:text-slate-700 font-mono">없음</div>
                         )}
                     </div>
                 </section>
