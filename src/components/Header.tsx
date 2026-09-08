@@ -1,8 +1,11 @@
 import * as React from "react";
 import {Link} from "gatsby";
 import DarkModeToggle from "./DarkModeToggle";
+import {useAuth} from "../contexts/AuthContext";
 
 const Header = () => {
+    const {user, profile, loading, logout} = useAuth();
+
     return (
         <header
             className="sticky top-0 z-50 border-b border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-950">
@@ -51,7 +54,35 @@ const Header = () => {
                     </nav>
                 </div>
 
-                <DarkModeToggle/>
+                <div className="flex items-center gap-4">
+                    {!loading && (
+                        user ? (
+                            <div className="flex items-center gap-2">
+                                <Link
+                                    to="/mypage"
+                                    className="text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors"
+                                >
+                                    {profile?.nickname ?? user.email}
+                                </Link>
+                                <button
+                                    onClick={() => logout()}
+                                    className="rounded-md border border-slate-300 px-3 py-1 text-sm dark:border-slate-700 hover:text-slate-900 dark:hover:text-white transition-colors"
+                                >
+                                    로그아웃
+                                </button>
+                            </div>
+                        ) : (
+                            <Link
+                                to="/login"
+                                className="rounded-md border border-slate-300 px-3 py-1 text-sm dark:border-slate-700 hover:text-slate-900 dark:hover:text-white transition-colors"
+                            >
+                                로그인
+                            </Link>
+                        )
+                    )}
+
+                    <DarkModeToggle/>
+                </div>
 
             </div>
         </header>
