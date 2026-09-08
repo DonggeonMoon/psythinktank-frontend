@@ -19,8 +19,8 @@ export const query = graphql`
 `;
 
 interface Stock {
-    stock_name: string;
-    symbol: string;
+    stock_name: string | null;
+    symbol: string | null;
     market: string;
 }
 
@@ -42,8 +42,8 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
         return stocks.filter(
             (stock) =>
-                stock.stock_name.toLowerCase().includes(lowerSearch) ||
-                stock.symbol.toLowerCase().includes(lowerSearch)
+                stock.stock_name?.toLowerCase().includes(lowerSearch) ||
+                stock.symbol?.toLowerCase().includes(lowerSearch)
         );
     }, [searchTerm, stocks]);
 
