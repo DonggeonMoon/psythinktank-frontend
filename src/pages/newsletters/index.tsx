@@ -1,26 +1,39 @@
 import * as React from "react";
-import type {HeadFC, PageProps} from "gatsby";
+import {graphql, type HeadFC, type PageProps} from "gatsby";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Ticker from "../../components/Ticker";
 
+export const query = graphql`
+  query {
+    allFile(
+      filter: { sourceInstanceName: { eq: "newsletters" } }
+      sort: { name: DESC }
+    ) {
+      nodes {
+        id
+        name
+        publicURL
+        modifiedTime(formatString: "YYYY-MM-DD")
+      }
+    }
+  }
+`;
 
-interface Newsletter {
-    id: number;
-    title: string;
-    date: string;
-    fileUrl: string;
+interface NewsletterFile {
+    id: string;
+    name: string;
+    publicURL: string | null;
+    modifiedTime: string;
 }
 
-const DUMMY_DATA: Newsletter[] = [
-    // {id: 5, title: "2024년 4월 제5호 정기 회보", date: "2024-04-15", fileUrl: "/newsletters/5.pdf"},
-    // {id: 4, title: "2024년 3월 제4호 정기 회보", date: "2024-03-15", fileUrl: "/newsletters/4.pdf"},
-    // {id: 3, title: "임시 총회 결과 보고 및 공지사항", date: "2024-02-28", fileUrl: "/newsletters/3.pdf"},
-    // {id: 2, title: "2024년 2월 제2호 정기 회보", date: "2024-02-15", fileUrl: "/newsletters/2.pdf"},
-    // {id: 1, title: "신년 특집: 2024년 운영 계획 안내", date: "2024-01-10", fileUrl: "/newsletters/1.pdf"},
-];
+interface DataProps {
+    allFile: { nodes: NewsletterFile[] };
+}
 
-const NewsletterPage: React.FC<PageProps> = () => {
+const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
+    const newsletters = data.allFile.nodes;
+
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
             <Header/>
@@ -33,7 +46,7 @@ const NewsletterPage: React.FC<PageProps> = () => {
                             회보
                         </h1>
                         <p className="text-sm text-slate-600 dark:text-slate-400">
-                            제목을 클릭하면 해당 회보의 PDF 파일을 열람하실 수 있습니다.
+                            제목을 클릭하면 해당 회보 파일을 열람하실 수 있습니다.
                         </p>
                     </div>
                 </header>
@@ -50,11 +63,11 @@ const NewsletterPage: React.FC<PageProps> = () => {
                         </div>
 
                         <div className="divide-y divide-slate-100 dark:divide-slate-800">
-                            {DUMMY_DATA.length > 0 ? (
-                                DUMMY_DATA.map((item) => (
+                            {newsletters.length > 0 ? (
+                                newsletters.map((item, idx) => (
                                     <a
                                         key={item.id}
-                                        href={item.fileUrl}
+                                        href={item.publicURL ?? "#"}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="grid grid-cols-12 gap-4 px-6 py-4 text-sm items-center transition-all duration-200 hover:bg-blue-50/30 dark:hover:bg-blue-900/10 group"
@@ -62,13 +75,13 @@ const NewsletterPage: React.FC<PageProps> = () => {
 
                                         <div
                                             className="col-span-2 font-mono text-slate-400 dark:text-slate-500">
-                                            {item.id}
+                                            {newsletters.length - idx}
                                         </div>
 
                                         <div className="col-span-7 flex items-center gap-2 overflow-hidden px-1">
               <span
                   className="truncate font-medium text-slate-700 dark:text-slate-200 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                {item.title}
+                {item.name}
               </span>
 
                                             <svg
@@ -85,7 +98,7 @@ const NewsletterPage: React.FC<PageProps> = () => {
 
                                         <div
                                             className="col-span-3 text-right font-mono text-slate-400 dark:text-slate-500 text-xs">
-                                            {item.date}
+                                            {item.modifiedTime}
                                         </div>
                                     </a>
                                 ))

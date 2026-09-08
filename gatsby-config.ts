@@ -5,9 +5,6 @@ const config: GatsbyConfig = {
     title: `psythinktank`,
     siteUrl: `https://www.psythinktank.com`
   },
-  // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
-  // If you use VSCode you can also use the GraphQL plugin
-  // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
       "gatsby-plugin-postcss",
@@ -17,6 +14,13 @@ const config: GatsbyConfig = {
           options: {
               name: "data",
               path: `${__dirname}/src/data/`,
+          },
+      },
+      {
+          resolve: "gatsby-source-filesystem",
+          options: {
+              name: "newsletters",
+              path: `${__dirname}/files/`,
           },
       },
   ]
