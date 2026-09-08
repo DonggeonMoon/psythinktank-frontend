@@ -1,25 +1,92 @@
 import * as React from "react";
-import { Link, PageProps } from "gatsby";
+import {useEffect, useState} from "react";
+import {Link, navigate, PageProps} from "gatsby";
+import {deleteDoc, doc, getDoc, increment, Timestamp, updateDoc} from "firebase/firestore";
+import DOMPurify from "dompurify";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Ticker from "../../components/Ticker";
+import {db} from "../../firebase/client";
+import {useAuth} from "../../contexts/AuthContext";
+import {BOARD_CATEGORY_LABEL, BoardCategory} from "../../lib/boardCategory";
+import CommentSection from "../../components/CommentSection";
 
-const DUMMY_DATA = [
-    { id: "1", title: "게시판 이용 수칙 및 가이드 (필독)", author: "운영자", date: "2026.04.01", views: 10240, notice: true, content: "안녕하세요. 게시판 이용 수칙입니다. 서로를 존중하는 문화를 만들어갑시다." },
-    { id: "2", title: "시스템 점검 안내 (04/20)", author: "운영자", date: "2026.04.18", views: 450, notice: true, content: "04월 20일 새벽 2시부터 4시까지 서비스 점검이 예정되어 있습니다." },
-    { id: "3", title: "2026년 반도체 시장 전망 공유", author: "반도체장인", date: "2026.04.18", views: 1250, notice: false, content: "최근 공정 미세화와 AI 수요 폭증으로 인해 반도체 섹터의 성장이 기대됩니다..." },
-    { id: "4", title: "나스닥 선물 변동성 대응 전략", author: "글로벌거시", date: "2026.04.17", views: 890, notice: false, content: "금리 인상 우려로 인한 나스닥 변동성이 커지고 있습니다. 현금 비중을..." },
-    { id: "5", title: "초보자를 위한 배당주 투자 가이드", author: "꾸준함이답", date: "2026.04.16", views: 3200, notice: false, content: "배당주는 변동성 장세에서 훌륭한 방어주 역할을 합니다. 핵심은 배당 성장률입니다." },
-];
+interface Post {
+    title: string;
+    contentHtml: string;
+    authorUid: string;
+    authorName: string;
+    createdAt: Timestamp | null;
+    views: number;
+    notice: boolean;
+    category: BoardCategory;
+}
 
-const ArticlePage: React.FC<PageProps> = ({ params }) => {
-    const { articleId } = params;
+const formatDate = (timestamp: Timestamp | null) => {
+    if (!timestamp) return "-";
+    const d = timestamp.toDate();
+    return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
+};
 
-    const post = DUMMY_DATA.find((p) => p.id === articleId);
+const ArticlePage: React.FC<PageProps> = ({params}) => {
+    const {articleId} = params;
+    const {user, profile} = useAuth();
+    const [post, setPost] = useState<Post | null>(null);
+    const [loading, setLoading] = useState(true);
+    const [notFound, setNotFound] = useState(false);
 
-    if (!post) {
-        return <div className="p-10 text-center">존재하지 않는 게시글입니다.</div>;
+    useEffect(() => {
+        if (!db || !articleId) return;
+        const postRef = doc(db, "posts", articleId);
+
+        (async () => {
+            const snapshot = await getDoc(postRef);
+            if (!snapshot.exists()) {
+                setNotFound(true);
+                setLoading(false);
+                return;
+            }
+
+            setPost(snapshot.data() as Post);
+            setLoading(false);
+
+            updateDoc(postRef, {views: increment(1)}).catch(() => {});
+        })();
+    }, [articleId]);
+
+    const canManage = !!user && !!post && (user.uid === post.authorUid || profile?.role === "admin");
+
+    const handleDelete = async () => {
+        if (!db || !articleId) return;
+        if (!window.confirm("이 게시글을 삭제하시겠습니까?")) return;
+
+        await deleteDoc(doc(db, "posts", articleId));
+        await navigate("/boards");
+    };
+
+    if (loading) {
+        return (
+            <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
+                <Header/>
+                <main className="flex-1"/>
+                <Footer/>
+            </div>
+        );
     }
+
+    if (notFound || !post) {
+        return (
+            <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
+                <Header/>
+                <main className="flex-1 p-10 text-center text-slate-500 dark:text-slate-400">
+                    존재하지 않는 게시글입니다.
+                </main>
+                <Footer/>
+            </div>
+        );
+    }
+
+    const sanitizedHtml = DOMPurify.sanitize(post.contentHtml);
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
@@ -35,11 +102,18 @@ const ArticlePage: React.FC<PageProps> = ({ params }) => {
                 <article className="space-y-6">
                     <header className="space-y-4 border-b border-slate-100 pb-8 dark:border-slate-800">
                         <div className="space-y-2">
-                            {post.notice && (
-                                <span className="inline-block rounded bg-slate-900 px-2 py-0.5 text-xs font-bold text-white dark:bg-slate-100 dark:text-slate-900 mb-2">
-                                    공지사항
-                                </span>
-                            )}
+                            <div className="flex items-center gap-2">
+                                {post.category && (
+                                    <span className="inline-block rounded bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300">
+                                        {BOARD_CATEGORY_LABEL[post.category]}
+                                    </span>
+                                )}
+                                {post.notice && (
+                                    <span className="inline-block rounded bg-slate-900 px-2 py-0.5 text-xs font-bold text-white dark:bg-slate-100 dark:text-slate-900">
+                                        공지사항
+                                    </span>
+                                )}
+                            </div>
                             <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-100 leading-tight">
                                 {post.title}
                             </h1>
@@ -47,25 +121,44 @@ const ArticlePage: React.FC<PageProps> = ({ params }) => {
 
                         <div className="flex items-center justify-between text-sm text-slate-500">
                             <div className="flex items-center gap-3">
-                                <span className="font-medium text-slate-900 dark:text-slate-300">{post.author}</span>
+                                <span className="font-medium text-slate-900 dark:text-slate-300">{post.authorName}</span>
                                 <span className="text-slate-300 dark:text-slate-700">|</span>
-                                <span>{post.date}</span>
+                                <span>{formatDate(post.createdAt)}</span>
                             </div>
                             <div>
-                                <span>조회수 {post.views.toLocaleString()}</span>
+                                <span>조회수 {(post.views ?? 0).toLocaleString()}</span>
                             </div>
                         </div>
                     </header>
 
-                    <div className="py-4 text-slate-800 dark:text-slate-300 leading-relaxed min-h-[300px] whitespace-pre-wrap">
-                        {post.content}
-                    </div>
+                    <div
+                        className="toastui-editor-contents py-4 min-h-[300px] text-slate-900 dark:text-slate-100 dark:[&_*]:!text-slate-100"
+                        dangerouslySetInnerHTML={{__html: sanitizedHtml}}
+                    />
 
-                    <div className="flex justify-center border-t border-slate-100 pt-10 dark:border-slate-800">
+                    <div className="flex items-center justify-center gap-2 border-t border-slate-100 pt-10 dark:border-slate-800">
                         <Link to="/boards" className="rounded-md border border-slate-300 px-6 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900">
                             목록 보기
                         </Link>
+                        {canManage && (
+                            <>
+                                <Link
+                                    to={`/boards/edit/${articleId}`}
+                                    className="rounded-md border border-slate-300 px-6 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900"
+                                >
+                                    수정
+                                </Link>
+                                <button
+                                    onClick={handleDelete}
+                                    className="rounded-md border border-red-300 px-6 py-2 text-sm font-medium text-red-600 hover:bg-red-50 dark:border-red-900/60 dark:text-red-400 dark:hover:bg-red-900/20"
+                                >
+                                    삭제
+                                </button>
+                            </>
+                        )}
                     </div>
+
+                    <CommentSection postId={articleId}/>
                 </article>
             </main>
 
