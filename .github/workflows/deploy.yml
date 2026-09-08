@@ -30,10 +30,19 @@ jobs:
         run: |
           echo "${{ secrets.SSH_KEY }}" > private_key
           chmod 600 private_key
-          
+
           ssh -o StrictHostKeyChecking=no -i private_key -p ${{ secrets.SSH_PORT }} -L 5432:127.0.0.1:5432 ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} -fN
-          
+
           node scripts/extract-data.js
+        env:
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_HOST: '127.0.0.1'
+          DB_PORT: 5432
+
+      - name: Extract Stock Details
+        run: node scripts/extract-stock-details.js
         env:
           DB_USER: ${{ secrets.DB_USER }}
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
