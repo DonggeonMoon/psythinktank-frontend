@@ -1,8 +1,14 @@
 import * as React from "react";
+import {useEffect, useMemo, useRef, useState} from "react";
 import {graphql, type HeadFC, type PageProps} from "gatsby";
+import {Chart, registerables} from "chart.js";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Ticker from "../components/Ticker";
+
+Chart.register(...registerables);
+
+const RANK_COLORS = ["#2563eb", "#dc2626", "#16a34a", "#d97706", "#7c3aed", "#0891b2", "#db2777", "#65a30d"];
 
 export const query = graphql`
   query($symbol: String!) {
@@ -57,6 +63,84 @@ const getCurrency = (market: string) => {
 const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const stock = data.stockDetail;
     const shareholders = data.allShareholder.nodes;
+
+    const [isDark, setIsDark] = useState(false);
+    useEffect(() => {
+        const updateIsDark = () => setIsDark(document.documentElement.classList.contains("dark"));
+        updateIsDark();
+
+        const observer = new MutationObserver(updateIsDark);
+        observer.observe(document.documentElement, {attributes: true, attributeFilter: ["class"]});
+        return () => observer.disconnect();
+    }, []);
+
+    const rankChartData = useMemo(() => {
+        const byDate = new Map<string, { holder_name: string; value: number }[]>();
+        shareholders.forEach((s) => {
+            const list = byDate.get(s.date) ?? [];
+            list.push({holder_name: s.holder_name, value: s.value});
+            byDate.set(s.date, list);
+        });
+
+        const dates = Array.from(byDate.keys()).sort((a, b) => a.localeCompare(b));
+        const maxRank = Math.max(0, ...Array.from(byDate.values()).map((list) => list.length));
+
+        const rankValues: (number | null)[][] = Array.from({length: maxRank}, () => []);
+        dates.forEach((date) => {
+            const sorted = [...(byDate.get(date) ?? [])].sort((a, b) => b.value - a.value);
+            for (let rank = 0; rank < maxRank; rank++) {
+                rankValues[rank].push(sorted[rank] ? sorted[rank].value : null);
+            }
+        });
+
+        return {dates, rankValues};
+    }, [shareholders]);
+
+    const canvasRef = useRef<HTMLCanvasElement | null>(null);
+    const chartRef = useRef<Chart | null>(null);
+
+    useEffect(() => {
+        if (!canvasRef.current || rankChartData.dates.length === 0) return;
+
+        const textColor = isDark ? "#f1f5f9" : "#0f172a";
+        const gridColor = isDark ? "rgba(148,163,184,0.15)" : "rgba(100,116,139,0.15)";
+
+        chartRef.current = new Chart(canvasRef.current, {
+            type: "line",
+            data: {
+                labels: rankChartData.dates,
+                datasets: rankChartData.rankValues.map((values, idx) => ({
+                    label: `${idx + 1}위`,
+                    data: values,
+                    borderColor: RANK_COLORS[idx % RANK_COLORS.length],
+                    backgroundColor: RANK_COLORS[idx % RANK_COLORS.length],
+                    spanGaps: true,
+                    tension: 0.3,
+                    pointRadius: 3,
+                })),
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {ticks: {color: textColor}, grid: {color: gridColor}},
+                    y: {
+                        ticks: {color: textColor},
+                        grid: {color: gridColor},
+                        title: {display: true, text: "지분(%)", color: textColor},
+                    },
+                },
+                plugins: {
+                    legend: {labels: {color: textColor}},
+                },
+            },
+        });
+
+        return () => {
+            chartRef.current?.destroy();
+            chartRef.current = null;
+        };
+    }, [rankChartData, isDark]);
 
     if (!stock) {
         return (
@@ -126,6 +210,19 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             <div className="text-3xl font-bold text-slate-300 dark:text-slate-700 font-mono">N/A</div>
                         )}
                     </div>
+                </section>
+
+                <section className="space-y-4">
+                    <h3 className="text-xl font-bold px-1">주주 지분 변화 추이</h3>
+                    {rankChartData.dates.length > 0 ? (
+                        <div className="rounded-2xl border border-slate-200 dark:border-slate-800 p-4" style={{height: 320}}>
+                            <canvas ref={canvasRef}/>
+                        </div>
+                    ) : (
+                        <div className="py-10 text-center border-2 border-dashed border-slate-100 dark:border-slate-800 rounded-2xl text-slate-400 text-sm">
+                            차트를 그릴 데이터가 없습니다.
+                        </div>
+                    )}
                 </section>
 
                 <section className="space-y-4">
