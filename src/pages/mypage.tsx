@@ -228,7 +228,7 @@ const MyPage: React.FC<PageProps> = () => {
                                     disabled={withdrawSubmitting}
                                     className="rounded-md bg-red-600 px-4 py-2 text-sm font-medium text-white hover:opacity-90 disabled:opacity-50 transition-colors"
                                 >
-                                    {withdrawSubmitting ? "탈퇴 처리 중..." : "탈퇴 확정"}
+                                    {withdrawSubmitting ? "탈퇴 처리 중..." : "탈퇴 진행"}
                                 </button>
                                 <button
                                     type="button"

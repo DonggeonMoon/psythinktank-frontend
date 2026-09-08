@@ -58,11 +58,14 @@ const Header = () => {
                     {!loading && (
                         user ? (
                             <div className="flex items-center gap-2">
+                                <span className="text-slate-700 dark:text-slate-300">
+                                    {profile?.nickname ?? user.email}
+                                </span>
                                 <Link
                                     to="/mypage"
-                                    className="text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors"
+                                    className="rounded-md border border-slate-300 px-3 py-1 text-sm dark:border-slate-700 hover:text-slate-900 dark:hover:text-white transition-colors"
                                 >
-                                    {profile?.nickname ?? user.email}
+                                    마이페이지
                                 </Link>
                                 <button
                                     onClick={() => logout()}

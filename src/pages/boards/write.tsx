@@ -8,6 +8,7 @@ import Header from "../../components/Header";
 import ToastEditor, {ToastEditorHandle} from "../../components/ToastEditor";
 import {db} from "../../firebase/client";
 import {useAuth} from "../../contexts/AuthContext";
+import {isStaffRole} from "../../lib/roles";
 import {BOARD_CATEGORY_LABEL, BoardCategory} from "../../lib/boardCategory";
 
 const CATEGORIES: BoardCategory[] = ["domestic", "overseas"];
@@ -60,7 +61,7 @@ const WritePage: React.FC<PageProps> = ({location}) => {
                 category,
                 authorUid: user.uid,
                 authorName: profile?.nickname ?? user.email,
-                notice: profile?.role === "admin" ? notice : false,
+                notice: isStaffRole(profile?.role) ? notice : false,
                 views: 0,
                 legacyPostId: null,
                 createdAt: serverTimestamp(),
@@ -108,7 +109,7 @@ const WritePage: React.FC<PageProps> = ({location}) => {
 
                     <ToastEditor ref={editorRef}/>
 
-                    {profile?.role === "admin" && (
+                    {isStaffRole(profile?.role) && (
                         <label className="flex items-center gap-2 text-sm text-slate-700 dark:text-slate-300">
                             <input
                                 type="checkbox"

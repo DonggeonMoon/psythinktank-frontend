@@ -20,9 +20,10 @@ service cloud.firestore {
       allow delete: if isOwner(userId);
     }
 
-    function isAdmin() {
+    // member < manager < admin 3단계. manager/admin(=운영진)은 공지 작성 + 다른 사람 글 관리 가능
+    function isStaff() {
       return request.auth != null &&
-        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == "admin";
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ["manager", "admin"];
     }
 
     function isPostAuthor() {
@@ -34,12 +35,13 @@ service cloud.firestore {
 
       allow create: if request.auth != null
                     && request.resource.data.authorUid == request.auth.uid
-                    && (request.resource.data.notice == false || isAdmin());
+                    && (request.resource.data.notice == false || isStaff());
 
-      allow update: if isPostAuthor() || isAdmin()
+      // 조회수 증가만은 누구나(비로그인 포함) 허용, 나머지 필드 수정은 작성자/운영진만
+      allow update: if isPostAuthor() || isStaff()
                     || request.resource.data.diff(resource.data).affectedKeys().hasOnly(["views"]);
 
-      allow delete: if isPostAuthor() || isAdmin();
+      allow delete: if isPostAuthor() || isStaff();
     }
 
     match /posts/{postId}/comments/{commentId} {
@@ -49,6 +51,7 @@ service cloud.firestore {
                     && request.resource.data.authorUid == request.auth.uid
                     && request.resource.data.deleted == false;
 
+      // 수정은 살아있는 댓글에만: 본인은 내용 수정 또는 본인 삭제("self")만, 운영진은 정책 삭제("policy")만 가능
       allow update: if request.auth != null && resource.data.deleted == false && (
                       (resource.data.authorUid == request.auth.uid
                         && request.resource.data.authorUid == resource.data.authorUid
@@ -56,7 +59,7 @@ service cloud.firestore {
                       || (resource.data.authorUid == request.auth.uid
                         && request.resource.data.deleted == true
                         && request.resource.data.deletedReason == "self")
-                      || (isAdmin()
+                      || (isStaff()
                         && request.resource.data.deleted == true
                         && request.resource.data.deletedReason == "policy")
                     );
