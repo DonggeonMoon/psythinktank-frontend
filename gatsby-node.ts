@@ -4,6 +4,10 @@ import * as path from "path"
 
 const DATA_DIR = path.join(__dirname, "src/data")
 
+export const onPreBootstrap: GatsbyNode["onPreBootstrap"] = () => {
+    if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true })
+}
+
 export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] = ({ actions }) => {
     const { createTypes } = actions
 
