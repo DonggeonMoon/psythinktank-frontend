@@ -1,10 +1,22 @@
 import * as React from "react";
 import {useMemo, useState} from "react";
-import type {HeadFC, PageProps} from "gatsby";
+import {graphql, type HeadFC, type PageProps} from "gatsby";
 import {Link} from "gatsby";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Ticker from "../../components/Ticker";
+
+export const query = graphql`
+  query {
+    allStockDetail(sort: { symbol: ASC }) {
+      nodes {
+        stock_name
+        symbol
+        market
+      }
+    }
+  }
+`;
 
 interface Stock {
     stock_name: string;
@@ -12,38 +24,25 @@ interface Stock {
     market: string;
 }
 
-const DUMMY_LIST: Stock[] = [
-    // { stock_name: "삼성전자", symbol: "005930", market: "KOSPI" },
-    // { stock_name: "SK하이닉스", symbol: "000660", market: "KOSPI" },
-    // { stock_name: "에코프로비엠", symbol: "247540", market: "KOSDAQ" },
-    // { stock_name: "애플", symbol: "AAPL", market: "NASDAQ" },
-    // { stock_name: "테슬라", symbol: "TSLA", market: "NASDAQ" },
-    // { stock_name: "엔비디아", symbol: "NVDA", market: "NASDAQ" },
-    // { stock_name: "버크셔 해서웨이", symbol: "BRK.B", market: "NYSE" },
-    // { stock_name: "토요타 자동차", symbol: "7203", market: "TSE" },
-    // { stock_name: "소니 그룹", symbol: "6758", market: "TSE" },
-    // { stock_name: "닌텐도", symbol: "7974", market: "TSE" },
-    // { stock_name: "도쿄 일렉트론", symbol: "8035", market: "TSE" },
-];
+interface DataProps {
+    allStockDetail: { nodes: Stock[] };
+}
 
-const StockPage: React.FC<PageProps> = () => {
+const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const [searchTerm, setSearchTerm] = useState("");
+    const stocks = data.allStockDetail.nodes;
 
     const filteredStocks = useMemo(() => {
         const lowerSearch = searchTerm.toLowerCase().trim();
 
-        if (!lowerSearch) return DUMMY_LIST;
+        if (!lowerSearch) return stocks;
 
-        return DUMMY_LIST.filter(
+        return stocks.filter(
             (stock) =>
                 stock.stock_name.toLowerCase().includes(lowerSearch) ||
                 stock.symbol.toLowerCase().includes(lowerSearch)
         );
-    }, [searchTerm]);
-
-    const handleSearch = () => {
-        console.log(`'${searchTerm}' 검색 실행`);
-    };
+    }, [searchTerm, stocks]);
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
@@ -79,17 +78,9 @@ const StockPage: React.FC<PageProps> = () => {
                                 placeholder="종목명 또는 티커(예: TSLA) 검색"
                                 value={searchTerm}
                                 onChange={(e) => setSearchTerm(e.target.value)}
-                                onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
                                 className="w-full rounded-md border border-slate-300 bg-white py-2.5 pl-10 pr-4 text-sm text-slate-900 placeholder:text-slate-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-100 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:placeholder:text-slate-500 dark:focus:border-blue-500 dark:focus:ring-blue-900/30 transition-all"
                             />
                         </div>
-
-                        <button
-                            onClick={handleSearch}
-                            className="shrink-0 rounded-md bg-slate-900 px-6 py-2 text-sm font-medium text-white hover:opacity-90 dark:bg-slate-100 dark:text-slate-900 transition-all"
-                        >
-                            검색
-                        </button>
                     </div>
 
                     <div
@@ -121,7 +112,7 @@ const StockPage: React.FC<PageProps> = () => {
                                                 </span>
                                         </td>
                                         <td className="px-6 py-4">
-                                                <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium 
+                                                <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium
                                                     ${stock.market === 'KOSPI' || stock.market === 'KOSDAQ' ? 'bg-red-50 text-red-700 dark:bg-red-900/20 dark:text-red-400' :
                                                     stock.market === 'TSE' ? 'bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300' :
                                                         'bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400'}`}>
