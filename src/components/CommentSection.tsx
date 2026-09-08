@@ -15,13 +15,15 @@ import {
 } from "firebase/firestore";
 import {db} from "../firebase/client";
 import {useAuth} from "../contexts/AuthContext";
-import {isStaffRole} from "../lib/roles";
+import {isStaffRole, type Role} from "../lib/roles";
+import RoleBadge from "./RoleBadge";
 
 interface Comment {
     id: string;
     content: string;
     authorUid: string;
     authorName: string;
+    authorRole: Role | null;
     createdAt: Timestamp | null;
     deleted: boolean;
     deletedReason: "self" | "policy" | null;
@@ -58,6 +60,7 @@ const CommentSection: React.FC<{ postId: string }> = ({postId}) => {
                     content: data.content ?? "",
                     authorUid: data.authorUid,
                     authorName: data.authorName,
+                    authorRole: data.authorRole ?? null,
                     createdAt: data.createdAt ?? null,
                     deleted: data.deleted ?? false,
                     deletedReason: data.deletedReason ?? null,
@@ -82,6 +85,7 @@ const CommentSection: React.FC<{ postId: string }> = ({postId}) => {
                 content: newContent.trim(),
                 authorUid: user.uid,
                 authorName: profile?.nickname ?? "알 수 없음",
+                authorRole: profile?.role ?? "member",
                 deleted: false,
                 deletedReason: null,
                 createdAt: serverTimestamp(),
@@ -169,8 +173,9 @@ const CommentSection: React.FC<{ postId: string }> = ({postId}) => {
                             ) : (
                                 <>
                                     <div className="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
-                                        <div className="flex items-center gap-2">
+                                        <div className="flex items-center gap-1.5">
                                             <span className="font-medium text-slate-700 dark:text-slate-300">{comment.authorName}</span>
+                                            <RoleBadge role={comment.authorRole}/>
                                             <span>{formatDateTime(comment.createdAt)}</span>
                                         </div>
                                         {user && (user.uid === comment.authorUid || isStaffRole(profile?.role)) && (

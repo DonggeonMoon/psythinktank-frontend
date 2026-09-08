@@ -8,15 +8,17 @@ import Header from "../../components/Header";
 import Ticker from "../../components/Ticker";
 import {db} from "../../firebase/client";
 import {useAuth} from "../../contexts/AuthContext";
-import {isStaffRole} from "../../lib/roles";
+import {isStaffRole, type Role} from "../../lib/roles";
 import {BOARD_CATEGORY_LABEL, BoardCategory} from "../../lib/boardCategory";
 import CommentSection from "../../components/CommentSection";
+import RoleBadge from "../../components/RoleBadge";
 
 interface Post {
     title: string;
     contentHtml: string;
     authorUid: string;
     authorName: string;
+    authorRole: Role | null;
     createdAt: Timestamp | null;
     views: number;
     notice: boolean;
@@ -122,7 +124,10 @@ const ArticlePage: React.FC<PageProps> = ({params}) => {
 
                         <div className="flex items-center justify-between text-sm text-slate-500">
                             <div className="flex items-center gap-3">
-                                <span className="font-medium text-slate-900 dark:text-slate-300">{post.authorName}</span>
+                                <span className="flex items-center gap-1.5 font-medium text-slate-900 dark:text-slate-300">
+                                    {post.authorName}
+                                    <RoleBadge role={post.authorRole}/>
+                                </span>
                                 <span className="text-slate-300 dark:text-slate-700">|</span>
                                 <span>{formatDate(post.createdAt)}</span>
                             </div>

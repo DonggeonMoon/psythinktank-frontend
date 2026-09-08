@@ -61,6 +61,7 @@ const WritePage: React.FC<PageProps> = ({location}) => {
                 category,
                 authorUid: user.uid,
                 authorName: profile?.nickname ?? "알 수 없음",
+                authorRole: profile?.role ?? "member",
                 notice: isStaffRole(profile?.role) ? notice : false,
                 views: 0,
                 legacyPostId: null,
