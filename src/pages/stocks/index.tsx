@@ -40,11 +40,21 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
         if (!lowerSearch) return stocks;
 
-        return stocks.filter(
-            (stock) =>
-                stock.stock_name?.toLowerCase().includes(lowerSearch) ||
-                stock.symbol?.toLowerCase().includes(lowerSearch)
-        );
+        const symbolMatchRank = (symbol: string | null) => {
+            const lowerSymbol = symbol?.toLowerCase() ?? "";
+            if (lowerSymbol === lowerSearch) return 3;
+            if (lowerSymbol.startsWith(lowerSearch)) return 2;
+            if (lowerSymbol.includes(lowerSearch)) return 1;
+            return 0;
+        };
+
+        return stocks
+            .filter(
+                (stock) =>
+                    stock.stock_name?.toLowerCase().includes(lowerSearch) ||
+                    stock.symbol?.toLowerCase().includes(lowerSearch)
+            )
+            .sort((a, b) => symbolMatchRank(b.symbol) - symbolMatchRank(a.symbol));
     }, [searchTerm, stocks]);
 
     const totalPages = Math.max(1, Math.ceil(filteredStocks.length / PAGE_SIZE));
