@@ -28,8 +28,11 @@ interface DataProps {
     allStockDetail: { nodes: Stock[] };
 }
 
+const PAGE_SIZE = 30;
+
 const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const [searchTerm, setSearchTerm] = useState("");
+    const [currentPage, setCurrentPage] = useState(1);
     const stocks = data.allStockDetail.nodes;
 
     const filteredStocks = useMemo(() => {
@@ -43,6 +46,27 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                 stock.symbol.toLowerCase().includes(lowerSearch)
         );
     }, [searchTerm, stocks]);
+
+    const totalPages = Math.max(1, Math.ceil(filteredStocks.length / PAGE_SIZE));
+    const safePage = Math.min(currentPage, totalPages);
+
+    const pagedStocks = useMemo(() => {
+        const start = (safePage - 1) * PAGE_SIZE;
+        return filteredStocks.slice(start, start + PAGE_SIZE);
+    }, [filteredStocks, safePage]);
+
+    const pageNumbers = useMemo(() => {
+        const windowSize = 5;
+        const start = Math.max(1, safePage - Math.floor(windowSize / 2));
+        const end = Math.min(totalPages, start + windowSize - 1);
+        const adjustedStart = Math.max(1, end - windowSize + 1);
+        return Array.from({length: end - adjustedStart + 1}, (_, i) => adjustedStart + i);
+    }, [safePage, totalPages]);
+
+    const handleSearchChange = (value: string) => {
+        setSearchTerm(value);
+        setCurrentPage(1);
+    };
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
@@ -77,7 +101,7 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                 type="text"
                                 placeholder="종목명 또는 티커(예: TSLA) 검색"
                                 value={searchTerm}
-                                onChange={(e) => setSearchTerm(e.target.value)}
+                                onChange={(e) => handleSearchChange(e.target.value)}
                                 className="w-full rounded-md border border-slate-300 bg-white py-2.5 pl-10 pr-4 text-sm text-slate-900 placeholder:text-slate-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-100 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:placeholder:text-slate-500 dark:focus:border-blue-500 dark:focus:ring-blue-900/30 transition-all"
                             />
                         </div>
@@ -94,8 +118,8 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             </tr>
                             </thead>
                             <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
-                            {filteredStocks.length > 0 ? (
-                                filteredStocks.map((stock) => (
+                            {pagedStocks.length > 0 ? (
+                                pagedStocks.map((stock) => (
                                     <tr key={stock.symbol}
                                         className="group hover:bg-slate-50 dark:hover:bg-slate-900/50 transition-colors">
                                         <td className="px-6 py-4 text-sm font-semibold">
@@ -146,6 +170,58 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             </tbody>
                         </table>
                     </div>
+
+                    {filteredStocks.length > 0 && (
+                        <div className="flex items-center justify-between">
+                            <p className="text-xs text-slate-500 dark:text-slate-400">
+                                총 {filteredStocks.length.toLocaleString()}건 중 {(safePage - 1) * PAGE_SIZE + 1}
+                                –{Math.min(safePage * PAGE_SIZE, filteredStocks.length)}건
+                            </p>
+
+                            <nav className="flex items-center gap-1">
+                                <button
+                                    type="button"
+                                    onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+                                    disabled={safePage === 1}
+                                    className="px-3 py-1.5 text-sm rounded-md border border-slate-300 text-slate-600 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
+                                >
+                                    이전
+                                </button>
+
+                                {pageNumbers[0] > 1 && (
+                                    <span className="px-2 text-sm text-slate-400">…</span>
+                                )}
+
+                                {pageNumbers.map((page) => (
+                                    <button
+                                        type="button"
+                                        key={page}
+                                        onClick={() => setCurrentPage(page)}
+                                        className={`px-3 py-1.5 text-sm rounded-md font-medium transition-colors ${
+                                            page === safePage
+                                                ? "bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900"
+                                                : "border border-slate-300 text-slate-600 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
+                                        }`}
+                                    >
+                                        {page}
+                                    </button>
+                                ))}
+
+                                {pageNumbers[pageNumbers.length - 1] < totalPages && (
+                                    <span className="px-2 text-sm text-slate-400">…</span>
+                                )}
+
+                                <button
+                                    type="button"
+                                    onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+                                    disabled={safePage === totalPages}
+                                    className="px-3 py-1.5 text-sm rounded-md border border-slate-300 text-slate-600 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
+                                >
+                                    다음
+                                </button>
+                            </nav>
+                        </div>
+                    )}
                 </section>
             </main>
 
