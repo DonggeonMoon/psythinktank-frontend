@@ -5,6 +5,7 @@ import {navigate} from "gatsby";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import {useAuth} from "../contexts/AuthContext";
+import {isValidPassword, PASSWORD_REQUIREMENT_MESSAGE} from "../lib/validation";
 
 const inputClass =
     "w-full rounded-md border border-slate-300 bg-white px-4 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:focus:ring-slate-700";
@@ -71,8 +72,8 @@ const MyPage: React.FC<PageProps> = () => {
             setPasswordMessage("새 비밀번호가 일치하지 않습니다.");
             return;
         }
-        if (newPassword.length < 6) {
-            setPasswordMessage("비밀번호는 6자 이상이어야 합니다.");
+        if (!isValidPassword(newPassword)) {
+            setPasswordMessage(PASSWORD_REQUIREMENT_MESSAGE);
             return;
         }
 
@@ -166,6 +167,7 @@ const MyPage: React.FC<PageProps> = () => {
                             onChange={(e) => setNewPassword(e.target.value)}
                             className={inputClass}
                         />
+                        <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">{PASSWORD_REQUIREMENT_MESSAGE}</p>
                     </div>
                     <div>
                         <label htmlFor="newPasswordConfirm" className={labelClass}>새 비밀번호 확인</label>
