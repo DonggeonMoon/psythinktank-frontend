@@ -1,5 +1,6 @@
 import * as React from "react";
 import {graphql, type HeadFC, type PageProps} from "gatsby";
+import {Link} from "gatsby";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Ticker from "../components/Ticker";
@@ -153,9 +154,12 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                             {index + 1}
                                         </div>
                                         <div className="col-span-3 flex flex-col gap-0.5">
-                                            <span className="font-bold text-slate-900 dark:text-slate-100">
+                                            <Link
+                                                to={`/stocks/${stock.symbol}`}
+                                                className="font-bold text-slate-900 hover:text-blue-600 dark:text-slate-100 dark:hover:text-blue-400 transition-colors"
+                                            >
                                                 {stock.stock_name}
-                                            </span>
+                                            </Link>
                                             <div className="flex items-center gap-1.5">
                                                 <span className="text-xs text-slate-400 font-mono tracking-tighter">
                                                     {stock.symbol}
