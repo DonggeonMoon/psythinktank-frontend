@@ -20,10 +20,23 @@ service cloud.firestore {
       allow delete: if isOwner(userId);
     }
 
+    // 닉네임 문서 ID = 닉네임 그 자체. create는 문서가 아직 없을 때만 성공하고
+    // update는 항상 거부되므로, 이미 존재하는 닉네임으로는 절대 쓸 수 없다(전역 유일성 보장).
+    // 닉네임 변경/가입 취소 시 본인 소유 문서만 delete 가능.
+    match /nicknames/{nickname} {
+      allow read: if true;
+      allow create: if request.auth != null && request.resource.data.uid == request.auth.uid;
+      allow update: if false;
+      allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
+    }
+
     // member < manager < admin 3단계. manager/admin(=운영진)은 공지 작성 + 다른 사람 글 관리 가능
+    function currentRole() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role;
+    }
+
     function isStaff() {
-      return request.auth != null &&
-        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ["manager", "admin"];
+      return request.auth != null && currentRole() in ["manager", "admin"];
     }
 
     function isPostAuthor() {

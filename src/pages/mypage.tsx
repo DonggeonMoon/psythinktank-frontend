@@ -7,17 +7,21 @@ import Header from "../components/Header";
 import {useAuth} from "../contexts/AuthContext";
 import {isValidPassword, PASSWORD_REQUIREMENT_MESSAGE} from "../lib/validation";
 
+type NicknameStatus = "idle" | "checking" | "available" | "unavailable";
+
 const inputClass =
     "w-full rounded-md border border-slate-300 bg-white px-4 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:focus:ring-slate-700";
 const labelClass = "block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1";
 const sectionClass = "space-y-4 rounded-xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-950";
 
 const MyPage: React.FC<PageProps> = () => {
-    const {user, profile, loading, updateNickname, changePassword, deleteAccount} = useAuth();
+    const {user, profile, loading, updateNickname, checkNicknameAvailable, changePassword, deleteAccount} = useAuth();
 
     const [nickname, setNickname] = useState("");
     const [nicknameMessage, setNicknameMessage] = useState<string | null>(null);
     const [nicknameSubmitting, setNicknameSubmitting] = useState(false);
+    const [nicknameStatus, setNicknameStatus] = useState<NicknameStatus>("idle");
+    const [checkedNickname, setCheckedNickname] = useState<string | null>(null);
 
     const [currentPassword, setCurrentPassword] = useState("");
     const [newPassword, setNewPassword] = useState("");
@@ -40,6 +44,25 @@ const MyPage: React.FC<PageProps> = () => {
         if (profile) setNickname(profile.nickname);
     }, [profile]);
 
+    const handleNicknameChange = (value: string) => {
+        setNickname(value);
+        setNicknameStatus("idle");
+    };
+
+    const handleNicknameCheck = async () => {
+        const trimmed = nickname.trim();
+        if (!trimmed) return;
+
+        setNicknameStatus("checking");
+        try {
+            const available = trimmed === profile?.nickname || (await checkNicknameAvailable(trimmed));
+            setCheckedNickname(trimmed);
+            setNicknameStatus(available ? "available" : "unavailable");
+        } catch {
+            setNicknameStatus("idle");
+        }
+    };
+
     if (loading || !user) {
         return (
             <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
@@ -53,12 +76,24 @@ const MyPage: React.FC<PageProps> = () => {
     const handleNicknameSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setNicknameMessage(null);
+
+        const trimmedNickname = nickname.trim();
+        if (trimmedNickname !== profile?.nickname && (nicknameStatus !== "available" || checkedNickname !== trimmedNickname)) {
+            setNicknameMessage("닉네임 중복 확인을 완료해주세요.");
+            return;
+        }
+
         setNicknameSubmitting(true);
         try {
-            await updateNickname(nickname);
+            await updateNickname(trimmedNickname);
             setNicknameMessage("닉네임이 변경되었습니다.");
-        } catch {
-            setNicknameMessage("닉네임 변경에 실패했습니다.");
+            setNicknameStatus("idle");
+            setCheckedNickname(null);
+        } catch (err) {
+            const code = (err as { code?: string })?.code;
+            setNicknameMessage(
+                code === "nickname/already-in-use" ? "이미 사용 중인 닉네임입니다. 다시 확인해주세요." : "닉네임 변경에 실패했습니다."
+            );
         } finally {
             setNicknameSubmitting(false);
         }
@@ -120,15 +155,31 @@ const MyPage: React.FC<PageProps> = () => {
                     <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400">닉네임 변경</h2>
                     <div>
                         <label htmlFor="nickname" className={labelClass}>닉네임</label>
-                        <input
-                            id="nickname"
-                            type="text"
-                            required
-                            maxLength={20}
-                            value={nickname}
-                            onChange={(e) => setNickname(e.target.value)}
-                            className={inputClass}
-                        />
+                        <div className="flex gap-2">
+                            <input
+                                id="nickname"
+                                type="text"
+                                required
+                                maxLength={20}
+                                value={nickname}
+                                onChange={(e) => handleNicknameChange(e.target.value)}
+                                className={inputClass}
+                            />
+                            <button
+                                type="button"
+                                onClick={handleNicknameCheck}
+                                disabled={!nickname.trim() || nicknameStatus === "checking"}
+                                className="shrink-0 rounded-md border border-slate-300 px-3 text-sm font-medium text-slate-700 hover:bg-slate-100 disabled:opacity-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
+                            >
+                                중복확인
+                            </button>
+                        </div>
+                        {nicknameStatus === "available" && (
+                            <p className="mt-1 text-sm text-emerald-600 dark:text-emerald-400">사용 가능한 닉네임입니다.</p>
+                        )}
+                        {nicknameStatus === "unavailable" && (
+                            <p className="mt-1 text-sm text-red-600 dark:text-red-400">이미 사용 중인 닉네임입니다.</p>
+                        )}
                     </div>
                     {nicknameMessage && (
                         <p className="text-sm text-slate-600 dark:text-slate-400">{nicknameMessage}</p>
