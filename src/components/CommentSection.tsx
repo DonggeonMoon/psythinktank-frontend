@@ -81,7 +81,7 @@ const CommentSection: React.FC<{ postId: string }> = ({postId}) => {
             await addDoc(commentsRef(db), {
                 content: newContent.trim(),
                 authorUid: user.uid,
-                authorName: profile?.nickname ?? user.email,
+                authorName: profile?.nickname ?? "알 수 없음",
                 deleted: false,
                 deletedReason: null,
                 createdAt: serverTimestamp(),
