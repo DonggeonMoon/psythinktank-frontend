@@ -9,11 +9,14 @@ import Ticker from "../../components/Ticker";
 import {db} from "../../firebase/client";
 import {useAuth} from "../../contexts/AuthContext";
 import {BOARD_CATEGORY_LABEL, BoardCategory} from "../../lib/boardCategory";
+import type {Role} from "../../lib/roles";
+import RoleBadge from "../../components/RoleBadge";
 
 interface Post {
     id: string;
     title: string;
     authorName: string;
+    authorRole: Role | null;
     createdAt: Timestamp | null;
     views: number;
     notice: boolean;
@@ -49,6 +52,7 @@ const BoardPage: React.FC<PageProps> = () => {
                         id: d.id,
                         title: data.title,
                         authorName: data.authorName,
+                        authorRole: data.authorRole ?? null,
                         createdAt: data.createdAt ?? null,
                         views: data.views ?? 0,
                         notice: data.notice ?? false,
@@ -169,8 +173,9 @@ const BoardPage: React.FC<PageProps> = () => {
                                             </span>
                                         </div>
 
-                                        <div className="col-span-2 text-center font-medium text-slate-600 dark:text-slate-400 truncate">
-                                            {post.authorName}
+                                        <div className="col-span-2 flex items-center justify-center gap-1.5 font-medium text-slate-600 dark:text-slate-400 truncate">
+                                            <span className="truncate">{post.authorName}</span>
+                                            <RoleBadge role={post.authorRole}/>
                                         </div>
 
                                         <div className="col-span-2 text-center text-slate-400 dark:text-slate-500 text-xs">

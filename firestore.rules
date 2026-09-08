@@ -48,15 +48,17 @@ service cloud.firestore {
 
       allow create: if request.auth != null
                     && request.resource.data.authorUid == request.auth.uid
+                    && request.resource.data.authorRole == currentRole()
                     && (request.resource.data.notice == false || isStaff());
 
       // 조회수는 누구나(비로그인 포함) +1씩만 증가 가능(임의 값 지정 방지).
-      // 작성자 본인은 제목/내용/카테고리만 수정 가능하고 authorUid/authorName/notice는
-      // 건드릴 수 없음(자기 글을 공지로 자체 승격하거나 작성자를 바꿔치기하는 것 방지).
+      // 작성자 본인은 제목/내용/카테고리만 수정 가능하고 authorUid/authorName/authorRole/notice는
+      // 건드릴 수 없음(자기 글을 공지로 자체 승격하거나 작성자/등급 배지를 바꿔치기하는 것 방지).
       // 그 필드들은 운영진만 변경 가능.
       allow update: if (isPostAuthor()
                           && request.resource.data.authorUid == resource.data.authorUid
                           && request.resource.data.authorName == resource.data.authorName
+                          && request.resource.data.authorRole == resource.data.authorRole
                           && request.resource.data.notice == resource.data.notice)
                     || isStaff()
                     || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(["views"])
@@ -70,14 +72,17 @@ service cloud.firestore {
 
       allow create: if request.auth != null
                     && request.resource.data.authorUid == request.auth.uid
+                    && request.resource.data.authorRole == currentRole()
                     && request.resource.data.deleted == false;
 
       // 수정은 살아있는 댓글에만: 본인은 내용 수정 또는 본인 삭제("self")만, 운영진은 정책 삭제("policy")만 가능
       allow update: if request.auth != null && resource.data.deleted == false && (
                       (resource.data.authorUid == request.auth.uid
                         && request.resource.data.authorUid == resource.data.authorUid
+                        && request.resource.data.authorRole == resource.data.authorRole
                         && request.resource.data.deleted == false)
                       || (resource.data.authorUid == request.auth.uid
+                        && request.resource.data.authorRole == resource.data.authorRole
                         && request.resource.data.deleted == true
                         && request.resource.data.deletedReason == "self")
                       || (isStaff()
