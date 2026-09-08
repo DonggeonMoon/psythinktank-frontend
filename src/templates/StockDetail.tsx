@@ -108,7 +108,7 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                         <p className="text-sm font-medium text-slate-500 mb-2">성장률</p>
                         {stock.growth != null ? (
                             <div className={`text-3xl font-bold ${stock.growth > 0 ? "text-red-500" : stock.growth < 0 ? "text-blue-500" : ""}`}>
-                                {stock.growth > 0 ? "▲" : stock.growth < 0 ? "▼" : ""} {Math.abs(stock.growth)}%
+                                {stock.growth > 0 ? "▲" : stock.growth < 0 ? "▼" : ""} {Math.abs(stock.growth).toFixed(2)}%
                             </div>
                         ) : (
                             <div className="text-3xl font-bold text-slate-300 dark:text-slate-700 font-mono">N/A</div>
