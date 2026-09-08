@@ -13,10 +13,11 @@ import {
 } from "firebase/auth";
 import { deleteDoc, doc, getDoc, serverTimestamp, setDoc, updateDoc } from "firebase/firestore";
 import { auth, db } from "../firebase/client";
+import type { Role } from "../lib/roles";
 
 interface UserProfile {
     nickname: string;
-    role: "admin" | "member";
+    role: Role;
 }
 
 interface AuthContextValue {

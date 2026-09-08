@@ -7,6 +7,7 @@ import Header from "../../../components/Header";
 import ToastEditor, {ToastEditorHandle} from "../../../components/ToastEditor";
 import {db} from "../../../firebase/client";
 import {useAuth} from "../../../contexts/AuthContext";
+import {isStaffRole} from "../../../lib/roles";
 import {BOARD_CATEGORY_LABEL, BoardCategory} from "../../../lib/boardCategory";
 
 const CATEGORIES: BoardCategory[] = ["domestic", "overseas"];
@@ -45,7 +46,7 @@ const EditPage: React.FC<PageProps> = ({params}) => {
             }
 
             const data = snapshot.data() as Post;
-            const canEdit = !!user && (user.uid === data.authorUid || profile?.role === "admin");
+            const canEdit = !!user && (user.uid === data.authorUid || isStaffRole(profile?.role));
             if (!canEdit) {
                 setForbidden(true);
                 setLoading(false);
@@ -106,7 +107,7 @@ const EditPage: React.FC<PageProps> = ({params}) => {
                 title: title.trim(),
                 contentHtml,
                 category,
-                notice: profile?.role === "admin" ? notice : post.notice,
+                notice: isStaffRole(profile?.role) ? notice : post.notice,
                 updatedAt: serverTimestamp(),
             });
             await navigate(`/boards/${articleId}`);
@@ -151,7 +152,7 @@ const EditPage: React.FC<PageProps> = ({params}) => {
 
                     <ToastEditor ref={editorRef} initialValue={post.contentHtml}/>
 
-                    {profile?.role === "admin" && (
+                    {isStaffRole(profile?.role) && (
                         <label className="flex items-center gap-2 text-sm text-slate-700 dark:text-slate-300">
                             <input
                                 type="checkbox"

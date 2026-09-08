@@ -8,6 +8,7 @@ import Header from "../../components/Header";
 import Ticker from "../../components/Ticker";
 import {db} from "../../firebase/client";
 import {useAuth} from "../../contexts/AuthContext";
+import {isStaffRole} from "../../lib/roles";
 import {BOARD_CATEGORY_LABEL, BoardCategory} from "../../lib/boardCategory";
 import CommentSection from "../../components/CommentSection";
 
@@ -54,7 +55,7 @@ const ArticlePage: React.FC<PageProps> = ({params}) => {
         })();
     }, [articleId]);
 
-    const canManage = !!user && !!post && (user.uid === post.authorUid || profile?.role === "admin");
+    const canManage = !!user && !!post && (user.uid === post.authorUid || isStaffRole(profile?.role));
 
     const handleDelete = async () => {
         if (!db || !articleId) return;
