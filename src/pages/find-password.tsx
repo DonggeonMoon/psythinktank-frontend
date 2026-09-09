@@ -48,10 +48,14 @@ const FindPasswordPage: React.FC<PageProps> = () => {
 
                 {sent ? (
                     <div className="space-y-6 text-center">
-                        <p className="text-sm text-slate-700 dark:text-slate-300">
-                            입력하신 이메일 주소로 비밀번호 재설정 메일을 보냈습니다.<br/>
-                            메일함(스팸함 포함)을 확인해주세요.
-                        </p>
+                        <div className="space-y-2">
+                            <p className="text-sm text-slate-700 dark:text-slate-300">
+                                입력하신 이메일 주소로 비밀번호 재설정 메일을 보냈습니다.
+                            </p>
+                            <p className="text-sm text-amber-600 dark:text-amber-400">
+                                메일이 스팸함으로 분류되었을 수 있으니, 받은 메일함에 안 보이면 스팸함도 꼭 확인해주세요.
+                            </p>
+                        </div>
                         <Link
                             to="/login"
                             className="inline-block rounded-md bg-slate-900 px-6 py-2 text-sm font-medium text-white hover:opacity-90 dark:bg-slate-100 dark:text-slate-900 transition-colors"
