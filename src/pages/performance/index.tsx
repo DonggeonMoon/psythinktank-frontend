@@ -18,12 +18,9 @@ import {
 import {db} from "../../firebase/client";
 import {useAuth} from "../../contexts/AuthContext";
 import {isStaffRole} from "../../lib/roles";
+import {Chart, registerables} from "chart.js";
 
-declare global {
-    interface Window {
-        CanvasJS?: any
-    }
-}
+Chart.register(...registerables);
 
 interface PerformanceEntry {
     id: string;
@@ -104,73 +101,65 @@ const PerformancePage: React.FC<PageProps> = () => {
             }));
     }, [entries]);
 
+    const chartInstances = React.useRef<Map<string, Chart>>(new Map());
+
     useEffect(() => {
-        const scriptId = "canvasjs-cdn"
+        const textColor = isDark ? "#f1f5f9" : "#0f172a"
+        const gridColor = isDark ? "rgba(148, 163, 184, 0.15)" : "rgba(15, 23, 42, 0.08)"
 
-        const renderAll = () => {
-            if (!window.CanvasJS) return
+        yearGroups.forEach((d) => {
+            const containerId = `chart-${d.year}`
+            const canvas = document.getElementById(containerId) as HTMLCanvasElement | null
+            if (!canvas) return
 
-            yearGroups.forEach((d) => {
-                const containerId = `chart-${d.year}`
-                if (!document.getElementById(containerId)) return
+            chartInstances.current.get(containerId)?.destroy()
 
-                const textColor = isDark ? "#f1f5f9" : "#0f172a"
-
-                const chart = new window.CanvasJS.Chart(containerId, {
-                    animationEnabled: true,
-                    backgroundColor: "transparent",
-                    title: {
-                        text: `${d.year} 년 PSY THINKTANK 수익률(%)`,
-                        fontSize: 18,
-                        fontColor: textColor,
-                    },
-                    axisX: {
-                        labelFontSize: 12,
-                        labelFontColor: textColor,
-                        labelAngle: 0,
-                        labelWrap: true,
-                    },
-                    axisY: {
-                        title: "%",
-                        includeZero: true,
-                    },
-                    toolTip: {
-                        shared: false,
-                    },
-                    data: [
+            const chart = new Chart(canvas, {
+                type: "bar",
+                data: {
+                    labels: d.dataPoints.map((p) => p.label),
+                    datasets: [
                         {
-                            type: "column",
-                            dataPoints: d.dataPoints,
+                            label: `${d.year} 년 수익률(%)`,
+                            data: d.dataPoints.map((p) => p.y),
+                            backgroundColor: "#2563eb",
                         },
                     ],
-                })
-
-                chart.render()
-
-                const removeCredit = () => {
-                    document
-                        .querySelectorAll(`#${containerId} a[href*="canvasjs.com"]`)
-                        .forEach((el) => el.remove())
-                }
-                removeCredit()
-                requestAnimationFrame(removeCredit)
-                setTimeout(removeCredit, 300)
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {display: false},
+                        title: {
+                            display: true,
+                            text: `${d.year} 년 PSY THINKTANK 수익률(%)`,
+                            color: textColor,
+                            font: {size: 18},
+                        },
+                    },
+                    scales: {
+                        x: {
+                            ticks: {color: textColor},
+                            grid: {color: gridColor},
+                        },
+                        y: {
+                            beginAtZero: true,
+                            title: {display: true, text: "%", color: textColor},
+                            ticks: {color: textColor},
+                            grid: {color: gridColor},
+                        },
+                    },
+                },
             })
-        }
 
-        const existing = document.getElementById(scriptId) as HTMLScriptElement | null
-        if (existing) {
-            if (window.CanvasJS) renderAll()
-            else existing.addEventListener("load", renderAll, { once: true })
-            return
-        }
+            chartInstances.current.set(containerId, chart)
+        })
 
-        const script = document.createElement("script")
-        script.id = scriptId
-        script.src = "https://cdn.canvasjs.com/canvasjs.min.js"
-        script.defer = true
-        script.onload = renderAll
-        document.body.appendChild(script)
+        return () => {
+            chartInstances.current.forEach((chart) => chart.destroy())
+            chartInstances.current.clear()
+        }
     }, [yearGroups, isDark])
 
     const summary = useMemo(() => {
@@ -392,16 +381,8 @@ const PerformancePage: React.FC<PageProps> = () => {
                                 </div>
 
                                 <div className="relative px-4 py-4">
-                                    <div className="relative" style={{maxWidth: 1200, margin: "0 auto"}}>
-                                        <div
-                                            id={`chart-${d.year}`}
-                                            className="w-full"
-                                            style={{height: 320}}
-                                        />
-                                        {/* CanvasJS 무료판 워터마크는 캔버스 픽셀에 직접 그려져서 DOM 제거가 안 먹혀 배경색 판으로 덮음 */}
-                                        <div
-                                            className="pointer-events-none absolute left-0 bottom-0 h-6 w-25 bg-white dark:bg-slate-950"
-                                        />
+                                    <div className="relative mx-auto" style={{maxWidth: 1200, height: 320}}>
+                                        <canvas id={`chart-${d.year}`}/>
                                     </div>
                                 </div>
                             </div>
