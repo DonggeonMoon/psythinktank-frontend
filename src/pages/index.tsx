@@ -86,7 +86,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
             <main className="flex-1 mx-auto w-full max-w-6xl px-4 py-10 space-y-12">
                 <section className="space-y-6">
                     <div
-                        className="flex items-end justify-between border-b border-slate-200 pb-6 dark:border-slate-800">
+                        className="flex flex-col gap-4 border-b border-slate-200 pb-6 dark:border-slate-800 md:flex-row md:items-end md:justify-between">
                         <div className="space-y-2">
                             <div className="flex items-center gap-3">
                                 <h2 className="text-3xl font-bold text-slate-700 dark:text-slate-300">
@@ -98,7 +98,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             </p>
                         </div>
 
-                        <div className="flex gap-2">
+                        <div className="flex gap-2 self-end">
                             <button
                                 onClick={() => setSelectedCountry('KR')}
                                 className={`px-4 py-2 text-sm font-medium rounded-md transition-all ${
