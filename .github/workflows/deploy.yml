@@ -38,12 +38,7 @@ jobs:
           echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
           chmod 600 ~/.ssh/known_hosts
 
-          echo "--- known_hosts 줄 수 ---"
-          wc -l ~/.ssh/known_hosts
-          echo "--- known_hosts 각 줄 길이 ---"
-          awk '{ print length, $1, $2 }' ~/.ssh/known_hosts
-
-          ssh -vvv -o StrictHostKeyChecking=yes -i private_key -p ${{ secrets.SSH_PORT }} -L 5432:127.0.0.1:5432 ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} -fN
+          ssh -o StrictHostKeyChecking=yes -i private_key -p ${{ secrets.SSH_PORT }} -L 5432:127.0.0.1:5432 ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} -fN
 
           node scripts/extract-data.js
         env:
