@@ -1,5 +1,6 @@
 import * as React from "react";
 import { createContext, useContext, useEffect, useState } from "react";
+import { navigate } from "gatsby";
 import {
     createUserWithEmailAndPassword,
     deleteUser,
@@ -15,10 +16,12 @@ import {
 import { deleteDoc, doc, getDoc, serverTimestamp, setDoc, updateDoc, writeBatch } from "firebase/firestore";
 import { auth, db } from "../firebase/client";
 import type { Role } from "../lib/roles";
+import { PRIVACY_CONSENT_VERSION } from "../lib/privacyConsent";
 
 interface UserProfile {
     nickname: string;
     role: Role;
+    privacyConsentVersion: string | null;
 }
 
 interface AuthContextValue {
@@ -33,6 +36,7 @@ interface AuthContextValue {
     updateNickname: (nickname: string) => Promise<void>;
     changePassword: (currentPassword: string, newPassword: string) => Promise<void>;
     deleteAccount: (currentPassword: string) => Promise<void>;
+    agreeToPrivacyConsent: () => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextValue>({
@@ -47,6 +51,7 @@ const AuthContext = createContext<AuthContextValue>({
     updateNickname: async () => {},
     changePassword: async () => {},
     deleteAccount: async () => {},
+    agreeToPrivacyConsent: async () => {},
 });
 
 const requireCurrentUser = () => {
@@ -70,7 +75,14 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
             if (firebaseUser) {
                 const snapshot = await getDoc(doc(firestore, "users", firebaseUser.uid));
-                const userProfile = snapshot.exists() ? (snapshot.data() as UserProfile) : null;
+                const data = snapshot.exists() ? snapshot.data() : null;
+                const userProfile: UserProfile | null = data
+                    ? {
+                          nickname: data.nickname,
+                          role: data.role,
+                          privacyConsentVersion: data.privacyConsent?.version ?? null,
+                      }
+                    : null;
                 setProfile(userProfile);
 
                 // 닉네임 중복확인 기능이 생기기 전에 가입한 계정은 nicknames/{nickname} 문서가 없어
@@ -85,6 +97,16 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                             }
                         })
                         .catch(() => {});
+                }
+
+                // 마이그레이션된 옛날 회원 등, 최신 버전의 개인정보 동의를 아직 안 받은 계정은
+                // 동의 페이지로 보내 재동의를 받는다.
+                if (
+                    userProfile &&
+                    userProfile.privacyConsentVersion !== PRIVACY_CONSENT_VERSION &&
+                    window.location.pathname !== "/consent"
+                ) {
+                    navigate("/consent");
                 }
             } else {
                 setProfile(null);
@@ -135,6 +157,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                 role: "member",
                 legacyUserId: null,
                 createdAt: serverTimestamp(),
+                privacyConsent: { agreedAt: serverTimestamp(), version: PRIVACY_CONSENT_VERSION },
             });
             await batch.commit();
         } catch {
@@ -144,7 +167,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             throw error;
         }
 
-        setProfile({ nickname: trimmedNickname, role: "member" });
+        setProfile({ nickname: trimmedNickname, role: "member", privacyConsentVersion: PRIVACY_CONSENT_VERSION });
     };
 
     const updateNickname = async (nickname: string) => {
@@ -181,6 +204,16 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         await updatePassword(currentUser, newPassword);
     };
 
+    const agreeToPrivacyConsent = async () => {
+        const currentUser = requireCurrentUser();
+        if (!db) throw new Error("Firebase가 초기화되지 않았습니다.");
+
+        await updateDoc(doc(db, "users", currentUser.uid), {
+            privacyConsent: { agreedAt: serverTimestamp(), version: PRIVACY_CONSENT_VERSION },
+        });
+        setProfile((prev) => (prev ? { ...prev, privacyConsentVersion: PRIVACY_CONSENT_VERSION } : prev));
+    };
+
     const deleteAccount = async (currentPassword: string) => {
         const currentUser = requireCurrentUser();
         if (!db) throw new Error("Firebase가 초기화되지 않았습니다.");
@@ -193,7 +226,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     return (
         <AuthContext.Provider
-            value={{ user, profile, loading, login, logout, resetPassword, signup, checkNicknameAvailable, updateNickname, changePassword, deleteAccount }}
+            value={{ user, profile, loading, login, logout, resetPassword, signup, checkNicknameAvailable, updateNickname, changePassword, deleteAccount, agreeToPrivacyConsent }}
         >
             {children}
         </AuthContext.Provider>
