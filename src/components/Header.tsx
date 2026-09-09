@@ -80,15 +80,14 @@ const Header = () => {
                             <button
                                 type="button"
                                 onClick={() => setMenuOpen(true)}
-                                aria-label="메뉴 열기"
-                                className="rounded-md border border-slate-300 p-2 dark:border-slate-700"
+                                aria-label="사용자 메뉴 열기"
+                                className="rounded-full border border-slate-300 p-2 dark:border-slate-700"
                             >
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                      stroke="currentColor" strokeWidth={2} strokeLinecap="round"
                                      strokeLinejoin="round" className="h-5 w-5">
-                                    <line x1="4" y1="7" x2="20" y2="7"/>
-                                    <line x1="4" y1="12" x2="20" y2="12"/>
-                                    <line x1="4" y1="17" x2="20" y2="17"/>
+                                    <circle cx="12" cy="8" r="3.25"/>
+                                    <path d="M5 20c0-3.5 3.13-6 7-6s7 2.5 7 6"/>
                                 </svg>
                             </button>
                             <DarkModeToggle/>
