@@ -135,12 +135,12 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                     <div
                         className="rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950 overflow-hidden shadow-sm">
                         <div
-                            className="grid grid-cols-12 gap-4 border-b border-slate-200 bg-slate-50/50 px-6 py-4 text-xs font-bold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400 uppercase tracking-wider">
+                            className="grid grid-cols-8 md:grid-cols-12 gap-4 border-b border-slate-200 bg-slate-50/50 px-6 py-4 text-xs font-bold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400 uppercase tracking-wider">
                             <div className="col-span-1">순위</div>
                             <div className="col-span-3">기업명 / 티커</div>
                             <div className="col-span-2 text-right">성장률</div>
-                            <div className="col-span-2 text-right">주당 배당금</div>
-                            <div className="col-span-2 text-right">현재가 ({lastUpdateDate} 종가)</div>
+                            <div className="hidden md:block col-span-2 text-right">주당 배당금</div>
+                            <div className="hidden md:block col-span-2 text-right">현재가 ({lastUpdateDate} 종가)</div>
                             <div className="col-span-2 text-right">연간 가격 증감률</div>
                         </div>
 
@@ -148,7 +148,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             {displayData.nodes.length > 0 ? (
                                 displayData.nodes.map((stock, index) => (
                                     <div key={stock.symbol}
-                                         className="grid grid-cols-12 gap-4 px-6 py-5 text-sm items-center hover:bg-slate-50/80 dark:hover:bg-slate-900/40 transition-all">
+                                         className="grid grid-cols-8 md:grid-cols-12 gap-4 px-6 py-5 text-sm items-center hover:bg-slate-50/80 dark:hover:bg-slate-900/40 transition-all">
                                         <div
                                             className="col-span-1 font-mono font-bold text-slate-400 dark:text-slate-600">
                                             {index + 1}
@@ -177,11 +177,11 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                             +{Number(stock.growth).toFixed(2)}%
                                         </div>
                                         <div
-                                            className="col-span-2 text-right font-mono font-medium text-slate-700 dark:text-slate-200">
+                                            className="hidden md:block col-span-2 text-right font-mono font-medium text-slate-700 dark:text-slate-200">
                                             {stock.dividend.toLocaleString()}{displayData.unit}
                                         </div>
                                         <div
-                                            className="col-span-2 text-right font-mono font-medium text-slate-700 dark:text-slate-200">
+                                            className="hidden md:block col-span-2 text-right font-mono font-medium text-slate-700 dark:text-slate-200">
                                             {stock.recent_price ? stock.recent_price.toLocaleString() : '0'}{displayData.unit}
                                         </div>
                                         <div className="col-span-2 text-right font-semibold text-rose-500">
