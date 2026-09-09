@@ -232,9 +232,9 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             <table className="w-full text-left text-sm border-collapse">
                                 <thead className="bg-slate-50 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-800 text-slate-500">
                                 <tr>
-                                    <th className="px-6 py-4 font-semibold">기준일</th>
-                                    <th className="px-6 py-4 font-semibold">주주명</th>
-                                    <th className="px-6 py-4 text-right font-semibold">지분</th>
+                                    <th className="px-6 py-4 font-semibold text-center">기준일</th>
+                                    <th className="px-6 py-4 font-semibold text-center">주주명</th>
+                                    <th className="px-6 py-4 font-semibold text-center">지분</th>
                                 </tr>
                                 </thead>
                                 <tbody className="divide-y divide-slate-100 dark:divide-slate-800">

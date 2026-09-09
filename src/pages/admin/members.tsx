@@ -180,11 +180,11 @@ const AdminMembersPage: React.FC<PageProps> = () => {
                         <div className="w-14 text-center">관리</div>
                     </div>
                     <div className="hidden md:grid grid-cols-12 gap-4 border-b border-slate-100 bg-slate-50/50 px-6 py-3 text-[13px] font-semibold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400">
-                        <div className="col-span-3">닉네임</div>
-                        <div className="col-span-4">이메일</div>
-                        <div className="col-span-2">등급</div>
-                        <div className="col-span-1">가입일</div>
-                        <div className="col-span-2 text-right">관리</div>
+                        <div className="col-span-3 text-center">닉네임</div>
+                        <div className="col-span-4 text-center">이메일</div>
+                        <div className="col-span-2 text-center">등급</div>
+                        <div className="col-span-1 text-center">가입일</div>
+                        <div className="col-span-2 text-center">관리</div>
                     </div>
 
                     <div className="divide-y divide-slate-100 dark:divide-slate-800">

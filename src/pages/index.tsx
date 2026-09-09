@@ -136,12 +136,12 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                         className="rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950 overflow-hidden shadow-sm">
                         <div
                             className="grid grid-cols-8 md:grid-cols-12 gap-4 border-b border-slate-200 bg-slate-50/50 px-6 py-4 text-xs font-bold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400 uppercase tracking-wider">
-                            <div className="col-span-1">순위</div>
-                            <div className="col-span-3">기업명 / 티커</div>
-                            <div className="col-span-2 text-right">성장률</div>
-                            <div className="hidden md:block col-span-2 text-right">주당 배당금</div>
-                            <div className="hidden md:block col-span-2 text-right">현재가 ({lastUpdateDate} 종가)</div>
-                            <div className="col-span-2 text-right">연간 가격 증감률</div>
+                            <div className="col-span-1 text-center">순위</div>
+                            <div className="col-span-3 text-center">기업명 / 티커</div>
+                            <div className="col-span-2 text-center">성장률</div>
+                            <div className="hidden md:block col-span-2 text-center">주당 배당금</div>
+                            <div className="hidden md:block col-span-2 text-center">현재가 ({lastUpdateDate} 종가)</div>
+                            <div className="col-span-2 text-center">연간 가격 증감률</div>
                         </div>
 
                         <div className="divide-y divide-slate-100 dark:divide-slate-800">
