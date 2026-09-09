@@ -106,6 +106,8 @@ const PerformancePage: React.FC<PageProps> = () => {
     useEffect(() => {
         const textColor = isDark ? "#f1f5f9" : "#0f172a"
         const gridColor = isDark ? "rgba(148, 163, 184, 0.15)" : "rgba(15, 23, 42, 0.08)"
+        // 종목마다 겹치지 않는 색을 뽑기 위해 골든 앵글로 hue를 회전시킨다(종목 수와 무관하게 고르게 분산됨).
+        const barColor = (i: number) => `hsl(${(i * 137.508) % 360} 65% ${isDark ? 60 : 48}%)`
 
         yearGroups.forEach((d) => {
             const containerId = `chart-${d.year}`
@@ -122,7 +124,7 @@ const PerformancePage: React.FC<PageProps> = () => {
                         {
                             label: `${d.year} 년 수익률(%)`,
                             data: d.dataPoints.map((p) => p.y),
-                            backgroundColor: "#2563eb",
+                            backgroundColor: d.dataPoints.map((_, i) => barColor(i)),
                         },
                     ],
                 },
@@ -140,7 +142,7 @@ const PerformancePage: React.FC<PageProps> = () => {
                     },
                     scales: {
                         x: {
-                            ticks: {color: textColor},
+                            ticks: {color: textColor, maxRotation: 0, minRotation: 0},
                             grid: {color: gridColor},
                         },
                         y: {
@@ -340,18 +342,20 @@ const PerformancePage: React.FC<PageProps> = () => {
                                                 <td className="py-2 pr-4 text-slate-700 dark:text-slate-300">{entry.stockName}</td>
                                                 <td className="py-2 pr-4 font-mono text-slate-700 dark:text-slate-300">{entry.returnRate}%</td>
                                                 <td className="py-2 pr-4 text-right">
-                                                    <button
-                                                        onClick={() => startEdit(entry)}
-                                                        className="mr-2 text-slate-500 hover:text-slate-900 dark:hover:text-white"
-                                                    >
-                                                        수정
-                                                    </button>
-                                                    <button
-                                                        onClick={() => handleDelete(entry.id)}
-                                                        className="text-red-500 hover:text-red-700"
-                                                    >
-                                                        삭제
-                                                    </button>
+                                                    <div className="flex flex-col items-end gap-1 sm:flex-row sm:items-center sm:justify-end sm:gap-2">
+                                                        <button
+                                                            onClick={() => startEdit(entry)}
+                                                            className="text-slate-500 hover:text-slate-900 dark:hover:text-white"
+                                                        >
+                                                            수정
+                                                        </button>
+                                                        <button
+                                                            onClick={() => handleDelete(entry.id)}
+                                                            className="text-red-500 hover:text-red-700"
+                                                        >
+                                                            삭제
+                                                        </button>
+                                                    </div>
                                                 </td>
                                             </tr>
                                         ))}
