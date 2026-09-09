@@ -86,14 +86,14 @@ const BoardPage: React.FC<PageProps> = () => {
             <Header />
 
             <main className="flex-1 mx-auto w-full max-w-6xl px-4 py-10 space-y-8">
-                <header className="flex items-center justify-between">
+                <header className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                     <div>
                         <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">게시판</h1>
                         <p className="text-sm text-slate-600 dark:text-slate-400">투자 관련 정보 공유가 가능한 공간입니다.</p>
                     </div>
                     <button
                         onClick={handleWriteClick}
-                        className="rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 dark:bg-slate-100 dark:text-slate-900 transition-colors">
+                        className="self-end rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 dark:bg-slate-100 dark:text-slate-900 transition-colors sm:self-auto">
                         글쓰기
                     </button>
                 </header>
@@ -134,11 +134,11 @@ const BoardPage: React.FC<PageProps> = () => {
                     </div>
 
                     <div className="overflow-hidden rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950 shadow-sm">
-                        <div className="grid grid-cols-12 gap-4 border-b border-slate-100 bg-slate-50/50 px-6 py-3 text-[13px] font-semibold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400">
-                            <div className="col-span-1">순번</div>
-                            <div className="col-span-5">제목</div>
-                            <div className="col-span-2 text-center">작성자</div>
-                            <div className="col-span-2 text-center">작성일</div>
+                        <div className="grid grid-cols-6 md:grid-cols-12 gap-4 border-b border-slate-100 bg-slate-50/50 px-6 py-3 text-[13px] font-semibold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400">
+                            <div className="hidden md:block col-span-1">순번</div>
+                            <div className="col-span-4 md:col-span-5">제목</div>
+                            <div className="hidden md:block col-span-2 text-center">작성자</div>
+                            <div className="hidden md:block col-span-2 text-center">작성일</div>
                             <div className="col-span-2 text-right">조회수</div>
                         </div>
 
@@ -152,17 +152,17 @@ const BoardPage: React.FC<PageProps> = () => {
                                     <Link
                                         to={`/boards/${post.id}`}
                                         key={post.id}
-                                        className={`grid grid-cols-12 gap-4 px-6 py-4 text-sm items-center transition-all duration-200 hover:bg-blue-50/30 dark:hover:bg-blue-900/10 ${
+                                        className={`grid grid-cols-6 md:grid-cols-12 gap-4 px-6 py-4 text-sm items-center transition-all duration-200 hover:bg-blue-50/30 dark:hover:bg-blue-900/10 ${
                                             post.notice
                                                 ? 'bg-amber-50/30 dark:bg-amber-900/10'
                                                 : 'text-slate-700 dark:text-slate-300'
                                         }`}
                                     >
-                                        <div className="col-span-1 text-center font-mono text-xs text-slate-400 dark:text-slate-500">
+                                        <div className="hidden md:block col-span-1 text-center font-mono text-xs text-slate-400 dark:text-slate-500">
                                             {post.notice ? "-" : sortedPosts.length - idx}
                                         </div>
 
-                                        <div className="col-span-5 flex items-center gap-2 overflow-hidden">
+                                        <div className="col-span-4 md:col-span-5 flex items-center gap-2 overflow-hidden">
                                             {post.notice && (
                                                 <span className="shrink-0 rounded-md bg-amber-100 px-2 py-0.5 text-[11px] font-bold text-amber-700 dark:bg-amber-900/40 dark:text-amber-400">
                                                     공지
@@ -173,12 +173,12 @@ const BoardPage: React.FC<PageProps> = () => {
                                             </span>
                                         </div>
 
-                                        <div className="col-span-2 flex items-center justify-center gap-1.5 font-medium text-slate-600 dark:text-slate-400 truncate">
+                                        <div className="hidden md:flex col-span-2 items-center justify-center gap-1.5 font-medium text-slate-600 dark:text-slate-400 truncate">
                                             <span className="truncate">{post.authorName}</span>
                                             <RoleBadge role={post.authorRole}/>
                                         </div>
 
-                                        <div className="col-span-2 text-center text-slate-400 dark:text-slate-500 text-xs">
+                                        <div className="hidden md:block col-span-2 text-center text-slate-400 dark:text-slate-500 text-xs">
                                             {formatDate(post.createdAt)}
                                         </div>
 
