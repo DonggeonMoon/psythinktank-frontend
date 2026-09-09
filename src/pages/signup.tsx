@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import {useAuth} from "../contexts/AuthContext";
 import {isValidPassword, PASSWORD_REQUIREMENT_MESSAGE} from "../lib/validation";
-import {hasAgreedToPrivacyConsent} from "../lib/privacyConsent";
+import {consumeAgreedToPrivacyConsent} from "../lib/privacyConsent";
 
 const inputClass =
     "w-full rounded-md border border-slate-300 bg-white px-4 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:focus:ring-slate-700";
@@ -27,7 +27,7 @@ const SignupPage: React.FC<PageProps> = () => {
     const [submitting, setSubmitting] = useState(false);
 
     useEffect(() => {
-        if (!hasAgreedToPrivacyConsent()) {
+        if (!consumeAgreedToPrivacyConsent()) {
             navigate("/signup/agree");
             return;
         }
