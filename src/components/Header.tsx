@@ -2,6 +2,7 @@ import * as React from "react";
 import {Link} from "gatsby";
 import DarkModeToggle from "./DarkModeToggle";
 import {useAuth} from "../contexts/AuthContext";
+import {isStaffRole} from "../lib/roles";
 
 const NAV_LINKS = [
     {to: "/stocks", label: "종목"},
@@ -30,7 +31,7 @@ const Header = () => {
                 <span className="text-slate-700 dark:text-slate-300">
                     {profile?.nickname ?? user.email}
                 </span>
-                {profile?.role === "admin" && (
+                {isStaffRole(profile?.role) && (
                     <Link
                         to="/admin/members"
                         className="rounded-md border border-slate-300 px-3 py-1 text-sm dark:border-slate-700 hover:text-slate-900 dark:hover:text-white transition-colors"

@@ -21,7 +21,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import {db} from "../../firebase/client";
 import {useAuth} from "../../contexts/AuthContext";
-import {ROLE_LABEL, type Role} from "../../lib/roles";
+import {isStaffRole, ROLE_LABEL, type Role} from "../../lib/roles";
 
 const PAGE_SIZE = 20;
 
@@ -41,7 +41,8 @@ const formatDate = (timestamp: Timestamp | null) => {
 
 const AdminMembersPage: React.FC<PageProps> = () => {
     const {user, profile, loading} = useAuth();
-    const isAdmin = !loading && !!user && profile?.role === "admin";
+    const canView = !loading && !!user && isStaffRole(profile?.role);
+    const canManageRoles = !loading && !!user && profile?.role === "admin";
 
     const [searchInput, setSearchInput] = useState("");
     const [searchTerm, setSearchTerm] = useState("");
@@ -53,7 +54,7 @@ const AdminMembersPage: React.FC<PageProps> = () => {
     const [actionMessage, setActionMessage] = useState<string | null>(null);
 
     useEffect(() => {
-        if (!loading && (!user || profile?.role !== "admin")) {
+        if (!loading && (!user || !isStaffRole(profile?.role))) {
             navigate("/");
         }
     }, [loading, user, profile]);
@@ -98,12 +99,12 @@ const AdminMembersPage: React.FC<PageProps> = () => {
     };
 
     useEffect(() => {
-        if (!isAdmin) return;
+        if (!canView) return;
         setPageIndex(0);
         setCursors([]);
         fetchPage(0, searchTerm, []);
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [isAdmin, searchTerm]);
+    }, [canView, searchTerm]);
 
     const handleSearchSubmit = (e: React.FormEvent) => {
         e.preventDefault();
@@ -123,7 +124,7 @@ const AdminMembersPage: React.FC<PageProps> = () => {
     };
 
     const handleRoleChange = async (uid: string, newRole: Role) => {
-        if (!db) return;
+        if (!db || !canManageRoles) return;
         setActionMessage(null);
         try {
             await updateDoc(doc(db, "users", uid), {role: newRole});
@@ -133,7 +134,7 @@ const AdminMembersPage: React.FC<PageProps> = () => {
         }
     };
 
-    if (loading || !isAdmin) {
+    if (loading || !canView) {
         return (
             <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
                 <Header/>
@@ -193,7 +194,7 @@ const AdminMembersPage: React.FC<PageProps> = () => {
                                     <div className="col-span-2">{ROLE_LABEL[m.role]}</div>
                                     <div className="col-span-1 text-xs text-slate-400">{formatDate(m.createdAt)}</div>
                                     <div className="col-span-2 text-right">
-                                        {m.uid === user?.uid || m.role === "admin" ? (
+                                        {!canManageRoles || m.uid === user?.uid || m.role === "admin" ? (
                                             <span className="text-xs text-slate-300 dark:text-slate-600">-</span>
                                         ) : m.role === "member" ? (
                                             <button
