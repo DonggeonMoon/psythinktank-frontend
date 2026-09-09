@@ -1,11 +1,12 @@
 import * as React from "react";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import type {HeadFC, PageProps} from "gatsby";
 import {Link, navigate} from "gatsby";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import {useAuth} from "../contexts/AuthContext";
 import {isValidPassword, PASSWORD_REQUIREMENT_MESSAGE} from "../lib/validation";
+import {hasAgreedToPrivacyConsent} from "../lib/privacyConsent";
 
 const inputClass =
     "w-full rounded-md border border-slate-300 bg-white px-4 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:focus:ring-slate-700";
@@ -15,6 +16,7 @@ type NicknameStatus = "idle" | "checking" | "available" | "unavailable";
 
 const SignupPage: React.FC<PageProps> = () => {
     const {signup, checkNicknameAvailable} = useAuth();
+    const [checkingConsent, setCheckingConsent] = useState(true);
     const [email, setEmail] = useState("");
     const [nickname, setNickname] = useState("");
     const [nicknameStatus, setNicknameStatus] = useState<NicknameStatus>("idle");
@@ -23,6 +25,14 @@ const SignupPage: React.FC<PageProps> = () => {
     const [passwordConfirm, setPasswordConfirm] = useState("");
     const [error, setError] = useState<string | null>(null);
     const [submitting, setSubmitting] = useState(false);
+
+    useEffect(() => {
+        if (!hasAgreedToPrivacyConsent()) {
+            navigate("/signup/agree");
+            return;
+        }
+        setCheckingConsent(false);
+    }, []);
 
     const handleNicknameChange = (value: string) => {
         setNickname(value);
@@ -81,6 +91,16 @@ const SignupPage: React.FC<PageProps> = () => {
             setSubmitting(false);
         }
     };
+
+    if (checkingConsent) {
+        return (
+            <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
+                <Header/>
+                <main className="flex-1"/>
+                <Footer/>
+            </div>
+        );
+    }
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
