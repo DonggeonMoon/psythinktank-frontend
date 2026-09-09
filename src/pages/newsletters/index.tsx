@@ -57,9 +57,9 @@ const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
                         <div
                             className="grid grid-cols-10 md:grid-cols-12 gap-4 border-b border-slate-100 bg-slate-50/50 px-6 py-3 text-[13px] font-semibold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400">
-                            <div className="hidden md:block col-span-2">순번</div>
-                            <div className="col-span-7">제목</div>
-                            <div className="col-span-3 text-right">날짜</div>
+                            <div className="hidden md:block col-span-2 text-center">순번</div>
+                            <div className="col-span-7 text-center">제목</div>
+                            <div className="col-span-3 text-center">날짜</div>
                         </div>
 
                         <div className="divide-y divide-slate-100 dark:divide-slate-800">

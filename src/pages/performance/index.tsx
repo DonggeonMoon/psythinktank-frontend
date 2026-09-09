@@ -327,10 +327,10 @@ const PerformancePage: React.FC<PageProps> = () => {
                             <table className="w-full text-sm">
                                 <thead>
                                     <tr className="border-b border-slate-200 text-left text-xs text-slate-500 dark:border-slate-800 dark:text-slate-400">
-                                        <th className="py-2 pr-4">연도</th>
-                                        <th className="py-2 pr-4">종목</th>
-                                        <th className="py-2 pr-4">수익률</th>
-                                        <th className="py-2 pr-4 text-right">관리</th>
+                                        <th className="py-2 pr-4 text-center">연도</th>
+                                        <th className="py-2 pr-4 text-center">종목</th>
+                                        <th className="py-2 pr-4 text-center">수익률</th>
+                                        <th className="py-2 pr-4 text-center">관리</th>
                                     </tr>
                                 </thead>
                                 <tbody className="divide-y divide-slate-100 dark:divide-slate-800">

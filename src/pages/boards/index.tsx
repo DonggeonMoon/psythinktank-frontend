@@ -135,11 +135,11 @@ const BoardPage: React.FC<PageProps> = () => {
 
                     <div className="overflow-hidden rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950 shadow-sm">
                         <div className="grid grid-cols-6 md:grid-cols-12 gap-4 border-b border-slate-100 bg-slate-50/50 px-6 py-3 text-[13px] font-semibold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400">
-                            <div className="hidden md:block col-span-1">순번</div>
-                            <div className="col-span-4 md:col-span-5">제목</div>
+                            <div className="hidden md:block col-span-1 text-center">순번</div>
+                            <div className="col-span-4 md:col-span-5 text-center">제목</div>
                             <div className="hidden md:block col-span-2 text-center">작성자</div>
                             <div className="hidden md:block col-span-2 text-center">작성일</div>
-                            <div className="col-span-2 text-right">조회수</div>
+                            <div className="col-span-2 text-center">조회수</div>
                         </div>
 
                         <div className="divide-y divide-slate-100 dark:divide-slate-800">
