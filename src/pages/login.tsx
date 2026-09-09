@@ -86,12 +86,14 @@ const LoginPage: React.FC<PageProps> = () => {
                         {submitting ? "로그인 중..." : "로그인"}
                     </button>
 
-                    <p className="text-center text-sm text-slate-500 dark:text-slate-400">
-                        계정이 없으신가요?{" "}
+                    <div className="flex items-center justify-between text-sm text-slate-500 dark:text-slate-400">
+                        <Link to="/find-password" className="hover:underline">
+                            비밀번호를 잊으셨나요?
+                        </Link>
                         <Link to="/signup" className="text-slate-900 dark:text-slate-100 hover:underline">
                             회원가입
                         </Link>
-                    </p>
+                    </div>
                 </form>
             </main>
 
