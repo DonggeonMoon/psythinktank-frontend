@@ -30,6 +30,14 @@ const Header = () => {
                 <span className="text-slate-700 dark:text-slate-300">
                     {profile?.nickname ?? user.email}
                 </span>
+                {profile?.role === "admin" && (
+                    <Link
+                        to="/admin/members"
+                        className="rounded-md border border-slate-300 px-3 py-1 text-sm dark:border-slate-700 hover:text-slate-900 dark:hover:text-white transition-colors"
+                    >
+                        회원 관리
+                    </Link>
+                )}
                 <Link
                     to="/mypage"
                     className="rounded-md border border-slate-300 px-3 py-1 text-sm dark:border-slate-700 hover:text-slate-900 dark:hover:text-white transition-colors"
