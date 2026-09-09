@@ -64,7 +64,7 @@ const AdminMembersPage: React.FC<PageProps> = () => {
         try {
             const constraints: QueryConstraint[] = term
                 ? [orderBy("nickname"), where("nickname", ">=", term), where("nickname", "<=", term + "")]
-                : [orderBy("nickname")];
+                : [orderBy("createdAt", "desc")];
 
             const startAfterDoc = targetPageIndex > 0 ? cursorList[targetPageIndex - 1] : undefined;
             if (startAfterDoc) constraints.push(startAfter(startAfterDoc));
