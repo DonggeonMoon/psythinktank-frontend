@@ -170,7 +170,7 @@ const AdminMembersPage: React.FC<PageProps> = () => {
                 {actionMessage && <p className="text-sm text-red-600 dark:text-red-400">{actionMessage}</p>}
 
                 <div className="overflow-hidden rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950">
-                    <div className="grid grid-cols-12 gap-4 border-b border-slate-100 bg-slate-50/50 px-6 py-3 text-[13px] font-semibold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400">
+                    <div className="hidden md:grid grid-cols-12 gap-4 border-b border-slate-100 bg-slate-50/50 px-6 py-3 text-[13px] font-semibold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400">
                         <div className="col-span-3">닉네임</div>
                         <div className="col-span-4">이메일</div>
                         <div className="col-span-2">등급</div>
@@ -187,31 +187,33 @@ const AdminMembersPage: React.FC<PageProps> = () => {
                             members.map((m) => (
                                 <div
                                     key={m.uid}
-                                    className="grid grid-cols-12 gap-4 px-6 py-4 text-sm items-center text-slate-700 dark:text-slate-300"
+                                    className="flex flex-col gap-1 px-6 py-4 text-sm text-slate-700 dark:text-slate-300 md:grid md:grid-cols-12 md:items-center md:gap-4"
                                 >
-                                    <div className="col-span-3 truncate">{m.nickname}</div>
-                                    <div className="col-span-4 truncate text-slate-500 dark:text-slate-400">{m.email}</div>
-                                    <div className="col-span-2">{ROLE_LABEL[m.role]}</div>
-                                    <div className="col-span-1 text-xs text-slate-400">{formatDate(m.createdAt)}</div>
-                                    <div className="col-span-2 text-right">
-                                        {!canManageRoles || m.uid === user?.uid || m.role === "admin" ? (
-                                            <span className="text-xs text-slate-300 dark:text-slate-600">-</span>
-                                        ) : m.role === "member" ? (
-                                            <button
-                                                onClick={() => handleRoleChange(m.uid, "manager")}
-                                                className="rounded-md border border-slate-300 px-3 py-1 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
-                                            >
-                                                매니저로 승격
-                                            </button>
-                                        ) : (
-                                            <button
-                                                onClick={() => handleRoleChange(m.uid, "member")}
-                                                className="rounded-md border border-slate-300 px-3 py-1 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
-                                            >
-                                                회원으로 강등
-                                            </button>
-                                        )}
+                                    <div className="flex items-center justify-between gap-2 md:contents">
+                                        <div className="truncate font-medium md:col-start-1 md:col-span-3 md:font-normal">{m.nickname}</div>
+                                        <div className="md:col-start-11 md:col-span-2 md:text-right">
+                                            {!canManageRoles || m.uid === user?.uid || m.role === "admin" ? (
+                                                <span className="text-xs text-slate-300 dark:text-slate-600">-</span>
+                                            ) : m.role === "member" ? (
+                                                <button
+                                                    onClick={() => handleRoleChange(m.uid, "manager")}
+                                                    className="rounded-md border border-slate-300 px-3 py-1 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
+                                                >
+                                                    승격
+                                                </button>
+                                            ) : (
+                                                <button
+                                                    onClick={() => handleRoleChange(m.uid, "member")}
+                                                    className="rounded-md border border-slate-300 px-3 py-1 text-xs font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
+                                                >
+                                                    강등
+                                                </button>
+                                            )}
+                                        </div>
                                     </div>
+                                    <div className="truncate text-slate-500 dark:text-slate-400 md:col-start-4 md:col-span-4">{m.email}</div>
+                                    <div className="md:col-start-8 md:col-span-2">{ROLE_LABEL[m.role]}</div>
+                                    <div className="text-xs text-slate-400 md:col-start-10 md:col-span-1">{formatDate(m.createdAt)}</div>
                                 </div>
                             ))
                         )}
