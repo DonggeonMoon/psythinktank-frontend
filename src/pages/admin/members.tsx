@@ -170,6 +170,15 @@ const AdminMembersPage: React.FC<PageProps> = () => {
                 {actionMessage && <p className="text-sm text-red-600 dark:text-red-400">{actionMessage}</p>}
 
                 <div className="overflow-hidden rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950">
+                    <div className="flex items-start justify-between gap-2 border-b border-slate-100 bg-slate-50/50 px-6 py-3 text-[11px] font-semibold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400 md:hidden">
+                        <div className="flex flex-col gap-1">
+                            <div>닉네임</div>
+                            <div>이메일</div>
+                            <div>등급</div>
+                            <div>가입일</div>
+                        </div>
+                        <div className="w-14 text-center">관리</div>
+                    </div>
                     <div className="hidden md:grid grid-cols-12 gap-4 border-b border-slate-100 bg-slate-50/50 px-6 py-3 text-[13px] font-semibold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400">
                         <div className="col-span-3">닉네임</div>
                         <div className="col-span-4">이메일</div>
@@ -191,7 +200,7 @@ const AdminMembersPage: React.FC<PageProps> = () => {
                                 >
                                     <div className="flex items-center justify-between gap-2 md:contents">
                                         <div className="truncate font-medium md:col-start-1 md:col-span-3 md:font-normal">{m.nickname}</div>
-                                        <div className="md:col-start-11 md:col-span-2 md:text-right">
+                                        <div className="w-14 text-center md:w-auto md:col-start-11 md:col-span-2 md:text-right">
                                             {!canManageRoles || m.uid === user?.uid || m.role === "admin" ? (
                                                 <span className="text-xs text-slate-300 dark:text-slate-600">-</span>
                                             ) : m.role === "member" ? (
