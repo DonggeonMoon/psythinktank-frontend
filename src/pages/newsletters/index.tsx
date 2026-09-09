@@ -56,8 +56,8 @@ const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
                         className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-950">
 
                         <div
-                            className="grid grid-cols-12 gap-4 border-b border-slate-100 bg-slate-50/50 px-6 py-3 text-[13px] font-semibold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400">
-                            <div className="col-span-2">순번</div>
+                            className="grid grid-cols-10 md:grid-cols-12 gap-4 border-b border-slate-100 bg-slate-50/50 px-6 py-3 text-[13px] font-semibold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400">
+                            <div className="hidden md:block col-span-2">순번</div>
                             <div className="col-span-7">제목</div>
                             <div className="col-span-3 text-right">날짜</div>
                         </div>
@@ -70,11 +70,11 @@ const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                         href={item.publicURL ?? "#"}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="grid grid-cols-12 gap-4 px-6 py-4 text-sm items-center transition-all duration-200 hover:bg-blue-50/30 dark:hover:bg-blue-900/10 group"
+                                        className="grid grid-cols-10 md:grid-cols-12 gap-4 px-6 py-4 text-sm items-center transition-all duration-200 hover:bg-blue-50/30 dark:hover:bg-blue-900/10 group"
                                     >
 
                                         <div
-                                            className="col-span-2 font-mono text-slate-400 dark:text-slate-500">
+                                            className="hidden md:block col-span-2 font-mono text-slate-400 dark:text-slate-500">
                                             {newsletters.length - idx}
                                         </div>
 
