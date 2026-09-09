@@ -18,6 +18,7 @@ let db: Firestore | undefined;
 if (isBrowser) {
     const app: FirebaseApp = getApps().length ? getApp() : initializeApp(firebaseConfig);
     auth = getAuth(app);
+    auth.languageCode = "ko";
     db = getFirestore(app);
 }
 
