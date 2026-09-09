@@ -6,6 +6,7 @@ import {
     EmailAuthProvider,
     onAuthStateChanged,
     reauthenticateWithCredential,
+    sendPasswordResetEmail,
     signInWithEmailAndPassword,
     signOut,
     updatePassword,
@@ -26,6 +27,7 @@ interface AuthContextValue {
     loading: boolean;
     login: (email: string, password: string) => Promise<void>;
     logout: () => Promise<void>;
+    resetPassword: (email: string) => Promise<void>;
     signup: (email: string, password: string, nickname: string) => Promise<void>;
     checkNicknameAvailable: (nickname: string) => Promise<boolean>;
     updateNickname: (nickname: string) => Promise<void>;
@@ -39,6 +41,7 @@ const AuthContext = createContext<AuthContextValue>({
     loading: true,
     login: async () => {},
     logout: async () => {},
+    resetPassword: async () => {},
     signup: async () => {},
     checkNicknameAvailable: async () => false,
     updateNickname: async () => {},
@@ -101,6 +104,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     const logout = async () => {
         if (!auth) return;
         await signOut(auth);
+    };
+
+    const resetPassword = async (email: string) => {
+        if (!auth) throw new Error("Firebase Auth가 초기화되지 않았습니다.");
+        await sendPasswordResetEmail(auth, email);
     };
 
     const checkNicknameAvailable = async (nickname: string) => {
@@ -185,7 +193,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     return (
         <AuthContext.Provider
-            value={{ user, profile, loading, login, logout, signup, checkNicknameAvailable, updateNickname, changePassword, deleteAccount }}
+            value={{ user, profile, loading, login, logout, resetPassword, signup, checkNicknameAvailable, updateNickname, changePassword, deleteAccount }}
         >
             {children}
         </AuthContext.Provider>
