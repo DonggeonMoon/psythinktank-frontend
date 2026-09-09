@@ -30,6 +30,14 @@ service cloud.firestore {
       allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
     }
 
+    // 이메일 문서 ID = 소문자로 정규화한 이메일. 구조는 nicknames와 동일 (전역 유일성 보장, update 금지).
+    match /emails/{email} {
+      allow read: if true;
+      allow create: if request.auth != null && request.resource.data.uid == request.auth.uid;
+      allow update: if false;
+      allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
+    }
+
     // member < manager < admin 3단계. manager/admin(=운영진)은 공지 작성 + 다른 사람 글 관리 가능
     function currentRole() {
       return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role;

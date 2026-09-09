@@ -32,6 +32,7 @@ interface AuthContextValue {
     logout: () => Promise<void>;
     resetPassword: (email: string) => Promise<void>;
     signup: (email: string, password: string, nickname: string) => Promise<void>;
+    checkEmailAvailable: (email: string) => Promise<boolean>;
     checkNicknameAvailable: (nickname: string) => Promise<boolean>;
     updateNickname: (nickname: string) => Promise<void>;
     changePassword: (currentPassword: string, newPassword: string) => Promise<void>;
@@ -47,12 +48,15 @@ const AuthContext = createContext<AuthContextValue>({
     logout: async () => {},
     resetPassword: async () => {},
     signup: async () => {},
+    checkEmailAvailable: async () => false,
     checkNicknameAvailable: async () => false,
     updateNickname: async () => {},
     changePassword: async () => {},
     deleteAccount: async () => {},
     agreeToPrivacyConsent: async () => {},
 });
+
+const normalizeEmail = (email: string) => email.trim().toLowerCase();
 
 const requireCurrentUser = () => {
     if (!auth?.currentUser || !auth.currentUser.email) {
@@ -133,6 +137,14 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         await sendPasswordResetEmail(auth, email);
     };
 
+    const checkEmailAvailable = async (email: string) => {
+        if (!db) throw new Error("Firebase가 초기화되지 않았습니다.");
+        const normalized = normalizeEmail(email);
+        if (!normalized) return false;
+        const snapshot = await getDoc(doc(db, "emails", normalized));
+        return !snapshot.exists();
+    };
+
     const checkNicknameAvailable = async (nickname: string) => {
         if (!db) throw new Error("Firebase가 초기화되지 않았습니다.");
         const trimmed = nickname.trim();
@@ -151,6 +163,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         try {
             const batch = writeBatch(firestore);
             batch.set(doc(firestore, "nicknames", trimmedNickname), { uid: credential.user.uid });
+            batch.set(doc(firestore, "emails", normalizeEmail(email)), { uid: credential.user.uid });
             batch.set(doc(firestore, "users", credential.user.uid), {
                 email,
                 nickname: trimmedNickname,
@@ -162,8 +175,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             await batch.commit();
         } catch {
             await deleteUser(credential.user).catch(() => {});
-            const error = new Error("닉네임이 이미 사용 중입니다.") as Error & { code?: string };
-            error.code = "nickname/already-in-use";
+            const error = new Error("닉네임 또는 이메일이 이미 사용 중입니다.") as Error & { code?: string };
+            error.code = "signup/duplicate";
             throw error;
         }
 
@@ -226,7 +239,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     return (
         <AuthContext.Provider
-            value={{ user, profile, loading, login, logout, resetPassword, signup, checkNicknameAvailable, updateNickname, changePassword, deleteAccount, agreeToPrivacyConsent }}
+            value={{ user, profile, loading, login, logout, resetPassword, signup, checkEmailAvailable, checkNicknameAvailable, updateNickname, changePassword, deleteAccount, agreeToPrivacyConsent }}
         >
             {children}
         </AuthContext.Provider>

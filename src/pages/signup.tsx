@@ -12,12 +12,15 @@ const inputClass =
     "w-full rounded-md border border-slate-300 bg-white px-4 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:focus:ring-slate-700";
 const labelClass = "block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1";
 
+type EmailStatus = "idle" | "checking" | "available" | "unavailable";
 type NicknameStatus = "idle" | "checking" | "available" | "unavailable";
 
 const SignupPage: React.FC<PageProps> = () => {
-    const {signup, checkNicknameAvailable} = useAuth();
+    const {signup, checkEmailAvailable, checkNicknameAvailable} = useAuth();
     const [checkingConsent, setCheckingConsent] = useState(true);
     const [email, setEmail] = useState("");
+    const [emailStatus, setEmailStatus] = useState<EmailStatus>("idle");
+    const [checkedEmail, setCheckedEmail] = useState<string | null>(null);
     const [nickname, setNickname] = useState("");
     const [nicknameStatus, setNicknameStatus] = useState<NicknameStatus>("idle");
     const [checkedNickname, setCheckedNickname] = useState<string | null>(null);
@@ -33,6 +36,25 @@ const SignupPage: React.FC<PageProps> = () => {
         }
         setCheckingConsent(false);
     }, []);
+
+    const handleEmailChange = (value: string) => {
+        setEmail(value);
+        setEmailStatus("idle");
+    };
+
+    const handleEmailCheck = async () => {
+        const trimmed = email.trim();
+        if (!trimmed) return;
+
+        setEmailStatus("checking");
+        try {
+            const available = await checkEmailAvailable(trimmed);
+            setCheckedEmail(trimmed);
+            setEmailStatus(available ? "available" : "unavailable");
+        } catch {
+            setEmailStatus("idle");
+        }
+    };
 
     const handleNicknameChange = (value: string) => {
         setNickname(value);
@@ -57,8 +79,13 @@ const SignupPage: React.FC<PageProps> = () => {
         e.preventDefault();
         setError(null);
 
+        const trimmedEmail = email.trim();
         const trimmedNickname = nickname.trim();
 
+        if (emailStatus !== "available" || checkedEmail !== trimmedEmail) {
+            setError("이메일 중복 확인을 완료해주세요.");
+            return;
+        }
         if (nicknameStatus !== "available" || checkedNickname !== trimmedNickname) {
             setError("닉네임 중복 확인을 완료해주세요.");
             return;
@@ -80,8 +107,12 @@ const SignupPage: React.FC<PageProps> = () => {
             const code = (err as { code?: string })?.code;
             if (code === "auth/email-already-in-use") {
                 setError("이미 가입된 이메일입니다.");
-            } else if (code === "nickname/already-in-use") {
-                setError("이미 사용 중인 닉네임입니다. 다시 확인해주세요.");
+                setEmailStatus("idle");
+                setCheckedEmail(null);
+            } else if (code === "signup/duplicate") {
+                setError("닉네임 또는 이메일이 이미 사용 중입니다. 다시 확인해주세요.");
+                setEmailStatus("idle");
+                setCheckedEmail(null);
                 setNicknameStatus("idle");
                 setCheckedNickname(null);
             } else {
@@ -114,15 +145,31 @@ const SignupPage: React.FC<PageProps> = () => {
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <div>
                         <label htmlFor="email" className={labelClass}>이메일</label>
-                        <input
-                            id="email"
-                            type="email"
-                            required
-                            autoComplete="email"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            className={inputClass}
-                        />
+                        <div className="flex gap-2">
+                            <input
+                                id="email"
+                                type="email"
+                                required
+                                autoComplete="email"
+                                value={email}
+                                onChange={(e) => handleEmailChange(e.target.value)}
+                                className={inputClass}
+                            />
+                            <button
+                                type="button"
+                                onClick={handleEmailCheck}
+                                disabled={!email.trim() || emailStatus === "checking"}
+                                className="shrink-0 rounded-md border border-slate-300 px-3 text-sm font-medium text-slate-700 hover:bg-slate-100 disabled:opacity-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
+                            >
+                                중복확인
+                            </button>
+                        </div>
+                        {emailStatus === "available" && (
+                            <p className="mt-1 text-sm text-emerald-600 dark:text-emerald-400">사용 가능한 이메일입니다.</p>
+                        )}
+                        {emailStatus === "unavailable" && (
+                            <p className="mt-1 text-sm text-red-600 dark:text-red-400">이미 가입된 이메일입니다.</p>
+                        )}
                     </div>
 
                     <div>
