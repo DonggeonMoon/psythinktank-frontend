@@ -8,6 +8,7 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
       "gatsby-plugin-postcss",
+      "gatsby-plugin-sitemap",
       "gatsby-transformer-json",
       {
           resolve: "gatsby-source-filesystem",
