@@ -23,6 +23,7 @@
     "firebase": "^12.18.0",
     "gatsby": "^5.14.6",
     "gatsby-plugin-postcss": "^6.16.0",
+    "gatsby-plugin-sitemap": "^6.16.0",
     "gatsby-source-filesystem": "^5.16.0",
     "gatsby-transformer-json": "^5.16.0",
     "pg": "^8.20.0",

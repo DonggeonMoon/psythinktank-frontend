@@ -69,31 +69,38 @@ export const sourceNodes: GatsbyNode["sourceNodes"] = async ({ actions, createNo
     if (!fs.existsSync(DATA_DIR)) return
 
     const stockTargets = [
-        { prefix: "stock-details-korea", country: "KOREA" },
-        { prefix: "stock-details-usa", country: "USA" },
-        { prefix: "stock-details-japan", country: "JAPAN" },
+        { prefix: "stock-details-korea", summaryFile: "stocks-korea.json", country: "KOREA" },
+        { prefix: "stock-details-usa", summaryFile: "stocks-usa.json", country: "USA" },
+        { prefix: "stock-details-japan", summaryFile: "stocks-japan.json", country: "JAPAN" },
     ]
 
-    for (const { prefix, country } of stockTargets) {
-        const files = fs.readdirSync(DATA_DIR).filter((f) => f.startsWith(`${prefix}-`) && f.endsWith(".json"))
+    for (const { prefix, summaryFile, country } of stockTargets) {
+        const chunkFiles = fs.readdirSync(DATA_DIR).filter((f) => f.startsWith(`${prefix}-`) && f.endsWith(".json"))
 
-        for (const file of files) {
-            const rows = JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), "utf-8"))
-
-            rows.forEach((row: Record<string, unknown>) => {
-                const nodeData = { ...row, country }
-                createNode({
-                    ...nodeData,
-                    id: createNodeId(`StockDetail-${row.symbol}`),
-                    parent: null,
-                    children: [],
-                    internal: {
-                        type: "StockDetail",
-                        contentDigest: createContentDigest(nodeData),
-                    },
-                })
-            })
+        // DB에서 추출한 상세 청크 파일이 있으면 그걸 우선 쓰고, 없으면 요약 json으로 대체한다.
+        let rows: Record<string, unknown>[] = []
+        if (chunkFiles.length > 0) {
+            rows = chunkFiles.flatMap((file) => JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), "utf-8")))
+        } else {
+            const summaryPath = path.join(DATA_DIR, summaryFile)
+            if (fs.existsSync(summaryPath)) {
+                rows = JSON.parse(fs.readFileSync(summaryPath, "utf-8"))
+            }
         }
+
+        rows.forEach((row) => {
+            const nodeData = { ...row, country }
+            createNode({
+                ...nodeData,
+                id: createNodeId(`StockDetail-${row.symbol}`),
+                parent: null,
+                children: [],
+                internal: {
+                    type: "StockDetail",
+                    contentDigest: createContentDigest(nodeData),
+                },
+            })
+        })
     }
 
     const shareFiles = fs.readdirSync(DATA_DIR).filter((f) => f.startsWith("shareholders-") && f.endsWith(".json"))

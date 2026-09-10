@@ -6,3 +6,4 @@ src/gatsby-types.d.ts
 .env*
 !.env.example
 scripts/serviceAccountKey.json
+src/data/
