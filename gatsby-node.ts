@@ -1,6 +1,13 @@
 import type { GatsbyNode } from "gatsby"
 import * as fs from "fs"
 import * as path from "path"
+import * as dotenv from "dotenv"
+import { initializeApp, getApps } from "firebase/app"
+import { initializeFirestore, getFirestore, collection, getDocs, type Timestamp } from "firebase/firestore"
+
+// Gatsby는 .env.development/.env.production을 브라우저 번들용 DefinePlugin에만 주입하고
+// gatsby-node.ts 같은 Node 코드의 process.env에는 넣어주지 않아서, 여기서 직접 로드해야 한다.
+dotenv.config({ path: path.join(__dirname, `.env.${process.env.NODE_ENV || "development"}`) })
 
 const DATA_DIR = path.join(__dirname, "src/data")
 
@@ -58,14 +65,65 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       symbol: String
       value: Float
     }
+    type BoardPost implements Node {
+      postId: String
+      updatedAt: String
+    }
   `
     createTypes(typeDefs)
 }
 
+// 게시글은 Firestore에만 존재해서 로컬 json 스냅샷이 없으므로, sitemap에 실제 게시글 URL을
+// 포함시키기 위해 빌드 시점에 Firestore에서 게시글 id 목록만 직접 조회해 노드로 만든다.
+const fetchBoardPosts = async (): Promise<{ postId: string; updatedAt: string | null }[]> => {
+    const firebaseConfig = {
+        apiKey: process.env.GATSBY_FIREBASE_API_KEY,
+        authDomain: process.env.GATSBY_FIREBASE_AUTH_DOMAIN,
+        projectId: process.env.GATSBY_FIREBASE_PROJECT_ID,
+        appId: process.env.GATSBY_FIREBASE_APP_ID,
+    }
+
+    if (!firebaseConfig.apiKey || !firebaseConfig.projectId) return []
+
+    const appName = "gatsby-node-sitemap"
+    const existingApp = getApps().find((app) => app.name === appName)
+    const app = existingApp ?? initializeApp(firebaseConfig, appName)
+    const db = existingApp ? getFirestore(app) : initializeFirestore(app, { experimentalAutoDetectLongPolling: true })
+
+    const snapshot = await getDocs(collection(db, "posts"))
+
+    return snapshot.docs.map((doc) => {
+        const data = doc.data() as { updatedAt?: Timestamp; createdAt?: Timestamp }
+        const timestamp = data.updatedAt ?? data.createdAt
+        return { postId: doc.id, updatedAt: timestamp ? timestamp.toDate().toISOString() : null }
+    })
+}
+
 // stock-details-*.json / shareholders-*.json는 50개 단위로 청크된 여러 파일로 나뉘어 있어서,
 // gatsby-transformer-json의 파일명 기반 타입 추론 대신 직접 노드를 만들어 하나의 타입으로 합친다.
-export const sourceNodes: GatsbyNode["sourceNodes"] = async ({ actions, createNodeId, createContentDigest }) => {
+export const sourceNodes: GatsbyNode["sourceNodes"] = async ({ actions, createNodeId, createContentDigest, reporter }) => {
     const { createNode } = actions
+
+    try {
+        const posts = await fetchBoardPosts()
+        await Promise.all(
+            posts.map((post) =>
+                createNode({
+                    ...post,
+                    id: createNodeId(`BoardPost-${post.postId}`),
+                    parent: null,
+                    children: [],
+                    internal: {
+                        type: "BoardPost",
+                        contentDigest: createContentDigest(post),
+                    },
+                })
+            )
+        )
+    } catch (error) {
+        reporter.warn(`게시글 sitemap용 Firestore 조회 실패, 게시글 URL 없이 진행합니다: ${error}`)
+    }
+
     if (!fs.existsSync(DATA_DIR)) return
 
     const stockTargets = [
