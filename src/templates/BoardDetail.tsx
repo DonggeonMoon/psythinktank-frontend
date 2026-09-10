@@ -1,17 +1,17 @@
 import * as React from "react";
 import {useEffect, useState} from "react";
-import {Link, navigate, PageProps} from "gatsby";
+import {Link, navigate, type HeadFC, type PageProps} from "gatsby";
 import {deleteDoc, doc, getDoc, increment, Timestamp, updateDoc} from "firebase/firestore";
 import DOMPurify from "dompurify";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-import Ticker from "../../components/Ticker";
-import {db} from "../../firebase/client";
-import {useAuth} from "../../contexts/AuthContext";
-import {isStaffRole, type Role} from "../../lib/roles";
-import {BOARD_CATEGORY_LABEL, BoardCategory} from "../../lib/boardCategory";
-import CommentSection from "../../components/CommentSection";
-import RoleBadge from "../../components/RoleBadge";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Ticker from "../components/Ticker";
+import {db} from "../firebase/client";
+import {useAuth} from "../contexts/AuthContext";
+import {isStaffRole, type Role} from "../lib/roles";
+import {BOARD_CATEGORY_LABEL, BoardCategory} from "../lib/boardCategory";
+import CommentSection from "../components/CommentSection";
+import RoleBadge from "../components/RoleBadge";
 
 interface Post {
     title: string;
@@ -25,22 +25,26 @@ interface Post {
     category: BoardCategory;
 }
 
+interface BoardDetailContext {
+    postId: string;
+}
+
 const formatDate = (timestamp: Timestamp | null) => {
     if (!timestamp) return "-";
     const d = timestamp.toDate();
     return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
 };
 
-const ArticlePage: React.FC<PageProps> = ({params}) => {
-    const {articleId} = params;
+const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageContext}) => {
+    const {postId} = pageContext;
     const {user, profile} = useAuth();
     const [post, setPost] = useState<Post | null>(null);
     const [loading, setLoading] = useState(true);
     const [notFound, setNotFound] = useState(false);
 
     useEffect(() => {
-        if (!db || !articleId) return;
-        const postRef = doc(db, "posts", articleId);
+        if (!db || !postId) return;
+        const postRef = doc(db, "posts", postId);
 
         (async () => {
             const snapshot = await getDoc(postRef);
@@ -55,15 +59,15 @@ const ArticlePage: React.FC<PageProps> = ({params}) => {
 
             updateDoc(postRef, {views: increment(1)}).catch(() => {});
         })();
-    }, [articleId]);
+    }, [postId]);
 
     const canManage = !!user && !!post && (user.uid === post.authorUid || isStaffRole(profile?.role));
 
     const handleDelete = async () => {
-        if (!db || !articleId) return;
+        if (!db || !postId) return;
         if (!window.confirm("이 게시글을 삭제하시겠습니까?")) return;
 
-        await deleteDoc(doc(db, "posts", articleId));
+        await deleteDoc(doc(db, "posts", postId));
         await navigate("/boards");
     };
 
@@ -149,7 +153,7 @@ const ArticlePage: React.FC<PageProps> = ({params}) => {
                         {canManage && (
                             <>
                                 <Link
-                                    to={`/boards/edit/${articleId}`}
+                                    to={`/boards/edit/${postId}`}
                                     className="rounded-md border border-slate-300 px-6 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900"
                                 >
                                     수정
@@ -164,7 +168,7 @@ const ArticlePage: React.FC<PageProps> = ({params}) => {
                         )}
                     </div>
 
-                    <CommentSection postId={articleId}/>
+                    <CommentSection postId={postId}/>
                 </article>
             </main>
 
@@ -174,8 +178,8 @@ const ArticlePage: React.FC<PageProps> = ({params}) => {
     );
 };
 
-export default ArticlePage;
+export default BoardDetailPage;
 
-export const Head: React.FC<PageProps> = ({ params }) => {
-    return <title>게시글 상세보기 | {params.articleId}</title>;
+export const Head: HeadFC<object, BoardDetailContext> = ({pageContext}) => {
+    return <title>게시글 상세보기 | {pageContext.postId}</title>;
 };

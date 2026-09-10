@@ -184,7 +184,7 @@ export const sourceNodes: GatsbyNode["sourceNodes"] = async ({ actions, createNo
 export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions, reporter }) => {
     const { createPage } = actions
 
-    const result = await graphql<{ allStockDetail: { nodes: { symbol: string }[] } }>(`
+    const stockResult = await graphql<{ allStockDetail: { nodes: { symbol: string }[] } }>(`
         query {
             allStockDetail {
                 nodes {
@@ -194,18 +194,52 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
         }
     `)
 
-    if (result.errors) {
-        reporter.panicOnBuild("종목 상세 페이지 쿼리 실패", result.errors)
+    if (stockResult.errors) {
+        reporter.panicOnBuild("종목 상세 페이지 쿼리 실패", stockResult.errors)
         return
     }
 
-    const nodes = result.data?.allStockDetail.nodes ?? []
+    const stockNodes = stockResult.data?.allStockDetail.nodes ?? []
 
-    nodes.forEach((node) => {
+    stockNodes.forEach((node) => {
         createPage({
             path: `/stocks/${node.symbol}`,
             component: path.resolve("./src/templates/StockDetail.tsx"),
             context: { symbol: node.symbol },
         })
+    })
+
+    // 게시글 상세 페이지는 예전엔 File System Route API의 [articleId] client-only route(matchPath)로
+    // 처리해서 빌드 타임에 정적 파일이 생성되지 않았고, 그 결과 구글 크롤러가 접근하면 404가 났다.
+    // BoardPost 노드(postId 목록, sourceNodes에서 Firestore로부터 조회)를 기준으로 실제 페이지를 생성한다.
+    const boardResult = await graphql<{ allBoardPost: { nodes: { postId: string }[] } }>(`
+        query {
+            allBoardPost {
+                nodes {
+                    postId
+                }
+            }
+        }
+    `)
+
+    if (boardResult.errors) {
+        reporter.panicOnBuild("게시글 상세 페이지 쿼리 실패", boardResult.errors)
+        return
+    }
+
+    const boardPostNodes = boardResult.data?.allBoardPost.nodes ?? []
+    const boardDetailTemplate = path.resolve("./src/templates/BoardDetail.tsx")
+    const total = boardPostNodes.length
+
+    boardPostNodes.forEach((node, index) => {
+        if (!node.postId) return
+
+        createPage({
+            path: `/boards/${node.postId}`,
+            component: boardDetailTemplate,
+            context: { postId: node.postId },
+        })
+
+        reporter.info(`Creating page ${index + 1}/${total}: /boards/${node.postId}/`)
     })
 }
