@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6496/","result":{"data":{"stockDetail":{"symbol":"6496","market":"TSE","stock_name":"NAKAKITA SEISAKUSHO CO.,LTD.","growth":10.37,"dividend":110,"recent_price":5410,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6496"}},"staticQueryHashes":[],"slicesMap":{}}

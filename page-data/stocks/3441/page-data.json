@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3441/","result":{"data":{"stockDetail":{"symbol":"3441","market":"TSE","stock_name":"SANNO Co.,Ltd.","growth":8.63,"dividend":25,"recent_price":2741,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3441"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5192/","result":{"data":{"stockDetail":{"symbol":"5192","market":"TSE","stock_name":"Mitsuboshi Belting Ltd.","growth":1.62,"dividend":193,"recent_price":4355,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5192"}},"staticQueryHashes":[],"slicesMap":{}}

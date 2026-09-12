@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6820/","result":{"data":{"stockDetail":{"symbol":"6820","market":"TSE","stock_name":"ICOM INCORPORATED","growth":0.57,"dividend":87,"recent_price":3565,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6820"}},"staticQueryHashes":[],"slicesMap":{}}

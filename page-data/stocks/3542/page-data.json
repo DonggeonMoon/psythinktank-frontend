@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3542/","result":{"data":{"stockDetail":{"symbol":"3542","market":"TSE","stock_name":"Vega corporation Co.,Ltd.","growth":null,"dividend":17,"recent_price":1549,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3542"}},"staticQueryHashes":[],"slicesMap":{}}

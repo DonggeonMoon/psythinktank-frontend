@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3850/","result":{"data":{"stockDetail":{"symbol":"3850","market":"TSE","stock_name":"NTT DATA INTRAMART CORPORATION","growth":5.18,"dividend":66,"recent_price":3840,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3850"}},"staticQueryHashes":[],"slicesMap":{}}

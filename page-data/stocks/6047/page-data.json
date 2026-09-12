@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6047/","result":{"data":{"stockDetail":{"symbol":"6047","market":"TSE","stock_name":"Gunosy Inc.","growth":5.67,"dividend":13,"recent_price":400,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6047"}},"staticQueryHashes":[],"slicesMap":{}}

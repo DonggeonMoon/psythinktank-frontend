@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9782/","result":{"data":{"stockDetail":{"symbol":"9782","market":"TSE","stock_name":"DMS INC.","growth":null,"dividend":234,"recent_price":3550,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9782"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2146/","result":{"data":{"stockDetail":{"symbol":"2146","market":"TSE","stock_name":"UT Group Co.,Ltd.","growth":-4.33,"dividend":10.23,"recent_price":227,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2146"}},"staticQueryHashes":[],"slicesMap":{}}

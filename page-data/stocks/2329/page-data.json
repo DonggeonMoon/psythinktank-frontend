@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2329/","result":{"data":{"stockDetail":{"symbol":"2329","market":"TSE","stock_name":"TOHOKUSHINSHA FILM CORPORATION","growth":-9.35,"dividend":27.06,"recent_price":501,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2329"}},"staticQueryHashes":[],"slicesMap":{}}

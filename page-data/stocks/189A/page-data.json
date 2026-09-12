@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/189A/","result":{"data":{"stockDetail":{"symbol":"189A","market":"TSE","stock_name":"D&M COMPANY CO.,LTD","growth":112.9,"dividend":20,"recent_price":1016,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"189A"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5622/","result":{"data":{"stockDetail":{"symbol":"5622","market":"TSE","stock_name":"OneBe,Inc.","growth":null,"dividend":0,"recent_price":1200,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5622"}},"staticQueryHashes":[],"slicesMap":{}}

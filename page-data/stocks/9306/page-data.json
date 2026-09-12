@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9306/","result":{"data":{"stockDetail":{"symbol":"9306","market":"TSE","stock_name":"Toyo Logistics Co.,Ltd.","growth":-0.41,"dividend":75,"recent_price":2004,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9306"}},"staticQueryHashes":[],"slicesMap":{}}

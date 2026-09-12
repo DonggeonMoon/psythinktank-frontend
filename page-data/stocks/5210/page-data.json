@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5210/","result":{"data":{"stockDetail":{"symbol":"5210","market":"TSE","stock_name":"Nihon Yamamura Glass Co.,Ltd.","growth":0.96,"dividend":150,"recent_price":2911,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5210"}},"staticQueryHashes":[],"slicesMap":{}}

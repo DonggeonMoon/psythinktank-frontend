@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BKKT.W/","result":{"data":{"stockDetail":{"symbol":"BKKT.W","market":"NYSE","stock_name":"Bakkt Holdings, Inc. Warrant","growth":null,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BKKT.W"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/DOW/","result":{"data":{"stockDetail":{"symbol":"DOW","market":"NYSE","stock_name":"Dow Inc. Common Stock ","growth":-3.89,"dividend":1.4,"recent_price":29.56999969482422,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"DOW"}},"staticQueryHashes":[],"slicesMap":{}}

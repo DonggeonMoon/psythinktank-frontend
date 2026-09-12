@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2173/","result":{"data":{"stockDetail":{"symbol":"2173","market":"TSE","stock_name":"Hakuten Corporation","growth":7.52,"dividend":27,"recent_price":720,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2173"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8039/","result":{"data":{"stockDetail":{"symbol":"8039","market":"TSE","stock_name":"TSUKIJI UOICHIBA COMPANY,LIMITED","growth":2.82,"dividend":35,"recent_price":3515,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8039"}},"staticQueryHashes":[],"slicesMap":{}}

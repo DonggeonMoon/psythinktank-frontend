@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3046/","result":{"data":{"stockDetail":{"symbol":"3046","market":"TSE","stock_name":"JINS HOLDINGS Inc.","growth":5.34,"dividend":115,"recent_price":5700,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3046"}},"staticQueryHashes":[],"slicesMap":{}}

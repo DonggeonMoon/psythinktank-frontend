@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5015/","result":{"data":{"stockDetail":{"symbol":"5015","market":"TSE","stock_name":"BP Castrol K.K.","growth":null,"dividend":50,"recent_price":999,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5015"}},"staticQueryHashes":[],"slicesMap":{}}

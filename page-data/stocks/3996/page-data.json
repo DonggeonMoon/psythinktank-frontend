@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3996/","result":{"data":{"stockDetail":{"symbol":"3996","market":"TSE","stock_name":"Signpost Corporation","growth":18.6,"dividend":0,"recent_price":205,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3996"}},"staticQueryHashes":[],"slicesMap":{}}

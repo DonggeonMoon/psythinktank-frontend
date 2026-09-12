@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8331/","result":{"data":{"stockDetail":{"symbol":"8331","market":"TSE","stock_name":"The Chiba Bank,Ltd.","growth":2.27,"dividend":60,"recent_price":2861,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8331"}},"staticQueryHashes":[],"slicesMap":{}}

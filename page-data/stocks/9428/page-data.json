@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9428/","result":{"data":{"stockDetail":{"symbol":"9428","market":"TSE","stock_name":"CROPS CORPORATION","growth":8.34,"dividend":32,"recent_price":1482,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9428"}},"staticQueryHashes":[],"slicesMap":{}}

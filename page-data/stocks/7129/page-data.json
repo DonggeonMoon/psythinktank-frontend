@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7129/","result":{"data":{"stockDetail":{"symbol":"7129","market":"TSE","stock_name":"Miahelsa Holdings Corporation","growth":-0.49,"dividend":30,"recent_price":1175,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7129"}},"staticQueryHashes":[],"slicesMap":{}}

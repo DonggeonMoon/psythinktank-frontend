@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8043/","result":{"data":{"stockDetail":{"symbol":"8043","market":"TSE","stock_name":"Starzen Company Limited","growth":0.86,"dividend":52,"recent_price":1510,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8043"}},"staticQueryHashes":[],"slicesMap":{}}

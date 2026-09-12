@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7377/","result":{"data":{"stockDetail":{"symbol":"7377","market":"TSE","stock_name":"DN HOLDINGS CO.,LTD.","growth":-0.41,"dividend":75,"recent_price":1721,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7377"}},"staticQueryHashes":[],"slicesMap":{}}

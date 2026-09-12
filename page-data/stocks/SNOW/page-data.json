@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SNOW/","result":{"data":{"stockDetail":{"symbol":"SNOW","market":"NYSE","stock_name":"Snowflake Inc. Common Stock","growth":15.65,"dividend":0,"recent_price":335.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SNOW"}},"staticQueryHashes":[],"slicesMap":{}}

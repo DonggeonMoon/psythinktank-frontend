@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5527/","result":{"data":{"stockDetail":{"symbol":"5527","market":"TSE","stock_name":"property technologies Inc.","growth":-2.3,"dividend":25,"recent_price":742,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5527"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4243/","result":{"data":{"stockDetail":{"symbol":"4243","market":"TSE","stock_name":"NIX,INC.","growth":-1.91,"dividend":20,"recent_price":1055,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4243"}},"staticQueryHashes":[],"slicesMap":{}}

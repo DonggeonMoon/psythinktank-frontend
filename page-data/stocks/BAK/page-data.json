@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BAK/","result":{"data":{"stockDetail":{"symbol":"BAK","market":"NYSE","stock_name":"Braskem SA ADR","growth":-3.92,"dividend":0,"recent_price":1.9199999570846558,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BAK"}},"staticQueryHashes":[],"slicesMap":{}}

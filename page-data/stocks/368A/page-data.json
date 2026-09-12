@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/368A/","result":{"data":{"stockDetail":{"symbol":"368A","market":"TSE","stock_name":"Kitazato Corporation","growth":-3.49,"dividend":41,"recent_price":1442,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"368A"}},"staticQueryHashes":[],"slicesMap":{}}

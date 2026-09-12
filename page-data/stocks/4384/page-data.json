@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4384/","result":{"data":{"stockDetail":{"symbol":"4384","market":"TSE","stock_name":"RAKSUL INC.","growth":26.36,"dividend":3,"recent_price":null,"basis_date":"2026-05-29"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4384"}},"staticQueryHashes":[],"slicesMap":{}}

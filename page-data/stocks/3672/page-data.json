@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3672/","result":{"data":{"stockDetail":{"symbol":"3672","market":"TSE","stock_name":"AltPlusInc.","growth":-8.29,"dividend":0,"recent_price":29,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3672"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2332/","result":{"data":{"stockDetail":{"symbol":"2332","market":"TSE","stock_name":"Quest Co.,Ltd.","growth":12.58,"dividend":61,"recent_price":1704,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2332"}},"staticQueryHashes":[],"slicesMap":{}}

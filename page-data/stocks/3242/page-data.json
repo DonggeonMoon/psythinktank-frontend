@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3242/","result":{"data":{"stockDetail":{"symbol":"3242","market":"TSE","stock_name":"URBANET CORPORATION CO.,LTD.","growth":23.29,"dividend":24,"recent_price":522,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3242"}},"staticQueryHashes":[],"slicesMap":{}}

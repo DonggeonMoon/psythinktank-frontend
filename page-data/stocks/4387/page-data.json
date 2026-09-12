@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4387/","result":{"data":{"stockDetail":{"symbol":"4387","market":"TSE","stock_name":"ZUU Co.,Ltd.","growth":-20.66,"dividend":0,"recent_price":551,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4387"}},"staticQueryHashes":[],"slicesMap":{}}

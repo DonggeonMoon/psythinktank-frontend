@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/HUBB/","result":{"data":{"stockDetail":{"symbol":"HUBB","market":"NYSE","stock_name":"Hubbell Inc Common Stock","growth":1.69,"dividend":5.68,"recent_price":464.75,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"HUBB"}},"staticQueryHashes":[],"slicesMap":{}}

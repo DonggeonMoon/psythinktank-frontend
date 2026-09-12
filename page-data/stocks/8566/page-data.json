@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8566/","result":{"data":{"stockDetail":{"symbol":"8566","market":"TSE","stock_name":"RICOH LEASING COMPANY,LTD.","growth":1.75,"dividend":223,"recent_price":6730,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8566"}},"staticQueryHashes":[],"slicesMap":{}}

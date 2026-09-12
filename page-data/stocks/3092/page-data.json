@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3092/","result":{"data":{"stockDetail":{"symbol":"3092","market":"TSE","stock_name":"ZOZO,Inc.","growth":7.55,"dividend":40,"recent_price":1142.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3092"}},"staticQueryHashes":[],"slicesMap":{}}

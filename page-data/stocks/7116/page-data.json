@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7116/","result":{"data":{"stockDetail":{"symbol":"7116","market":"TSE","stock_name":"DAIWA TSUSHIN Co.,Ltd","growth":0.87,"dividend":40,"recent_price":null,"basis_date":"2026-03-27"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7116"}},"staticQueryHashes":[],"slicesMap":{}}

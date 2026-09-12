@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4425/","result":{"data":{"stockDetail":{"symbol":"4425","market":"TSE","stock_name":"Kudan Inc.","growth":-26.83,"dividend":0,"recent_price":1556,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4425"}},"staticQueryHashes":[],"slicesMap":{}}

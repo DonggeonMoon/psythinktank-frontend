@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6420/","result":{"data":{"stockDetail":{"symbol":"6420","market":"TSE","stock_name":"GALILEI CO.LTD.","growth":4.77,"dividend":82,"recent_price":3560,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6420"}},"staticQueryHashes":[],"slicesMap":{}}

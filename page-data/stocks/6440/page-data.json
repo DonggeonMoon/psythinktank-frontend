@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6440/","result":{"data":{"stockDetail":{"symbol":"6440","market":"TSE","stock_name":"JUKI CORPORATION","growth":-17.16,"dividend":25,"recent_price":715,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6440"}},"staticQueryHashes":[],"slicesMap":{}}

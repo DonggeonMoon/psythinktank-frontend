@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2524/","result":{"data":{"stockDetail":{"symbol":"2524","market":"TSE","stock_name":"NZAM ETF TOPIX","growth":null,"dividend":30.44,"recent_price":4198,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2524"}},"staticQueryHashes":[],"slicesMap":{}}

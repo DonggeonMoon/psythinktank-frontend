@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/533A/","result":{"data":{"stockDetail":{"symbol":"533A","market":"TSE","stock_name":"NZAM ETF S&P500(Unhedged)","growth":null,"dividend":0,"recent_price":2279,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"533A"}},"staticQueryHashes":[],"slicesMap":{}}

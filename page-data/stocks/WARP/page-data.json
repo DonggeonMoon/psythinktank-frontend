@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/WARP/","result":{"data":{"stockDetail":{"symbol":"WARP","market":"NASDAQ","stock_name":"VanEck Space ETF","growth":null,"dividend":0,"recent_price":20.920000076293945,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"WARP"}},"staticQueryHashes":[],"slicesMap":{}}

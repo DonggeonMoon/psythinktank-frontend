@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/GEO/","result":{"data":{"stockDetail":{"symbol":"GEO","market":"NYSE","stock_name":"Geo Group Inc (The) REIT","growth":9.09,"dividend":0,"recent_price":32.040000915527344,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"GEO"}},"staticQueryHashes":[],"slicesMap":{}}

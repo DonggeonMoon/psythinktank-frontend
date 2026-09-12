@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2593/","result":{"data":{"stockDetail":{"symbol":"2593","market":"TSE","stock_name":"ITO EN,LTD.","growth":0.37,"dividend":52,"recent_price":3187,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2593"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3132/","result":{"data":{"stockDetail":{"symbol":"3132","market":"TSE","stock_name":"MACNICA HOLDINGS,INC.","growth":3.75,"dividend":80,"recent_price":3547,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3132"}},"staticQueryHashes":[],"slicesMap":{}}

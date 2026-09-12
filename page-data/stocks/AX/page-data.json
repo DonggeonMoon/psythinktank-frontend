@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/AX/","result":{"data":{"stockDetail":{"symbol":"AX","market":"NYSE","stock_name":"Axos Financial, Inc. Common Stock","growth":10.16,"dividend":0,"recent_price":96.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"AX"}},"staticQueryHashes":[],"slicesMap":{}}

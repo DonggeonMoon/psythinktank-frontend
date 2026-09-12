@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3753/","result":{"data":{"stockDetail":{"symbol":"3753","market":"TSE","stock_name":"FLIGHT SOLUTIONS Inc.","growth":7.77,"dividend":0,"recent_price":216,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3753"}},"staticQueryHashes":[],"slicesMap":{}}

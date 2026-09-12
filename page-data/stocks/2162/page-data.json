@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2162/","result":{"data":{"stockDetail":{"symbol":"2162","market":"TSE","stock_name":"nms Holdings Corporation","growth":3.48,"dividend":9,"recent_price":null,"basis_date":"2026-08-28"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2162"}},"staticQueryHashes":[],"slicesMap":{}}

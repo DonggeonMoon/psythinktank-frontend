@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BBH/","result":{"data":{"stockDetail":{"symbol":"BBH","market":"NASDAQ","stock_name":"VanEck Biotech ETF","growth":null,"dividend":0,"recent_price":232.33999633789062,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BBH"}},"staticQueryHashes":[],"slicesMap":{}}

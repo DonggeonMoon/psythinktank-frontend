@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/WNS/","result":{"data":{"stockDetail":{"symbol":"WNS","market":"NYSE","stock_name":"WNS (Holdings) Limited Ordinary Shares","growth":7.28,"dividend":0,"recent_price":null,"basis_date":"2025-10-21"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"WNS"}},"staticQueryHashes":[],"slicesMap":{}}

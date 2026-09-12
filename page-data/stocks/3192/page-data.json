@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3192/","result":{"data":{"stockDetail":{"symbol":"3192","market":"TSE","stock_name":"Shirohato Co.,Ltd.","growth":-3.49,"dividend":0,"recent_price":283,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3192"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2168/","result":{"data":{"stockDetail":{"symbol":"2168","market":"TSE","stock_name":"Pasona Group Inc.","growth":1.51,"dividend":75,"recent_price":1661,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2168"}},"staticQueryHashes":[],"slicesMap":{}}

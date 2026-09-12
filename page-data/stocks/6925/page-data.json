@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6925/","result":{"data":{"stockDetail":{"symbol":"6925","market":"TSE","stock_name":"USHIO INC.","growth":-1.91,"dividend":70,"recent_price":3670,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6925"}},"staticQueryHashes":[],"slicesMap":{}}

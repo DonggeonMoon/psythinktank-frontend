@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1596/","result":{"data":{"stockDetail":{"symbol":"1596","market":"TSE","stock_name":"NZAM ETF TOPIX Ex-Financials","growth":null,"dividend":23.65,"recent_price":3074,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1596"}},"staticQueryHashes":[],"slicesMap":{}}

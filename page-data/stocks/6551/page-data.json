@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6551/","result":{"data":{"stockDetail":{"symbol":"6551","market":"TSE","stock_name":"TSUNAGU GROUP HOLDINGS Inc.","growth":-12.8,"dividend":20,"recent_price":629,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6551"}},"staticQueryHashes":[],"slicesMap":{}}

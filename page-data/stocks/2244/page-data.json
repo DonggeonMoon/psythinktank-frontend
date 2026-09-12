@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2244/","result":{"data":{"stockDetail":{"symbol":"2244","market":"TSE","stock_name":"Global X US Tech Top 20 ETF","growth":null,"dividend":0,"recent_price":3558,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2244"}},"staticQueryHashes":[],"slicesMap":{}}

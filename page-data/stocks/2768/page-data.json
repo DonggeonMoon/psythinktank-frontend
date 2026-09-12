@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2768/","result":{"data":{"stockDetail":{"symbol":"2768","market":"TSE","stock_name":"Sojitz Corporation","growth":6.65,"dividend":180,"recent_price":5762,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2768"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8219/","result":{"data":{"stockDetail":{"symbol":"8219","market":"TSE","stock_name":"AOYAMA TRADING Co.,Ltd.","growth":1.6,"dividend":38,"recent_price":771,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8219"}},"staticQueryHashes":[],"slicesMap":{}}

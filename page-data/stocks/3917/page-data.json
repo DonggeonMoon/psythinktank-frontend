@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3917/","result":{"data":{"stockDetail":{"symbol":"3917","market":"TSE","stock_name":"iRidge,Inc.","growth":9.64,"dividend":0,"recent_price":456,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3917"}},"staticQueryHashes":[],"slicesMap":{}}

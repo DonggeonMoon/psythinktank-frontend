@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5867/","result":{"data":{"stockDetail":{"symbol":"5867","market":"TSE","stock_name":"ES NETWORKS CO.,LTD.","growth":20.78,"dividend":50,"recent_price":1338,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5867"}},"staticQueryHashes":[],"slicesMap":{}}

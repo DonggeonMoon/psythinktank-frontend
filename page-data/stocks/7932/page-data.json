@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7932/","result":{"data":{"stockDetail":{"symbol":"7932","market":"TSE","stock_name":"Nippi,Incorporated","growth":-1.56,"dividend":701,"recent_price":11800,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7932"}},"staticQueryHashes":[],"slicesMap":{}}

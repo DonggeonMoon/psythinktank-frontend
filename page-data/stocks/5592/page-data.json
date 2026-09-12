@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5592/","result":{"data":{"stockDetail":{"symbol":"5592","market":"TSE","stock_name":"Kusurinomadoguchi,Inc.","growth":1.45,"dividend":40,"recent_price":2664,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5592"}},"staticQueryHashes":[],"slicesMap":{}}

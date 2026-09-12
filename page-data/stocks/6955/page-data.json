@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6955/","result":{"data":{"stockDetail":{"symbol":"6955","market":"TSE","stock_name":"FDK CORPORATION","growth":0.62,"dividend":0,"recent_price":411,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6955"}},"staticQueryHashes":[],"slicesMap":{}}

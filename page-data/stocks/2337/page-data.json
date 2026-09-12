@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2337/","result":{"data":{"stockDetail":{"symbol":"2337","market":"TSE","stock_name":"Ichigo Inc.","growth":8.64,"dividend":15.5,"recent_price":394,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2337"}},"staticQueryHashes":[],"slicesMap":{}}

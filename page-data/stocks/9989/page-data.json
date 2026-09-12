@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9989/","result":{"data":{"stockDetail":{"symbol":"9989","market":"TSE","stock_name":"SUNDRUG CO.,LTD.","growth":4.37,"dividend":132,"recent_price":3726,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9989"}},"staticQueryHashes":[],"slicesMap":{}}

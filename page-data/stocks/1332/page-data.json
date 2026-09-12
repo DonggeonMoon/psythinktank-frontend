@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1332/","result":{"data":{"stockDetail":{"symbol":"1332","market":"TSE","stock_name":"Nissui Corporation","growth":11.56,"dividend":32,"recent_price":1229.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1332"}},"staticQueryHashes":[],"slicesMap":{}}

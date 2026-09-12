@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3488/","result":{"data":{"stockDetail":{"symbol":"3488","market":"TSE","stock_name":"XYMAX REIT Investment Corporation","growth":null,"dividend":6,"recent_price":102700,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3488"}},"staticQueryHashes":[],"slicesMap":{}}

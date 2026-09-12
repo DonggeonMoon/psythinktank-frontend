@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3020/","result":{"data":{"stockDetail":{"symbol":"3020","market":"TSE","stock_name":"Applied Co.,Ltd.","growth":4.51,"dividend":100,"recent_price":4355,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3020"}},"staticQueryHashes":[],"slicesMap":{}}

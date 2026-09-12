@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3712/","result":{"data":{"stockDetail":{"symbol":"3712","market":"TSE","stock_name":"Information Planning CO.,LTD.","growth":8.45,"dividend":24,"recent_price":1098,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3712"}},"staticQueryHashes":[],"slicesMap":{}}

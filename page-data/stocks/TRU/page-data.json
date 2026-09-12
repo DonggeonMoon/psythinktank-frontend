@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/TRU/","result":{"data":{"stockDetail":{"symbol":"TRU","market":"NYSE","stock_name":"TransUnion Common Stock","growth":0.75,"dividend":0.5,"recent_price":77.6500015258789,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"TRU"}},"staticQueryHashes":[],"slicesMap":{}}

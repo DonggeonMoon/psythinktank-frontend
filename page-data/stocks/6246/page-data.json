@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6246/","result":{"data":{"stockDetail":{"symbol":"6246","market":"TSE","stock_name":"Techno Smart Corp.","growth":4.08,"dividend":92,"recent_price":1865,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6246"}},"staticQueryHashes":[],"slicesMap":{}}

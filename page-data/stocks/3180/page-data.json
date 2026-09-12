@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3180/","result":{"data":{"stockDetail":{"symbol":"3180","market":"TSE","stock_name":"BEAUTY GARAGE Inc.","growth":5.2,"dividend":18,"recent_price":1670,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3180"}},"staticQueryHashes":[],"slicesMap":{}}

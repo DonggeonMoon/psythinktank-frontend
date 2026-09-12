@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8923/","result":{"data":{"stockDetail":{"symbol":"8923","market":"TSE","stock_name":"TOSEI CORPORATION","growth":8.16,"dividend":55,"recent_price":1751,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8923"}},"staticQueryHashes":[],"slicesMap":{}}

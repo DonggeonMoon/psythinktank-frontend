@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1867/","result":{"data":{"stockDetail":{"symbol":"1867","market":"TSE","stock_name":"UEKI CORPORATION","growth":1.21,"dividend":110,"recent_price":2722,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1867"}},"staticQueryHashes":[],"slicesMap":{}}

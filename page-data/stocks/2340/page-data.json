@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2340/","result":{"data":{"stockDetail":{"symbol":"2340","market":"TSE","stock_name":"GOKURAKUYU HOLDINGS CO.,LTD.","growth":3.87,"dividend":6,"recent_price":519,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2340"}},"staticQueryHashes":[],"slicesMap":{}}

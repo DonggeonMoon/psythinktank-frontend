@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2301/","result":{"data":{"stockDetail":{"symbol":"2301","market":"TSE","stock_name":"GAKUJO CO.,Ltd.","growth":null,"dividend":76,"recent_price":1723,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2301"}},"staticQueryHashes":[],"slicesMap":{}}

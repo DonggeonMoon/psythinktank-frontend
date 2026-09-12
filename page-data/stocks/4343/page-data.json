@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4343/","result":{"data":{"stockDetail":{"symbol":"4343","market":"TSE","stock_name":"AEON Fantasy Co.,LTD.","growth":-14.39,"dividend":20,"recent_price":2883,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4343"}},"staticQueryHashes":[],"slicesMap":{}}

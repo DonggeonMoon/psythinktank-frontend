@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9603/","result":{"data":{"stockDetail":{"symbol":"9603","market":"TSE","stock_name":"H.I.S.Co.,Ltd.","growth":1.31,"dividend":25,"recent_price":1185,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9603"}},"staticQueryHashes":[],"slicesMap":{}}

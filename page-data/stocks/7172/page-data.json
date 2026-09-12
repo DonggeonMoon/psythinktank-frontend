@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7172/","result":{"data":{"stockDetail":{"symbol":"7172","market":"TSE","stock_name":"Japan Investment Adviser Co.,Ltd.","growth":15.49,"dividend":108,"recent_price":2106,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7172"}},"staticQueryHashes":[],"slicesMap":{}}

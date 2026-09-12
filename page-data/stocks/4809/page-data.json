@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4809/","result":{"data":{"stockDetail":{"symbol":"4809","market":"TSE","stock_name":"Paraca Inc.","growth":null,"dividend":72,"recent_price":2029,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4809"}},"staticQueryHashes":[],"slicesMap":{}}

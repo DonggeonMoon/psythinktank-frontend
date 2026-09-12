@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5621/","result":{"data":{"stockDetail":{"symbol":"5621","market":"TSE","stock_name":"Human Technologies,Inc.","growth":5.66,"dividend":35,"recent_price":1577,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5621"}},"staticQueryHashes":[],"slicesMap":{}}

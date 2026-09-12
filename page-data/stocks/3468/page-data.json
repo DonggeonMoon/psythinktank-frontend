@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3468/","result":{"data":{"stockDetail":{"symbol":"3468","market":"TSE","stock_name":"Star Asia Investment Corporation","growth":null,"dividend":3,"recent_price":52700,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3468"}},"staticQueryHashes":[],"slicesMap":{}}

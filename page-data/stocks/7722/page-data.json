@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7722/","result":{"data":{"stockDetail":{"symbol":"7722","market":"TSE","stock_name":"KOKUSAI CO.,LTD.","growth":-0.34,"dividend":45,"recent_price":775,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7722"}},"staticQueryHashes":[],"slicesMap":{}}

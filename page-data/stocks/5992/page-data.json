@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5992/","result":{"data":{"stockDetail":{"symbol":"5992","market":"TSE","stock_name":"CHUO SPRING CO.,LTD.","growth":0,"dividend":75,"recent_price":3690,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5992"}},"staticQueryHashes":[],"slicesMap":{}}

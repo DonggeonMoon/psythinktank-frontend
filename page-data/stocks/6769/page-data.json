@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6769/","result":{"data":{"stockDetail":{"symbol":"6769","market":"TSE","stock_name":"THine Electronics,Inc.","growth":3.08,"dividend":15,"recent_price":1126,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6769"}},"staticQueryHashes":[],"slicesMap":{}}

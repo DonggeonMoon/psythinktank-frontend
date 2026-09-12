@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2327/","result":{"data":{"stockDetail":{"symbol":"2327","market":"TSE","stock_name":"NS Solutions Corporation","growth":18.84,"dividend":87,"recent_price":3992,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2327"}},"staticQueryHashes":[],"slicesMap":{}}

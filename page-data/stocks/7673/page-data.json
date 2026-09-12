@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7673/","result":{"data":{"stockDetail":{"symbol":"7673","market":"TSE","stock_name":"DAIKO TSUSAN CO.,LTD.","growth":-1.41,"dividend":70,"recent_price":1701,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7673"}},"staticQueryHashes":[],"slicesMap":{}}

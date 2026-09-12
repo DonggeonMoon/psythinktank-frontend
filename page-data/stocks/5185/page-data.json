@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5185/","result":{"data":{"stockDetail":{"symbol":"5185","market":"TSE","stock_name":"Fukoku Co.,Ltd.","growth":-2.7,"dividend":100,"recent_price":2014,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5185"}},"staticQueryHashes":[],"slicesMap":{}}

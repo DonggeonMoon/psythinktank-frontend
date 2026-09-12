@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9163/","result":{"data":{"stockDetail":{"symbol":"9163","market":"TSE","stock_name":"Nareru Group Inc.","growth":12.36,"dividend":115,"recent_price":2352,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9163"}},"staticQueryHashes":[],"slicesMap":{}}

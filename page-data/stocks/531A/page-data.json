@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/531A/","result":{"data":{"stockDetail":{"symbol":"531A","market":"TSE","stock_name":"NZAM ETF Nikkei High Dividend 50","growth":null,"dividend":0,"recent_price":2333,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"531A"}},"staticQueryHashes":[],"slicesMap":{}}

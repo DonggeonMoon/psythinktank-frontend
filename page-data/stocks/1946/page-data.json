@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1946/","result":{"data":{"stockDetail":{"symbol":"1946","market":"TSE","stock_name":"TOENEC CORPORATION","growth":1.11,"dividend":76,"recent_price":2226,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1946"}},"staticQueryHashes":[],"slicesMap":{}}

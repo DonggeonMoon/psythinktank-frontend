@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/AIA/","result":{"data":{"stockDetail":{"symbol":"AIA","market":"NASDAQ","stock_name":"iShares Asia 50 ETF","growth":null,"dividend":0,"recent_price":144.08999633789062,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"AIA"}},"staticQueryHashes":[],"slicesMap":{}}

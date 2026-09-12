@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3374/","result":{"data":{"stockDetail":{"symbol":"3374","market":"TSE","stock_name":"Naigai Tec Corporation","growth":4.53,"dividend":105,"recent_price":4030,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3374"}},"staticQueryHashes":[],"slicesMap":{}}

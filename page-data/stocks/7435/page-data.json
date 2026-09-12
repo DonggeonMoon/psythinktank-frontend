@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7435/","result":{"data":{"stockDetail":{"symbol":"7435","market":"TSE","stock_name":"NADEX CO.,LTD.","growth":-12.66,"dividend":31,"recent_price":1305,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7435"}},"staticQueryHashes":[],"slicesMap":{}}

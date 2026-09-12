@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/WAGN/","result":{"data":{"stockDetail":{"symbol":"WAGN","market":"NYSE","stock_name":"Pabrai Wagons ETF","growth":null,"dividend":0,"recent_price":16.049999237060547,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"WAGN"}},"staticQueryHashes":[],"slicesMap":{}}

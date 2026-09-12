@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6652/","result":{"data":{"stockDetail":{"symbol":"6652","market":"TSE","stock_name":"IDEC CORPORATION","growth":2.35,"dividend":130,"recent_price":3630,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6652"}},"staticQueryHashes":[],"slicesMap":{}}

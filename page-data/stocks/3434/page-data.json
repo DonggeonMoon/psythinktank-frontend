@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3434/","result":{"data":{"stockDetail":{"symbol":"3434","market":"TSE","stock_name":"ALPHA Corporation","growth":-2.14,"dividend":51,"recent_price":1249,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3434"}},"staticQueryHashes":[],"slicesMap":{}}

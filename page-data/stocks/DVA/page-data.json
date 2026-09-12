@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/DVA/","result":{"data":{"stockDetail":{"symbol":"DVA","market":"NYSE","stock_name":"DaVita Inc. Common Stock","growth":2.63,"dividend":0,"recent_price":180.05999755859375,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"DVA"}},"staticQueryHashes":[],"slicesMap":{}}

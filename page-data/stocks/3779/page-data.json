@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3779/","result":{"data":{"stockDetail":{"symbol":"3779","market":"TSE","stock_name":"J ESCOM HOLDINGS,INC.","growth":-6.78,"dividend":0,"recent_price":129,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3779"}},"staticQueryHashes":[],"slicesMap":{}}

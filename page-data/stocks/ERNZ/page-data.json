@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ERNZ/","result":{"data":{"stockDetail":{"symbol":"ERNZ","market":"NASDAQ","stock_name":"TrueShares Active Yield ETF","growth":null,"dividend":0,"recent_price":null,"basis_date":"2026-04-07"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ERNZ"}},"staticQueryHashes":[],"slicesMap":{}}

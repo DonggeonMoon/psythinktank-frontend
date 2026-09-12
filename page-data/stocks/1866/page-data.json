@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1866/","result":{"data":{"stockDetail":{"symbol":"1866","market":"TSE","stock_name":"KITANO CONSTRUCTION CORP.","growth":3.44,"dividend":30,"recent_price":1160,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1866"}},"staticQueryHashes":[],"slicesMap":{}}

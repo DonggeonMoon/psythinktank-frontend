@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CLCO/","result":{"data":{"stockDetail":{"symbol":"CLCO","market":"NYSE","stock_name":"Cool Company Ltd. Common Shares","growth":-42.56,"dividend":0,"recent_price":null,"basis_date":"2026-01-13"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CLCO"}},"staticQueryHashes":[],"slicesMap":{}}

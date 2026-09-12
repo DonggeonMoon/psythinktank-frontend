@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3656/","result":{"data":{"stockDetail":{"symbol":"3656","market":"TSE","stock_name":"KLab Inc.","growth":-29.85,"dividend":0,"recent_price":190,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3656"}},"staticQueryHashes":[],"slicesMap":{}}

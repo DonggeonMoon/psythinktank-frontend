@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6026/","result":{"data":{"stockDetail":{"symbol":"6026","market":"TSE","stock_name":"GMO TECH,Inc.","growth":7.98,"dividend":0,"recent_price":4915,"basis_date":"2025-11-21"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6026"}},"staticQueryHashes":[],"slicesMap":{}}

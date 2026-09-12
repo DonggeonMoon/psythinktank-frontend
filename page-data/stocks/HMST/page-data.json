@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/HMST/","result":{"data":{"stockDetail":{"symbol":"HMST","market":"NASDAQ","stock_name":"HomeStreet, Inc. - Common Stock","growth":23.14,"dividend":0,"recent_price":null,"basis_date":"2025-10-06"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"HMST"}},"staticQueryHashes":[],"slicesMap":{}}

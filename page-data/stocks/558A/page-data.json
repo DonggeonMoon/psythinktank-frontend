@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/558A/","result":{"data":{"stockDetail":{"symbol":"558A","market":"TSE","stock_name":"SQUEEZE Inc.","growth":null,"dividend":0,"recent_price":5880,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"558A"}},"staticQueryHashes":[],"slicesMap":{}}

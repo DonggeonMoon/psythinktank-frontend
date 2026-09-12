@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/AIFR/","result":{"data":{"stockDetail":{"symbol":"AIFR","market":"NASDAQ","stock_name":"Defiance Global Foundries ETF","growth":null,"dividend":null,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"AIFR"}},"staticQueryHashes":[],"slicesMap":{}}

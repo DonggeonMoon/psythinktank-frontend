@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SOHO/","result":{"data":{"stockDetail":{"symbol":"SOHO","market":"NASDAQ","stock_name":"Sotherly Hotels Inc. - Common Stock","growth":0,"dividend":0,"recent_price":null,"basis_date":"2026-02-17"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SOHO"}},"staticQueryHashes":[],"slicesMap":{}}

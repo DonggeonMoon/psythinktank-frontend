@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/198A/","result":{"data":{"stockDetail":{"symbol":"198A","market":"TSE","stock_name":"PostPrime Inc.","growth":0,"dividend":0,"recent_price":170,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"198A"}},"staticQueryHashes":[],"slicesMap":{}}

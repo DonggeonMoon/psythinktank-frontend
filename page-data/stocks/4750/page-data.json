@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4750/","result":{"data":{"stockDetail":{"symbol":"4750","market":"TSE","stock_name":"DAISAN CO.,LTD.","growth":30.2,"dividend":22,"recent_price":563,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4750"}},"staticQueryHashes":[],"slicesMap":{}}

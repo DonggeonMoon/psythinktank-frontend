@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SR/","result":{"data":{"stockDetail":{"symbol":"SR","market":"NYSE","stock_name":"Spire Inc. Common Stock","growth":0.63,"dividend":3.3,"recent_price":83.44000244140625,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SR"}},"staticQueryHashes":[],"slicesMap":{}}

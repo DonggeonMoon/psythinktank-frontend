@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6508/","result":{"data":{"stockDetail":{"symbol":"6508","market":"TSE","stock_name":"MEIDENSHA CORPORATION","growth":1.98,"dividend":157,"recent_price":10800,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6508"}},"staticQueryHashes":[],"slicesMap":{}}

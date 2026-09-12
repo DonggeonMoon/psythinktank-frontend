@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/380A/","result":{"data":{"stockDetail":{"symbol":"380A","market":"TSE","stock_name":"Global X China Tech ETF","growth":null,"dividend":0,"recent_price":948,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"380A"}},"staticQueryHashes":[],"slicesMap":{}}

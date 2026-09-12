@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/FONR/","result":{"data":{"stockDetail":{"symbol":"FONR","market":"NASDAQ","stock_name":"Fonar Corporation - Common Stock","growth":2.88,"dividend":0,"recent_price":null,"basis_date":"2026-06-09"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"FONR"}},"staticQueryHashes":[],"slicesMap":{}}

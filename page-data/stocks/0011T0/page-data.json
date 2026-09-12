@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/0011T0/","result":{"data":{"stockDetail":{"symbol":"0011T0","market":"KOSDAQ","stock_name":"채비","growth":null,"dividend":null,"recent_price":4695,"basis_date":"2026-09-07"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"0011T0"}},"staticQueryHashes":[],"slicesMap":{}}

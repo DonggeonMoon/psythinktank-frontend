@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9742/","result":{"data":{"stockDetail":{"symbol":"9742","market":"TSE","stock_name":"INES Corporation","growth":-3.45,"dividend":55,"recent_price":2183,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9742"}},"staticQueryHashes":[],"slicesMap":{}}

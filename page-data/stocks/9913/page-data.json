@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9913/","result":{"data":{"stockDetail":{"symbol":"9913","market":"TSE","stock_name":"NIPPO LTD.","growth":-2.4,"dividend":79,"recent_price":3655,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9913"}},"staticQueryHashes":[],"slicesMap":{}}

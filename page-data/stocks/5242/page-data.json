@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5242/","result":{"data":{"stockDetail":{"symbol":"5242","market":"TSE","stock_name":"EYEZ,INC.","growth":-9.86,"dividend":0,"recent_price":2235,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5242"}},"staticQueryHashes":[],"slicesMap":{}}

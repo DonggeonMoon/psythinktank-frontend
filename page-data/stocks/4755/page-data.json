@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4755/","result":{"data":{"stockDetail":{"symbol":"4755","market":"TSE","stock_name":"Rakuten Group,Inc.","growth":0.29,"dividend":0,"recent_price":754.4000244140625,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4755"}},"staticQueryHashes":[],"slicesMap":{}}

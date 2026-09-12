@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4587/","result":{"data":{"stockDetail":{"symbol":"4587","market":"TSE","stock_name":"PeptiDream Inc.","growth":0.79,"dividend":0,"recent_price":1069,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4587"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2499/","result":{"data":{"stockDetail":{"symbol":"2499","market":"TSE","stock_name":"NIHONWASOU HOLDINGS,INC.","growth":-0.65,"dividend":16,"recent_price":307,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2499"}},"staticQueryHashes":[],"slicesMap":{}}

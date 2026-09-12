@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CTLP/","result":{"data":{"stockDetail":{"symbol":"CTLP","market":"NASDAQ","stock_name":"Cantaloupe, Inc. - Common Stock","growth":-5.07,"dividend":0,"recent_price":null,"basis_date":"2026-05-12"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CTLP"}},"staticQueryHashes":[],"slicesMap":{}}

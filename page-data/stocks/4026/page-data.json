@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4026/","result":{"data":{"stockDetail":{"symbol":"4026","market":"TSE","stock_name":"Konoshima Chemical Co.,Ltd.","growth":null,"dividend":44,"recent_price":1660,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4026"}},"staticQueryHashes":[],"slicesMap":{}}

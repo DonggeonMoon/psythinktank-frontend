@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2160/","result":{"data":{"stockDetail":{"symbol":"2160","market":"TSE","stock_name":"GNI Group Ltd.","growth":14.19,"dividend":0,"recent_price":2872,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2160"}},"staticQueryHashes":[],"slicesMap":{}}

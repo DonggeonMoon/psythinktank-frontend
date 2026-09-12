@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6343/","result":{"data":{"stockDetail":{"symbol":"6343","market":"TSE","stock_name":"FREESIA MACROSS CORPORATION","growth":-2.26,"dividend":0.6,"recent_price":150,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6343"}},"staticQueryHashes":[],"slicesMap":{}}

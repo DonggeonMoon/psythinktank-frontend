@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8361/","result":{"data":{"stockDetail":{"symbol":"8361","market":"TSE","stock_name":"The Ogaki Kyoritsu Bank,Ltd.","growth":-0.03,"dividend":150,"recent_price":8260,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8361"}},"staticQueryHashes":[],"slicesMap":{}}

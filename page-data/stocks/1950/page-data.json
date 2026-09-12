@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1950/","result":{"data":{"stockDetail":{"symbol":"1950","market":"TSE","stock_name":"NIPPON DENSETSU KOGYO CO.,LTD.","growth":-0.66,"dividend":127,"recent_price":3995,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1950"}},"staticQueryHashes":[],"slicesMap":{}}

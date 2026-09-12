@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4373/","result":{"data":{"stockDetail":{"symbol":"4373","market":"TSE","stock_name":"Simplex Holdings,Inc.","growth":18.59,"dividend":24,"recent_price":1205,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4373"}},"staticQueryHashes":[],"slicesMap":{}}

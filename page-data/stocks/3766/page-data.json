@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3766/","result":{"data":{"stockDetail":{"symbol":"3766","market":"TSE","stock_name":"SYSTEMS DESIGN Co.,Ltd.","growth":1.47,"dividend":60,"recent_price":1429,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3766"}},"staticQueryHashes":[],"slicesMap":{}}

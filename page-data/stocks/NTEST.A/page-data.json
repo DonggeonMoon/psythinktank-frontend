@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/NTEST.A/","result":{"data":{"stockDetail":{"symbol":"NTEST.A","market":"NYSE","stock_name":"NYSE Tick Pilot Test Sym-G1","growth":null,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"NTEST.A"}},"staticQueryHashes":[],"slicesMap":{}}

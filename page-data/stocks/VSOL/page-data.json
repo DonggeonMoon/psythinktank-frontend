@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/VSOL/","result":{"data":{"stockDetail":{"symbol":"VSOL","market":"NASDAQ","stock_name":"VanEck Solana ETF","growth":null,"dividend":0,"recent_price":13.831999778747559,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"VSOL"}},"staticQueryHashes":[],"slicesMap":{}}

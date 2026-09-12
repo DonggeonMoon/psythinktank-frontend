@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1963/","result":{"data":{"stockDetail":{"symbol":"1963","market":"TSE","stock_name":"JGC HOLDINGS CORPORATION","growth":-2.52,"dividend":52,"recent_price":2344,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1963"}},"staticQueryHashes":[],"slicesMap":{}}

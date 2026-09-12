@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4691/","result":{"data":{"stockDetail":{"symbol":"4691","market":"TSE","stock_name":"WASHINGTON HOTEL CORPORATION","growth":null,"dividend":40,"recent_price":2209,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4691"}},"staticQueryHashes":[],"slicesMap":{}}

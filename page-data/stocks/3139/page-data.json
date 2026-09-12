@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3139/","result":{"data":{"stockDetail":{"symbol":"3139","market":"TSE","stock_name":"Lacto Japan Co.,Ltd.","growth":6.53,"dividend":132,"recent_price":3425,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3139"}},"staticQueryHashes":[],"slicesMap":{}}

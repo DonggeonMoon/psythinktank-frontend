@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7273/","result":{"data":{"stockDetail":{"symbol":"7273","market":"TSE","stock_name":"IKUYO CO.,LTD.","growth":78.31,"dividend":3,"recent_price":582,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7273"}},"staticQueryHashes":[],"slicesMap":{}}

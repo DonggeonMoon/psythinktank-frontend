@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7443/","result":{"data":{"stockDetail":{"symbol":"7443","market":"TSE","stock_name":"YOKOHAMA GYORUI CO.,LTD.","growth":null,"dividend":12,"recent_price":667,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7443"}},"staticQueryHashes":[],"slicesMap":{}}

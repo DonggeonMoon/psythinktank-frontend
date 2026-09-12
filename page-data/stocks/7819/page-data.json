@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7819/","result":{"data":{"stockDetail":{"symbol":"7819","market":"TSE","stock_name":"SHOBIDO Corporation","growth":9.7,"dividend":33,"recent_price":1015,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7819"}},"staticQueryHashes":[],"slicesMap":{}}

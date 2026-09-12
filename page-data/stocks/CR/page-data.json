@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CR/","result":{"data":{"stockDetail":{"symbol":"CR","market":"NYSE","stock_name":"Crane Company Common Stock","growth":0,"dividend":1.02,"recent_price":202.64999389648438,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CR"}},"staticQueryHashes":[],"slicesMap":{}}

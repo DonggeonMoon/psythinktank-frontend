@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3123/","result":{"data":{"stockDetail":{"symbol":"3123","market":"TSE","stock_name":"SAIBO Co.,Ltd.","growth":6.6,"dividend":18,"recent_price":654,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3123"}},"staticQueryHashes":[],"slicesMap":{}}

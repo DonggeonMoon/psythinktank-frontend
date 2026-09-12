@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/DUTY/","result":{"data":{"stockDetail":{"symbol":"DUTY","market":"NYSE_ARCA","stock_name":"U.S. Defense ETF","growth":null,"dividend":0,"recent_price":26.110000610351562,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"DUTY"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BCSM/","result":{"data":{"stockDetail":{"symbol":"BCSM","market":"NYSE","stock_name":"Baron SMID Cap ETF","growth":null,"dividend":0,"recent_price":24.42300033569336,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BCSM"}},"staticQueryHashes":[],"slicesMap":{}}

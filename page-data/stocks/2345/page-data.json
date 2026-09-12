@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2345/","result":{"data":{"stockDetail":{"symbol":"2345","market":"TSE","stock_name":"Kushim,Inc.","growth":-91.25,"dividend":0,"recent_price":106,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2345"}},"staticQueryHashes":[],"slicesMap":{}}

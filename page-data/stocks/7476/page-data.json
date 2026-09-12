@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7476/","result":{"data":{"stockDetail":{"symbol":"7476","market":"TSE","stock_name":"AS ONE CORPORATION","growth":3.69,"dividend":66,"recent_price":2517,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7476"}},"staticQueryHashes":[],"slicesMap":{}}

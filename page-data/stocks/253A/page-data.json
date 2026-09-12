@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/253A/","result":{"data":{"stockDetail":{"symbol":"253A","market":"TSE","stock_name":"ETS Group Co.,Ltd.","growth":0,"dividend":23,"recent_price":1034,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"253A"}},"staticQueryHashes":[],"slicesMap":{}}

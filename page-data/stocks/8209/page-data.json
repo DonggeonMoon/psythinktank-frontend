@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8209/","result":{"data":{"stockDetail":{"symbol":"8209","market":"TSE","stock_name":"FRIENDLY CORPORATION","growth":null,"dividend":0,"recent_price":null,"basis_date":"2026-05-01"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8209"}},"staticQueryHashes":[],"slicesMap":{}}

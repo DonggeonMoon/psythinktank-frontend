@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2668/","result":{"data":{"stockDetail":{"symbol":"2668","market":"TSE","stock_name":"Tabio Corporation","growth":-2.19,"dividend":30,"recent_price":1263,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2668"}},"staticQueryHashes":[],"slicesMap":{}}

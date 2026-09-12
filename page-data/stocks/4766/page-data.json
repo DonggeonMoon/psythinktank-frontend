@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4766/","result":{"data":{"stockDetail":{"symbol":"4766","market":"TSE","stock_name":"PA Co.,Ltd.","growth":3.92,"dividend":4.2,"recent_price":212,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4766"}},"staticQueryHashes":[],"slicesMap":{}}

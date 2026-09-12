@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5386/","result":{"data":{"stockDetail":{"symbol":"5386","market":"TSE","stock_name":"TSURUYA CO.,LTD.","growth":0,"dividend":10.5,"recent_price":null,"basis_date":"2026-03-19"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5386"}},"staticQueryHashes":[],"slicesMap":{}}

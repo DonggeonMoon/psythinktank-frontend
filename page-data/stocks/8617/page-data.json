@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8617/","result":{"data":{"stockDetail":{"symbol":"8617","market":"TSE","stock_name":"The Kosei Securities Co.,Ltd.","growth":-5.13,"dividend":20,"recent_price":624,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8617"}},"staticQueryHashes":[],"slicesMap":{}}

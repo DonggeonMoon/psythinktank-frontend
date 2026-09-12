@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6201/","result":{"data":{"stockDetail":{"symbol":"6201","market":"TSE","stock_name":"TOYOTA INDUSTRIES CORPORATION","growth":2.09,"dividend":0,"recent_price":null,"basis_date":"2026-06-05"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6201"}},"staticQueryHashes":[],"slicesMap":{}}

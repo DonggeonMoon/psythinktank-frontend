@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3583/","result":{"data":{"stockDetail":{"symbol":"3583","market":"TSE","stock_name":"AuBEX CORPORATION","growth":-4.08,"dividend":35,"recent_price":1345,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3583"}},"staticQueryHashes":[],"slicesMap":{}}

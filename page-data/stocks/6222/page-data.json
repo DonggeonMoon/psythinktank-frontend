@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6222/","result":{"data":{"stockDetail":{"symbol":"6222","market":"TSE","stock_name":"SHIMA SEIKI MFG.,LTD.","growth":-6.13,"dividend":20,"recent_price":953,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6222"}},"staticQueryHashes":[],"slicesMap":{}}

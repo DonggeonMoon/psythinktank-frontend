@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7068/","result":{"data":{"stockDetail":{"symbol":"7068","market":"TSE","stock_name":"Feedforce Group Inc.","growth":6.19,"dividend":10,"recent_price":600,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7068"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4705/","result":{"data":{"stockDetail":{"symbol":"4705","market":"TSE","stock_name":"CLIP Corporation","growth":7.53,"dividend":45,"recent_price":799,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4705"}},"staticQueryHashes":[],"slicesMap":{}}

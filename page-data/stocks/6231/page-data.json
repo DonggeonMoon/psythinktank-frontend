@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6231/","result":{"data":{"stockDetail":{"symbol":"6231","market":"TSE","stock_name":"KIMURA KOHKI Co.,Ltd.","growth":5.75,"dividend":200,"recent_price":12370,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6231"}},"staticQueryHashes":[],"slicesMap":{}}

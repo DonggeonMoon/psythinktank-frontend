@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/154A/","result":{"data":{"stockDetail":{"symbol":"154A","market":"TSE","stock_name":"GAIA Inc.","growth":null,"dividend":0,"recent_price":6610,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"154A"}},"staticQueryHashes":[],"slicesMap":{}}

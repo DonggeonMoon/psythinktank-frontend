@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9849/","result":{"data":{"stockDetail":{"symbol":"9849","market":"TSE","stock_name":"KYODO PAPER HOLDINGS","growth":-2.84,"dividend":50,"recent_price":4510,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9849"}},"staticQueryHashes":[],"slicesMap":{}}

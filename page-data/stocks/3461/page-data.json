@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3461/","result":{"data":{"stockDetail":{"symbol":"3461","market":"TSE","stock_name":"Palma Co.,Ltd.","growth":null,"dividend":13,"recent_price":626,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3461"}},"staticQueryHashes":[],"slicesMap":{}}

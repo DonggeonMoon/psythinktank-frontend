@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7213/","result":{"data":{"stockDetail":{"symbol":"7213","market":"TSE","stock_name":"LECIP HOLDINGS CORPORATION","growth":13.9,"dividend":26,"recent_price":678,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7213"}},"staticQueryHashes":[],"slicesMap":{}}

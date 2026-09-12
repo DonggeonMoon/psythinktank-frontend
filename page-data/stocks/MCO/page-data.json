@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/MCO/","result":{"data":{"stockDetail":{"symbol":"MCO","market":"NYSE","stock_name":"Moody's Corporation Common Stock","growth":1.5,"dividend":4.12,"recent_price":481.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"MCO"}},"staticQueryHashes":[],"slicesMap":{}}

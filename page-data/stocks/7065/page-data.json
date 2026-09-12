@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7065/","result":{"data":{"stockDetail":{"symbol":"7065","market":"TSE","stock_name":"UPR Corporation","growth":-1.75,"dividend":37,"recent_price":966,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7065"}},"staticQueryHashes":[],"slicesMap":{}}

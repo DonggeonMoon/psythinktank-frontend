@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4901/","result":{"data":{"stockDetail":{"symbol":"4901","market":"TSE","stock_name":"FUJIFILM Holdings Corporation","growth":1.29,"dividend":75,"recent_price":3313,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4901"}},"staticQueryHashes":[],"slicesMap":{}}

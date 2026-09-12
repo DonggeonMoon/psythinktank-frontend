@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3416/","result":{"data":{"stockDetail":{"symbol":"3416","market":"TSE","stock_name":"PIXTA Inc.","growth":1.72,"dividend":45,"recent_price":907,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3416"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/KBWB/","result":{"data":{"stockDetail":{"symbol":"KBWB","market":"NASDAQ","stock_name":"Invesco KBW Bank ETF","growth":null,"dividend":0,"recent_price":96.62000274658203,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"KBWB"}},"staticQueryHashes":[],"slicesMap":{}}

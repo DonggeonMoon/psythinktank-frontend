@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ALOT/","result":{"data":{"stockDetail":{"symbol":"ALOT","market":"NASDAQ","stock_name":"AstroNova, Inc. - Common Stock","growth":-9.75,"dividend":0,"recent_price":null,"basis_date":"2026-09-01"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ALOT"}},"staticQueryHashes":[],"slicesMap":{}}

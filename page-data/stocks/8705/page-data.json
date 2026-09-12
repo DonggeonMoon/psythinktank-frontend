@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8705/","result":{"data":{"stockDetail":{"symbol":"8705","market":"TSE","stock_name":"Nissan Securities Group Co.,Ltd.","growth":-7.3,"dividend":15,"recent_price":220,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8705"}},"staticQueryHashes":[],"slicesMap":{}}

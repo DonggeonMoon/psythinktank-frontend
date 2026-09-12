@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8795/","result":{"data":{"stockDetail":{"symbol":"8795","market":"TSE","stock_name":"T&D Holdings, Inc.","growth":1.78,"dividend":164,"recent_price":4952,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8795"}},"staticQueryHashes":[],"slicesMap":{}}

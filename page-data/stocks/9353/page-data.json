@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9353/","result":{"data":{"stockDetail":{"symbol":"9353","market":"TSE","stock_name":"SAKURAJIMA FUTO KAISHA,LTD.","growth":-4.3,"dividend":54,"recent_price":2990,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9353"}},"staticQueryHashes":[],"slicesMap":{}}

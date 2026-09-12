@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6331/","result":{"data":{"stockDetail":{"symbol":"6331","market":"TSE","stock_name":"Mitsubishi Kakoki Kaisha,Ltd.","growth":2.65,"dividend":120,"recent_price":3205,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6331"}},"staticQueryHashes":[],"slicesMap":{}}

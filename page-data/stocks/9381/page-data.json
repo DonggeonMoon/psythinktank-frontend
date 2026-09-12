@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9381/","result":{"data":{"stockDetail":{"symbol":"9381","market":"TSE","stock_name":"AIT CORPORATION","growth":-5.44,"dividend":110,"recent_price":2318,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9381"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2664/","result":{"data":{"stockDetail":{"symbol":"2664","market":"TSE","stock_name":"CAWACHI LIMITED","growth":0.62,"dividend":100,"recent_price":3755,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2664"}},"staticQueryHashes":[],"slicesMap":{}}

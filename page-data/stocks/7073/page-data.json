@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7073/","result":{"data":{"stockDetail":{"symbol":"7073","market":"TSE","stock_name":"JAIC Co.,Ltd.","growth":0.7,"dividend":55,"recent_price":2353,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7073"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6488/","result":{"data":{"stockDetail":{"symbol":"6488","market":"TSE","stock_name":"Yoshitake Inc.","growth":-0.18,"dividend":36,"recent_price":1040,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6488"}},"staticQueryHashes":[],"slicesMap":{}}

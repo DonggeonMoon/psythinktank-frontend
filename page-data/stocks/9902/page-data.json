@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9902/","result":{"data":{"stockDetail":{"symbol":"9902","market":"TSE","stock_name":"NICHIDEN Corporation","growth":5.11,"dividend":95,"recent_price":3070,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9902"}},"staticQueryHashes":[],"slicesMap":{}}

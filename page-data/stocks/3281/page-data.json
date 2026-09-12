@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3281/","result":{"data":{"stockDetail":{"symbol":"3281","market":"TSE","stock_name":"GLP J-REIT","growth":null,"dividend":6,"recent_price":134800,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3281"}},"staticQueryHashes":[],"slicesMap":{}}

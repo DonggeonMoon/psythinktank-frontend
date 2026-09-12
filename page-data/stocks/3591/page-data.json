@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3591/","result":{"data":{"stockDetail":{"symbol":"3591","market":"TSE","stock_name":"WACOAL HOLDINGS CORP.","growth":-8.31,"dividend":100,"recent_price":4128,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3591"}},"staticQueryHashes":[],"slicesMap":{}}

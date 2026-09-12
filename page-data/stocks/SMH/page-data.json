@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SMH/","result":{"data":{"stockDetail":{"symbol":"SMH","market":"NASDAQ","stock_name":"VanEck Semiconductor ETF","growth":null,"dividend":0,"recent_price":573.72998046875,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SMH"}},"staticQueryHashes":[],"slicesMap":{}}

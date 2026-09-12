@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7069/","result":{"data":{"stockDetail":{"symbol":"7069","market":"TSE","stock_name":"CyberBuzz,Inc.","growth":-1.46,"dividend":0,"recent_price":545,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7069"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6754/","result":{"data":{"stockDetail":{"symbol":"6754","market":"TSE","stock_name":"ANRITSU CORPORATION","growth":3.73,"dividend":55,"recent_price":3220,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6754"}},"staticQueryHashes":[],"slicesMap":{}}

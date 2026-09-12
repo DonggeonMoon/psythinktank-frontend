@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9409/","result":{"data":{"stockDetail":{"symbol":"9409","market":"TSE","stock_name":"TV Asahi Holdings Corporation","growth":1.74,"dividend":100,"recent_price":3120,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9409"}},"staticQueryHashes":[],"slicesMap":{}}

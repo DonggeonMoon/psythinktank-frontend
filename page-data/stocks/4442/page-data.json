@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4442/","result":{"data":{"stockDetail":{"symbol":"4442","market":"TSE","stock_name":"VALTES HOLDINGS CO.,LTD.","growth":5.75,"dividend":4,"recent_price":410,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4442"}},"staticQueryHashes":[],"slicesMap":{}}

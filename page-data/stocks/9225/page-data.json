@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9225/","result":{"data":{"stockDetail":{"symbol":"9225","market":"TSE","stock_name":"Bridge Consulting Group Inc.","growth":14.29,"dividend":0,"recent_price":974,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9225"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7379/","result":{"data":{"stockDetail":{"symbol":"7379","market":"TSE","stock_name":"CIRCULATION Co.,Ltd.","growth":-9.34,"dividend":0,"recent_price":null,"basis_date":"2025-10-09"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7379"}},"staticQueryHashes":[],"slicesMap":{}}

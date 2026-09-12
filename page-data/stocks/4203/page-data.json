@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4203/","result":{"data":{"stockDetail":{"symbol":"4203","market":"TSE","stock_name":"Sumitomo Bakelite Company,Limited","growth":-5.73,"dividend":120,"recent_price":7056,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4203"}},"staticQueryHashes":[],"slicesMap":{}}

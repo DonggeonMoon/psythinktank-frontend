@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/L/","result":{"data":{"stockDetail":{"symbol":"L","market":"NYSE","stock_name":"Loews Corporation Common Stock","growth":0.77,"dividend":0.25,"recent_price":108.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"L"}},"staticQueryHashes":[],"slicesMap":{}}

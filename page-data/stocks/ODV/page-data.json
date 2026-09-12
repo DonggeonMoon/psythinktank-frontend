@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ODV/","result":{"data":{"stockDetail":{"symbol":"ODV","market":"NYSE","stock_name":"Osisko Development Corp. Common Shares","growth":2,"dividend":0,"recent_price":null,"basis_date":"2026-08-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ODV"}},"staticQueryHashes":[],"slicesMap":{}}

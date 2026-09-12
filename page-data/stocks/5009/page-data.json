@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5009/","result":{"data":{"stockDetail":{"symbol":"5009","market":"TSE","stock_name":"FUJI KOSAN COMPANY,LTD.","growth":15.92,"dividend":62,"recent_price":1166,"basis_date":"2025-11-21"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5009"}},"staticQueryHashes":[],"slicesMap":{}}

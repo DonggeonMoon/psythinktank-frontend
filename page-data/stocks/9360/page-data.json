@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9360/","result":{"data":{"stockDetail":{"symbol":"9360","market":"TSE","stock_name":"SUZUYO SHINWART CORPORATION","growth":4.32,"dividend":120,"recent_price":2743,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9360"}},"staticQueryHashes":[],"slicesMap":{}}

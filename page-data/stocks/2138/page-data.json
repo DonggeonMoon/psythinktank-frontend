@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2138/","result":{"data":{"stockDetail":{"symbol":"2138","market":"TSE","stock_name":"CROOZ,Inc.","growth":20.22,"dividend":0,"recent_price":452,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2138"}},"staticQueryHashes":[],"slicesMap":{}}

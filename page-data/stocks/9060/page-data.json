@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9060/","result":{"data":{"stockDetail":{"symbol":"9060","market":"TSE","stock_name":"JAPAN LOGISTIC SYSTEMS CORP.","growth":-0.03,"dividend":80,"recent_price":4165,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9060"}},"staticQueryHashes":[],"slicesMap":{}}

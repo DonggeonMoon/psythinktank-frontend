@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8081/","result":{"data":{"stockDetail":{"symbol":"8081","market":"TSE","stock_name":"KANADEN CORPORATION","growth":0.33,"dividend":100,"recent_price":2503,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8081"}},"staticQueryHashes":[],"slicesMap":{}}

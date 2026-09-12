@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9211/","result":{"data":{"stockDetail":{"symbol":"9211","market":"TSE","stock_name":"f-code Inc.","growth":228.19,"dividend":0,"recent_price":1436,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9211"}},"staticQueryHashes":[],"slicesMap":{}}

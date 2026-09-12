@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6302/","result":{"data":{"stockDetail":{"symbol":"6302","market":"TSE","stock_name":"SUMITOMO HEAVY INDUSTRIES,LTD.","growth":-0.84,"dividend":150,"recent_price":5830,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6302"}},"staticQueryHashes":[],"slicesMap":{}}

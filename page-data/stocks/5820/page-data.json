@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5820/","result":{"data":{"stockDetail":{"symbol":"5820","market":"TSE","stock_name":"MITSUBOSHI CO.,LTD.","growth":3.82,"dividend":17,"recent_price":815,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5820"}},"staticQueryHashes":[],"slicesMap":{}}

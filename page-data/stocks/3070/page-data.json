@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3070/","result":{"data":{"stockDetail":{"symbol":"3070","market":"TSE","stock_name":"JELLY BEANS GROUP Co.,Ltd.","growth":83.33,"dividend":0,"recent_price":68,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3070"}},"staticQueryHashes":[],"slicesMap":{}}

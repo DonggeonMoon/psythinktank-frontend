@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6033/","result":{"data":{"stockDetail":{"symbol":"6033","market":"TSE","stock_name":"EXTREME CO.,LTD.","growth":19.14,"dividend":68,"recent_price":1662,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6033"}},"staticQueryHashes":[],"slicesMap":{}}

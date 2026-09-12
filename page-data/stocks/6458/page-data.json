@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6458/","result":{"data":{"stockDetail":{"symbol":"6458","market":"TSE","stock_name":"SINKO INDUSTRIES LTD.","growth":1.01,"dividend":50,"recent_price":1241,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6458"}},"staticQueryHashes":[],"slicesMap":{}}

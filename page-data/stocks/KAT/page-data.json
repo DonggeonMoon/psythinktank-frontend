@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/KAT/","result":{"data":{"stockDetail":{"symbol":"KAT","market":"NASDAQ","stock_name":"Scharf ETF","growth":null,"dividend":0,"recent_price":57.77299880981445,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"KAT"}},"staticQueryHashes":[],"slicesMap":{}}

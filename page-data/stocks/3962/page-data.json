@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3962/","result":{"data":{"stockDetail":{"symbol":"3962","market":"TSE","stock_name":"CHANGE Holdings,Inc.","growth":-0.62,"dividend":26,"recent_price":1020,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3962"}},"staticQueryHashes":[],"slicesMap":{}}

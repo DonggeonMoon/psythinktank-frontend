@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5699/","result":{"data":{"stockDetail":{"symbol":"5699","market":"TSE","stock_name":"IBOKIN Co.,Ltd.","growth":15.95,"dividend":32,"recent_price":1582,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5699"}},"staticQueryHashes":[],"slicesMap":{}}

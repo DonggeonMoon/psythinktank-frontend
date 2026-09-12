@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ROG/","result":{"data":{"stockDetail":{"symbol":"ROG","market":"NYSE","stock_name":"Rogers Corporation Common Stock","growth":-6.25,"dividend":0,"recent_price":129.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ROG"}},"staticQueryHashes":[],"slicesMap":{}}

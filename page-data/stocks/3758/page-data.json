@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3758/","result":{"data":{"stockDetail":{"symbol":"3758","market":"TSE","stock_name":"Aeria Inc.","growth":-4.96,"dividend":5,"recent_price":248,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3758"}},"staticQueryHashes":[],"slicesMap":{}}

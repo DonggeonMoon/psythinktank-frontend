@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5279/","result":{"data":{"stockDetail":{"symbol":"5279","market":"TSE","stock_name":"NIHON KOGYO CO.,LTD.","growth":4.87,"dividend":55,"recent_price":1203,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5279"}},"staticQueryHashes":[],"slicesMap":{}}

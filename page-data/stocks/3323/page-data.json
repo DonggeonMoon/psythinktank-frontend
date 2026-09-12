@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3323/","result":{"data":{"stockDetail":{"symbol":"3323","market":"TSE","stock_name":"RECOMM CO.,LTD.","growth":-5.84,"dividend":1.2,"recent_price":94,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3323"}},"staticQueryHashes":[],"slicesMap":{}}

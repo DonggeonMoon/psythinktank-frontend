@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3837/","result":{"data":{"stockDetail":{"symbol":"3837","market":"TSE","stock_name":"Ad-Sol Nissin Corporation","growth":3.53,"dividend":48,"recent_price":1385,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3837"}},"staticQueryHashes":[],"slicesMap":{}}

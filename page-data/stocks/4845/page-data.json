@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4845/","result":{"data":{"stockDetail":{"symbol":"4845","market":"TSE","stock_name":"Scala,Inc.","growth":-22.87,"dividend":17,"recent_price":355,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4845"}},"staticQueryHashes":[],"slicesMap":{}}

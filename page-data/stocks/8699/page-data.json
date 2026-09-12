@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8699/","result":{"data":{"stockDetail":{"symbol":"8699","market":"TSE","stock_name":"HS Holdings Co.,Ltd.","growth":20.07,"dividend":10,"recent_price":1157,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8699"}},"staticQueryHashes":[],"slicesMap":{}}

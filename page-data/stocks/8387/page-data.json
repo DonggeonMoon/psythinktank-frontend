@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8387/","result":{"data":{"stockDetail":{"symbol":"8387","market":"TSE","stock_name":"The Shikoku Bank, Ltd.","growth":2.89,"dividend":86,"recent_price":3775,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8387"}},"staticQueryHashes":[],"slicesMap":{}}

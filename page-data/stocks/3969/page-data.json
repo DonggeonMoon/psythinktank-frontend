@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3969/","result":{"data":{"stockDetail":{"symbol":"3969","market":"TSE","stock_name":"ATLED CORP.","growth":8.54,"dividend":35,"recent_price":1401,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3969"}},"staticQueryHashes":[],"slicesMap":{}}

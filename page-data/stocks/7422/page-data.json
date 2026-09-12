@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7422/","result":{"data":{"stockDetail":{"symbol":"7422","market":"TSE","stock_name":"TOHO LAMAC CO.,LTD.","growth":null,"dividend":11.4,"recent_price":396,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7422"}},"staticQueryHashes":[],"slicesMap":{}}

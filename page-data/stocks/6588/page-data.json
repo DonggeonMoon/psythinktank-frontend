@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6588/","result":{"data":{"stockDetail":{"symbol":"6588","market":"TSE","stock_name":"TOSHIBA TEC CORPORATION","growth":-2.78,"dividend":40,"recent_price":2975,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6588"}},"staticQueryHashes":[],"slicesMap":{}}

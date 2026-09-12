@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3106/","result":{"data":{"stockDetail":{"symbol":"3106","market":"TSE","stock_name":"KURABO INDUSTRIES LTD.","growth":-4.3,"dividend":331,"recent_price":10940,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3106"}},"staticQueryHashes":[],"slicesMap":{}}

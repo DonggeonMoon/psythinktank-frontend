@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/274A/","result":{"data":{"stockDetail":{"symbol":"274A","market":"TSE","stock_name":"Garden Co.,Ltd.","growth":1.05,"dividend":90,"recent_price":2290,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"274A"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7649/","result":{"data":{"stockDetail":{"symbol":"7649","market":"TSE","stock_name":"SUGI HOLDINGS Co.,LTD.","growth":13.51,"dividend":17.5,"recent_price":1330,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7649"}},"staticQueryHashes":[],"slicesMap":{}}

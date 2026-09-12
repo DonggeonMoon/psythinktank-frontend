@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5071/","result":{"data":{"stockDetail":{"symbol":"5071","market":"TSE","stock_name":"VIS co.ltd.","growth":10.66,"dividend":59,"recent_price":1389,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5071"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6324/","result":{"data":{"stockDetail":{"symbol":"6324","market":"TSE","stock_name":"Harmonic Drive Systems Inc.","growth":2.53,"dividend":20,"recent_price":5730,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6324"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6963/","result":{"data":{"stockDetail":{"symbol":"6963","market":"TSE","stock_name":"ROHM COMPANY LIMITED","growth":-3.77,"dividend":50,"recent_price":4865,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6963"}},"staticQueryHashes":[],"slicesMap":{}}

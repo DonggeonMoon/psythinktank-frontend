@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BIBL/","result":{"data":{"stockDetail":{"symbol":"BIBL","market":"NYSE_ARCA","stock_name":"Inspire 100 ETF","growth":null,"dividend":0,"recent_price":55.41999816894531,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BIBL"}},"staticQueryHashes":[],"slicesMap":{}}

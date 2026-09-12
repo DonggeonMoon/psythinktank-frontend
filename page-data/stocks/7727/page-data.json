@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7727/","result":{"data":{"stockDetail":{"symbol":"7727","market":"TSE","stock_name":"OVAL Corporation","growth":-1.88,"dividend":28,"recent_price":836,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7727"}},"staticQueryHashes":[],"slicesMap":{}}

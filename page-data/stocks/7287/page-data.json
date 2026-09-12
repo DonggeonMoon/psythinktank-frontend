@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7287/","result":{"data":{"stockDetail":{"symbol":"7287","market":"TSE","stock_name":"NIPPON SEIKI CO.,LTD.","growth":-1.52,"dividend":90,"recent_price":2700,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7287"}},"staticQueryHashes":[],"slicesMap":{}}

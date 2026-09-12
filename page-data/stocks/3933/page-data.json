@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3933/","result":{"data":{"stockDetail":{"symbol":"3933","market":"TSE","stock_name":"CHIeru Co.,Ltd.","growth":5.79,"dividend":23,"recent_price":552,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3933"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7084/","result":{"data":{"stockDetail":{"symbol":"7084","market":"TSE","stock_name":"Smile Holdings Inc.","growth":2.89,"dividend":105,"recent_price":3005,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7084"}},"staticQueryHashes":[],"slicesMap":{}}

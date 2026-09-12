@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1329/","result":{"data":{"stockDetail":{"symbol":"1329","market":"TSE","stock_name":"iShares Core Nikkei 225 ETF","growth":null,"dividend":27.77,"recent_price":6729,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1329"}},"staticQueryHashes":[],"slicesMap":{}}

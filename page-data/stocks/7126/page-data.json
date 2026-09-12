@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7126/","result":{"data":{"stockDetail":{"symbol":"7126","market":"TSE","stock_name":"Global Style Co.,Ltd.","growth":-4.87,"dividend":47,"recent_price":1435,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7126"}},"staticQueryHashes":[],"slicesMap":{}}

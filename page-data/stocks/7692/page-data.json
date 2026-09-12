@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7692/","result":{"data":{"stockDetail":{"symbol":"7692","market":"TSE","stock_name":"EARTH INFINITY CO.LTD.","growth":-33.33,"dividend":2.6,"recent_price":80,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7692"}},"staticQueryHashes":[],"slicesMap":{}}

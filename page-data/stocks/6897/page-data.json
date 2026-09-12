@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6897/","result":{"data":{"stockDetail":{"symbol":"6897","market":"TSE","stock_name":"TWINBIRD CORPORATION","growth":null,"dividend":13,"recent_price":646,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6897"}},"staticQueryHashes":[],"slicesMap":{}}

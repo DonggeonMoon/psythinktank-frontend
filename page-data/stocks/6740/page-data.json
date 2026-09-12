@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6740/","result":{"data":{"stockDetail":{"symbol":"6740","market":"TSE","stock_name":"Japan Display Inc.","growth":-43.66,"dividend":0,"recent_price":47,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6740"}},"staticQueryHashes":[],"slicesMap":{}}

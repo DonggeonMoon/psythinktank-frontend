@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9930/","result":{"data":{"stockDetail":{"symbol":"9930","market":"TSE","stock_name":"KITAZAWA SANGYO CO.,LTD.","growth":-4.5,"dividend":10,"recent_price":402,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9930"}},"staticQueryHashes":[],"slicesMap":{}}

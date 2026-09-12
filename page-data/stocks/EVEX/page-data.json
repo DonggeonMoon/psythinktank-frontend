@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/EVEX/","result":{"data":{"stockDetail":{"symbol":"EVEX","market":"NYSE","stock_name":"Eve Holding, Inc. Common Stock","growth":13.79,"dividend":0,"recent_price":2.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"EVEX"}},"staticQueryHashes":[],"slicesMap":{}}

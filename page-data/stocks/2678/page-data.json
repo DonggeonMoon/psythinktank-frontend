@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2678/","result":{"data":{"stockDetail":{"symbol":"2678","market":"TSE","stock_name":"ASKUL Corporation","growth":0.27,"dividend":20,"recent_price":1270,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2678"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3558/","result":{"data":{"stockDetail":{"symbol":"3558","market":"TSE","stock_name":"JADE GROUP,Inc.","growth":39.42,"dividend":30,"recent_price":1809,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3558"}},"staticQueryHashes":[],"slicesMap":{}}

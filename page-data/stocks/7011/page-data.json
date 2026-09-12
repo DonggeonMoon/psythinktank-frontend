@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7011/","result":{"data":{"stockDetail":{"symbol":"7011","market":"TSE","stock_name":"Mitsubishi Heavy Industries,Ltd.","growth":1.97,"dividend":29,"recent_price":3754,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7011"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4534/","result":{"data":{"stockDetail":{"symbol":"4534","market":"TSE","stock_name":"Mochida Pharmaceutical Co.,Ltd.","growth":-1.92,"dividend":85,"recent_price":3255,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4534"}},"staticQueryHashes":[],"slicesMap":{}}

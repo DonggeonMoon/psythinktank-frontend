@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9766/","result":{"data":{"stockDetail":{"symbol":"9766","market":"TSE","stock_name":"KONAMI GROUP CORPORATION","growth":2.79,"dividend":224,"recent_price":21500,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9766"}},"staticQueryHashes":[],"slicesMap":{}}

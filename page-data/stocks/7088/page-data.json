@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7088/","result":{"data":{"stockDetail":{"symbol":"7088","market":"TSE","stock_name":"Forum Engineering Inc.","growth":2.73,"dividend":0,"recent_price":null,"basis_date":"2026-05-15"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7088"}},"staticQueryHashes":[],"slicesMap":{}}

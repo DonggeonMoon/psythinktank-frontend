@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6392/","result":{"data":{"stockDetail":{"symbol":"6392","market":"TSE","stock_name":"YAMADA CORPORATION","growth":-2.31,"dividend":220,"recent_price":7770,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6392"}},"staticQueryHashes":[],"slicesMap":{}}

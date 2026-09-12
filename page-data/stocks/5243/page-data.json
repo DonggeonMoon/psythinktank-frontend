@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5243/","result":{"data":{"stockDetail":{"symbol":"5243","market":"TSE","stock_name":"note inc.","growth":4.64,"dividend":0,"recent_price":2970,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5243"}},"staticQueryHashes":[],"slicesMap":{}}

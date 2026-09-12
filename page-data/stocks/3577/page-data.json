@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3577/","result":{"data":{"stockDetail":{"symbol":"3577","market":"TSE","stock_name":"Tokai Senko K.K.","growth":3.71,"dividend":25,"recent_price":930,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3577"}},"staticQueryHashes":[],"slicesMap":{}}

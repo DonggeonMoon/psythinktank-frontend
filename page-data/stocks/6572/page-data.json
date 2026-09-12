@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6572/","result":{"data":{"stockDetail":{"symbol":"6572","market":"TSE","stock_name":"OPEN Group,Inc.","growth":13.68,"dividend":6.5,"recent_price":277,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6572"}},"staticQueryHashes":[],"slicesMap":{}}

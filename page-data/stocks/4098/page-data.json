@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4098/","result":{"data":{"stockDetail":{"symbol":"4098","market":"TSE","stock_name":"Titan Kogyo ,Ltd.","growth":-5.56,"dividend":12,"recent_price":1017,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4098"}},"staticQueryHashes":[],"slicesMap":{}}

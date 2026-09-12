@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6861/","result":{"data":{"stockDetail":{"symbol":"6861","market":"TSE","stock_name":"KEYENCE CORPORATION","growth":4.27,"dividend":550,"recent_price":77720,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6861"}},"staticQueryHashes":[],"slicesMap":{}}

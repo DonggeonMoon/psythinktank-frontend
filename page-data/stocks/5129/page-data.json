@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5129/","result":{"data":{"stockDetail":{"symbol":"5129","market":"TSE","stock_name":"FIXER Inc.","growth":15.34,"dividend":0,"recent_price":286,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5129"}},"staticQueryHashes":[],"slicesMap":{}}

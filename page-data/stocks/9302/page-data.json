@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9302/","result":{"data":{"stockDetail":{"symbol":"9302","market":"TSE","stock_name":"MITSUI-SOKO HOLDINGS Co.,Ltd.","growth":-3.41,"dividend":50,"recent_price":3328,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9302"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6841/","result":{"data":{"stockDetail":{"symbol":"6841","market":"TSE","stock_name":"YOKOGAWA ELECTRIC CORPORATION","growth":3.64,"dividend":92,"recent_price":4724,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6841"}},"staticQueryHashes":[],"slicesMap":{}}

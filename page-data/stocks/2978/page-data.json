@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2978/","result":{"data":{"stockDetail":{"symbol":"2978","market":"TSE","stock_name":"TSUKURUBA Inc.","growth":19.29,"dividend":0,"recent_price":333,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2978"}},"staticQueryHashes":[],"slicesMap":{}}

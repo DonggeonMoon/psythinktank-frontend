@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7180/","result":{"data":{"stockDetail":{"symbol":"7180","market":"TSE","stock_name":"Kyushu Financial Group,Inc.","growth":4.03,"dividend":38,"recent_price":1610,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7180"}},"staticQueryHashes":[],"slicesMap":{}}

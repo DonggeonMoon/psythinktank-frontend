@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3565/","result":{"data":{"stockDetail":{"symbol":"3565","market":"TSE","stock_name":"Ascentech K.K.","growth":7.27,"dividend":15,"recent_price":484,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3565"}},"staticQueryHashes":[],"slicesMap":{}}

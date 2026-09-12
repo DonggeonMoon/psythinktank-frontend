@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7218/","result":{"data":{"stockDetail":{"symbol":"7218","market":"TSE","stock_name":"TANAKA SEIMITSU KOGYO CO.,LTD.","growth":-4.22,"dividend":34,"recent_price":1141,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7218"}},"staticQueryHashes":[],"slicesMap":{}}

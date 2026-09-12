@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5256/","result":{"data":{"stockDetail":{"symbol":"5256","market":"TSE","stock_name":"Fusic Co.,Ltd.","growth":13.21,"dividend":0,"recent_price":2672,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5256"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7723/","result":{"data":{"stockDetail":{"symbol":"7723","market":"TSE","stock_name":"Aichi Tokei Denki Co.,Ltd.","growth":0.88,"dividend":120,"recent_price":2867,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7723"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3864/","result":{"data":{"stockDetail":{"symbol":"3864","market":"TSE","stock_name":"Mitsubishi Paper Mills Limited","growth":-7.61,"dividend":20,"recent_price":1177,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3864"}},"staticQueryHashes":[],"slicesMap":{}}

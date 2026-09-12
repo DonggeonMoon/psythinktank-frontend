@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8388/","result":{"data":{"stockDetail":{"symbol":"8388","market":"TSE","stock_name":"The Awa Bank,Ltd.","growth":2.62,"dividend":180,"recent_price":9940,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8388"}},"staticQueryHashes":[],"slicesMap":{}}

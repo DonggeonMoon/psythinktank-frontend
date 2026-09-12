@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2325/","result":{"data":{"stockDetail":{"symbol":"2325","market":"TSE","stock_name":"NJS Co.,Ltd.","growth":6.98,"dividend":110,"recent_price":4680,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2325"}},"staticQueryHashes":[],"slicesMap":{}}

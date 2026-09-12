@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2749/","result":{"data":{"stockDetail":{"symbol":"2749","market":"TSE","stock_name":"JP-HOLDINGS,INC.","growth":1.25,"dividend":13.5,"recent_price":663,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2749"}},"staticQueryHashes":[],"slicesMap":{}}

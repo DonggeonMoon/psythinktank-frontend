@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/XCHG/","result":{"data":{"stockDetail":{"symbol":"XCHG","market":"NYSE_ARCA","stock_name":"AB US Equity ETF","growth":null,"dividend":0,"recent_price":27.476999282836914,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"XCHG"}},"staticQueryHashes":[],"slicesMap":{}}

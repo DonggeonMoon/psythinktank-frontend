@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3626/","result":{"data":{"stockDetail":{"symbol":"3626","market":"TSE","stock_name":"TIS Inc.","growth":-0.77,"dividend":90,"recent_price":4022,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3626"}},"staticQueryHashes":[],"slicesMap":{}}

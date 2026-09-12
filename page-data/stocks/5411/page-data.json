@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5411/","result":{"data":{"stockDetail":{"symbol":"5411","market":"TSE","stock_name":"JFE Holdings,Inc.","growth":0.54,"dividend":80,"recent_price":1835,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5411"}},"staticQueryHashes":[],"slicesMap":{}}

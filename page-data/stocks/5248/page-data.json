@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5248/","result":{"data":{"stockDetail":{"symbol":"5248","market":"TSE","stock_name":"TECHNOLOGIES,Inc.","growth":5.15,"dividend":0,"recent_price":506,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5248"}},"staticQueryHashes":[],"slicesMap":{}}

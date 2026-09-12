@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4406/","result":{"data":{"stockDetail":{"symbol":"4406","market":"TSE","stock_name":"New Japan Chemical Co.,Ltd.","growth":-4.6,"dividend":4.5,"recent_price":250,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4406"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5273/","result":{"data":{"stockDetail":{"symbol":"5273","market":"TSE","stock_name":"MITANI SEKISAN CO.,LTD.","growth":-6.73,"dividend":43.5,"recent_price":2022,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5273"}},"staticQueryHashes":[],"slicesMap":{}}

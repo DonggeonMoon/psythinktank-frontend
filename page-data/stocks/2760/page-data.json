@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2760/","result":{"data":{"stockDetail":{"symbol":"2760","market":"TSE","stock_name":"TOKYO ELECTRON DEVICE LIMITED","growth":1.81,"dividend":129,"recent_price":4115,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2760"}},"staticQueryHashes":[],"slicesMap":{}}

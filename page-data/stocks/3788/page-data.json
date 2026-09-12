@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3788/","result":{"data":{"stockDetail":{"symbol":"3788","market":"TSE","stock_name":"GMO GlobalSign Holdings K.K.","growth":-3.12,"dividend":59.67,"recent_price":1989,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3788"}},"staticQueryHashes":[],"slicesMap":{}}

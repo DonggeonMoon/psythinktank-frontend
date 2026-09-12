@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2424/","result":{"data":{"stockDetail":{"symbol":"2424","market":"TSE","stock_name":"Brass Corporation","growth":3.2,"dividend":8,"recent_price":597,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2424"}},"staticQueryHashes":[],"slicesMap":{}}

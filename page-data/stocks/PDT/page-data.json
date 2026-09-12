@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/PDT/","result":{"data":{"stockDetail":{"symbol":"PDT","market":"NYSE","stock_name":"John Hancock Premium Dividend Fund","growth":null,"dividend":1.06,"recent_price":12.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"PDT"}},"staticQueryHashes":[],"slicesMap":{}}

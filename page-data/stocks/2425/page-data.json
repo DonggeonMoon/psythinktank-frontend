@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2425/","result":{"data":{"stockDetail":{"symbol":"2425","market":"TSE","stock_name":"Care Service Co.,Ltd.","growth":-3.08,"dividend":22,"recent_price":665,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2425"}},"staticQueryHashes":[],"slicesMap":{}}

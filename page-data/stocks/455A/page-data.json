@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/455A/","result":{"data":{"stockDetail":{"symbol":"455A","market":"TSE","stock_name":"Value Soft Holdings Corporation","growth":null,"dividend":17.09,"recent_price":5970,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"455A"}},"staticQueryHashes":[],"slicesMap":{}}

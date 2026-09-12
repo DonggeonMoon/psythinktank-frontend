@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4224/","result":{"data":{"stockDetail":{"symbol":"4224","market":"TSE","stock_name":"LONSEAL CORPORATION","growth":-0.95,"dividend":85,"recent_price":2104,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4224"}},"staticQueryHashes":[],"slicesMap":{}}

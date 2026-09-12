@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/VTV/","result":{"data":{"stockDetail":{"symbol":"VTV","market":"NYSE_ARCA","stock_name":"Vanguard Value ETF","growth":null,"dividend":0,"recent_price":224.63999938964844,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"VTV"}},"staticQueryHashes":[],"slicesMap":{}}

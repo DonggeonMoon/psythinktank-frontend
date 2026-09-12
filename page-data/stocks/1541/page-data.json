@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1541/","result":{"data":{"stockDetail":{"symbol":"1541","market":"TSE","stock_name":"Japan Physical Platinum ETF","growth":null,"dividend":0,"recent_price":8193,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1541"}},"staticQueryHashes":[],"slicesMap":{}}

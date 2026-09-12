@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4883/","result":{"data":{"stockDetail":{"symbol":"4883","market":"TSE","stock_name":"Modalis Therapeutics Corporation","growth":21.43,"dividend":0,"recent_price":35,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4883"}},"staticQueryHashes":[],"slicesMap":{}}

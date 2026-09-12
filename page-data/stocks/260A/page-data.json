@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/260A/","result":{"data":{"stockDetail":{"symbol":"260A","market":"TSE","stock_name":"alt Inc.","growth":0,"dividend":0,"recent_price":null,"basis_date":"2025-10-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"260A"}},"staticQueryHashes":[],"slicesMap":{}}

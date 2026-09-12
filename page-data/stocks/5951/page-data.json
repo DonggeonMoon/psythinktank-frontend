@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5951/","result":{"data":{"stockDetail":{"symbol":"5951","market":"TSE","stock_name":"Dainichi Co.,Ltd.","growth":-0.85,"dividend":28,"recent_price":1217,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5951"}},"staticQueryHashes":[],"slicesMap":{}}

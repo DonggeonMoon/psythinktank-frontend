@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5831/","result":{"data":{"stockDetail":{"symbol":"5831","market":"TSE","stock_name":"Shizuoka Financial Group,Inc.","growth":2.23,"dividend":108,"recent_price":3671,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5831"}},"staticQueryHashes":[],"slicesMap":{}}

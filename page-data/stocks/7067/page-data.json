@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7067/","result":{"data":{"stockDetail":{"symbol":"7067","market":"TSE","stock_name":"Branding Technology Inc.","growth":-12.92,"dividend":10,"recent_price":1040,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7067"}},"staticQueryHashes":[],"slicesMap":{}}

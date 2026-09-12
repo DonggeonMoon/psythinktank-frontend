@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3407/","result":{"data":{"stockDetail":{"symbol":"3407","market":"TSE","stock_name":"ASAHI KASEI CORPORATION","growth":-4.88,"dividend":44,"recent_price":1612,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3407"}},"staticQueryHashes":[],"slicesMap":{}}

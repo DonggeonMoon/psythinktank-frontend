@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6279/","result":{"data":{"stockDetail":{"symbol":"6279","market":"TSE","stock_name":"ZUIKO CORPORATION","growth":7.37,"dividend":18,"recent_price":924,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6279"}},"staticQueryHashes":[],"slicesMap":{}}

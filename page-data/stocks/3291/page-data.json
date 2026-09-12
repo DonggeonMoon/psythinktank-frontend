@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3291/","result":{"data":{"stockDetail":{"symbol":"3291","market":"TSE","stock_name":"Iida Group Holdings Co.,Ltd.","growth":3.41,"dividend":92,"recent_price":2305.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3291"}},"staticQueryHashes":[],"slicesMap":{}}

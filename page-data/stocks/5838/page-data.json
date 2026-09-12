@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5838/","result":{"data":{"stockDetail":{"symbol":"5838","market":"TSE","stock_name":"Rakuten Bank,Ltd.","growth":10.22,"dividend":0,"recent_price":6658,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5838"}},"staticQueryHashes":[],"slicesMap":{}}

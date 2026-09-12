@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4980/","result":{"data":{"stockDetail":{"symbol":"4980","market":"TSE","stock_name":"Dexerials Corporation","growth":-4.56,"dividend":61,"recent_price":2901.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4980"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1743/","result":{"data":{"stockDetail":{"symbol":"1743","market":"TSE","stock_name":"KOATSU KOGYO CO.,LTD.","growth":1.43,"dividend":0,"recent_price":null,"basis_date":"2025-11-28"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1743"}},"staticQueryHashes":[],"slicesMap":{}}

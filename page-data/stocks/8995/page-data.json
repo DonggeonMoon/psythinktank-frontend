@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8995/","result":{"data":{"stockDetail":{"symbol":"8995","market":"TSE","stock_name":"Makoto Construction CO,Ltd","growth":-10.34,"dividend":25,"recent_price":1648,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8995"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SST/","result":{"data":{"stockDetail":{"symbol":"SST","market":"NYSE","stock_name":"System1, Inc. Class A Common Stock","growth":-16.67,"dividend":0,"recent_price":5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SST"}},"staticQueryHashes":[],"slicesMap":{}}

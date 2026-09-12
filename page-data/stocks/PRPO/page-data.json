@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/PRPO/","result":{"data":{"stockDetail":{"symbol":"PRPO","market":"NASDAQ","stock_name":"Precipio, Inc. - Common Stock","growth":18.33,"dividend":0,"recent_price":27.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"PRPO"}},"staticQueryHashes":[],"slicesMap":{}}

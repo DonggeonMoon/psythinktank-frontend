@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5905/","result":{"data":{"stockDetail":{"symbol":"5905","market":"TSE","stock_name":"NIHON SEIKAN K.K.","growth":-11.27,"dividend":20,"recent_price":1380,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5905"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4440/","result":{"data":{"stockDetail":{"symbol":"4440","market":"TSE","stock_name":"WITZ Corporation","growth":10.07,"dividend":18,"recent_price":1650,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4440"}},"staticQueryHashes":[],"slicesMap":{}}

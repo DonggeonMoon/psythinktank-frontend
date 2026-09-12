@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1992/","result":{"data":{"stockDetail":{"symbol":"1992","market":"TSE","stock_name":"KANDA TSUSHINKI CO.,LTD.","growth":1.67,"dividend":85,"recent_price":2936,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1992"}},"staticQueryHashes":[],"slicesMap":{}}

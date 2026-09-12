@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6273/","result":{"data":{"stockDetail":{"symbol":"6273","market":"TSE","stock_name":"SMC CORPORATION","growth":4.04,"dividend":1,"recent_price":67140,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6273"}},"staticQueryHashes":[],"slicesMap":{}}

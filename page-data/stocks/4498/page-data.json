@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4498/","result":{"data":{"stockDetail":{"symbol":"4498","market":"TSE","stock_name":"Cybertrust Japan Co.,Ltd.","growth":3.25,"dividend":12,"recent_price":1287,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4498"}},"staticQueryHashes":[],"slicesMap":{}}

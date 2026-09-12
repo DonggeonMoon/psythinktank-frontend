@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9778/","result":{"data":{"stockDetail":{"symbol":"9778","market":"TSE","stock_name":"SUBARU CO.,LTD.","growth":null,"dividend":120,"recent_price":5530,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9778"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5575/","result":{"data":{"stockDetail":{"symbol":"5575","market":"TSE","stock_name":"Globee Inc.","growth":23.08,"dividend":0,"recent_price":1175,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5575"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5445/","result":{"data":{"stockDetail":{"symbol":"5445","market":"TSE","stock_name":"TOKYO TEKKO CO.,LTD.","growth":0.62,"dividend":100,"recent_price":2071,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5445"}},"staticQueryHashes":[],"slicesMap":{}}

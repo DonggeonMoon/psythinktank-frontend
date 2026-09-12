@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3733/","result":{"data":{"stockDetail":{"symbol":"3733","market":"TSE","stock_name":"Software Service,Inc.","growth":5.74,"dividend":170,"recent_price":12390,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3733"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/277A/","result":{"data":{"stockDetail":{"symbol":"277A","market":"TSE","stock_name":"Globe-ing Inc.","growth":34.48,"dividend":35.6,"recent_price":1851,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"277A"}},"staticQueryHashes":[],"slicesMap":{}}

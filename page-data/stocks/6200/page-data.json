@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6200/","result":{"data":{"stockDetail":{"symbol":"6200","market":"TSE","stock_name":"Insource Co.,Ltd.","growth":15.55,"dividend":29.5,"recent_price":736,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6200"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4828/","result":{"data":{"stockDetail":{"symbol":"4828","market":"TSE","stock_name":"Business Engineering Corporation","growth":4.03,"dividend":42,"recent_price":1418,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4828"}},"staticQueryHashes":[],"slicesMap":{}}

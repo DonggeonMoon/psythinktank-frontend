@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7885/","result":{"data":{"stockDetail":{"symbol":"7885","market":"TSE","stock_name":"TAKANO Co.,Ltd.","growth":-0.27,"dividend":20,"recent_price":1122,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7885"}},"staticQueryHashes":[],"slicesMap":{}}

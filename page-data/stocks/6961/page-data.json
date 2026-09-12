@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6961/","result":{"data":{"stockDetail":{"symbol":"6961","market":"TSE","stock_name":"ENPLAS CORPORATION","growth":-7.24,"dividend":90,"recent_price":9780,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6961"}},"staticQueryHashes":[],"slicesMap":{}}

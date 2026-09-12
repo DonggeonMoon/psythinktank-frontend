@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4301/","result":{"data":{"stockDetail":{"symbol":"4301","market":"TSE","stock_name":"AMUSE INC.","growth":3.09,"dividend":64,"recent_price":1922,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4301"}},"staticQueryHashes":[],"slicesMap":{}}

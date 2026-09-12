@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4826/","result":{"data":{"stockDetail":{"symbol":"4826","market":"TSE","stock_name":"Computer Institute of Japan, Ltd.","growth":3.52,"dividend":21,"recent_price":543,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4826"}},"staticQueryHashes":[],"slicesMap":{}}

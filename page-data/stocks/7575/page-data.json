@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7575/","result":{"data":{"stockDetail":{"symbol":"7575","market":"TSE","stock_name":"Japan Lifeline Co.,Ltd.","growth":4.32,"dividend":79,"recent_price":1526,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7575"}},"staticQueryHashes":[],"slicesMap":{}}

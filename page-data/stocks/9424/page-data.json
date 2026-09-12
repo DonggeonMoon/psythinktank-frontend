@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9424/","result":{"data":{"stockDetail":{"symbol":"9424","market":"TSE","stock_name":"Japan Communications Inc.","growth":9.09,"dividend":1.59,"recent_price":119,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9424"}},"staticQueryHashes":[],"slicesMap":{}}

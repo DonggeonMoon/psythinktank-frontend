@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2229/","result":{"data":{"stockDetail":{"symbol":"2229","market":"TSE","stock_name":"CALBEE,Inc.","growth":35.73,"dividend":69,"recent_price":3043,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2229"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5943/","result":{"data":{"stockDetail":{"symbol":"5943","market":"TSE","stock_name":"NORITZ CORPORATION","growth":-3.17,"dividend":94,"recent_price":2307,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5943"}},"staticQueryHashes":[],"slicesMap":{}}

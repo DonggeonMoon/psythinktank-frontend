@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5909/","result":{"data":{"stockDetail":{"symbol":"5909","market":"TSE","stock_name":"CORONA CORPORATION","growth":-1.28,"dividend":28,"recent_price":967,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5909"}},"staticQueryHashes":[],"slicesMap":{}}

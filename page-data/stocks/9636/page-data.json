@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9636/","result":{"data":{"stockDetail":{"symbol":"9636","market":"TSE","stock_name":"Kin-Ei Corp.","growth":null,"dividend":10,"recent_price":4185,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9636"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7883/","result":{"data":{"stockDetail":{"symbol":"7883","market":"TSE","stock_name":"Sun Messe Co.,Ltd.","growth":-3.16,"dividend":9,"recent_price":401,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7883"}},"staticQueryHashes":[],"slicesMap":{}}

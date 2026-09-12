@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5269/","result":{"data":{"stockDetail":{"symbol":"5269","market":"TSE","stock_name":"NIPPON CONCRETE INDUSTRIES CO.,LTD.","growth":-0.15,"dividend":9,"recent_price":364,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5269"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4125/","result":{"data":{"stockDetail":{"symbol":"4125","market":"TSE","stock_name":"SANWAYUKA INDUSTRY CORPORATION","growth":6.26,"dividend":50,"recent_price":3705,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4125"}},"staticQueryHashes":[],"slicesMap":{}}

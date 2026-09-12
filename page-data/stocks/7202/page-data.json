@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7202/","result":{"data":{"stockDetail":{"symbol":"7202","market":"TSE","stock_name":"ISUZU MOTORS LIMITED","growth":2.11,"dividend":94,"recent_price":2222.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7202"}},"staticQueryHashes":[],"slicesMap":{}}

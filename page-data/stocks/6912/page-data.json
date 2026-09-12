@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6912/","result":{"data":{"stockDetail":{"symbol":"6912","market":"TSE","stock_name":"KIKUSUI HOLDINGS CORPORATION","growth":3.29,"dividend":59,"recent_price":2546,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6912"}},"staticQueryHashes":[],"slicesMap":{}}

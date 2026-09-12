@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2376/","result":{"data":{"stockDetail":{"symbol":"2376","market":"TSE","stock_name":"SCINEX CORPORATION","growth":1.43,"dividend":15,"recent_price":781,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2376"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2806/","result":{"data":{"stockDetail":{"symbol":"2806","market":"TSE","stock_name":"YUTAKA FOODS CORPORATION","growth":-2.52,"dividend":40,"recent_price":1934,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2806"}},"staticQueryHashes":[],"slicesMap":{}}

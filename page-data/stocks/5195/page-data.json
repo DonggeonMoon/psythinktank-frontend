@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5195/","result":{"data":{"stockDetail":{"symbol":"5195","market":"TSE","stock_name":"Bando Chemical Industries,Ltd.","growth":1.61,"dividend":100,"recent_price":2465,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5195"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3449/","result":{"data":{"stockDetail":{"symbol":"3449","market":"TSE","stock_name":"TECHNOFLEX CORPORATION","growth":-1.22,"dividend":64,"recent_price":3925,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3449"}},"staticQueryHashes":[],"slicesMap":{}}

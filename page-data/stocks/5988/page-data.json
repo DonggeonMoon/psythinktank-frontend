@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5988/","result":{"data":{"stockDetail":{"symbol":"5988","market":"TSE","stock_name":"PIOLAX,INC.","growth":-3.83,"dividend":92,"recent_price":1693,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5988"}},"staticQueryHashes":[],"slicesMap":{}}

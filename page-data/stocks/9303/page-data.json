@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9303/","result":{"data":{"stockDetail":{"symbol":"9303","market":"TSE","stock_name":"The Sumitomo Warehouse Co.,Ltd.","growth":0.52,"dividend":103,"recent_price":4135,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9303"}},"staticQueryHashes":[],"slicesMap":{}}

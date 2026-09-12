@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9845/","result":{"data":{"stockDetail":{"symbol":"9845","market":"TSE","stock_name":"PARKER CORPORATION","growth":-6.06,"dividend":63,"recent_price":1388,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9845"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4369/","result":{"data":{"stockDetail":{"symbol":"4369","market":"TSE","stock_name":"Tri Chemical Laboratories Inc.","growth":14.23,"dividend":35,"recent_price":3065,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4369"}},"staticQueryHashes":[],"slicesMap":{}}

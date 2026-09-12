@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/PHD/","result":{"data":{"stockDetail":{"symbol":"PHD","market":"NYSE","stock_name":"Pioneer Floating Rate Fund, Inc.","growth":null,"dividend":0.99,"recent_price":null,"basis_date":"2025-10-15"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"PHD"}},"staticQueryHashes":[],"slicesMap":{}}

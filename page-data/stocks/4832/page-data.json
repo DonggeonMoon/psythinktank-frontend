@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4832/","result":{"data":{"stockDetail":{"symbol":"4832","market":"TSE","stock_name":"JFE Systems, Inc.","growth":3.1,"dividend":70,"recent_price":1908,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4832"}},"staticQueryHashes":[],"slicesMap":{}}

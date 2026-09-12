@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3551/","result":{"data":{"stockDetail":{"symbol":"3551","market":"TSE","stock_name":"DYNIC CORPORATION","growth":-1.1,"dividend":46,"recent_price":1613,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3551"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4441/","result":{"data":{"stockDetail":{"symbol":"4441","market":"TSE","stock_name":"Tobila Systems Inc.","growth":37.35,"dividend":20,"recent_price":1519,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4441"}},"staticQueryHashes":[],"slicesMap":{}}

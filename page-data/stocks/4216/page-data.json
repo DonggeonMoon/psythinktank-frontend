@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4216/","result":{"data":{"stockDetail":{"symbol":"4216","market":"TSE","stock_name":"ASAHI YUKIZAI CORPORATION","growth":-2.18,"dividend":130,"recent_price":5930,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4216"}},"staticQueryHashes":[],"slicesMap":{}}

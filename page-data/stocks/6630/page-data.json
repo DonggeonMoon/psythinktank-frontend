@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6630/","result":{"data":{"stockDetail":{"symbol":"6630","market":"TSE","stock_name":"YA-MAN LTD.","growth":-6.25,"dividend":9,"recent_price":804,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6630"}},"staticQueryHashes":[],"slicesMap":{}}

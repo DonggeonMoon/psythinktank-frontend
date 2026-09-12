@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6099/","result":{"data":{"stockDetail":{"symbol":"6099","market":"TSE","stock_name":"ELAN Corporation","growth":44.08,"dividend":16,"recent_price":722,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6099"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6332/","result":{"data":{"stockDetail":{"symbol":"6332","market":"TSE","stock_name":"TSUKISHIMA HOLDINGS CO.,LTD.","growth":-4.07,"dividend":88,"recent_price":2788,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6332"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2764/","result":{"data":{"stockDetail":{"symbol":"2764","market":"TSE","stock_name":"Hiramatsu Inc.","growth":-2.32,"dividend":1.22,"recent_price":167,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2764"}},"staticQueryHashes":[],"slicesMap":{}}

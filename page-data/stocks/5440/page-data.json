@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5440/","result":{"data":{"stockDetail":{"symbol":"5440","market":"TSE","stock_name":"KYOEI STEEL LTD.","growth":4.23,"dividend":70,"recent_price":2036,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5440"}},"staticQueryHashes":[],"slicesMap":{}}

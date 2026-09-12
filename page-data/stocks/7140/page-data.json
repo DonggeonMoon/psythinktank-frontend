@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7140/","result":{"data":{"stockDetail":{"symbol":"7140","market":"TSE","stock_name":"Petgo Corporation","growth":16.67,"dividend":0,"recent_price":802,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7140"}},"staticQueryHashes":[],"slicesMap":{}}

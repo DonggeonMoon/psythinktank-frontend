@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/USGOW/","result":{"data":{"stockDetail":{"symbol":"USGOW","market":"NASDAQ","stock_name":"U.S. GoldMining Inc. - Warrant","growth":null,"dividend":0,"recent_price":null,"basis_date":"2026-06-02"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"USGOW"}},"staticQueryHashes":[],"slicesMap":{}}

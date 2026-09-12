@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7003/","result":{"data":{"stockDetail":{"symbol":"7003","market":"TSE","stock_name":"MITSUI E&S Co.,Ltd.","growth":0.54,"dividend":60,"recent_price":4287,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7003"}},"staticQueryHashes":[],"slicesMap":{}}

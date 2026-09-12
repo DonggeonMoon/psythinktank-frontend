@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5214/","result":{"data":{"stockDetail":{"symbol":"5214","market":"TSE","stock_name":"Nippon Electric Glass Co.,Ltd.","growth":-5.09,"dividend":160,"recent_price":4736,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5214"}},"staticQueryHashes":[],"slicesMap":{}}

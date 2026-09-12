@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6044/","result":{"data":{"stockDetail":{"symbol":"6044","market":"TSE","stock_name":"SANKI SERVICE CORPORATION","growth":11.96,"dividend":30,"recent_price":1901,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6044"}},"staticQueryHashes":[],"slicesMap":{}}

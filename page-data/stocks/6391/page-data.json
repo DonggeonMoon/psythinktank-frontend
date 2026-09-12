@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6391/","result":{"data":{"stockDetail":{"symbol":"6391","market":"TSE","stock_name":"KAJI TECHNOLOGY CORPORATION","growth":0.98,"dividend":60,"recent_price":4800,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6391"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9812/","result":{"data":{"stockDetail":{"symbol":"9812","market":"TSE","stock_name":"T.O. Holdings CO.,LTD.","growth":-3.33,"dividend":0,"recent_price":245,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9812"}},"staticQueryHashes":[],"slicesMap":{}}

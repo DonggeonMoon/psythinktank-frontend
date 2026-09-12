@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9663/","result":{"data":{"stockDetail":{"symbol":"9663","market":"TSE","stock_name":"NAGAWA CO.,Ltd","growth":5.34,"dividend":60,"recent_price":5090,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9663"}},"staticQueryHashes":[],"slicesMap":{}}

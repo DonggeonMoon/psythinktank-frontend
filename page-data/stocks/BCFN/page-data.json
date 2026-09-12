@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BCFN/","result":{"data":{"stockDetail":{"symbol":"BCFN","market":"NASDAQ","stock_name":"Baron Financials ETF","growth":null,"dividend":0,"recent_price":23.06399917602539,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BCFN"}},"staticQueryHashes":[],"slicesMap":{}}

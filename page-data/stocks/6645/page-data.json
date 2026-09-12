@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6645/","result":{"data":{"stockDetail":{"symbol":"6645","market":"TSE","stock_name":"OMRON Corporation","growth":-2.12,"dividend":110,"recent_price":6217,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6645"}},"staticQueryHashes":[],"slicesMap":{}}

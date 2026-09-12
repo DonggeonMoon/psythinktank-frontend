@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2120/","result":{"data":{"stockDetail":{"symbol":"2120","market":"TSE","stock_name":"LIFULL Co.,Ltd.","growth":-62.06,"dividend":6.72,"recent_price":233,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2120"}},"staticQueryHashes":[],"slicesMap":{}}

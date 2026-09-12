@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/WPC/","result":{"data":{"stockDetail":{"symbol":"WPC","market":"NYSE","stock_name":"W. P. Carey Inc. REIT","growth":-1.97,"dividend":3.76,"recent_price":70.55999755859375,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"WPC"}},"staticQueryHashes":[],"slicesMap":{}}

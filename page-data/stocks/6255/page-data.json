@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6255/","result":{"data":{"stockDetail":{"symbol":"6255","market":"TSE","stock_name":"NPC Incorporated","growth":-1.75,"dividend":10,"recent_price":648,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6255"}},"staticQueryHashes":[],"slicesMap":{}}

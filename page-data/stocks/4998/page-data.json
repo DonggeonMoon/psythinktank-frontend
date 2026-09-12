@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4998/","result":{"data":{"stockDetail":{"symbol":"4998","market":"TSE","stock_name":"FUMAKILLA LIMITED","growth":1.24,"dividend":24,"recent_price":1194,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4998"}},"staticQueryHashes":[],"slicesMap":{}}

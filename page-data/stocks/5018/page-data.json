@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5018/","result":{"data":{"stockDetail":{"symbol":"5018","market":"TSE","stock_name":"MORESCO Corporation","growth":0.25,"dividend":55,"recent_price":2374,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5018"}},"staticQueryHashes":[],"slicesMap":{}}

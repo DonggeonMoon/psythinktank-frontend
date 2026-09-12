@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/PECER/","result":{"data":{"stockDetail":{"symbol":"PECER","market":"NASDAQ","stock_name":"Peace Acquisition Corp - Right","growth":null,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"PECER"}},"staticQueryHashes":[],"slicesMap":{}}

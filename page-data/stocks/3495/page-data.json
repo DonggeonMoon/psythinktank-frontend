@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3495/","result":{"data":{"stockDetail":{"symbol":"3495","market":"TSE","stock_name":"Koryojyuhan Co.,Ltd.","growth":1.69,"dividend":66,"recent_price":2260,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3495"}},"staticQueryHashes":[],"slicesMap":{}}

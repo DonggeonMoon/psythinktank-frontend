@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/HIW/","result":{"data":{"stockDetail":{"symbol":"HIW","market":"NYSE","stock_name":"Highwoods Properties, Inc. Common Stock","growth":-10,"dividend":2,"recent_price":30.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"HIW"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BUFC/","result":{"data":{"stockDetail":{"symbol":"BUFC","market":"NASDAQ","stock_name":"AB Conservative Buffer ETF","growth":null,"dividend":0,"recent_price":43.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BUFC"}},"staticQueryHashes":[],"slicesMap":{}}

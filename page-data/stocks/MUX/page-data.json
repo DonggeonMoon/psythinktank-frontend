@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/MUX/","result":{"data":{"stockDetail":{"symbol":"MUX","market":"NYSE","stock_name":"McEwen Inc. Common Stock","growth":6.28,"dividend":0,"recent_price":20.270000457763672,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"MUX"}},"staticQueryHashes":[],"slicesMap":{}}

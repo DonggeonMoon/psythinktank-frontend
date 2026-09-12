@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6800/","result":{"data":{"stockDetail":{"symbol":"6800","market":"TSE","stock_name":"YOKOWO CO.,LTD.","growth":-1.41,"dividend":63,"recent_price":3780,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6800"}},"staticQueryHashes":[],"slicesMap":{}}

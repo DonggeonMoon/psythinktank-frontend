@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9682/","result":{"data":{"stockDetail":{"symbol":"9682","market":"TSE","stock_name":"DTS CORPORATION","growth":-0.86,"dividend":38,"recent_price":1132,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9682"}},"staticQueryHashes":[],"slicesMap":{}}

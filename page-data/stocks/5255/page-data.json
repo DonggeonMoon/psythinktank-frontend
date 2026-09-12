@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5255/","result":{"data":{"stockDetail":{"symbol":"5255","market":"TSE","stock_name":"Monstarlab Inc.","growth":-10.84,"dividend":0,"recent_price":91,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5255"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/EWA/","result":{"data":{"stockDetail":{"symbol":"EWA","market":"NYSE_ARCA","stock_name":"iShares MSCI Australia Index Fund","growth":null,"dividend":0,"recent_price":30,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"EWA"}},"staticQueryHashes":[],"slicesMap":{}}

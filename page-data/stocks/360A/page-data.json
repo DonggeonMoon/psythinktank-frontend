@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/360A/","result":{"data":{"stockDetail":{"symbol":"360A","market":"TSE","stock_name":"TSE REIT Core ETF","growth":null,"dividend":0,"recent_price":1080.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"360A"}},"staticQueryHashes":[],"slicesMap":{}}

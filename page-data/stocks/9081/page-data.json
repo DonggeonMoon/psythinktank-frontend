@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9081/","result":{"data":{"stockDetail":{"symbol":"9081","market":"TSE","stock_name":"Kanagawa Chuo Kotsu Co.,Ltd.","growth":-0.95,"dividend":90,"recent_price":4000,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9081"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7571/","result":{"data":{"stockDetail":{"symbol":"7571","market":"TSE","stock_name":"YAMANO HOLDINGS CORPORATION","growth":3.85,"dividend":1.5,"recent_price":89,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7571"}},"staticQueryHashes":[],"slicesMap":{}}

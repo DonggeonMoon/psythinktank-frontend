@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4344/","result":{"data":{"stockDetail":{"symbol":"4344","market":"TSE","stock_name":"SOURCENEXT CORPORATION","growth":1.9,"dividend":0,"recent_price":115,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4344"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6424/","result":{"data":{"stockDetail":{"symbol":"6424","market":"TSE","stock_name":"TAKAMISAWA CYBERNETICS COMPANY,LTD.","growth":1.8,"dividend":23,"recent_price":901,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6424"}},"staticQueryHashes":[],"slicesMap":{}}

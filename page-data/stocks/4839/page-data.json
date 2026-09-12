@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4839/","result":{"data":{"stockDetail":{"symbol":"4839","market":"TSE","stock_name":"WOWOW INC.","growth":1.26,"dividend":30,"recent_price":1016,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4839"}},"staticQueryHashes":[],"slicesMap":{}}

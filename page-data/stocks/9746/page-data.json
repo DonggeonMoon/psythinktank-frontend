@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9746/","result":{"data":{"stockDetail":{"symbol":"9746","market":"TSE","stock_name":"TKC Corporation","growth":1.44,"dividend":126,"recent_price":4160,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9746"}},"staticQueryHashes":[],"slicesMap":{}}

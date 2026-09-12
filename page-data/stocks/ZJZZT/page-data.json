@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ZJZZT/","result":{"data":{"stockDetail":{"symbol":"ZJZZT","market":"NASDAQ","stock_name":"NASDAQ TEST STOCK","growth":null,"dividend":0,"recent_price":10,"basis_date":"2025-12-29"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ZJZZT"}},"staticQueryHashes":[],"slicesMap":{}}

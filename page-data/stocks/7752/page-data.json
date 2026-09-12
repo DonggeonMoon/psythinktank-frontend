@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7752/","result":{"data":{"stockDetail":{"symbol":"7752","market":"TSE","stock_name":"RICOH COMPANY,LTD.","growth":-3.85,"dividend":44,"recent_price":1690,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7752"}},"staticQueryHashes":[],"slicesMap":{}}

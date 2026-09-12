@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7749/","result":{"data":{"stockDetail":{"symbol":"7749","market":"TSE","stock_name":"MEDIKIT CO.,LTD.","growth":0.51,"dividend":100,"recent_price":2960,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7749"}},"staticQueryHashes":[],"slicesMap":{}}

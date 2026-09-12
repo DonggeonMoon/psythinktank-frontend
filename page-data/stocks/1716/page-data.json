@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1716/","result":{"data":{"stockDetail":{"symbol":"1716","market":"TSE","stock_name":"DAI-ICHI CUTTER KOGYO K.K.","growth":4.29,"dividend":40,"recent_price":1400,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1716"}},"staticQueryHashes":[],"slicesMap":{}}

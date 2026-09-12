@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2733/","result":{"data":{"stockDetail":{"symbol":"2733","market":"TSE","stock_name":"ARATA CORPORATION","growth":2.91,"dividend":112,"recent_price":2690,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2733"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4102/","result":{"data":{"stockDetail":{"symbol":"4102","market":"TSE","stock_name":"Maruo Calcium Co.,Ltd.","growth":-2.85,"dividend":30,"recent_price":1446,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4102"}},"staticQueryHashes":[],"slicesMap":{}}

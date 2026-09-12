@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4575/","result":{"data":{"stockDetail":{"symbol":"4575","market":"TSE","stock_name":"CanBas Co.,Ltd.","growth":27.27,"dividend":0,"recent_price":793,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4575"}},"staticQueryHashes":[],"slicesMap":{}}

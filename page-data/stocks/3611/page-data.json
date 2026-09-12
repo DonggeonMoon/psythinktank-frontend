@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3611/","result":{"data":{"stockDetail":{"symbol":"3611","market":"TSE","stock_name":"MATSUOKA CORPORATION","growth":7.39,"dividend":115,"recent_price":2468,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3611"}},"staticQueryHashes":[],"slicesMap":{}}

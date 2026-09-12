@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6838/","result":{"data":{"stockDetail":{"symbol":"6838","market":"TSE","stock_name":"TAMAGAWA HOLDINGS CO.,LTD.","growth":5.7,"dividend":5,"recent_price":1551,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6838"}},"staticQueryHashes":[],"slicesMap":{}}

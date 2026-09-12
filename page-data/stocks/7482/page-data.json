@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7482/","result":{"data":{"stockDetail":{"symbol":"7482","market":"TSE","stock_name":"SHIMOJIMA Co.,Ltd.","growth":2.97,"dividend":59,"recent_price":1553,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7482"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6307/","result":{"data":{"stockDetail":{"symbol":"6307","market":"TSE","stock_name":"SANSEI CO.,LTD.","growth":-1.3,"dividend":15,"recent_price":493,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6307"}},"staticQueryHashes":[],"slicesMap":{}}

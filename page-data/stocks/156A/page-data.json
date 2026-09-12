@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/156A/","result":{"data":{"stockDetail":{"symbol":"156A","market":"TSE","stock_name":"Material Group Inc.","growth":23.05,"dividend":26.1,"recent_price":903,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"156A"}},"staticQueryHashes":[],"slicesMap":{}}

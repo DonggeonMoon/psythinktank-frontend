@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3580/","result":{"data":{"stockDetail":{"symbol":"3580","market":"TSE","stock_name":"KOMATSU MATERE Co.,Ltd.","growth":2,"dividend":27,"recent_price":758,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3580"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/EPIX/","result":{"data":{"stockDetail":{"symbol":"EPIX","market":"NASDAQ","stock_name":"ESSA Pharma Inc. - Common Stock","growth":-30,"dividend":0,"recent_price":null,"basis_date":"2025-10-14"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"EPIX"}},"staticQueryHashes":[],"slicesMap":{}}

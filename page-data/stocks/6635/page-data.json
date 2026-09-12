@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6635/","result":{"data":{"stockDetail":{"symbol":"6635","market":"TSE","stock_name":"KK DI-NIKKO ENGINEERING","growth":-3.04,"dividend":16,"recent_price":662,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6635"}},"staticQueryHashes":[],"slicesMap":{}}

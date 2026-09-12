@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3261/","result":{"data":{"stockDetail":{"symbol":"3261","market":"TSE","stock_name":"GRANDES,Inc.","growth":-14.29,"dividend":15,"recent_price":418,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3261"}},"staticQueryHashes":[],"slicesMap":{}}

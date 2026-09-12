@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9229/","result":{"data":{"stockDetail":{"symbol":"9229","market":"TSE","stock_name":"SUNWELS Co.,Ltd.","growth":8.12,"dividend":0,"recent_price":111,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9229"}},"staticQueryHashes":[],"slicesMap":{}}

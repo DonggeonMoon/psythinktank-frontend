@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/TMB/","result":{"data":{"stockDetail":{"symbol":"TMB","market":"NASDAQ","stock_name":"Thornburg Multi Sector Bond ETF","growth":null,"dividend":0,"recent_price":25.125,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"TMB"}},"staticQueryHashes":[],"slicesMap":{}}

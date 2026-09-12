@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8018/","result":{"data":{"stockDetail":{"symbol":"8018","market":"TSE","stock_name":"SANKYO SEIKO CO.,LTD.","growth":-1.59,"dividend":27,"recent_price":860,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8018"}},"staticQueryHashes":[],"slicesMap":{}}

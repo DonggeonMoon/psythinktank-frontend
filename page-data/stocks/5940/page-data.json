@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5940/","result":{"data":{"stockDetail":{"symbol":"5940","market":"TSE","stock_name":"FUJISASH CO.,LTD.","growth":-2.6,"dividend":30,"recent_price":757,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5940"}},"staticQueryHashes":[],"slicesMap":{}}

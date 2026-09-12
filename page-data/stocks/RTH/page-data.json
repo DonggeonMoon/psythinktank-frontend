@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/RTH/","result":{"data":{"stockDetail":{"symbol":"RTH","market":"NASDAQ","stock_name":"VanEck Retail ETF","growth":null,"dividend":0,"recent_price":259.57000732421875,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"RTH"}},"staticQueryHashes":[],"slicesMap":{}}

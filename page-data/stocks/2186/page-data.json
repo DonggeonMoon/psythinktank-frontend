@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2186/","result":{"data":{"stockDetail":{"symbol":"2186","market":"TSE","stock_name":"Sobal Corporation","growth":6.77,"dividend":33,"recent_price":904,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2186"}},"staticQueryHashes":[],"slicesMap":{}}

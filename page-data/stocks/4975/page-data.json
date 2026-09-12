@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4975/","result":{"data":{"stockDetail":{"symbol":"4975","market":"TSE","stock_name":"JCU CORPORATION","growth":3.09,"dividend":180,"recent_price":5460,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4975"}},"staticQueryHashes":[],"slicesMap":{}}

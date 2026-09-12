@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5125/","result":{"data":{"stockDetail":{"symbol":"5125","market":"TSE","stock_name":"Fines inc.","growth":-9.86,"dividend":0,"recent_price":470,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5125"}},"staticQueryHashes":[],"slicesMap":{}}

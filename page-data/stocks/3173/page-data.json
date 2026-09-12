@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3173/","result":{"data":{"stockDetail":{"symbol":"3173","market":"TSE","stock_name":"Cominix Co.,Ltd.","growth":-2.05,"dividend":50,"recent_price":1511,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3173"}},"staticQueryHashes":[],"slicesMap":{}}

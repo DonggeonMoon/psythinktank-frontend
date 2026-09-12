@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/HOLX/","result":{"data":{"stockDetail":{"symbol":"HOLX","market":"NASDAQ","stock_name":"Hologic, Inc. - Common Stock","growth":0.1,"dividend":0,"recent_price":null,"basis_date":"2026-04-14"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"HOLX"}},"staticQueryHashes":[],"slicesMap":{}}

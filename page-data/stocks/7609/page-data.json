@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7609/","result":{"data":{"stockDetail":{"symbol":"7609","market":"TSE","stock_name":"Daitron Co.,Ltd.","growth":5.28,"dividend":120,"recent_price":3930,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7609"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2009/","result":{"data":{"stockDetail":{"symbol":"2009","market":"TSE","stock_name":"THE TORIGOE CO.,LTD.","growth":0,"dividend":49,"recent_price":1105,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2009"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/271A/","result":{"data":{"stockDetail":{"symbol":"271A","market":"TSE","stock_name":"Accelia,Inc.","growth":null,"dividend":0,"recent_price":1500,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"271A"}},"staticQueryHashes":[],"slicesMap":{}}

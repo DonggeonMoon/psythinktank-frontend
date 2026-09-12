@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3562/","result":{"data":{"stockDetail":{"symbol":"3562","market":"TSE","stock_name":"No.1 Co.,Ltd","growth":40.74,"dividend":79,"recent_price":1568,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3562"}},"staticQueryHashes":[],"slicesMap":{}}

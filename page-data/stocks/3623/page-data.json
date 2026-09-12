@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3623/","result":{"data":{"stockDetail":{"symbol":"3623","market":"TSE","stock_name":"Billing System Corporation","growth":-6.73,"dividend":32.5,"recent_price":1266,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3623"}},"staticQueryHashes":[],"slicesMap":{}}

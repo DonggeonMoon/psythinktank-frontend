@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7955/","result":{"data":{"stockDetail":{"symbol":"7955","market":"TSE","stock_name":"Cleanup Corporation","growth":-0.94,"dividend":33,"recent_price":992,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7955"}},"staticQueryHashes":[],"slicesMap":{}}

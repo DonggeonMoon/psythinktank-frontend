@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8892/","result":{"data":{"stockDetail":{"symbol":"8892","market":"TSE","stock_name":"ES-CON JAPAN Ltd.","growth":2.53,"dividend":53,"recent_price":1101,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8892"}},"staticQueryHashes":[],"slicesMap":{}}

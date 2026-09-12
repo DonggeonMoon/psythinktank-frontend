@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2981/","result":{"data":{"stockDetail":{"symbol":"2981","market":"TSE","stock_name":"Landix Inc.","growth":-7.14,"dividend":56,"recent_price":2222,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2981"}},"staticQueryHashes":[],"slicesMap":{}}

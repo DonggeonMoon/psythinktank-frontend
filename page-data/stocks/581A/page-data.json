@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/581A/","result":{"data":{"stockDetail":{"symbol":"581A","market":"TSE","stock_name":"GO Inc.","growth":-2.57,"dividend":0,"recent_price":3920,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"581A"}},"staticQueryHashes":[],"slicesMap":{}}

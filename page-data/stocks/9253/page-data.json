@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9253/","result":{"data":{"stockDetail":{"symbol":"9253","market":"TSE","stock_name":"Slogan Inc.","growth":-1.83,"dividend":0,"recent_price":733,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9253"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3985/","result":{"data":{"stockDetail":{"symbol":"3985","market":"TSE","stock_name":"TEMONA.inc.","growth":-10.85,"dividend":0,"recent_price":192,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3985"}},"staticQueryHashes":[],"slicesMap":{}}

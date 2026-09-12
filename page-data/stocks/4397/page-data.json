@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4397/","result":{"data":{"stockDetail":{"symbol":"4397","market":"TSE","stock_name":"TeamSpirit Inc.","growth":-2.36,"dividend":0,"recent_price":412,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4397"}},"staticQueryHashes":[],"slicesMap":{}}

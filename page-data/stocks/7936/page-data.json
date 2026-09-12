@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7936/","result":{"data":{"stockDetail":{"symbol":"7936","market":"TSE","stock_name":"ASICS Corporation","growth":5.21,"dividend":48,"recent_price":4266,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7936"}},"staticQueryHashes":[],"slicesMap":{}}

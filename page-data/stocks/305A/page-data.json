@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/305A/","result":{"data":{"stockDetail":{"symbol":"305A","market":"TSE","stock_name":"Double Tree Inc.","growth":null,"dividend":16,"recent_price":1146,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"305A"}},"staticQueryHashes":[],"slicesMap":{}}

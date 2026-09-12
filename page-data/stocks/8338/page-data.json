@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8338/","result":{"data":{"stockDetail":{"symbol":"8338","market":"TSE","stock_name":"Tsukuba Bank,Ltd.","growth":-2.55,"dividend":5,"recent_price":769,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8338"}},"staticQueryHashes":[],"slicesMap":{}}

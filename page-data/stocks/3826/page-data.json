@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3826/","result":{"data":{"stockDetail":{"symbol":"3826","market":"TSE","stock_name":"System Integrator Corp.","growth":20.71,"dividend":11,"recent_price":496,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3826"}},"staticQueryHashes":[],"slicesMap":{}}

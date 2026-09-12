@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4421/","result":{"data":{"stockDetail":{"symbol":"4421","market":"TSE","stock_name":"D.I.System Co.,Ltd.","growth":0.54,"dividend":28,"recent_price":942,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4421"}},"staticQueryHashes":[],"slicesMap":{}}

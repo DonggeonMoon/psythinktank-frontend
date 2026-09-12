@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3166/","result":{"data":{"stockDetail":{"symbol":"3166","market":"TSE","stock_name":"OCHI HOLDINGS CO.,LTD.","growth":1.52,"dividend":55,"recent_price":1467,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3166"}},"staticQueryHashes":[],"slicesMap":{}}

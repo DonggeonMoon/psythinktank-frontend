@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8708/","result":{"data":{"stockDetail":{"symbol":"8708","market":"TSE","stock_name":"AIZAWA SECURITIES GROUP CO.,LTD.","growth":-2.21,"dividend":117,"recent_price":1810,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8708"}},"staticQueryHashes":[],"slicesMap":{}}

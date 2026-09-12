@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/317A/","result":{"data":{"stockDetail":{"symbol":"317A","market":"TSE","stock_name":"SMS Data Tech Corporation","growth":null,"dividend":0,"recent_price":1350,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"317A"}},"staticQueryHashes":[],"slicesMap":{}}

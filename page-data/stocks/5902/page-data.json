@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5902/","result":{"data":{"stockDetail":{"symbol":"5902","market":"TSE","stock_name":"HOKKAN HOLDINGS LIMITED","growth":1.86,"dividend":100,"recent_price":2715,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5902"}},"staticQueryHashes":[],"slicesMap":{}}

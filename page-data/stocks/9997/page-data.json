@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9997/","result":{"data":{"stockDetail":{"symbol":"9997","market":"TSE","stock_name":"BELLUNA CO.,LTD.","growth":-1.03,"dividend":39,"recent_price":1046,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9997"}},"staticQueryHashes":[],"slicesMap":{}}

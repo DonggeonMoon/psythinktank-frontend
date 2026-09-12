@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/NBRGR/","result":{"data":{"stockDetail":{"symbol":"NBRGR","market":"NASDAQ","stock_name":"Newbridge Acquisition Limited - Rights","growth":null,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"NBRGR"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7313/","result":{"data":{"stockDetail":{"symbol":"7313","market":"TSE","stock_name":"TS TECH CO.,LTD.","growth":-4.27,"dividend":92,"recent_price":1847.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7313"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4751/","result":{"data":{"stockDetail":{"symbol":"4751","market":"TSE","stock_name":"CyberAgent,Inc.","growth":5.57,"dividend":20,"recent_price":1292.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4751"}},"staticQueryHashes":[],"slicesMap":{}}

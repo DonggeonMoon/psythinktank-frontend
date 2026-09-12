@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5280/","result":{"data":{"stockDetail":{"symbol":"5280","market":"TSE","stock_name":"Yoshicon Co.,Ltd.","growth":1.75,"dividend":90,"recent_price":2225,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5280"}},"staticQueryHashes":[],"slicesMap":{}}

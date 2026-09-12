@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5711/","result":{"data":{"stockDetail":{"symbol":"5711","market":"TSE","stock_name":"Mitsubishi Materials Corporation","growth":-4.67,"dividend":116,"recent_price":5231,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5711"}},"staticQueryHashes":[],"slicesMap":{}}

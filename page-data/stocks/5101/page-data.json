@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5101/","result":{"data":{"stockDetail":{"symbol":"5101","market":"TSE","stock_name":"The Yokohama Rubber Company,Limited","growth":0.8,"dividend":223,"recent_price":7095,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5101"}},"staticQueryHashes":[],"slicesMap":{}}

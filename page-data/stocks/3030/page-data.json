@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3030/","result":{"data":{"stockDetail":{"symbol":"3030","market":"TSE","stock_name":"HUB CO.,LTD.","growth":8.51,"dividend":11,"recent_price":864,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3030"}},"staticQueryHashes":[],"slicesMap":{}}

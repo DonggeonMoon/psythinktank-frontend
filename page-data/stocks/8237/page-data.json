@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8237/","result":{"data":{"stockDetail":{"symbol":"8237","market":"TSE","stock_name":"MATSUYA CO.,LTD.","growth":1.04,"dividend":12,"recent_price":2213,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8237"}},"staticQueryHashes":[],"slicesMap":{}}

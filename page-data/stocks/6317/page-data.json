@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6317/","result":{"data":{"stockDetail":{"symbol":"6317","market":"TSE","stock_name":"Kitagawa Corporation","growth":-2.37,"dividend":64,"recent_price":1812,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6317"}},"staticQueryHashes":[],"slicesMap":{}}

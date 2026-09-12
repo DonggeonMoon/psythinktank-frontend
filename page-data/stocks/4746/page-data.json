@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4746/","result":{"data":{"stockDetail":{"symbol":"4746","market":"TSE","stock_name":"Toukei Computer Co.,Ltd.","growth":-0.61,"dividend":195,"recent_price":7120,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4746"}},"staticQueryHashes":[],"slicesMap":{}}

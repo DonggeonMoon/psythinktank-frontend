@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7944/","result":{"data":{"stockDetail":{"symbol":"7944","market":"TSE","stock_name":"Roland Corporation","growth":-2.03,"dividend":170,"recent_price":3835,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7944"}},"staticQueryHashes":[],"slicesMap":{}}

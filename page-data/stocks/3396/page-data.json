@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3396/","result":{"data":{"stockDetail":{"symbol":"3396","market":"TSE","stock_name":"FELISSIMO CORPORATION","growth":1.43,"dividend":25,"recent_price":865,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3396"}},"staticQueryHashes":[],"slicesMap":{}}

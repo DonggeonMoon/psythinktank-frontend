@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4503/","result":{"data":{"stockDetail":{"symbol":"4503","market":"TSE","stock_name":"Astellas Pharma Inc.","growth":3.34,"dividend":80,"recent_price":2355.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4503"}},"staticQueryHashes":[],"slicesMap":{}}

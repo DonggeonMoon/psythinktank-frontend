@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3992/","result":{"data":{"stockDetail":{"symbol":"3992","market":"TSE","stock_name":"Needs Well Inc.","growth":-3.08,"dividend":12,"recent_price":474,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3992"}},"staticQueryHashes":[],"slicesMap":{}}

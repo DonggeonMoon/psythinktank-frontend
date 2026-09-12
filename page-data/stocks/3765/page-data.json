@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3765/","result":{"data":{"stockDetail":{"symbol":"3765","market":"TSE","stock_name":"GungHo Online Entertainment,Inc.","growth":1.96,"dividend":90,"recent_price":2527,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3765"}},"staticQueryHashes":[],"slicesMap":{}}

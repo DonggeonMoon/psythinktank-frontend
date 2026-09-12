@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5367/","result":{"data":{"stockDetail":{"symbol":"5367","market":"TSE","stock_name":"NIKKATO CORPORATION","growth":null,"dividend":23,"recent_price":1354,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5367"}},"staticQueryHashes":[],"slicesMap":{}}

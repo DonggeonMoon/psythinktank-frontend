@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5142/","result":{"data":{"stockDetail":{"symbol":"5142","market":"TSE","stock_name":"Achilles Corporation","growth":-4.83,"dividend":50,"recent_price":1808,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5142"}},"staticQueryHashes":[],"slicesMap":{}}

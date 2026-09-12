@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3475/","result":{"data":{"stockDetail":{"symbol":"3475","market":"TSE","stock_name":"Good Com Asset Co.,Ltd.","growth":31.72,"dividend":46,"recent_price":1501,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3475"}},"staticQueryHashes":[],"slicesMap":{}}

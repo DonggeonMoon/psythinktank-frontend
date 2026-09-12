@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3377/","result":{"data":{"stockDetail":{"symbol":"3377","market":"TSE","stock_name":"BIKE O & COMPANY Ltd.","growth":2.39,"dividend":11,"recent_price":386,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3377"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4299/","result":{"data":{"stockDetail":{"symbol":"4299","market":"TSE","stock_name":"HIMACS,Ltd.","growth":2.44,"dividend":51,"recent_price":1231,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4299"}},"staticQueryHashes":[],"slicesMap":{}}

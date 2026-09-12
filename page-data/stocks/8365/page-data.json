@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8365/","result":{"data":{"stockDetail":{"symbol":"8365","market":"TSE","stock_name":"The Bank of Toyama,Ltd.","growth":-3.56,"dividend":55,"recent_price":2368,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8365"}},"staticQueryHashes":[],"slicesMap":{}}

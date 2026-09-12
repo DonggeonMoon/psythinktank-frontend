@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7565/","result":{"data":{"stockDetail":{"symbol":"7565","market":"TSE","stock_name":"MANSEI CORPORATION","growth":3.87,"dividend":160,"recent_price":8550,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7565"}},"staticQueryHashes":[],"slicesMap":{}}

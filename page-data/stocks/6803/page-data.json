@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6803/","result":{"data":{"stockDetail":{"symbol":"6803","market":"TSE","stock_name":"TEAC CORPORATION","growth":-4.2,"dividend":1,"recent_price":99,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6803"}},"staticQueryHashes":[],"slicesMap":{}}

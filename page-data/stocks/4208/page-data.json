@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4208/","result":{"data":{"stockDetail":{"symbol":"4208","market":"TSE","stock_name":"UBE Corporation","growth":5.36,"dividend":160,"recent_price":3442,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4208"}},"staticQueryHashes":[],"slicesMap":{}}

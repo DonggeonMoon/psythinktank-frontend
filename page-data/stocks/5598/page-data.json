@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5598/","result":{"data":{"stockDetail":{"symbol":"5598","market":"TSE","stock_name":"Yottavias Co.,Ltd.","growth":null,"dividend":0,"recent_price":3200,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5598"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6237/","result":{"data":{"stockDetail":{"symbol":"6237","market":"TSE","stock_name":"IWAKI CO.,LTD.","growth":2.23,"dividend":82,"recent_price":4005,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6237"}},"staticQueryHashes":[],"slicesMap":{}}

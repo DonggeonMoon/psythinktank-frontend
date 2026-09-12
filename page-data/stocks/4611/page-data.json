@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4611/","result":{"data":{"stockDetail":{"symbol":"4611","market":"TSE","stock_name":"Dai Nippon Toryo Company,Limited","growth":1.04,"dividend":58,"recent_price":1555,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4611"}},"staticQueryHashes":[],"slicesMap":{}}

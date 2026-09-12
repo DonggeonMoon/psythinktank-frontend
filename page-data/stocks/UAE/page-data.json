@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/UAE/","result":{"data":{"stockDetail":{"symbol":"UAE","market":"NASDAQ","stock_name":"iShares MSCI UAE ETF","growth":null,"dividend":0,"recent_price":19.639999389648438,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"UAE"}},"staticQueryHashes":[],"slicesMap":{}}

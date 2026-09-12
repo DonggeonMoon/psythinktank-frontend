@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4526/","result":{"data":{"stockDetail":{"symbol":"4526","market":"TSE","stock_name":"RIKEN VITAMIN CO.,LTD.","growth":1.56,"dividend":110,"recent_price":3270,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4526"}},"staticQueryHashes":[],"slicesMap":{}}

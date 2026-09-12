@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/OBK/","result":{"data":{"stockDetail":{"symbol":"OBK","market":"NYSE","stock_name":"Origin Bancorp, Inc. Common Stock","growth":1.21,"dividend":1,"recent_price":53.75,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"OBK"}},"staticQueryHashes":[],"slicesMap":{}}

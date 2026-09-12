@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8143/","result":{"data":{"stockDetail":{"symbol":"8143","market":"TSE","stock_name":"LAPINE CO.,LTD.","growth":-24.49,"dividend":0,"recent_price":142,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8143"}},"staticQueryHashes":[],"slicesMap":{}}

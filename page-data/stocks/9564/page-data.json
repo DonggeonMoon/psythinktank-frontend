@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9564/","result":{"data":{"stockDetail":{"symbol":"9564","market":"TSE","stock_name":"FCE Inc.","growth":15.28,"dividend":10,"recent_price":561,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9564"}},"staticQueryHashes":[],"slicesMap":{}}

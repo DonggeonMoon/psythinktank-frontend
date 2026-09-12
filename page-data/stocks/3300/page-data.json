@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3300/","result":{"data":{"stockDetail":{"symbol":"3300","market":"TSE","stock_name":"AMBITION DX HOLDINGS Co.,Ltd.","growth":12.71,"dividend":112,"recent_price":1816,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3300"}},"staticQueryHashes":[],"slicesMap":{}}

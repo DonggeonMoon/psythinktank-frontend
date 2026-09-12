@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6525/","result":{"data":{"stockDetail":{"symbol":"6525","market":"TSE","stock_name":"KOKUSAI ELECTRIC CORPORATION","growth":2.72,"dividend":65,"recent_price":8295,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6525"}},"staticQueryHashes":[],"slicesMap":{}}

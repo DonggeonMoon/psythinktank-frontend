@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/AME/","result":{"data":{"stockDetail":{"symbol":"AME","market":"NYSE","stock_name":"AMETEK, Inc.","growth":4.65,"dividend":1.36,"recent_price":237.75999450683594,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"AME"}},"staticQueryHashes":[],"slicesMap":{}}

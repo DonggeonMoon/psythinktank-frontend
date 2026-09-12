@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6325/","result":{"data":{"stockDetail":{"symbol":"6325","market":"TSE","stock_name":"TAKAKITA CO.,LTD.","growth":null,"dividend":10,"recent_price":414,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6325"}},"staticQueryHashes":[],"slicesMap":{}}

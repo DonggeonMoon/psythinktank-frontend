@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7751/","result":{"data":{"stockDetail":{"symbol":"7751","market":"TSE","stock_name":"CANON INC.","growth":48.16,"dividend":160,"recent_price":4615,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7751"}},"staticQueryHashes":[],"slicesMap":{}}

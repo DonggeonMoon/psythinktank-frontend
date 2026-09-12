@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4288/","result":{"data":{"stockDetail":{"symbol":"4288","market":"TSE","stock_name":"Asgent,Inc.","growth":null,"dividend":0,"recent_price":467,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4288"}},"staticQueryHashes":[],"slicesMap":{}}

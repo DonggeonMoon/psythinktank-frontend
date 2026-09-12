@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/NVR/","result":{"data":{"stockDetail":{"symbol":"NVR","market":"NYSE","stock_name":"NVR, Inc. Common Stock","growth":-10,"dividend":0,"recent_price":6116.85986328125,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"NVR"}},"staticQueryHashes":[],"slicesMap":{}}

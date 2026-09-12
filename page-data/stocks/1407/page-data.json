@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1407/","result":{"data":{"stockDetail":{"symbol":"1407","market":"TSE","stock_name":"West Holdings Corporation","growth":-7.59,"dividend":70,"recent_price":2363,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1407"}},"staticQueryHashes":[],"slicesMap":{}}

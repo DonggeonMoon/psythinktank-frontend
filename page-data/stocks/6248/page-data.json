@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6248/","result":{"data":{"stockDetail":{"symbol":"6248","market":"TSE","stock_name":"Yokota Manufacturing Co., Ltd.","growth":-1.23,"dividend":60,"recent_price":1720,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6248"}},"staticQueryHashes":[],"slicesMap":{}}

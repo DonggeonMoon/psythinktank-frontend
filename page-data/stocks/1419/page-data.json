@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1419/","result":{"data":{"stockDetail":{"symbol":"1419","market":"TSE","stock_name":"Tama Home Co.,Ltd.","growth":-4.33,"dividend":125,"recent_price":2863,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1419"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4044/","result":{"data":{"stockDetail":{"symbol":"4044","market":"TSE","stock_name":"Central Glass Co.,Ltd.","growth":-4.77,"dividend":170,"recent_price":4455,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4044"}},"staticQueryHashes":[],"slicesMap":{}}

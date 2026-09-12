@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4179/","result":{"data":{"stockDetail":{"symbol":"4179","market":"TSE","stock_name":"G-NEXT Inc.","growth":-54.17,"dividend":0,"recent_price":354,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4179"}},"staticQueryHashes":[],"slicesMap":{}}

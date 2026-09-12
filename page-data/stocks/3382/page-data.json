@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3382/","result":{"data":{"stockDetail":{"symbol":"3382","market":"TSE","stock_name":"Seven & i Holdings Co.,Ltd.","growth":-42,"dividend":60,"recent_price":2060.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3382"}},"staticQueryHashes":[],"slicesMap":{}}

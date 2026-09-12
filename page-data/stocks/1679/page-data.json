@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1679/","result":{"data":{"stockDetail":{"symbol":"1679","market":"TSE","stock_name":"Simple-X NY Dow Jones Index ETF","growth":null,"dividend":0,"recent_price":66970,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1679"}},"staticQueryHashes":[],"slicesMap":{}}

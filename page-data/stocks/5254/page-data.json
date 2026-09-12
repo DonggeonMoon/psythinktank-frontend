@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5254/","result":{"data":{"stockDetail":{"symbol":"5254","market":"TSE","stock_name":"Arent Inc.","growth":61.44,"dividend":0,"recent_price":4035,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5254"}},"staticQueryHashes":[],"slicesMap":{}}

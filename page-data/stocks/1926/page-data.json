@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1926/","result":{"data":{"stockDetail":{"symbol":"1926","market":"TSE","stock_name":"RAITO KOGYO CO.,LTD.","growth":1.01,"dividend":146,"recent_price":3805,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1926"}},"staticQueryHashes":[],"slicesMap":{}}

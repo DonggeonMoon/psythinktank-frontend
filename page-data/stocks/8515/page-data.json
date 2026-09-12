@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8515/","result":{"data":{"stockDetail":{"symbol":"8515","market":"TSE","stock_name":"AIFUL CORPORATION","growth":87.07,"dividend":12,"recent_price":461,"basis_date":"2026-05-22"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8515"}},"staticQueryHashes":[],"slicesMap":{}}

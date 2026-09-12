@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7966/","result":{"data":{"stockDetail":{"symbol":"7966","market":"TSE","stock_name":"LINTEC Corporation","growth":-1.39,"dividend":120,"recent_price":5400,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7966"}},"staticQueryHashes":[],"slicesMap":{}}

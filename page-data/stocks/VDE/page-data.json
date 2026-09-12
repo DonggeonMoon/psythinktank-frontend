@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/VDE/","result":{"data":{"stockDetail":{"symbol":"VDE","market":"NYSE_ARCA","stock_name":"Vanguard Energy ETF","growth":null,"dividend":0,"recent_price":182.24000549316406,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"VDE"}},"staticQueryHashes":[],"slicesMap":{}}

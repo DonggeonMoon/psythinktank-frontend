@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7120/","result":{"data":{"stockDetail":{"symbol":"7120","market":"TSE","stock_name":"SHINKO Inc.","growth":4.07,"dividend":43,"recent_price":998,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7120"}},"staticQueryHashes":[],"slicesMap":{}}

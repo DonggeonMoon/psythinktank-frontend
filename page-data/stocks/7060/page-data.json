@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7060/","result":{"data":{"stockDetail":{"symbol":"7060","market":"TSE","stock_name":"geechs inc.","growth":3.09,"dividend":32,"recent_price":597,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7060"}},"staticQueryHashes":[],"slicesMap":{}}

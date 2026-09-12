@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/FABC/","result":{"data":{"stockDetail":{"symbol":"FABC","market":"NASDAQ","stock_name":"Fabric.AI, Inc. - Common Stock","growth":null,"dividend":0,"recent_price":2.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"FABC"}},"staticQueryHashes":[],"slicesMap":{}}

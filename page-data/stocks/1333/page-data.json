@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1333/","result":{"data":{"stockDetail":{"symbol":"1333","market":"TSE","stock_name":"Maruha Nichiro Corporation","growth":0.2,"dividend":50,"recent_price":1280,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1333"}},"staticQueryHashes":[],"slicesMap":{}}

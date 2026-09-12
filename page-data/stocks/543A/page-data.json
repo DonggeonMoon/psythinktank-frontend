@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/543A/","result":{"data":{"stockDetail":{"symbol":"543A","market":"TSE","stock_name":"ARCHION Corporation","growth":-1.36,"dividend":8,"recent_price":280,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"543A"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6266/","result":{"data":{"stockDetail":{"symbol":"6266","market":"TSE","stock_name":"TAZMO CO.,LTD.","growth":-1.12,"dividend":34,"recent_price":3485,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6266"}},"staticQueryHashes":[],"slicesMap":{}}

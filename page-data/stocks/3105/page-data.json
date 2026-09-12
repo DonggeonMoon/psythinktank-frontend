@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3105/","result":{"data":{"stockDetail":{"symbol":"3105","market":"TSE","stock_name":"Nisshinbo Holdings Inc.","growth":-4.4,"dividend":36,"recent_price":2239,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3105"}},"staticQueryHashes":[],"slicesMap":{}}

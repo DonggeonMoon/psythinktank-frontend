@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9556/","result":{"data":{"stockDetail":{"symbol":"9556","market":"TSE","stock_name":"INTLOOP Inc.","growth":18.55,"dividend":0,"recent_price":2353,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9556"}},"staticQueryHashes":[],"slicesMap":{}}

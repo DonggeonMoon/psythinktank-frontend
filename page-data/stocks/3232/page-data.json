@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3232/","result":{"data":{"stockDetail":{"symbol":"3232","market":"TSE","stock_name":"Mie Kotsu Group Holdings,Inc.","growth":2.06,"dividend":21,"recent_price":601,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3232"}},"staticQueryHashes":[],"slicesMap":{}}

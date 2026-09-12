@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3804/","result":{"data":{"stockDetail":{"symbol":"3804","market":"TSE","stock_name":"System D Inc.","growth":3.57,"dividend":10.67,"recent_price":471,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3804"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3799/","result":{"data":{"stockDetail":{"symbol":"3799","market":"TSE","stock_name":"Keyware Solutions Inc.","growth":0.85,"dividend":37,"recent_price":1127,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3799"}},"staticQueryHashes":[],"slicesMap":{}}

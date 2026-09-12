@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4248/","result":{"data":{"stockDetail":{"symbol":"4248","market":"TSE","stock_name":"Takemoto Yohki Co.,Ltd.","growth":-0.26,"dividend":38,"recent_price":884,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4248"}},"staticQueryHashes":[],"slicesMap":{}}

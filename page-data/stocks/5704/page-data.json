@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5704/","result":{"data":{"stockDetail":{"symbol":"5704","market":"TSE","stock_name":"JMC Corporation","growth":-2.82,"dividend":0,"recent_price":397,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5704"}},"staticQueryHashes":[],"slicesMap":{}}

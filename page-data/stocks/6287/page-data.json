@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6287/","result":{"data":{"stockDetail":{"symbol":"6287","market":"TSE","stock_name":"SATO CORPORATION","growth":0.43,"dividend":80,"recent_price":2797,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6287"}},"staticQueryHashes":[],"slicesMap":{}}

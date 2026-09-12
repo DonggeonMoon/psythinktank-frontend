@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6862/","result":{"data":{"stockDetail":{"symbol":"6862","market":"TSE","stock_name":"MINATO HOLDINGS INC.","growth":20.64,"dividend":18,"recent_price":4110,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6862"}},"staticQueryHashes":[],"slicesMap":{}}

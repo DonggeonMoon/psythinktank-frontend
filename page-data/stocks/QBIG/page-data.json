@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/QBIG/","result":{"data":{"stockDetail":{"symbol":"QBIG","market":"NASDAQ","stock_name":"Invesco Top QQQ ETF","growth":null,"dividend":0,"recent_price":41.4370002746582,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"QBIG"}},"staticQueryHashes":[],"slicesMap":{}}

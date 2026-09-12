@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1882/","result":{"data":{"stockDetail":{"symbol":"1882","market":"TSE","stock_name":"TOA ROAD CORPORATION","growth":-1.56,"dividend":90,"recent_price":1609,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1882"}},"staticQueryHashes":[],"slicesMap":{}}

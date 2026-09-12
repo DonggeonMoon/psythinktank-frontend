@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1379/","result":{"data":{"stockDetail":{"symbol":"1379","market":"TSE","stock_name":"HOKUTO CORPORATION","growth":1.21,"dividend":62,"recent_price":2135,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1379"}},"staticQueryHashes":[],"slicesMap":{}}

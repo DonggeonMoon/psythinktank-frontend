@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4222/","result":{"data":{"stockDetail":{"symbol":"4222","market":"TSE","stock_name":"KODAMA CHEMICAL INDUSTRY CO.,LTD.","growth":343.9,"dividend":10,"recent_price":699,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4222"}},"staticQueryHashes":[],"slicesMap":{}}

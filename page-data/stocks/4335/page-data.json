@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4335/","result":{"data":{"stockDetail":{"symbol":"4335","market":"TSE","stock_name":"IPS HOLDINGS CO.,LTD.","growth":6.8,"dividend":38,"recent_price":1089,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4335"}},"staticQueryHashes":[],"slicesMap":{}}

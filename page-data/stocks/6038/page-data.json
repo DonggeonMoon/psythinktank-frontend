@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6038/","result":{"data":{"stockDetail":{"symbol":"6038","market":"TSE","stock_name":"IID,Inc.","growth":1.32,"dividend":23,"recent_price":821,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6038"}},"staticQueryHashes":[],"slicesMap":{}}

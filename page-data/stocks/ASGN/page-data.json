@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ASGN/","result":{"data":{"stockDetail":{"symbol":"ASGN","market":"NYSE","stock_name":"ASGN Incorporated Common Stock","growth":-12.5,"dividend":0,"recent_price":null,"basis_date":"2026-06-23"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ASGN"}},"staticQueryHashes":[],"slicesMap":{}}

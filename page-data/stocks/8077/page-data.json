@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8077/","result":{"data":{"stockDetail":{"symbol":"8077","market":"TSE","stock_name":"TORQ Inc.","growth":-4.48,"dividend":6,"recent_price":215,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8077"}},"staticQueryHashes":[],"slicesMap":{}}

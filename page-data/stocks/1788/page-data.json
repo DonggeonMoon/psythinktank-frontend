@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1788/","result":{"data":{"stockDetail":{"symbol":"1788","market":"TSE","stock_name":"SANTO CORPORATION","growth":3.42,"dividend":70,"recent_price":4120,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1788"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CIO/","result":{"data":{"stockDetail":{"symbol":"CIO","market":"NYSE","stock_name":"City Office REIT, Inc. Common Stock","growth":0,"dividend":0.2,"recent_price":null,"basis_date":"2026-01-13"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CIO"}},"staticQueryHashes":[],"slicesMap":{}}

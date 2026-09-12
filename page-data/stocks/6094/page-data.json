@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6094/","result":{"data":{"stockDetail":{"symbol":"6094","market":"TSE","stock_name":"FreakOut Holdings,inc.","growth":3.55,"dividend":0,"recent_price":568,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6094"}},"staticQueryHashes":[],"slicesMap":{}}

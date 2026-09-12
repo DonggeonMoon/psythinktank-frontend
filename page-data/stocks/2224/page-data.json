@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2224/","result":{"data":{"stockDetail":{"symbol":"2224","market":"TSE","stock_name":"COMO CO.,LTD.","growth":4.81,"dividend":7,"recent_price":3695,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2224"}},"staticQueryHashes":[],"slicesMap":{}}

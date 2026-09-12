@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5893/","result":{"data":{"stockDetail":{"symbol":"5893","market":"TSE","stock_name":"RAVIPA Ltd.","growth":null,"dividend":0,"recent_price":510,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5893"}},"staticQueryHashes":[],"slicesMap":{}}

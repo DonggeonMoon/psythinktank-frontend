@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7466/","result":{"data":{"stockDetail":{"symbol":"7466","market":"TSE","stock_name":"SPK CORPORATION","growth":1.25,"dividend":41,"recent_price":1458,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7466"}},"staticQueryHashes":[],"slicesMap":{}}

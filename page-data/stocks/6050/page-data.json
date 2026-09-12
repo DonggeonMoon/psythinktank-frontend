@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6050/","result":{"data":{"stockDetail":{"symbol":"6050","market":"TSE","stock_name":"E-Guardian Inc.","growth":6.22,"dividend":38,"recent_price":1803,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6050"}},"staticQueryHashes":[],"slicesMap":{}}

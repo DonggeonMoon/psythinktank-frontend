@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1540/","result":{"data":{"stockDetail":{"symbol":"1540","market":"TSE","stock_name":"Japan Physical Gold ETF","growth":null,"dividend":0,"recent_price":20930,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1540"}},"staticQueryHashes":[],"slicesMap":{}}

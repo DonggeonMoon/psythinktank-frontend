@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6070/","result":{"data":{"stockDetail":{"symbol":"6070","market":"TSE","stock_name":"CAREERLINK CO.,LTD.","growth":3.79,"dividend":120,"recent_price":2608,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6070"}},"staticQueryHashes":[],"slicesMap":{}}

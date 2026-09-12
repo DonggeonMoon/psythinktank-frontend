@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4264/","result":{"data":{"stockDetail":{"symbol":"4264","market":"TSE","stock_name":"SECURE,INC.","growth":17.59,"dividend":0,"recent_price":1450,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4264"}},"staticQueryHashes":[],"slicesMap":{}}

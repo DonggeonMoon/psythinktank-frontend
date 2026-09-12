@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8354/","result":{"data":{"stockDetail":{"symbol":"8354","market":"TSE","stock_name":"Fukuoka Financial Group,Inc.","growth":1.54,"dividend":210,"recent_price":7925,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8354"}},"staticQueryHashes":[],"slicesMap":{}}

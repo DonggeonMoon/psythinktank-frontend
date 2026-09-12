@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4923/","result":{"data":{"stockDetail":{"symbol":"4923","market":"TSE","stock_name":"COTA CO.,LTD.","growth":1.28,"dividend":20,"recent_price":1243,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4923"}},"staticQueryHashes":[],"slicesMap":{}}

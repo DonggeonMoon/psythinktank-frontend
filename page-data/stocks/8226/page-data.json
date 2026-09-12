@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8226/","result":{"data":{"stockDetail":{"symbol":"8226","market":"TSE","stock_name":"RIKEI CORPORATION","growth":2.87,"dividend":7,"recent_price":386,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8226"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4234/","result":{"data":{"stockDetail":{"symbol":"4234","market":"TSE","stock_name":"Sun A.Kaken Company,Limited","growth":-4.23,"dividend":18,"recent_price":1009,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4234"}},"staticQueryHashes":[],"slicesMap":{}}

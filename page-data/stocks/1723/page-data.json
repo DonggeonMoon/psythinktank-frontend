@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1723/","result":{"data":{"stockDetail":{"symbol":"1723","market":"TSE","stock_name":"NIHON DENGI CO.,LTD.","growth":5.32,"dividend":56,"recent_price":2325,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1723"}},"staticQueryHashes":[],"slicesMap":{}}

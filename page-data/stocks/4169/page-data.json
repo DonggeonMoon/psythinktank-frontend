@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4169/","result":{"data":{"stockDetail":{"symbol":"4169","market":"TSE","stock_name":"ENECHANGE Ltd.","growth":2.69,"dividend":0,"recent_price":267,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4169"}},"staticQueryHashes":[],"slicesMap":{}}

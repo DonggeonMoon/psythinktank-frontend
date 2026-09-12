@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7730/","result":{"data":{"stockDetail":{"symbol":"7730","market":"TSE","stock_name":"MANI,INC.","growth":-0.34,"dividend":41,"recent_price":1506,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7730"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6143/","result":{"data":{"stockDetail":{"symbol":"6143","market":"TSE","stock_name":"Sodick Co.,Ltd.","growth":-4.24,"dividend":35,"recent_price":1728,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6143"}},"staticQueryHashes":[],"slicesMap":{}}

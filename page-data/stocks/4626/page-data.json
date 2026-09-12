@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4626/","result":{"data":{"stockDetail":{"symbol":"4626","market":"TSE","stock_name":"TAIYO HOLDINGS CO.,LTD.","growth":3.06,"dividend":82.5,"recent_price":4724,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4626"}},"staticQueryHashes":[],"slicesMap":{}}

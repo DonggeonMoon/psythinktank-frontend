@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3561/","result":{"data":{"stockDetail":{"symbol":"3561","market":"TSE","stock_name":"CHIKARANOMOTO HOLDINGS Co.,Ltd.","growth":6.73,"dividend":22,"recent_price":1558,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3561"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1493/","result":{"data":{"stockDetail":{"symbol":"1493","market":"TSE","stock_name":"One ETF JPX-Nikkei Mid Small","growth":null,"dividend":24.72,"recent_price":25735,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1493"}},"staticQueryHashes":[],"slicesMap":{}}

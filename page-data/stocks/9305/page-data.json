@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9305/","result":{"data":{"stockDetail":{"symbol":"9305","market":"TSE","stock_name":"Yamatane Corporation","growth":7.31,"dividend":85,"recent_price":2061,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9305"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5027/","result":{"data":{"stockDetail":{"symbol":"5027","market":"TSE","stock_name":"AnyMind Group Inc.","growth":11.28,"dividend":2,"recent_price":748,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5027"}},"staticQueryHashes":[],"slicesMap":{}}

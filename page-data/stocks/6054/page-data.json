@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6054/","result":{"data":{"stockDetail":{"symbol":"6054","market":"TSE","stock_name":"Livesense Inc.","growth":3.67,"dividend":0,"recent_price":113,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6054"}},"staticQueryHashes":[],"slicesMap":{}}

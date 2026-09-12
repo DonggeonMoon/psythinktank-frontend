@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1417/","result":{"data":{"stockDetail":{"symbol":"1417","market":"TSE","stock_name":"MIRAIT ONE Corporation","growth":3.47,"dividend":95,"recent_price":3553,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1417"}},"staticQueryHashes":[],"slicesMap":{}}

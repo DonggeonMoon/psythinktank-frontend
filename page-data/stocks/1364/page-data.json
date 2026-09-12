@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1364/","result":{"data":{"stockDetail":{"symbol":"1364","market":"TSE","stock_name":"iShares JPX-Nikkei 400 ETF","growth":null,"dividend":30.07,"recent_price":3777,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1364"}},"staticQueryHashes":[],"slicesMap":{}}

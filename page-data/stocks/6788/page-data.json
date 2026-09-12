@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6788/","result":{"data":{"stockDetail":{"symbol":"6788","market":"TSE","stock_name":"NIHON TRIM CO.,LTD.","growth":5.71,"dividend":130,"recent_price":4985,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6788"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9341/","result":{"data":{"stockDetail":{"symbol":"9341","market":"TSE","stock_name":"GENOVA,Inc.","growth":29.66,"dividend":30,"recent_price":628,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9341"}},"staticQueryHashes":[],"slicesMap":{}}

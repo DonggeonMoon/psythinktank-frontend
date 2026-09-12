@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3569/","result":{"data":{"stockDetail":{"symbol":"3569","market":"TSE","stock_name":"SEIREN CO.,LTD.","growth":4.46,"dividend":76,"recent_price":3405,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3569"}},"staticQueryHashes":[],"slicesMap":{}}

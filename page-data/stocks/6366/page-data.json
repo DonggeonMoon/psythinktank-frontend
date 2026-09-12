@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6366/","result":{"data":{"stockDetail":{"symbol":"6366","market":"TSE","stock_name":"Chiyoda Corporation","growth":2.05,"dividend":0,"recent_price":693,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6366"}},"staticQueryHashes":[],"slicesMap":{}}

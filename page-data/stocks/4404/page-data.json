@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4404/","result":{"data":{"stockDetail":{"symbol":"4404","market":"TSE","stock_name":"Miyoshi Oil & Fat Co.,Ltd.","growth":3.81,"dividend":70,"recent_price":2238,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4404"}},"staticQueryHashes":[],"slicesMap":{}}

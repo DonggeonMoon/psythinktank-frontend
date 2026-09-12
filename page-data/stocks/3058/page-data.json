@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3058/","result":{"data":{"stockDetail":{"symbol":"3058","market":"TSE","stock_name":"Sanyodo Holdings Inc.","growth":3.43,"dividend":1,"recent_price":703,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3058"}},"staticQueryHashes":[],"slicesMap":{}}

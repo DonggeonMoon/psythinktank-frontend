@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1491/","result":{"data":{"stockDetail":{"symbol":"1491","market":"TSE","stock_name":"Chugai Mining Co.,Ltd.","growth":8.67,"dividend":34,"recent_price":710,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1491"}},"staticQueryHashes":[],"slicesMap":{}}

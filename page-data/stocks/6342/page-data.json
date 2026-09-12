@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6342/","result":{"data":{"stockDetail":{"symbol":"6342","market":"TSE","stock_name":"Taihei Machinery Works,Limited","growth":-3.66,"dividend":100,"recent_price":2968,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6342"}},"staticQueryHashes":[],"slicesMap":{}}

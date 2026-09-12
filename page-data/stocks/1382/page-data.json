@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1382/","result":{"data":{"stockDetail":{"symbol":"1382","market":"TSE","stock_name":"HOB Co.,Ltd.","growth":4.76,"dividend":50,"recent_price":875,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1382"}},"staticQueryHashes":[],"slicesMap":{}}

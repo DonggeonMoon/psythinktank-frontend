@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9531/","result":{"data":{"stockDetail":{"symbol":"9531","market":"TSE","stock_name":"TOKYO GAS CO.,LTD.","growth":2.75,"dividend":120,"recent_price":6128,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9531"}},"staticQueryHashes":[],"slicesMap":{}}

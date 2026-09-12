@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/285A/","result":{"data":{"stockDetail":{"symbol":"285A","market":"TSE","stock_name":"Kioxia Holdings Corporation","growth":-1.36,"dividend":0,"recent_price":54460,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"285A"}},"staticQueryHashes":[],"slicesMap":{}}

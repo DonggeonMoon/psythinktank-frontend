@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5842/","result":{"data":{"stockDetail":{"symbol":"5842","market":"TSE","stock_name":"Integral Corporation","growth":19.51,"dividend":37,"recent_price":3045,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5842"}},"staticQueryHashes":[],"slicesMap":{}}

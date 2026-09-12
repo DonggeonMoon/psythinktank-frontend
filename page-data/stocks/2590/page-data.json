@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2590/","result":{"data":{"stockDetail":{"symbol":"2590","market":"TSE","stock_name":"DyDo GROUP HOLDINGS,INC.","growth":-3.24,"dividend":30,"recent_price":3005,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2590"}},"staticQueryHashes":[],"slicesMap":{}}

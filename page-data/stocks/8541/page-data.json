@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8541/","result":{"data":{"stockDetail":{"symbol":"8541","market":"TSE","stock_name":"The Ehime Bank,Ltd.","growth":0.75,"dividend":48,"recent_price":3210,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8541"}},"staticQueryHashes":[],"slicesMap":{}}

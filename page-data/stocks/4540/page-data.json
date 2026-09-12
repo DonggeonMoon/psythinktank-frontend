@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4540/","result":{"data":{"stockDetail":{"symbol":"4540","market":"TSE","stock_name":"TSUMURA & CO.","growth":15.24,"dividend":158,"recent_price":3714,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4540"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3904/","result":{"data":{"stockDetail":{"symbol":"3904","market":"TSE","stock_name":"KAYAC Inc.","growth":0.98,"dividend":7.77,"recent_price":431,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3904"}},"staticQueryHashes":[],"slicesMap":{}}

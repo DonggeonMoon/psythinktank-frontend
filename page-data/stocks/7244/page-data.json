@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7244/","result":{"data":{"stockDetail":{"symbol":"7244","market":"TSE","stock_name":"ICHIKOH INDUSTRIES,LTD.","growth":-8.09,"dividend":18,"recent_price":598,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7244"}},"staticQueryHashes":[],"slicesMap":{}}

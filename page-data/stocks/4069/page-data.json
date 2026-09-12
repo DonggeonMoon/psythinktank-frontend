@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4069/","result":{"data":{"stockDetail":{"symbol":"4069","market":"TSE","stock_name":"BlueMeme Inc.","growth":22.96,"dividend":0,"recent_price":720,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4069"}},"staticQueryHashes":[],"slicesMap":{}}

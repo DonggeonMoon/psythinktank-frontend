@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/544A/","result":{"data":{"stockDetail":{"symbol":"544A","market":"TSE","stock_name":"GMS Group Co.,Ltd.","growth":null,"dividend":10,"recent_price":341,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"544A"}},"staticQueryHashes":[],"slicesMap":{}}

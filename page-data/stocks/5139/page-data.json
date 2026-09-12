@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5139/","result":{"data":{"stockDetail":{"symbol":"5139","market":"TSE","stock_name":"OpenWork Inc.","growth":17.46,"dividend":9,"recent_price":947,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5139"}},"staticQueryHashes":[],"slicesMap":{}}

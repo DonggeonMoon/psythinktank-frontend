@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/DUG/","result":{"data":{"stockDetail":{"symbol":"DUG","market":"NYSE_ARCA","stock_name":"ProShares UltraShort Energy","growth":null,"dividend":0,"recent_price":14.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"DUG"}},"staticQueryHashes":[],"slicesMap":{}}

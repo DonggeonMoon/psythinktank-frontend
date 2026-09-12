@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4415/","result":{"data":{"stockDetail":{"symbol":"4415","market":"TSE","stock_name":"BROAD ENTERPRISE CO.,LTD.","growth":-10.56,"dividend":21.16,"recent_price":1405,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4415"}},"staticQueryHashes":[],"slicesMap":{}}

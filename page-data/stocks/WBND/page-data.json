@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/WBND/","result":{"data":{"stockDetail":{"symbol":"WBND","market":"NASDAQ","stock_name":"Western Asset Total Return ETF","growth":null,"dividend":0,"recent_price":null,"basis_date":"2025-10-07"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"WBND"}},"staticQueryHashes":[],"slicesMap":{}}

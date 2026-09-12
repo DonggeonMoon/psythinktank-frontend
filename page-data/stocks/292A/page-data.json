@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/292A/","result":{"data":{"stockDetail":{"symbol":"292A","market":"TSE","stock_name":"SIE Co.,Ltd.","growth":null,"dividend":4.58,"recent_price":680,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"292A"}},"staticQueryHashes":[],"slicesMap":{}}

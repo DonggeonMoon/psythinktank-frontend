@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/EBI/","result":{"data":{"stockDetail":{"symbol":"EBI","market":"NASDAQ","stock_name":"Longview Advantage ETF","growth":null,"dividend":0,"recent_price":67.3290023803711,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"EBI"}},"staticQueryHashes":[],"slicesMap":{}}

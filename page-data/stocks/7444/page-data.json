@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7444/","result":{"data":{"stockDetail":{"symbol":"7444","market":"TSE","stock_name":"Harima-Kyowa Co.,LTD.","growth":-1.04,"dividend":60,"recent_price":1977,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7444"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4783/","result":{"data":{"stockDetail":{"symbol":"4783","market":"TSE","stock_name":"NCD Co.,Ltd.","growth":-63.24,"dividend":120,"recent_price":2654,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4783"}},"staticQueryHashes":[],"slicesMap":{}}

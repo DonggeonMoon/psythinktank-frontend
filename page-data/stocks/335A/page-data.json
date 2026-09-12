@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/335A/","result":{"data":{"stockDetail":{"symbol":"335A","market":"TSE","stock_name":"Mirairo Inc.","growth":0,"dividend":0,"recent_price":320,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"335A"}},"staticQueryHashes":[],"slicesMap":{}}

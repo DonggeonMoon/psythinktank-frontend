@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ALVOW/","result":{"data":{"stockDetail":{"symbol":"ALVOW","market":"NASDAQ","stock_name":"Alvotech - Warrant","growth":null,"dividend":0,"recent_price":null,"basis_date":"2026-07-21"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ALVOW"}},"staticQueryHashes":[],"slicesMap":{}}

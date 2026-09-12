@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3762/","result":{"data":{"stockDetail":{"symbol":"3762","market":"TSE","stock_name":"TECHMATRIX CORPORATION","growth":5.01,"dividend":53,"recent_price":2456,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3762"}},"staticQueryHashes":[],"slicesMap":{}}

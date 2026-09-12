@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2004/","result":{"data":{"stockDetail":{"symbol":"2004","market":"TSE","stock_name":"Showa Sangyo Co.,Ltd.","growth":2.31,"dividend":140,"recent_price":3860,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2004"}},"staticQueryHashes":[],"slicesMap":{}}

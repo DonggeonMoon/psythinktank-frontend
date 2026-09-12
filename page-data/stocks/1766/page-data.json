@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1766/","result":{"data":{"stockDetail":{"symbol":"1766","market":"TSE","stock_name":"TOKEN CORPORATION","growth":6.02,"dividend":400,"recent_price":13760,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1766"}},"staticQueryHashes":[],"slicesMap":{}}

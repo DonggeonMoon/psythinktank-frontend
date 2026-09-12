@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6484/","result":{"data":{"stockDetail":{"symbol":"6484","market":"TSE","stock_name":"KVK CORPORATION","growth":0,"dividend":80,"recent_price":2228,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6484"}},"staticQueryHashes":[],"slicesMap":{}}

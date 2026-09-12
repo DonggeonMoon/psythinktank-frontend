@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2215/","result":{"data":{"stockDetail":{"symbol":"2215","market":"TSE","stock_name":"FIRST BAKING CO.,LTD.","growth":0.92,"dividend":0,"recent_price":612,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2215"}},"staticQueryHashes":[],"slicesMap":{}}

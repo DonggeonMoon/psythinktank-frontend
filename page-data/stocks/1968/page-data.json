@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1968/","result":{"data":{"stockDetail":{"symbol":"1968","market":"TSE","stock_name":"TAIHEI DENGYO KAISHA,LTD.","growth":-1.31,"dividend":75,"recent_price":2490,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1968"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6466/","result":{"data":{"stockDetail":{"symbol":"6466","market":"TSE","stock_name":"TVE Co.,Ltd.","growth":1.27,"dividend":55,"recent_price":3760,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6466"}},"staticQueryHashes":[],"slicesMap":{}}

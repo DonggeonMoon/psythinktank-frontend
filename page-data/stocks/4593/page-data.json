@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4593/","result":{"data":{"stockDetail":{"symbol":"4593","market":"TSE","stock_name":"HEALIOS K.K.","growth":15.38,"dividend":0,"recent_price":281,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4593"}},"staticQueryHashes":[],"slicesMap":{}}

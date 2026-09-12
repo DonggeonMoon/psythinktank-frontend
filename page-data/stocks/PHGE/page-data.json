@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/PHGE/","result":{"data":{"stockDetail":{"symbol":"PHGE","market":"NYSE_AMERICAN","stock_name":"BiomX Inc. COmmon Stock","growth":-64.91,"dividend":0,"recent_price":null,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"PHGE"}},"staticQueryHashes":[],"slicesMap":{}}

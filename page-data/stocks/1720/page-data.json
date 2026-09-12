@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1720/","result":{"data":{"stockDetail":{"symbol":"1720","market":"TSE","stock_name":"TOKYU CONSTRUCTION CO., LTD.","growth":2.32,"dividend":43,"recent_price":1170,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1720"}},"staticQueryHashes":[],"slicesMap":{}}

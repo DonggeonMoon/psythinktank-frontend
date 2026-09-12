@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4543/","result":{"data":{"stockDetail":{"symbol":"4543","market":"TSE","stock_name":"TERUMO CORPORATION","growth":null,"dividend":33,"recent_price":2432,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4543"}},"staticQueryHashes":[],"slicesMap":{}}

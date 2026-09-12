@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2972/","result":{"data":{"stockDetail":{"symbol":"2972","market":"TSE","stock_name":"SANKEI REAL ESTATE Inc.","growth":null,"dividend":3,"recent_price":105200,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2972"}},"staticQueryHashes":[],"slicesMap":{}}

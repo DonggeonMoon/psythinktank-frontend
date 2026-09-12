@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4365/","result":{"data":{"stockDetail":{"symbol":"4365","market":"TSE","stock_name":"MATSUMOTO YUSHI-SEIYAKU CO.,LTD.","growth":0.25,"dividend":450,"recent_price":24370,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4365"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2153/","result":{"data":{"stockDetail":{"symbol":"2153","market":"TSE","stock_name":"E・J Holdings Inc.","growth":19.79,"dividend":69,"recent_price":1856,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2153"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6677/","result":{"data":{"stockDetail":{"symbol":"6677","market":"TSE","stock_name":"SK-Electronics CO.,LTD.","growth":12.92,"dividend":152,"recent_price":3200,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6677"}},"staticQueryHashes":[],"slicesMap":{}}

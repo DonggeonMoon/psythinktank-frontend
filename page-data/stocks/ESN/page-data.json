@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ESN/","result":{"data":{"stockDetail":{"symbol":"ESN","market":"NASDAQ","stock_name":"Essential 40 Stock ETF","growth":null,"dividend":0,"recent_price":20.663999557495117,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ESN"}},"staticQueryHashes":[],"slicesMap":{}}

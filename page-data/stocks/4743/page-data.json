@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4743/","result":{"data":{"stockDetail":{"symbol":"4743","market":"TSE","stock_name":"ITFOR Inc.","growth":42.72,"dividend":80,"recent_price":1627,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4743"}},"staticQueryHashes":[],"slicesMap":{}}

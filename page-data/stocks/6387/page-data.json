@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6387/","result":{"data":{"stockDetail":{"symbol":"6387","market":"TSE","stock_name":"SAMCO INC.","growth":4.37,"dividend":60,"recent_price":8320,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6387"}},"staticQueryHashes":[],"slicesMap":{}}

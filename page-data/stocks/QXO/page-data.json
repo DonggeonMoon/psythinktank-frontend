@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/QXO/","result":{"data":{"stockDetail":{"symbol":"QXO","market":"NYSE","stock_name":"QXO, Inc. Common Stock","growth":3593.84,"dividend":0,"recent_price":13.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"QXO"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/FORA/","result":{"data":{"stockDetail":{"symbol":"FORA","market":"NASDAQ","stock_name":"Forian Inc. - Common Stock","growth":4.17,"dividend":0,"recent_price":null,"basis_date":"2026-05-19"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"FORA"}},"staticQueryHashes":[],"slicesMap":{}}

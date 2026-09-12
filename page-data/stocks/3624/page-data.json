@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3624/","result":{"data":{"stockDetail":{"symbol":"3624","market":"TSE","stock_name":"AXEL MARK INC.","growth":4.17,"dividend":0,"recent_price":91,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3624"}},"staticQueryHashes":[],"slicesMap":{}}

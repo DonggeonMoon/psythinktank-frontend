@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/DRNZ/","result":{"data":{"stockDetail":{"symbol":"DRNZ","market":"NASDAQ","stock_name":"REX Drone ETF","growth":null,"dividend":0,"recent_price":21.309999465942383,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"DRNZ"}},"staticQueryHashes":[],"slicesMap":{}}

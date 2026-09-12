@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/196A/","result":{"data":{"stockDetail":{"symbol":"196A","market":"TSE","stock_name":"MFS,Inc.","growth":56.9,"dividend":0,"recent_price":330,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"196A"}},"staticQueryHashes":[],"slicesMap":{}}

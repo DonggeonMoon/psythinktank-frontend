@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3710/","result":{"data":{"stockDetail":{"symbol":"3710","market":"TSE","stock_name":"Jorudan Co.,Ltd.","growth":-4.3,"dividend":10,"recent_price":638,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3710"}},"staticQueryHashes":[],"slicesMap":{}}

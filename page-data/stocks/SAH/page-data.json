@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SAH/","result":{"data":{"stockDetail":{"symbol":"SAH","market":"NYSE","stock_name":"Sonic Automotive, Inc. Common Stock","growth":1.85,"dividend":1.64,"recent_price":76,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SAH"}},"staticQueryHashes":[],"slicesMap":{}}

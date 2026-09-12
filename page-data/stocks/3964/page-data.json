@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3964/","result":{"data":{"stockDetail":{"symbol":"3964","market":"TSE","stock_name":"AUCNET INC.","growth":5.57,"dividend":44,"recent_price":1355,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3964"}},"staticQueryHashes":[],"slicesMap":{}}

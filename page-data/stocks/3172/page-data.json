@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3172/","result":{"data":{"stockDetail":{"symbol":"3172","market":"TSE","stock_name":"Tea Life Co.,Ltd.","growth":-10.56,"dividend":30,"recent_price":1120,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3172"}},"staticQueryHashes":[],"slicesMap":{}}

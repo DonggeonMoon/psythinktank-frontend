@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9888/","result":{"data":{"stockDetail":{"symbol":"9888","market":"TSE","stock_name":"UEX,LTD.","growth":-0.19,"dividend":22,"recent_price":1292,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9888"}},"staticQueryHashes":[],"slicesMap":{}}

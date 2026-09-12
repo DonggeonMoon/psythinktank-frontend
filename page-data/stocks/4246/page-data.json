@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4246/","result":{"data":{"stockDetail":{"symbol":"4246","market":"TSE","stock_name":"DaikyoNishikawa Corporation","growth":-1.16,"dividend":58,"recent_price":1108,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4246"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5821/","result":{"data":{"stockDetail":{"symbol":"5821","market":"TSE","stock_name":"HIRAKAWA HEWTECH CORP.","growth":7.9,"dividend":57,"recent_price":3055,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5821"}},"staticQueryHashes":[],"slicesMap":{}}

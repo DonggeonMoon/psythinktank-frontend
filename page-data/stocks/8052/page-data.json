@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8052/","result":{"data":{"stockDetail":{"symbol":"8052","market":"TSE","stock_name":"TSUBAKIMOTO KOGYO CO.,LTD.","growth":2.02,"dividend":100,"recent_price":2940,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8052"}},"staticQueryHashes":[],"slicesMap":{}}

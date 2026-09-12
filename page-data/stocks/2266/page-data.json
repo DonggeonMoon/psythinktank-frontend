@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2266/","result":{"data":{"stockDetail":{"symbol":"2266","market":"TSE","stock_name":"ROKKO BUTTER CO.,LTD.","growth":10.5,"dividend":20,"recent_price":1112,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2266"}},"staticQueryHashes":[],"slicesMap":{}}

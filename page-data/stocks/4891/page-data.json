@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4891/","result":{"data":{"stockDetail":{"symbol":"4891","market":"TSE","stock_name":"TMS Co.,Ltd.","growth":28.57,"dividend":0,"recent_price":105,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4891"}},"staticQueryHashes":[],"slicesMap":{}}

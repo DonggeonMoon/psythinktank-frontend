@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/YDES/","result":{"data":{"stockDetail":{"symbol":"YDES","market":"NASDAQ","stock_name":"YD Bio Limited - Ordinary Shares","growth":null,"dividend":0,"recent_price":4.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"YDES"}},"staticQueryHashes":[],"slicesMap":{}}

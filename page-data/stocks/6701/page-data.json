@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6701/","result":{"data":{"stockDetail":{"symbol":"6701","market":"TSE","stock_name":"NEC Corporation","growth":-2.3,"dividend":40,"recent_price":4828,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6701"}},"staticQueryHashes":[],"slicesMap":{}}

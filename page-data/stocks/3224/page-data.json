@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3224/","result":{"data":{"stockDetail":{"symbol":"3224","market":"TSE","stock_name":"General Oyster,Inc.","growth":23.4,"dividend":10,"recent_price":694,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3224"}},"staticQueryHashes":[],"slicesMap":{}}

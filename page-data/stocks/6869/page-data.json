@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6869/","result":{"data":{"stockDetail":{"symbol":"6869","market":"TSE","stock_name":"SYSMEX CORPORATION","growth":3.11,"dividend":39,"recent_price":1948,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6869"}},"staticQueryHashes":[],"slicesMap":{}}

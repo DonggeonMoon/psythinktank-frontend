@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9385/","result":{"data":{"stockDetail":{"symbol":"9385","market":"TSE","stock_name":"SHOEI CORPORATION","growth":-1.55,"dividend":35,"recent_price":748,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9385"}},"staticQueryHashes":[],"slicesMap":{}}

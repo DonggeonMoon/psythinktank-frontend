@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7821/","result":{"data":{"stockDetail":{"symbol":"7821","market":"TSE","stock_name":"MAEDA KOSEN CO.,LTD.","growth":18.64,"dividend":32,"recent_price":1995,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7821"}},"staticQueryHashes":[],"slicesMap":{}}

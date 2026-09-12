@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2776/","result":{"data":{"stockDetail":{"symbol":"2776","market":"TSE","stock_name":"SHINTO Holdings,Inc.","growth":72.86,"dividend":0,"recent_price":104,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2776"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7628/","result":{"data":{"stockDetail":{"symbol":"7628","market":"TSE","stock_name":"OHASHI TECHNICA INC.","growth":-2.04,"dividend":45,"recent_price":1182,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7628"}},"staticQueryHashes":[],"slicesMap":{}}

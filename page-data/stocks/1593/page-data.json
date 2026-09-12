@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1593/","result":{"data":{"stockDetail":{"symbol":"1593","market":"TSE","stock_name":"MAXIS JPX-Nikkei Index 400 ETF","growth":null,"dividend":32.49,"recent_price":37910,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1593"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9435/","result":{"data":{"stockDetail":{"symbol":"9435","market":"TSE","stock_name":"HIKARI TSUSHIN,INC.","growth":1.85,"dividend":800,"recent_price":38970,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9435"}},"staticQueryHashes":[],"slicesMap":{}}

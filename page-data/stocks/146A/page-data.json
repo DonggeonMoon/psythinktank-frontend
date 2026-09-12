@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/146A/","result":{"data":{"stockDetail":{"symbol":"146A","market":"TSE","stock_name":"Columbia Works Inc.","growth":47.37,"dividend":94,"recent_price":3610,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"146A"}},"staticQueryHashes":[],"slicesMap":{}}

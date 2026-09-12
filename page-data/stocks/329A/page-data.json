@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/329A/","result":{"data":{"stockDetail":{"symbol":"329A","market":"TSE","stock_name":"ZEAL Associate Corp.","growth":null,"dividend":0,"recent_price":211.60000610351562,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"329A"}},"staticQueryHashes":[],"slicesMap":{}}

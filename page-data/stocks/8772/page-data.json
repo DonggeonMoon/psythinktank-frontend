@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8772/","result":{"data":{"stockDetail":{"symbol":"8772","market":"TSE","stock_name":"ASAX CO.,LTD.","growth":-10.94,"dividend":22,"recent_price":888,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8772"}},"staticQueryHashes":[],"slicesMap":{}}

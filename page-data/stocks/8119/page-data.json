@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8119/","result":{"data":{"stockDetail":{"symbol":"8119","market":"TSE","stock_name":"SANYEI CORPORATION","growth":-11.84,"dividend":31,"recent_price":793,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8119"}},"staticQueryHashes":[],"slicesMap":{}}

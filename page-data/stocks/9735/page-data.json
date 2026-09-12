@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9735/","result":{"data":{"stockDetail":{"symbol":"9735","market":"TSE","stock_name":"SECOM CO.,LTD.","growth":0.68,"dividend":120,"recent_price":6401,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9735"}},"staticQueryHashes":[],"slicesMap":{}}

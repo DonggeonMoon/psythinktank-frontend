@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9304/","result":{"data":{"stockDetail":{"symbol":"9304","market":"TSE","stock_name":"Shibusawa Logistics Corporation","growth":2.56,"dividend":90,"recent_price":2042,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9304"}},"staticQueryHashes":[],"slicesMap":{}}

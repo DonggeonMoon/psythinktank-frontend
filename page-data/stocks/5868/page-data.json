@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5868/","result":{"data":{"stockDetail":{"symbol":"5868","market":"TSE","stock_name":"Rococo Co.Ltd.","growth":5.17,"dividend":40,"recent_price":1048,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5868"}},"staticQueryHashes":[],"slicesMap":{}}

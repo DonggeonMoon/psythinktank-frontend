@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5482/","result":{"data":{"stockDetail":{"symbol":"5482","market":"TSE","stock_name":"AICHI STEEL CORPORATION","growth":-2.1,"dividend":150,"recent_price":3270,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5482"}},"staticQueryHashes":[],"slicesMap":{}}

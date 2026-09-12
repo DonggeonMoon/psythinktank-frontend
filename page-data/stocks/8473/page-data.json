@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8473/","result":{"data":{"stockDetail":{"symbol":"8473","market":"TSE","stock_name":"SBI Holdings,Inc.","growth":-2.54,"dividend":105,"recent_price":3390,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8473"}},"staticQueryHashes":[],"slicesMap":{}}

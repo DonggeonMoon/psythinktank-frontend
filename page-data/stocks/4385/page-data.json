@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4385/","result":{"data":{"stockDetail":{"symbol":"4385","market":"TSE","stock_name":"Mercari,Inc.","growth":3.8,"dividend":0,"recent_price":4443,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4385"}},"staticQueryHashes":[],"slicesMap":{}}

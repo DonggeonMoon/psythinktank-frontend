@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4480/","result":{"data":{"stockDetail":{"symbol":"4480","market":"TSE","stock_name":"MEDLEY,INC.","growth":1.61,"dividend":18,"recent_price":2553,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4480"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3444/","result":{"data":{"stockDetail":{"symbol":"3444","market":"TSE","stock_name":"KIKUCHI SEISAKUSHO CO.,LTD.","growth":-5.31,"dividend":10,"recent_price":1016,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3444"}},"staticQueryHashes":[],"slicesMap":{}}

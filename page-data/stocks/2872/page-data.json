@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2872/","result":{"data":{"stockDetail":{"symbol":"2872","market":"TSE","stock_name":"SEIHYO CO.,LTD.","growth":21.35,"dividend":18,"recent_price":1932,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2872"}},"staticQueryHashes":[],"slicesMap":{}}

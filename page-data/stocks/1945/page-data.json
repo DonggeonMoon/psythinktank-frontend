@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1945/","result":{"data":{"stockDetail":{"symbol":"1945","market":"TSE","stock_name":"TOKYO ENERGY & SYSTEMS INC.","growth":3.62,"dividend":77,"recent_price":2104,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1945"}},"staticQueryHashes":[],"slicesMap":{}}

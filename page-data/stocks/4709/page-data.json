@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4709/","result":{"data":{"stockDetail":{"symbol":"4709","market":"TSE","stock_name":"ID Holdings Corporation","growth":0.67,"dividend":50,"recent_price":1081,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4709"}},"staticQueryHashes":[],"slicesMap":{}}

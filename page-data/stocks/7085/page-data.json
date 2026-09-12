@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7085/","result":{"data":{"stockDetail":{"symbol":"7085","market":"TSE","stock_name":"CURVES HOLDINGS Co.,Ltd.","growth":5.81,"dividend":20,"recent_price":920,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7085"}},"staticQueryHashes":[],"slicesMap":{}}

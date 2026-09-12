@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9867/","result":{"data":{"stockDetail":{"symbol":"9867","market":"TSE","stock_name":"Solekia Limited","growth":-1.93,"dividend":70,"recent_price":10600,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9867"}},"staticQueryHashes":[],"slicesMap":{}}

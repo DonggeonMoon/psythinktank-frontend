@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/199A/","result":{"data":{"stockDetail":{"symbol":"199A","market":"TSE","stock_name":"Mediair corporation","growth":null,"dividend":0,"recent_price":1350,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"199A"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7299/","result":{"data":{"stockDetail":{"symbol":"7299","market":"TSE","stock_name":"FUJI OOZX Inc.","growth":1.2,"dividend":54,"recent_price":1849,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7299"}},"staticQueryHashes":[],"slicesMap":{}}

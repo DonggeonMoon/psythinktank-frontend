@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5939/","result":{"data":{"stockDetail":{"symbol":"5939","market":"TSE","stock_name":"OTANI KOGYO CO.,LTD.","growth":-1.1,"dividend":30,"recent_price":4805,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5939"}},"staticQueryHashes":[],"slicesMap":{}}

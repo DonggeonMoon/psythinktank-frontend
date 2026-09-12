@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5851/","result":{"data":{"stockDetail":{"symbol":"5851","market":"TSE","stock_name":"RYOBI LIMITED","growth":-3.98,"dividend":108,"recent_price":2751,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5851"}},"staticQueryHashes":[],"slicesMap":{}}

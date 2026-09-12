@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9104/","result":{"data":{"stockDetail":{"symbol":"9104","market":"TSE","stock_name":"Mitsui O.S.K.Lines,Ltd.","growth":10.16,"dividend":205,"recent_price":6969,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9104"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3360/","result":{"data":{"stockDetail":{"symbol":"3360","market":"TSE","stock_name":"SHIP HEALTHCARE HOLDINGS,INC.","growth":0.18,"dividend":65,"recent_price":2416.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3360"}},"staticQueryHashes":[],"slicesMap":{}}

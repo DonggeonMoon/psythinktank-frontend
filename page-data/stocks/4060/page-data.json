@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4060/","result":{"data":{"stockDetail":{"symbol":"4060","market":"TSE","stock_name":"rakumo Inc.","growth":47.62,"dividend":14,"recent_price":1224,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4060"}},"staticQueryHashes":[],"slicesMap":{}}

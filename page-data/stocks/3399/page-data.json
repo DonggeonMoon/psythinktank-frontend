@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3399/","result":{"data":{"stockDetail":{"symbol":"3399","market":"TSE","stock_name":"Maruchiyo Yamaokaya Corporation","growth":null,"dividend":23,"recent_price":4065,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3399"}},"staticQueryHashes":[],"slicesMap":{}}

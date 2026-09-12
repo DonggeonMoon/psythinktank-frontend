@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9147/","result":{"data":{"stockDetail":{"symbol":"9147","market":"TSE","stock_name":"NIPPON EXPRESS HOLDINGS,INC.","growth":2.01,"dividend":100,"recent_price":5612,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9147"}},"staticQueryHashes":[],"slicesMap":{}}

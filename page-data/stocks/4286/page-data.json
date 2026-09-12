@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4286/","result":{"data":{"stockDetail":{"symbol":"4286","market":"TSE","stock_name":"CL Holdings Inc.","growth":-2.89,"dividend":31,"recent_price":1294,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4286"}},"staticQueryHashes":[],"slicesMap":{}}

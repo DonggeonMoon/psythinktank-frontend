@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7372/","result":{"data":{"stockDetail":{"symbol":"7372","market":"TSE","stock_name":"Decollte Holdings Corporation","growth":5.63,"dividend":0,"recent_price":396,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7372"}},"staticQueryHashes":[],"slicesMap":{}}

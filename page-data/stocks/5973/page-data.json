@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5973/","result":{"data":{"stockDetail":{"symbol":"5973","market":"TSE","stock_name":"TOAMI CORPORATION","growth":1,"dividend":18,"recent_price":613,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5973"}},"staticQueryHashes":[],"slicesMap":{}}

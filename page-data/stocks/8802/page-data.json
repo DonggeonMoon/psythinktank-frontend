@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8802/","result":{"data":{"stockDetail":{"symbol":"8802","market":"TSE","stock_name":"Mitsubishi Estate Company,Limited","growth":2.16,"dividend":49,"recent_price":3693,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8802"}},"staticQueryHashes":[],"slicesMap":{}}

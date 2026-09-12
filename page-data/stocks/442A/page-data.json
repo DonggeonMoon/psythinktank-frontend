@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/442A/","result":{"data":{"stockDetail":{"symbol":"442A","market":"TSE","stock_name":"Classico,Inc.","growth":null,"dividend":0,"recent_price":979,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"442A"}},"staticQueryHashes":[],"slicesMap":{}}

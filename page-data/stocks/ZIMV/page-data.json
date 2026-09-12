@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ZIMV/","result":{"data":{"stockDetail":{"symbol":"ZIMV","market":"NASDAQ","stock_name":"ZimVie Inc. - Common Stock","growth":-31.92,"dividend":0,"recent_price":null,"basis_date":"2025-10-22"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ZIMV"}},"staticQueryHashes":[],"slicesMap":{}}

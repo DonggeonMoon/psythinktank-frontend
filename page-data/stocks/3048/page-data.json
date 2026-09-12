@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3048/","result":{"data":{"stockDetail":{"symbol":"3048","market":"TSE","stock_name":"BIC CAMERA INC.","growth":3.89,"dividend":43,"recent_price":1748,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3048"}},"staticQueryHashes":[],"slicesMap":{}}

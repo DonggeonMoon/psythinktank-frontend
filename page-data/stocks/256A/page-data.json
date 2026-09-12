@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/256A/","result":{"data":{"stockDetail":{"symbol":"256A","market":"TSE","stock_name":"TOBISHIMA HOLDINGS Inc.","growth":8.57,"dividend":110,"recent_price":2181,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"256A"}},"staticQueryHashes":[],"slicesMap":{}}

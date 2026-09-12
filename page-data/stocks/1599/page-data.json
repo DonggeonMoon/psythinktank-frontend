@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1599/","result":{"data":{"stockDetail":{"symbol":"1599","market":"TSE","stock_name":"iFreeETF JPX-Nikkei400","growth":null,"dividend":29.58,"recent_price":37500,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1599"}},"staticQueryHashes":[],"slicesMap":{}}

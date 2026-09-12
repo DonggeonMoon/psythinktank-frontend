@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2418/","result":{"data":{"stockDetail":{"symbol":"2418","market":"TSE","stock_name":"TSUKADA GLOBAL HOLDINGS Inc.","growth":3.01,"dividend":14,"recent_price":604,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2418"}},"staticQueryHashes":[],"slicesMap":{}}

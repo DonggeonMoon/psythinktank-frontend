@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/143A/","result":{"data":{"stockDetail":{"symbol":"143A","market":"TSE","stock_name":"Ishin Co.,Ltd.","growth":7.14,"dividend":0,"recent_price":700,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"143A"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3097/","result":{"data":{"stockDetail":{"symbol":"3097","market":"TSE","stock_name":"The Monogatari Corporation","growth":14.37,"dividend":46,"recent_price":5710,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3097"}},"staticQueryHashes":[],"slicesMap":{}}

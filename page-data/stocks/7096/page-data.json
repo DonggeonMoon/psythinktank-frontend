@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7096/","result":{"data":{"stockDetail":{"symbol":"7096","market":"TSE","stock_name":"StemCell Institute","growth":19.39,"dividend":0,"recent_price":761,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7096"}},"staticQueryHashes":[],"slicesMap":{}}

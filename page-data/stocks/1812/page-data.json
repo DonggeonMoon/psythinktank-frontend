@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1812/","result":{"data":{"stockDetail":{"symbol":"1812","market":"TSE","stock_name":"KAJIMA CORPORATION","growth":0.67,"dividend":146,"recent_price":4938,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1812"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3176/","result":{"data":{"stockDetail":{"symbol":"3176","market":"TSE","stock_name":"Sanyo Trading Co.,Ltd.","growth":4.77,"dividend":40,"recent_price":1163,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3176"}},"staticQueryHashes":[],"slicesMap":{}}

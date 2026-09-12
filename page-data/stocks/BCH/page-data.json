@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BCH/","result":{"data":{"stockDetail":{"symbol":"BCH","market":"NYSE","stock_name":"Banco De Chile ADS","growth":-3.94,"dividend":1.65,"recent_price":42.369998931884766,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BCH"}},"staticQueryHashes":[],"slicesMap":{}}

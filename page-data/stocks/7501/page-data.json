@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7501/","result":{"data":{"stockDetail":{"symbol":"7501","market":"TSE","stock_name":"TIEMCO LTD.","growth":2.9,"dividend":12,"recent_price":1455,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7501"}},"staticQueryHashes":[],"slicesMap":{}}

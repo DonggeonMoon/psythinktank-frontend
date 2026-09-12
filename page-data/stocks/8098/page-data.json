@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8098/","result":{"data":{"stockDetail":{"symbol":"8098","market":"TSE","stock_name":"Inabata & Co.,Ltd.","growth":0.9,"dividend":143,"recent_price":4465,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8098"}},"staticQueryHashes":[],"slicesMap":{}}

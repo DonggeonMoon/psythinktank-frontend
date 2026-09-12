@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7236/","result":{"data":{"stockDetail":{"symbol":"7236","market":"TSE","stock_name":"T.RAD Co., Ltd.","growth":-4.29,"dividend":82,"recent_price":1511,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7236"}},"staticQueryHashes":[],"slicesMap":{}}

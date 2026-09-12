@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3103/","result":{"data":{"stockDetail":{"symbol":"3103","market":"TSE","stock_name":"UNITIKA LTD.","growth":-36.46,"dividend":0,"recent_price":1425,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3103"}},"staticQueryHashes":[],"slicesMap":{}}

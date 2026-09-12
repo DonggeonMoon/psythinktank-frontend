@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4372/","result":{"data":{"stockDetail":{"symbol":"4372","market":"TSE","stock_name":"YMIRLINK,Inc.","growth":22.56,"dividend":20,"recent_price":1290,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4372"}},"staticQueryHashes":[],"slicesMap":{}}

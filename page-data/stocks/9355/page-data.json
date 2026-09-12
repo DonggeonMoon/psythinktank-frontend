@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9355/","result":{"data":{"stockDetail":{"symbol":"9355","market":"TSE","stock_name":"RINKO CORPORATION","growth":-0.51,"dividend":40,"recent_price":2208,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9355"}},"staticQueryHashes":[],"slicesMap":{}}

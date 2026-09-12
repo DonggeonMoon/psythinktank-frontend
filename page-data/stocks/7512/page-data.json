@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7512/","result":{"data":{"stockDetail":{"symbol":"7512","market":"TSE","stock_name":"Aeon Hokkaido Corporation","growth":null,"dividend":5,"recent_price":865,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7512"}},"staticQueryHashes":[],"slicesMap":{}}

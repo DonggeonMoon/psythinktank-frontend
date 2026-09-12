@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8173/","result":{"data":{"stockDetail":{"symbol":"8173","market":"TSE","stock_name":"Joshin Denki Co.,Ltd.","growth":1.56,"dividend":100,"recent_price":4225,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8173"}},"staticQueryHashes":[],"slicesMap":{}}

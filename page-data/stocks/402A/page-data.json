@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/402A/","result":{"data":{"stockDetail":{"symbol":"402A","market":"TSE","stock_name":"Axelspace Holdings Corporation","growth":0,"dividend":0,"recent_price":522,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"402A"}},"staticQueryHashes":[],"slicesMap":{}}

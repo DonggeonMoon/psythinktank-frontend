@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3974/","result":{"data":{"stockDetail":{"symbol":"3974","market":"TSE","stock_name":"SCAT Inc.","growth":-3.06,"dividend":14,"recent_price":665,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3974"}},"staticQueryHashes":[],"slicesMap":{}}

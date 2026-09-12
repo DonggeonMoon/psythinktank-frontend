@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/432A/","result":{"data":{"stockDetail":{"symbol":"432A","market":"TSE","stock_name":"cliniphar Ltd.","growth":null,"dividend":0,"recent_price":1450,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"432A"}},"staticQueryHashes":[],"slicesMap":{}}

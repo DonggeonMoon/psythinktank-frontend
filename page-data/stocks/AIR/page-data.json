@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/AIR/","result":{"data":{"stockDetail":{"symbol":"AIR","market":"NYSE","stock_name":"AAR Corp. Common Stock","growth":26.79,"dividend":0,"recent_price":130.72999572753906,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"AIR"}},"staticQueryHashes":[],"slicesMap":{}}

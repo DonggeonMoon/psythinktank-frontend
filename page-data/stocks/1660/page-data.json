@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1660/","result":{"data":{"stockDetail":{"symbol":"1660","market":"TSE","stock_name":"MAXIS High Yield J-REIT ETF","growth":null,"dividend":83.21,"recent_price":10445,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1660"}},"staticQueryHashes":[],"slicesMap":{}}

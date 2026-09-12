@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3763/","result":{"data":{"stockDetail":{"symbol":"3763","market":"TSE","stock_name":"Pro-Ship Incorporated","growth":0.39,"dividend":42,"recent_price":2036,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3763"}},"staticQueryHashes":[],"slicesMap":{}}

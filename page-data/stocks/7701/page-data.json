@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7701/","result":{"data":{"stockDetail":{"symbol":"7701","market":"TSE","stock_name":"Shimadzu Corporation","growth":0.89,"dividend":70,"recent_price":3846,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7701"}},"staticQueryHashes":[],"slicesMap":{}}

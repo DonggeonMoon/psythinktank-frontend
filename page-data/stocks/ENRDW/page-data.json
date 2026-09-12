@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ENRDW/","result":{"data":{"stockDetail":{"symbol":"ENRDW","market":"NASDAQ","stock_name":"Einride AB - Warrants","growth":null,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ENRDW"}},"staticQueryHashes":[],"slicesMap":{}}

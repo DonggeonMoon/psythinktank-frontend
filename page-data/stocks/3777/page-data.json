@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3777/","result":{"data":{"stockDetail":{"symbol":"3777","market":"TSE","stock_name":"Environment Friendly Holdings Corp.","growth":9.09,"dividend":0,"recent_price":47,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3777"}},"staticQueryHashes":[],"slicesMap":{}}

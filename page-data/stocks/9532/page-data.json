@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9532/","result":{"data":{"stockDetail":{"symbol":"9532","market":"TSE","stock_name":"OSAKA GAS CO.,LTD.","growth":2.01,"dividend":125,"recent_price":5719,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9532"}},"staticQueryHashes":[],"slicesMap":{}}

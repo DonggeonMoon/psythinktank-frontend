@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3932/","result":{"data":{"stockDetail":{"symbol":"3932","market":"TSE","stock_name":"Akatsuki Inc.","growth":6.76,"dividend":120,"recent_price":3685,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3932"}},"staticQueryHashes":[],"slicesMap":{}}

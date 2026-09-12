@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1899/","result":{"data":{"stockDetail":{"symbol":"1899","market":"TSE","stock_name":"FUKUDA CORPORATION","growth":0.5,"dividend":140,"recent_price":4445,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1899"}},"staticQueryHashes":[],"slicesMap":{}}

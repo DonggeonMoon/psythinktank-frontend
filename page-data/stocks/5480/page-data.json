@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5480/","result":{"data":{"stockDetail":{"symbol":"5480","market":"TSE","stock_name":"Nippon Yakin kogyo Co.,Ltd.","growth":-0.1,"dividend":220,"recent_price":5410,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5480"}},"staticQueryHashes":[],"slicesMap":{}}

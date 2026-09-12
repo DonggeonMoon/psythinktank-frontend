@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9166/","result":{"data":{"stockDetail":{"symbol":"9166","market":"TSE","stock_name":"GENDA Inc.","growth":16.65,"dividend":8,"recent_price":735,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9166"}},"staticQueryHashes":[],"slicesMap":{}}

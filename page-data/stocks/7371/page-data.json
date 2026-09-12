@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7371/","result":{"data":{"stockDetail":{"symbol":"7371","market":"TSE","stock_name":"Zenken Corporation","growth":-1.89,"dividend":26,"recent_price":814,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7371"}},"staticQueryHashes":[],"slicesMap":{}}

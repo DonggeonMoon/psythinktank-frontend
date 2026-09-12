@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9159/","result":{"data":{"stockDetail":{"symbol":"9159","market":"TSE","stock_name":"W TOKYO Inc.","growth":3.85,"dividend":0,"recent_price":1986,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9159"}},"staticQueryHashes":[],"slicesMap":{}}

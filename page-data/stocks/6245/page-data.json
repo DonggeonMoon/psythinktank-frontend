@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6245/","result":{"data":{"stockDetail":{"symbol":"6245","market":"TSE","stock_name":"HIRANO TECSEED CO.,LTD.","growth":-0.48,"dividend":84,"recent_price":1868,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6245"}},"staticQueryHashes":[],"slicesMap":{}}

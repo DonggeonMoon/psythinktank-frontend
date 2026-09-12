@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9432/","result":{"data":{"stockDetail":{"symbol":"9432","market":"TSE","stock_name":"NTT,Inc.","growth":0.84,"dividend":5.4,"recent_price":172.60000610351562,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9432"}},"staticQueryHashes":[],"slicesMap":{}}

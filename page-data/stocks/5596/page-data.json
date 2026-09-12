@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5596/","result":{"data":{"stockDetail":{"symbol":"5596","market":"TSE","stock_name":"OutlookConsulting Co.,Ltd.","growth":11.11,"dividend":17,"recent_price":null,"basis_date":"2026-02-26"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5596"}},"staticQueryHashes":[],"slicesMap":{}}

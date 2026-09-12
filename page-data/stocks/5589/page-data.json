@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5589/","result":{"data":{"stockDetail":{"symbol":"5589","market":"TSE","stock_name":"AUTOSERVER CO.,LTD.","growth":3.64,"dividend":66,"recent_price":2989,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5589"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4970/","result":{"data":{"stockDetail":{"symbol":"4970","market":"TSE","stock_name":"Toyo Gosei Co.,Ltd.","growth":null,"dividend":45,"recent_price":10520,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4970"}},"staticQueryHashes":[],"slicesMap":{}}

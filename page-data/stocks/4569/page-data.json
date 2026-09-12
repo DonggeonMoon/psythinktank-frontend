@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4569/","result":{"data":{"stockDetail":{"symbol":"4569","market":"TSE","stock_name":"KYORIN Pharmaceutical Co.,Ltd.","growth":-0.8,"dividend":25,"recent_price":1149,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4569"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/302A/","result":{"data":{"stockDetail":{"symbol":"302A","market":"TSE","stock_name":"b-style holdings,Inc.","growth":10.89,"dividend":0,"recent_price":609,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"302A"}},"staticQueryHashes":[],"slicesMap":{}}

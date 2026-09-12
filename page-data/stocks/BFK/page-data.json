@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BFK/","result":{"data":{"stockDetail":{"symbol":"BFK","market":"NYSE","stock_name":"BlackRock Municipal Income Trust","growth":null,"dividend":0.6,"recent_price":null,"basis_date":"2026-02-10"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BFK"}},"staticQueryHashes":[],"slicesMap":{}}

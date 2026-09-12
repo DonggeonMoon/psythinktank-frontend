@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/HPQ/","result":{"data":{"stockDetail":{"symbol":"HPQ","market":"NYSE","stock_name":"HP Inc. Common Stock","growth":-5.17,"dividend":1.2,"recent_price":30.869998931884766,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"HPQ"}},"staticQueryHashes":[],"slicesMap":{}}

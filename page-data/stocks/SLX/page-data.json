@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SLX/","result":{"data":{"stockDetail":{"symbol":"SLX","market":"NYSE_ARCA","stock_name":"VanEck Steel ETF","growth":null,"dividend":0,"recent_price":111.19000244140625,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SLX"}},"staticQueryHashes":[],"slicesMap":{}}

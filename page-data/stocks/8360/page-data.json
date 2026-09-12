@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8360/","result":{"data":{"stockDetail":{"symbol":"8360","market":"TSE","stock_name":"The Yamanashi Chuo Bank,Ltd.","growth":1.66,"dividend":153.5,"recent_price":7190,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8360"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5208/","result":{"data":{"stockDetail":{"symbol":"5208","market":"TSE","stock_name":"Arisawa Mfg.Co.,Ltd.","growth":5.67,"dividend":133,"recent_price":2534,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5208"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4183/","result":{"data":{"stockDetail":{"symbol":"4183","market":"TSE","stock_name":"Mitsui Chemicals,Inc.","growth":-2.04,"dividend":75,"recent_price":2224,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4183"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3154/","result":{"data":{"stockDetail":{"symbol":"3154","market":"TSE","stock_name":"MEDIUS HOLDINGS Co.,Ltd.","growth":3.85,"dividend":20,"recent_price":792,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3154"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4461/","result":{"data":{"stockDetail":{"symbol":"4461","market":"TSE","stock_name":"DKS Co.Ltd.","growth":1994.02,"dividend":150,"recent_price":13050,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4461"}},"staticQueryHashes":[],"slicesMap":{}}

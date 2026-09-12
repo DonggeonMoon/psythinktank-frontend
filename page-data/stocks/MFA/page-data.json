@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/MFA/","result":{"data":{"stockDetail":{"symbol":"MFA","market":"NYSE","stock_name":"MFA Financial, Inc.","growth":-11.78,"dividend":1.44,"recent_price":8.859999656677246,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"MFA"}},"staticQueryHashes":[],"slicesMap":{}}

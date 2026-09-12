@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8107/","result":{"data":{"stockDetail":{"symbol":"8107","market":"TSE","stock_name":"KIMURATAN CORPORATION","growth":13.33,"dividend":0,"recent_price":31,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8107"}},"staticQueryHashes":[],"slicesMap":{}}

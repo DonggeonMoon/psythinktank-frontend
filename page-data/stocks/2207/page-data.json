@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2207/","result":{"data":{"stockDetail":{"symbol":"2207","market":"TSE","stock_name":"Meito Sangyo Co.,Ltd.","growth":1.91,"dividend":80,"recent_price":3450,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2207"}},"staticQueryHashes":[],"slicesMap":{}}

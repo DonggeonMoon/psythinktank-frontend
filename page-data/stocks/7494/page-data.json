@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7494/","result":{"data":{"stockDetail":{"symbol":"7494","market":"TSE","stock_name":"KONAKA CO.,LTD.","growth":-12.01,"dividend":10,"recent_price":244,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7494"}},"staticQueryHashes":[],"slicesMap":{}}

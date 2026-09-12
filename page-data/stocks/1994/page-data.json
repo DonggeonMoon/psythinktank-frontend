@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1994/","result":{"data":{"stockDetail":{"symbol":"1994","market":"TSE","stock_name":"TAKAHASHI CURTAIN WALL CORPORATION","growth":-3.13,"dividend":22,"recent_price":618,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1994"}},"staticQueryHashes":[],"slicesMap":{}}

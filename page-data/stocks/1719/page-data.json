@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1719/","result":{"data":{"stockDetail":{"symbol":"1719","market":"TSE","stock_name":"HAZAMA ANDO CORPORATION","growth":5.44,"dividend":84,"recent_price":1916,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1719"}},"staticQueryHashes":[],"slicesMap":{}}

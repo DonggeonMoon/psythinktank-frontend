@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6465/","result":{"data":{"stockDetail":{"symbol":"6465","market":"TSE","stock_name":"HOSHIZAKI CORPORATION","growth":6.1,"dividend":115,"recent_price":5616,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6465"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7509/","result":{"data":{"stockDetail":{"symbol":"7509","market":"TSE","stock_name":"I.A GROUP CORPORATION","growth":-0.39,"dividend":160,"recent_price":4700,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7509"}},"staticQueryHashes":[],"slicesMap":{}}

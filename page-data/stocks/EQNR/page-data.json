@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/EQNR/","result":{"data":{"stockDetail":{"symbol":"EQNR","market":"NYSE","stock_name":"Equinor ASA","growth":-2.03,"dividend":1.28,"recent_price":43.38999938964844,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"EQNR"}},"staticQueryHashes":[],"slicesMap":{}}

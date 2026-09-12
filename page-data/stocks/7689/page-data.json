@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7689/","result":{"data":{"stockDetail":{"symbol":"7689","market":"TSE","stock_name":"Copa Corporation Inc.","growth":-17.78,"dividend":0,"recent_price":381,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7689"}},"staticQueryHashes":[],"slicesMap":{}}

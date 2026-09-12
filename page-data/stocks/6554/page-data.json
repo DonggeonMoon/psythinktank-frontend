@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6554/","result":{"data":{"stockDetail":{"symbol":"6554","market":"TSE","stock_name":"SUS Co.,Ltd.","growth":9.05,"dividend":50,"recent_price":1117,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6554"}},"staticQueryHashes":[],"slicesMap":{}}

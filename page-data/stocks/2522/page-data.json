@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2522/","result":{"data":{"stockDetail":{"symbol":"2522","market":"TSE","stock_name":"iShares Automation & Robot ETF","growth":null,"dividend":0,"recent_price":8720,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2522"}},"staticQueryHashes":[],"slicesMap":{}}

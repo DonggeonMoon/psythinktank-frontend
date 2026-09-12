@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6445/","result":{"data":{"stockDetail":{"symbol":"6445","market":"TSE","stock_name":"JANOME Corporation","growth":1.51,"dividend":60,"recent_price":1396,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6445"}},"staticQueryHashes":[],"slicesMap":{}}

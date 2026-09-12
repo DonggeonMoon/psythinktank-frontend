@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2429/","result":{"data":{"stockDetail":{"symbol":"2429","market":"TSE","stock_name":"WORLD HOLDINGS CO.,LTD.","growth":10.83,"dividend":136.3,"recent_price":2826,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2429"}},"staticQueryHashes":[],"slicesMap":{}}

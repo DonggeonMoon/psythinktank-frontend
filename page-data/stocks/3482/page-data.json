@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3482/","result":{"data":{"stockDetail":{"symbol":"3482","market":"TSE","stock_name":"Loadstar Capital K.K.","growth":37.1,"dividend":98,"recent_price":2556,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3482"}},"staticQueryHashes":[],"slicesMap":{}}

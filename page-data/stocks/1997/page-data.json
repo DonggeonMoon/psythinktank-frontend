@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1997/","result":{"data":{"stockDetail":{"symbol":"1997","market":"TSE","stock_name":"AKATSUKI EAZIMA CO.,LTD.","growth":null,"dividend":135,"recent_price":3890,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1997"}},"staticQueryHashes":[],"slicesMap":{}}

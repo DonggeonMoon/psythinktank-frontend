@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6480/","result":{"data":{"stockDetail":{"symbol":"6480","market":"TSE","stock_name":"NIPPON THOMPSON CO.,LTD.","growth":7.65,"dividend":31.5,"recent_price":1706,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6480"}},"staticQueryHashes":[],"slicesMap":{}}

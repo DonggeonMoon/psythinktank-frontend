@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6289/","result":{"data":{"stockDetail":{"symbol":"6289","market":"TSE","stock_name":"GIKEN LTD.","growth":0.72,"dividend":54,"recent_price":1876,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6289"}},"staticQueryHashes":[],"slicesMap":{}}

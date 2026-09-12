@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4777/","result":{"data":{"stockDetail":{"symbol":"4777","market":"TSE","stock_name":"GALA INCORPORATED","growth":-22.58,"dividend":0,"recent_price":199,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4777"}},"staticQueryHashes":[],"slicesMap":{}}

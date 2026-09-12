@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8344/","result":{"data":{"stockDetail":{"symbol":"8344","market":"TSE","stock_name":"The Yamagata Bank,Ltd.","growth":0.26,"dividend":98,"recent_price":4635,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8344"}},"staticQueryHashes":[],"slicesMap":{}}

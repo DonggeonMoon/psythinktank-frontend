@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6467/","result":{"data":{"stockDetail":{"symbol":"6467","market":"TSE","stock_name":"NICHIDAI CORPORATION","growth":-6.73,"dividend":6,"recent_price":345,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6467"}},"staticQueryHashes":[],"slicesMap":{}}

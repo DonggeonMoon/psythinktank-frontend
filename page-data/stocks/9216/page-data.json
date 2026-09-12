@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9216/","result":{"data":{"stockDetail":{"symbol":"9216","market":"TSE","stock_name":"Bewith,Inc.","growth":5.87,"dividend":77,"recent_price":1653,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9216"}},"staticQueryHashes":[],"slicesMap":{}}

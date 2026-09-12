@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5038/","result":{"data":{"stockDetail":{"symbol":"5038","market":"TSE","stock_name":"eWeLL Co.,Ltd.","growth":18.89,"dividend":21,"recent_price":2108,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5038"}},"staticQueryHashes":[],"slicesMap":{}}

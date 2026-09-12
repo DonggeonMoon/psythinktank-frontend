@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7453/","result":{"data":{"stockDetail":{"symbol":"7453","market":"TSE","stock_name":"RYOHIN KEIKAKU CO.,LTD.","growth":15.25,"dividend":32,"recent_price":4238,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7453"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5471/","result":{"data":{"stockDetail":{"symbol":"5471","market":"TSE","stock_name":"Daido Steel Co.,Ltd.","growth":5.6,"dividend":52,"recent_price":2269.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5471"}},"staticQueryHashes":[],"slicesMap":{}}

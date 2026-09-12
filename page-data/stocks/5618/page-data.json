@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5618/","result":{"data":{"stockDetail":{"symbol":"5618","market":"TSE","stock_name":"Nyle Inc.","growth":2.29,"dividend":0,"recent_price":287,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5618"}},"staticQueryHashes":[],"slicesMap":{}}

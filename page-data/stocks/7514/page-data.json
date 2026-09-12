@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7514/","result":{"data":{"stockDetail":{"symbol":"7514","market":"TSE","stock_name":"HIMARAYA Co.,Ltd.","growth":-1.23,"dividend":26,"recent_price":857,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7514"}},"staticQueryHashes":[],"slicesMap":{}}

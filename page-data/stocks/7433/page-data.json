@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7433/","result":{"data":{"stockDetail":{"symbol":"7433","market":"TSE","stock_name":"Hakuto Co.,Ltd.","growth":14.11,"dividend":255,"recent_price":5280,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7433"}},"staticQueryHashes":[],"slicesMap":{}}

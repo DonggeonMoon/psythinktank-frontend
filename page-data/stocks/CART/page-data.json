@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CART/","result":{"data":{"stockDetail":{"symbol":"CART","market":"NASDAQ","stock_name":"Maplebear Inc. - Common Stock","growth":10.26,"dividend":0,"recent_price":48,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CART"}},"staticQueryHashes":[],"slicesMap":{}}

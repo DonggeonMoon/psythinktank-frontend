@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6356/","result":{"data":{"stockDetail":{"symbol":"6356","market":"TSE","stock_name":"NIPPON GEAR CO.,LTD.","growth":null,"dividend":4,"recent_price":1317,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6356"}},"staticQueryHashes":[],"slicesMap":{}}

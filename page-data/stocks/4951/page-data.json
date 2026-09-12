@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4951/","result":{"data":{"stockDetail":{"symbol":"4951","market":"TSE","stock_name":"S.T.CORPORATION","growth":-9.21,"dividend":45,"recent_price":1523,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4951"}},"staticQueryHashes":[],"slicesMap":{}}

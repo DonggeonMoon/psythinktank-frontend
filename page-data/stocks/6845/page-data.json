@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6845/","result":{"data":{"stockDetail":{"symbol":"6845","market":"TSE","stock_name":"Azbil Corporation","growth":2.78,"dividend":38,"recent_price":1474.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6845"}},"staticQueryHashes":[],"slicesMap":{}}

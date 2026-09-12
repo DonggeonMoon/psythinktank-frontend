@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2154/","result":{"data":{"stockDetail":{"symbol":"2154","market":"TSE","stock_name":"Open Up Group Inc.","growth":-17.6,"dividend":90,"recent_price":1988,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2154"}},"staticQueryHashes":[],"slicesMap":{}}

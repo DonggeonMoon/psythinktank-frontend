@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9755/","result":{"data":{"stockDetail":{"symbol":"9755","market":"TSE","stock_name":"OYO Corporation","growth":0.63,"dividend":110,"recent_price":2808,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9755"}},"staticQueryHashes":[],"slicesMap":{}}

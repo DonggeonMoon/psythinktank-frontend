@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8260/","result":{"data":{"stockDetail":{"symbol":"8260","market":"TSE","stock_name":"IZUTSUYA CO.,LTD.","growth":-2.69,"dividend":7,"recent_price":385,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8260"}},"staticQueryHashes":[],"slicesMap":{}}

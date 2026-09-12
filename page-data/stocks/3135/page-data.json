@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3135/","result":{"data":{"stockDetail":{"symbol":"3135","market":"TSE","stock_name":"MarketEnterprise Co.,Ltd","growth":-9.01,"dividend":0,"recent_price":1150,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3135"}},"staticQueryHashes":[],"slicesMap":{}}

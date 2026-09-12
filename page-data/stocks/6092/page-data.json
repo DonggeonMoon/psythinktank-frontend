@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6092/","result":{"data":{"stockDetail":{"symbol":"6092","market":"TSE","stock_name":"EnBio Holdings,Inc","growth":11.88,"dividend":24,"recent_price":837,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6092"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5237/","result":{"data":{"stockDetail":{"symbol":"5237","market":"TSE","stock_name":"NOZAWA CORPORATION","growth":-1.78,"dividend":43,"recent_price":1221,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5237"}},"staticQueryHashes":[],"slicesMap":{}}

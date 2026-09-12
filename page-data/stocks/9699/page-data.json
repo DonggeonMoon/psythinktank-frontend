@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9699/","result":{"data":{"stockDetail":{"symbol":"9699","market":"TSE","stock_name":"NISHIO HOLDINGS CO.,LTD.","growth":2.45,"dividend":132,"recent_price":4710,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9699"}},"staticQueryHashes":[],"slicesMap":{}}

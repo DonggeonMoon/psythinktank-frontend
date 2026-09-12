@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/EVOK/","result":{"data":{"stockDetail":{"symbol":"EVOK","market":"NASDAQ","stock_name":"Evoke Pharma, Inc. - Common Stock","growth":-25,"dividend":0,"recent_price":null,"basis_date":"2025-12-23"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"EVOK"}},"staticQueryHashes":[],"slicesMap":{}}

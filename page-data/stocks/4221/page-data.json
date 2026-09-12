@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4221/","result":{"data":{"stockDetail":{"symbol":"4221","market":"TSE","stock_name":"Okura Industrial Co.,Ltd.","growth":-0.42,"dividend":260,"recent_price":5570,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4221"}},"staticQueryHashes":[],"slicesMap":{}}

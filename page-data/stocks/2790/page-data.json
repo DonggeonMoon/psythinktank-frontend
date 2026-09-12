@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2790/","result":{"data":{"stockDetail":{"symbol":"2790","market":"TSE","stock_name":"NAFCO Co.,Ltd.","growth":-4.66,"dividend":58,"recent_price":2113,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2790"}},"staticQueryHashes":[],"slicesMap":{}}

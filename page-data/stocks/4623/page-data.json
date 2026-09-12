@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4623/","result":{"data":{"stockDetail":{"symbol":"4623","market":"TSE","stock_name":"ASAHIPEN CORPORATION","growth":48.22,"dividend":60,"recent_price":1845,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4623"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6549/","result":{"data":{"stockDetail":{"symbol":"6549","market":"TSE","stock_name":"DM Solutions Co.,Ltd","growth":8.56,"dividend":21,"recent_price":1120,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6549"}},"staticQueryHashes":[],"slicesMap":{}}

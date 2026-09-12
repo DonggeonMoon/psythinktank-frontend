@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/366A/","result":{"data":{"stockDetail":{"symbol":"366A","market":"TSE","stock_name":"Wellness Communications Corporation","growth":null,"dividend":40,"recent_price":1184,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"366A"}},"staticQueryHashes":[],"slicesMap":{}}

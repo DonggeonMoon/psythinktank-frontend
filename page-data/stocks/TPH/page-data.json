@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/TPH/","result":{"data":{"stockDetail":{"symbol":"TPH","market":"NYSE","stock_name":"Tri Pointe Homes, Inc. Common Stock","growth":-9.77,"dividend":0,"recent_price":null,"basis_date":"2026-05-19"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"TPH"}},"staticQueryHashes":[],"slicesMap":{}}

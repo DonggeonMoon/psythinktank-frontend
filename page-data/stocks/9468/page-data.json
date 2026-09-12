@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9468/","result":{"data":{"stockDetail":{"symbol":"9468","market":"TSE","stock_name":"KADOKAWA CORPORATION","growth":5.24,"dividend":30,"recent_price":3649,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9468"}},"staticQueryHashes":[],"slicesMap":{}}

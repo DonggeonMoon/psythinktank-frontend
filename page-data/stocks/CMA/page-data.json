@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CMA/","result":{"data":{"stockDetail":{"symbol":"CMA","market":"NYSE","stock_name":"Comerica Incorporated Common Stock","growth":0.83,"dividend":2.84,"recent_price":null,"basis_date":"2026-02-03"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CMA"}},"staticQueryHashes":[],"slicesMap":{}}

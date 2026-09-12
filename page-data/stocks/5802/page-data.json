@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5802/","result":{"data":{"stockDetail":{"symbol":"5802","market":"TSE","stock_name":"Sumitomo Electric Industries,Ltd.","growth":5.15,"dividend":39,"recent_price":2133,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5802"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7746/","result":{"data":{"stockDetail":{"symbol":"7746","market":"TSE","stock_name":"OKAMOTO GLASS CO.,LTD.","growth":0.43,"dividend":0,"recent_price":792,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7746"}},"staticQueryHashes":[],"slicesMap":{}}

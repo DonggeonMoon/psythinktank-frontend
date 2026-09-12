@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9215/","result":{"data":{"stockDetail":{"symbol":"9215","market":"TSE","stock_name":"CaSy Co.,Ltd.","growth":null,"dividend":0,"recent_price":1000,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9215"}},"staticQueryHashes":[],"slicesMap":{}}

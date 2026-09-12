@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5381/","result":{"data":{"stockDetail":{"symbol":"5381","market":"TSE","stock_name":"Mipox Corporation","growth":4.41,"dividend":10,"recent_price":924,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5381"}},"staticQueryHashes":[],"slicesMap":{}}

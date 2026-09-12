@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/LNW/","result":{"data":{"stockDetail":{"symbol":"LNW","market":"NASDAQ","stock_name":"Light & Wonder, Inc.  - Common Stock","growth":0,"dividend":0,"recent_price":null,"basis_date":"2026-05-26"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"LNW"}},"staticQueryHashes":[],"slicesMap":{}}

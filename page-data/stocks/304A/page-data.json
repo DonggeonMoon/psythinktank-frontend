@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/304A/","result":{"data":{"stockDetail":{"symbol":"304A","market":"TSE","stock_name":"FORCIA,Inc.","growth":6.87,"dividend":0,"recent_price":1940,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"304A"}},"staticQueryHashes":[],"slicesMap":{}}

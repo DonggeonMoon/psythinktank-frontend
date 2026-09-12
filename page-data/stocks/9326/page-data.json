@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9326/","result":{"data":{"stockDetail":{"symbol":"9326","market":"TSE","stock_name":"KANTSU CO.,LTD.","growth":-4.71,"dividend":10,"recent_price":487,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9326"}},"staticQueryHashes":[],"slicesMap":{}}

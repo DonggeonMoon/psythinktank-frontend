@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/API/","result":{"data":{"stockDetail":{"symbol":"API","market":"NASDAQ","stock_name":"Agora, Inc. - ADS","growth":-10.69,"dividend":0,"recent_price":4.110000133514404,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"API"}},"staticQueryHashes":[],"slicesMap":{}}

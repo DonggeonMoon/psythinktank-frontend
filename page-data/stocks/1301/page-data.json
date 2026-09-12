@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1301/","result":{"data":{"stockDetail":{"symbol":"1301","market":"TSE","stock_name":"KYOKUYO CO.,LTD.","growth":2.67,"dividend":150,"recent_price":4665,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1301"}},"staticQueryHashes":[],"slicesMap":{}}

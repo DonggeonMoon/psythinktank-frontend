@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4820/","result":{"data":{"stockDetail":{"symbol":"4820","market":"TSE","stock_name":"EM SYSTEMS CO.,LTD.","growth":3.75,"dividend":23,"recent_price":600,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4820"}},"staticQueryHashes":[],"slicesMap":{}}

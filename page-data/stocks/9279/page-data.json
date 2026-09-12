@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9279/","result":{"data":{"stockDetail":{"symbol":"9279","market":"TSE","stock_name":"GIFT HOLDINGS INC.","growth":15.71,"dividend":13,"recent_price":2373,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9279"}},"staticQueryHashes":[],"slicesMap":{}}

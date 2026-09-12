@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CBZ/","result":{"data":{"stockDetail":{"symbol":"CBZ","market":"NYSE","stock_name":"CBIZ, Inc. Common Stock","growth":0,"dividend":0,"recent_price":54.650001525878906,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CBZ"}},"staticQueryHashes":[],"slicesMap":{}}

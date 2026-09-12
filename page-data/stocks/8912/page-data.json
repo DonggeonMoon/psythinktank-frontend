@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8912/","result":{"data":{"stockDetail":{"symbol":"8912","market":"TSE","stock_name":"Area Quest Inc.","growth":-20.51,"dividend":3,"recent_price":163,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8912"}},"staticQueryHashes":[],"slicesMap":{}}

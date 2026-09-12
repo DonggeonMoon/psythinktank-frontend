@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1348/","result":{"data":{"stockDetail":{"symbol":"1348","market":"TSE","stock_name":"MAXIS TOPIX ETF","growth":null,"dividend":33.24,"recent_price":4255,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1348"}},"staticQueryHashes":[],"slicesMap":{}}

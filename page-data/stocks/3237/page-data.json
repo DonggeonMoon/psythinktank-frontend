@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3237/","result":{"data":{"stockDetail":{"symbol":"3237","market":"TSE","stock_name":"INTRANCE CO.,LTD.","growth":2.13,"dividend":0,"recent_price":95,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3237"}},"staticQueryHashes":[],"slicesMap":{}}

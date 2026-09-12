@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5216/","result":{"data":{"stockDetail":{"symbol":"5216","market":"TSE","stock_name":"KURAMOTO CO.,LTD.","growth":2.78,"dividend":0,"recent_price":152,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5216"}},"staticQueryHashes":[],"slicesMap":{}}

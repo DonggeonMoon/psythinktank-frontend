@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3415/","result":{"data":{"stockDetail":{"symbol":"3415","market":"TSE","stock_name":"TOKYO BASE Co.,Ltd.","growth":44.6,"dividend":7,"recent_price":364,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3415"}},"staticQueryHashes":[],"slicesMap":{}}

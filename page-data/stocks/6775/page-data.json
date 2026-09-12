@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6775/","result":{"data":{"stockDetail":{"symbol":"6775","market":"TSE","stock_name":"TB GROUP INC.","growth":-5.6,"dividend":0,"recent_price":126,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6775"}},"staticQueryHashes":[],"slicesMap":{}}

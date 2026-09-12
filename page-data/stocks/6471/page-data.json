@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6471/","result":{"data":{"stockDetail":{"symbol":"6471","market":"TSE","stock_name":"NSK Ltd.","growth":-0.24,"dividend":34,"recent_price":1112,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6471"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4523/","result":{"data":{"stockDetail":{"symbol":"4523","market":"TSE","stock_name":"Eisai Co.,Ltd.","growth":-3.43,"dividend":160,"recent_price":4694,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4523"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1852/","result":{"data":{"stockDetail":{"symbol":"1852","market":"TSE","stock_name":"ASANUMA CORPORATION","growth":0.56,"dividend":45,"recent_price":897,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1852"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3245/","result":{"data":{"stockDetail":{"symbol":"3245","market":"TSE","stock_name":"DEAR LIFE CO.,LTD.","growth":-0.62,"dividend":64,"recent_price":1125,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3245"}},"staticQueryHashes":[],"slicesMap":{}}

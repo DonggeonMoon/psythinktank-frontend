@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3036/","result":{"data":{"stockDetail":{"symbol":"3036","market":"TSE","stock_name":"ALCONIX CORPORATION","growth":-4.79,"dividend":95,"recent_price":3300,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3036"}},"staticQueryHashes":[],"slicesMap":{}}

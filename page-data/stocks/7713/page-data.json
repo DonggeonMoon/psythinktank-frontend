@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7713/","result":{"data":{"stockDetail":{"symbol":"7713","market":"TSE","stock_name":"SIGMA KOKI CO.,LTD.","growth":0.55,"dividend":50,"recent_price":2378,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7713"}},"staticQueryHashes":[],"slicesMap":{}}

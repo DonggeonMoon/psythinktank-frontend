@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8303/","result":{"data":{"stockDetail":{"symbol":"8303","market":"TSE","stock_name":"SBI Shinsei Bank,Limited","growth":0,"dividend":42,"recent_price":1568,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8303"}},"staticQueryHashes":[],"slicesMap":{}}

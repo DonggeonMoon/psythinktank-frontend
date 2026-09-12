@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7212/","result":{"data":{"stockDetail":{"symbol":"7212","market":"TSE","stock_name":"F-TECH INC.","growth":-3.5,"dividend":20,"recent_price":746,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7212"}},"staticQueryHashes":[],"slicesMap":{}}

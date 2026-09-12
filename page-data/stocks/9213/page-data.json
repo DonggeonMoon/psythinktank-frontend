@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9213/","result":{"data":{"stockDetail":{"symbol":"9213","market":"TSE","stock_name":"SEYFERT LTD.","growth":2.31,"dividend":7,"recent_price":1018,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9213"}},"staticQueryHashes":[],"slicesMap":{}}

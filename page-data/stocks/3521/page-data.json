@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3521/","result":{"data":{"stockDetail":{"symbol":"3521","market":"TSE","stock_name":"ECONACH HOLDINGS CO.,LTD.","growth":3.23,"dividend":5,"recent_price":156,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3521"}},"staticQueryHashes":[],"slicesMap":{}}

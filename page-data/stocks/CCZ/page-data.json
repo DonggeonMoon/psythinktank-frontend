@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CCZ/","result":{"data":{"stockDetail":{"symbol":"CCZ","market":"NYSE","stock_name":"Comcast Holdings ZONES","growth":null,"dividend":1.83,"recent_price":64.66999816894531,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CCZ"}},"staticQueryHashes":[],"slicesMap":{}}

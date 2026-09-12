@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3543/","result":{"data":{"stockDetail":{"symbol":"3543","market":"TSE","stock_name":"KOMEDA Holdings Co.,Ltd.","growth":46.55,"dividend":62,"recent_price":2902,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3543"}},"staticQueryHashes":[],"slicesMap":{}}

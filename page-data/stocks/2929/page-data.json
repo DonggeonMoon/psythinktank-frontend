@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2929/","result":{"data":{"stockDetail":{"symbol":"2929","market":"TSE","stock_name":"Pharma Foods International Co.,Ltd.","growth":-4.52,"dividend":25,"recent_price":610,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2929"}},"staticQueryHashes":[],"slicesMap":{}}

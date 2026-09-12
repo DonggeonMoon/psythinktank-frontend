@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2805/","result":{"data":{"stockDetail":{"symbol":"2805","market":"TSE","stock_name":"S&B FOODS INC.","growth":1.17,"dividend":60,"recent_price":7320,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2805"}},"staticQueryHashes":[],"slicesMap":{}}

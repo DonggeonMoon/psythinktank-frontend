@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7726/","result":{"data":{"stockDetail":{"symbol":"7726","market":"TSE","stock_name":"KURODA PRECISION INDUSTRIES LTD.","growth":0,"dividend":20,"recent_price":1388,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7726"}},"staticQueryHashes":[],"slicesMap":{}}

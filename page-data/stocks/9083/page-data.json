@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9083/","result":{"data":{"stockDetail":{"symbol":"9083","market":"TSE","stock_name":"Shinki Bus Co.,Ltd.","growth":3.42,"dividend":45,"recent_price":1990,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9083"}},"staticQueryHashes":[],"slicesMap":{}}

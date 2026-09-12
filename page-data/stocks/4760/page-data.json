@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4760/","result":{"data":{"stockDetail":{"symbol":"4760","market":"TSE","stock_name":"ALPHA CO.,LTD.","growth":-4.57,"dividend":60,"recent_price":1544,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4760"}},"staticQueryHashes":[],"slicesMap":{}}

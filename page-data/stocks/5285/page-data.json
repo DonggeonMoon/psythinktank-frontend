@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5285/","result":{"data":{"stockDetail":{"symbol":"5285","market":"TSE","stock_name":"YAMAX Corp.","growth":0.49,"dividend":66,"recent_price":1366,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5285"}},"staticQueryHashes":[],"slicesMap":{}}

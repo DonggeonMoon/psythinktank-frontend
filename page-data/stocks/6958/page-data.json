@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6958/","result":{"data":{"stockDetail":{"symbol":"6958","market":"TSE","stock_name":"CMK CORPORATION","growth":-3.99,"dividend":20,"recent_price":770,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6958"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5958/","result":{"data":{"stockDetail":{"symbol":"5958","market":"TSE","stock_name":"SANYO INDUSTRIES,LTD.","growth":0.52,"dividend":210,"recent_price":4535,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5958"}},"staticQueryHashes":[],"slicesMap":{}}

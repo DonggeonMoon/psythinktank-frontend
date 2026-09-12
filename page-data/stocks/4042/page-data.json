@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4042/","result":{"data":{"stockDetail":{"symbol":"4042","market":"TSE","stock_name":"TOSOH CORPORATION","growth":0.25,"dividend":100,"recent_price":2655.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4042"}},"staticQueryHashes":[],"slicesMap":{}}

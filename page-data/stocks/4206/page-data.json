@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4206/","result":{"data":{"stockDetail":{"symbol":"4206","market":"TSE","stock_name":"Aica Kogyo Company,Limited","growth":1.22,"dividend":144,"recent_price":4088,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4206"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1939/","result":{"data":{"stockDetail":{"symbol":"1939","market":"TSE","stock_name":"YONDENKO CORPORATION","growth":1.24,"dividend":84,"recent_price":2292,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1939"}},"staticQueryHashes":[],"slicesMap":{}}

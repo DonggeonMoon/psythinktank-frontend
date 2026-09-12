@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/AVTR/","result":{"data":{"stockDetail":{"symbol":"AVTR","market":"NYSE","stock_name":"Avantor, Inc. Common Stock","growth":0,"dividend":0,"recent_price":15.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"AVTR"}},"staticQueryHashes":[],"slicesMap":{}}

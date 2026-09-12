@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9605/","result":{"data":{"stockDetail":{"symbol":"9605","market":"TSE","stock_name":"TOEI COMPANY,LTD.","growth":11.39,"dividend":36,"recent_price":6000,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9605"}},"staticQueryHashes":[],"slicesMap":{}}

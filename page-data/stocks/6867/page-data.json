@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6867/","result":{"data":{"stockDetail":{"symbol":"6867","market":"TSE","stock_name":"LEADER ELECTRONICS CORPORATION","growth":-1.55,"dividend":15,"recent_price":403,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6867"}},"staticQueryHashes":[],"slicesMap":{}}

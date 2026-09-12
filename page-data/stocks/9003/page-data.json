@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9003/","result":{"data":{"stockDetail":{"symbol":"9003","market":"TSE","stock_name":"Sotetsu Holdings,Inc.","growth":1.43,"dividend":70,"recent_price":2597.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9003"}},"staticQueryHashes":[],"slicesMap":{}}

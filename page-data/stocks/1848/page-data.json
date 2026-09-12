@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1848/","result":{"data":{"stockDetail":{"symbol":"1848","market":"TSE","stock_name":"FUJI P.S CORPORATION","growth":-0.41,"dividend":25,"recent_price":765,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1848"}},"staticQueryHashes":[],"slicesMap":{}}

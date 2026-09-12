@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7505/","result":{"data":{"stockDetail":{"symbol":"7505","market":"TSE","stock_name":"FUSO DENTSU CO.,LTD.","growth":-12.04,"dividend":89,"recent_price":2172,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7505"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5632/","result":{"data":{"stockDetail":{"symbol":"5632","market":"TSE","stock_name":"Mitsubishi Steel Mfg.Co.,Ltd.","growth":0.6,"dividend":104,"recent_price":2322,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5632"}},"staticQueryHashes":[],"slicesMap":{}}

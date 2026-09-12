@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3252/","result":{"data":{"stockDetail":{"symbol":"3252","market":"TSE","stock_name":"JINUSHI Co.,Ltd.","growth":4.5,"dividend":130,"recent_price":2903,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3252"}},"staticQueryHashes":[],"slicesMap":{}}

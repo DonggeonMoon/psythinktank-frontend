@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7075/","result":{"data":{"stockDetail":{"symbol":"7075","market":"TSE","stock_name":"QLS Holdings Co.,Ltd","growth":14.58,"dividend":11,"recent_price":1008,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7075"}},"staticQueryHashes":[],"slicesMap":{}}

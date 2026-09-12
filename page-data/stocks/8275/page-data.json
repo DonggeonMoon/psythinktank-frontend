@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8275/","result":{"data":{"stockDetail":{"symbol":"8275","market":"TSE","stock_name":"FORVAL CORPORATION","growth":4.37,"dividend":32,"recent_price":1007,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8275"}},"staticQueryHashes":[],"slicesMap":{}}

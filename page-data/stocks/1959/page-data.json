@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1959/","result":{"data":{"stockDetail":{"symbol":"1959","market":"TSE","stock_name":"KYUDENKO CORPORATION","growth":2.72,"dividend":220,"recent_price":8095,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1959"}},"staticQueryHashes":[],"slicesMap":{}}

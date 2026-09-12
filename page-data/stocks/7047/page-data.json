@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7047/","result":{"data":{"stockDetail":{"symbol":"7047","market":"TSE","stock_name":"PORT INC.","growth":52.44,"dividend":13,"recent_price":2170,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7047"}},"staticQueryHashes":[],"slicesMap":{}}

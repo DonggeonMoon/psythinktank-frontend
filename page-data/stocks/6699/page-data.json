@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6699/","result":{"data":{"stockDetail":{"symbol":"6699","market":"TSE","stock_name":"DIAMOND ELECTRIC HOLDINGS Co.,Ltd.","growth":-4.84,"dividend":25,"recent_price":513,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6699"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3566/","result":{"data":{"stockDetail":{"symbol":"3566","market":"TSE","stock_name":"UNIFORM NEXT CO.,LTD.","growth":5.37,"dividend":6,"recent_price":769,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3566"}},"staticQueryHashes":[],"slicesMap":{}}

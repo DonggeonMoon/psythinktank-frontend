@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7522/","result":{"data":{"stockDetail":{"symbol":"7522","market":"TSE","stock_name":"WATAMI CO.,LTD.","growth":0.62,"dividend":10,"recent_price":947,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7522"}},"staticQueryHashes":[],"slicesMap":{}}

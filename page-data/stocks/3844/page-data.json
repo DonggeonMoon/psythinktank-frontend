@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3844/","result":{"data":{"stockDetail":{"symbol":"3844","market":"TSE","stock_name":"COMTURE CORPORATION","growth":5.76,"dividend":52,"recent_price":1323,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3844"}},"staticQueryHashes":[],"slicesMap":{}}

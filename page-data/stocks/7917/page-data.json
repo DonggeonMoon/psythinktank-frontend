@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7917/","result":{"data":{"stockDetail":{"symbol":"7917","market":"TSE","stock_name":"ZACROS Corporation","growth":3.74,"dividend":36,"recent_price":1252,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7917"}},"staticQueryHashes":[],"slicesMap":{}}

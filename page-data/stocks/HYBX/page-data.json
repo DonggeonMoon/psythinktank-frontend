@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/HYBX/","result":{"data":{"stockDetail":{"symbol":"HYBX","market":"NYSE","stock_name":"TCW High Yield Bond ETF","growth":null,"dividend":0,"recent_price":29.5049991607666,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"HYBX"}},"staticQueryHashes":[],"slicesMap":{}}

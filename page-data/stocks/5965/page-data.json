@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5965/","result":{"data":{"stockDetail":{"symbol":"5965","market":"TSE","stock_name":"FUJIMAK CORPORATION","growth":1.67,"dividend":40,"recent_price":1203,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5965"}},"staticQueryHashes":[],"slicesMap":{}}

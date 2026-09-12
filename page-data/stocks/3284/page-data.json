@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3284/","result":{"data":{"stockDetail":{"symbol":"3284","market":"TSE","stock_name":"Hoosiers Holdings Co.,Ltd.","growth":0.65,"dividend":74,"recent_price":1295,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3284"}},"staticQueryHashes":[],"slicesMap":{}}

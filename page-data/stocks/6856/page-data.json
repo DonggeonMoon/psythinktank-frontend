@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6856/","result":{"data":{"stockDetail":{"symbol":"6856","market":"TSE","stock_name":"HORIBA,Ltd.","growth":1.63,"dividend":550,"recent_price":22550,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6856"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1514/","result":{"data":{"stockDetail":{"symbol":"1514","market":"TSE","stock_name":"Sumiseki Holdings,Inc.","growth":2.56,"dividend":15,"recent_price":672,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1514"}},"staticQueryHashes":[],"slicesMap":{}}

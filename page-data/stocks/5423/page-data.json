@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5423/","result":{"data":{"stockDetail":{"symbol":"5423","market":"TSE","stock_name":"TOKYO STEEL MANUFACTURING CO.,LTD.","growth":2.29,"dividend":40,"recent_price":1701,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5423"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5588/","result":{"data":{"stockDetail":{"symbol":"5588","market":"TSE","stock_name":"Fast Accounting Co.,Ltd.","growth":null,"dividend":3.9,"recent_price":854,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5588"}},"staticQueryHashes":[],"slicesMap":{}}

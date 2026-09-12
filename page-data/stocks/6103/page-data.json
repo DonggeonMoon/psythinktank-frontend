@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6103/","result":{"data":{"stockDetail":{"symbol":"6103","market":"TSE","stock_name":"OKUMA Corporation","growth":0.74,"dividend":120,"recent_price":4630,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6103"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5310/","result":{"data":{"stockDetail":{"symbol":"5310","market":"TSE","stock_name":"TOYO TANSO CO.,LTD.","growth":-5.99,"dividend":145,"recent_price":6930,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5310"}},"staticQueryHashes":[],"slicesMap":{}}

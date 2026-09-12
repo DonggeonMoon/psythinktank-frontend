@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/606A/","result":{"data":{"stockDetail":{"symbol":"606A","market":"TSE","stock_name":"Gold 2x Bull ETF","growth":null,"dividend":0,"recent_price":22400,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"606A"}},"staticQueryHashes":[],"slicesMap":{}}

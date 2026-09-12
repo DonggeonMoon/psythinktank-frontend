@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3104/","result":{"data":{"stockDetail":{"symbol":"3104","market":"TSE","stock_name":"Fujibo Holdings,Inc.","growth":0.38,"dividend":84,"recent_price":3330,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3104"}},"staticQueryHashes":[],"slicesMap":{}}

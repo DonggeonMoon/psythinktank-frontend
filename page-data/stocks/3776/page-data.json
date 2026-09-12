@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3776/","result":{"data":{"stockDetail":{"symbol":"3776","market":"TSE","stock_name":"BroadBand Tower,Inc.","growth":-10.29,"dividend":2,"recent_price":251,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3776"}},"staticQueryHashes":[],"slicesMap":{}}

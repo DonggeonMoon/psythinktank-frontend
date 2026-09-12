@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5304/","result":{"data":{"stockDetail":{"symbol":"5304","market":"TSE","stock_name":"SEC CARBON,LIMITED","growth":3.3,"dividend":100,"recent_price":2618,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5304"}},"staticQueryHashes":[],"slicesMap":{}}

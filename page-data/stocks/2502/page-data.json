@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2502/","result":{"data":{"stockDetail":{"symbol":"2502","market":"TSE","stock_name":"Asahi Group Holdings,Ltd.","growth":1.37,"dividend":62,"recent_price":1639,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2502"}},"staticQueryHashes":[],"slicesMap":{}}

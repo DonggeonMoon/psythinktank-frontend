@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8630/","result":{"data":{"stockDetail":{"symbol":"8630","market":"TSE","stock_name":"Sompo Holdings,Inc.","growth":2.95,"dividend":200,"recent_price":6856,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8630"}},"staticQueryHashes":[],"slicesMap":{}}

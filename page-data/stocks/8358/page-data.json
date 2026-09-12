@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8358/","result":{"data":{"stockDetail":{"symbol":"8358","market":"TSE","stock_name":"Suruga Bank Ltd.","growth":-1.57,"dividend":60,"recent_price":2979,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8358"}},"staticQueryHashes":[],"slicesMap":{}}

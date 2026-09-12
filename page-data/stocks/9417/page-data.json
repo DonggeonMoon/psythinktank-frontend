@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9417/","result":{"data":{"stockDetail":{"symbol":"9417","market":"TSE","stock_name":"Smartvalue Co.,Ltd.","growth":-29.64,"dividend":10,"recent_price":345,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9417"}},"staticQueryHashes":[],"slicesMap":{}}

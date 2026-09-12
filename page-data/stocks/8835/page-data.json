@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8835/","result":{"data":{"stockDetail":{"symbol":"8835","market":"TSE","stock_name":"TAIHEIYO KOUHATSU INCORPORATED","growth":-1.18,"dividend":40.5,"recent_price":801,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8835"}},"staticQueryHashes":[],"slicesMap":{}}

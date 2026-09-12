@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6737/","result":{"data":{"stockDetail":{"symbol":"6737","market":"TSE","stock_name":"EIZO Corporation","growth":-0.91,"dividend":115,"recent_price":3115,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6737"}},"staticQueryHashes":[],"slicesMap":{}}

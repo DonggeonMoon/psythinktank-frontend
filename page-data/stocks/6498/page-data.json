@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6498/","result":{"data":{"stockDetail":{"symbol":"6498","market":"TSE","stock_name":"KITZ CORPORATION","growth":1,"dividend":62,"recent_price":1884,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6498"}},"staticQueryHashes":[],"slicesMap":{}}

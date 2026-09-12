@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8142/","result":{"data":{"stockDetail":{"symbol":"8142","market":"TSE","stock_name":"TOHO Co.,Ltd.","growth":5.44,"dividend":61,"recent_price":1434,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8142"}},"staticQueryHashes":[],"slicesMap":{}}

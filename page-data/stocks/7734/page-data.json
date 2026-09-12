@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7734/","result":{"data":{"stockDetail":{"symbol":"7734","market":"TSE","stock_name":"RIKEN KEIKI CO.,LTD.","growth":4.12,"dividend":60,"recent_price":3350,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7734"}},"staticQueryHashes":[],"slicesMap":{}}

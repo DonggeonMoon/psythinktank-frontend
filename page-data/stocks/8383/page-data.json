@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8383/","result":{"data":{"stockDetail":{"symbol":"8383","market":"TSE","stock_name":"THE TOTTORI BANK,LTD.","growth":-0.16,"dividend":50,"recent_price":1953,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8383"}},"staticQueryHashes":[],"slicesMap":{}}

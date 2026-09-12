@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1711/","result":{"data":{"stockDetail":{"symbol":"1711","market":"TSE","stock_name":"SDS HOLDINGS Co.,Ltd.","growth":-4.55,"dividend":0,"recent_price":245,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1711"}},"staticQueryHashes":[],"slicesMap":{}}

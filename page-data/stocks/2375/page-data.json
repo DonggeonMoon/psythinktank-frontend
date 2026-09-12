@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2375/","result":{"data":{"stockDetail":{"symbol":"2375","market":"TSE","stock_name":"GiG Works Inc.","growth":-5.57,"dividend":2,"recent_price":219,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2375"}},"staticQueryHashes":[],"slicesMap":{}}

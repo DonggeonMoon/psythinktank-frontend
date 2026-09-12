@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9224/","result":{"data":{"stockDetail":{"symbol":"9224","market":"TSE","stock_name":"KANKYOU NO MIKATA Inc.","growth":null,"dividend":0,"recent_price":5450,"basis_date":"2025-10-10"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9224"}},"staticQueryHashes":[],"slicesMap":{}}

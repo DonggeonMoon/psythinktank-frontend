@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4620/","result":{"data":{"stockDetail":{"symbol":"4620","market":"TSE","stock_name":"FUJIKURA KASEI CO.,LTD.","growth":-1.96,"dividend":21,"recent_price":931,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4620"}},"staticQueryHashes":[],"slicesMap":{}}

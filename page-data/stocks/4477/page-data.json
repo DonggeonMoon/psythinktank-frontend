@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4477/","result":{"data":{"stockDetail":{"symbol":"4477","market":"TSE","stock_name":"BASE,Inc.","growth":31.91,"dividend":5,"recent_price":347,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4477"}},"staticQueryHashes":[],"slicesMap":{}}

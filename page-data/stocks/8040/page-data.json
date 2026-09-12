@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8040/","result":{"data":{"stockDetail":{"symbol":"8040","market":"TSE","stock_name":"TOKYO SOIR CO.,LTD.","growth":-4.47,"dividend":45,"recent_price":1048,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8040"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4013/","result":{"data":{"stockDetail":{"symbol":"4013","market":"TSE","stock_name":"Kinjiro Co.,Ltd.","growth":4.22,"dividend":10,"recent_price":655,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4013"}},"staticQueryHashes":[],"slicesMap":{}}

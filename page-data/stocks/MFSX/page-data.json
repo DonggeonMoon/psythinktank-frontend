@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/MFSX/","result":{"data":{"stockDetail":{"symbol":"MFSX","market":"NYSE_ARCA","stock_name":"MFS Active Short Muni Bond ETF","growth":null,"dividend":null,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"MFSX"}},"staticQueryHashes":[],"slicesMap":{}}

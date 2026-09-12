@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8345/","result":{"data":{"stockDetail":{"symbol":"8345","market":"TSE","stock_name":"The Bank of Iwate,Ltd.","growth":0.59,"dividend":58,"recent_price":2539,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8345"}},"staticQueryHashes":[],"slicesMap":{}}

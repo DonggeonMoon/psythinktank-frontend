@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4664/","result":{"data":{"stockDetail":{"symbol":"4664","market":"TSE","stock_name":"JAPAN RELIANCE SERVICE CORPORATION","growth":1.7,"dividend":24,"recent_price":1083,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4664"}},"staticQueryHashes":[],"slicesMap":{}}

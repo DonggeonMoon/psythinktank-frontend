@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6080/","result":{"data":{"stockDetail":{"symbol":"6080","market":"TSE","stock_name":"M&A Capital Partners Co.,Ltd.","growth":16.29,"dividend":72.47,"recent_price":4185,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6080"}},"staticQueryHashes":[],"slicesMap":{}}

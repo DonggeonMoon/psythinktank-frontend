@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/WELL/","result":{"data":{"stockDetail":{"symbol":"WELL","market":"NYSE","stock_name":"Welltower Inc. Common Stock","growth":3.94,"dividend":3.4,"recent_price":237.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"WELL"}},"staticQueryHashes":[],"slicesMap":{}}

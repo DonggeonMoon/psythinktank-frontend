@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BEEX/","result":{"data":{"stockDetail":{"symbol":"BEEX","market":"NASDAQ","stock_name":"The Beehive ETF","growth":null,"dividend":0,"recent_price":27.746000289916992,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BEEX"}},"staticQueryHashes":[],"slicesMap":{}}

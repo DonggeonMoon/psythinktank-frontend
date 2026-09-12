@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6298/","result":{"data":{"stockDetail":{"symbol":"6298","market":"TSE","stock_name":"Y.A.C.HOLDINGS CO.,LTD.","growth":4.33,"dividend":45,"recent_price":1273,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6298"}},"staticQueryHashes":[],"slicesMap":{}}

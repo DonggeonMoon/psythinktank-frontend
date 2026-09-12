@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3648/","result":{"data":{"stockDetail":{"symbol":"3648","market":"TSE","stock_name":"AGS Corporation","growth":3.74,"dividend":36,"recent_price":1089,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3648"}},"staticQueryHashes":[],"slicesMap":{}}

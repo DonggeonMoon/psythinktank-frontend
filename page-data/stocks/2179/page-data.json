@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2179/","result":{"data":{"stockDetail":{"symbol":"2179","market":"TSE","stock_name":"SEIGAKUSHA CO.,LTD.","growth":4.6,"dividend":33,"recent_price":830,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2179"}},"staticQueryHashes":[],"slicesMap":{}}

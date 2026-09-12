@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2122/","result":{"data":{"stockDetail":{"symbol":"2122","market":"TSE","stock_name":"Interspace Co.,Ltd.","growth":-2.17,"dividend":30,"recent_price":1499,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2122"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/222A/","result":{"data":{"stockDetail":{"symbol":"222A","market":"TSE","stock_name":"Nippon Information Control System Inc.","growth":null,"dividend":0,"recent_price":60,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"222A"}},"staticQueryHashes":[],"slicesMap":{}}

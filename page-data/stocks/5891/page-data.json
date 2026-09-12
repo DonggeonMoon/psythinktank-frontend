@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5891/","result":{"data":{"stockDetail":{"symbol":"5891","market":"TSE","stock_name":"Kairikiya Co.,Ltd.","growth":117.18,"dividend":23,"recent_price":1702,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5891"}},"staticQueryHashes":[],"slicesMap":{}}

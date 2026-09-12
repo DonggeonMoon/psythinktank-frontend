@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4719/","result":{"data":{"stockDetail":{"symbol":"4719","market":"TSE","stock_name":"ALPHA SYSTEMS INC.","growth":2.15,"dividend":125,"recent_price":3405,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4719"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/RAUS/","result":{"data":{"stockDetail":{"symbol":"RAUS","market":"NASDAQ","stock_name":"RACWI US ETF","growth":null,"dividend":0,"recent_price":30.06800079345703,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"RAUS"}},"staticQueryHashes":[],"slicesMap":{}}

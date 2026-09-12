@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/HTFL/","result":{"data":{"stockDetail":{"symbol":"HTFL","market":"NASDAQ","stock_name":"Heartflow, Inc. - Common Stock","growth":34.66,"dividend":0,"recent_price":47.75,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"HTFL"}},"staticQueryHashes":[],"slicesMap":{}}

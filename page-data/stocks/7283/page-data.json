@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7283/","result":{"data":{"stockDetail":{"symbol":"7283","market":"TSE","stock_name":"AISAN INDUSTRY CO.,LTD.","growth":-0.79,"dividend":84,"recent_price":2311,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7283"}},"staticQueryHashes":[],"slicesMap":{}}

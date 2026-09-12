@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2961/","result":{"data":{"stockDetail":{"symbol":"2961","market":"TSE","stock_name":"NITCHO CORPORATION","growth":0,"dividend":45,"recent_price":1530,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2961"}},"staticQueryHashes":[],"slicesMap":{}}

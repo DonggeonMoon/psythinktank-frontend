@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3913/","result":{"data":{"stockDetail":{"symbol":"3913","market":"TSE","stock_name":"GreenBee,Inc.","growth":-4.65,"dividend":0,"recent_price":1090,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3913"}},"staticQueryHashes":[],"slicesMap":{}}

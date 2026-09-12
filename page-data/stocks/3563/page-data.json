@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3563/","result":{"data":{"stockDetail":{"symbol":"3563","market":"TSE","stock_name":"FOOD & LIFE COMPANIES LTD.","growth":30.54,"dividend":20,"recent_price":6022,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3563"}},"staticQueryHashes":[],"slicesMap":{}}

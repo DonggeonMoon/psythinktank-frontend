@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5975/","result":{"data":{"stockDetail":{"symbol":"5975","market":"TSE","stock_name":"Topre Corporation","growth":-1.12,"dividend":100,"recent_price":3495,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5975"}},"staticQueryHashes":[],"slicesMap":{}}

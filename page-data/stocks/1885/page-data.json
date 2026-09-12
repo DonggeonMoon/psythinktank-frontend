@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1885/","result":{"data":{"stockDetail":{"symbol":"1885","market":"TSE","stock_name":"TOA CORPORATION","growth":0.16,"dividend":77,"recent_price":2087,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1885"}},"staticQueryHashes":[],"slicesMap":{}}

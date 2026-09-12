@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9903/","result":{"data":{"stockDetail":{"symbol":"9903","market":"TSE","stock_name":"KANSEKI CO.,LTD","growth":null,"dividend":20,"recent_price":895,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9903"}},"staticQueryHashes":[],"slicesMap":{}}

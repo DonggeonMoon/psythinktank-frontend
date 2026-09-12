@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/YOKE/","result":{"data":{"stockDetail":{"symbol":"YOKE","market":"NASDAQ","stock_name":"YOKE Core ETF","growth":null,"dividend":0,"recent_price":31.386999130249023,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"YOKE"}},"staticQueryHashes":[],"slicesMap":{}}

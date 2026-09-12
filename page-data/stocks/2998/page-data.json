@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2998/","result":{"data":{"stockDetail":{"symbol":"2998","market":"TSE","stock_name":"CREAL Inc.","growth":32.89,"dividend":8,"recent_price":552,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2998"}},"staticQueryHashes":[],"slicesMap":{}}

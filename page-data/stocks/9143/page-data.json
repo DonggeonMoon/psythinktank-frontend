@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9143/","result":{"data":{"stockDetail":{"symbol":"9143","market":"TSE","stock_name":"SG HOLDINGS CO.,LTD.","growth":3.8,"dividend":54,"recent_price":1481,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9143"}},"staticQueryHashes":[],"slicesMap":{}}

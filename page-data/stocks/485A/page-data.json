@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/485A/","result":{"data":{"stockDetail":{"symbol":"485A","market":"TSE","stock_name":"PowerX,Inc.","growth":0,"dividend":0,"recent_price":1818,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"485A"}},"staticQueryHashes":[],"slicesMap":{}}

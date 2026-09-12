@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4849/","result":{"data":{"stockDetail":{"symbol":"4849","market":"TSE","stock_name":"en Japan Inc.","growth":-6.97,"dividend":68.3,"recent_price":1639,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4849"}},"staticQueryHashes":[],"slicesMap":{}}

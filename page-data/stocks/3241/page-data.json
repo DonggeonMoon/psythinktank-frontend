@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3241/","result":{"data":{"stockDetail":{"symbol":"3241","market":"TSE","stock_name":"WILL,Co.,Ltd.","growth":6.67,"dividend":23.5,"recent_price":602,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3241"}},"staticQueryHashes":[],"slicesMap":{}}

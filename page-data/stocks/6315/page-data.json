@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6315/","result":{"data":{"stockDetail":{"symbol":"6315","market":"TSE","stock_name":"TOWA CORPORATION","growth":5.34,"dividend":24,"recent_price":2212,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6315"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3031/","result":{"data":{"stockDetail":{"symbol":"3031","market":"TSE","stock_name":"RACCOON HOLDINGS,Inc.","growth":8.48,"dividend":22,"recent_price":678,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3031"}},"staticQueryHashes":[],"slicesMap":{}}

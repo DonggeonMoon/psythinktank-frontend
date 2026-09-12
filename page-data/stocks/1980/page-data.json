@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1980/","result":{"data":{"stockDetail":{"symbol":"1980","market":"TSE","stock_name":"DAI-DAN CO.,LTD.","growth":5.03,"dividend":85,"recent_price":2737,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1980"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/205A/","result":{"data":{"stockDetail":{"symbol":"205A","market":"TSE","stock_name":"LOGOS HOLDINGS INC.","growth":5.07,"dividend":63.39,"recent_price":1640,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"205A"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4491/","result":{"data":{"stockDetail":{"symbol":"4491","market":"TSE","stock_name":"Computer Management Co.,Ltd.","growth":3.15,"dividend":60,"recent_price":3360,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4491"}},"staticQueryHashes":[],"slicesMap":{}}

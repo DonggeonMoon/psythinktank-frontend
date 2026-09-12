@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/VUG/","result":{"data":{"stockDetail":{"symbol":"VUG","market":"NYSE_ARCA","stock_name":"Vanguard Growth ETF","growth":null,"dividend":0,"recent_price":88.12000274658203,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"VUG"}},"staticQueryHashes":[],"slicesMap":{}}

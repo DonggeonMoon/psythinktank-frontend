@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3290/","result":{"data":{"stockDetail":{"symbol":"3290","market":"TSE","stock_name":"One REIT,Inc.","growth":null,"dividend":4,"recent_price":74500,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3290"}},"staticQueryHashes":[],"slicesMap":{}}

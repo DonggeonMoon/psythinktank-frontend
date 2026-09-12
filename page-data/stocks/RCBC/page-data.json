@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/RCBC/","result":{"data":{"stockDetail":{"symbol":"RCBC","market":"NASDAQ","stock_name":"River City Bank - Common stock","growth":null,"dividend":0,"recent_price":53,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"RCBC"}},"staticQueryHashes":[],"slicesMap":{}}

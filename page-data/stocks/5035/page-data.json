@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5035/","result":{"data":{"stockDetail":{"symbol":"5035","market":"TSE","stock_name":"HOUSEI Inc.","growth":0.22,"dividend":3,"recent_price":368,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5035"}},"staticQueryHashes":[],"slicesMap":{}}

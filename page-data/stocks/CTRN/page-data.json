@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CTRN/","result":{"data":{"stockDetail":{"symbol":"CTRN","market":"NASDAQ","stock_name":"Citi Trends, Inc. - Common Stock","growth":2.17,"dividend":0,"recent_price":70.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CTRN"}},"staticQueryHashes":[],"slicesMap":{}}

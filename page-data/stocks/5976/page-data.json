@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5976/","result":{"data":{"stockDetail":{"symbol":"5976","market":"TSE","stock_name":"Neturen Co.,Ltd.","growth":3.51,"dividend":71,"recent_price":1491,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5976"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9029/","result":{"data":{"stockDetail":{"symbol":"9029","market":"TSE","stock_name":"HIGASHI HOLDINGS CO.,LTD.","growth":8.8,"dividend":62,"recent_price":1850,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9029"}},"staticQueryHashes":[],"slicesMap":{}}

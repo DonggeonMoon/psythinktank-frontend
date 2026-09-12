@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6822/","result":{"data":{"stockDetail":{"symbol":"6822","market":"TSE","stock_name":"Oi Electric Co.,Ltd.","growth":-0.42,"dividend":100,"recent_price":5040,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6822"}},"staticQueryHashes":[],"slicesMap":{}}

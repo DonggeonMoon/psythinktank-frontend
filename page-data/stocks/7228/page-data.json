@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7228/","result":{"data":{"stockDetail":{"symbol":"7228","market":"TSE","stock_name":"DAYTONA CORPORATION","growth":3,"dividend":150,"recent_price":4045,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7228"}},"staticQueryHashes":[],"slicesMap":{}}

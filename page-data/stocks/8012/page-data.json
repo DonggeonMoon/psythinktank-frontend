@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8012/","result":{"data":{"stockDetail":{"symbol":"8012","market":"TSE","stock_name":"NAGASE & CO.,LTD.","growth":3.63,"dividend":27,"recent_price":1143.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8012"}},"staticQueryHashes":[],"slicesMap":{}}

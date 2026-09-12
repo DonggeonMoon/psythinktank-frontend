@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/TTC/","result":{"data":{"stockDetail":{"symbol":"TTC","market":"NYSE","stock_name":"Toro Company (The) Common Stock","growth":-14.59,"dividend":1.56,"recent_price":94.75,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"TTC"}},"staticQueryHashes":[],"slicesMap":{}}

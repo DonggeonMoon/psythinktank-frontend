@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3773/","result":{"data":{"stockDetail":{"symbol":"3773","market":"TSE","stock_name":"Advanced Media,Inc.","growth":7.92,"dividend":22,"recent_price":1069,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3773"}},"staticQueryHashes":[],"slicesMap":{}}

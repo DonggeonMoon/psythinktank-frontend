@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3513/","result":{"data":{"stockDetail":{"symbol":"3513","market":"TSE","stock_name":"ICHIKAWA CO.,LTD.","growth":-3.18,"dividend":100,"recent_price":3420,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3513"}},"staticQueryHashes":[],"slicesMap":{}}

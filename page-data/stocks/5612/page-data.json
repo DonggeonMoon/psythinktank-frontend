@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5612/","result":{"data":{"stockDetail":{"symbol":"5612","market":"TSE","stock_name":"NIPPON CHUTETSUKAN K.K.","growth":0.26,"dividend":25,"recent_price":1609,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5612"}},"staticQueryHashes":[],"slicesMap":{}}

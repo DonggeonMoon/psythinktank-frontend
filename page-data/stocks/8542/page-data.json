@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8542/","result":{"data":{"stockDetail":{"symbol":"8542","market":"TSE","stock_name":"TOMATO BANK,LTD.","growth":-1.32,"dividend":50,"recent_price":1988,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8542"}},"staticQueryHashes":[],"slicesMap":{}}

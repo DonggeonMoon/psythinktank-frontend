@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7721/","result":{"data":{"stockDetail":{"symbol":"7721","market":"TSE","stock_name":"TOKYO KEIKI INC.","growth":2.79,"dividend":48,"recent_price":7200,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7721"}},"staticQueryHashes":[],"slicesMap":{}}

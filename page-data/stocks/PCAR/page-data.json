@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/PCAR/","result":{"data":{"stockDetail":{"symbol":"PCAR","market":"NASDAQ","stock_name":"PACCAR Inc. - Common Stock","growth":-13.95,"dividend":2.8,"recent_price":122.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"PCAR"}},"staticQueryHashes":[],"slicesMap":{}}

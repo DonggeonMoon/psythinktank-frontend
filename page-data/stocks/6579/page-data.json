@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6579/","result":{"data":{"stockDetail":{"symbol":"6579","market":"TSE","stock_name":"logly,Inc.","growth":-15,"dividend":0,"recent_price":353,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6579"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4902/","result":{"data":{"stockDetail":{"symbol":"4902","market":"TSE","stock_name":"KONICA MINOLTA,INC.","growth":-1.86,"dividend":16,"recent_price":658.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4902"}},"staticQueryHashes":[],"slicesMap":{}}

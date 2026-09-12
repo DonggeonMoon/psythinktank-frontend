@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4027/","result":{"data":{"stockDetail":{"symbol":"4027","market":"TSE","stock_name":"TAYCA CORPORATION","growth":2.86,"dividend":80,"recent_price":2458,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4027"}},"staticQueryHashes":[],"slicesMap":{}}

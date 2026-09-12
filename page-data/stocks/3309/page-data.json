@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3309/","result":{"data":{"stockDetail":{"symbol":"3309","market":"TSE","stock_name":"Sekisui House Reit,Inc.","growth":null,"dividend":3,"recent_price":72600,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3309"}},"staticQueryHashes":[],"slicesMap":{}}

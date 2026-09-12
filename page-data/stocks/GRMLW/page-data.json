@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/GRMLW/","result":{"data":{"stockDetail":{"symbol":"GRMLW","market":"NASDAQ","stock_name":"Greenland Mines Ltd - Warrants","growth":200,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"GRMLW"}},"staticQueryHashes":[],"slicesMap":{}}

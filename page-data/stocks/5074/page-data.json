@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5074/","result":{"data":{"stockDetail":{"symbol":"5074","market":"TSE","stock_name":"TESS Holdings Co.,Ltd.","growth":16.3,"dividend":5.8,"recent_price":588,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5074"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5406/","result":{"data":{"stockDetail":{"symbol":"5406","market":"TSE","stock_name":"Kobe Steel,Ltd.","growth":-1.73,"dividend":80,"recent_price":2029.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5406"}},"staticQueryHashes":[],"slicesMap":{}}

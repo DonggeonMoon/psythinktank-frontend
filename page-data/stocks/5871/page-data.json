@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5871/","result":{"data":{"stockDetail":{"symbol":"5871","market":"TSE","stock_name":"SOLIZE Holdings Corporation","growth":16.57,"dividend":55,"recent_price":1382,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5871"}},"staticQueryHashes":[],"slicesMap":{}}

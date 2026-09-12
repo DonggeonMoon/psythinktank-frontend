@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6474/","result":{"data":{"stockDetail":{"symbol":"6474","market":"TSE","stock_name":"NACHI-FUJIKOSHI CORP.","growth":-5.92,"dividend":110,"recent_price":5470,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6474"}},"staticQueryHashes":[],"slicesMap":{}}

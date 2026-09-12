@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/GTN.A/","result":{"data":{"stockDetail":{"symbol":"GTN.A","market":"NYSE","stock_name":"Gray Media, Inc. Class A Common Stock","growth":0.84,"dividend":0.32,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"GTN.A"}},"staticQueryHashes":[],"slicesMap":{}}

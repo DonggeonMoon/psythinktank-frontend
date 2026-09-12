@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9336/","result":{"data":{"stockDetail":{"symbol":"9336","market":"TSE","stock_name":"Daiei Kankyo Co.,Ltd.","growth":5.15,"dividend":55,"recent_price":3765,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9336"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/TSYX/","result":{"data":{"stockDetail":{"symbol":"TSYX","market":"NASDAQ","stock_name":"TSPY Lift ETF","growth":null,"dividend":0,"recent_price":23.270000457763672,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"TSYX"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4932/","result":{"data":{"stockDetail":{"symbol":"4932","market":"TSE","stock_name":"ALMADO,INC.","growth":30.99,"dividend":42,"recent_price":771,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4932"}},"staticQueryHashes":[],"slicesMap":{}}

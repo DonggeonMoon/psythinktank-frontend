@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/404A/","result":{"data":{"stockDetail":{"symbol":"404A","market":"TSE","stock_name":"Global X China Tech Top 10 ETF","growth":null,"dividend":0,"recent_price":1243,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"404A"}},"staticQueryHashes":[],"slicesMap":{}}

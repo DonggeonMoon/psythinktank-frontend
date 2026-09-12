@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/VB/","result":{"data":{"stockDetail":{"symbol":"VB","market":"NYSE_ARCA","stock_name":"Vanguard Small-Cap ETF","growth":null,"dividend":0,"recent_price":297.760009765625,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"VB"}},"staticQueryHashes":[],"slicesMap":{}}

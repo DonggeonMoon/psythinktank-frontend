@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6723/","result":{"data":{"stockDetail":{"symbol":"6723","market":"TSE","stock_name":"Renesas Electronics Corporation","growth":0,"dividend":28,"recent_price":3302,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6723"}},"staticQueryHashes":[],"slicesMap":{}}

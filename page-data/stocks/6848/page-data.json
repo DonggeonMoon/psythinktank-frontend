@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6848/","result":{"data":{"stockDetail":{"symbol":"6848","market":"TSE","stock_name":"DKK-TOA CORPORATION","growth":7.21,"dividend":22,"recent_price":865,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6848"}},"staticQueryHashes":[],"slicesMap":{}}

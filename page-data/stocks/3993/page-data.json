@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3993/","result":{"data":{"stockDetail":{"symbol":"3993","market":"TSE","stock_name":"PKSHA Technology Inc.","growth":46.56,"dividend":10,"recent_price":3205,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3993"}},"staticQueryHashes":[],"slicesMap":{}}

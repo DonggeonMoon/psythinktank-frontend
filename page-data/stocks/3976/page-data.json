@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3976/","result":{"data":{"stockDetail":{"symbol":"3976","market":"TSE","stock_name":"SHANON Inc.","growth":-23.23,"dividend":0,"recent_price":591,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3976"}},"staticQueryHashes":[],"slicesMap":{}}

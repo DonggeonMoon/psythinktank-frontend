@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4094/","result":{"data":{"stockDetail":{"symbol":"4094","market":"TSE","stock_name":"NIHON KAGAKU SANGYO CO.,LTD.","growth":0.89,"dividend":90,"recent_price":2279,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4094"}},"staticQueryHashes":[],"slicesMap":{}}

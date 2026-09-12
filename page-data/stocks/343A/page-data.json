@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/343A/","result":{"data":{"stockDetail":{"symbol":"343A","market":"TSE","stock_name":"IACE TRAVEL Corporation.","growth":-4.86,"dividend":38,"recent_price":1318,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"343A"}},"staticQueryHashes":[],"slicesMap":{}}

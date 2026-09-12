@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4341/","result":{"data":{"stockDetail":{"symbol":"4341","market":"TSE","stock_name":"SEIRYO ELECTRIC CORPORATION","growth":1.34,"dividend":48,"recent_price":895,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4341"}},"staticQueryHashes":[],"slicesMap":{}}

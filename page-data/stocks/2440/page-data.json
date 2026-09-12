@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2440/","result":{"data":{"stockDetail":{"symbol":"2440","market":"TSE","stock_name":"Gurunavi,Inc.","growth":3.74,"dividend":0,"recent_price":126,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2440"}},"staticQueryHashes":[],"slicesMap":{}}

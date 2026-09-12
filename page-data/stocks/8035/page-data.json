@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8035/","result":{"data":{"stockDetail":{"symbol":"8035","market":"TSE","stock_name":"Tokyo Electron Limited","growth":3.39,"dividend":748,"recent_price":53320,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8035"}},"staticQueryHashes":[],"slicesMap":{}}

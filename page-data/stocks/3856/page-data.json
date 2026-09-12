@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3856/","result":{"data":{"stockDetail":{"symbol":"3856","market":"TSE","stock_name":"Abalance Corporation","growth":1.72,"dividend":6,"recent_price":218,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3856"}},"staticQueryHashes":[],"slicesMap":{}}

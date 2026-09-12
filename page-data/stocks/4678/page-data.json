@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4678/","result":{"data":{"stockDetail":{"symbol":"4678","market":"TSE","stock_name":"SHUEI YOBIKO Co.,Ltd.","growth":-5.1,"dividend":10,"recent_price":330,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4678"}},"staticQueryHashes":[],"slicesMap":{}}

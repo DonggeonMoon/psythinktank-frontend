@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3080/","result":{"data":{"stockDetail":{"symbol":"3080","market":"TSE","stock_name":"JASON CO.,LTD.","growth":9.7,"dividend":13,"recent_price":812,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3080"}},"staticQueryHashes":[],"slicesMap":{}}

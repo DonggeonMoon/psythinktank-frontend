@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4564/","result":{"data":{"stockDetail":{"symbol":"4564","market":"TSE","stock_name":"OncoTherapy Science,Inc.","growth":-2.13,"dividend":0,"recent_price":22,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4564"}},"staticQueryHashes":[],"slicesMap":{}}

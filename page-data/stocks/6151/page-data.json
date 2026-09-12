@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6151/","result":{"data":{"stockDetail":{"symbol":"6151","market":"TSE","stock_name":"NITTO KOHKI CO.,LTD.","growth":-1.9,"dividend":36,"recent_price":1727,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6151"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7793/","result":{"data":{"stockDetail":{"symbol":"7793","market":"TSE","stock_name":"IMAGE MAGIC Inc.","growth":0.9,"dividend":35,"recent_price":1501,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7793"}},"staticQueryHashes":[],"slicesMap":{}}

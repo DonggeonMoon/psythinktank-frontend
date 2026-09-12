@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5990/","result":{"data":{"stockDetail":{"symbol":"5990","market":"TSE","stock_name":"SUPER TOOL CO.,LTD.","growth":-7.77,"dividend":60,"recent_price":1968,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5990"}},"staticQueryHashes":[],"slicesMap":{}}

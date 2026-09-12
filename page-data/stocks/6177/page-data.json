@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6177/","result":{"data":{"stockDetail":{"symbol":"6177","market":"TSE","stock_name":"AppBank Inc.","growth":-38.89,"dividend":0,"recent_price":85,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6177"}},"staticQueryHashes":[],"slicesMap":{}}

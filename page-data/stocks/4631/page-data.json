@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4631/","result":{"data":{"stockDetail":{"symbol":"4631","market":"TSE","stock_name":"DIC Corporation","growth":-1.42,"dividend":160,"recent_price":4856,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4631"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6964/","result":{"data":{"stockDetail":{"symbol":"6964","market":"TSE","stock_name":"SANKO CO.,LTD.","growth":-2.81,"dividend":20,"recent_price":693,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6964"}},"staticQueryHashes":[],"slicesMap":{}}

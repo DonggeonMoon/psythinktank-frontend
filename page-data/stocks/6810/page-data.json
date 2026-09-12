@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6810/","result":{"data":{"stockDetail":{"symbol":"6810","market":"TSE","stock_name":"Maxell,Ltd.","growth":-0.84,"dividend":53,"recent_price":2470,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6810"}},"staticQueryHashes":[],"slicesMap":{}}

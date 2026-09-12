@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8920/","result":{"data":{"stockDetail":{"symbol":"8920","market":"TSE","stock_name":"TOSHO CO.,LTD.","growth":-6.47,"dividend":10,"recent_price":714,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8920"}},"staticQueryHashes":[],"slicesMap":{}}

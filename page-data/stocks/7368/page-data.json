@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7368/","result":{"data":{"stockDetail":{"symbol":"7368","market":"TSE","stock_name":"HYOJITO Co.,Ltd.","growth":-0.89,"dividend":62,"recent_price":1711,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7368"}},"staticQueryHashes":[],"slicesMap":{}}

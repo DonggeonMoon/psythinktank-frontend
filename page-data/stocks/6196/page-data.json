@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6196/","result":{"data":{"stockDetail":{"symbol":"6196","market":"TSE","stock_name":"Strike Company,Limited","growth":22.83,"dividend":65,"recent_price":1401,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6196"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7062/","result":{"data":{"stockDetail":{"symbol":"7062","market":"TSE","stock_name":"Fureasu Co.,Ltd.","growth":-4.99,"dividend":10.57,"recent_price":686,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7062"}},"staticQueryHashes":[],"slicesMap":{}}

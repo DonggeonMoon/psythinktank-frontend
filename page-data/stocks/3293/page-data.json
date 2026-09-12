@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3293/","result":{"data":{"stockDetail":{"symbol":"3293","market":"TSE","stock_name":"AZUMA HOUSE Co.,Ltd.","growth":-4.68,"dividend":35,"recent_price":771,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3293"}},"staticQueryHashes":[],"slicesMap":{}}

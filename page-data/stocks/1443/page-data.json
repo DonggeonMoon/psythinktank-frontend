@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1443/","result":{"data":{"stockDetail":{"symbol":"1443","market":"TSE","stock_name":"Giken Holdings Co.,Ltd.","growth":0.95,"dividend":1.1,"recent_price":280,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1443"}},"staticQueryHashes":[],"slicesMap":{}}

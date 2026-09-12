@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7442/","result":{"data":{"stockDetail":{"symbol":"7442","market":"TSE","stock_name":"NAKAYAMAFUKU CO.,LTD.","growth":1.65,"dividend":12,"recent_price":483,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7442"}},"staticQueryHashes":[],"slicesMap":{}}

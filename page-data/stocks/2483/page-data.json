@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2483/","result":{"data":{"stockDetail":{"symbol":"2483","market":"TSE","stock_name":"HONYAKU Center Inc.","growth":-0.92,"dividend":140,"recent_price":2230,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2483"}},"staticQueryHashes":[],"slicesMap":{}}

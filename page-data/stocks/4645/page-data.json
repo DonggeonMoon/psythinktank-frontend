@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4645/","result":{"data":{"stockDetail":{"symbol":"4645","market":"TSE","stock_name":"ICHISHIN HOLDINGS CO.,LTD.","growth":-1.91,"dividend":10,"recent_price":434,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4645"}},"staticQueryHashes":[],"slicesMap":{}}

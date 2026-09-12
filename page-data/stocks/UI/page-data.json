@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/UI/","result":{"data":{"stockDetail":{"symbol":"UI","market":"NYSE","stock_name":"Ubiquiti Inc. Common Stock","growth":53.16,"dividend":4,"recent_price":580.530029296875,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"UI"}},"staticQueryHashes":[],"slicesMap":{}}

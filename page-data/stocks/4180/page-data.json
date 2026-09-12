@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4180/","result":{"data":{"stockDetail":{"symbol":"4180","market":"TSE","stock_name":"Appier Group,Inc.","growth":11.72,"dividend":2.3,"recent_price":1512,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4180"}},"staticQueryHashes":[],"slicesMap":{}}

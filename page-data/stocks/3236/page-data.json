@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3236/","result":{"data":{"stockDetail":{"symbol":"3236","market":"TSE","stock_name":"PROPERST CO.,LTD.","growth":null,"dividend":10,"recent_price":290,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3236"}},"staticQueryHashes":[],"slicesMap":{}}

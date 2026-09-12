@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6176/","result":{"data":{"stockDetail":{"symbol":"6176","market":"TSE","stock_name":"Brangista Inc.","growth":-3.15,"dividend":15,"recent_price":1137,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6176"}},"staticQueryHashes":[],"slicesMap":{}}

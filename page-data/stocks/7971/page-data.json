@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7971/","result":{"data":{"stockDetail":{"symbol":"7971","market":"TSE","stock_name":"TOLI Corporation","growth":1.57,"dividend":34,"recent_price":709,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7971"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9364/","result":{"data":{"stockDetail":{"symbol":"9364","market":"TSE","stock_name":"Kamigumi Co.,Ltd.","growth":5.78,"dividend":205,"recent_price":4873,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9364"}},"staticQueryHashes":[],"slicesMap":{}}

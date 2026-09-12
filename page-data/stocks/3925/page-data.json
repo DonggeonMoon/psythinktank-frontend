@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3925/","result":{"data":{"stockDetail":{"symbol":"3925","market":"TSE","stock_name":"Double Standard Inc.","growth":2.24,"dividend":70,"recent_price":1320,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3925"}},"staticQueryHashes":[],"slicesMap":{}}

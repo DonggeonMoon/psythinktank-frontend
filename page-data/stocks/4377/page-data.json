@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4377/","result":{"data":{"stockDetail":{"symbol":"4377","market":"TSE","stock_name":"ONE CAREER Inc.","growth":-80.82,"dividend":35,"recent_price":2469,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4377"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5840/","result":{"data":{"stockDetail":{"symbol":"5840","market":"TSE","stock_name":"Nippon Souken Co.,Ltd.","growth":null,"dividend":7.5,"recent_price":505,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5840"}},"staticQueryHashes":[],"slicesMap":{}}

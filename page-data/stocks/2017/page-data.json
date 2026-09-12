@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2017/","result":{"data":{"stockDetail":{"symbol":"2017","market":"TSE","stock_name":"iFreeETF JPX Prime 150","growth":null,"dividend":28.17,"recent_price":1524,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2017"}},"staticQueryHashes":[],"slicesMap":{}}

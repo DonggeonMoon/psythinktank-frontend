@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8945/","result":{"data":{"stockDetail":{"symbol":"8945","market":"TSE","stock_name":"SUNNEXTA GROUP Inc.","growth":0.31,"dividend":44,"recent_price":1096,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8945"}},"staticQueryHashes":[],"slicesMap":{}}

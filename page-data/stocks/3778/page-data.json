@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3778/","result":{"data":{"stockDetail":{"symbol":"3778","market":"TSE","stock_name":"SAKURA internet Inc.","growth":13.84,"dividend":5.5,"recent_price":3650,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3778"}},"staticQueryHashes":[],"slicesMap":{}}

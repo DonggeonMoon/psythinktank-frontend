@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1979/","result":{"data":{"stockDetail":{"symbol":"1979","market":"TSE","stock_name":"Taikisha Ltd.","growth":4.9,"dividend":119,"recent_price":3855,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1979"}},"staticQueryHashes":[],"slicesMap":{}}

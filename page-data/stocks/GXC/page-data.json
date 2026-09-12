@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/GXC/","result":{"data":{"stockDetail":{"symbol":"GXC","market":"NYSE_ARCA","stock_name":"SPDR S&P China ETF","growth":null,"dividend":0,"recent_price":89.69999694824219,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"GXC"}},"staticQueryHashes":[],"slicesMap":{}}

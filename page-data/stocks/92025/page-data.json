@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/92025/","result":{"data":{"stockDetail":{"symbol":"92025","market":"TSE","stock_name":"ANA HOLDINGS INC.","growth":null,"dividend":140.23,"recent_price":4780,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"92025"}},"staticQueryHashes":[],"slicesMap":{}}

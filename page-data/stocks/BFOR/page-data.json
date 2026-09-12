@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BFOR/","result":{"data":{"stockDetail":{"symbol":"BFOR","market":"NYSE_ARCA","stock_name":"Barron's 400 ETF","growth":null,"dividend":0,"recent_price":23.84000015258789,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BFOR"}},"staticQueryHashes":[],"slicesMap":{}}

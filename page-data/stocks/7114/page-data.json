@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7114/","result":{"data":{"stockDetail":{"symbol":"7114","market":"TSE","stock_name":"Foodison,Inc.","growth":-6.36,"dividend":0,"recent_price":779,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7114"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2831/","result":{"data":{"stockDetail":{"symbol":"2831","market":"TSE","stock_name":"HAGOROMO FOODS CORPORATION","growth":-1.48,"dividend":70,"recent_price":3685,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2831"}},"staticQueryHashes":[],"slicesMap":{}}

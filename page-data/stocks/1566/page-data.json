@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1566/","result":{"data":{"stockDetail":{"symbol":"1566","market":"TSE","stock_name":"Listed Index Fund Emerging Bond","growth":null,"dividend":0,"recent_price":53370,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1566"}},"staticQueryHashes":[],"slicesMap":{}}

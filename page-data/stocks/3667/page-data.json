@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3667/","result":{"data":{"stockDetail":{"symbol":"3667","market":"TSE","stock_name":"enish,inc.","growth":-26.79,"dividend":0,"recent_price":28,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3667"}},"staticQueryHashes":[],"slicesMap":{}}

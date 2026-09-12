@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6062/","result":{"data":{"stockDetail":{"symbol":"6062","market":"TSE","stock_name":"CHARM CARE CORPORATION","growth":11.65,"dividend":48,"recent_price":1413,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6062"}},"staticQueryHashes":[],"slicesMap":{}}

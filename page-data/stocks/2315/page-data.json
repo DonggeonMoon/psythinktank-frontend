@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2315/","result":{"data":{"stockDetail":{"symbol":"2315","market":"TSE","stock_name":"CAICA DIGITAL Inc.","growth":2.01,"dividend":0,"recent_price":71,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2315"}},"staticQueryHashes":[],"slicesMap":{}}

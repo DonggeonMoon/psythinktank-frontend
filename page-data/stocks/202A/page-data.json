@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/202A/","result":{"data":{"stockDetail":{"symbol":"202A","market":"TSE","stock_name":"MAMEZO DIGITAL HOLDINGS CO.,LTD.","growth":0.62,"dividend":62,"recent_price":null,"basis_date":"2026-04-17"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"202A"}},"staticQueryHashes":[],"slicesMap":{}}

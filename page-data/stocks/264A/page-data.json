@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/264A/","result":{"data":{"stockDetail":{"symbol":"264A","market":"TSE","stock_name":"Schoo,inc.","growth":null,"dividend":0,"recent_price":302,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"264A"}},"staticQueryHashes":[],"slicesMap":{}}

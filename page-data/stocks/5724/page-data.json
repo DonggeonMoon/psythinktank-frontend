@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5724/","result":{"data":{"stockDetail":{"symbol":"5724","market":"TSE","stock_name":"Asaka Riken Co.,Ltd.","growth":10.86,"dividend":12,"recent_price":3190,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5724"}},"staticQueryHashes":[],"slicesMap":{}}

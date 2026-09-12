@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1377/","result":{"data":{"stockDetail":{"symbol":"1377","market":"TSE","stock_name":"SAKATA SEED CORPORATION","growth":3.12,"dividend":90,"recent_price":4345,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1377"}},"staticQueryHashes":[],"slicesMap":{}}

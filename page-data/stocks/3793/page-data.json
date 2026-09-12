@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3793/","result":{"data":{"stockDetail":{"symbol":"3793","market":"TSE","stock_name":"Drecom Co.,Ltd.","growth":-22.75,"dividend":5,"recent_price":496,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3793"}},"staticQueryHashes":[],"slicesMap":{}}

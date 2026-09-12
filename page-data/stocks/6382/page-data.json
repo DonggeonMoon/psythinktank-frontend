@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6382/","result":{"data":{"stockDetail":{"symbol":"6382","market":"TSE","stock_name":"TRINITY INDUSTRIAL CORPORATION","growth":0.53,"dividend":61,"recent_price":1242,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6382"}},"staticQueryHashes":[],"slicesMap":{}}

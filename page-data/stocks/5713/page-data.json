@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5713/","result":{"data":{"stockDetail":{"symbol":"5713","market":"TSE","stock_name":"Sumitomo Metal Mining Co.,Ltd.","growth":1.42,"dividend":207,"recent_price":10075,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5713"}},"staticQueryHashes":[],"slicesMap":{}}

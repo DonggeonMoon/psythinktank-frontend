@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6364/","result":{"data":{"stockDetail":{"symbol":"6364","market":"TSE","stock_name":"AIRMAN CORPORATION","growth":1.61,"dividend":72,"recent_price":2510,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6364"}},"staticQueryHashes":[],"slicesMap":{}}

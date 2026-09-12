@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4420/","result":{"data":{"stockDetail":{"symbol":"4420","market":"TSE","stock_name":"eSOL Co.,Ltd.","growth":4.97,"dividend":5.5,"recent_price":831,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4420"}},"staticQueryHashes":[],"slicesMap":{}}

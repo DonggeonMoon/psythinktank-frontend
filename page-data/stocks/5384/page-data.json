@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5384/","result":{"data":{"stockDetail":{"symbol":"5384","market":"TSE","stock_name":"FUJIMI INCORPORATED","growth":5.67,"dividend":77,"recent_price":3325,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5384"}},"staticQueryHashes":[],"slicesMap":{}}

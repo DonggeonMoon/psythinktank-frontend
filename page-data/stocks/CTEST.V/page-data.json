@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CTEST.V/","result":{"data":{"stockDetail":{"symbol":"CTEST.V","market":"NYSE","stock_name":"NYSE Test One Common Stock","growth":null,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CTEST.V"}},"staticQueryHashes":[],"slicesMap":{}}

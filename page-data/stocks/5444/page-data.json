@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5444/","result":{"data":{"stockDetail":{"symbol":"5444","market":"TSE","stock_name":"YAMATO KOGYO CO.,LTD.","growth":-4.72,"dividend":400,"recent_price":12365,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5444"}},"staticQueryHashes":[],"slicesMap":{}}

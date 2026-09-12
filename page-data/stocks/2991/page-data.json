@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2991/","result":{"data":{"stockDetail":{"symbol":"2991","market":"TSE","stock_name":"LANDNET Inc.","growth":19.2,"dividend":11.1,"recent_price":551,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2991"}},"staticQueryHashes":[],"slicesMap":{}}

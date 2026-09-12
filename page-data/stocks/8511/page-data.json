@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8511/","result":{"data":{"stockDetail":{"symbol":"8511","market":"TSE","stock_name":"Japan Securities Finance Co.,Ltd.","growth":1.09,"dividend":93,"recent_price":2497,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8511"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4166/","result":{"data":{"stockDetail":{"symbol":"4166","market":"TSE","stock_name":"Cacco Inc.","growth":2.86,"dividend":0,"recent_price":633,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4166"}},"staticQueryHashes":[],"slicesMap":{}}

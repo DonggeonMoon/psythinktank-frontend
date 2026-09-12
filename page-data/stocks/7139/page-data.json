@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7139/","result":{"data":{"stockDetail":{"symbol":"7139","market":"TSE","stock_name":"TOKYO KOATSU Co.,Ltd.","growth":null,"dividend":0,"recent_price":4700,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7139"}},"staticQueryHashes":[],"slicesMap":{}}

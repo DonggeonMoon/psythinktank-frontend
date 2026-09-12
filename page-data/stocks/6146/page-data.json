@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6146/","result":{"data":{"stockDetail":{"symbol":"6146","market":"TSE","stock_name":"DISCO CORPORATION","growth":5.54,"dividend":547,"recent_price":54460,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6146"}},"staticQueryHashes":[],"slicesMap":{}}

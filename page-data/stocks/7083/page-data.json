@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7083/","result":{"data":{"stockDetail":{"symbol":"7083","market":"TSE","stock_name":"AHC GROUP INC.","growth":4.04,"dividend":12,"recent_price":1101,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7083"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4833/","result":{"data":{"stockDetail":{"symbol":"4833","market":"TSE","stock_name":"Def consulting,inc.","growth":null,"dividend":0,"recent_price":59,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4833"}},"staticQueryHashes":[],"slicesMap":{}}

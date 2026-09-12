@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6455/","result":{"data":{"stockDetail":{"symbol":"6455","market":"TSE","stock_name":"MORITA HOLDINGS CORPORATION","growth":2.17,"dividend":80,"recent_price":2485,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6455"}},"staticQueryHashes":[],"slicesMap":{}}

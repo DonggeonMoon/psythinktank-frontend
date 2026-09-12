@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5036/","result":{"data":{"stockDetail":{"symbol":"5036","market":"TSE","stock_name":"Japan Business Systems,Inc.","growth":5.15,"dividend":56,"recent_price":1546,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5036"}},"staticQueryHashes":[],"slicesMap":{}}

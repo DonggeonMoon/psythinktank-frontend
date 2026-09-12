@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1941/","result":{"data":{"stockDetail":{"symbol":"1941","market":"TSE","stock_name":"CHUDENKO CORPORATION","growth":1.84,"dividend":140,"recent_price":5140,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1941"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3121/","result":{"data":{"stockDetail":{"symbol":"3121","market":"TSE","stock_name":"MBK Co.,Ltd.","growth":-33.33,"dividend":2,"recent_price":268,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3121"}},"staticQueryHashes":[],"slicesMap":{}}

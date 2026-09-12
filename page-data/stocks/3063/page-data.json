@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3063/","result":{"data":{"stockDetail":{"symbol":"3063","market":"TSE","stock_name":"j-Group Holdings Corp.","growth":3.1,"dividend":4,"recent_price":1144,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3063"}},"staticQueryHashes":[],"slicesMap":{}}

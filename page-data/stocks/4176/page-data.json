@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4176/","result":{"data":{"stockDetail":{"symbol":"4176","market":"TSE","stock_name":"coconala Inc.","growth":0.38,"dividend":0,"recent_price":275,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4176"}},"staticQueryHashes":[],"slicesMap":{}}

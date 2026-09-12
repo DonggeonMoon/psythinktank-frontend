@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9627/","result":{"data":{"stockDetail":{"symbol":"9627","market":"TSE","stock_name":"AIN HOLDINGS INC.","growth":33.23,"dividend":100,"recent_price":6137,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9627"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4205/","result":{"data":{"stockDetail":{"symbol":"4205","market":"TSE","stock_name":"ZEON CORPORATION","growth":-1.51,"dividend":79,"recent_price":2458,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4205"}},"staticQueryHashes":[],"slicesMap":{}}

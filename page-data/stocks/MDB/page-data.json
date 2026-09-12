@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/MDB/","result":{"data":{"stockDetail":{"symbol":"MDB","market":"NASDAQ","stock_name":"MongoDB, Inc. - Class A Common Stock","growth":1.4,"dividend":0,"recent_price":356,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"MDB"}},"staticQueryHashes":[],"slicesMap":{}}

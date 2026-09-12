@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BALY/","result":{"data":{"stockDetail":{"symbol":"BALY","market":"NYSE","stock_name":"Bally's Corporation Common Stock","growth":17,"dividend":0,"recent_price":9,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BALY"}},"staticQueryHashes":[],"slicesMap":{}}

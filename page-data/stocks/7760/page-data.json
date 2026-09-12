@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7760/","result":{"data":{"stockDetail":{"symbol":"7760","market":"TSE","stock_name":"IMV CORPORATION","growth":9.38,"dividend":30,"recent_price":1962,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7760"}},"staticQueryHashes":[],"slicesMap":{}}

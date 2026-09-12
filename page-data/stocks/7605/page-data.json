@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7605/","result":{"data":{"stockDetail":{"symbol":"7605","market":"TSE","stock_name":"FUJI CORPORATION","growth":-0.21,"dividend":0,"recent_price":null,"basis_date":"2025-10-16"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7605"}},"staticQueryHashes":[],"slicesMap":{}}

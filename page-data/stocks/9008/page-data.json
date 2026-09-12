@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9008/","result":{"data":{"stockDetail":{"symbol":"9008","market":"TSE","stock_name":"Keio Corporation","growth":0.58,"dividend":22,"recent_price":780.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9008"}},"staticQueryHashes":[],"slicesMap":{}}

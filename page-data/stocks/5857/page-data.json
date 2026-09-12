@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5857/","result":{"data":{"stockDetail":{"symbol":"5857","market":"TSE","stock_name":"ARE Holdings,Inc.","growth":1.94,"dividend":135,"recent_price":3810,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5857"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CDTTW/","result":{"data":{"stockDetail":{"symbol":"CDTTW","market":"NASDAQ","stock_name":"CDT Equity Inc. - Warrant","growth":null,"dividend":0,"recent_price":null,"basis_date":"2026-07-21"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CDTTW"}},"staticQueryHashes":[],"slicesMap":{}}

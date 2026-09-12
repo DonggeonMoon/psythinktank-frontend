@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9142/","result":{"data":{"stockDetail":{"symbol":"9142","market":"TSE","stock_name":"Kyushu Railway Company","growth":1.07,"dividend":121,"recent_price":3580,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9142"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8968/","result":{"data":{"stockDetail":{"symbol":"8968","market":"TSE","stock_name":"Fukuoka REIT Corporation","growth":null,"dividend":8,"recent_price":172800,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8968"}},"staticQueryHashes":[],"slicesMap":{}}

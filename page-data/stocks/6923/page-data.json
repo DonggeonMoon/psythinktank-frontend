@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6923/","result":{"data":{"stockDetail":{"symbol":"6923","market":"TSE","stock_name":"Stanley Electric Co.,Ltd.","growth":-1.89,"dividend":110,"recent_price":3632,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6923"}},"staticQueryHashes":[],"slicesMap":{}}

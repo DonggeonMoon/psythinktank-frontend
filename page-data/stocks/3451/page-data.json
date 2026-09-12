@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3451/","result":{"data":{"stockDetail":{"symbol":"3451","market":"TSE","stock_name":"Tosei Reit Investment Corporation","growth":null,"dividend":7,"recent_price":128000,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3451"}},"staticQueryHashes":[],"slicesMap":{}}

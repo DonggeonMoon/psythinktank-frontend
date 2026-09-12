@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/147A/","result":{"data":{"stockDetail":{"symbol":"147A","market":"TSE","stock_name":"SORACOM,INC.","growth":14.2,"dividend":0,"recent_price":995,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"147A"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3950/","result":{"data":{"stockDetail":{"symbol":"3950","market":"TSE","stock_name":"THE PACK CORPORATION","growth":2.26,"dividend":42,"recent_price":1461,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3950"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3156/","result":{"data":{"stockDetail":{"symbol":"3156","market":"TSE","stock_name":"Restar Corporation","growth":3.44,"dividend":145,"recent_price":5220,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3156"}},"staticQueryHashes":[],"slicesMap":{}}

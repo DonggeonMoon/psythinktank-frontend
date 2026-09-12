@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9793/","result":{"data":{"stockDetail":{"symbol":"9793","market":"TSE","stock_name":"Daiseki Co.,Ltd.","growth":2.45,"dividend":86,"recent_price":3710,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9793"}},"staticQueryHashes":[],"slicesMap":{}}

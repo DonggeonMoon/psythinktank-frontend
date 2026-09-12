@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7823/","result":{"data":{"stockDetail":{"symbol":"7823","market":"TSE","stock_name":"ARTNATURE INC.","growth":-1.23,"dividend":28,"recent_price":853,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7823"}},"staticQueryHashes":[],"slicesMap":{}}

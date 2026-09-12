@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8002/","result":{"data":{"stockDetail":{"symbol":"8002","market":"TSE","stock_name":"Marubeni Corporation","growth":null,"dividend":115,"recent_price":5073,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8002"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3089/","result":{"data":{"stockDetail":{"symbol":"3089","market":"TSE","stock_name":"Techno Alpha Co.,Ltd.","growth":4.82,"dividend":35,"recent_price":1079,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3089"}},"staticQueryHashes":[],"slicesMap":{}}

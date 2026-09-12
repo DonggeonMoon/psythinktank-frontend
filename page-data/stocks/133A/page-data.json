@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/133A/","result":{"data":{"stockDetail":{"symbol":"133A","market":"TSE","stock_name":"Global X Ultra Short-Term T-Bill ETF","growth":null,"dividend":0,"recent_price":1070,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"133A"}},"staticQueryHashes":[],"slicesMap":{}}

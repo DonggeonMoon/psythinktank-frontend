@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3922/","result":{"data":{"stockDetail":{"symbol":"3922","market":"TSE","stock_name":"PR TIMES Corporation","growth":-1.38,"dividend":16.8,"recent_price":2150,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3922"}},"staticQueryHashes":[],"slicesMap":{}}

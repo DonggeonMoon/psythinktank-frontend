@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3189/","result":{"data":{"stockDetail":{"symbol":"3189","market":"TSE","stock_name":"ANAP HOLDINGS INC.","growth":78.57,"dividend":0,"recent_price":113,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3189"}},"staticQueryHashes":[],"slicesMap":{}}

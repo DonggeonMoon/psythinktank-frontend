@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/AMGR/","result":{"data":{"stockDetail":{"symbol":"AMGR","market":"NASDAQ","stock_name":"Amana Growth ETF","growth":null,"dividend":0,"recent_price":25.239999771118164,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"AMGR"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3299/","result":{"data":{"stockDetail":{"symbol":"3299","market":"TSE","stock_name":"MUGEN ESTATE Co.,Ltd.","growth":7.51,"dividend":104,"recent_price":1731,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3299"}},"staticQueryHashes":[],"slicesMap":{}}

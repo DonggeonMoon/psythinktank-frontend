@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6562/","result":{"data":{"stockDetail":{"symbol":"6562","market":"TSE","stock_name":"Geniee,Inc.","growth":-6.96,"dividend":0,"recent_price":986,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6562"}},"staticQueryHashes":[],"slicesMap":{}}

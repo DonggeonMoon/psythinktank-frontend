@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/FL/","result":{"data":{"stockDetail":{"symbol":"FL","market":"NYSE","stock_name":"Foot Locker, Inc.","growth":0.98,"dividend":0,"recent_price":null,"basis_date":"2025-10-14"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"FL"}},"staticQueryHashes":[],"slicesMap":{}}

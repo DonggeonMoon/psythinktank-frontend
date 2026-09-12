@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4255/","result":{"data":{"stockDetail":{"symbol":"4255","market":"TSE","stock_name":"THECOO Inc.","growth":-7.26,"dividend":0,"recent_price":3555,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4255"}},"staticQueryHashes":[],"slicesMap":{}}

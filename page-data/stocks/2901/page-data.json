@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2901/","result":{"data":{"stockDetail":{"symbol":"2901","market":"TSE","stock_name":"Wel-Dish.Incorporated","growth":-27.14,"dividend":4,"recent_price":147,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2901"}},"staticQueryHashes":[],"slicesMap":{}}

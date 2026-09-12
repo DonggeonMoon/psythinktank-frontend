@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/204A/","result":{"data":{"stockDetail":{"symbol":"204A","market":"TSE","stock_name":"TaiyoPackage Co.,Ltd.","growth":null,"dividend":0,"recent_price":1250,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"204A"}},"staticQueryHashes":[],"slicesMap":{}}

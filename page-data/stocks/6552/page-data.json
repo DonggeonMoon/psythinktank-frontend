@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6552/","result":{"data":{"stockDetail":{"symbol":"6552","market":"TSE","stock_name":"GameWith,Inc.","growth":1.14,"dividend":0,"recent_price":176,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6552"}},"staticQueryHashes":[],"slicesMap":{}}

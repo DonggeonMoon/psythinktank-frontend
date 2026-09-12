@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/RAYS/","result":{"data":{"stockDetail":{"symbol":"RAYS","market":"NASDAQ","stock_name":"Global X Solar ETF","growth":null,"dividend":0,"recent_price":null,"basis_date":"2025-10-07"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"RAYS"}},"staticQueryHashes":[],"slicesMap":{}}

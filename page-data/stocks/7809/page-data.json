@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7809/","result":{"data":{"stockDetail":{"symbol":"7809","market":"TSE","stock_name":"KOTOBUKIYA CO.,LTD.","growth":1.05,"dividend":45,"recent_price":1325,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7809"}},"staticQueryHashes":[],"slicesMap":{}}

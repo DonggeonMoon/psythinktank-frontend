@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2114/","result":{"data":{"stockDetail":{"symbol":"2114","market":"TSE","stock_name":"Fuji Nihon Corporation","growth":5.39,"dividend":19,"recent_price":680,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2114"}},"staticQueryHashes":[],"slicesMap":{}}

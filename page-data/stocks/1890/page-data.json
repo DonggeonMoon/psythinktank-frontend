@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1890/","result":{"data":{"stockDetail":{"symbol":"1890","market":"TSE","stock_name":"TOYO CONSTRUCTION CO.,LTD.","growth":3.32,"dividend":58,"recent_price":null,"basis_date":"2025-12-18"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1890"}},"staticQueryHashes":[],"slicesMap":{}}

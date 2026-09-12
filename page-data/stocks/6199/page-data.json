@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6199/","result":{"data":{"stockDetail":{"symbol":"6199","market":"TSE","stock_name":"SERAKU Co.,Ltd.","growth":-3.28,"dividend":17.4,"recent_price":1345,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6199"}},"staticQueryHashes":[],"slicesMap":{}}

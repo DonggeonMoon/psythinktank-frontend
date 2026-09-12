@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/525A/","result":{"data":{"stockDetail":{"symbol":"525A","market":"TSE","stock_name":"manebi Inc.","growth":null,"dividend":0,"recent_price":1663,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"525A"}},"staticQueryHashes":[],"slicesMap":{}}

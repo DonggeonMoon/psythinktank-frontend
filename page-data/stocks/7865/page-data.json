@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7865/","result":{"data":{"stockDetail":{"symbol":"7865","market":"TSE","stock_name":"People Co.,Ltd.","growth":null,"dividend":0,"recent_price":338,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7865"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5932/","result":{"data":{"stockDetail":{"symbol":"5932","market":"TSE","stock_name":"Sankyo Tateyama,Inc.","growth":-2.69,"dividend":25,"recent_price":649,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5932"}},"staticQueryHashes":[],"slicesMap":{}}

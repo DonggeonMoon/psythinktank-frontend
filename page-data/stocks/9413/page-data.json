@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9413/","result":{"data":{"stockDetail":{"symbol":"9413","market":"TSE","stock_name":"TV TOKYO Holdings Corporation","growth":1.27,"dividend":100,"recent_price":3435,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9413"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3696/","result":{"data":{"stockDetail":{"symbol":"3696","market":"TSE","stock_name":"CERES INC.","growth":-47.53,"dividend":60,"recent_price":2213,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3696"}},"staticQueryHashes":[],"slicesMap":{}}

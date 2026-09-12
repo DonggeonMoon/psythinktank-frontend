@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2489/","result":{"data":{"stockDetail":{"symbol":"2489","market":"TSE","stock_name":"Adways Inc.","growth":-8.84,"dividend":12.06,"recent_price":428,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2489"}},"staticQueryHashes":[],"slicesMap":{}}

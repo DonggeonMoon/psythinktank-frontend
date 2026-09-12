@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2485/","result":{"data":{"stockDetail":{"symbol":"2485","market":"TSE","stock_name":"TEAR Corporation","growth":8.01,"dividend":20,"recent_price":450,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2485"}},"staticQueryHashes":[],"slicesMap":{}}

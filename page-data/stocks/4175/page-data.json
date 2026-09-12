@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4175/","result":{"data":{"stockDetail":{"symbol":"4175","market":"TSE","stock_name":"coly Inc.","growth":-7.24,"dividend":0,"recent_price":2915,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4175"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5410/","result":{"data":{"stockDetail":{"symbol":"5410","market":"TSE","stock_name":"Godo Steel,Ltd.","growth":3.19,"dividend":120,"recent_price":3100,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5410"}},"staticQueryHashes":[],"slicesMap":{}}

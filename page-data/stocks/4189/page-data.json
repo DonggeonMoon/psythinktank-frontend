@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4189/","result":{"data":{"stockDetail":{"symbol":"4189","market":"TSE","stock_name":"KH Neochem Co.,Ltd.","growth":4.1,"dividend":150,"recent_price":3300,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4189"}},"staticQueryHashes":[],"slicesMap":{}}

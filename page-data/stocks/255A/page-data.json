@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/255A/","result":{"data":{"stockDetail":{"symbol":"255A","market":"TSE","stock_name":"GLTECHNO HOLDINGS,INC.","growth":4.45,"dividend":126,"recent_price":5150,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"255A"}},"staticQueryHashes":[],"slicesMap":{}}

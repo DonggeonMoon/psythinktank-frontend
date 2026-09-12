@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2475/","result":{"data":{"stockDetail":{"symbol":"2475","market":"TSE","stock_name":"WDB HOLDINGS CO.,LTD.","growth":0.68,"dividend":94,"recent_price":1800,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2475"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9206/","result":{"data":{"stockDetail":{"symbol":"9206","market":"TSE","stock_name":"Star Flyer Inc.","growth":8.77,"dividend":0,"recent_price":1970,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9206"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/TBRG/","result":{"data":{"stockDetail":{"symbol":"TBRG","market":"NASDAQ","stock_name":"TruBridge, Inc. - Common Stock","growth":9.38,"dividend":0,"recent_price":null,"basis_date":"2026-07-14"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"TBRG"}},"staticQueryHashes":[],"slicesMap":{}}

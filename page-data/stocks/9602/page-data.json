@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9602/","result":{"data":{"stockDetail":{"symbol":"9602","market":"TSE","stock_name":"TOHO CO.,LTD","growth":5.55,"dividend":22,"recent_price":1601,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9602"}},"staticQueryHashes":[],"slicesMap":{}}

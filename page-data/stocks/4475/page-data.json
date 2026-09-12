@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4475/","result":{"data":{"stockDetail":{"symbol":"4475","market":"TSE","stock_name":"HENNGE K.K.","growth":25.4,"dividend":6,"recent_price":1664,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4475"}},"staticQueryHashes":[],"slicesMap":{}}

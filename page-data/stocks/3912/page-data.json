@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3912/","result":{"data":{"stockDetail":{"symbol":"3912","market":"TSE","stock_name":"Mobile Factory,Inc.","growth":-10.71,"dividend":50,"recent_price":1125,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3912"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/NE.A/","result":{"data":{"stockDetail":{"symbol":"NE.A","market":"NYSE","stock_name":"Noble Corporation plc Tranche 2 Warrants","growth":null,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"NE.A"}},"staticQueryHashes":[],"slicesMap":{}}

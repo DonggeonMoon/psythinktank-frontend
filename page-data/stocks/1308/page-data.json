@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1308/","result":{"data":{"stockDetail":{"symbol":"1308","market":"TSE","stock_name":"Listed Index Fund TOPIX","growth":null,"dividend":34.43,"recent_price":4226,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1308"}},"staticQueryHashes":[],"slicesMap":{}}

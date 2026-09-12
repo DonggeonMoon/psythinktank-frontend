@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/XPO/","result":{"data":{"stockDetail":{"symbol":"XPO","market":"NYSE","stock_name":"XPO, Inc. Common Stock","growth":-2.63,"dividend":0,"recent_price":190.05999755859375,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"XPO"}},"staticQueryHashes":[],"slicesMap":{}}

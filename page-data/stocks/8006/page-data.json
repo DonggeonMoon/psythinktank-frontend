@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8006/","result":{"data":{"stockDetail":{"symbol":"8006","market":"TSE","stock_name":"YUASA FUNASHOKU Co.,Ltd.","growth":-3.81,"dividend":33,"recent_price":1546,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8006"}},"staticQueryHashes":[],"slicesMap":{}}

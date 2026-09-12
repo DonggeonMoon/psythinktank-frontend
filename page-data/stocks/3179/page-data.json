@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3179/","result":{"data":{"stockDetail":{"symbol":"3179","market":"TSE","stock_name":"Syuppin Co.,Ltd.","growth":4,"dividend":47,"recent_price":1200,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3179"}},"staticQueryHashes":[],"slicesMap":{}}

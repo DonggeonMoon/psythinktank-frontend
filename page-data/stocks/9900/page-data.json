@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9900/","result":{"data":{"stockDetail":{"symbol":"9900","market":"TSE","stock_name":"Sagami Holdings Corporation","growth":2.4,"dividend":6,"recent_price":1128,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9900"}},"staticQueryHashes":[],"slicesMap":{}}

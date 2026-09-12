@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7585/","result":{"data":{"stockDetail":{"symbol":"7585","market":"TSE","stock_name":"KAN-NANMARU CORPORATION","growth":null,"dividend":0,"recent_price":406,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7585"}},"staticQueryHashes":[],"slicesMap":{}}

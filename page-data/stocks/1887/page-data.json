@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1887/","result":{"data":{"stockDetail":{"symbol":"1887","market":"TSE","stock_name":"JDC CORPORATION","growth":-2.67,"dividend":25,"recent_price":551,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1887"}},"staticQueryHashes":[],"slicesMap":{}}

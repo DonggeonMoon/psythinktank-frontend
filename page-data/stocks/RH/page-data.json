@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/RH/","result":{"data":{"stockDetail":{"symbol":"RH","market":"NYSE","stock_name":"RH Common Stock","growth":14.04,"dividend":0,"recent_price":142.4499969482422,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"RH"}},"staticQueryHashes":[],"slicesMap":{}}

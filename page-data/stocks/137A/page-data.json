@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/137A/","result":{"data":{"stockDetail":{"symbol":"137A","market":"TSE","stock_name":"Cocolive,Inc.","growth":null,"dividend":0,"recent_price":700,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"137A"}},"staticQueryHashes":[],"slicesMap":{}}

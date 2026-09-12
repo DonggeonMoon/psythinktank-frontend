@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3921/","result":{"data":{"stockDetail":{"symbol":"3921","market":"TSE","stock_name":"NEOJAPAN Inc.","growth":5.57,"dividend":54,"recent_price":1616,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3921"}},"staticQueryHashes":[],"slicesMap":{}}

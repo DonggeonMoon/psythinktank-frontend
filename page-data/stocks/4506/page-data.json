@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4506/","result":{"data":{"stockDetail":{"symbol":"4506","market":"TSE","stock_name":"Sumitomo Pharma Co.,Ltd.","growth":-23.05,"dividend":0,"recent_price":1653,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4506"}},"staticQueryHashes":[],"slicesMap":{}}

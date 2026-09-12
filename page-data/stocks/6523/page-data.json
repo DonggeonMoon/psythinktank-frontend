@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6523/","result":{"data":{"stockDetail":{"symbol":"6523","market":"TSE","stock_name":"PHC Holdings Corporation","growth":-4.36,"dividend":42,"recent_price":1436,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6523"}},"staticQueryHashes":[],"slicesMap":{}}

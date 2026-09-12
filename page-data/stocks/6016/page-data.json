@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6016/","result":{"data":{"stockDetail":{"symbol":"6016","market":"TSE","stock_name":"Japan Engine Corporation","growth":3.14,"dividend":80,"recent_price":11240,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6016"}},"staticQueryHashes":[],"slicesMap":{}}

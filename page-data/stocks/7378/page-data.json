@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7378/","result":{"data":{"stockDetail":{"symbol":"7378","market":"TSE","stock_name":"ASIRO Inc.","growth":-24.84,"dividend":65,"recent_price":1553,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7378"}},"staticQueryHashes":[],"slicesMap":{}}

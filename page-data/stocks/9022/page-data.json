@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9022/","result":{"data":{"stockDetail":{"symbol":"9022","market":"TSE","stock_name":"Central Japan Railway Company","growth":1.46,"dividend":32,"recent_price":3857,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9022"}},"staticQueryHashes":[],"slicesMap":{}}

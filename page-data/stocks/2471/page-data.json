@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2471/","result":{"data":{"stockDetail":{"symbol":"2471","market":"TSE","stock_name":"S-Pool,Inc.","growth":8.72,"dividend":10,"recent_price":280,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2471"}},"staticQueryHashes":[],"slicesMap":{}}

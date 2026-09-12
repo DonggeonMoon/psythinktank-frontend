@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/NXGLW/","result":{"data":{"stockDetail":{"symbol":"NXGLW","market":"NASDAQ","stock_name":"NexGel, Inc - Warrant","growth":null,"dividend":0,"recent_price":null,"basis_date":"2026-07-21"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"NXGLW"}},"staticQueryHashes":[],"slicesMap":{}}

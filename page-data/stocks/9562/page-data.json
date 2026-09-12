@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9562/","result":{"data":{"stockDetail":{"symbol":"9562","market":"TSE","stock_name":"Business Coach Inc.","growth":1.72,"dividend":17,"recent_price":650,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9562"}},"staticQueryHashes":[],"slicesMap":{}}

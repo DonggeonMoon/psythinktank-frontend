@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BIIB/","result":{"data":{"stockDetail":{"symbol":"BIIB","market":"NASDAQ","stock_name":"Biogen Inc. - Common Stock","growth":-1.38,"dividend":0,"recent_price":212.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BIIB"}},"staticQueryHashes":[],"slicesMap":{}}

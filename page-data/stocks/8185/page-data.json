@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8185/","result":{"data":{"stockDetail":{"symbol":"8185","market":"TSE","stock_name":"CHIYODA CO.,LTD.","growth":5.12,"dividend":54,"recent_price":987,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8185"}},"staticQueryHashes":[],"slicesMap":{}}

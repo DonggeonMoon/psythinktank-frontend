@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2338/","result":{"data":{"stockDetail":{"symbol":"2338","market":"TSE","stock_name":"Quantum Solutions Co.,Ltd.","growth":-22.64,"dividend":0,"recent_price":125,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2338"}},"staticQueryHashes":[],"slicesMap":{}}

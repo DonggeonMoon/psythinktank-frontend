@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5959/","result":{"data":{"stockDetail":{"symbol":"5959","market":"TSE","stock_name":"OKABE CO.,LTD.","growth":2.66,"dividend":42,"recent_price":952,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5959"}},"staticQueryHashes":[],"slicesMap":{}}

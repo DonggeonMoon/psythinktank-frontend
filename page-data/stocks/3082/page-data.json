@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3082/","result":{"data":{"stockDetail":{"symbol":"3082","market":"TSE","stock_name":"KICHIRI HOLDINGS & Co.,Ltd.","growth":10.71,"dividend":7.5,"recent_price":987,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3082"}},"staticQueryHashes":[],"slicesMap":{}}

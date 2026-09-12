@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5301/","result":{"data":{"stockDetail":{"symbol":"5301","market":"TSE","stock_name":"TOKAI CARBON CO.,LTD.","growth":-4.09,"dividend":40,"recent_price":1819.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5301"}},"staticQueryHashes":[],"slicesMap":{}}

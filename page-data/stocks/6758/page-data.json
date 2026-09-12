@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6758/","result":{"data":{"stockDetail":{"symbol":"6758","market":"TSE","stock_name":"SONY GROUP CORPORATION","growth":-15.49,"dividend":35,"recent_price":3885,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6758"}},"staticQueryHashes":[],"slicesMap":{}}

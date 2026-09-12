@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7570/","result":{"data":{"stockDetail":{"symbol":"7570","market":"TSE","stock_name":"HASHIMOTO SOGYO HOLDINGS CO.,LTD.","growth":4.8,"dividend":52,"recent_price":1426,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7570"}},"staticQueryHashes":[],"slicesMap":{}}

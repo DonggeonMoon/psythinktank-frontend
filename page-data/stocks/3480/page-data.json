@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3480/","result":{"data":{"stockDetail":{"symbol":"3480","market":"TSE","stock_name":"J.S.B.Co.,Ltd.","growth":8.48,"dividend":115,"recent_price":null,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3480"}},"staticQueryHashes":[],"slicesMap":{}}

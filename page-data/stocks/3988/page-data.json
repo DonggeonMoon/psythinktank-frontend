@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3988/","result":{"data":{"stockDetail":{"symbol":"3988","market":"TSE","stock_name":"SYS Holdings Co.,Ltd.","growth":9.8,"dividend":8,"recent_price":560,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3988"}},"staticQueryHashes":[],"slicesMap":{}}

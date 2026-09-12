@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5609/","result":{"data":{"stockDetail":{"symbol":"5609","market":"TSE","stock_name":"NIPPON CHUZO K.K.","growth":0.34,"dividend":30,"recent_price":914,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5609"}},"staticQueryHashes":[],"slicesMap":{}}

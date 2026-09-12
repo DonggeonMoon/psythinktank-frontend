@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3140/","result":{"data":{"stockDetail":{"symbol":"3140","market":"TSE","stock_name":"BRUNO,Inc.","growth":-33.61,"dividend":4,"recent_price":1016,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3140"}},"staticQueryHashes":[],"slicesMap":{}}

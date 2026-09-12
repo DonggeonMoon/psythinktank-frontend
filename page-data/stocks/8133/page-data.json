@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8133/","result":{"data":{"stockDetail":{"symbol":"8133","market":"TSE","stock_name":"ITOCHU ENEX CO.,LTD.","growth":0.04,"dividend":68,"recent_price":2338,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8133"}},"staticQueryHashes":[],"slicesMap":{}}

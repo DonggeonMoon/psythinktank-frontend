@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9223/","result":{"data":{"stockDetail":{"symbol":"9223","market":"TSE","stock_name":"ASNOVA Co.,Ltd.","growth":39.16,"dividend":2,"recent_price":435,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9223"}},"staticQueryHashes":[],"slicesMap":{}}

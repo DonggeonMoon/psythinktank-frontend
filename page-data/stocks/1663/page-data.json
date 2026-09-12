@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1663/","result":{"data":{"stockDetail":{"symbol":"1663","market":"TSE","stock_name":"K&O Energy Group Inc.","growth":4.22,"dividend":59,"recent_price":1977,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1663"}},"staticQueryHashes":[],"slicesMap":{}}

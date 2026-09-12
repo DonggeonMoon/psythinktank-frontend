@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7122/","result":{"data":{"stockDetail":{"symbol":"7122","market":"TSE","stock_name":"THE KINKI SHARYO CO.,LTD.","growth":-5.06,"dividend":50,"recent_price":2436,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7122"}},"staticQueryHashes":[],"slicesMap":{}}

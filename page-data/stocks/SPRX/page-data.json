@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SPRX/","result":{"data":{"stockDetail":{"symbol":"SPRX","market":"NASDAQ","stock_name":"Spear Alpha ETF","growth":null,"dividend":0,"recent_price":45.9900016784668,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SPRX"}},"staticQueryHashes":[],"slicesMap":{}}

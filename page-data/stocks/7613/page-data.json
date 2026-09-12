@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7613/","result":{"data":{"stockDetail":{"symbol":"7613","market":"TSE","stock_name":"SIIX CORPORATION","growth":-97.47,"dividend":50,"recent_price":1634,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7613"}},"staticQueryHashes":[],"slicesMap":{}}

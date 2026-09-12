@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2391/","result":{"data":{"stockDetail":{"symbol":"2391","market":"TSE","stock_name":"PLANET,INC.","growth":-2.13,"dividend":43,"recent_price":1176,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2391"}},"staticQueryHashes":[],"slicesMap":{}}

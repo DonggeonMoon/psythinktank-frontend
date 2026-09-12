@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9021/","result":{"data":{"stockDetail":{"symbol":"9021","market":"TSE","stock_name":"West Japan Railway Company","growth":3.91,"dividend":97.5,"recent_price":3020,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9021"}},"staticQueryHashes":[],"slicesMap":{}}

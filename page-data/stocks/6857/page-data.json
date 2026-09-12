@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6857/","result":{"data":{"stockDetail":{"symbol":"6857","market":"TSE","stock_name":"ADVANTEST CORPORATION","growth":7.02,"dividend":60,"recent_price":33090,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6857"}},"staticQueryHashes":[],"slicesMap":{}}

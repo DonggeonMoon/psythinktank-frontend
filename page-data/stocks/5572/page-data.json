@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5572/","result":{"data":{"stockDetail":{"symbol":"5572","market":"TSE","stock_name":"Ridge-i Inc.","growth":0,"dividend":0,"recent_price":3070,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5572"}},"staticQueryHashes":[],"slicesMap":{}}

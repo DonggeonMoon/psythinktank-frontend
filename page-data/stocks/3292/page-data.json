@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3292/","result":{"data":{"stockDetail":{"symbol":"3292","market":"TSE","stock_name":"AEON REIT Investment Corporation","growth":null,"dividend":6,"recent_price":117100,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3292"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9158/","result":{"data":{"stockDetail":{"symbol":"9158","market":"TSE","stock_name":"CUC Inc.","growth":11.56,"dividend":0,"recent_price":758,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9158"}},"staticQueryHashes":[],"slicesMap":{}}

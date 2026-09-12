@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4011/","result":{"data":{"stockDetail":{"symbol":"4011","market":"TSE","stock_name":"Headwaters Co.,Ltd","growth":62.08,"dividend":0,"recent_price":2603,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4011"}},"staticQueryHashes":[],"slicesMap":{}}

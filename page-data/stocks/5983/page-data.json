@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5983/","result":{"data":{"stockDetail":{"symbol":"5983","market":"TSE","stock_name":"IWABUCHI CORPORATION","growth":1.67,"dividend":330,"recent_price":13590,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5983"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5631/","result":{"data":{"stockDetail":{"symbol":"5631","market":"TSE","stock_name":"The Japan Steel Works,Ltd.","growth":2.57,"dividend":92,"recent_price":7303,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5631"}},"staticQueryHashes":[],"slicesMap":{}}

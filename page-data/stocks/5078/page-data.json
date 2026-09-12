@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5078/","result":{"data":{"stockDetail":{"symbol":"5078","market":"TSE","stock_name":"CEL Corporation","growth":6.45,"dividend":135,"recent_price":4780,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5078"}},"staticQueryHashes":[],"slicesMap":{}}

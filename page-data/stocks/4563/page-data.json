@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4563/","result":{"data":{"stockDetail":{"symbol":"4563","market":"TSE","stock_name":"AnGes,Inc.","growth":1.82,"dividend":0,"recent_price":39,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4563"}},"staticQueryHashes":[],"slicesMap":{}}

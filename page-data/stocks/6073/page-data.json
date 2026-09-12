@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6073/","result":{"data":{"stockDetail":{"symbol":"6073","market":"TSE","stock_name":"ASANTE INCORPORATED","growth":3.05,"dividend":62,"recent_price":1527,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6073"}},"staticQueryHashes":[],"slicesMap":{}}

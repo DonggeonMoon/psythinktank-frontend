@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4386/","result":{"data":{"stockDetail":{"symbol":"4386","market":"TSE","stock_name":"SIG Group Co.,Ltd.","growth":3.15,"dividend":33,"recent_price":892,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4386"}},"staticQueryHashes":[],"slicesMap":{}}

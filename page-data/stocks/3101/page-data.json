@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3101/","result":{"data":{"stockDetail":{"symbol":"3101","market":"TSE","stock_name":"TOYOBO CO.,LTD.","growth":-5.79,"dividend":40,"recent_price":1636,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3101"}},"staticQueryHashes":[],"slicesMap":{}}

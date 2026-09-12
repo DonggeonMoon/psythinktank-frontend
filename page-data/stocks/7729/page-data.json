@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7729/","result":{"data":{"stockDetail":{"symbol":"7729","market":"TSE","stock_name":"TOKYO SEIMITSU CO.,LTD.","growth":4.45,"dividend":304,"recent_price":16850,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7729"}},"staticQueryHashes":[],"slicesMap":{}}

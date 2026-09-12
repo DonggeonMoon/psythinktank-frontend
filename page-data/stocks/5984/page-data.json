@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5984/","result":{"data":{"stockDetail":{"symbol":"5984","market":"TSE","stock_name":"KANEFUSA CORPORATION","growth":-2.74,"dividend":23,"recent_price":791,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5984"}},"staticQueryHashes":[],"slicesMap":{}}

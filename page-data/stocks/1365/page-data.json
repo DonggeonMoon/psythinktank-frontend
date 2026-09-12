@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1365/","result":{"data":{"stockDetail":{"symbol":"1365","market":"TSE","stock_name":"iFreeETF Nikkei225 Leveraged Index","growth":null,"dividend":0,"recent_price":4128,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1365"}},"staticQueryHashes":[],"slicesMap":{}}

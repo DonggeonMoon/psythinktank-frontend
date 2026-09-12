@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3391/","result":{"data":{"stockDetail":{"symbol":"3391","market":"TSE","stock_name":"TSURUHA HOLDINGS INC.","growth":145.01,"dividend":47,"recent_price":2318.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3391"}},"staticQueryHashes":[],"slicesMap":{}}

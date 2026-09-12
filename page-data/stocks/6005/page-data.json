@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6005/","result":{"data":{"stockDetail":{"symbol":"6005","market":"TSE","stock_name":"MIURA CO.,LTD.","growth":2.16,"dividend":73,"recent_price":3181,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6005"}},"staticQueryHashes":[],"slicesMap":{}}

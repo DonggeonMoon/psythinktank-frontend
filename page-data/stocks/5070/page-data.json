@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5070/","result":{"data":{"stockDetail":{"symbol":"5070","market":"TSE","stock_name":"DRAFT Inc.","growth":8.47,"dividend":12,"recent_price":null,"basis_date":"2025-12-18"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5070"}},"staticQueryHashes":[],"slicesMap":{}}

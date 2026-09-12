@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5587/","result":{"data":{"stockDetail":{"symbol":"5587","market":"TSE","stock_name":"Inbound Platform Corp.","growth":0,"dividend":0,"recent_price":790,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5587"}},"staticQueryHashes":[],"slicesMap":{}}

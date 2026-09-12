@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3405/","result":{"data":{"stockDetail":{"symbol":"3405","market":"TSE","stock_name":"KURARAY CO.,LTD.","growth":1.47,"dividend":54,"recent_price":1838.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3405"}},"staticQueryHashes":[],"slicesMap":{}}

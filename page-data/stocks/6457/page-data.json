@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6457/","result":{"data":{"stockDetail":{"symbol":"6457","market":"TSE","stock_name":"GLORY LTD.","growth":-1.11,"dividend":154,"recent_price":4611,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6457"}},"staticQueryHashes":[],"slicesMap":{}}

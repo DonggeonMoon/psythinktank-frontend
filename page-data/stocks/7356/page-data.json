@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7356/","result":{"data":{"stockDetail":{"symbol":"7356","market":"TSE","stock_name":"Retty Inc.","growth":-9.38,"dividend":0,"recent_price":115,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7356"}},"staticQueryHashes":[],"slicesMap":{}}

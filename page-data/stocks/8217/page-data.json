@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8217/","result":{"data":{"stockDetail":{"symbol":"8217","market":"TSE","stock_name":"OKUWA CO.,LTD.","growth":-1.71,"dividend":26,"recent_price":800,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8217"}},"staticQueryHashes":[],"slicesMap":{}}

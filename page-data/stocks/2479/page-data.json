@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2479/","result":{"data":{"stockDetail":{"symbol":"2479","market":"TSE","stock_name":"JTEC CORPORATION","growth":0.47,"dividend":13,"recent_price":265,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2479"}},"staticQueryHashes":[],"slicesMap":{}}

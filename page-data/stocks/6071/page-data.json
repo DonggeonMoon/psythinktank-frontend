@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6071/","result":{"data":{"stockDetail":{"symbol":"6071","market":"TSE","stock_name":"IBJ,Inc.","growth":58.81,"dividend":19,"recent_price":935,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6071"}},"staticQueryHashes":[],"slicesMap":{}}

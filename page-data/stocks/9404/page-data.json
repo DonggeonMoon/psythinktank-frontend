@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9404/","result":{"data":{"stockDetail":{"symbol":"9404","market":"TSE","stock_name":"Nippon Television Holdings,Inc.","growth":2.81,"dividend":45,"recent_price":3048,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9404"}},"staticQueryHashes":[],"slicesMap":{}}

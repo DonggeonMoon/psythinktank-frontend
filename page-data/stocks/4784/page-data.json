@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4784/","result":{"data":{"stockDetail":{"symbol":"4784","market":"TSE","stock_name":"GMO internet,Inc.","growth":303.09,"dividend":21.51,"recent_price":566,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4784"}},"staticQueryHashes":[],"slicesMap":{}}

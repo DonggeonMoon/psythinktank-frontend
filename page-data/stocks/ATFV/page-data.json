@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ATFV/","result":{"data":{"stockDetail":{"symbol":"ATFV","market":"NYSE_ARCA","stock_name":"Alger 35 ETF","growth":null,"dividend":0,"recent_price":40.28099822998047,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ATFV"}},"staticQueryHashes":[],"slicesMap":{}}

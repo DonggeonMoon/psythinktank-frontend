@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6417/","result":{"data":{"stockDetail":{"symbol":"6417","market":"TSE","stock_name":"SANKYO CO.,LTD.","growth":1.02,"dividend":100,"recent_price":2025,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6417"}},"staticQueryHashes":[],"slicesMap":{}}

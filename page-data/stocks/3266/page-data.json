@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3266/","result":{"data":{"stockDetail":{"symbol":"3266","market":"TSE","stock_name":"Fund Creation Group Co.,Ltd.","growth":-8,"dividend":1,"recent_price":79,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3266"}},"staticQueryHashes":[],"slicesMap":{}}

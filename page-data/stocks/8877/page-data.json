@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8877/","result":{"data":{"stockDetail":{"symbol":"8877","market":"TSE","stock_name":"ESLEAD CORPORATION","growth":13.6,"dividend":240,"recent_price":5190,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8877"}},"staticQueryHashes":[],"slicesMap":{}}

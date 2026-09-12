@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9270/","result":{"data":{"stockDetail":{"symbol":"9270","market":"TSE","stock_name":"Valuence Holdings Inc.","growth":4.66,"dividend":45,"recent_price":2055,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9270"}},"staticQueryHashes":[],"slicesMap":{}}

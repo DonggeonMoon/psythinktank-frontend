@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8897/","result":{"data":{"stockDetail":{"symbol":"8897","market":"TSE","stock_name":"MIRARTH HOLDINGS,Inc.","growth":-2.06,"dividend":23,"recent_price":455,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8897"}},"staticQueryHashes":[],"slicesMap":{}}

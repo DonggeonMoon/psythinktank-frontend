@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6998/","result":{"data":{"stockDetail":{"symbol":"6998","market":"TSE","stock_name":"Nippon Tungsten Co.,Ltd.","growth":-3.52,"dividend":90,"recent_price":3485,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6998"}},"staticQueryHashes":[],"slicesMap":{}}

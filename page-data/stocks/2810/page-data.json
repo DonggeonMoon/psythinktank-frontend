@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2810/","result":{"data":{"stockDetail":{"symbol":"2810","market":"TSE","stock_name":"House Foods Group Inc.","growth":1.86,"dividend":100,"recent_price":3903,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2810"}},"staticQueryHashes":[],"slicesMap":{}}

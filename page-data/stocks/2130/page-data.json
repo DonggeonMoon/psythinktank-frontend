@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2130/","result":{"data":{"stockDetail":{"symbol":"2130","market":"TSE","stock_name":"Members Co.,Ltd.","growth":0,"dividend":35,"recent_price":914,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2130"}},"staticQueryHashes":[],"slicesMap":{}}

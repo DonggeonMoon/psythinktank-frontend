@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7345/","result":{"data":{"stockDetail":{"symbol":"7345","market":"TSE","stock_name":"Ai Partners Financial Inc.","growth":-2.56,"dividend":4,"recent_price":945,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7345"}},"staticQueryHashes":[],"slicesMap":{}}

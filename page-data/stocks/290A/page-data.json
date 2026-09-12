@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/290A/","result":{"data":{"stockDetail":{"symbol":"290A","market":"TSE","stock_name":"Synspective Inc.","growth":18.75,"dividend":0,"recent_price":1464,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"290A"}},"staticQueryHashes":[],"slicesMap":{}}

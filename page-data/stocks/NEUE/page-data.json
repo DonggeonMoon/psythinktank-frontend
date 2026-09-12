@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/NEUE/","result":{"data":{"stockDetail":{"symbol":"NEUE","market":"NYSE","stock_name":"NeueHealth, Inc. Common Stock","growth":-21.25,"dividend":0,"recent_price":null,"basis_date":"2025-10-15"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"NEUE"}},"staticQueryHashes":[],"slicesMap":{}}

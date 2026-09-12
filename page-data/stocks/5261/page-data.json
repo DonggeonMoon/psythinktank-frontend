@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5261/","result":{"data":{"stockDetail":{"symbol":"5261","market":"TSE","stock_name":"RESOL HOLDINGS Co.,Ltd.","growth":10.6,"dividend":120,"recent_price":7680,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5261"}},"staticQueryHashes":[],"slicesMap":{}}

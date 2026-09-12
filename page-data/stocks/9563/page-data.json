@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9563/","result":{"data":{"stockDetail":{"symbol":"9563","market":"TSE","stock_name":"Atlas Technologies Corporation","growth":4.55,"dividend":7,"recent_price":337,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9563"}},"staticQueryHashes":[],"slicesMap":{}}

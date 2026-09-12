@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8111/","result":{"data":{"stockDetail":{"symbol":"8111","market":"TSE","stock_name":"Goldwin Inc.","growth":5.21,"dividend":70,"recent_price":2113,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8111"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6147/","result":{"data":{"stockDetail":{"symbol":"6147","market":"TSE","stock_name":"YAMAZAKI CO.,LTD.","growth":-26.1,"dividend":10,"recent_price":191,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6147"}},"staticQueryHashes":[],"slicesMap":{}}

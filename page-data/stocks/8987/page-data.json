@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8987/","result":{"data":{"stockDetail":{"symbol":"8987","market":"TSE","stock_name":"Japan Excellent,Inc.","growth":null,"dividend":6,"recent_price":137100,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8987"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1847/","result":{"data":{"stockDetail":{"symbol":"1847","market":"TSE","stock_name":"ICHIKEN Co.,Ltd.","growth":5.09,"dividend":155,"recent_price":3410,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1847"}},"staticQueryHashes":[],"slicesMap":{}}

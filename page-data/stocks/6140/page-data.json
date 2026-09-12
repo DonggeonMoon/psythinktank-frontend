@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6140/","result":{"data":{"stockDetail":{"symbol":"6140","market":"TSE","stock_name":"Asahi Diamond Industrial Co.,Ltd.","growth":1.23,"dividend":34,"recent_price":1160,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6140"}},"staticQueryHashes":[],"slicesMap":{}}

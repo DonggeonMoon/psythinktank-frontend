@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3847/","result":{"data":{"stockDetail":{"symbol":"3847","market":"TSE","stock_name":"PACIFIC SYSTEMS CORPORATION","growth":1.1,"dividend":0,"recent_price":null,"basis_date":"2025-11-27"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3847"}},"staticQueryHashes":[],"slicesMap":{}}

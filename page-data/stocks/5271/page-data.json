@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5271/","result":{"data":{"stockDetail":{"symbol":"5271","market":"TSE","stock_name":"TOYO ASANO FOUNDATION CO.,LTD.","growth":-5.79,"dividend":85,"recent_price":2261,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5271"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3825/","result":{"data":{"stockDetail":{"symbol":"3825","market":"TSE","stock_name":"Remixpoint,inc.","growth":-34.19,"dividend":5,"recent_price":237,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3825"}},"staticQueryHashes":[],"slicesMap":{}}

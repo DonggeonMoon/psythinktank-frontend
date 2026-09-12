@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2384/","result":{"data":{"stockDetail":{"symbol":"2384","market":"TSE","stock_name":"SBS Holdings,Inc.","growth":9.42,"dividend":120,"recent_price":5030,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2384"}},"staticQueryHashes":[],"slicesMap":{}}

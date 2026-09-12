@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8037/","result":{"data":{"stockDetail":{"symbol":"8037","market":"TSE","stock_name":"KAMEI CORPORATION","growth":2.47,"dividend":133,"recent_price":4525,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8037"}},"staticQueryHashes":[],"slicesMap":{}}

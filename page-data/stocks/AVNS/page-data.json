@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/AVNS/","result":{"data":{"stockDetail":{"symbol":"AVNS","market":"NYSE","stock_name":"Avanos Medical, Inc. Common Stock","growth":2.69,"dividend":0,"recent_price":null,"basis_date":"2026-08-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"AVNS"}},"staticQueryHashes":[],"slicesMap":{}}

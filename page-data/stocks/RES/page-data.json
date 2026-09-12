@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/RES/","result":{"data":{"stockDetail":{"symbol":"RES","market":"NYSE","stock_name":"RPC, Inc. Common Stock","growth":11.4,"dividend":0.16,"recent_price":6.519999980926514,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"RES"}},"staticQueryHashes":[],"slicesMap":{}}

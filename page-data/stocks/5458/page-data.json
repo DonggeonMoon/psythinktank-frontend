@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5458/","result":{"data":{"stockDetail":{"symbol":"5458","market":"TSE","stock_name":"TAKASAGO TEKKO K.K.","growth":1.33,"dividend":45,"recent_price":1359,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5458"}},"staticQueryHashes":[],"slicesMap":{}}

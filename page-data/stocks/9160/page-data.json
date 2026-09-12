@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9160/","result":{"data":{"stockDetail":{"symbol":"9160","market":"TSE","stock_name":"NOVARESE,Inc.","growth":0,"dividend":0,"recent_price":331,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9160"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6859/","result":{"data":{"stockDetail":{"symbol":"6859","market":"TSE","stock_name":"ESPEC CORP.","growth":2.04,"dividend":115,"recent_price":3880,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6859"}},"staticQueryHashes":[],"slicesMap":{}}

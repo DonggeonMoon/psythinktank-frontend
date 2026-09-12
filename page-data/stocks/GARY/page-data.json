@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/GARY/","result":{"data":{"stockDetail":{"symbol":"GARY","market":"NASDAQ","stock_name":"Mango Growth ETF","growth":null,"dividend":0,"recent_price":27.003000259399414,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"GARY"}},"staticQueryHashes":[],"slicesMap":{}}

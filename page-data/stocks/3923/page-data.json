@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3923/","result":{"data":{"stockDetail":{"symbol":"3923","market":"TSE","stock_name":"RAKUS Co.,Ltd.","growth":-22.36,"dividend":8,"recent_price":1127.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3923"}},"staticQueryHashes":[],"slicesMap":{}}

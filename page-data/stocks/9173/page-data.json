@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9173/","result":{"data":{"stockDetail":{"symbol":"9173","market":"TSE","stock_name":"Tokai Kisen Co.,Ltd.","growth":3.29,"dividend":10,"recent_price":2820,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9173"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/DHT/","result":{"data":{"stockDetail":{"symbol":"DHT","market":"NYSE","stock_name":"DHT Holdings, Inc.","growth":-20.24,"dividend":1.86,"recent_price":20.81999969482422,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"DHT"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7461/","result":{"data":{"stockDetail":{"symbol":"7461","market":"TSE","stock_name":"KIMURA CO.,LTD.","growth":5.33,"dividend":14,"recent_price":476,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7461"}},"staticQueryHashes":[],"slicesMap":{}}

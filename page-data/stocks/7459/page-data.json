@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7459/","result":{"data":{"stockDetail":{"symbol":"7459","market":"TSE","stock_name":"MEDIPAL HOLDINGS CORPORATION","growth":-0.28,"dividend":78,"recent_price":2919,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7459"}},"staticQueryHashes":[],"slicesMap":{}}

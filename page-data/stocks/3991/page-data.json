@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3991/","result":{"data":{"stockDetail":{"symbol":"3991","market":"TSE","stock_name":"Wantedly,Inc","growth":11.57,"dividend":20,"recent_price":962,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3991"}},"staticQueryHashes":[],"slicesMap":{}}

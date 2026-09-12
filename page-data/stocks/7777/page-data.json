@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7777/","result":{"data":{"stockDetail":{"symbol":"7777","market":"TSE","stock_name":"3-D Matrix,Ltd.","growth":13.16,"dividend":0,"recent_price":361,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7777"}},"staticQueryHashes":[],"slicesMap":{}}

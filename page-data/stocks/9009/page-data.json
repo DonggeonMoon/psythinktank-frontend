@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9009/","result":{"data":{"stockDetail":{"symbol":"9009","market":"TSE","stock_name":"Keisei Electric Railway Co.,Ltd.","growth":3.22,"dividend":22,"recent_price":1367,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9009"}},"staticQueryHashes":[],"slicesMap":{}}

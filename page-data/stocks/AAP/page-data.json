@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/AAP/","result":{"data":{"stockDetail":{"symbol":"AAP","market":"NYSE","stock_name":"Advance Auto Parts Inc.","growth":-14,"dividend":1,"recent_price":42.560001373291016,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"AAP"}},"staticQueryHashes":[],"slicesMap":{}}

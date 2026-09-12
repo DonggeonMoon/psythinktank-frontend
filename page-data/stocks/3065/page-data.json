@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3065/","result":{"data":{"stockDetail":{"symbol":"3065","market":"TSE","stock_name":"Life Foods Co.,Ltd.","growth":-1.7,"dividend":5,"recent_price":1588,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3065"}},"staticQueryHashes":[],"slicesMap":{}}

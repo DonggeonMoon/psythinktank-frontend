@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6532/","result":{"data":{"stockDetail":{"symbol":"6532","market":"TSE","stock_name":"BayCurrent,Inc.","growth":24.16,"dividend":130,"recent_price":7824,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6532"}},"staticQueryHashes":[],"slicesMap":{}}

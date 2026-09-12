@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4263/","result":{"data":{"stockDetail":{"symbol":"4263","market":"TSE","stock_name":"SUSMED,Inc.","growth":10.26,"dividend":0,"recent_price":424,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4263"}},"staticQueryHashes":[],"slicesMap":{}}

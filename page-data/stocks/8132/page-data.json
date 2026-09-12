@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8132/","result":{"data":{"stockDetail":{"symbol":"8132","market":"TSE","stock_name":"SINANEN HOLDINGS CO.,LTD.","growth":-4.6,"dividend":120,"recent_price":7290,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8132"}},"staticQueryHashes":[],"slicesMap":{}}

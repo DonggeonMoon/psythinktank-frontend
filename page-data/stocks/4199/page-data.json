@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4199/","result":{"data":{"stockDetail":{"symbol":"4199","market":"TSE","stock_name":"WonderPlanet Inc.","growth":null,"dividend":0,"recent_price":806,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4199"}},"staticQueryHashes":[],"slicesMap":{}}

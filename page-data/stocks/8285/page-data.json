@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8285/","result":{"data":{"stockDetail":{"symbol":"8285","market":"TSE","stock_name":"MITANI SANGYO CO.,LTD.","growth":0.17,"dividend":13,"recent_price":788,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8285"}},"staticQueryHashes":[],"slicesMap":{}}

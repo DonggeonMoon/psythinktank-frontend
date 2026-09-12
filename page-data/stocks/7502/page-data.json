@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7502/","result":{"data":{"stockDetail":{"symbol":"7502","market":"TSE","stock_name":"PLAZA HOLDINGS CO.,LTD.","growth":-7.26,"dividend":25,"recent_price":1692,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7502"}},"staticQueryHashes":[],"slicesMap":{}}

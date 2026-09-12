@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7879/","result":{"data":{"stockDetail":{"symbol":"7879","market":"TSE","stock_name":"NODA CORPORATION","growth":2.1,"dividend":30,"recent_price":670,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7879"}},"staticQueryHashes":[],"slicesMap":{}}

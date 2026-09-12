@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2208/","result":{"data":{"stockDetail":{"symbol":"2208","market":"TSE","stock_name":"BOURBON CORPORATION","growth":-0.86,"dividend":44,"recent_price":3110,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2208"}},"staticQueryHashes":[],"slicesMap":{}}

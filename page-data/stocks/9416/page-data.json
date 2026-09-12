@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9416/","result":{"data":{"stockDetail":{"symbol":"9416","market":"TSE","stock_name":"VISION INC.","growth":0.9,"dividend":51,"recent_price":1046,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9416"}},"staticQueryHashes":[],"slicesMap":{}}

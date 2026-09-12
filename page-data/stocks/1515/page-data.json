@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1515/","result":{"data":{"stockDetail":{"symbol":"1515","market":"TSE","stock_name":"Nittetsu Mining Co.,Ltd.","growth":-1.09,"dividend":62,"recent_price":3360,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1515"}},"staticQueryHashes":[],"slicesMap":{}}

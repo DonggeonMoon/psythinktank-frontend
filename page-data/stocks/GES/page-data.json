@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/GES/","result":{"data":{"stockDetail":{"symbol":"GES","market":"NYSE","stock_name":"Guess?, Inc. Common Stock","growth":8.33,"dividend":0.9,"recent_price":null,"basis_date":"2026-01-27"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"GES"}},"staticQueryHashes":[],"slicesMap":{}}

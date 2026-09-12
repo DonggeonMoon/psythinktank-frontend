@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/LCII/","result":{"data":{"stockDetail":{"symbol":"LCII","market":"NYSE","stock_name":"LCI Industries","growth":6.96,"dividend":4.6,"recent_price":99.11000061035156,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"LCII"}},"staticQueryHashes":[],"slicesMap":{}}

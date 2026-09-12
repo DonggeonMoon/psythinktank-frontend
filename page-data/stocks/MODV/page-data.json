@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/MODV/","result":{"data":{"stockDetail":{"symbol":"MODV","market":"NASDAQ","stock_name":"ModivCare Inc. - Common Stock","growth":11.67,"dividend":0,"recent_price":null,"basis_date":"2026-05-26"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"MODV"}},"staticQueryHashes":[],"slicesMap":{}}

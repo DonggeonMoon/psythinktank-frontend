@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9219/","result":{"data":{"stockDetail":{"symbol":"9219","market":"TSE","stock_name":"GiXo Ltd.","growth":32.88,"dividend":53.5,"recent_price":891,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9219"}},"staticQueryHashes":[],"slicesMap":{}}

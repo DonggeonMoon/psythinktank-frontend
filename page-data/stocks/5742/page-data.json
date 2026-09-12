@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5742/","result":{"data":{"stockDetail":{"symbol":"5742","market":"TSE","stock_name":"NIC Autotec,Inc.","growth":-0.83,"dividend":41,"recent_price":755,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5742"}},"staticQueryHashes":[],"slicesMap":{}}

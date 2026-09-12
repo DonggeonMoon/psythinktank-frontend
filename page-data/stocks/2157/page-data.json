@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2157/","result":{"data":{"stockDetail":{"symbol":"2157","market":"TSE","stock_name":"KOSHIDAKA HOLDINGS Co.,LTD.","growth":-2.64,"dividend":28,"recent_price":1027,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2157"}},"staticQueryHashes":[],"slicesMap":{}}

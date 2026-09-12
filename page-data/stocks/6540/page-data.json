@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6540/","result":{"data":{"stockDetail":{"symbol":"6540","market":"TSE","stock_name":"SEMBA CORPORATION","growth":6.54,"dividend":78,"recent_price":1520,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6540"}},"staticQueryHashes":[],"slicesMap":{}}

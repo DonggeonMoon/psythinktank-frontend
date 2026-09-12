@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7456/","result":{"data":{"stockDetail":{"symbol":"7456","market":"TSE","stock_name":"MATSUDA SANGYO Co.,Ltd.","growth":3.71,"dividend":120,"recent_price":6900,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7456"}},"staticQueryHashes":[],"slicesMap":{}}

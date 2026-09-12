@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ACLO/","result":{"data":{"stockDetail":{"symbol":"ACLO","market":"NYSE","stock_name":"TCW AAA CLO ETF","growth":null,"dividend":0,"recent_price":50.38800048828125,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ACLO"}},"staticQueryHashes":[],"slicesMap":{}}

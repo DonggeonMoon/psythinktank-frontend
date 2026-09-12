@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7691/","result":{"data":{"stockDetail":{"symbol":"7691","market":"TSE","stock_name":"C Channel Corporation","growth":null,"dividend":0,"recent_price":30,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7691"}},"staticQueryHashes":[],"slicesMap":{}}

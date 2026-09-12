@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7380/","result":{"data":{"stockDetail":{"symbol":"7380","market":"TSE","stock_name":"Juroku Financial Group,Inc.","growth":-2.19,"dividend":53,"recent_price":2650,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7380"}},"staticQueryHashes":[],"slicesMap":{}}

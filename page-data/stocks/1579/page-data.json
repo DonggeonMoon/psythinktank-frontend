@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1579/","result":{"data":{"stockDetail":{"symbol":"1579","market":"TSE","stock_name":"Nikkei 225 Bull 2x ETF","growth":null,"dividend":0,"recent_price":723,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1579"}},"staticQueryHashes":[],"slicesMap":{}}

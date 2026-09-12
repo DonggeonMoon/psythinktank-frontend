@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3359/","result":{"data":{"stockDetail":{"symbol":"3359","market":"TSE","stock_name":"cotta CO.,LTD","growth":46.85,"dividend":10,"recent_price":527,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3359"}},"staticQueryHashes":[],"slicesMap":{}}

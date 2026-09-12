@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4099/","result":{"data":{"stockDetail":{"symbol":"4099","market":"TSE","stock_name":"SHIKOKU KASEI HOLDINGS CORPORATION","growth":4.31,"dividend":25,"recent_price":2215,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4099"}},"staticQueryHashes":[],"slicesMap":{}}

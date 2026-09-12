@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/GRP.U/","result":{"data":{"stockDetail":{"symbol":"GRP.U","market":"NYSE","stock_name":"Granite Real Estate Inc. Units","growth":1.45,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"GRP.U"}},"staticQueryHashes":[],"slicesMap":{}}

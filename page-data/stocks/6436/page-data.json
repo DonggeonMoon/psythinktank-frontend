@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6436/","result":{"data":{"stockDetail":{"symbol":"6436","market":"TSE","stock_name":"Amano Corporation","growth":-0.16,"dividend":180,"recent_price":3969,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6436"}},"staticQueryHashes":[],"slicesMap":{}}

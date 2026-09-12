@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3903/","result":{"data":{"stockDetail":{"symbol":"3903","market":"TSE","stock_name":"gumi Inc.","growth":-10.85,"dividend":0,"recent_price":281,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3903"}},"staticQueryHashes":[],"slicesMap":{}}

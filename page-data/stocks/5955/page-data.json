@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5955/","result":{"data":{"stockDetail":{"symbol":"5955","market":"TSE","stock_name":"WISE HOLDINGS CO.,LTD.","growth":-1.35,"dividend":1,"recent_price":84,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5955"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8125/","result":{"data":{"stockDetail":{"symbol":"8125","market":"TSE","stock_name":"Wakita & Co.,LTD.","growth":17.26,"dividend":100,"recent_price":1975,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8125"}},"staticQueryHashes":[],"slicesMap":{}}

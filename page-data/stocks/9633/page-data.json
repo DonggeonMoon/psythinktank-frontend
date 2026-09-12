@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9633/","result":{"data":{"stockDetail":{"symbol":"9633","market":"TSE","stock_name":"TOKYO THEATRES COMPANY,INCORPORATED","growth":0.23,"dividend":20,"recent_price":1926,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9633"}},"staticQueryHashes":[],"slicesMap":{}}

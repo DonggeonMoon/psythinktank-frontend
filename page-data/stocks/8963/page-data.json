@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8963/","result":{"data":{"stockDetail":{"symbol":"8963","market":"TSE","stock_name":"Invincible Investment Corporation","growth":null,"dividend":4,"recent_price":62100,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8963"}},"staticQueryHashes":[],"slicesMap":{}}

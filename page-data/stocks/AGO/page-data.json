@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/AGO/","result":{"data":{"stockDetail":{"symbol":"AGO","market":"NYSE","stock_name":"Assured Guaranty Ltd. Common Stock","growth":1.66,"dividend":1.52,"recent_price":73,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"AGO"}},"staticQueryHashes":[],"slicesMap":{}}

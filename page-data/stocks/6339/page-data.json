@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6339/","result":{"data":{"stockDetail":{"symbol":"6339","market":"TSE","stock_name":"Sintokogio,Ltd.","growth":-1.73,"dividend":48,"recent_price":1198,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6339"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8609/","result":{"data":{"stockDetail":{"symbol":"8609","market":"TSE","stock_name":"OKASAN SECURITIES GROUP INC.","growth":3.86,"dividend":60,"recent_price":1238,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8609"}},"staticQueryHashes":[],"slicesMap":{}}

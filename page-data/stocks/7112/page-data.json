@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7112/","result":{"data":{"stockDetail":{"symbol":"7112","market":"TSE","stock_name":"CUBE CO.,LTD.","growth":null,"dividend":0,"recent_price":695,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7112"}},"staticQueryHashes":[],"slicesMap":{}}

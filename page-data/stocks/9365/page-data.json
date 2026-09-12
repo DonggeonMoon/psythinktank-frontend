@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9365/","result":{"data":{"stockDetail":{"symbol":"9365","market":"TSE","stock_name":"TRADIA CORPORATION","growth":-3.14,"dividend":50,"recent_price":1648,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9365"}},"staticQueryHashes":[],"slicesMap":{}}

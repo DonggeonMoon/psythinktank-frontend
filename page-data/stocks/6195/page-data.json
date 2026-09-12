@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6195/","result":{"data":{"stockDetail":{"symbol":"6195","market":"TSE","stock_name":"HOPE,INC.","growth":6.37,"dividend":4.55,"recent_price":201,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6195"}},"staticQueryHashes":[],"slicesMap":{}}

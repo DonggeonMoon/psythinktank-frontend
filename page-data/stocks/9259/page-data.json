@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9259/","result":{"data":{"stockDetail":{"symbol":"9259","market":"TSE","stock_name":"TAKAYOSHI Holdings,INC.","growth":-16.9,"dividend":30,"recent_price":852,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9259"}},"staticQueryHashes":[],"slicesMap":{}}

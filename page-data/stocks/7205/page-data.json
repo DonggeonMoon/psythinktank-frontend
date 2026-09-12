@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7205/","result":{"data":{"stockDetail":{"symbol":"7205","market":"TSE","stock_name":"HINO MOTORS,LTD.","growth":-1.36,"dividend":0,"recent_price":440,"basis_date":"2026-05-22"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7205"}},"staticQueryHashes":[],"slicesMap":{}}

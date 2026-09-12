@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3028/","result":{"data":{"stockDetail":{"symbol":"3028","market":"TSE","stock_name":"Alpen Co.,Ltd.","growth":4.16,"dividend":60,"recent_price":2304,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3028"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7413/","result":{"data":{"stockDetail":{"symbol":"7413","market":"TSE","stock_name":"Sokensha Co.,Ltd.","growth":-5,"dividend":20,"recent_price":2685,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7413"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/JABRR/","result":{"data":{"stockDetail":{"symbol":"JABRR","market":"NASDAQ","stock_name":"JAB Acquisition Corp I - Rights","growth":null,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"JABRR"}},"staticQueryHashes":[],"slicesMap":{}}

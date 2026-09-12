@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5892/","result":{"data":{"stockDetail":{"symbol":"5892","market":"TSE","stock_name":"yutori,Inc.","growth":32.49,"dividend":0,"recent_price":2553,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5892"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2469/","result":{"data":{"stockDetail":{"symbol":"2469","market":"TSE","stock_name":"Hibino Corporation","growth":7.78,"dividend":90,"recent_price":2842,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2469"}},"staticQueryHashes":[],"slicesMap":{}}

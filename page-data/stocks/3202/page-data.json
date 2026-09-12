@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3202/","result":{"data":{"stockDetail":{"symbol":"3202","market":"TSE","stock_name":"Daitobo Co.,Ltd.","growth":-3.13,"dividend":3,"recent_price":131,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3202"}},"staticQueryHashes":[],"slicesMap":{}}

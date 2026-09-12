@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SH/","result":{"data":{"stockDetail":{"symbol":"SH","market":"NYSE_ARCA","stock_name":"ProShares Short S&P500","growth":null,"dividend":0,"recent_price":32.52000045776367,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SH"}},"staticQueryHashes":[],"slicesMap":{}}

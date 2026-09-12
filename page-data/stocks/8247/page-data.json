@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8247/","result":{"data":{"stockDetail":{"symbol":"8247","market":"TSE","stock_name":"Daiwa Co.,Ltd.","growth":1.76,"dividend":0,"recent_price":332,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8247"}},"staticQueryHashes":[],"slicesMap":{}}

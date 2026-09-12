@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3659/","result":{"data":{"stockDetail":{"symbol":"3659","market":"TSE","stock_name":"NEXON Co.,Ltd.","growth":5.41,"dividend":60,"recent_price":3120,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3659"}},"staticQueryHashes":[],"slicesMap":{}}

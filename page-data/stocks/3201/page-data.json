@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3201/","result":{"data":{"stockDetail":{"symbol":"3201","market":"TSE","stock_name":"THE JAPAN WOOL TEXTILE CO.,LTD.","growth":-4.62,"dividend":50,"recent_price":1993,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3201"}},"staticQueryHashes":[],"slicesMap":{}}

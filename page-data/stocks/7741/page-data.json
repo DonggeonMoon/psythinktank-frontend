@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7741/","result":{"data":{"stockDetail":{"symbol":"7741","market":"TSE","stock_name":"HOYA CORPORATION","growth":-0.41,"dividend":300,"recent_price":24140,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7741"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3433/","result":{"data":{"stockDetail":{"symbol":"3433","market":"TSE","stock_name":"TOCALO Co.,Ltd.","growth":3.76,"dividend":92,"recent_price":2724,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3433"}},"staticQueryHashes":[],"slicesMap":{}}

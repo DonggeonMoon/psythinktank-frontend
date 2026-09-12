@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8337/","result":{"data":{"stockDetail":{"symbol":"8337","market":"TSE","stock_name":"The Chiba Kogyo Bank,Ltd.","growth":-0.46,"dividend":20,"recent_price":2773,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8337"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1605/","result":{"data":{"stockDetail":{"symbol":"1605","market":"TSE","stock_name":"INPEX CORPORATION","growth":1.11,"dividend":112,"recent_price":3780,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1605"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/KBH/","result":{"data":{"stockDetail":{"symbol":"KBH","market":"NYSE","stock_name":"KB Home Common Stock","growth":-11.16,"dividend":1,"recent_price":50.20000076293945,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"KBH"}},"staticQueryHashes":[],"slicesMap":{}}

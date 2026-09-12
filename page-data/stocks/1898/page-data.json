@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1898/","result":{"data":{"stockDetail":{"symbol":"1898","market":"TSE","stock_name":"SEIKITOKYU KOGYO CO.,LTD.","growth":1.48,"dividend":75,"recent_price":1495,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1898"}},"staticQueryHashes":[],"slicesMap":{}}

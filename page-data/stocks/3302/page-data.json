@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3302/","result":{"data":{"stockDetail":{"symbol":"3302","market":"TSE","stock_name":"TEIKOKU SEN-I Co.,Ltd.","growth":5.23,"dividend":65,"recent_price":3030,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3302"}},"staticQueryHashes":[],"slicesMap":{}}

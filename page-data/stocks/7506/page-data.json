@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7506/","result":{"data":{"stockDetail":{"symbol":"7506","market":"TSE","stock_name":"HOUSE OF ROSE Co.,Ltd.","growth":null,"dividend":25,"recent_price":1387,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7506"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SCS/","result":{"data":{"stockDetail":{"symbol":"SCS","market":"NYSE","stock_name":"Steelcase Inc. Common Stock","growth":-0.26,"dividend":0.4,"recent_price":null,"basis_date":"2025-12-10"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SCS"}},"staticQueryHashes":[],"slicesMap":{}}

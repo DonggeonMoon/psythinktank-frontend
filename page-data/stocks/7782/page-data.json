@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7782/","result":{"data":{"stockDetail":{"symbol":"7782","market":"TSE","stock_name":"Sincere Co.,LTD.","growth":9.09,"dividend":16,"recent_price":491,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7782"}},"staticQueryHashes":[],"slicesMap":{}}

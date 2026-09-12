@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4811/","result":{"data":{"stockDetail":{"symbol":"4811","market":"TSE","stock_name":"DreamArts Corporation","growth":7.72,"dividend":20,"recent_price":908,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4811"}},"staticQueryHashes":[],"slicesMap":{}}

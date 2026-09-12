@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/220A/","result":{"data":{"stockDetail":{"symbol":"220A","market":"TSE","stock_name":"Faber Company Inc.","growth":11.11,"dividend":30,"recent_price":954,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"220A"}},"staticQueryHashes":[],"slicesMap":{}}

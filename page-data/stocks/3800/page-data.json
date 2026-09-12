@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3800/","result":{"data":{"stockDetail":{"symbol":"3800","market":"TSE","stock_name":"UNIRITA Inc.","growth":2.5,"dividend":75,"recent_price":1968,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3800"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5262/","result":{"data":{"stockDetail":{"symbol":"5262","market":"TSE","stock_name":"Nippon Hume Corporation","growth":27.69,"dividend":26,"recent_price":1127,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5262"}},"staticQueryHashes":[],"slicesMap":{}}

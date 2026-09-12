@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9445/","result":{"data":{"stockDetail":{"symbol":"9445","market":"TSE","stock_name":"FORVAL TELECOM,INC.","growth":-34.77,"dividend":25,"recent_price":535,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9445"}},"staticQueryHashes":[],"slicesMap":{}}

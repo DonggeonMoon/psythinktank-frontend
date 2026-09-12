@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7545/","result":{"data":{"stockDetail":{"symbol":"7545","market":"TSE","stock_name":"NISHIMATSUYA CHAIN Co.,Ltd.","growth":44.86,"dividend":32,"recent_price":2001,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7545"}},"staticQueryHashes":[],"slicesMap":{}}

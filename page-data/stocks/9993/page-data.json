@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9993/","result":{"data":{"stockDetail":{"symbol":"9993","market":"TSE","stock_name":"YAMAZAWA CO.,LTD.","growth":-12.7,"dividend":27,"recent_price":1159,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9993"}},"staticQueryHashes":[],"slicesMap":{}}

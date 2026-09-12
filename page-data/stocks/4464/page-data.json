@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4464/","result":{"data":{"stockDetail":{"symbol":"4464","market":"TSE","stock_name":"SOFT99corporation","growth":1.45,"dividend":57.5,"recent_price":3470,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4464"}},"staticQueryHashes":[],"slicesMap":{}}

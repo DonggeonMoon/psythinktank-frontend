@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/471A/","result":{"data":{"stockDetail":{"symbol":"471A","market":"TSE","stock_name":"NS Group,Inc.","growth":12.41,"dividend":76,"recent_price":1542,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"471A"}},"staticQueryHashes":[],"slicesMap":{}}

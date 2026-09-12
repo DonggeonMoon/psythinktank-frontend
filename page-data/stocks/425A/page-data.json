@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/425A/","result":{"data":{"stockDetail":{"symbol":"425A","market":"TSE","stock_name":"Global X Gold ETF","growth":null,"dividend":0,"recent_price":373.3999938964844,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"425A"}},"staticQueryHashes":[],"slicesMap":{}}

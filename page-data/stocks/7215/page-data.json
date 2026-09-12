@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7215/","result":{"data":{"stockDetail":{"symbol":"7215","market":"TSE","stock_name":"FALTEC Co.,Ltd.","growth":-8.22,"dividend":0,"recent_price":423,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7215"}},"staticQueryHashes":[],"slicesMap":{}}

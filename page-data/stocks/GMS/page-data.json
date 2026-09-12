@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/GMS/","result":{"data":{"stockDetail":{"symbol":"GMS","market":"NYSE","stock_name":"GMS Inc. Common Stock","growth":-6.7,"dividend":0,"recent_price":null,"basis_date":"2025-10-14"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"GMS"}},"staticQueryHashes":[],"slicesMap":{}}

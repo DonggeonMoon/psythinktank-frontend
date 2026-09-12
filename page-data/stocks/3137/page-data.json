@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3137/","result":{"data":{"stockDetail":{"symbol":"3137","market":"TSE","stock_name":"Fundely Co.,Ltd.","growth":null,"dividend":0,"recent_price":205,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3137"}},"staticQueryHashes":[],"slicesMap":{}}

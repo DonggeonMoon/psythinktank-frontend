@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/365A/","result":{"data":{"stockDetail":{"symbol":"365A","market":"TSE","stock_name":"IZAWA TOWEL CO.,LTD.","growth":0,"dividend":42,"recent_price":792,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"365A"}},"staticQueryHashes":[],"slicesMap":{}}

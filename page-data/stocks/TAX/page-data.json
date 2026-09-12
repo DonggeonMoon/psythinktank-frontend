@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/TAX/","result":{"data":{"stockDetail":{"symbol":"TAX","market":"NASDAQ","stock_name":"Cambria Tax Aware ETF","growth":null,"dividend":0,"recent_price":30.957000732421875,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"TAX"}},"staticQueryHashes":[],"slicesMap":{}}

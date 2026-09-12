@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/USAF/","result":{"data":{"stockDetail":{"symbol":"USAF","market":"NASDAQ","stock_name":"Atlas America Fund","growth":null,"dividend":0,"recent_price":28.19099998474121,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"USAF"}},"staticQueryHashes":[],"slicesMap":{}}

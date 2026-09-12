@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1820/","result":{"data":{"stockDetail":{"symbol":"1820","market":"TSE","stock_name":"Nishimatsu Construction Co.,Ltd.","growth":12.3,"dividend":240,"recent_price":5617,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1820"}},"staticQueryHashes":[],"slicesMap":{}}

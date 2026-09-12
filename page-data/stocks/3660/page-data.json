@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3660/","result":{"data":{"stockDetail":{"symbol":"3660","market":"TSE","stock_name":"istyle Inc.","growth":12.14,"dividend":2,"recent_price":534,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3660"}},"staticQueryHashes":[],"slicesMap":{}}

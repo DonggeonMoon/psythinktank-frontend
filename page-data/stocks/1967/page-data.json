@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1967/","result":{"data":{"stockDetail":{"symbol":"1967","market":"TSE","stock_name":"YAMATO CORPORATION","growth":1.31,"dividend":77,"recent_price":2080,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1967"}},"staticQueryHashes":[],"slicesMap":{}}

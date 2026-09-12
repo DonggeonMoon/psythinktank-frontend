@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6706/","result":{"data":{"stockDetail":{"symbol":"6706","market":"TSE","stock_name":"DKK Co.,Ltd.","growth":-4.03,"dividend":105,"recent_price":3300,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6706"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6125/","result":{"data":{"stockDetail":{"symbol":"6125","market":"TSE","stock_name":"OKAMOTO MACHINE TOOL WORKS,LTD.","growth":-1.33,"dividend":160,"recent_price":4650,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6125"}},"staticQueryHashes":[],"slicesMap":{}}

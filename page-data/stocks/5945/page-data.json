@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5945/","result":{"data":{"stockDetail":{"symbol":"5945","market":"TSE","stock_name":"Tenryu Saw Mfg.Co.,Ltd.","growth":-1.75,"dividend":83,"recent_price":2296,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5945"}},"staticQueryHashes":[],"slicesMap":{}}

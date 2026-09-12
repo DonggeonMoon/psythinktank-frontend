@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1975/","result":{"data":{"stockDetail":{"symbol":"1975","market":"TSE","stock_name":"ASAHI KOGYOSHA CO.,LTD.","growth":5.13,"dividend":144,"recent_price":3865,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1975"}},"staticQueryHashes":[],"slicesMap":{}}

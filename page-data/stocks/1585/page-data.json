@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1585/","result":{"data":{"stockDetail":{"symbol":"1585","market":"TSE","stock_name":"iFreeETF TOPIX Ex-Financials","growth":null,"dividend":23.94,"recent_price":2640.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1585"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/RY/","result":{"data":{"stockDetail":{"symbol":"RY","market":"NYSE","stock_name":"Royal Bank Of Canada Common Stock","growth":7.18,"dividend":4.91,"recent_price":209,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"RY"}},"staticQueryHashes":[],"slicesMap":{}}

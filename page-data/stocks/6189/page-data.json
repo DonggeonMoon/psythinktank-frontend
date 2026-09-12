@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6189/","result":{"data":{"stockDetail":{"symbol":"6189","market":"TSE","stock_name":"Global Kids Company Corp.","growth":18.87,"dividend":40,"recent_price":1010,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6189"}},"staticQueryHashes":[],"slicesMap":{}}

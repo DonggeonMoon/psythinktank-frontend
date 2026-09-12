@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/488A/","result":{"data":{"stockDetail":{"symbol":"488A","market":"TSE","stock_name":"iShares Yen Appreciation Focus ETF","growth":null,"dividend":0,"recent_price":780.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"488A"}},"staticQueryHashes":[],"slicesMap":{}}

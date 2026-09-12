@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3836/","result":{"data":{"stockDetail":{"symbol":"3836","market":"TSE","stock_name":"AVANT GROUP CORPORATION","growth":10.31,"dividend":34,"recent_price":1207,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3836"}},"staticQueryHashes":[],"slicesMap":{}}

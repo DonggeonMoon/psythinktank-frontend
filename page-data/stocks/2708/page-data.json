@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2708/","result":{"data":{"stockDetail":{"symbol":"2708","market":"TSE","stock_name":"KUZE CO.,LTD.","growth":5.7,"dividend":45,"recent_price":1916,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2708"}},"staticQueryHashes":[],"slicesMap":{}}

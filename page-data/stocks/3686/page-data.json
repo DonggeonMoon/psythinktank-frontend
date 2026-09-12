@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3686/","result":{"data":{"stockDetail":{"symbol":"3686","market":"TSE","stock_name":"DLE Inc.","growth":-50.39,"dividend":0,"recent_price":60,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3686"}},"staticQueryHashes":[],"slicesMap":{}}

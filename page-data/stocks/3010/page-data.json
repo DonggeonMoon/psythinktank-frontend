@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3010/","result":{"data":{"stockDetail":{"symbol":"3010","market":"TSE","stock_name":"Polaris Holdings Co.,Ltd.","growth":7.84,"dividend":10,"recent_price":190,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3010"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4058/","result":{"data":{"stockDetail":{"symbol":"4058","market":"TSE","stock_name":"Toyokumo,Inc.","growth":56.76,"dividend":27,"recent_price":2445,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4058"}},"staticQueryHashes":[],"slicesMap":{}}

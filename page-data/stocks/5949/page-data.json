@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5949/","result":{"data":{"stockDetail":{"symbol":"5949","market":"TSE","stock_name":"UNIPRES CORPORATION","growth":-8.77,"dividend":65,"recent_price":1350,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5949"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6365/","result":{"data":{"stockDetail":{"symbol":"6365","market":"TSE","stock_name":"DMW CORPORATION","growth":0,"dividend":210,"recent_price":5620,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6365"}},"staticQueryHashes":[],"slicesMap":{}}

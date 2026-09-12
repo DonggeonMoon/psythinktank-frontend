@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6074/","result":{"data":{"stockDetail":{"symbol":"6074","market":"TSE","stock_name":"JSS CORPORATION","growth":-6.22,"dividend":21,"recent_price":517,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6074"}},"staticQueryHashes":[],"slicesMap":{}}

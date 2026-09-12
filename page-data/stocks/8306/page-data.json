@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8306/","result":{"data":{"stockDetail":{"symbol":"8306","market":"TSE","stock_name":"Mitsubishi UFJ Financial Group,Inc.","growth":3.25,"dividend":96,"recent_price":3785,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8306"}},"staticQueryHashes":[],"slicesMap":{}}

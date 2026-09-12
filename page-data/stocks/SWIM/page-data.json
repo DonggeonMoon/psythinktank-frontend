@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SWIM/","result":{"data":{"stockDetail":{"symbol":"SWIM","market":"NASDAQ","stock_name":"Latham Group, Inc. - Common Stock","growth":5.56,"dividend":0,"recent_price":6.75,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SWIM"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3476/","result":{"data":{"stockDetail":{"symbol":"3476","market":"TSE","stock_name":"MIRAI Corporation","growth":null,"dividend":2,"recent_price":41100,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3476"}},"staticQueryHashes":[],"slicesMap":{}}

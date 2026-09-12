@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3083/","result":{"data":{"stockDetail":{"symbol":"3083","market":"TSE","stock_name":"Star seeds Co.,Ltd.","growth":-22.46,"dividend":10,"recent_price":1247,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3083"}},"staticQueryHashes":[],"slicesMap":{}}

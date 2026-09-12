@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CSX/","result":{"data":{"stockDetail":{"symbol":"CSX","market":"NASDAQ","stock_name":"CSX Corporation - Common Stock","growth":-2.13,"dividend":0.56,"recent_price":49,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CSX"}},"staticQueryHashes":[],"slicesMap":{}}

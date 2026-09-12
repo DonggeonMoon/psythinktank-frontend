@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2980/","result":{"data":{"stockDetail":{"symbol":"2980","market":"TSE","stock_name":"SRE Holdings Corporation","growth":9.45,"dividend":20,"recent_price":2431,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2980"}},"staticQueryHashes":[],"slicesMap":{}}

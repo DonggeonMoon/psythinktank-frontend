@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SRL/","result":{"data":{"stockDetail":{"symbol":"SRL","market":"NYSE","stock_name":"Scully Royalty Ltd.","growth":-1.39,"dividend":0,"recent_price":5.559999942779541,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SRL"}},"staticQueryHashes":[],"slicesMap":{}}

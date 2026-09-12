@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7255/","result":{"data":{"stockDetail":{"symbol":"7255","market":"TSE","stock_name":"SAKURAI LTD.","growth":-4.91,"dividend":7,"recent_price":510,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7255"}},"staticQueryHashes":[],"slicesMap":{}}

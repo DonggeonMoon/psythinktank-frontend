@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4619/","result":{"data":{"stockDetail":{"symbol":"4619","market":"TSE","stock_name":"Nihon Tokushu Toryo Co.,Ltd.","growth":-4.6,"dividend":130,"recent_price":2653,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4619"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9130/","result":{"data":{"stockDetail":{"symbol":"9130","market":"TSE","stock_name":"KYOEI TANKER CO.,LTD.","growth":1.52,"dividend":40,"recent_price":1571,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9130"}},"staticQueryHashes":[],"slicesMap":{}}

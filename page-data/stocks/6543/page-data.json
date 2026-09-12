@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6543/","result":{"data":{"stockDetail":{"symbol":"6543","market":"TSE","stock_name":"NISSEN INC.","growth":-5.63,"dividend":33,"recent_price":1220,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6543"}},"staticQueryHashes":[],"slicesMap":{}}

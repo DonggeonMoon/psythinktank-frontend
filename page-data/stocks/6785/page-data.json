@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6785/","result":{"data":{"stockDetail":{"symbol":"6785","market":"TSE","stock_name":"SUZUKI CO.,LTD.","growth":0.55,"dividend":112,"recent_price":3195,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6785"}},"staticQueryHashes":[],"slicesMap":{}}

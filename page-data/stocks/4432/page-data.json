@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4432/","result":{"data":{"stockDetail":{"symbol":"4432","market":"TSE","stock_name":"WingArc1st Inc.","growth":12.38,"dividend":108,"recent_price":3385,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4432"}},"staticQueryHashes":[],"slicesMap":{}}

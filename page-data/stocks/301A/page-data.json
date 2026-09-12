@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/301A/","result":{"data":{"stockDetail":{"symbol":"301A","market":"TSE","stock_name":"In-dex,Inc.","growth":null,"dividend":0,"recent_price":550,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"301A"}},"staticQueryHashes":[],"slicesMap":{}}

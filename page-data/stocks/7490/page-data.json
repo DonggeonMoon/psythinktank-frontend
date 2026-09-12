@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7490/","result":{"data":{"stockDetail":{"symbol":"7490","market":"TSE","stock_name":"NISSIN SHOJI CO.,LTD.","growth":-3.43,"dividend":21,"recent_price":2188,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7490"}},"staticQueryHashes":[],"slicesMap":{}}

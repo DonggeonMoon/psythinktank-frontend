@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8931/","result":{"data":{"stockDetail":{"symbol":"8931","market":"TSE","stock_name":"WADAKOHSAN CORPORATION","growth":1.63,"dividend":60,"recent_price":1313,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8931"}},"staticQueryHashes":[],"slicesMap":{}}

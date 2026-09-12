@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5356/","result":{"data":{"stockDetail":{"symbol":"5356","market":"TSE","stock_name":"MINO CERAMIC CO.,LTD.","growth":2.67,"dividend":52,"recent_price":1302,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5356"}},"staticQueryHashes":[],"slicesMap":{}}

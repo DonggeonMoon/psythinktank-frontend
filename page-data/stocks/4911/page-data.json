@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4911/","result":{"data":{"stockDetail":{"symbol":"4911","market":"TSE","stock_name":"Shiseido Company,Limited","growth":-13.79,"dividend":60,"recent_price":3445,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4911"}},"staticQueryHashes":[],"slicesMap":{}}

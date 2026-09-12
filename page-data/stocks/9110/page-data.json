@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9110/","result":{"data":{"stockDetail":{"symbol":"9110","market":"TSE","stock_name":"NS United Kaiun Kaisha,Ltd.","growth":1.98,"dividend":295,"recent_price":10490,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9110"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6547/","result":{"data":{"stockDetail":{"symbol":"6547","market":"TSE","stock_name":"GREENS CO.,LTD.","growth":4,"dividend":57,"recent_price":2197,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6547"}},"staticQueryHashes":[],"slicesMap":{}}

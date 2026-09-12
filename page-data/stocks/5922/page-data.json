@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5922/","result":{"data":{"stockDetail":{"symbol":"5922","market":"TSE","stock_name":"NASU DENKI-TEKKO CO.,LTD.","growth":-2.32,"dividend":450,"recent_price":20200,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5922"}},"staticQueryHashes":[],"slicesMap":{}}

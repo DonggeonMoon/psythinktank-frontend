@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/THS/","result":{"data":{"stockDetail":{"symbol":"THS","market":"NYSE","stock_name":"Treehouse Foods, Inc. Common Stock","growth":0,"dividend":0,"recent_price":null,"basis_date":"2026-02-11"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"THS"}},"staticQueryHashes":[],"slicesMap":{}}

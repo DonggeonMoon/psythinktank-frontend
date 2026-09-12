@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4323/","result":{"data":{"stockDetail":{"symbol":"4323","market":"TSE","stock_name":"Japan System Techniques Co.,Ltd.","growth":4.34,"dividend":50,"recent_price":1948,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4323"}},"staticQueryHashes":[],"slicesMap":{}}

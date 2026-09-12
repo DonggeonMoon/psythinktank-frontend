@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/OGS/","result":{"data":{"stockDetail":{"symbol":"OGS","market":"NYSE","stock_name":"ONE Gas, Inc. Common Stock","growth":2.56,"dividend":2.72,"recent_price":80.75,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"OGS"}},"staticQueryHashes":[],"slicesMap":{}}

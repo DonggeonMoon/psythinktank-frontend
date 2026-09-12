@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6962/","result":{"data":{"stockDetail":{"symbol":"6962","market":"TSE","stock_name":"DAISHINKU CORP.","growth":-7.65,"dividend":28,"recent_price":752,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6962"}},"staticQueryHashes":[],"slicesMap":{}}

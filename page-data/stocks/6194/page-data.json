@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6194/","result":{"data":{"stockDetail":{"symbol":"6194","market":"TSE","stock_name":"Atrae,Inc.","growth":4.81,"dividend":33,"recent_price":869,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6194"}},"staticQueryHashes":[],"slicesMap":{}}

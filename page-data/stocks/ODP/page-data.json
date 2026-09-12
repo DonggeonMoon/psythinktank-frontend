@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ODP/","result":{"data":{"stockDetail":{"symbol":"ODP","market":"NASDAQ","stock_name":"The ODP Corporation - Common Stock","growth":-5,"dividend":0,"recent_price":null,"basis_date":"2025-12-23"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ODP"}},"staticQueryHashes":[],"slicesMap":{}}

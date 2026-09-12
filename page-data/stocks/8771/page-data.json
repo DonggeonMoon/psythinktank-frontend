@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8771/","result":{"data":{"stockDetail":{"symbol":"8771","market":"TSE","stock_name":"eGuarantee,Inc.","growth":5.43,"dividend":84,"recent_price":1710,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8771"}},"staticQueryHashes":[],"slicesMap":{}}

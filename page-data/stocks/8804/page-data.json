@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8804/","result":{"data":{"stockDetail":{"symbol":"8804","market":"TSE","stock_name":"Tokyo Tatemono Co.,Ltd.","growth":2.23,"dividend":130,"recent_price":3376,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8804"}},"staticQueryHashes":[],"slicesMap":{}}

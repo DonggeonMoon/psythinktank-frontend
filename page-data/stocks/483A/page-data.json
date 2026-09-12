@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/483A/","result":{"data":{"stockDetail":{"symbol":"483A","market":"TSE","stock_name":"Tera Technology,Inc.","growth":23.47,"dividend":89,"recent_price":2160,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"483A"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2109/","result":{"data":{"stockDetail":{"symbol":"2109","market":"TSE","stock_name":"Mitsui DM Sugar Co.,Ltd.","growth":1.64,"dividend":140,"recent_price":3850,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2109"}},"staticQueryHashes":[],"slicesMap":{}}

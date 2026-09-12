@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7747/","result":{"data":{"stockDetail":{"symbol":"7747","market":"TSE","stock_name":"ASAHI INTECC CO.,LTD.","growth":1.09,"dividend":49.91,"recent_price":3521,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7747"}},"staticQueryHashes":[],"slicesMap":{}}

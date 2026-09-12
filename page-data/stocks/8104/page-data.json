@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8104/","result":{"data":{"stockDetail":{"symbol":"8104","market":"TSE","stock_name":"KUWAZAWA Holdings Corporation","growth":-0.49,"dividend":30,"recent_price":705,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8104"}},"staticQueryHashes":[],"slicesMap":{}}

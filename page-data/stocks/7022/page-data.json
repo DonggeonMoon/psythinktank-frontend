@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7022/","result":{"data":{"stockDetail":{"symbol":"7022","market":"TSE","stock_name":"Sanoyas Holdings Corporation","growth":7.08,"dividend":7.5,"recent_price":339,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7022"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3401/","result":{"data":{"stockDetail":{"symbol":"3401","market":"TSE","stock_name":"TEIJIN LIMITED","growth":-22.63,"dividend":50,"recent_price":1737,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3401"}},"staticQueryHashes":[],"slicesMap":{}}

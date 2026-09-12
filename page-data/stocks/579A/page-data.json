@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/579A/","result":{"data":{"stockDetail":{"symbol":"579A","market":"TSE","stock_name":"Global X Silver Miners ETF","growth":null,"dividend":0,"recent_price":1103,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"579A"}},"staticQueryHashes":[],"slicesMap":{}}

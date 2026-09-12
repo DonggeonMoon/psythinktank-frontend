@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6745/","result":{"data":{"stockDetail":{"symbol":"6745","market":"TSE","stock_name":"HOCHIKI CORPORATION","growth":14.23,"dividend":40,"recent_price":1902,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6745"}},"staticQueryHashes":[],"slicesMap":{}}

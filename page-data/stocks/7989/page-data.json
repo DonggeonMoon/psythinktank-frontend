@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7989/","result":{"data":{"stockDetail":{"symbol":"7989","market":"TSE","stock_name":"TACHIKAWA CORPORATION","growth":-3.88,"dividend":120,"recent_price":2648,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7989"}},"staticQueryHashes":[],"slicesMap":{}}

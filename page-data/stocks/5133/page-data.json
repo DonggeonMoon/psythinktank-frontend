@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5133/","result":{"data":{"stockDetail":{"symbol":"5133","market":"TSE","stock_name":"Terilogy Holdings Corporation","growth":-2.62,"dividend":5,"recent_price":303,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5133"}},"staticQueryHashes":[],"slicesMap":{}}

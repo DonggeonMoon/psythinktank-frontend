@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2454/","result":{"data":{"stockDetail":{"symbol":"2454","market":"TSE","stock_name":"All About,Inc.","growth":5.71,"dividend":1,"recent_price":353,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2454"}},"staticQueryHashes":[],"slicesMap":{}}

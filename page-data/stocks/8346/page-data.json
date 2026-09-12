@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8346/","result":{"data":{"stockDetail":{"symbol":"8346","market":"TSE","stock_name":"The Toho Bank,Ltd.","growth":0.94,"dividend":20.5,"recent_price":992,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8346"}},"staticQueryHashes":[],"slicesMap":{}}

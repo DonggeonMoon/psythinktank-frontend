@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5302/","result":{"data":{"stockDetail":{"symbol":"5302","market":"TSE","stock_name":"Nippon Carbon Co.,Ltd.","growth":0.91,"dividend":200,"recent_price":4995,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5302"}},"staticQueryHashes":[],"slicesMap":{}}

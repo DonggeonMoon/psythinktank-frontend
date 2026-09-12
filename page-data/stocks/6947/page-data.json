@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6947/","result":{"data":{"stockDetail":{"symbol":"6947","market":"TSE","stock_name":"ZUKEN INC.","growth":2.86,"dividend":225,"recent_price":4930,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6947"}},"staticQueryHashes":[],"slicesMap":{}}

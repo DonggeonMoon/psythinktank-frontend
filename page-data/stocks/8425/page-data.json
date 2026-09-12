@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8425/","result":{"data":{"stockDetail":{"symbol":"8425","market":"TSE","stock_name":"Mizuho Leasing Company,Limited","growth":6.66,"dividend":52,"recent_price":1368,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8425"}},"staticQueryHashes":[],"slicesMap":{}}

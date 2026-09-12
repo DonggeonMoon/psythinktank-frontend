@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4019/","result":{"data":{"stockDetail":{"symbol":"4019","market":"TSE","stock_name":"Stmn,Inc.","growth":47.76,"dividend":10,"recent_price":651,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4019"}},"staticQueryHashes":[],"slicesMap":{}}

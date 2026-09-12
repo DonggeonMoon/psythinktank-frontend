@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8704/","result":{"data":{"stockDetail":{"symbol":"8704","market":"TSE","stock_name":"TRADERS HOLDINGS CO.,LTD.","growth":2.52,"dividend":45,"recent_price":1420,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8704"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9020/","result":{"data":{"stockDetail":{"symbol":"9020","market":"TSE","stock_name":"East Japan Railway Company","growth":1.53,"dividend":84,"recent_price":3520,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9020"}},"staticQueryHashes":[],"slicesMap":{}}

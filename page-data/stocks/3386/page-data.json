@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3386/","result":{"data":{"stockDetail":{"symbol":"3386","market":"TSE","stock_name":"COSMO BIO COMPANY,LIMITED","growth":4.6,"dividend":50,"recent_price":1254,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3386"}},"staticQueryHashes":[],"slicesMap":{}}

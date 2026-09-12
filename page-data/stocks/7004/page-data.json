@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7004/","result":{"data":{"stockDetail":{"symbol":"7004","market":"TSE","stock_name":"Kanadevia Corporation","growth":-2.3,"dividend":38,"recent_price":1155,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7004"}},"staticQueryHashes":[],"slicesMap":{}}

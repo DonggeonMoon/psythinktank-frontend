@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5591/","result":{"data":{"stockDetail":{"symbol":"5591","market":"TSE","stock_name":"AVILEN Inc.","growth":11.11,"dividend":0,"recent_price":895,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5591"}},"staticQueryHashes":[],"slicesMap":{}}

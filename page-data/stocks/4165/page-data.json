@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4165/","result":{"data":{"stockDetail":{"symbol":"4165","market":"TSE","stock_name":"PLAID,Inc.","growth":18.26,"dividend":0,"recent_price":737,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4165"}},"staticQueryHashes":[],"slicesMap":{}}

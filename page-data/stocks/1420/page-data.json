@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1420/","result":{"data":{"stockDetail":{"symbol":"1420","market":"TSE","stock_name":"Sanyo Homes Corporation","growth":3.41,"dividend":25,"recent_price":633,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1420"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5464/","result":{"data":{"stockDetail":{"symbol":"5464","market":"TSE","stock_name":"MORY INDUSTRIES INC.","growth":2.21,"dividend":34,"recent_price":946,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5464"}},"staticQueryHashes":[],"slicesMap":{}}

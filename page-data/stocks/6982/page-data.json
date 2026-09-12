@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6982/","result":{"data":{"stockDetail":{"symbol":"6982","market":"TSE","stock_name":"The Lead Co.,Inc.","growth":-3.37,"dividend":10,"recent_price":587,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6982"}},"staticQueryHashes":[],"slicesMap":{}}

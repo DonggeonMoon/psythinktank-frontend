@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4308/","result":{"data":{"stockDetail":{"symbol":"4308","market":"TSE","stock_name":"J-Stream Inc.","growth":3.58,"dividend":14,"recent_price":359,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4308"}},"staticQueryHashes":[],"slicesMap":{}}

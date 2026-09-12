@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4258/","result":{"data":{"stockDetail":{"symbol":"4258","market":"TSE","stock_name":"AMIYA Corporation","growth":28.57,"dividend":15.73,"recent_price":4340,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4258"}},"staticQueryHashes":[],"slicesMap":{}}

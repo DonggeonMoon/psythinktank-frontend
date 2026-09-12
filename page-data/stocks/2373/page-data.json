@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2373/","result":{"data":{"stockDetail":{"symbol":"2373","market":"TSE","stock_name":"CARE TWENTYONE CORPORATION","growth":2.7,"dividend":17,"recent_price":411,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2373"}},"staticQueryHashes":[],"slicesMap":{}}

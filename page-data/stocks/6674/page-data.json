@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6674/","result":{"data":{"stockDetail":{"symbol":"6674","market":"TSE","stock_name":"GS Yuasa Corporation","growth":0.67,"dividend":98,"recent_price":4961,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6674"}},"staticQueryHashes":[],"slicesMap":{}}

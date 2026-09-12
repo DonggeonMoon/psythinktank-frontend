@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3664/","result":{"data":{"stockDetail":{"symbol":"3664","market":"TSE","stock_name":"MOBCAST HOLDINGS INC.","growth":-5.94,"dividend":0,"recent_price":25,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3664"}},"staticQueryHashes":[],"slicesMap":{}}

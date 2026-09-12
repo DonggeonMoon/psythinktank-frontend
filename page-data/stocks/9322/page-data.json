@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9322/","result":{"data":{"stockDetail":{"symbol":"9322","market":"TSE","stock_name":"KAWANISHI WAREHOUSE CO.,LTD.","growth":17.56,"dividend":132,"recent_price":2450,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9322"}},"staticQueryHashes":[],"slicesMap":{}}

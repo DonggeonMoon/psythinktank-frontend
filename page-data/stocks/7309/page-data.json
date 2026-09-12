@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7309/","result":{"data":{"stockDetail":{"symbol":"7309","market":"TSE","stock_name":"SHIMANO INC.","growth":1.11,"dividend":363,"recent_price":19255,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7309"}},"staticQueryHashes":[],"slicesMap":{}}

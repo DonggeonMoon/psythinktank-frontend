@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9362/","result":{"data":{"stockDetail":{"symbol":"9362","market":"TSE","stock_name":"HYOKI KAIUN KAISHA,LTD.","growth":2.6,"dividend":110,"recent_price":3680,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9362"}},"staticQueryHashes":[],"slicesMap":{}}

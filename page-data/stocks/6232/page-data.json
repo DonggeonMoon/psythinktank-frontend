@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6232/","result":{"data":{"stockDetail":{"symbol":"6232","market":"TSE","stock_name":"ACSL Ltd.","growth":3.57,"dividend":0,"recent_price":1450,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6232"}},"staticQueryHashes":[],"slicesMap":{}}

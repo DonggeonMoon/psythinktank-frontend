@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/VOTE/","result":{"data":{"stockDetail":{"symbol":"VOTE","market":"NASDAQ","stock_name":"TCW Transform 500 ETF","growth":null,"dividend":0,"recent_price":90.2750015258789,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"VOTE"}},"staticQueryHashes":[],"slicesMap":{}}

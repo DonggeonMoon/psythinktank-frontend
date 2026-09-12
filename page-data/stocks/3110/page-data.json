@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3110/","result":{"data":{"stockDetail":{"symbol":"3110","market":"TSE","stock_name":"NITTO BOSEKI CO.,LTD.","growth":1.75,"dividend":28,"recent_price":3060,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3110"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4439/","result":{"data":{"stockDetail":{"symbol":"4439","market":"TSE","stock_name":"TOUMEI CO.,LTD.","growth":14.45,"dividend":13,"recent_price":800,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4439"}},"staticQueryHashes":[],"slicesMap":{}}

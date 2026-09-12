@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8871/","result":{"data":{"stockDetail":{"symbol":"8871","market":"TSE","stock_name":"GOLDCREST Co.,Ltd.","growth":2.05,"dividend":160,"recent_price":3260,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8871"}},"staticQueryHashes":[],"slicesMap":{}}

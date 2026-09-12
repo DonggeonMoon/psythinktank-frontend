@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4687/","result":{"data":{"stockDetail":{"symbol":"4687","market":"TSE","stock_name":"TDC SOFT Inc.","growth":7.52,"dividend":34,"recent_price":1071,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4687"}},"staticQueryHashes":[],"slicesMap":{}}

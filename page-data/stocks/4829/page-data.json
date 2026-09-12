@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4829/","result":{"data":{"stockDetail":{"symbol":"4829","market":"TSE","stock_name":"Nihon Enterprise Co.,Ltd.","growth":4.55,"dividend":3,"recent_price":110,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4829"}},"staticQueryHashes":[],"slicesMap":{}}

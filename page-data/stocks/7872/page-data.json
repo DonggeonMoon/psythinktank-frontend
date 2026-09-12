@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7872/","result":{"data":{"stockDetail":{"symbol":"7872","market":"TSE","stock_name":"ESTELLE HOLDINGS CO.,LTD.","growth":4.51,"dividend":27,"recent_price":617,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7872"}},"staticQueryHashes":[],"slicesMap":{}}

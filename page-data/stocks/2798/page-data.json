@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2798/","result":{"data":{"stockDetail":{"symbol":"2798","market":"TSE","stock_name":"Y's table corporation","growth":4.05,"dividend":0,"recent_price":3005,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2798"}},"staticQueryHashes":[],"slicesMap":{}}

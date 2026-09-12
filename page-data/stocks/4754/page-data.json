@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4754/","result":{"data":{"stockDetail":{"symbol":"4754","market":"TSE","stock_name":"TOSNET CORPORATION","growth":-1.82,"dividend":37,"recent_price":1493,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4754"}},"staticQueryHashes":[],"slicesMap":{}}

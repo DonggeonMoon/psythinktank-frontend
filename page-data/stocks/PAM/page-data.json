@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/PAM/","result":{"data":{"stockDetail":{"symbol":"PAM","market":"NYSE","stock_name":"Pampa Energia S.A.","growth":null,"dividend":0,"recent_price":86.19000244140625,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"PAM"}},"staticQueryHashes":[],"slicesMap":{}}

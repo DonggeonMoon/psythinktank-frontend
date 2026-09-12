@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9433/","result":{"data":{"stockDetail":{"symbol":"9433","market":"TSE","stock_name":"KDDI CORPORATION","growth":13.25,"dividend":84,"recent_price":2981,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9433"}},"staticQueryHashes":[],"slicesMap":{}}

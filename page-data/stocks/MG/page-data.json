@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/MG/","result":{"data":{"stockDetail":{"symbol":"MG","market":"NYSE","stock_name":"Mistras Group Inc Common Stock","growth":0,"dividend":0,"recent_price":19.420000076293945,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"MG"}},"staticQueryHashes":[],"slicesMap":{}}

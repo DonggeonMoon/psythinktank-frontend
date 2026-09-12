@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2681/","result":{"data":{"stockDetail":{"symbol":"2681","market":"TSE","stock_name":"GEO HOLDINGS CORPORATION","growth":11.32,"dividend":34,"recent_price":2424,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2681"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3560/","result":{"data":{"stockDetail":{"symbol":"3560","market":"TSE","stock_name":"Hobonichi Co.,Ltd.","growth":9.86,"dividend":90,"recent_price":4370,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3560"}},"staticQueryHashes":[],"slicesMap":{}}

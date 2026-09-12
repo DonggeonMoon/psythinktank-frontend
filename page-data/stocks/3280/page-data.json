@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3280/","result":{"data":{"stockDetail":{"symbol":"3280","market":"TSE","stock_name":"STrust Co.,Ltd.","growth":3.26,"dividend":34,"recent_price":941,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3280"}},"staticQueryHashes":[],"slicesMap":{}}

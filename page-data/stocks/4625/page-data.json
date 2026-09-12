@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4625/","result":{"data":{"stockDetail":{"symbol":"4625","market":"TSE","stock_name":"ATOMIX CO.,LTD.","growth":-1.77,"dividend":20,"recent_price":850,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4625"}},"staticQueryHashes":[],"slicesMap":{}}

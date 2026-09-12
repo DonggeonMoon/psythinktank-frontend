@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1853/","result":{"data":{"stockDetail":{"symbol":"1853","market":"TSE","stock_name":"Mori-Gumi Co.,Ltd.","growth":null,"dividend":14,"recent_price":326,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1853"}},"staticQueryHashes":[],"slicesMap":{}}

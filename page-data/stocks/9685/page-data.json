@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9685/","result":{"data":{"stockDetail":{"symbol":"9685","market":"TSE","stock_name":"KYCOM HOLDINGS CO.,LTD.","growth":6.64,"dividend":10,"recent_price":578,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9685"}},"staticQueryHashes":[],"slicesMap":{}}

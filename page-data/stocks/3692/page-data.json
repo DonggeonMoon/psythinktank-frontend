@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3692/","result":{"data":{"stockDetail":{"symbol":"3692","market":"TSE","stock_name":"FFRI Security,Inc.","growth":9.77,"dividend":18,"recent_price":6300,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3692"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7781/","result":{"data":{"stockDetail":{"symbol":"7781","market":"TSE","stock_name":"HIRAYAMA HOLDINGS Co.,Ltd.","growth":9.14,"dividend":57,"recent_price":880,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7781"}},"staticQueryHashes":[],"slicesMap":{}}

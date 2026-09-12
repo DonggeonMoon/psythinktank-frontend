@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5025/","result":{"data":{"stockDetail":{"symbol":"5025","market":"TSE","stock_name":"MERCURY Inc.","growth":-6.35,"dividend":0,"recent_price":585,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5025"}},"staticQueryHashes":[],"slicesMap":{}}

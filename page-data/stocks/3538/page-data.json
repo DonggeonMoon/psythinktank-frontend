@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3538/","result":{"data":{"stockDetail":{"symbol":"3538","market":"TSE","stock_name":"WILLPLUS Holdings Corporation","growth":15,"dividend":46,"recent_price":1013,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3538"}},"staticQueryHashes":[],"slicesMap":{}}

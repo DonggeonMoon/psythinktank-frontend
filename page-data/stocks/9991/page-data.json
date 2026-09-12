@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9991/","result":{"data":{"stockDetail":{"symbol":"9991","market":"TSE","stock_name":"GECOSS CORPORATION","growth":27.77,"dividend":69,"recent_price":1760,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9991"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8750/","result":{"data":{"stockDetail":{"symbol":"8750","market":"TSE","stock_name":"Dai-ichi Life Holdings,Inc.","growth":-1.11,"dividend":72,"recent_price":1877.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8750"}},"staticQueryHashes":[],"slicesMap":{}}

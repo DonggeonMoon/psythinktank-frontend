@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/DCH/","result":{"data":{"stockDetail":{"symbol":"DCH","market":"NYSE","stock_name":"Dauch Corporation Common Stock","growth":-5.26,"dividend":0,"recent_price":7,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"DCH"}},"staticQueryHashes":[],"slicesMap":{}}

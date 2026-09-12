@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3477/","result":{"data":{"stockDetail":{"symbol":"3477","market":"TSE","stock_name":"FORLIFE Co.,Ltd.","growth":12.75,"dividend":30,"recent_price":898,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3477"}},"staticQueryHashes":[],"slicesMap":{}}

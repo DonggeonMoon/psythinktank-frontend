@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/VVX/","result":{"data":{"stockDetail":{"symbol":"VVX","market":"NYSE","stock_name":"V2X, Inc. Common Stock","growth":0.62,"dividend":0,"recent_price":74.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"VVX"}},"staticQueryHashes":[],"slicesMap":{}}

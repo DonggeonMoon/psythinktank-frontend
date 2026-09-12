@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3431/","result":{"data":{"stockDetail":{"symbol":"3431","market":"TSE","stock_name":"MIYAJI ENGINEERING GROUP,INC.","growth":0.12,"dividend":75,"recent_price":1577,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3431"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6728/","result":{"data":{"stockDetail":{"symbol":"6728","market":"TSE","stock_name":"ULVAC, Inc.","growth":-1.64,"dividend":152,"recent_price":7210,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6728"}},"staticQueryHashes":[],"slicesMap":{}}

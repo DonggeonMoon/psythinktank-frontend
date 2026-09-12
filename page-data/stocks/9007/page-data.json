@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9007/","result":{"data":{"stockDetail":{"symbol":"9007","market":"TSE","stock_name":"Odakyu Electric Railway Co.,Ltd.","growth":1.21,"dividend":60,"recent_price":1787.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9007"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5582/","result":{"data":{"stockDetail":{"symbol":"5582","market":"TSE","stock_name":"GRID Inc.","growth":12.37,"dividend":0,"recent_price":2110,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5582"}},"staticQueryHashes":[],"slicesMap":{}}

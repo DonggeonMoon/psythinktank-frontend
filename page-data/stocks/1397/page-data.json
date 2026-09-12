@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1397/","result":{"data":{"stockDetail":{"symbol":"1397","market":"TSE","stock_name":"SMDAM NIKKEI225 ETF","growth":null,"dividend":0,"recent_price":65780,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1397"}},"staticQueryHashes":[],"slicesMap":{}}

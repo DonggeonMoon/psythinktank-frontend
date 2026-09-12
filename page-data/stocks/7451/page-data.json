@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7451/","result":{"data":{"stockDetail":{"symbol":"7451","market":"TSE","stock_name":"Mitsubishi Shokuhin Co.,Ltd.","growth":1.7,"dividend":0,"recent_price":null,"basis_date":"2025-10-09"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7451"}},"staticQueryHashes":[],"slicesMap":{}}

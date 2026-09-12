@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5252/","result":{"data":{"stockDetail":{"symbol":"5252","market":"TSE","stock_name":"Nihon Knowledge Co,Ltd.","growth":11.67,"dividend":10,"recent_price":745,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5252"}},"staticQueryHashes":[],"slicesMap":{}}

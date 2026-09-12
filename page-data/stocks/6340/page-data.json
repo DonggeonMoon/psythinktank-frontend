@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6340/","result":{"data":{"stockDetail":{"symbol":"6340","market":"TSE","stock_name":"SHIBUYA CORPORATION","growth":2.83,"dividend":100,"recent_price":5260,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6340"}},"staticQueryHashes":[],"slicesMap":{}}

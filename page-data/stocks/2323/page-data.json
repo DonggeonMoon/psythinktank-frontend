@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2323/","result":{"data":{"stockDetail":{"symbol":"2323","market":"TSE","stock_name":"fonfun corporation","growth":875,"dividend":0,"recent_price":324,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2323"}},"staticQueryHashes":[],"slicesMap":{}}

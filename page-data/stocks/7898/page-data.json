@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7898/","result":{"data":{"stockDetail":{"symbol":"7898","market":"TSE","stock_name":"WOOD ONE CO.,LTD.","growth":-0.23,"dividend":24,"recent_price":924,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7898"}},"staticQueryHashes":[],"slicesMap":{}}

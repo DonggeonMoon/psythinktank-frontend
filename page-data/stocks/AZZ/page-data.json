@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/AZZ/","result":{"data":{"stockDetail":{"symbol":"AZZ","market":"NYSE","stock_name":"AZZ Inc.","growth":2.25,"dividend":0.8,"recent_price":139.47000122070312,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"AZZ"}},"staticQueryHashes":[],"slicesMap":{}}

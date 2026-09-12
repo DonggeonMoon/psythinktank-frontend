@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6996/","result":{"data":{"stockDetail":{"symbol":"6996","market":"TSE","stock_name":"NICHICON CORPORATION","growth":-4.96,"dividend":39,"recent_price":2600,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6996"}},"staticQueryHashes":[],"slicesMap":{}}

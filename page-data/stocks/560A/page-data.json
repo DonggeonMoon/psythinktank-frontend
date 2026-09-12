@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/560A/","result":{"data":{"stockDetail":{"symbol":"560A","market":"TSE","stock_name":"OKADA CORPORATION Inc.","growth":null,"dividend":0,"recent_price":1123,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"560A"}},"staticQueryHashes":[],"slicesMap":{}}

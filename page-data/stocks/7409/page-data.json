@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7409/","result":{"data":{"stockDetail":{"symbol":"7409","market":"TSE","stock_name":"AeroEdge Co.,Ltd","growth":29.41,"dividend":0,"recent_price":1511,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7409"}},"staticQueryHashes":[],"slicesMap":{}}

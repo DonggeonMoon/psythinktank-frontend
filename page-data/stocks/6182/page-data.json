@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6182/","result":{"data":{"stockDetail":{"symbol":"6182","market":"TSE","stock_name":"MetaReal Corporation","growth":-24.89,"dividend":0,"recent_price":537,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6182"}},"staticQueryHashes":[],"slicesMap":{}}

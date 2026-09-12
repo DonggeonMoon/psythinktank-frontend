@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9994/","result":{"data":{"stockDetail":{"symbol":"9994","market":"TSE","stock_name":"YAMAYA CORPORATION","growth":0.84,"dividend":72,"recent_price":2054,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9994"}},"staticQueryHashes":[],"slicesMap":{}}

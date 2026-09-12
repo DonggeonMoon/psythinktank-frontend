@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5659/","result":{"data":{"stockDetail":{"symbol":"5659","market":"TSE","stock_name":"Nippon Seisen Co.,Ltd.","growth":-3.66,"dividend":46,"recent_price":1402,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5659"}},"staticQueryHashes":[],"slicesMap":{}}

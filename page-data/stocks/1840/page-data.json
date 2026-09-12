@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1840/","result":{"data":{"stockDetail":{"symbol":"1840","market":"TSE","stock_name":"TSUCHIYA HOLDINGS CO.,LTD.","growth":-5.43,"dividend":10,"recent_price":259,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1840"}},"staticQueryHashes":[],"slicesMap":{}}

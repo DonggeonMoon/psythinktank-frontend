@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6513/","result":{"data":{"stockDetail":{"symbol":"6513","market":"TSE","stock_name":"Origin Company,Limited","growth":2.9,"dividend":40,"recent_price":1288,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6513"}},"staticQueryHashes":[],"slicesMap":{}}

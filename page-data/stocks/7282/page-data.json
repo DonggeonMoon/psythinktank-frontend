@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7282/","result":{"data":{"stockDetail":{"symbol":"7282","market":"TSE","stock_name":"TOYODA GOSEI CO.,LTD.","growth":5.39,"dividend":173,"recent_price":5402,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7282"}},"staticQueryHashes":[],"slicesMap":{}}

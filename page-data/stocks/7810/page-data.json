@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7810/","result":{"data":{"stockDetail":{"symbol":"7810","market":"TSE","stock_name":"Crossfor Co.,Ltd.","growth":-6.76,"dividend":0.63,"recent_price":169,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7810"}},"staticQueryHashes":[],"slicesMap":{}}

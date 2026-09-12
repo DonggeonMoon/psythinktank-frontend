@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7833/","result":{"data":{"stockDetail":{"symbol":"7833","market":"TSE","stock_name":"IFIS JAPAN LTD.","growth":-2.39,"dividend":30,"recent_price":687,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7833"}},"staticQueryHashes":[],"slicesMap":{}}

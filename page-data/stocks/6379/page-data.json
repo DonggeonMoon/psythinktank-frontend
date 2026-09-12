@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6379/","result":{"data":{"stockDetail":{"symbol":"6379","market":"TSE","stock_name":"RAIZNEXT Corporation","growth":-0.09,"dividend":117,"recent_price":2949,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6379"}},"staticQueryHashes":[],"slicesMap":{}}

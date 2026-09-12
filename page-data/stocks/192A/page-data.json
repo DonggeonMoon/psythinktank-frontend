@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/192A/","result":{"data":{"stockDetail":{"symbol":"192A","market":"TSE","stock_name":"Integroup Inc.","growth":null,"dividend":45,"recent_price":1264,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"192A"}},"staticQueryHashes":[],"slicesMap":{}}

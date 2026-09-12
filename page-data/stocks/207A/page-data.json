@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/207A/","result":{"data":{"stockDetail":{"symbol":"207A","market":"TSE","stock_name":"Rising Corporation Inc.","growth":null,"dividend":0,"recent_price":1400,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"207A"}},"staticQueryHashes":[],"slicesMap":{}}

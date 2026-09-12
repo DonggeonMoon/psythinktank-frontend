@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SLNZ/","result":{"data":{"stockDetail":{"symbol":"SLNZ","market":"NYSE","stock_name":"TCW Senior Loan ETF","growth":null,"dividend":0,"recent_price":45.6349983215332,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SLNZ"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8729/","result":{"data":{"stockDetail":{"symbol":"8729","market":"TSE","stock_name":"Sony Financial Group Inc.","growth":0,"dividend":8,"recent_price":165.10000610351562,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8729"}},"staticQueryHashes":[],"slicesMap":{}}

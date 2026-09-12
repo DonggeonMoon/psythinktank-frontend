@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7698/","result":{"data":{"stockDetail":{"symbol":"7698","market":"TSE","stock_name":"Iceco Inc.","growth":2.12,"dividend":21,"recent_price":2710,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7698"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8841/","result":{"data":{"stockDetail":{"symbol":"8841","market":"TSE","stock_name":"TOC Co.,Ltd.","growth":2.07,"dividend":10,"recent_price":1003,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8841"}},"staticQueryHashes":[],"slicesMap":{}}

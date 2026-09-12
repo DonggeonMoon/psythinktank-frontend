@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4251/","result":{"data":{"stockDetail":{"symbol":"4251","market":"TSE","stock_name":"KEIWA Incorporated","growth":-2.39,"dividend":50,"recent_price":1164,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4251"}},"staticQueryHashes":[],"slicesMap":{}}

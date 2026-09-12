@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9245/","result":{"data":{"stockDetail":{"symbol":"9245","market":"TSE","stock_name":"Livero Inc.","growth":-3.92,"dividend":42,"recent_price":1954,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9245"}},"staticQueryHashes":[],"slicesMap":{}}

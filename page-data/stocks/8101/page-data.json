@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8101/","result":{"data":{"stockDetail":{"symbol":"8101","market":"TSE","stock_name":"GSI Creos Corporation","growth":2.67,"dividend":106,"recent_price":2684,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8101"}},"staticQueryHashes":[],"slicesMap":{}}

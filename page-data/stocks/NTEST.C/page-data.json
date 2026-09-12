@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/NTEST.C/","result":{"data":{"stockDetail":{"symbol":"NTEST.C","market":"NYSE","stock_name":"Tick Pilot Test C Common Stock","growth":null,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"NTEST.C"}},"staticQueryHashes":[],"slicesMap":{}}

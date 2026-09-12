@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4922/","result":{"data":{"stockDetail":{"symbol":"4922","market":"TSE","stock_name":"KOSE Corporation","growth":5.36,"dividend":140,"recent_price":5745,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4922"}},"staticQueryHashes":[],"slicesMap":{}}

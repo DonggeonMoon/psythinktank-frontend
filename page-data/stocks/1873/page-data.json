@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1873/","result":{"data":{"stockDetail":{"symbol":"1873","market":"TSE","stock_name":"NIHON HOUSE HOLDINGS CO.,LTD.","growth":-6.31,"dividend":12,"recent_price":324,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1873"}},"staticQueryHashes":[],"slicesMap":{}}

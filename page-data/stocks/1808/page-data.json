@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1808/","result":{"data":{"stockDetail":{"symbol":"1808","market":"TSE","stock_name":"HASEKO Corporation","growth":6.84,"dividend":100,"recent_price":2854,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1808"}},"staticQueryHashes":[],"slicesMap":{}}

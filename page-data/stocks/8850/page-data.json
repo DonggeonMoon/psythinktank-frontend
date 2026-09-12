@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8850/","result":{"data":{"stockDetail":{"symbol":"8850","market":"TSE","stock_name":"STARTS CORPORATION INC.","growth":0.68,"dividend":150,"recent_price":4735,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8850"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4769/","result":{"data":{"stockDetail":{"symbol":"4769","market":"TSE","stock_name":"IC CO.,LTD.","growth":5.91,"dividend":40,"recent_price":1148,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4769"}},"staticQueryHashes":[],"slicesMap":{}}

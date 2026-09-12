@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/NGD/","result":{"data":{"stockDetail":{"symbol":"NGD","market":"NYSE_AMERICAN","stock_name":"New Gold Inc.","growth":5.52,"dividend":0,"recent_price":null,"basis_date":"2026-03-24"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"NGD"}},"staticQueryHashes":[],"slicesMap":{}}

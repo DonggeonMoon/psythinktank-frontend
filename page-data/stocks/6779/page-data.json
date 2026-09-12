@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6779/","result":{"data":{"stockDetail":{"symbol":"6779","market":"TSE","stock_name":"NIHON DEMPA KOGYO CO.,LTD.","growth":-0.9,"dividend":30,"recent_price":2604,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6779"}},"staticQueryHashes":[],"slicesMap":{}}

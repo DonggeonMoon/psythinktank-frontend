@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8179/","result":{"data":{"stockDetail":{"symbol":"8179","market":"TSE","stock_name":"ROYAL HOLDINGS Co., Ltd.","growth":15.9,"dividend":17.5,"recent_price":1354,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8179"}},"staticQueryHashes":[],"slicesMap":{}}

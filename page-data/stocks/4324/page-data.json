@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4324/","result":{"data":{"stockDetail":{"symbol":"4324","market":"TSE","stock_name":"DENTSU GROUP INC.","growth":-0.31,"dividend":0,"recent_price":3761,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4324"}},"staticQueryHashes":[],"slicesMap":{}}

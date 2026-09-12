@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7182/","result":{"data":{"stockDetail":{"symbol":"7182","market":"TSE","stock_name":"JAPAN POST BANK Co.,Ltd.","growth":-2.38,"dividend":74,"recent_price":3377,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7182"}},"staticQueryHashes":[],"slicesMap":{}}

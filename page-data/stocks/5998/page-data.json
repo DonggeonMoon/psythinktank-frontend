@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5998/","result":{"data":{"stockDetail":{"symbol":"5998","market":"TSE","stock_name":"Advanex Inc.","growth":2.3,"dividend":50,"recent_price":2752,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5998"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9366/","result":{"data":{"stockDetail":{"symbol":"9366","market":"TSE","stock_name":"SANRITSU CORPORATION","growth":1.56,"dividend":38,"recent_price":1123,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9366"}},"staticQueryHashes":[],"slicesMap":{}}

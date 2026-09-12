@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2531/","result":{"data":{"stockDetail":{"symbol":"2531","market":"TSE","stock_name":"TAKARA HOLDINGS INC.","growth":-0.16,"dividend":31,"recent_price":2457.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2531"}},"staticQueryHashes":[],"slicesMap":{}}

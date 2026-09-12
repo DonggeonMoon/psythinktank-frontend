@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2335/","result":{"data":{"stockDetail":{"symbol":"2335","market":"TSE","stock_name":"CUBE SYSTEM INC.","growth":2.18,"dividend":46,"recent_price":1098,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2335"}},"staticQueryHashes":[],"slicesMap":{}}

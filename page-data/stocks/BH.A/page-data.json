@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BH.A/","result":{"data":{"stockDetail":{"symbol":"BH.A","market":"NYSE","stock_name":"Biglari Holdings Inc. Class A Common Stock","growth":-6.94,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BH.A"}},"staticQueryHashes":[],"slicesMap":{}}

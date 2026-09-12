@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1429/","result":{"data":{"stockDetail":{"symbol":"1429","market":"TSE","stock_name":"Nippon Aqua Co.,Ltd.","growth":16.01,"dividend":35,"recent_price":798,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1429"}},"staticQueryHashes":[],"slicesMap":{}}

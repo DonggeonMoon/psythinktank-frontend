@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5946/","result":{"data":{"stockDetail":{"symbol":"5946","market":"TSE","stock_name":"CHOFU SEISAKUSHO CO.,LTD.","growth":-1.1,"dividend":46,"recent_price":2144,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5946"}},"staticQueryHashes":[],"slicesMap":{}}

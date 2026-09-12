@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7291/","result":{"data":{"stockDetail":{"symbol":"7291","market":"TSE","stock_name":"NIHON PLAST CO.,LTD.","growth":-2.58,"dividend":32.5,"recent_price":470,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7291"}},"staticQueryHashes":[],"slicesMap":{}}

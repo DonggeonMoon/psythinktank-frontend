@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3350/","result":{"data":{"stockDetail":{"symbol":"3350","market":"TSE","stock_name":"Metaplanet Inc.","growth":105.88,"dividend":0,"recent_price":293,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3350"}},"staticQueryHashes":[],"slicesMap":{}}

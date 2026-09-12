@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CANC/","result":{"data":{"stockDetail":{"symbol":"CANC","market":"NASDAQ","stock_name":"Tema Oncology ETF","growth":null,"dividend":0,"recent_price":43.09199905395508,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CANC"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9560/","result":{"data":{"stockDetail":{"symbol":"9560","market":"TSE","stock_name":"PROGRIT Inc.","growth":13.88,"dividend":22,"recent_price":920,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9560"}},"staticQueryHashes":[],"slicesMap":{}}

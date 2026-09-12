@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2445/","result":{"data":{"stockDetail":{"symbol":"2445","market":"TSE","stock_name":"Takamiya Co.,Ltd.","growth":-2.95,"dividend":16,"recent_price":402,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2445"}},"staticQueryHashes":[],"slicesMap":{}}

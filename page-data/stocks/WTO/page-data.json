@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/WTO/","result":{"data":{"stockDetail":{"symbol":"WTO","market":"NASDAQ","stock_name":"UTime Limited - Ordinary Shares","growth":-65.66,"dividend":0,"recent_price":null,"basis_date":"2026-07-21"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"WTO"}},"staticQueryHashes":[],"slicesMap":{}}

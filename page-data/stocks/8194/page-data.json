@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8194/","result":{"data":{"stockDetail":{"symbol":"8194","market":"TSE","stock_name":"LIFE CORPORATION","growth":1.56,"dividend":70,"recent_price":2782,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8194"}},"staticQueryHashes":[],"slicesMap":{}}

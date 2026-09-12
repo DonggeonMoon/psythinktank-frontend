@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3420/","result":{"data":{"stockDetail":{"symbol":"3420","market":"TSE","stock_name":"KFC Ltd","growth":3.36,"dividend":70,"recent_price":1588,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3420"}},"staticQueryHashes":[],"slicesMap":{}}

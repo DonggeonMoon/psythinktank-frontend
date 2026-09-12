@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6327/","result":{"data":{"stockDetail":{"symbol":"6327","market":"TSE","stock_name":"KITAGAWA SEIKI CO.,LTD.","growth":-1.95,"dividend":23,"recent_price":3150,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6327"}},"staticQueryHashes":[],"slicesMap":{}}

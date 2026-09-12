@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/NTZ/","result":{"data":{"stockDetail":{"symbol":"NTZ","market":"NYSE","stock_name":"Natuzzi, S.p.A.","growth":-0.37,"dividend":0,"recent_price":null,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"NTZ"}},"staticQueryHashes":[],"slicesMap":{}}

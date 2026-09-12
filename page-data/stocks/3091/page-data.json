@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3091/","result":{"data":{"stockDetail":{"symbol":"3091","market":"TSE","stock_name":"BRONCO BILLY Co.,LTD.","growth":5.8,"dividend":20,"recent_price":2849,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3091"}},"staticQueryHashes":[],"slicesMap":{}}

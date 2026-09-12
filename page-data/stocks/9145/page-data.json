@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9145/","result":{"data":{"stockDetail":{"symbol":"9145","market":"TSE","stock_name":"BEING HOLDINGS CO.,LTD.","growth":5.86,"dividend":15,"recent_price":579,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9145"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BEDZ/","result":{"data":{"stockDetail":{"symbol":"BEDZ","market":"NYSE_ARCA","stock_name":"AdvisorShares Hotel ETF","growth":null,"dividend":0,"recent_price":null,"basis_date":"2026-09-01"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BEDZ"}},"staticQueryHashes":[],"slicesMap":{}}

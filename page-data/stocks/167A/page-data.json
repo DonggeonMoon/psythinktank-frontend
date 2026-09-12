@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/167A/","result":{"data":{"stockDetail":{"symbol":"167A","market":"TSE","stock_name":"Ryoyo Ryosan Holdings,Inc.","growth":-0.3,"dividend":140,"recent_price":3195,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"167A"}},"staticQueryHashes":[],"slicesMap":{}}

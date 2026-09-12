@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/PRA/","result":{"data":{"stockDetail":{"symbol":"PRA","market":"NYSE","stock_name":"ProAssurance Corporation Common Stock","growth":-6.18,"dividend":0,"recent_price":null,"basis_date":"2026-07-14"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"PRA"}},"staticQueryHashes":[],"slicesMap":{}}

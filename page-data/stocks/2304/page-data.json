@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2304/","result":{"data":{"stockDetail":{"symbol":"2304","market":"TSE","stock_name":"CSS HOLDINGS,LTD.","growth":7.17,"dividend":35,"recent_price":913,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2304"}},"staticQueryHashes":[],"slicesMap":{}}

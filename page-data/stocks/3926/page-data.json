@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3926/","result":{"data":{"stockDetail":{"symbol":"3926","market":"TSE","stock_name":"Open Door Inc.","growth":-0.52,"dividend":0,"recent_price":398,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3926"}},"staticQueryHashes":[],"slicesMap":{}}

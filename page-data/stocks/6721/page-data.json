@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6721/","result":{"data":{"stockDetail":{"symbol":"6721","market":"TSE","stock_name":"Wintest Corp.","growth":-5.56,"dividend":0,"recent_price":73,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6721"}},"staticQueryHashes":[],"slicesMap":{}}

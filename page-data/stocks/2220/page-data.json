@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2220/","result":{"data":{"stockDetail":{"symbol":"2220","market":"TSE","stock_name":"KAMEDA SEIKA CO.,LTD.","growth":10.83,"dividend":24,"recent_price":1340,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2220"}},"staticQueryHashes":[],"slicesMap":{}}

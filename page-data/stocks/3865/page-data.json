@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3865/","result":{"data":{"stockDetail":{"symbol":"3865","market":"TSE","stock_name":"Hokuetsu Corporation","growth":0.46,"dividend":26,"recent_price":897,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3865"}},"staticQueryHashes":[],"slicesMap":{}}

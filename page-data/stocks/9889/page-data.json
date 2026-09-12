@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9889/","result":{"data":{"stockDetail":{"symbol":"9889","market":"TSE","stock_name":"JBCC Holdings Inc.","growth":0.75,"dividend":60,"recent_price":1679,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9889"}},"staticQueryHashes":[],"slicesMap":{}}

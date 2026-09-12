@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4704/","result":{"data":{"stockDetail":{"symbol":"4704","market":"TSE","stock_name":"Trend Micro Incorporated","growth":-2.21,"dividend":185,"recent_price":6100,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4704"}},"staticQueryHashes":[],"slicesMap":{}}

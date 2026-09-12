@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7373/","result":{"data":{"stockDetail":{"symbol":"7373","market":"TSE","stock_name":"Aidma Holdings,Inc.","growth":33.64,"dividend":30,"recent_price":948,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7373"}},"staticQueryHashes":[],"slicesMap":{}}

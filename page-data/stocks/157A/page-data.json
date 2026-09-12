@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/157A/","result":{"data":{"stockDetail":{"symbol":"157A","market":"TSE","stock_name":"Green Monster Inc.","growth":-18.6,"dividend":10,"recent_price":762,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"157A"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6265/","result":{"data":{"stockDetail":{"symbol":"6265","market":"TSE","stock_name":"CONVUM Ltd.","growth":3.41,"dividend":80,"recent_price":3040,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6265"}},"staticQueryHashes":[],"slicesMap":{}}

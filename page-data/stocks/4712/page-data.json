@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4712/","result":{"data":{"stockDetail":{"symbol":"4712","market":"TSE","stock_name":"KeyHolder,Inc.","growth":4.26,"dividend":11,"recent_price":829,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4712"}},"staticQueryHashes":[],"slicesMap":{}}

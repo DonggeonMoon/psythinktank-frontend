@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ATI/","result":{"data":{"stockDetail":{"symbol":"ATI","market":"NYSE","stock_name":"ATI Inc. Common Stock","growth":-1.3,"dividend":0,"recent_price":207.32000732421875,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ATI"}},"staticQueryHashes":[],"slicesMap":{}}

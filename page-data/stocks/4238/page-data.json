@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4238/","result":{"data":{"stockDetail":{"symbol":"4238","market":"TSE","stock_name":"Miraial Co.,Ltd.","growth":-0.22,"dividend":50,"recent_price":1846,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4238"}},"staticQueryHashes":[],"slicesMap":{}}

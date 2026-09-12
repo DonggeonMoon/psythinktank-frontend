@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6301/","result":{"data":{"stockDetail":{"symbol":"6301","market":"TSE","stock_name":"KOMATSU LTD.","growth":0.87,"dividend":190,"recent_price":7493,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6301"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/EOCN/","result":{"data":{"stockDetail":{"symbol":"EOCN","market":"NASDAQ","stock_name":"Eocene Ltd. - Ordinary Shares","growth":null,"dividend":null,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"EOCN"}},"staticQueryHashes":[],"slicesMap":{}}

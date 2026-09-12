@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3911/","result":{"data":{"stockDetail":{"symbol":"3911","market":"TSE","stock_name":"Aiming Inc.","growth":-2.55,"dividend":0,"recent_price":184,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3911"}},"staticQueryHashes":[],"slicesMap":{}}

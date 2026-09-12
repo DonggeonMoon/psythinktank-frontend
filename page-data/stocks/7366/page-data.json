@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7366/","result":{"data":{"stockDetail":{"symbol":"7366","market":"TSE","stock_name":"LITALICO Inc.","growth":7.25,"dividend":15,"recent_price":1834,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7366"}},"staticQueryHashes":[],"slicesMap":{}}

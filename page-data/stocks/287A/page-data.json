@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/287A/","result":{"data":{"stockDetail":{"symbol":"287A","market":"TSE","stock_name":"Kuroda Group Co.,Ltd.","growth":4.88,"dividend":63,"recent_price":1157,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"287A"}},"staticQueryHashes":[],"slicesMap":{}}

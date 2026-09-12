@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3199/","result":{"data":{"stockDetail":{"symbol":"3199","market":"TSE","stock_name":"Watahan & Co.,Ltd.","growth":1.24,"dividend":31,"recent_price":1326,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3199"}},"staticQueryHashes":[],"slicesMap":{}}

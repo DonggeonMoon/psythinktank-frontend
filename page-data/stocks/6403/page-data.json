@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6403/","result":{"data":{"stockDetail":{"symbol":"6403","market":"TSE","stock_name":"SUIDO KIKO KAISHA,LTD.","growth":8.26,"dividend":55,"recent_price":null,"basis_date":"2026-06-26"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6403"}},"staticQueryHashes":[],"slicesMap":{}}

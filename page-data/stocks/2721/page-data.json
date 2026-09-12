@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2721/","result":{"data":{"stockDetail":{"symbol":"2721","market":"TSE","stock_name":"J-Holdings Corp.","growth":-8.33,"dividend":0,"recent_price":107,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2721"}},"staticQueryHashes":[],"slicesMap":{}}

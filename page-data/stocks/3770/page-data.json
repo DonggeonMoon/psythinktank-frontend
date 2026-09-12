@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3770/","result":{"data":{"stockDetail":{"symbol":"3770","market":"TSE","stock_name":"ZAPPALLAS,INC.","growth":-11.22,"dividend":0,"recent_price":null,"basis_date":"2025-10-30"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3770"}},"staticQueryHashes":[],"slicesMap":{}}

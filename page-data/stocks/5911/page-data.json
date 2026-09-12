@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5911/","result":{"data":{"stockDetail":{"symbol":"5911","market":"TSE","stock_name":"Yokogawa Bridge Holdings Corp.","growth":32.17,"dividend":125,"recent_price":2987,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5911"}},"staticQueryHashes":[],"slicesMap":{}}

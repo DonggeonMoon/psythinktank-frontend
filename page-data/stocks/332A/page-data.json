@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/332A/","result":{"data":{"stockDetail":{"symbol":"332A","market":"TSE","stock_name":"MEEQ Inc.","growth":0,"dividend":0,"recent_price":1125,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"332A"}},"staticQueryHashes":[],"slicesMap":{}}

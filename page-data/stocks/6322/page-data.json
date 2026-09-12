@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6322/","result":{"data":{"stockDetail":{"symbol":"6322","market":"TSE","stock_name":"TACMINA CORPORATION","growth":-1.22,"dividend":54,"recent_price":1582,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6322"}},"staticQueryHashes":[],"slicesMap":{}}

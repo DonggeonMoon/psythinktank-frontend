@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4370/","result":{"data":{"stockDetail":{"symbol":"4370","market":"TSE","stock_name":"Mobilus Corporation","growth":14.61,"dividend":0,"recent_price":408,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4370"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6197/","result":{"data":{"stockDetail":{"symbol":"6197","market":"TSE","stock_name":"Solasto Corporation","growth":0.17,"dividend":11,"recent_price":null,"basis_date":"2026-08-07"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6197"}},"staticQueryHashes":[],"slicesMap":{}}

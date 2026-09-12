@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8130/","result":{"data":{"stockDetail":{"symbol":"8130","market":"TSE","stock_name":"Sangetsu Corporation","growth":9.93,"dividend":155,"recent_price":3180,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8130"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3059/","result":{"data":{"stockDetail":{"symbol":"3059","market":"TSE","stock_name":"HIRAKI CO.,LTD.","growth":-2.5,"dividend":20,"recent_price":709,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3059"}},"staticQueryHashes":[],"slicesMap":{}}

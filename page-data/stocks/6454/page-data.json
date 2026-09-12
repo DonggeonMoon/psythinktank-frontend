@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6454/","result":{"data":{"stockDetail":{"symbol":"6454","market":"TSE","stock_name":"MAX CO.,LTD.","growth":0.49,"dividend":40,"recent_price":1880,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6454"}},"staticQueryHashes":[],"slicesMap":{}}

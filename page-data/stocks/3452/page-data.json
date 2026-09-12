@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3452/","result":{"data":{"stockDetail":{"symbol":"3452","market":"TSE","stock_name":"B-Lot Company Limited","growth":33.71,"dividend":73,"recent_price":1478,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3452"}},"staticQueryHashes":[],"slicesMap":{}}

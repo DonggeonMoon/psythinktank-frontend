@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3454/","result":{"data":{"stockDetail":{"symbol":"3454","market":"TSE","stock_name":"First Brothers Co.,Ltd.","growth":8.75,"dividend":37,"recent_price":1271,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3454"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6578/","result":{"data":{"stockDetail":{"symbol":"6578","market":"TSE","stock_name":"CORREC HOLDINGS Inc.","growth":-12.68,"dividend":9,"recent_price":482,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6578"}},"staticQueryHashes":[],"slicesMap":{}}

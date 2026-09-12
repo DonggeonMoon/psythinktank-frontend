@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3131/","result":{"data":{"stockDetail":{"symbol":"3131","market":"TSE","stock_name":"SHINDEN HIGHTEX CORPORATION","growth":-6.9,"dividend":135,"recent_price":6630,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3131"}},"staticQueryHashes":[],"slicesMap":{}}

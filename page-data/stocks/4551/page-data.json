@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4551/","result":{"data":{"stockDetail":{"symbol":"4551","market":"TSE","stock_name":"TORII PHARMACEUTICAL CO.,LTD.","growth":1.54,"dividend":0,"recent_price":null,"basis_date":"2025-10-09"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4551"}},"staticQueryHashes":[],"slicesMap":{}}

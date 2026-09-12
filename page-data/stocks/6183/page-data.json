@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6183/","result":{"data":{"stockDetail":{"symbol":"6183","market":"TSE","stock_name":"BELLSYSTEM24 HOLDINGS,INC.","growth":-6.44,"dividend":60,"recent_price":1385,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6183"}},"staticQueryHashes":[],"slicesMap":{}}

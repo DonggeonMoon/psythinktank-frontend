@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7850/","result":{"data":{"stockDetail":{"symbol":"7850","market":"TSE","stock_name":"SOUGOU SHOUKEN CO.,LTD.","growth":0,"dividend":20,"recent_price":809,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7850"}},"staticQueryHashes":[],"slicesMap":{}}

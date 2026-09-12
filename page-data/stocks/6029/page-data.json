@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6029/","result":{"data":{"stockDetail":{"symbol":"6029","market":"TSE","stock_name":"Artra Group Corporation","growth":-7.75,"dividend":0,"recent_price":185,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6029"}},"staticQueryHashes":[],"slicesMap":{}}

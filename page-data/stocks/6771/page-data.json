@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6771/","result":{"data":{"stockDetail":{"symbol":"6771","market":"TSE","stock_name":"IKEGAMI TSUSHINKI CO.,LTD.","growth":-4.68,"dividend":15,"recent_price":660,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6771"}},"staticQueryHashes":[],"slicesMap":{}}

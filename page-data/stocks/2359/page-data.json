@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2359/","result":{"data":{"stockDetail":{"symbol":"2359","market":"TSE","stock_name":"CORE CORPORATION","growth":10.23,"dividend":65,"recent_price":2144,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2359"}},"staticQueryHashes":[],"slicesMap":{}}

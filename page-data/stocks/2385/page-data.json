@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2385/","result":{"data":{"stockDetail":{"symbol":"2385","market":"TSE","stock_name":"Soiken Holdings Inc.","growth":0,"dividend":10,"recent_price":220,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2385"}},"staticQueryHashes":[],"slicesMap":{}}

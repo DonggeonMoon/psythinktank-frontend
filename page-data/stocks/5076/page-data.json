@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5076/","result":{"data":{"stockDetail":{"symbol":"5076","market":"TSE","stock_name":"INFRONEER Holdings Inc.","growth":71.33,"dividend":132,"recent_price":2739,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5076"}},"staticQueryHashes":[],"slicesMap":{}}

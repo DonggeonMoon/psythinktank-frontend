@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3439/","result":{"data":{"stockDetail":{"symbol":"3439","market":"TSE","stock_name":"Mitsuchi Corporation","growth":-5.06,"dividend":20,"recent_price":674,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3439"}},"staticQueryHashes":[],"slicesMap":{}}

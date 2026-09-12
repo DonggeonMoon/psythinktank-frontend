@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3928/","result":{"data":{"stockDetail":{"symbol":"3928","market":"TSE","stock_name":"Mynet Inc.","growth":0.77,"dividend":0,"recent_price":235,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3928"}},"staticQueryHashes":[],"slicesMap":{}}

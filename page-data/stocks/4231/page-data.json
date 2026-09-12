@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4231/","result":{"data":{"stockDetail":{"symbol":"4231","market":"TSE","stock_name":"TIGERS POLYMER CORPORATION","growth":-5.75,"dividend":38,"recent_price":1056,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4231"}},"staticQueryHashes":[],"slicesMap":{}}

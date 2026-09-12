@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ACLX/","result":{"data":{"stockDetail":{"symbol":"ACLX","market":"NASDAQ","stock_name":"Arcellx, Inc. - Common Stock","growth":28.22,"dividend":0,"recent_price":null,"basis_date":"2026-04-30"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ACLX"}},"staticQueryHashes":[],"slicesMap":{}}

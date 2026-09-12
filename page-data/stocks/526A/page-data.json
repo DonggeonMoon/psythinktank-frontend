@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/526A/","result":{"data":{"stockDetail":{"symbol":"526A","market":"TSE","stock_name":"JPX Startup100 ETF","growth":null,"dividend":0,"recent_price":2316,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"526A"}},"staticQueryHashes":[],"slicesMap":{}}

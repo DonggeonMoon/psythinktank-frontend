@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5834/","result":{"data":{"stockDetail":{"symbol":"5834","market":"TSE","stock_name":"SBI Leasing Services Co.,Ltd.","growth":13.79,"dividend":115,"recent_price":2776,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5834"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/378A/","result":{"data":{"stockDetail":{"symbol":"378A","market":"TSE","stock_name":"Hit Co.,Ltd.","growth":7.23,"dividend":8.75,"recent_price":951,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"378A"}},"staticQueryHashes":[],"slicesMap":{}}

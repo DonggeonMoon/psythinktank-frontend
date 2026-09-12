@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9380/","result":{"data":{"stockDetail":{"symbol":"9380","market":"TSE","stock_name":"Azuma Shipping Co.,Ltd.","growth":-1.18,"dividend":9,"recent_price":437,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9380"}},"staticQueryHashes":[],"slicesMap":{}}

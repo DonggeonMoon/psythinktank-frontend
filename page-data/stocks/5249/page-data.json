@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5249/","result":{"data":{"stockDetail":{"symbol":"5249","market":"TSE","stock_name":"Asakawa Systems Co.,Ltd.","growth":null,"dividend":0,"recent_price":1253,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5249"}},"staticQueryHashes":[],"slicesMap":{}}

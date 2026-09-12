@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4718/","result":{"data":{"stockDetail":{"symbol":"4718","market":"TSE","stock_name":"WASEDA ACADEMY CO.,LTD.","growth":0.54,"dividend":75,"recent_price":2649,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4718"}},"staticQueryHashes":[],"slicesMap":{}}

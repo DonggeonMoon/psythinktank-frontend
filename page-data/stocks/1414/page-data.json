@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1414/","result":{"data":{"stockDetail":{"symbol":"1414","market":"TSE","stock_name":"SHO-BOND Holdings Co.,Ltd.","growth":3.14,"dividend":46.5,"recent_price":1262.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1414"}},"staticQueryHashes":[],"slicesMap":{}}

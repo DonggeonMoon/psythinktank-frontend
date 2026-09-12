@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6239/","result":{"data":{"stockDetail":{"symbol":"6239","market":"TSE","stock_name":"NAGAOKA INTERNATIONAL CORPORATION","growth":1.83,"dividend":35,"recent_price":1503,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6239"}},"staticQueryHashes":[],"slicesMap":{}}

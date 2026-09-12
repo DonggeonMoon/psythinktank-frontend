@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2321/","result":{"data":{"stockDetail":{"symbol":"2321","market":"TSE","stock_name":"Softfront Holdings","growth":8.33,"dividend":0,"recent_price":144,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2321"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6058/","result":{"data":{"stockDetail":{"symbol":"6058","market":"TSE","stock_name":"VECTOR INC.","growth":-4.79,"dividend":36,"recent_price":2021,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6058"}},"staticQueryHashes":[],"slicesMap":{}}

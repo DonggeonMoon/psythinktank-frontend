@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/141A/","result":{"data":{"stockDetail":{"symbol":"141A","market":"TSE","stock_name":"TRIAL Holdings,Inc.","growth":8.44,"dividend":17,"recent_price":4155,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"141A"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7927/","result":{"data":{"stockDetail":{"symbol":"7927","market":"TSE","stock_name":"MUTO SEIKO CO.","growth":-4.09,"dividend":143,"recent_price":2282,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7927"}},"staticQueryHashes":[],"slicesMap":{}}

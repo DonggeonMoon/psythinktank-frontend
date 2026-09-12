@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/444A/","result":{"data":{"stockDetail":{"symbol":"444A","market":"TSE","stock_name":"Aitel Co.,Ltd.","growth":null,"dividend":94,"recent_price":1945,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"444A"}},"staticQueryHashes":[],"slicesMap":{}}

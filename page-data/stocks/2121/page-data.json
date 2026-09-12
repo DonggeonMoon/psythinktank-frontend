@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2121/","result":{"data":{"stockDetail":{"symbol":"2121","market":"TSE","stock_name":"MIXI,Inc.","growth":23.24,"dividend":155,"recent_price":3655,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2121"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4242/","result":{"data":{"stockDetail":{"symbol":"4242","market":"TSE","stock_name":"TAKAGI SEIKO CORPORATION","growth":-20.98,"dividend":60,"recent_price":1782,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4242"}},"staticQueryHashes":[],"slicesMap":{}}

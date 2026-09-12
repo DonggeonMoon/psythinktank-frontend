@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9339/","result":{"data":{"stockDetail":{"symbol":"9339","market":"TSE","stock_name":"COACH A Co.,Ltd.","growth":-11.56,"dividend":20,"recent_price":1430,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9339"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3612/","result":{"data":{"stockDetail":{"symbol":"3612","market":"TSE","stock_name":"WORLD CO.,LTD.","growth":-1.81,"dividend":67,"recent_price":1612,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3612"}},"staticQueryHashes":[],"slicesMap":{}}

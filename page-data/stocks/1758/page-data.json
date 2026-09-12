@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1758/","result":{"data":{"stockDetail":{"symbol":"1758","market":"TSE","stock_name":"Taiyo Kisokogyo Co.,Ltd.","growth":0.45,"dividend":60,"recent_price":2550,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1758"}},"staticQueryHashes":[],"slicesMap":{}}

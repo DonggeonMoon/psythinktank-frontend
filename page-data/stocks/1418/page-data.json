@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1418/","result":{"data":{"stockDetail":{"symbol":"1418","market":"TSE","stock_name":"INTERLIFE HOLDINGS CO.,LTD.","growth":-6.67,"dividend":30,"recent_price":580,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1418"}},"staticQueryHashes":[],"slicesMap":{}}

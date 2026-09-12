@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9249/","result":{"data":{"stockDetail":{"symbol":"9249","market":"TSE","stock_name":"Japan Ecosystem Co.,Ltd.","growth":55.43,"dividend":18,"recent_price":1676,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9249"}},"staticQueryHashes":[],"slicesMap":{}}

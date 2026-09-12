@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3842/","result":{"data":{"stockDetail":{"symbol":"3842","market":"TSE","stock_name":"Nextgen,Inc.","growth":2.07,"dividend":20,"recent_price":1052,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3842"}},"staticQueryHashes":[],"slicesMap":{}}

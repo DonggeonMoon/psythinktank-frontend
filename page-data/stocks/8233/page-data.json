@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8233/","result":{"data":{"stockDetail":{"symbol":"8233","market":"TSE","stock_name":"Takashimaya Company,Limited","growth":-0.85,"dividend":40,"recent_price":2227,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8233"}},"staticQueryHashes":[],"slicesMap":{}}

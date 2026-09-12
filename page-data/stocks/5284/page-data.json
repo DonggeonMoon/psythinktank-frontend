@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5284/","result":{"data":{"stockDetail":{"symbol":"5284","market":"TSE","stock_name":"YAMAU HOLDINGS CO.,LTD.","growth":0.62,"dividend":112,"recent_price":2248,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5284"}},"staticQueryHashes":[],"slicesMap":{}}

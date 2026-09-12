@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6370/","result":{"data":{"stockDetail":{"symbol":"6370","market":"TSE","stock_name":"Kurita Water Industries Ltd.","growth":1.44,"dividend":123,"recent_price":7833,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6370"}},"staticQueryHashes":[],"slicesMap":{}}

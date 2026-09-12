@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/505A/","result":{"data":{"stockDetail":{"symbol":"505A","market":"TSE","stock_name":"Geekly,Inc.","growth":null,"dividend":32,"recent_price":1435,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"505A"}},"staticQueryHashes":[],"slicesMap":{}}

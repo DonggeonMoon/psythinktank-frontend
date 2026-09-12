@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7550/","result":{"data":{"stockDetail":{"symbol":"7550","market":"TSE","stock_name":"ZENSHO HOLDINGS CO.,LTD.","growth":10.05,"dividend":80,"recent_price":11955,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7550"}},"staticQueryHashes":[],"slicesMap":{}}

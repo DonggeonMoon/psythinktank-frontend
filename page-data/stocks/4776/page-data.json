@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4776/","result":{"data":{"stockDetail":{"symbol":"4776","market":"TSE","stock_name":"Cybozu,Inc.","growth":2.65,"dividend":50,"recent_price":3140,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4776"}},"staticQueryHashes":[],"slicesMap":{}}

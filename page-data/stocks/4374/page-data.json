@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4374/","result":{"data":{"stockDetail":{"symbol":"4374","market":"TSE","stock_name":"ROBOT PAYMENT INC.","growth":9.38,"dividend":31,"recent_price":2443,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4374"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1786/","result":{"data":{"stockDetail":{"symbol":"1786","market":"TSE","stock_name":"Oriental Shiraishi Corporation","growth":1.83,"dividend":14.5,"recent_price":360,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1786"}},"staticQueryHashes":[],"slicesMap":{}}

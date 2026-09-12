@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3402/","result":{"data":{"stockDetail":{"symbol":"3402","market":"TSE","stock_name":"TORAY INDUSTRIES,INC.","growth":-3.38,"dividend":23,"recent_price":1244.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3402"}},"staticQueryHashes":[],"slicesMap":{}}

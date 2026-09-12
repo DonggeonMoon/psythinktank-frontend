@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3854/","result":{"data":{"stockDetail":{"symbol":"3854","market":"TSE","stock_name":"I'LL INC","growth":7.57,"dividend":68,"recent_price":2441,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3854"}},"staticQueryHashes":[],"slicesMap":{}}

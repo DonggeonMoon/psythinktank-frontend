@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6482/","result":{"data":{"stockDetail":{"symbol":"6482","market":"TSE","stock_name":"Yushin Company","growth":0.38,"dividend":20,"recent_price":728,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6482"}},"staticQueryHashes":[],"slicesMap":{}}

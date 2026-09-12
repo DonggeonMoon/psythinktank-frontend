@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4685/","result":{"data":{"stockDetail":{"symbol":"4685","market":"TSE","stock_name":"Ryoyu Systems Co.,Ltd.","growth":-0.55,"dividend":100,"recent_price":2700,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4685"}},"staticQueryHashes":[],"slicesMap":{}}

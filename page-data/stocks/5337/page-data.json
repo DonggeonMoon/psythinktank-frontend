@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5337/","result":{"data":{"stockDetail":{"symbol":"5337","market":"TSE","stock_name":"DANTO HOLDINGS CORPORATION","growth":-12.7,"dividend":0,"recent_price":833,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5337"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2175/","result":{"data":{"stockDetail":{"symbol":"2175","market":"TSE","stock_name":"SMS CO.,LTD.","growth":2.92,"dividend":30.5,"recent_price":2518,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2175"}},"staticQueryHashes":[],"slicesMap":{}}

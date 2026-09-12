@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/300A/","result":{"data":{"stockDetail":{"symbol":"300A","market":"TSE","stock_name":"MIC Co.,Ltd.","growth":1.98,"dividend":70,"recent_price":3195,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"300A"}},"staticQueryHashes":[],"slicesMap":{}}

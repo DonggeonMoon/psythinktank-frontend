@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2780/","result":{"data":{"stockDetail":{"symbol":"2780","market":"TSE","stock_name":"Komehyo Holdings Co.,Ltd.","growth":10.55,"dividend":108,"recent_price":4800,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2780"}},"staticQueryHashes":[],"slicesMap":{}}

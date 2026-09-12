@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5930/","result":{"data":{"stockDetail":{"symbol":"5930","market":"TSE","stock_name":"Bunka Shutter Co.,Ltd.","growth":3.3,"dividend":74,"recent_price":1907,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5930"}},"staticQueryHashes":[],"slicesMap":{}}

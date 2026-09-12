@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8151/","result":{"data":{"stockDetail":{"symbol":"8151","market":"TSE","stock_name":"TOYO Corporation","growth":0.46,"dividend":70,"recent_price":1871,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8151"}},"staticQueryHashes":[],"slicesMap":{}}

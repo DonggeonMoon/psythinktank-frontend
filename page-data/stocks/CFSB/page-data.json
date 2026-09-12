@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CFSB/","result":{"data":{"stockDetail":{"symbol":"CFSB","market":"NASDAQ","stock_name":"CFSB Bancorp, Inc. - Common Stock","growth":3.7,"dividend":0,"recent_price":null,"basis_date":"2025-11-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CFSB"}},"staticQueryHashes":[],"slicesMap":{}}

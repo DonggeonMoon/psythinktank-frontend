@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7902/","result":{"data":{"stockDetail":{"symbol":"7902","market":"TSE","stock_name":"SONOCOM CO.,LTD.","growth":0,"dividend":13,"recent_price":1130,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7902"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5707/","result":{"data":{"stockDetail":{"symbol":"5707","market":"TSE","stock_name":"Toho Zinc Co.,Ltd.","growth":-15.54,"dividend":0,"recent_price":1013,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5707"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8604/","result":{"data":{"stockDetail":{"symbol":"8604","market":"TSE","stock_name":"Nomura Holdings, Inc.","growth":5.27,"dividend":51,"recent_price":1669,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8604"}},"staticQueryHashes":[],"slicesMap":{}}

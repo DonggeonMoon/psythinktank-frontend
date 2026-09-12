@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4689/","result":{"data":{"stockDetail":{"symbol":"4689","market":"TSE","stock_name":"LY Corporation","growth":10.59,"dividend":11,"recent_price":531.0999755859375,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4689"}},"staticQueryHashes":[],"slicesMap":{}}

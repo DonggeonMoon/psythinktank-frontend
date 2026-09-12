@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/YUM/","result":{"data":{"stockDetail":{"symbol":"YUM","market":"NYSE","stock_name":"Yum! Brands, Inc.","growth":22.5,"dividend":3,"recent_price":148.75999450683594,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"YUM"}},"staticQueryHashes":[],"slicesMap":{}}

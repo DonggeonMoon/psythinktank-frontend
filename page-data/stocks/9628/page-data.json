@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9628/","result":{"data":{"stockDetail":{"symbol":"9628","market":"TSE","stock_name":"SAN HOLDINGS,INC.","growth":62.62,"dividend":40.24,"recent_price":1330,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9628"}},"staticQueryHashes":[],"slicesMap":{}}

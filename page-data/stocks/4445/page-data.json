@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4445/","result":{"data":{"stockDetail":{"symbol":"4445","market":"TSE","stock_name":"Living Technologies Inc.","growth":-14.71,"dividend":0,"recent_price":1949,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4445"}},"staticQueryHashes":[],"slicesMap":{}}

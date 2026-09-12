@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7292/","result":{"data":{"stockDetail":{"symbol":"7292","market":"TSE","stock_name":"MURAKAMI CORPORATION","growth":-1.71,"dividend":240,"recent_price":6860,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7292"}},"staticQueryHashes":[],"slicesMap":{}}

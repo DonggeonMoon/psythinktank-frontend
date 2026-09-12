@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6190/","result":{"data":{"stockDetail":{"symbol":"6190","market":"TSE","stock_name":"PhoenixBio Co.,Ltd.","growth":-20.29,"dividend":0,"recent_price":333,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6190"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6787/","result":{"data":{"stockDetail":{"symbol":"6787","market":"TSE","stock_name":"Meiko Electronics Co.,Ltd.","growth":12.8,"dividend":160,"recent_price":18670,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6787"}},"staticQueryHashes":[],"slicesMap":{}}

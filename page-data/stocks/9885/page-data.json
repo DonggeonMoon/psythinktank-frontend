@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9885/","result":{"data":{"stockDetail":{"symbol":"9885","market":"TSE","stock_name":"CHARLE CO.,LTD.","growth":30.49,"dividend":8,"recent_price":336,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9885"}},"staticQueryHashes":[],"slicesMap":{}}

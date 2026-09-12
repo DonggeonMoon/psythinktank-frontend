@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6580/","result":{"data":{"stockDetail":{"symbol":"6580","market":"TSE","stock_name":"Writeup Co.,Ltd.","growth":-6.62,"dividend":19,"recent_price":888,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6580"}},"staticQueryHashes":[],"slicesMap":{}}

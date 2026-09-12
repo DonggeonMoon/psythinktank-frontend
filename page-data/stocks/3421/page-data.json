@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3421/","result":{"data":{"stockDetail":{"symbol":"3421","market":"TSE","stock_name":"INABA SEISAKUSHO Co.,Ltd.","growth":-1.2,"dividend":44,"recent_price":1737,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3421"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9301/","result":{"data":{"stockDetail":{"symbol":"9301","market":"TSE","stock_name":"Mitsubishi Logistics Corporation","growth":-0.26,"dividend":44,"recent_price":1540,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9301"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5702/","result":{"data":{"stockDetail":{"symbol":"5702","market":"TSE","stock_name":"DAIKI ALUMINIUM INDUSTRY CO.,LTD.","growth":-1.32,"dividend":90,"recent_price":1852,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5702"}},"staticQueryHashes":[],"slicesMap":{}}

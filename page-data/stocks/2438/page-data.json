@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2438/","result":{"data":{"stockDetail":{"symbol":"2438","market":"TSE","stock_name":"Asukanet Company,Limited","growth":4.65,"dividend":7,"recent_price":364,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2438"}},"staticQueryHashes":[],"slicesMap":{}}

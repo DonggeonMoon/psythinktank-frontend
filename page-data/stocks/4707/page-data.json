@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4707/","result":{"data":{"stockDetail":{"symbol":"4707","market":"TSE","stock_name":"KITAC CORPORATION","growth":3.14,"dividend":7,"recent_price":340,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4707"}},"staticQueryHashes":[],"slicesMap":{}}

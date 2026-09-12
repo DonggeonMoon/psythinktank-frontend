@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ACFN/","result":{"data":{"stockDetail":{"symbol":"ACFN","market":"NASDAQ","stock_name":"Acorn Energy, Inc. - Common Stock","growth":3.85,"dividend":0,"recent_price":19.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ACFN"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1695/","result":{"data":{"stockDetail":{"symbol":"1695","market":"TSE","stock_name":"WisdomTree Wheat","growth":null,"dividend":0,"recent_price":3650,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1695"}},"staticQueryHashes":[],"slicesMap":{}}

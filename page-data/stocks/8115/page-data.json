@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8115/","result":{"data":{"stockDetail":{"symbol":"8115","market":"TSE","stock_name":"MOONBAT Co.,Ltd.","growth":3.4,"dividend":54,"recent_price":1312,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8115"}},"staticQueryHashes":[],"slicesMap":{}}

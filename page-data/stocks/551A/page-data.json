@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/551A/","result":{"data":{"stockDetail":{"symbol":"551A","market":"TSE","stock_name":"IZUMI group Inc.","growth":null,"dividend":0,"recent_price":811,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"551A"}},"staticQueryHashes":[],"slicesMap":{}}

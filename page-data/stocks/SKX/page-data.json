@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SKX/","result":{"data":{"stockDetail":{"symbol":"SKX","market":"NYSE","stock_name":"Skechers U.S.A., Inc. Common Stock","growth":12.29,"dividend":0,"recent_price":null,"basis_date":"2025-10-15"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SKX"}},"staticQueryHashes":[],"slicesMap":{}}

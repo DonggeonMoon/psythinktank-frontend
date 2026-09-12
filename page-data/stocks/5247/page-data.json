@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5247/","result":{"data":{"stockDetail":{"symbol":"5247","market":"TSE","stock_name":"BTM,Inc.","growth":-0.58,"dividend":0,"recent_price":570,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5247"}},"staticQueryHashes":[],"slicesMap":{}}

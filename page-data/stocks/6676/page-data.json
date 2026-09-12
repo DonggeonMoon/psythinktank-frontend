@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6676/","result":{"data":{"stockDetail":{"symbol":"6676","market":"TSE","stock_name":"BUFFALO INC.","growth":-5.59,"dividend":60,"recent_price":3070,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6676"}},"staticQueryHashes":[],"slicesMap":{}}

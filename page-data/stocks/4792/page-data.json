@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4792/","result":{"data":{"stockDetail":{"symbol":"4792","market":"TSE","stock_name":"YAMADA Consulting Group Co.,Ltd.","growth":5.97,"dividend":77,"recent_price":1784,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4792"}},"staticQueryHashes":[],"slicesMap":{}}

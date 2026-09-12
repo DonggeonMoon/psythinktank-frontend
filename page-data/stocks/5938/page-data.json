@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5938/","result":{"data":{"stockDetail":{"symbol":"5938","market":"TSE","stock_name":"LIXIL Corporation","growth":-1.21,"dividend":90,"recent_price":1758.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5938"}},"staticQueryHashes":[],"slicesMap":{}}

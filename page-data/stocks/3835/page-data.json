@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3835/","result":{"data":{"stockDetail":{"symbol":"3835","market":"TSE","stock_name":"eBASE Co.,Ltd.","growth":0.42,"dividend":12.2,"recent_price":437,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3835"}},"staticQueryHashes":[],"slicesMap":{}}

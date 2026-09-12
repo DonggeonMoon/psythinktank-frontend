@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1799/","result":{"data":{"stockDetail":{"symbol":"1799","market":"TSE","stock_name":"DAIICHI KENSETSU CORPORATION","growth":null,"dividend":160,"recent_price":3280,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1799"}},"staticQueryHashes":[],"slicesMap":{}}

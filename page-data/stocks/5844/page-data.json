@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5844/","result":{"data":{"stockDetail":{"symbol":"5844","market":"TSE","stock_name":"Kyoto Financial Group,Inc.","growth":2.68,"dividend":105,"recent_price":4961,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5844"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5013/","result":{"data":{"stockDetail":{"symbol":"5013","market":"TSE","stock_name":"Yushiro Inc.","growth":-11.04,"dividend":122,"recent_price":2892,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5013"}},"staticQueryHashes":[],"slicesMap":{}}

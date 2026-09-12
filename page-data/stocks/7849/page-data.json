@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7849/","result":{"data":{"stockDetail":{"symbol":"7849","market":"TSE","stock_name":"Starts Publishing Corporation","growth":2.13,"dividend":15,"recent_price":3080,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7849"}},"staticQueryHashes":[],"slicesMap":{}}

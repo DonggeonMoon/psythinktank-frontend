@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7185/","result":{"data":{"stockDetail":{"symbol":"7185","market":"TSE","stock_name":"Hirose Tusyo Inc.","growth":6.9,"dividend":39,"recent_price":3925,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7185"}},"staticQueryHashes":[],"slicesMap":{}}

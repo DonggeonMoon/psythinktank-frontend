@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2226/","result":{"data":{"stockDetail":{"symbol":"2226","market":"TSE","stock_name":"KOIKE-YA Inc.","growth":5.59,"dividend":55,"recent_price":4890,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2226"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9059/","result":{"data":{"stockDetail":{"symbol":"9059","market":"TSE","stock_name":"Kanda Holdings Co.,Ltd.","growth":1.33,"dividend":26,"recent_price":922,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9059"}},"staticQueryHashes":[],"slicesMap":{}}

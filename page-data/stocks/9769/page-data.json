@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9769/","result":{"data":{"stockDetail":{"symbol":"9769","market":"TSE","stock_name":"GAKKYUSHA CO.,LTD.","growth":-7.41,"dividend":127,"recent_price":2601,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9769"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2914/","result":{"data":{"stockDetail":{"symbol":"2914","market":"TSE","stock_name":"JAPAN TOBACCO INC.","growth":-1.35,"dividend":272,"recent_price":6803,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2914"}},"staticQueryHashes":[],"slicesMap":{}}

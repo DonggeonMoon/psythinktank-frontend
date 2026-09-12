@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3496/","result":{"data":{"stockDetail":{"symbol":"3496","market":"TSE","stock_name":"AZOOM CO.,LTD","growth":18.49,"dividend":126,"recent_price":4730,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3496"}},"staticQueryHashes":[],"slicesMap":{}}

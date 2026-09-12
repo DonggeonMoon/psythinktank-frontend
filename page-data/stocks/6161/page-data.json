@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6161/","result":{"data":{"stockDetail":{"symbol":"6161","market":"TSE","stock_name":"ESTIC CORPORATION","growth":-0.87,"dividend":31,"recent_price":1059,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6161"}},"staticQueryHashes":[],"slicesMap":{}}

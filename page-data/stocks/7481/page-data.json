@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7481/","result":{"data":{"stockDetail":{"symbol":"7481","market":"TSE","stock_name":"OIE SANGYO CO.,LTD.","growth":4.18,"dividend":104,"recent_price":2591,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7481"}},"staticQueryHashes":[],"slicesMap":{}}

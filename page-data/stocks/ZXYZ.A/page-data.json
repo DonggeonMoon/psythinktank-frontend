@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ZXYZ.A/","result":{"data":{"stockDetail":{"symbol":"ZXYZ.A","market":"NASDAQ","stock_name":"Nasdaq Symbology Test Common Stock","growth":null,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ZXYZ.A"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4554/","result":{"data":{"stockDetail":{"symbol":"4554","market":"TSE","stock_name":"Fuji Pharma Co.,Ltd.","growth":6.15,"dividend":49,"recent_price":1762,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4554"}},"staticQueryHashes":[],"slicesMap":{}}

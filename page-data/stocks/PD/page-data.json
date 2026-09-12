@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/PD/","result":{"data":{"stockDetail":{"symbol":"PD","market":"NYSE","stock_name":"PagerDuty, Inc. Common Stock","growth":-7,"dividend":0,"recent_price":13.319999694824219,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"PD"}},"staticQueryHashes":[],"slicesMap":{}}

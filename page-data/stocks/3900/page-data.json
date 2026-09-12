@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3900/","result":{"data":{"stockDetail":{"symbol":"3900","market":"TSE","stock_name":"CrowdWorks Inc.","growth":57.35,"dividend":0,"recent_price":653,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3900"}},"staticQueryHashes":[],"slicesMap":{}}

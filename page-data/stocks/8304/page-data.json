@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8304/","result":{"data":{"stockDetail":{"symbol":"8304","market":"TSE","stock_name":"Aozora Bank,Ltd.","growth":1.53,"dividend":100,"recent_price":3405,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8304"}},"staticQueryHashes":[],"slicesMap":{}}

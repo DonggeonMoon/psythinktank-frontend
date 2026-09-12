@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1934/","result":{"data":{"stockDetail":{"symbol":"1934","market":"TSE","stock_name":"YURTEC CORPORATION","growth":-0.39,"dividend":78,"recent_price":2590,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1934"}},"staticQueryHashes":[],"slicesMap":{}}

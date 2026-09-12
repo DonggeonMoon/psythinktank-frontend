@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2751/","result":{"data":{"stockDetail":{"symbol":"2751","market":"TSE","stock_name":"TENPOS HOLDINGS Co.,Ltd.","growth":35.48,"dividend":9,"recent_price":3790,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2751"}},"staticQueryHashes":[],"slicesMap":{}}

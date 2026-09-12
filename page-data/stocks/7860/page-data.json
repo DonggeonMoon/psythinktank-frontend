@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7860/","result":{"data":{"stockDetail":{"symbol":"7860","market":"TSE","stock_name":"Avex Inc.","growth":-5.83,"dividend":50,"recent_price":1277,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7860"}},"staticQueryHashes":[],"slicesMap":{}}

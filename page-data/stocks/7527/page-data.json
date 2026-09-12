@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7527/","result":{"data":{"stockDetail":{"symbol":"7527","market":"TSE","stock_name":"SystemSoft Corporation","growth":-12.12,"dividend":0,"recent_price":55,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7527"}},"staticQueryHashes":[],"slicesMap":{}}

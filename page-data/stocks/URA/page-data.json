@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/URA/","result":{"data":{"stockDetail":{"symbol":"URA","market":"NYSE_ARCA","stock_name":"Global X Uranium ETF","growth":null,"dividend":0,"recent_price":47.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"URA"}},"staticQueryHashes":[],"slicesMap":{}}

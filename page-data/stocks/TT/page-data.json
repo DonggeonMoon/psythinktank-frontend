@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/TT/","result":{"data":{"stockDetail":{"symbol":"TT","market":"NYSE","stock_name":"Trane Technologies plc","growth":-2.22,"dividend":4.2,"recent_price":446,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"TT"}},"staticQueryHashes":[],"slicesMap":{}}

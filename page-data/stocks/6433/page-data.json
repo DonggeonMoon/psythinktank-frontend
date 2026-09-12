@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6433/","result":{"data":{"stockDetail":{"symbol":"6433","market":"TSE","stock_name":"HEPHAIST CO.,LTD.","growth":-12.5,"dividend":2,"recent_price":1081,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6433"}},"staticQueryHashes":[],"slicesMap":{}}

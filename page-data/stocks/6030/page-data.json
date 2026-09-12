@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6030/","result":{"data":{"stockDetail":{"symbol":"6030","market":"TSE","stock_name":"Adventure,Inc.","growth":38.27,"dividend":15,"recent_price":1601,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6030"}},"staticQueryHashes":[],"slicesMap":{}}

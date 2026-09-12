@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1911/","result":{"data":{"stockDetail":{"symbol":"1911","market":"TSE","stock_name":"Sumitomo Forestry Co.,Ltd.","growth":3.26,"dividend":50,"recent_price":1300.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1911"}},"staticQueryHashes":[],"slicesMap":{}}

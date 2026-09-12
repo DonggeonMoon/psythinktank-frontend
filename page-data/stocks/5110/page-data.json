@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5110/","result":{"data":{"stockDetail":{"symbol":"5110","market":"TSE","stock_name":"Sumitomo Rubber Industries,Ltd.","growth":-0.85,"dividend":84,"recent_price":2099,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5110"}},"staticQueryHashes":[],"slicesMap":{}}

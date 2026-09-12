@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ALE/","result":{"data":{"stockDetail":{"symbol":"ALE","market":"NYSE","stock_name":"Allete, Inc.","growth":3.59,"dividend":2.92,"recent_price":null,"basis_date":"2025-12-16"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ALE"}},"staticQueryHashes":[],"slicesMap":{}}

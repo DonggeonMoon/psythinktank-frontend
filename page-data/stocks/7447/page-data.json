@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7447/","result":{"data":{"stockDetail":{"symbol":"7447","market":"TSE","stock_name":"NAGAILEBEN Co.,Ltd.","growth":0.2,"dividend":70,"recent_price":1690,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7447"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9733/","result":{"data":{"stockDetail":{"symbol":"9733","market":"TSE","stock_name":"Nagase Brothers Inc.","growth":1.31,"dividend":210,"recent_price":2336,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9733"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2516/","result":{"data":{"stockDetail":{"symbol":"2516","market":"TSE","stock_name":"TSE Growth 250 ETF","growth":null,"dividend":0,"recent_price":632.4000244140625,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2516"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7599/","result":{"data":{"stockDetail":{"symbol":"7599","market":"TSE","stock_name":"IDOM Inc.","growth":5.89,"dividend":42.43,"recent_price":1253,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7599"}},"staticQueryHashes":[],"slicesMap":{}}

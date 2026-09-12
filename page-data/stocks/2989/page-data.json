@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2989/","result":{"data":{"stockDetail":{"symbol":"2989","market":"TSE","stock_name":"Tokaido REIT,Inc.","growth":null,"dividend":6,"recent_price":95100,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2989"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6877/","result":{"data":{"stockDetail":{"symbol":"6877","market":"TSE","stock_name":"Obara Group Incorporated","growth":12.57,"dividend":150,"recent_price":5470,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6877"}},"staticQueryHashes":[],"slicesMap":{}}

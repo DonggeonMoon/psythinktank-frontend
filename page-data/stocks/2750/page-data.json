@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2750/","result":{"data":{"stockDetail":{"symbol":"2750","market":"TSE","stock_name":"S.ISHIMITSU&CO.,LTD.","growth":-3.45,"dividend":50,"recent_price":1358,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2750"}},"staticQueryHashes":[],"slicesMap":{}}

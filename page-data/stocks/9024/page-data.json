@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9024/","result":{"data":{"stockDetail":{"symbol":"9024","market":"TSE","stock_name":"SEIBU HOLDINGS INC.","growth":2.69,"dividend":43,"recent_price":3515,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9024"}},"staticQueryHashes":[],"slicesMap":{}}

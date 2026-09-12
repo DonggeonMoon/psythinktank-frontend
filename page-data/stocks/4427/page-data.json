@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4427/","result":{"data":{"stockDetail":{"symbol":"4427","market":"TSE","stock_name":"EduLab,Inc.","growth":-9.38,"dividend":0,"recent_price":226,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4427"}},"staticQueryHashes":[],"slicesMap":{}}

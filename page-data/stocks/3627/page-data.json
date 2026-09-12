@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3627/","result":{"data":{"stockDetail":{"symbol":"3627","market":"TSE","stock_name":"TECMIRA HOLDINGS INC.","growth":-8.24,"dividend":5,"recent_price":265,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3627"}},"staticQueryHashes":[],"slicesMap":{}}

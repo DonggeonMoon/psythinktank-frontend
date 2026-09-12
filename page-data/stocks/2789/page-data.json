@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2789/","result":{"data":{"stockDetail":{"symbol":"2789","market":"TSE","stock_name":"Karula Co.,LTD.","growth":-3.1,"dividend":5,"recent_price":477,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2789"}},"staticQueryHashes":[],"slicesMap":{}}

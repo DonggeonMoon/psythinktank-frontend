@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9820/","result":{"data":{"stockDetail":{"symbol":"9820","market":"TSE","stock_name":"MT GENEX CORPORATION","growth":12.69,"dividend":40,"recent_price":3935,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9820"}},"staticQueryHashes":[],"slicesMap":{}}

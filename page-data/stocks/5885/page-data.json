@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5885/","result":{"data":{"stockDetail":{"symbol":"5885","market":"TSE","stock_name":"GDEP ADVANCE,Inc.","growth":47.62,"dividend":48,"recent_price":3380,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5885"}},"staticQueryHashes":[],"slicesMap":{}}

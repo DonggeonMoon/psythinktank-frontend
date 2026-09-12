@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6400/","result":{"data":{"stockDetail":{"symbol":"6400","market":"TSE","stock_name":"FUJI SEIKI CO.,LTD.","growth":5.6,"dividend":10,"recent_price":289,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6400"}},"staticQueryHashes":[],"slicesMap":{}}

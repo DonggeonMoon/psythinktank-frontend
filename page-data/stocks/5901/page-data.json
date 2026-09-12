@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5901/","result":{"data":{"stockDetail":{"symbol":"5901","market":"TSE","stock_name":"Toyo Seikan Group Holdings,Ltd.","growth":1.26,"dividend":186,"recent_price":4527,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5901"}},"staticQueryHashes":[],"slicesMap":{}}

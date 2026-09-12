@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8421/","result":{"data":{"stockDetail":{"symbol":"8421","market":"TSE","stock_name":"Shinkin Central Bank","growth":2.44,"dividend":6,"recent_price":192700,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8421"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/CAE/","result":{"data":{"stockDetail":{"symbol":"CAE","market":"NYSE","stock_name":"CAE Inc. Ordinary Shares","growth":30,"dividend":0,"recent_price":24.280000686645508,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"CAE"}},"staticQueryHashes":[],"slicesMap":{}}

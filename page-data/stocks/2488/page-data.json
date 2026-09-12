@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2488/","result":{"data":{"stockDetail":{"symbol":"2488","market":"TSE","stock_name":"JTP CO.,LTD.","growth":2.5,"dividend":49,"recent_price":1461,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2488"}},"staticQueryHashes":[],"slicesMap":{}}

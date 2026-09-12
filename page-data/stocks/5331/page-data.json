@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5331/","result":{"data":{"stockDetail":{"symbol":"5331","market":"TSE","stock_name":"NORITAKE CO.,LIMITED","growth":-0.41,"dividend":100,"recent_price":3500,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5331"}},"staticQueryHashes":[],"slicesMap":{}}

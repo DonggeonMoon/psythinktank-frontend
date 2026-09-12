@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1810/","result":{"data":{"stockDetail":{"symbol":"1810","market":"TSE","stock_name":"MATSUI CONSTRUCTION CO.,LTD.","growth":1.18,"dividend":87,"recent_price":1460,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1810"}},"staticQueryHashes":[],"slicesMap":{}}

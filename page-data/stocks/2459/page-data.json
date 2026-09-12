@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2459/","result":{"data":{"stockDetail":{"symbol":"2459","market":"TSE","stock_name":"AUN CONSULTING,Inc.","growth":-8.7,"dividend":0,"recent_price":179,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2459"}},"staticQueryHashes":[],"slicesMap":{}}

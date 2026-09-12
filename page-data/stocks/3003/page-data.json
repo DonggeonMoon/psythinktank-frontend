@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3003/","result":{"data":{"stockDetail":{"symbol":"3003","market":"TSE","stock_name":"Hulic Co.,Ltd.","growth":23.59,"dividend":67,"recent_price":1768,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3003"}},"staticQueryHashes":[],"slicesMap":{}}

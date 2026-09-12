@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4012/","result":{"data":{"stockDetail":{"symbol":"4012","market":"TSE","stock_name":"AXIS CO.,LTD.","growth":null,"dividend":57,"recent_price":1751,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4012"}},"staticQueryHashes":[],"slicesMap":{}}

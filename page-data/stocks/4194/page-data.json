@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4194/","result":{"data":{"stockDetail":{"symbol":"4194","market":"TSE","stock_name":"Visional,Inc.","growth":27.57,"dividend":0,"recent_price":9143,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4194"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1450/","result":{"data":{"stockDetail":{"symbol":"1450","market":"TSE","stock_name":"TANAKEN Inc.","growth":7.84,"dividend":55,"recent_price":1467,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1450"}},"staticQueryHashes":[],"slicesMap":{}}

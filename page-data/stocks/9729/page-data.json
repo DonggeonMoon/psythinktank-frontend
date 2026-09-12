@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9729/","result":{"data":{"stockDetail":{"symbol":"9729","market":"TSE","stock_name":"TOKAI Corp.","growth":0.86,"dividend":74,"recent_price":2493,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9729"}},"staticQueryHashes":[],"slicesMap":{}}

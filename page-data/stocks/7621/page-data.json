@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7621/","result":{"data":{"stockDetail":{"symbol":"7621","market":"TSE","stock_name":"UKAI CO.,LTD.","growth":null,"dividend":15,"recent_price":3465,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7621"}},"staticQueryHashes":[],"slicesMap":{}}

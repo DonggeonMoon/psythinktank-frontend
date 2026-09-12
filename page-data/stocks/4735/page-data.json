@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4735/","result":{"data":{"stockDetail":{"symbol":"4735","market":"TSE","stock_name":"KYOSHIN CO.,LTD.","growth":5.48,"dividend":5,"recent_price":300,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4735"}},"staticQueryHashes":[],"slicesMap":{}}

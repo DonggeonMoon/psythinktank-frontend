@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7196/","result":{"data":{"stockDetail":{"symbol":"7196","market":"TSE","stock_name":"Casa Inc.","growth":-4.83,"dividend":20,"recent_price":747,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7196"}},"staticQueryHashes":[],"slicesMap":{}}

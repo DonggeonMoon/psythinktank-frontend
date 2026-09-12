@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3352/","result":{"data":{"stockDetail":{"symbol":"3352","market":"TSE","stock_name":"BUFFALO CO.,LTD.","growth":13.13,"dividend":70,"recent_price":1800,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3352"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7358/","result":{"data":{"stockDetail":{"symbol":"7358","market":"TSE","stock_name":"Poppins Corporation","growth":0.56,"dividend":54,"recent_price":1814,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7358"}},"staticQueryHashes":[],"slicesMap":{}}

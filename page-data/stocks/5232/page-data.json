@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5232/","result":{"data":{"stockDetail":{"symbol":"5232","market":"TSE","stock_name":"Sumitomo Osaka Cement Co.,Ltd.","growth":3.15,"dividend":120,"recent_price":5376,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5232"}},"staticQueryHashes":[],"slicesMap":{}}

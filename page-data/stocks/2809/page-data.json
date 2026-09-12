@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2809/","result":{"data":{"stockDetail":{"symbol":"2809","market":"TSE","stock_name":"Kewpie Corporation","growth":2.43,"dividend":66,"recent_price":4711,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2809"}},"staticQueryHashes":[],"slicesMap":{}}

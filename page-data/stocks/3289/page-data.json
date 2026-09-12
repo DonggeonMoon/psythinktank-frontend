@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3289/","result":{"data":{"stockDetail":{"symbol":"3289","market":"TSE","stock_name":"Tokyu Fudosan Holdings Corporation","growth":-0.63,"dividend":50,"recent_price":1312,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3289"}},"staticQueryHashes":[],"slicesMap":{}}

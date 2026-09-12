@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4043/","result":{"data":{"stockDetail":{"symbol":"4043","market":"TSE","stock_name":"Tokuyama Corporation","growth":10.52,"dividend":132,"recent_price":3898,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4043"}},"staticQueryHashes":[],"slicesMap":{}}

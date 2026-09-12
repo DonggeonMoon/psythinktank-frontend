@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3075/","result":{"data":{"stockDetail":{"symbol":"3075","market":"TSE","stock_name":"Choushimaru Co.,Ltd.","growth":4.68,"dividend":14,"recent_price":1639,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3075"}},"staticQueryHashes":[],"slicesMap":{}}

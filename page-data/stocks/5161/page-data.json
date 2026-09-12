@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5161/","result":{"data":{"stockDetail":{"symbol":"5161","market":"TSE","stock_name":"NISHIKAWA RUBBER CO.,LTD.","growth":-7.54,"dividend":184,"recent_price":3570,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5161"}},"staticQueryHashes":[],"slicesMap":{}}

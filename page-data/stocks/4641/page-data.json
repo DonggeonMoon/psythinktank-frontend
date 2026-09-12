@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4641/","result":{"data":{"stockDetail":{"symbol":"4641","market":"TSE","stock_name":"Altech Corporation","growth":0.95,"dividend":36,"recent_price":859,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4641"}},"staticQueryHashes":[],"slicesMap":{}}

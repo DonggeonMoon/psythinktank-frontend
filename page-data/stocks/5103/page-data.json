@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5103/","result":{"data":{"stockDetail":{"symbol":"5103","market":"TSE","stock_name":"Showa Holdings Co.,Ltd.","growth":-6.61,"dividend":0,"recent_price":null,"basis_date":"2026-08-28"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5103"}},"staticQueryHashes":[],"slicesMap":{}}

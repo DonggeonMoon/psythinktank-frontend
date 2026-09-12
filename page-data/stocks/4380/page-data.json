@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4380/","result":{"data":{"stockDetail":{"symbol":"4380","market":"TSE","stock_name":"M - mart Inc.","growth":-19.7,"dividend":12.5,"recent_price":685,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4380"}},"staticQueryHashes":[],"slicesMap":{}}

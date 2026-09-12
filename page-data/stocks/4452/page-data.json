@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4452/","result":{"data":{"stockDetail":{"symbol":"4452","market":"TSE","stock_name":"Kao Corporation","growth":-8.01,"dividend":78,"recent_price":3495,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4452"}},"staticQueryHashes":[],"slicesMap":{}}

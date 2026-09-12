@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5947/","result":{"data":{"stockDetail":{"symbol":"5947","market":"TSE","stock_name":"RINNAI CORPORATION","growth":3.17,"dividend":106,"recent_price":3582,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5947"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2999/","result":{"data":{"stockDetail":{"symbol":"2999","market":"TSE","stock_name":"Home Position Co.,Ltd.","growth":9.47,"dividend":10,"recent_price":512,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2999"}},"staticQueryHashes":[],"slicesMap":{}}

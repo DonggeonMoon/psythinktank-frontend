@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3182/","result":{"data":{"stockDetail":{"symbol":"3182","market":"TSE","stock_name":"Oisix ra daichi Inc.","growth":-30.65,"dividend":30,"recent_price":1668,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3182"}},"staticQueryHashes":[],"slicesMap":{}}

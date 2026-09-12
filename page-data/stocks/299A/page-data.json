@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/299A/","result":{"data":{"stockDetail":{"symbol":"299A","market":"TSE","stock_name":"dely inc.","growth":8.33,"dividend":0,"recent_price":1308,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"299A"}},"staticQueryHashes":[],"slicesMap":{}}

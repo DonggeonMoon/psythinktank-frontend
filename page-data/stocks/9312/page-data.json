@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9312/","result":{"data":{"stockDetail":{"symbol":"9312","market":"TSE","stock_name":"THE KEIHIN CO.,LTD.","growth":2.23,"dividend":110,"recent_price":2857,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9312"}},"staticQueryHashes":[],"slicesMap":{}}

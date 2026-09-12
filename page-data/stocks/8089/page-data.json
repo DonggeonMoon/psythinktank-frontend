@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8089/","result":{"data":{"stockDetail":{"symbol":"8089","market":"TSE","stock_name":"Nice Corporation","growth":0.39,"dividend":79,"recent_price":1993,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8089"}},"staticQueryHashes":[],"slicesMap":{}}

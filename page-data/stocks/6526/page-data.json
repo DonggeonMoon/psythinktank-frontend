@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6526/","result":{"data":{"stockDetail":{"symbol":"6526","market":"TSE","stock_name":"Socionext Inc.","growth":-0.84,"dividend":50,"recent_price":1954,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6526"}},"staticQueryHashes":[],"slicesMap":{}}

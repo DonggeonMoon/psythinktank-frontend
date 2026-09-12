@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2292/","result":{"data":{"stockDetail":{"symbol":"2292","market":"TSE","stock_name":"S Foods Inc.","growth":3.03,"dividend":107,"recent_price":2801,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2292"}},"staticQueryHashes":[],"slicesMap":{}}

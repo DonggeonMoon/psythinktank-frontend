@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1369/","result":{"data":{"stockDetail":{"symbol":"1369","market":"TSE","stock_name":"One ETF Nikkei225","growth":null,"dividend":27.09,"recent_price":65380,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1369"}},"staticQueryHashes":[],"slicesMap":{}}

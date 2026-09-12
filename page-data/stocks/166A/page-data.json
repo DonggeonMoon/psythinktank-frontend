@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/166A/","result":{"data":{"stockDetail":{"symbol":"166A","market":"TSE","stock_name":"TASUKI Holdings Inc.","growth":36.11,"dividend":48,"recent_price":1104,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"166A"}},"staticQueryHashes":[],"slicesMap":{}}

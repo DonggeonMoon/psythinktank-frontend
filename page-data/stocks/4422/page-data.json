@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4422/","result":{"data":{"stockDetail":{"symbol":"4422","market":"TSE","stock_name":"VALUENEX Japan Inc.","growth":-5.71,"dividend":0,"recent_price":584,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4422"}},"staticQueryHashes":[],"slicesMap":{}}

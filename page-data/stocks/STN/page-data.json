@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/STN/","result":{"data":{"stockDetail":{"symbol":"STN","market":"NYSE","stock_name":"Stantec Inc Common Stock","growth":4,"dividend":0.69,"recent_price":72.93000030517578,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"STN"}},"staticQueryHashes":[],"slicesMap":{}}

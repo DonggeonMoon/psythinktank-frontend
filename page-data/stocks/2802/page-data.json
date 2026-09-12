@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2802/","result":{"data":{"stockDetail":{"symbol":"2802","market":"TSE","stock_name":"Ajinomoto Co.,Inc.","growth":-0.21,"dividend":50,"recent_price":5174,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2802"}},"staticQueryHashes":[],"slicesMap":{}}

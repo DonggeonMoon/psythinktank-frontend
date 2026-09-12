@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4416/","result":{"data":{"stockDetail":{"symbol":"4416","market":"TSE","stock_name":"True Data Inc.","growth":-6.06,"dividend":0,"recent_price":413,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4416"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BASE/","result":{"data":{"stockDetail":{"symbol":"BASE","market":"NASDAQ","stock_name":"Couchbase, Inc. - Common Stock","growth":-0.5,"dividend":0,"recent_price":null,"basis_date":"2025-10-03"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BASE"}},"staticQueryHashes":[],"slicesMap":{}}

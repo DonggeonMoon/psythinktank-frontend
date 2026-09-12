@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3050/","result":{"data":{"stockDetail":{"symbol":"3050","market":"TSE","stock_name":"DCM Holdings Co.,Ltd.","growth":7.23,"dividend":48,"recent_price":1601,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3050"}},"staticQueryHashes":[],"slicesMap":{}}

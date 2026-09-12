@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7681/","result":{"data":{"stockDetail":{"symbol":"7681","market":"TSE","stock_name":"LEOCLAN Co.,Ltd.","growth":-8.82,"dividend":17,"recent_price":1005,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7681"}},"staticQueryHashes":[],"slicesMap":{}}

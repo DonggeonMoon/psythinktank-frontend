@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9765/","result":{"data":{"stockDetail":{"symbol":"9765","market":"TSE","stock_name":"OHBA CO.,LTD.","growth":-3.45,"dividend":44,"recent_price":1174,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9765"}},"staticQueryHashes":[],"slicesMap":{}}

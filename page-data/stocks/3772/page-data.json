@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3772/","result":{"data":{"stockDetail":{"symbol":"3772","market":"TSE","stock_name":"Wealth Management,Inc.","growth":1.77,"dividend":20,"recent_price":1100,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3772"}},"staticQueryHashes":[],"slicesMap":{}}

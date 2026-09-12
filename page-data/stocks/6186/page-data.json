@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6186/","result":{"data":{"stockDetail":{"symbol":"6186","market":"TSE","stock_name":"ICHIKURA CO.,LTD.","growth":-3.52,"dividend":15,"recent_price":375,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6186"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9010/","result":{"data":{"stockDetail":{"symbol":"9010","market":"TSE","stock_name":"FUJI KYUKO CO.,LTD.","growth":3.13,"dividend":33,"recent_price":2614,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9010"}},"staticQueryHashes":[],"slicesMap":{}}

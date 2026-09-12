@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2462/","result":{"data":{"stockDetail":{"symbol":"2462","market":"TSE","stock_name":"LIKE,Inc.","growth":2.14,"dividend":60,"recent_price":1526,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2462"}},"staticQueryHashes":[],"slicesMap":{}}

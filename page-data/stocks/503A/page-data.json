@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/503A/","result":{"data":{"stockDetail":{"symbol":"503A","market":"TSE","stock_name":"BellChild Co.,Ltd.","growth":null,"dividend":0,"recent_price":2290,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"503A"}},"staticQueryHashes":[],"slicesMap":{}}

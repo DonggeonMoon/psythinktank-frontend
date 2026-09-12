@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7805/","result":{"data":{"stockDetail":{"symbol":"7805","market":"TSE","stock_name":"PRINTNET INC.","growth":0.39,"dividend":13,"recent_price":716,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7805"}},"staticQueryHashes":[],"slicesMap":{}}

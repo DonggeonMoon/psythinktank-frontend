@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6371/","result":{"data":{"stockDetail":{"symbol":"6371","market":"TSE","stock_name":"TSUBAKIMOTO CHAIN CO.","growth":39.46,"dividend":80,"recent_price":2703,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6371"}},"staticQueryHashes":[],"slicesMap":{}}

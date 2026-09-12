@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6481/","result":{"data":{"stockDetail":{"symbol":"6481","market":"TSE","stock_name":"THK CO.,LTD.","growth":-1.75,"dividend":195,"recent_price":6348,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6481"}},"staticQueryHashes":[],"slicesMap":{}}

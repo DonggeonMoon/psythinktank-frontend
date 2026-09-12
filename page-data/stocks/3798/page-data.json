@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3798/","result":{"data":{"stockDetail":{"symbol":"3798","market":"TSE","stock_name":"ULS Group,Inc.","growth":18.33,"dividend":8.2,"recent_price":549,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3798"}},"staticQueryHashes":[],"slicesMap":{}}

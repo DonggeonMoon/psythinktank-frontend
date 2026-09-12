@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5019/","result":{"data":{"stockDetail":{"symbol":"5019","market":"TSE","stock_name":"Idemitsu Kosan Co.,Ltd.","growth":4.18,"dividend":36,"recent_price":1470,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5019"}},"staticQueryHashes":[],"slicesMap":{}}

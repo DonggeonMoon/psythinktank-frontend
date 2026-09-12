@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8584/","result":{"data":{"stockDetail":{"symbol":"8584","market":"TSE","stock_name":"JACCS CO.,LTD.","growth":0.25,"dividend":200,"recent_price":3750,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8584"}},"staticQueryHashes":[],"slicesMap":{}}

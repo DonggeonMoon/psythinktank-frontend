@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7082/","result":{"data":{"stockDetail":{"symbol":"7082","market":"TSE","stock_name":"Jimoty,Inc.","growth":12.5,"dividend":0,"recent_price":1406,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7082"}},"staticQueryHashes":[],"slicesMap":{}}

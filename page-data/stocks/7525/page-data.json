@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7525/","result":{"data":{"stockDetail":{"symbol":"7525","market":"TSE","stock_name":"RIX CORPORATION","growth":5.23,"dividend":172,"recent_price":3585,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7525"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3649/","result":{"data":{"stockDetail":{"symbol":"3649","market":"TSE","stock_name":"FINDEX Inc.","growth":4.5,"dividend":27,"recent_price":850,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3649"}},"staticQueryHashes":[],"slicesMap":{}}

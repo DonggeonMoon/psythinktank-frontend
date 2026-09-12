@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BZH/","result":{"data":{"stockDetail":{"symbol":"BZH","market":"NYSE","stock_name":"Beazer Homes USA, Inc. Common Stock","growth":-12.09,"dividend":0,"recent_price":33.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BZH"}},"staticQueryHashes":[],"slicesMap":{}}

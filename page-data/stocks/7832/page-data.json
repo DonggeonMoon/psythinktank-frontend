@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7832/","result":{"data":{"stockDetail":{"symbol":"7832","market":"TSE","stock_name":"Bandai Namco Holdings Inc.","growth":0.99,"dividend":73,"recent_price":5565,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7832"}},"staticQueryHashes":[],"slicesMap":{}}

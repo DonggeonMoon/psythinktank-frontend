@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3375/","result":{"data":{"stockDetail":{"symbol":"3375","market":"TSE","stock_name":"ZOA CORPORATION","growth":1.43,"dividend":75,"recent_price":1748,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3375"}},"staticQueryHashes":[],"slicesMap":{}}

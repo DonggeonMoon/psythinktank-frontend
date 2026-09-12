@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2428/","result":{"data":{"stockDetail":{"symbol":"2428","market":"TSE","stock_name":"WELLNET CORPORATION","growth":null,"dividend":30.5,"recent_price":638,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2428"}},"staticQueryHashes":[],"slicesMap":{}}

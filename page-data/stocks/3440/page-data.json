@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3440/","result":{"data":{"stockDetail":{"symbol":"3440","market":"TSE","stock_name":"NISSO GROUP Co.,Ltd.","growth":23.23,"dividend":42,"recent_price":871,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3440"}},"staticQueryHashes":[],"slicesMap":{}}

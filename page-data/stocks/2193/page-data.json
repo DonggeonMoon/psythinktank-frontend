@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2193/","result":{"data":{"stockDetail":{"symbol":"2193","market":"TSE","stock_name":"Cookpad Inc.","growth":-13.68,"dividend":0,"recent_price":129,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2193"}},"staticQueryHashes":[],"slicesMap":{}}

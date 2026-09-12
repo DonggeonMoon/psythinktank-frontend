@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3109/","result":{"data":{"stockDetail":{"symbol":"3109","market":"TSE","stock_name":"SHIKIBO LTD.","growth":6.02,"dividend":50,"recent_price":1058,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3109"}},"staticQueryHashes":[],"slicesMap":{}}

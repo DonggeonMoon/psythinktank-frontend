@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/WLK/","result":{"data":{"stockDetail":{"symbol":"WLK","market":"NYSE","stock_name":"Westlake Corporation Common Stock","growth":-6.05,"dividend":2.13,"recent_price":74.75,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"WLK"}},"staticQueryHashes":[],"slicesMap":{}}

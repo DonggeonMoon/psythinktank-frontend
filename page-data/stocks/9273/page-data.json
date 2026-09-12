@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9273/","result":{"data":{"stockDetail":{"symbol":"9273","market":"TSE","stock_name":"KOA SHOJI HOLDINGS CO.,LTD.","growth":5.19,"dividend":19,"recent_price":765,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9273"}},"staticQueryHashes":[],"slicesMap":{}}

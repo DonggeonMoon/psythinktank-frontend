@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9348/","result":{"data":{"stockDetail":{"symbol":"9348","market":"TSE","stock_name":"ispace,inc.","growth":5.05,"dividend":0,"recent_price":416,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9348"}},"staticQueryHashes":[],"slicesMap":{}}

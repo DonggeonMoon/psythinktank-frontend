@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4487/","result":{"data":{"stockDetail":{"symbol":"4487","market":"TSE","stock_name":"Spacemarket,Inc.","growth":14.06,"dividend":0,"recent_price":230,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4487"}},"staticQueryHashes":[],"slicesMap":{}}

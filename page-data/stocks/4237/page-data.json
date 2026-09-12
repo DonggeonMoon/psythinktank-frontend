@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4237/","result":{"data":{"stockDetail":{"symbol":"4237","market":"TSE","stock_name":"Fujipream Corporation","growth":-5.24,"dividend":6,"recent_price":355,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4237"}},"staticQueryHashes":[],"slicesMap":{}}

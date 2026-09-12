@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2351/","result":{"data":{"stockDetail":{"symbol":"2351","market":"TSE","stock_name":"ASJ INC.","growth":-2.04,"dividend":3,"recent_price":334,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2351"}},"staticQueryHashes":[],"slicesMap":{}}

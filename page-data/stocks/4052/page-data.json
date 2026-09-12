@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4052/","result":{"data":{"stockDetail":{"symbol":"4052","market":"TSE","stock_name":"Ficha Inc.","growth":-3.13,"dividend":0,"recent_price":740,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4052"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3437/","result":{"data":{"stockDetail":{"symbol":"3437","market":"TSE","stock_name":"TOKUDEN CO.,LTD.","growth":3.47,"dividend":102,"recent_price":2727,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3437"}},"staticQueryHashes":[],"slicesMap":{}}

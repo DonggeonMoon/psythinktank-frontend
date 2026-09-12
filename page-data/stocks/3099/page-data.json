@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3099/","result":{"data":{"stockDetail":{"symbol":"3099","market":"TSE","stock_name":"Isetan Mitsukoshi Holdings Ltd.","growth":-2.81,"dividend":80,"recent_price":3203,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3099"}},"staticQueryHashes":[],"slicesMap":{}}

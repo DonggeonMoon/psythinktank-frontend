@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BNC/","result":{"data":{"stockDetail":{"symbol":"BNC","market":"NASDAQ","stock_name":"CEA Industries Inc. - Common Stock","growth":3.05,"dividend":0,"recent_price":5.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BNC"}},"staticQueryHashes":[],"slicesMap":{}}

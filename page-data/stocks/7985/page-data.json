@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7985/","result":{"data":{"stockDetail":{"symbol":"7985","market":"TSE","stock_name":"NEPON Inc.","growth":-4.63,"dividend":12,"recent_price":771,"basis_date":"2026-09-03"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7985"}},"staticQueryHashes":[],"slicesMap":{}}

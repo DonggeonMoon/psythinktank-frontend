@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2432/","result":{"data":{"stockDetail":{"symbol":"2432","market":"TSE","stock_name":"DeNA Co.,Ltd.","growth":-3.46,"dividend":66,"recent_price":2620,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2432"}},"staticQueryHashes":[],"slicesMap":{}}

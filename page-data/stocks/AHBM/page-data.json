@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/AHBM/","result":{"data":{"stockDetail":{"symbol":"AHBM","market":"NYSE_ARCA","stock_name":"Amplify Top 10 Asia Memory ETF","growth":null,"dividend":0,"recent_price":26.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"AHBM"}},"staticQueryHashes":[],"slicesMap":{}}

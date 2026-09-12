@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4118/","result":{"data":{"stockDetail":{"symbol":"4118","market":"TSE","stock_name":"KANEKA CORPORATION","growth":2.17,"dividend":210,"recent_price":6117,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4118"}},"staticQueryHashes":[],"slicesMap":{}}

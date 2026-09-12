@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/MKSI/","result":{"data":{"stockDetail":{"symbol":"MKSI","market":"NASDAQ","stock_name":"MKS Inc. - Common Stock","growth":0.99,"dividend":1,"recent_price":265.5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"MKSI"}},"staticQueryHashes":[],"slicesMap":{}}

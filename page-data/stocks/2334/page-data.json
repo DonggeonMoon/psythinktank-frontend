@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2334/","result":{"data":{"stockDetail":{"symbol":"2334","market":"TSE","stock_name":"eole Inc.","growth":-17,"dividend":0,"recent_price":574,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2334"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1783/","result":{"data":{"stockDetail":{"symbol":"1783","market":"TSE","stock_name":"Fantasista Co.,Ltd.","growth":-3.45,"dividend":0,"recent_price":51,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1783"}},"staticQueryHashes":[],"slicesMap":{}}

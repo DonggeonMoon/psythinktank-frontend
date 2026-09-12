@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8030/","result":{"data":{"stockDetail":{"symbol":"8030","market":"TSE","stock_name":"Chuo Gyorui Co.,Ltd.","growth":-1.61,"dividend":120,"recent_price":3905,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8030"}},"staticQueryHashes":[],"slicesMap":{}}

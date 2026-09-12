@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SFYX/","result":{"data":{"stockDetail":{"symbol":"SFYX","market":"NYSE_ARCA","stock_name":"SoFi Next 500 ETF","growth":null,"dividend":0,"recent_price":null,"basis_date":"2026-03-03"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SFYX"}},"staticQueryHashes":[],"slicesMap":{}}

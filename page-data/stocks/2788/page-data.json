@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2788/","result":{"data":{"stockDetail":{"symbol":"2788","market":"TSE","stock_name":"APPLE INTERNATIONAL CO.,LTD.","growth":-5.68,"dividend":10,"recent_price":419,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2788"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4068/","result":{"data":{"stockDetail":{"symbol":"4068","market":"TSE","stock_name":"Basis Corporation","growth":2.29,"dividend":0,"recent_price":1774,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4068"}},"staticQueryHashes":[],"slicesMap":{}}

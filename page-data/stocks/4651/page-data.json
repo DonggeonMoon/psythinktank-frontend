@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4651/","result":{"data":{"stockDetail":{"symbol":"4651","market":"TSE","stock_name":"SANIX HOLDINGS INCORPORATED","growth":-1.02,"dividend":3,"recent_price":271,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4651"}},"staticQueryHashes":[],"slicesMap":{}}

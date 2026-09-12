@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6506/","result":{"data":{"stockDetail":{"symbol":"6506","market":"TSE","stock_name":"YASKAWA Electric Corporation","growth":-2.73,"dividend":72,"recent_price":4570,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6506"}},"staticQueryHashes":[],"slicesMap":{}}

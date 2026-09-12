@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4725/","result":{"data":{"stockDetail":{"symbol":"4725","market":"TSE","stock_name":"CAC Holdings Corporation","growth":2.39,"dividend":100,"recent_price":1952,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4725"}},"staticQueryHashes":[],"slicesMap":{}}

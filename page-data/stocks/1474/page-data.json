@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1474/","result":{"data":{"stockDetail":{"symbol":"1474","market":"TSE","stock_name":"One ETF JPX-Nikkei 400","growth":null,"dividend":0,"recent_price":37270,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1474"}},"staticQueryHashes":[],"slicesMap":{}}

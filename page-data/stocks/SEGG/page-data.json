@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SEGG/","result":{"data":{"stockDetail":{"symbol":"SEGG","market":"NASDAQ","stock_name":"Lottery.com, Inc. - Common Stock","growth":475,"dividend":0,"recent_price":3,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SEGG"}},"staticQueryHashes":[],"slicesMap":{}}

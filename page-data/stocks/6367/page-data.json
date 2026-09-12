@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6367/","result":{"data":{"stockDetail":{"symbol":"6367","market":"TSE","stock_name":"DAIKIN INDUSTRIES,LTD.","growth":0.53,"dividend":360,"recent_price":20500,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6367"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1795/","result":{"data":{"stockDetail":{"symbol":"1795","market":"TSE","stock_name":"MASARU CORPORATION","growth":3.64,"dividend":110,"recent_price":5720,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1795"}},"staticQueryHashes":[],"slicesMap":{}}

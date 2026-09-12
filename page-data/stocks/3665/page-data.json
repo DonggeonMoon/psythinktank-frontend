@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3665/","result":{"data":{"stockDetail":{"symbol":"3665","market":"TSE","stock_name":"Enigmo Inc.","growth":5.37,"dividend":10,"recent_price":430,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3665"}},"staticQueryHashes":[],"slicesMap":{}}

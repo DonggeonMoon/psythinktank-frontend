@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6772/","result":{"data":{"stockDetail":{"symbol":"6772","market":"TSE","stock_name":"Tokyo Cosmos Electric Co.,Ltd.","growth":-4.45,"dividend":50,"recent_price":1048,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6772"}},"staticQueryHashes":[],"slicesMap":{}}

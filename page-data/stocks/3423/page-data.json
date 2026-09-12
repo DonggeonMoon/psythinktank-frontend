@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3423/","result":{"data":{"stockDetail":{"symbol":"3423","market":"TSE","stock_name":"S E Corporation","growth":-1.93,"dividend":12,"recent_price":275,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3423"}},"staticQueryHashes":[],"slicesMap":{}}

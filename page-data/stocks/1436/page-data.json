@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1436/","result":{"data":{"stockDetail":{"symbol":"1436","market":"TSE","stock_name":"GreenEnergy & Company Inc.","growth":-0.63,"dividend":5,"recent_price":1820,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1436"}},"staticQueryHashes":[],"slicesMap":{}}

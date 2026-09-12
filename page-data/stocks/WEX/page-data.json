@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/WEX/","result":{"data":{"stockDetail":{"symbol":"WEX","market":"NYSE","stock_name":"WEX Inc. common stock","growth":1.54,"dividend":0,"recent_price":187.33999633789062,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"WEX"}},"staticQueryHashes":[],"slicesMap":{}}

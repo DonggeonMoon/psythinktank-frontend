@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/153A/","result":{"data":{"stockDetail":{"symbol":"153A","market":"TSE","stock_name":"Caulis Inc.","growth":null,"dividend":5.5,"recent_price":1506,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"153A"}},"staticQueryHashes":[],"slicesMap":{}}

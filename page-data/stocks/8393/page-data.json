@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8393/","result":{"data":{"stockDetail":{"symbol":"8393","market":"TSE","stock_name":"The Miyazaki Bank,Ltd.","growth":-1.07,"dividend":56,"recent_price":2651,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8393"}},"staticQueryHashes":[],"slicesMap":{}}

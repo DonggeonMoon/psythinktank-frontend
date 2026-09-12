@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9842/","result":{"data":{"stockDetail":{"symbol":"9842","market":"TSE","stock_name":"ARCLANDS CORPORATION","growth":24.35,"dividend":40,"recent_price":1868,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9842"}},"staticQueryHashes":[],"slicesMap":{}}

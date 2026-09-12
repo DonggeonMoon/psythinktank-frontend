@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8334/","result":{"data":{"stockDetail":{"symbol":"8334","market":"TSE","stock_name":"The Gunma Bank,Ltd.","growth":-0.96,"dividend":67,"recent_price":2899.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8334"}},"staticQueryHashes":[],"slicesMap":{}}

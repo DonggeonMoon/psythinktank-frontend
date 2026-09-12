@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2820/","result":{"data":{"stockDetail":{"symbol":"2820","market":"TSE","stock_name":"Yamami Company","growth":-4.12,"dividend":92,"recent_price":6240,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2820"}},"staticQueryHashes":[],"slicesMap":{}}

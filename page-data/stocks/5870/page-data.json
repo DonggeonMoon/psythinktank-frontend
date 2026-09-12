@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5870/","result":{"data":{"stockDetail":{"symbol":"5870","market":"TSE","stock_name":"Nalnet Communications Inc.","growth":null,"dividend":29,"recent_price":881,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5870"}},"staticQueryHashes":[],"slicesMap":{}}

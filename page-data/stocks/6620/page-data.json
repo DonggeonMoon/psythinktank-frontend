@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6620/","result":{"data":{"stockDetail":{"symbol":"6620","market":"TSE","stock_name":"Miyakoshi Holdings,Inc.","growth":3.23,"dividend":0,"recent_price":724,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6620"}},"staticQueryHashes":[],"slicesMap":{}}

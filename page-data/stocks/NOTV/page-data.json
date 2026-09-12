@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/NOTV/","result":{"data":{"stockDetail":{"symbol":"NOTV","market":"NASDAQ","stock_name":"Inotiv, Inc. - Common Stock","growth":-1.4,"dividend":0,"recent_price":null,"basis_date":"2026-08-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"NOTV"}},"staticQueryHashes":[],"slicesMap":{}}

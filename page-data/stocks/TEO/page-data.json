@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/TEO/","result":{"data":{"stockDetail":{"symbol":"TEO","market":"NYSE","stock_name":"Telecom Argentina SA","growth":-11.2,"dividend":0.27,"recent_price":13.079999923706055,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"TEO"}},"staticQueryHashes":[],"slicesMap":{}}

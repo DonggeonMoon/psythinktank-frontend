@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7857/","result":{"data":{"stockDetail":{"symbol":"7857","market":"TSE","stock_name":"SEKI CO.,LTD.","growth":4.54,"dividend":26,"recent_price":1298,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7857"}},"staticQueryHashes":[],"slicesMap":{}}

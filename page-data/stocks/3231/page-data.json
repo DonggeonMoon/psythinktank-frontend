@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3231/","result":{"data":{"stockDetail":{"symbol":"3231","market":"TSE","stock_name":"Nomura Real Estate Holdings,Inc.","growth":21.68,"dividend":44,"recent_price":926,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3231"}},"staticQueryHashes":[],"slicesMap":{}}

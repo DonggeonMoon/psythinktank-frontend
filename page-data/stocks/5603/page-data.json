@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5603/","result":{"data":{"stockDetail":{"symbol":"5603","market":"TSE","stock_name":"KOGI CORPORATION","growth":1.86,"dividend":40,"recent_price":1320,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5603"}},"staticQueryHashes":[],"slicesMap":{}}

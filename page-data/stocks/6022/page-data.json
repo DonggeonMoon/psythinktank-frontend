@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6022/","result":{"data":{"stockDetail":{"symbol":"6022","market":"TSE","stock_name":"Akasaka Diesels Ltd.","growth":null,"dividend":30,"recent_price":2910,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6022"}},"staticQueryHashes":[],"slicesMap":{}}

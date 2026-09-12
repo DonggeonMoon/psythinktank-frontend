@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7974/","result":{"data":{"stockDetail":{"symbol":"7974","market":"TSE","stock_name":"Nintendo Co.,Ltd.","growth":5.62,"dividend":162,"recent_price":8839,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7974"}},"staticQueryHashes":[],"slicesMap":{}}

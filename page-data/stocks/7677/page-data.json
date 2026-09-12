@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7677/","result":{"data":{"stockDetail":{"symbol":"7677","market":"TSE","stock_name":"Yashima & Co.,Ltd.","growth":0.75,"dividend":25,"recent_price":2750,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7677"}},"staticQueryHashes":[],"slicesMap":{}}

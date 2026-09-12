@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4326/","result":{"data":{"stockDetail":{"symbol":"4326","market":"TSE","stock_name":"INTAGE HOLDINGS Inc.","growth":-0.66,"dividend":50,"recent_price":2015,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4326"}},"staticQueryHashes":[],"slicesMap":{}}

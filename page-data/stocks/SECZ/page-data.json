@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/SECZ/","result":{"data":{"stockDetail":{"symbol":"SECZ","market":"NYSE","stock_name":"Securitize Corp. Common Stock","growth":null,"dividend":0,"recent_price":8.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"SECZ"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7716/","result":{"data":{"stockDetail":{"symbol":"7716","market":"TSE","stock_name":"NAKANISHI INC.","growth":1.1,"dividend":60,"recent_price":3125,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7716"}},"staticQueryHashes":[],"slicesMap":{}}

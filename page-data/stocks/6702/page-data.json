@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6702/","result":{"data":{"stockDetail":{"symbol":"6702","market":"TSE","stock_name":"Fujitsu Limited","growth":-12.01,"dividend":55,"recent_price":3900,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6702"}},"staticQueryHashes":[],"slicesMap":{}}

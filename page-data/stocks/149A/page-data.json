@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/149A/","result":{"data":{"stockDetail":{"symbol":"149A","market":"TSE","stock_name":"Thinca Co.,Ltd.","growth":null,"dividend":0,"recent_price":802,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"149A"}},"staticQueryHashes":[],"slicesMap":{}}

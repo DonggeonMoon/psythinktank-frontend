@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8066/","result":{"data":{"stockDetail":{"symbol":"8066","market":"TSE","stock_name":"MITANI CORPORATION","growth":1.25,"dividend":88,"recent_price":3595,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8066"}},"staticQueryHashes":[],"slicesMap":{}}

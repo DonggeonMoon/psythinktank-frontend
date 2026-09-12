@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6850/","result":{"data":{"stockDetail":{"symbol":"6850","market":"TSE","stock_name":"Chino Corporation","growth":2.93,"dividend":50,"recent_price":1680,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6850"}},"staticQueryHashes":[],"slicesMap":{}}

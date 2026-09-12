@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9600/","result":{"data":{"stockDetail":{"symbol":"9600","market":"TSE","stock_name":"I-NET CORP.","growth":0.18,"dividend":58,"recent_price":null,"basis_date":"2026-02-27"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9600"}},"staticQueryHashes":[],"slicesMap":{}}

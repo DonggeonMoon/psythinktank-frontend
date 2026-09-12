@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3895/","result":{"data":{"stockDetail":{"symbol":"3895","market":"TSE","stock_name":"HAVIX CORPORATION","growth":1.96,"dividend":16,"recent_price":481,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3895"}},"staticQueryHashes":[],"slicesMap":{}}

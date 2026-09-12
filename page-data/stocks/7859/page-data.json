@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7859/","result":{"data":{"stockDetail":{"symbol":"7859","market":"TSE","stock_name":"ALMEDIO INC.","growth":-20.31,"dividend":4.5,"recent_price":259,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7859"}},"staticQueryHashes":[],"slicesMap":{}}

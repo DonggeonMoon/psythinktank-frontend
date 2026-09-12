@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4985/","result":{"data":{"stockDetail":{"symbol":"4985","market":"TSE","stock_name":"Earth Corporation","growth":1.74,"dividend":130,"recent_price":4790,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4985"}},"staticQueryHashes":[],"slicesMap":{}}

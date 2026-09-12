@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6888/","result":{"data":{"stockDetail":{"symbol":"6888","market":"TSE","stock_name":"ACMOS INC.","growth":11.43,"dividend":25,"recent_price":497,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6888"}},"staticQueryHashes":[],"slicesMap":{}}

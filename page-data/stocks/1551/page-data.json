@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1551/","result":{"data":{"stockDetail":{"symbol":"1551","market":"TSE","stock_name":"TSE Standard Top 20 ETF","growth":null,"dividend":26.75,"recent_price":7051,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1551"}},"staticQueryHashes":[],"slicesMap":{}}

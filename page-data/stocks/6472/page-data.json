@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6472/","result":{"data":{"stockDetail":{"symbol":"6472","market":"TSE","stock_name":"NTN CORPORATION","growth":-1.59,"dividend":13,"recent_price":386.3999938964844,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6472"}},"staticQueryHashes":[],"slicesMap":{}}

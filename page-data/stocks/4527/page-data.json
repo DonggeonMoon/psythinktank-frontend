@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4527/","result":{"data":{"stockDetail":{"symbol":"4527","market":"TSE","stock_name":"ROHTO PHARMACEUTICAL CO.,LTD.","growth":1.62,"dividend":50,"recent_price":2918.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4527"}},"staticQueryHashes":[],"slicesMap":{}}

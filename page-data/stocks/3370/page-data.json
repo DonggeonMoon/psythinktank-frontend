@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3370/","result":{"data":{"stockDetail":{"symbol":"3370","market":"TSE","stock_name":"FUJITA CORPORATION Co.,Ltd.","growth":12.5,"dividend":3,"recent_price":482,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3370"}},"staticQueryHashes":[],"slicesMap":{}}

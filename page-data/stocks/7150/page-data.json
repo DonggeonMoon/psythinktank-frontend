@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7150/","result":{"data":{"stockDetail":{"symbol":"7150","market":"TSE","stock_name":"THE SHIMANE BANK,LTD.","growth":-0.94,"dividend":10,"recent_price":535,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7150"}},"staticQueryHashes":[],"slicesMap":{}}

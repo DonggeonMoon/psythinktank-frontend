@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7539/","result":{"data":{"stockDetail":{"symbol":"7539","market":"TSE","stock_name":"AINAVO HOLDINGS Co.,Ltd.","growth":-3.57,"dividend":26,"recent_price":813,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7539"}},"staticQueryHashes":[],"slicesMap":{}}

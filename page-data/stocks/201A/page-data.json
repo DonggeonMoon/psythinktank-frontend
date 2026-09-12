@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/201A/","result":{"data":{"stockDetail":{"symbol":"201A","market":"TSE","stock_name":"iShares Nifty 50 ETF","growth":null,"dividend":0,"recent_price":178.3000030517578,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"201A"}},"staticQueryHashes":[],"slicesMap":{}}

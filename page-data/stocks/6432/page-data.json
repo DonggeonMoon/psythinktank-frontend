@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6432/","result":{"data":{"stockDetail":{"symbol":"6432","market":"TSE","stock_name":"TAKEUCHI MFG.CO.,LTD.","growth":6.97,"dividend":220,"recent_price":7620,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6432"}},"staticQueryHashes":[],"slicesMap":{}}

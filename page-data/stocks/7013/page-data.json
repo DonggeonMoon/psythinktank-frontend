@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7013/","result":{"data":{"stockDetail":{"symbol":"7013","market":"TSE","stock_name":"IHI Corporation","growth":-6.31,"dividend":21.5,"recent_price":2624.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7013"}},"staticQueryHashes":[],"slicesMap":{}}

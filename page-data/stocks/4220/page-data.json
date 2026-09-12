@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4220/","result":{"data":{"stockDetail":{"symbol":"4220","market":"TSE","stock_name":"RIKEN TECHNOS CORPORATION","growth":-0.48,"dividend":76,"recent_price":2478,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4220"}},"staticQueryHashes":[],"slicesMap":{}}

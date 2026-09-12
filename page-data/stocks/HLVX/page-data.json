@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/HLVX/","result":{"data":{"stockDetail":{"symbol":"HLVX","market":"NASDAQ","stock_name":"HilleVax, Inc. - Common Stock","growth":-84.44,"dividend":0,"recent_price":null,"basis_date":"2025-10-06"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"HLVX"}},"staticQueryHashes":[],"slicesMap":{}}

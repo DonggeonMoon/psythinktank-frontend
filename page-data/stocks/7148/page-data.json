@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7148/","result":{"data":{"stockDetail":{"symbol":"7148","market":"TSE","stock_name":"Financial Partners Group Co.,Ltd.","growth":7.89,"dividend":92.7,"recent_price":1704,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7148"}},"staticQueryHashes":[],"slicesMap":{}}

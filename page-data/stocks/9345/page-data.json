@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9345/","result":{"data":{"stockDetail":{"symbol":"9345","market":"TSE","stock_name":"Bizmates,Inc.","growth":3.85,"dividend":15,"recent_price":597,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9345"}},"staticQueryHashes":[],"slicesMap":{}}

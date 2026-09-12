@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7250/","result":{"data":{"stockDetail":{"symbol":"7250","market":"TSE","stock_name":"PACIFIC INDUSTRIAL CO.,LTD.","growth":3.46,"dividend":0,"recent_price":null,"basis_date":"2026-04-17"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7250"}},"staticQueryHashes":[],"slicesMap":{}}

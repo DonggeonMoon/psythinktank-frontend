@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9401/","result":{"data":{"stockDetail":{"symbol":"9401","market":"TSE","stock_name":"TBS HOLDINGS,INC.","growth":5.23,"dividend":100,"recent_price":5918,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9401"}},"staticQueryHashes":[],"slicesMap":{}}

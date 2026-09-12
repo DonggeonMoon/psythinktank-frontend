@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5832/","result":{"data":{"stockDetail":{"symbol":"5832","market":"TSE","stock_name":"Chugin Financial Group,Inc.","growth":0.33,"dividend":102,"recent_price":3534,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5832"}},"staticQueryHashes":[],"slicesMap":{}}

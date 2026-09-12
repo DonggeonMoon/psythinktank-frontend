@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/TMLP/","result":{"data":{"stockDetail":{"symbol":"TMLP","market":"NYSE_ARCA","stock_name":"Tortoise MLP ETF","growth":null,"dividend":0,"recent_price":30.917999267578125,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"TMLP"}},"staticQueryHashes":[],"slicesMap":{}}

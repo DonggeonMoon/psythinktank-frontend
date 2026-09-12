@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BNCWW/","result":{"data":{"stockDetail":{"symbol":"BNCWW","market":"NASDAQ","stock_name":"CEA Industries Inc. - Warrant","growth":null,"dividend":0,"recent_price":null,"basis_date":"2026-07-21"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BNCWW"}},"staticQueryHashes":[],"slicesMap":{}}

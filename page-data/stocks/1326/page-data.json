@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1326/","result":{"data":{"stockDetail":{"symbol":"1326","market":"TSE","stock_name":"SPDR Gold Shares","growth":null,"dividend":0,"recent_price":64030,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1326"}},"staticQueryHashes":[],"slicesMap":{}}

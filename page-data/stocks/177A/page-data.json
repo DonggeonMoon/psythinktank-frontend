@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/177A/","result":{"data":{"stockDetail":{"symbol":"177A","market":"TSE","stock_name":"Kohjin Bio Co.,Ltd.","growth":5.39,"dividend":10,"recent_price":846,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"177A"}},"staticQueryHashes":[],"slicesMap":{}}

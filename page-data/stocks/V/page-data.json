@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/V/","result":{"data":{"stockDetail":{"symbol":"V","market":"NYSE","stock_name":"Visa Inc.","growth":7.91,"dividend":2.68,"recent_price":368.6400146484375,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"V"}},"staticQueryHashes":[],"slicesMap":{}}

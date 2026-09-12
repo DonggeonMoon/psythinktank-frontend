@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2286/","result":{"data":{"stockDetail":{"symbol":"2286","market":"TSE","stock_name":"Hayashikane Sangyo Co.,Ltd.","growth":2.9,"dividend":45,"recent_price":923,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2286"}},"staticQueryHashes":[],"slicesMap":{}}

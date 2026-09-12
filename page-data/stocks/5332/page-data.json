@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5332/","result":{"data":{"stockDetail":{"symbol":"5332","market":"TSE","stock_name":"TOTO LTD.","growth":-8.02,"dividend":120,"recent_price":5907,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5332"}},"staticQueryHashes":[],"slicesMap":{}}

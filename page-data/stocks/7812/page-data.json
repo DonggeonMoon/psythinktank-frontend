@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7812/","result":{"data":{"stockDetail":{"symbol":"7812","market":"TSE","stock_name":"CRESTEC Inc.","growth":-1.37,"dividend":82,"recent_price":2125,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7812"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9324/","result":{"data":{"stockDetail":{"symbol":"9324","market":"TSE","stock_name":"Yasuda Logistics Corporation","growth":1.69,"dividend":74,"recent_price":2533,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9324"}},"staticQueryHashes":[],"slicesMap":{}}

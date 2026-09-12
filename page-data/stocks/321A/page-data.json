@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/321A/","result":{"data":{"stockDetail":{"symbol":"321A","market":"TSE","stock_name":"Human Stage Holdings Corporation","growth":null,"dividend":0,"recent_price":785,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"321A"}},"staticQueryHashes":[],"slicesMap":{}}

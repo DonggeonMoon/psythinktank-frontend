@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5202/","result":{"data":{"stockDetail":{"symbol":"5202","market":"TSE","stock_name":"Nippon Sheet Glass Company,Limited","growth":0.69,"dividend":0,"recent_price":491,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5202"}},"staticQueryHashes":[],"slicesMap":{}}

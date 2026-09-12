@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/KAR/","result":{"data":{"stockDetail":{"symbol":"KAR","market":"NYSE","stock_name":"OPENLANE, Inc. Common Stock","growth":0,"dividend":0,"recent_price":26.149999618530273,"basis_date":"2026-02-24"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"KAR"}},"staticQueryHashes":[],"slicesMap":{}}

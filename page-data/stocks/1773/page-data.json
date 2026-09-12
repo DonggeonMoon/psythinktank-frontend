@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1773/","result":{"data":{"stockDetail":{"symbol":"1773","market":"TSE","stock_name":"YTL Corporation Berhad","growth":37.27,"dividend":2.36,"recent_price":91,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1773"}},"staticQueryHashes":[],"slicesMap":{}}

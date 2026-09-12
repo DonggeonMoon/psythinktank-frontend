@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8095/","result":{"data":{"stockDetail":{"symbol":"8095","market":"TSE","stock_name":"Astena Holdings Co.,Ltd.","growth":8.66,"dividend":18,"recent_price":539,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8095"}},"staticQueryHashes":[],"slicesMap":{}}

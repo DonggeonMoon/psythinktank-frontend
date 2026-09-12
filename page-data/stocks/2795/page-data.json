@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2795/","result":{"data":{"stockDetail":{"symbol":"2795","market":"TSE","stock_name":"NIPPON PRIMEX INC.","growth":-0.99,"dividend":25,"recent_price":968,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2795"}},"staticQueryHashes":[],"slicesMap":{}}

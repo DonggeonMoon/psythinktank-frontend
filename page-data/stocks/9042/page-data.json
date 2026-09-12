@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9042/","result":{"data":{"stockDetail":{"symbol":"9042","market":"TSE","stock_name":"Hankyu Hanshin Holdings,Inc.","growth":3.62,"dividend":100,"recent_price":4705,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9042"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7455/","result":{"data":{"stockDetail":{"symbol":"7455","market":"TSE","stock_name":"PARIS MIKI HOLDINGS Inc.","growth":-5.09,"dividend":4,"recent_price":null,"basis_date":"2026-04-03"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7455"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7247/","result":{"data":{"stockDetail":{"symbol":"7247","market":"TSE","stock_name":"MIKUNI CORPORATION","growth":-1.88,"dividend":15,"recent_price":379,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7247"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6560/","result":{"data":{"stockDetail":{"symbol":"6560","market":"TSE","stock_name":"LTS,Inc.","growth":-1.86,"dividend":40,"recent_price":1859,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6560"}},"staticQueryHashes":[],"slicesMap":{}}

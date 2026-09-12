@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5542/","result":{"data":{"stockDetail":{"symbol":"5542","market":"TSE","stock_name":"Shinhokoku Material Corp.","growth":null,"dividend":20,"recent_price":947,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5542"}},"staticQueryHashes":[],"slicesMap":{}}

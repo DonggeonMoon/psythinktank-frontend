@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6473/","result":{"data":{"stockDetail":{"symbol":"6473","market":"TSE","stock_name":"JTEKT Corporation","growth":-3.97,"dividend":65,"recent_price":2188.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6473"}},"staticQueryHashes":[],"slicesMap":{}}

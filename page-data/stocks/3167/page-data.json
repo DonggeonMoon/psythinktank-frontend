@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3167/","result":{"data":{"stockDetail":{"symbol":"3167","market":"TSE","stock_name":"TOKAI Holdings Corporation","growth":1.64,"dividend":38,"recent_price":1339,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3167"}},"staticQueryHashes":[],"slicesMap":{}}

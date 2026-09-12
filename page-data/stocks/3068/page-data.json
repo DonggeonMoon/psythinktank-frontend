@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3068/","result":{"data":{"stockDetail":{"symbol":"3068","market":"TSE","stock_name":"WDI Corporation","growth":5.3,"dividend":17,"recent_price":3045,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3068"}},"staticQueryHashes":[],"slicesMap":{}}

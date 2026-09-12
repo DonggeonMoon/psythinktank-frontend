@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9823/","result":{"data":{"stockDetail":{"symbol":"9823","market":"TSE","stock_name":"Mammy Mart Corporation","growth":9.22,"dividend":21.2,"recent_price":1015,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9823"}},"staticQueryHashes":[],"slicesMap":{}}

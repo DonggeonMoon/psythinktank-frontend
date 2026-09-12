@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8060/","result":{"data":{"stockDetail":{"symbol":"8060","market":"TSE","stock_name":"Canon Marketing Japan Inc.","growth":0.16,"dividend":95,"recent_price":3685,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8060"}},"staticQueryHashes":[],"slicesMap":{}}

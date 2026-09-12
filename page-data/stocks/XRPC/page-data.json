@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/XRPC/","result":{"data":{"stockDetail":{"symbol":"XRPC","market":"NASDAQ","stock_name":"Canary XRP ETF","growth":null,"dividend":0,"recent_price":15.119999885559082,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"XRPC"}},"staticQueryHashes":[],"slicesMap":{}}

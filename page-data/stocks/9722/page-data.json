@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9722/","result":{"data":{"stockDetail":{"symbol":"9722","market":"TSE","stock_name":"FUJITA KANKO INC.","growth":7.06,"dividend":20,"recent_price":2865,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9722"}},"staticQueryHashes":[],"slicesMap":{}}

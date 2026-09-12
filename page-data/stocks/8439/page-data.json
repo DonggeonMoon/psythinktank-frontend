@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8439/","result":{"data":{"stockDetail":{"symbol":"8439","market":"TSE","stock_name":"Tokyo Century Corporation","growth":5.36,"dividend":90,"recent_price":2689,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8439"}},"staticQueryHashes":[],"slicesMap":{}}

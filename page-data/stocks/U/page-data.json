@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/U/","result":{"data":{"stockDetail":{"symbol":"U","market":"NYSE","stock_name":"Unity Software Inc. Common Stock","growth":-11.53,"dividend":0,"recent_price":42.75,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"U"}},"staticQueryHashes":[],"slicesMap":{}}

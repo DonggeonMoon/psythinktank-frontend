@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/212A/","result":{"data":{"stockDetail":{"symbol":"212A","market":"TSE","stock_name":"FIT EASY Inc.","growth":null,"dividend":51,"recent_price":2897,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"212A"}},"staticQueryHashes":[],"slicesMap":{}}

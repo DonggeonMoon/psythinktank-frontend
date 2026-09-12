@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9731/","result":{"data":{"stockDetail":{"symbol":"9731","market":"TSE","stock_name":"Hakuyosha Company,Ltd.","growth":-1.15,"dividend":80,"recent_price":3370,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9731"}},"staticQueryHashes":[],"slicesMap":{}}

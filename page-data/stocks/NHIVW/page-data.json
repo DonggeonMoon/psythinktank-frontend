@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/NHIVW/","result":{"data":{"stockDetail":{"symbol":"NHIVW","market":"NASDAQ","stock_name":"NewHold Investment Corp IV - Warrants","growth":null,"dividend":0,"recent_price":null,"basis_date":null},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"NHIVW"}},"staticQueryHashes":[],"slicesMap":{}}

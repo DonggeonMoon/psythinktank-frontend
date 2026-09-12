@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3161/","result":{"data":{"stockDetail":{"symbol":"3161","market":"TSE","stock_name":"AZEARTH Corporation","growth":-4.52,"dividend":23,"recent_price":666,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3161"}},"staticQueryHashes":[],"slicesMap":{}}

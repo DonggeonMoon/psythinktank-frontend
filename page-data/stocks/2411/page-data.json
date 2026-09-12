@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2411/","result":{"data":{"stockDetail":{"symbol":"2411","market":"TSE","stock_name":"GENDAI AGENCY INC.","growth":0.48,"dividend":25,"recent_price":470,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2411"}},"staticQueryHashes":[],"slicesMap":{}}

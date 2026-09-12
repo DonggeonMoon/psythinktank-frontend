@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8025/","result":{"data":{"stockDetail":{"symbol":"8025","market":"TSE","stock_name":"TSUKAMOTO CORPORATION CO.,LTD.","growth":-4.76,"dividend":30,"recent_price":1324,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8025"}},"staticQueryHashes":[],"slicesMap":{}}

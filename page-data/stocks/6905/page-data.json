@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6905/","result":{"data":{"stockDetail":{"symbol":"6905","market":"TSE","stock_name":"COSEL CO.,LTD.","growth":1.11,"dividend":55,"recent_price":1319,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6905"}},"staticQueryHashes":[],"slicesMap":{}}

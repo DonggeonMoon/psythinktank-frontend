@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4346/","result":{"data":{"stockDetail":{"symbol":"4346","market":"TSE","stock_name":"NEXYZ.Group Corporation","growth":6.07,"dividend":20,"recent_price":1053,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4346"}},"staticQueryHashes":[],"slicesMap":{}}

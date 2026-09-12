@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9962/","result":{"data":{"stockDetail":{"symbol":"9962","market":"TSE","stock_name":"MISUMI Group Inc.","growth":2.17,"dividend":59.45,"recent_price":3670,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9962"}},"staticQueryHashes":[],"slicesMap":{}}

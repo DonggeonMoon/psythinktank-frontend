@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7031/","result":{"data":{"stockDetail":{"symbol":"7031","market":"TSE","stock_name":"Inbound Tech Inc.","growth":-15.96,"dividend":0,"recent_price":710,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7031"}},"staticQueryHashes":[],"slicesMap":{}}

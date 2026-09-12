@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/PRO/","result":{"data":{"stockDetail":{"symbol":"PRO","market":"NYSE","stock_name":"PROS Holdings, Inc. Common Stock","growth":1.01,"dividend":0,"recent_price":null,"basis_date":"2025-12-09"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"PRO"}},"staticQueryHashes":[],"slicesMap":{}}

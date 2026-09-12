@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9107/","result":{"data":{"stockDetail":{"symbol":"9107","market":"TSE","stock_name":"Kawasaki Kisen Kaisha,Ltd.","growth":1.66,"dividend":120,"recent_price":3328,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9107"}},"staticQueryHashes":[],"slicesMap":{}}

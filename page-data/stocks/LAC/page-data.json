@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/LAC/","result":{"data":{"stockDetail":{"symbol":"LAC","market":"NYSE","stock_name":"Lithium Americas Corp. Common Shares","growth":null,"dividend":0,"recent_price":3,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"LAC"}},"staticQueryHashes":[],"slicesMap":{}}

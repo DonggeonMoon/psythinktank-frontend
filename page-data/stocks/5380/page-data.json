@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5380/","result":{"data":{"stockDetail":{"symbol":"5380","market":"TSE","stock_name":"SHINTO COMPANY LIMITED","growth":null,"dividend":37.5,"recent_price":1229,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5380"}},"staticQueryHashes":[],"slicesMap":{}}

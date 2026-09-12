@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6694/","result":{"data":{"stockDetail":{"symbol":"6694","market":"TSE","stock_name":"ZOOM CORPORATION","growth":-6.5,"dividend":32,"recent_price":750,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6694"}},"staticQueryHashes":[],"slicesMap":{}}

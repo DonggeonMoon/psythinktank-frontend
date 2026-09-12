@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3803/","result":{"data":{"stockDetail":{"symbol":"3803","market":"TSE","stock_name":"Image Information Inc.","growth":5.56,"dividend":0,"recent_price":619,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3803"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4245/","result":{"data":{"stockDetail":{"symbol":"4245","market":"TSE","stock_name":"Daiki Axis Co.,Ltd.","growth":1.4,"dividend":24,"recent_price":722,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4245"}},"staticQueryHashes":[],"slicesMap":{}}

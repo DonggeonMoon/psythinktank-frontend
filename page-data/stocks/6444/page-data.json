@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6444/","result":{"data":{"stockDetail":{"symbol":"6444","market":"TSE","stock_name":"SANDEN CORPORATION","growth":-10.35,"dividend":0,"recent_price":187,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6444"}},"staticQueryHashes":[],"slicesMap":{}}

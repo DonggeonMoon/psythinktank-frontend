@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6091/","result":{"data":{"stockDetail":{"symbol":"6091","market":"TSE","stock_name":"Wesco Holdings Inc.","growth":2.18,"dividend":28,"recent_price":888,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6091"}},"staticQueryHashes":[],"slicesMap":{}}

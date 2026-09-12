@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4476/","result":{"data":{"stockDetail":{"symbol":"4476","market":"TSE","stock_name":"AI CROSS Inc.","growth":53.57,"dividend":0,"recent_price":1111,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4476"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3723/","result":{"data":{"stockDetail":{"symbol":"3723","market":"TSE","stock_name":"NIHON FALCOM CORPORATION","growth":4.55,"dividend":10,"recent_price":2724,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3723"}},"staticQueryHashes":[],"slicesMap":{}}

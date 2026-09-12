@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/372A/","result":{"data":{"stockDetail":{"symbol":"372A","market":"TSE","stock_name":"RENT CORPORATION","growth":12.89,"dividend":235,"recent_price":5540,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"372A"}},"staticQueryHashes":[],"slicesMap":{}}

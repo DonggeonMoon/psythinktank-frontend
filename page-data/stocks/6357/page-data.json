@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6357/","result":{"data":{"stockDetail":{"symbol":"6357","market":"TSE","stock_name":"Sansei Technologies,Inc.","growth":1.66,"dividend":95,"recent_price":2660,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6357"}},"staticQueryHashes":[],"slicesMap":{}}

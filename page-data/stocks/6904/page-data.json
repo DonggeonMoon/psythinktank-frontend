@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6904/","result":{"data":{"stockDetail":{"symbol":"6904","market":"TSE","stock_name":"HARADA INDUSTRY CO.,LTD.","growth":0.38,"dividend":7.5,"recent_price":631,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6904"}},"staticQueryHashes":[],"slicesMap":{}}

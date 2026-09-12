@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6229/","result":{"data":{"stockDetail":{"symbol":"6229","market":"TSE","stock_name":"OKUMURA ENGINEERING corp.","growth":3.92,"dividend":50,"recent_price":1501,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6229"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3645/","result":{"data":{"stockDetail":{"symbol":"3645","market":"TSE","stock_name":"Medical Net,Inc.","growth":-2.03,"dividend":3,"recent_price":303,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3645"}},"staticQueryHashes":[],"slicesMap":{}}

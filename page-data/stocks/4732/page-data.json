@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4732/","result":{"data":{"stockDetail":{"symbol":"4732","market":"TSE","stock_name":"USS Co.,Ltd.","growth":3.06,"dividend":56.4,"recent_price":1981,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4732"}},"staticQueryHashes":[],"slicesMap":{}}

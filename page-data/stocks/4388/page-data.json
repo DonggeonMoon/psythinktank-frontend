@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4388/","result":{"data":{"stockDetail":{"symbol":"4388","market":"TSE","stock_name":"AI,Inc.","growth":3.64,"dividend":4,"recent_price":372,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4388"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3771/","result":{"data":{"stockDetail":{"symbol":"3771","market":"TSE","stock_name":"SYSTEM RESEARCH CO.,LTD.","growth":5.73,"dividend":70,"recent_price":1911,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3771"}},"staticQueryHashes":[],"slicesMap":{}}

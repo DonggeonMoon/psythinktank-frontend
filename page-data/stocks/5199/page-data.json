@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5199/","result":{"data":{"stockDetail":{"symbol":"5199","market":"TSE","stock_name":"FUJI LATEX CO.,LTD.","growth":1.2,"dividend":83,"recent_price":1984,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5199"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2602/","result":{"data":{"stockDetail":{"symbol":"2602","market":"TSE","stock_name":"The Nisshin OilliO Group,Ltd.","growth":0.98,"dividend":60,"recent_price":2071,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2602"}},"staticQueryHashes":[],"slicesMap":{}}

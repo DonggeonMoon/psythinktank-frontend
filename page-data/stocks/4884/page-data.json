@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4884/","result":{"data":{"stockDetail":{"symbol":"4884","market":"TSE","stock_name":"Kringle Pharma,Inc.","growth":13.33,"dividend":0,"recent_price":425,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4884"}},"staticQueryHashes":[],"slicesMap":{}}

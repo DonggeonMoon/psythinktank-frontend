@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/475A/","result":{"data":{"stockDetail":{"symbol":"475A","market":"TSE","stock_name":"GIMIC Co.,Ltd.","growth":null,"dividend":0,"recent_price":705,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"475A"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5026/","result":{"data":{"stockDetail":{"symbol":"5026","market":"TSE","stock_name":"TRIPLEIZE CO.,LTD.","growth":-3.44,"dividend":0,"recent_price":616,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5026"}},"staticQueryHashes":[],"slicesMap":{}}

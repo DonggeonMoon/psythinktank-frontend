@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/550A/","result":{"data":{"stockDetail":{"symbol":"550A","market":"TSE","stock_name":"SOFTTEX Co.,Ltd.","growth":null,"dividend":0,"recent_price":2210,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"550A"}},"staticQueryHashes":[],"slicesMap":{}}

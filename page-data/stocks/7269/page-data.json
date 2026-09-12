@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7269/","result":{"data":{"stockDetail":{"symbol":"7269","market":"TSE","stock_name":"SUZUKI MOTOR CORPORATION","growth":3.8,"dividend":51,"recent_price":2067,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7269"}},"staticQueryHashes":[],"slicesMap":{}}

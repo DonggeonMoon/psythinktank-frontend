@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3539/","result":{"data":{"stockDetail":{"symbol":"3539","market":"TSE","stock_name":"JM HOLDINGS CO.,LTD.","growth":5.61,"dividend":24,"recent_price":1364,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3539"}},"staticQueryHashes":[],"slicesMap":{}}

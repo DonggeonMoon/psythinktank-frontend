@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6744/","result":{"data":{"stockDetail":{"symbol":"6744","market":"TSE","stock_name":"NOHMI BOSAI LTD.","growth":13.08,"dividend":116,"recent_price":4160,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6744"}},"staticQueryHashes":[],"slicesMap":{}}

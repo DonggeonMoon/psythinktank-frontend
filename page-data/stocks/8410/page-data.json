@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8410/","result":{"data":{"stockDetail":{"symbol":"8410","market":"TSE","stock_name":"Seven Bank,Ltd.","growth":-0.36,"dividend":11,"recent_price":340.29998779296875,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8410"}},"staticQueryHashes":[],"slicesMap":{}}

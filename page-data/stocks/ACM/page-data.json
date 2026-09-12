@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/ACM/","result":{"data":{"stockDetail":{"symbol":"ACM","market":"NYSE","stock_name":"AECOM Common Stock","growth":0,"dividend":0,"recent_price":66.04000091552734,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"ACM"}},"staticQueryHashes":[],"slicesMap":{}}

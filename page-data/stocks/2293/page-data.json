@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2293/","result":{"data":{"stockDetail":{"symbol":"2293","market":"TSE","stock_name":"TAKIZAWA HAM CO.,LTD.","growth":-5.02,"dividend":20,"recent_price":2715,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2293"}},"staticQueryHashes":[],"slicesMap":{}}

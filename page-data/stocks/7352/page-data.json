@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7352/","result":{"data":{"stockDetail":{"symbol":"7352","market":"TSE","stock_name":"TWOSTONE&Sons Inc.","growth":42.59,"dividend":1,"recent_price":326,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7352"}},"staticQueryHashes":[],"slicesMap":{}}

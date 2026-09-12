@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5803/","result":{"data":{"stockDetail":{"symbol":"5803","market":"TSE","stock_name":"Fujikura Ltd.","growth":0,"dividend":38,"recent_price":5053,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5803"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8103/","result":{"data":{"stockDetail":{"symbol":"8103","market":"TSE","stock_name":"Meiwa Corporation","growth":16.86,"dividend":47,"recent_price":973,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8103"}},"staticQueryHashes":[],"slicesMap":{}}

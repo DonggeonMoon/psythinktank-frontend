@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5729/","result":{"data":{"stockDetail":{"symbol":"5729","market":"TSE","stock_name":"NIHON SEIKO CO.,LTD","growth":0.77,"dividend":115,"recent_price":1733,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5729"}},"staticQueryHashes":[],"slicesMap":{}}

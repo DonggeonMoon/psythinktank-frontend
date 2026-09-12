@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4284/","result":{"data":{"stockDetail":{"symbol":"4284","market":"TSE","stock_name":"SOLXYZ Co.,Ltd.","growth":1.64,"dividend":14,"recent_price":458,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4284"}},"staticQueryHashes":[],"slicesMap":{}}

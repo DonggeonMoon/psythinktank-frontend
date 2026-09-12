@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7962/","result":{"data":{"stockDetail":{"symbol":"7962","market":"TSE","stock_name":"KING JIM CO.,LTD.","growth":-4.61,"dividend":15,"recent_price":799,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7962"}},"staticQueryHashes":[],"slicesMap":{}}

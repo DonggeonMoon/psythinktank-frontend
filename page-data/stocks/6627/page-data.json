@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6627/","result":{"data":{"stockDetail":{"symbol":"6627","market":"TSE","stock_name":"Tera Probe,Inc.","growth":8.16,"dividend":110,"recent_price":11090,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6627"}},"staticQueryHashes":[],"slicesMap":{}}

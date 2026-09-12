@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1815/","result":{"data":{"stockDetail":{"symbol":"1815","market":"TSE","stock_name":"TEKKEN CORPORATION","growth":-1.82,"dividend":230,"recent_price":4470,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1815"}},"staticQueryHashes":[],"slicesMap":{}}

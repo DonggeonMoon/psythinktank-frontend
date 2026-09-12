@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6134/","result":{"data":{"stockDetail":{"symbol":"6134","market":"TSE","stock_name":"FUJI CORPORATION","growth":5.24,"dividend":190,"recent_price":6886,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6134"}},"staticQueryHashes":[],"slicesMap":{}}

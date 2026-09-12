@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/IBOT/","result":{"data":{"stockDetail":{"symbol":"IBOT","market":"NASDAQ","stock_name":"VanEck Robotics ETF","growth":null,"dividend":0,"recent_price":64.76000213623047,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"IBOT"}},"staticQueryHashes":[],"slicesMap":{}}

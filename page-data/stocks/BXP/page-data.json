@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/BXP/","result":{"data":{"stockDetail":{"symbol":"BXP","market":"NYSE","stock_name":"BXP, Inc. Common Stock","growth":1.23,"dividend":2.8,"recent_price":65.73999786376953,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"BXP"}},"staticQueryHashes":[],"slicesMap":{}}

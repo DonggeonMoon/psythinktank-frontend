@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/RXO/","result":{"data":{"stockDetail":{"symbol":"RXO","market":"NYSE","stock_name":"RXO, Inc. Common Stock","growth":-8.41,"dividend":0,"recent_price":19.920000076293945,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"RXO"}},"staticQueryHashes":[],"slicesMap":{}}

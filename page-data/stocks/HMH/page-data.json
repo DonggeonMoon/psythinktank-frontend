@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/HMH/","result":{"data":{"stockDetail":{"symbol":"HMH","market":"NASDAQ","stock_name":"HMH Holding Inc. - Common Stock","growth":-4.27,"dividend":0,"recent_price":19.75,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"HMH"}},"staticQueryHashes":[],"slicesMap":{}}

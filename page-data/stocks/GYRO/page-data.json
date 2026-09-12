@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/GYRO/","result":{"data":{"stockDetail":{"symbol":"GYRO","market":"NASDAQ","stock_name":"Gyrodyne , LLC - Common Stock","growth":-14.29,"dividend":0,"recent_price":5,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"GYRO"}},"staticQueryHashes":[],"slicesMap":{}}

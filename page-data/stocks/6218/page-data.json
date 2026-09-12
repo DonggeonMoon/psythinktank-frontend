@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6218/","result":{"data":{"stockDetail":{"symbol":"6218","market":"TSE","stock_name":"ENSHU Limited","growth":-7.9,"dividend":12,"recent_price":659,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6218"}},"staticQueryHashes":[],"slicesMap":{}}

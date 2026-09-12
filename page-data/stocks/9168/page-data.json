@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9168/","result":{"data":{"stockDetail":{"symbol":"9168","market":"TSE","stock_name":"Rise Consulting Group,Inc.","growth":20.3,"dividend":21,"recent_price":430,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9168"}},"staticQueryHashes":[],"slicesMap":{}}

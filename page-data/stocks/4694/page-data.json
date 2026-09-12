@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4694/","result":{"data":{"stockDetail":{"symbol":"4694","market":"TSE","stock_name":"BML,INC.","growth":1.18,"dividend":127.5,"recent_price":3645,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4694"}},"staticQueryHashes":[],"slicesMap":{}}

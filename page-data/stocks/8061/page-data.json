@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8061/","result":{"data":{"stockDetail":{"symbol":"8061","market":"TSE","stock_name":"SEIKA CORPORATION","growth":44.66,"dividend":105,"recent_price":3135,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8061"}},"staticQueryHashes":[],"slicesMap":{}}

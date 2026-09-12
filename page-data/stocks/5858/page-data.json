@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5858/","result":{"data":{"stockDetail":{"symbol":"5858","market":"TSE","stock_name":"STG CO.,LTD.","growth":20.6,"dividend":20,"recent_price":1180,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5858"}},"staticQueryHashes":[],"slicesMap":{}}

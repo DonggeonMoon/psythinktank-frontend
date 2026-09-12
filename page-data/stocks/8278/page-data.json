@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8278/","result":{"data":{"stockDetail":{"symbol":"8278","market":"TSE","stock_name":"FUJI CO.,LTD.","growth":-3.17,"dividend":30,"recent_price":2046,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8278"}},"staticQueryHashes":[],"slicesMap":{}}

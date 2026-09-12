@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8746/","result":{"data":{"stockDetail":{"symbol":"8746","market":"TSE","stock_name":"unbanked inc.","growth":287.5,"dividend":0,"recent_price":134,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8746"}},"staticQueryHashes":[],"slicesMap":{}}

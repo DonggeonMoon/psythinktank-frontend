@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/F/","result":{"data":{"stockDetail":{"symbol":"F","market":"NYSE","stock_name":"Ford Motor Company Common Stock","growth":-1.17,"dividend":0.6,"recent_price":14,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"F"}},"staticQueryHashes":[],"slicesMap":{}}

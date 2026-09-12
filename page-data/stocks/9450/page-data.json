@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9450/","result":{"data":{"stockDetail":{"symbol":"9450","market":"TSE","stock_name":"Fibergate Inc.","growth":3.91,"dividend":27,"recent_price":771,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9450"}},"staticQueryHashes":[],"slicesMap":{}}

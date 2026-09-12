@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8001/","result":{"data":{"stockDetail":{"symbol":"8001","market":"TSE","stock_name":"ITOCHU Corporation","growth":-0.45,"dividend":44,"recent_price":2204,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8001"}},"staticQueryHashes":[],"slicesMap":{}}

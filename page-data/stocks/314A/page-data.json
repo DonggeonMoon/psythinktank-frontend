@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/314A/","result":{"data":{"stockDetail":{"symbol":"314A","market":"TSE","stock_name":"iShares Gold ETF","growth":null,"dividend":0,"recent_price":331.29998779296875,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"314A"}},"staticQueryHashes":[],"slicesMap":{}}

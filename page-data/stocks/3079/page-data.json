@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3079/","result":{"data":{"stockDetail":{"symbol":"3079","market":"TSE","stock_name":"DVx Inc.","growth":5.7,"dividend":50,"recent_price":null,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3079"}},"staticQueryHashes":[],"slicesMap":{}}

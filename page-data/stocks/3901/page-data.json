@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3901/","result":{"data":{"stockDetail":{"symbol":"3901","market":"TSE","stock_name":"MarkLines Co.,Ltd.","growth":-1.52,"dividend":58,"recent_price":1509,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3901"}},"staticQueryHashes":[],"slicesMap":{}}

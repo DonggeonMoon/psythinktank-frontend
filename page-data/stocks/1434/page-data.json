@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1434/","result":{"data":{"stockDetail":{"symbol":"1434","market":"TSE","stock_name":"JESCO Holdings,Inc.","growth":-14.85,"dividend":48,"recent_price":1600,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1434"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8056/","result":{"data":{"stockDetail":{"symbol":"8056","market":"TSE","stock_name":"BIPROGY Inc.","growth":5.25,"dividend":140,"recent_price":4814,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8056"}},"staticQueryHashes":[],"slicesMap":{}}

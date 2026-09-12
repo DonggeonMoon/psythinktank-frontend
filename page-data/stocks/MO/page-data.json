@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/MO/","result":{"data":{"stockDetail":{"symbol":"MO","market":"NYSE","stock_name":"Altria Group, Inc.","growth":-4.84,"dividend":4.44,"recent_price":68.16999816894531,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"MO"}},"staticQueryHashes":[],"slicesMap":{}}

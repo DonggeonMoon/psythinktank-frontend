@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4716/","result":{"data":{"stockDetail":{"symbol":"4716","market":"TSE","stock_name":"ORACLE CORPORATION JAPAN","growth":0.04,"dividend":190,"recent_price":9295,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4716"}},"staticQueryHashes":[],"slicesMap":{}}

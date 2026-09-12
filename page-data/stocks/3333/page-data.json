@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3333/","result":{"data":{"stockDetail":{"symbol":"3333","market":"TSE","stock_name":"ASAHI CO.,LTD.","growth":1.78,"dividend":50,"recent_price":1303,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3333"}},"staticQueryHashes":[],"slicesMap":{}}

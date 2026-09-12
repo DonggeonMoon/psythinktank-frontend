@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5570/","result":{"data":{"stockDetail":{"symbol":"5570","market":"TSE","stock_name":"JENOBA CO.,LTD.","growth":0,"dividend":7,"recent_price":646,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5570"}},"staticQueryHashes":[],"slicesMap":{}}

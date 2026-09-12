@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2300/","result":{"data":{"stockDetail":{"symbol":"2300","market":"TSE","stock_name":"Kyokuto Co.,Ltd.","growth":null,"dividend":11,"recent_price":497,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2300"}},"staticQueryHashes":[],"slicesMap":{}}

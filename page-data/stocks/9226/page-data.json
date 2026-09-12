@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9226/","result":{"data":{"stockDetail":{"symbol":"9226","market":"TSE","stock_name":"IGER Inc.","growth":null,"dividend":0,"recent_price":null,"basis_date":"2026-07-24"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9226"}},"staticQueryHashes":[],"slicesMap":{}}

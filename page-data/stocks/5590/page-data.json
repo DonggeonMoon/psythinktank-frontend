@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5590/","result":{"data":{"stockDetail":{"symbol":"5590","market":"TSE","stock_name":"NETSTARS Co.,Ltd.","growth":-0.9,"dividend":0,"recent_price":725,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5590"}},"staticQueryHashes":[],"slicesMap":{}}

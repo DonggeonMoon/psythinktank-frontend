@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7561/","result":{"data":{"stockDetail":{"symbol":"7561","market":"TSE","stock_name":"HURXLEY CORPORATION","growth":2.59,"dividend":30,"recent_price":712,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7561"}},"staticQueryHashes":[],"slicesMap":{}}

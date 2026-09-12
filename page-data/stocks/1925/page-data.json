@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1925/","result":{"data":{"stockDetail":{"symbol":"1925","market":"TSE","stock_name":"DAIWA HOUSE INDUSTRY CO.,LTD.","growth":10.56,"dividend":176,"recent_price":4697,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1925"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5191/","result":{"data":{"stockDetail":{"symbol":"5191","market":"TSE","stock_name":"Sumitomo Riko Company Limited","growth":-0.29,"dividend":0,"recent_price":null,"basis_date":"2026-01-29"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5191"}},"staticQueryHashes":[],"slicesMap":{}}

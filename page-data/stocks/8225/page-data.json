@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8225/","result":{"data":{"stockDetail":{"symbol":"8225","market":"TSE","stock_name":"Takachiho Co.,Ltd.","growth":2.83,"dividend":110,"recent_price":3575,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8225"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6334/","result":{"data":{"stockDetail":{"symbol":"6334","market":"TSE","stock_name":"Meiji Machine Co.,Ltd.","growth":20.25,"dividend":6,"recent_price":491,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6334"}},"staticQueryHashes":[],"slicesMap":{}}

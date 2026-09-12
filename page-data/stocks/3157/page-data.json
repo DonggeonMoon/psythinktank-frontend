@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3157/","result":{"data":{"stockDetail":{"symbol":"3157","market":"TSE","stock_name":"GEOLIVE Group Corporation","growth":23.76,"dividend":56,"recent_price":1445,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3157"}},"staticQueryHashes":[],"slicesMap":{}}

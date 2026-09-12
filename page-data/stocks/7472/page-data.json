@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7472/","result":{"data":{"stockDetail":{"symbol":"7472","market":"TSE","stock_name":"TOBA,INC.","growth":-1.51,"dividend":120,"recent_price":3920,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7472"}},"staticQueryHashes":[],"slicesMap":{}}

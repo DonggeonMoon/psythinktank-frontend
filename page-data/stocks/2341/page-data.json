@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2341/","result":{"data":{"stockDetail":{"symbol":"2341","market":"TSE","stock_name":"ARBEIT-TIMES CO.,LTD.","growth":0.53,"dividend":5,"recent_price":172,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2341"}},"staticQueryHashes":[],"slicesMap":{}}

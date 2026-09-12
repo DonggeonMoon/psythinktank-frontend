@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/IJR/","result":{"data":{"stockDetail":{"symbol":"IJR","market":"NYSE_ARCA","stock_name":"iShares Core S&P Small-Cap ETF","growth":null,"dividend":0,"recent_price":144.25,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"IJR"}},"staticQueryHashes":[],"slicesMap":{}}

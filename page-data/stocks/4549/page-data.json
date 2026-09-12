@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4549/","result":{"data":{"stockDetail":{"symbol":"4549","market":"TSE","stock_name":"EIKEN CHEMICAL CO.,LTD.","growth":-0.85,"dividend":58,"recent_price":2341,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4549"}},"staticQueryHashes":[],"slicesMap":{}}

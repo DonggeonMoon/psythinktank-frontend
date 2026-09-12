@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/514A/","result":{"data":{"stockDetail":{"symbol":"514A","market":"TSE","stock_name":"Magonote Inc.","growth":null,"dividend":0,"recent_price":469,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"514A"}},"staticQueryHashes":[],"slicesMap":{}}

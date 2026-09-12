@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6419/","result":{"data":{"stockDetail":{"symbol":"6419","market":"TSE","stock_name":"Mars Group Holdings Corporation","growth":-0.48,"dividend":150,"recent_price":3200,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6419"}},"staticQueryHashes":[],"slicesMap":{}}

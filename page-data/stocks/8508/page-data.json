@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8508/","result":{"data":{"stockDetail":{"symbol":"8508","market":"TSE","stock_name":"J Trust Co.,Ltd.","growth":0.1,"dividend":17,"recent_price":777,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8508"}},"staticQueryHashes":[],"slicesMap":{}}

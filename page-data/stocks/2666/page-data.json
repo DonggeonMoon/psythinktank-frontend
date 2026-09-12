@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2666/","result":{"data":{"stockDetail":{"symbol":"2666","market":"TSE","stock_name":"AUTOWAVE Co.,Ltd.","growth":null,"dividend":3,"recent_price":186,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2666"}},"staticQueryHashes":[],"slicesMap":{}}

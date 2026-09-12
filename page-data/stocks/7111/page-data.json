@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7111/","result":{"data":{"stockDetail":{"symbol":"7111","market":"TSE","stock_name":"INEST,Inc.","growth":-43.23,"dividend":0,"recent_price":528,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7111"}},"staticQueryHashes":[],"slicesMap":{}}

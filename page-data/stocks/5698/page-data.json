@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5698/","result":{"data":{"stockDetail":{"symbol":"5698","market":"TSE","stock_name":"ENVIPRO HOLDINGS Inc.","growth":-1.25,"dividend":22,"recent_price":739,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5698"}},"staticQueryHashes":[],"slicesMap":{}}

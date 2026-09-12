@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7119/","result":{"data":{"stockDetail":{"symbol":"7119","market":"TSE","stock_name":"halmek holdings Co.,Ltd.","growth":0.72,"dividend":40,"recent_price":1870,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7119"}},"staticQueryHashes":[],"slicesMap":{}}

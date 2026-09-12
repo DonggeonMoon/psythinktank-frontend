@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1569/","result":{"data":{"stockDetail":{"symbol":"1569","market":"TSE","stock_name":"TOPIX Bear -1x ETF","growth":null,"dividend":0,"recent_price":733.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1569"}},"staticQueryHashes":[],"slicesMap":{}}

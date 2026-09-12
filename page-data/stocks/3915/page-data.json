@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3915/","result":{"data":{"stockDetail":{"symbol":"3915","market":"TSE","stock_name":"TerraSky Co.,Ltd","growth":14.53,"dividend":17,"recent_price":2474,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3915"}},"staticQueryHashes":[],"slicesMap":{}}

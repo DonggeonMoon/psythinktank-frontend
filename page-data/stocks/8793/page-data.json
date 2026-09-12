@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8793/","result":{"data":{"stockDetail":{"symbol":"8793","market":"TSE","stock_name":"NEC Capital Solutions Limited","growth":7.44,"dividend":150,"recent_price":4180,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8793"}},"staticQueryHashes":[],"slicesMap":{}}

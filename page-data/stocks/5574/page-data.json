@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5574/","result":{"data":{"stockDetail":{"symbol":"5574","market":"TSE","stock_name":"ABEJA,Inc.","growth":6.4,"dividend":0,"recent_price":3075,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5574"}},"staticQueryHashes":[],"slicesMap":{}}

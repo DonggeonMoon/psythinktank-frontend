@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/600A/","result":{"data":{"stockDetail":{"symbol":"600A","market":"TSE","stock_name":"Nissay ETF Russell 2000","growth":null,"dividend":0,"recent_price":1913,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"600A"}},"staticQueryHashes":[],"slicesMap":{}}

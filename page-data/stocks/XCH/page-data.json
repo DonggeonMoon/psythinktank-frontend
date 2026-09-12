@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/XCH/","result":{"data":{"stockDetail":{"symbol":"XCH","market":"NASDAQ","stock_name":"XCHG Limited - ADS","growth":-3.8,"dividend":0,"recent_price":3.0199999809265137,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"XCH"}},"staticQueryHashes":[],"slicesMap":{}}

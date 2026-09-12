@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6361/","result":{"data":{"stockDetail":{"symbol":"6361","market":"TSE","stock_name":"EBARA CORPORATION","growth":3.11,"dividend":66,"recent_price":4436,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6361"}},"staticQueryHashes":[],"slicesMap":{}}

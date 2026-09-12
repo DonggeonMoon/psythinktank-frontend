@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5257/","result":{"data":{"stockDetail":{"symbol":"5257","market":"TSE","stock_name":"NOVA SYSTEM CO.,LTD.","growth":8.51,"dividend":105,"recent_price":2877,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5257"}},"staticQueryHashes":[],"slicesMap":{}}

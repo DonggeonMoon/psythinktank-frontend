@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6797/","result":{"data":{"stockDetail":{"symbol":"6797","market":"TSE","stock_name":"NAGOYA ELECTRIC WORKS CO.,LTD.","growth":-3.76,"dividend":45,"recent_price":1230,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6797"}},"staticQueryHashes":[],"slicesMap":{}}

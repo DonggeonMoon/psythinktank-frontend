@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5363/","result":{"data":{"stockDetail":{"symbol":"5363","market":"TSE","stock_name":"TYK CORPORATION","growth":1.76,"dividend":30.6,"recent_price":682,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5363"}},"staticQueryHashes":[],"slicesMap":{}}

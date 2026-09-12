@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9932/","result":{"data":{"stockDetail":{"symbol":"9932","market":"TSE","stock_name":"SUGIMOTO & CO.,LTD.","growth":3.14,"dividend":54,"recent_price":1317,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9932"}},"staticQueryHashes":[],"slicesMap":{}}

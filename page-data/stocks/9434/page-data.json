@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9434/","result":{"data":{"stockDetail":{"symbol":"9434","market":"TSE","stock_name":"SoftBank Corp.","growth":6.1,"dividend":8.8,"recent_price":239.1999969482422,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9434"}},"staticQueryHashes":[],"slicesMap":{}}

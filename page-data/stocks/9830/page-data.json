@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9830/","result":{"data":{"stockDetail":{"symbol":"9830","market":"TSE","stock_name":"TRUSCO NAKAYAMA CORPORATION","growth":6.16,"dividend":61,"recent_price":2363,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9830"}},"staticQueryHashes":[],"slicesMap":{}}

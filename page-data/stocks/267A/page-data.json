@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/267A/","result":{"data":{"stockDetail":{"symbol":"267A","market":"TSE","stock_name":"TOWARISE CORPORATION","growth":null,"dividend":20,"recent_price":1815,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"267A"}},"staticQueryHashes":[],"slicesMap":{}}

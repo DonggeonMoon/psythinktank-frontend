@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3750/","result":{"data":{"stockDetail":{"symbol":"3750","market":"TSE","stock_name":"ADR120S,Inc.","growth":30,"dividend":0,"recent_price":826,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3750"}},"staticQueryHashes":[],"slicesMap":{}}

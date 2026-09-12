@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7240/","result":{"data":{"stockDetail":{"symbol":"7240","market":"TSE","stock_name":"NOK CORPORATION","growth":-3.43,"dividend":140,"recent_price":3003,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7240"}},"staticQueryHashes":[],"slicesMap":{}}

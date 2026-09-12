@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4512/","result":{"data":{"stockDetail":{"symbol":"4512","market":"TSE","stock_name":"WAKAMOTO PHARMACEUTICAL CO.,LTD.","growth":null,"dividend":3,"recent_price":306,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4512"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7538/","result":{"data":{"stockDetail":{"symbol":"7538","market":"TSE","stock_name":"DAISUI CO.,LTD.","growth":0.92,"dividend":7,"recent_price":386,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7538"}},"staticQueryHashes":[],"slicesMap":{}}

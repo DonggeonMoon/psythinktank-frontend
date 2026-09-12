@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4062/","result":{"data":{"stockDetail":{"symbol":"4062","market":"TSE","stock_name":"IBIDEN CO.,LTD.","growth":-0.56,"dividend":35,"recent_price":20475,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4062"}},"staticQueryHashes":[],"slicesMap":{}}

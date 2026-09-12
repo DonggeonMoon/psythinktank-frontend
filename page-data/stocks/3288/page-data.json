@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3288/","result":{"data":{"stockDetail":{"symbol":"3288","market":"TSE","stock_name":"Open House Group Co.,Ltd.","growth":8.4,"dividend":210,"recent_price":7655,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3288"}},"staticQueryHashes":[],"slicesMap":{}}

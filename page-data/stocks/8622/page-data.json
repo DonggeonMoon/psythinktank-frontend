@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8622/","result":{"data":{"stockDetail":{"symbol":"8622","market":"TSE","stock_name":"Mito Securities Co.,Ltd.","growth":1.73,"dividend":46,"recent_price":981,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8622"}},"staticQueryHashes":[],"slicesMap":{}}

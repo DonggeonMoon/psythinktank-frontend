@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4376/","result":{"data":{"stockDetail":{"symbol":"4376","market":"TSE","stock_name":"Kufu Company Holdings Inc.","growth":-7.26,"dividend":0,"recent_price":167,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4376"}},"staticQueryHashes":[],"slicesMap":{}}

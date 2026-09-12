@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/268A/","result":{"data":{"stockDetail":{"symbol":"268A","market":"TSE","stock_name":"Rigaku Holdings Corporation","growth":5.57,"dividend":19,"recent_price":1625,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"268A"}},"staticQueryHashes":[],"slicesMap":{}}

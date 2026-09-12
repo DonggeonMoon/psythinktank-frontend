@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6981/","result":{"data":{"stockDetail":{"symbol":"6981","market":"TSE","stock_name":"Murata Manufacturing Co.,Ltd.","growth":2.17,"dividend":70,"recent_price":7191,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6981"}},"staticQueryHashes":[],"slicesMap":{}}

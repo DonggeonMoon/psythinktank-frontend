@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9330/","result":{"data":{"stockDetail":{"symbol":"9330","market":"TSE","stock_name":"AGEHA Inc.","growth":null,"dividend":0,"recent_price":881,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9330"}},"staticQueryHashes":[],"slicesMap":{}}

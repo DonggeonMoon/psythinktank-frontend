@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/OFLX/","result":{"data":{"stockDetail":{"symbol":"OFLX","market":"NASDAQ","stock_name":"Omega Flex, Inc. - Common Stock","growth":-1.71,"dividend":1.36,"recent_price":26,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"OFLX"}},"staticQueryHashes":[],"slicesMap":{}}

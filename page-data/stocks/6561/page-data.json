@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6561/","result":{"data":{"stockDetail":{"symbol":"6561","market":"TSE","stock_name":"HANATOUR JAPAN CO.,LTD.","growth":0.33,"dividend":42,"recent_price":845,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6561"}},"staticQueryHashes":[],"slicesMap":{}}

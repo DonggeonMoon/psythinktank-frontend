@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2018/","result":{"data":{"stockDetail":{"symbol":"2018","market":"TSE","stock_name":"Global X US REIT Top 20 ETF","growth":null,"dividend":0,"recent_price":1256,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2018"}},"staticQueryHashes":[],"slicesMap":{}}

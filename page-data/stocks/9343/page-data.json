@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9343/","result":{"data":{"stockDetail":{"symbol":"9343","market":"TSE","stock_name":"ibis inc.","growth":null,"dividend":12,"recent_price":823,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9343"}},"staticQueryHashes":[],"slicesMap":{}}

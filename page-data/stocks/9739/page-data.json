@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9739/","result":{"data":{"stockDetail":{"symbol":"9739","market":"TSE","stock_name":"NSW Inc.","growth":1.97,"dividend":125,"recent_price":2723,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9739"}},"staticQueryHashes":[],"slicesMap":{}}

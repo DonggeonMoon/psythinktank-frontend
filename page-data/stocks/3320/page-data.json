@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3320/","result":{"data":{"stockDetail":{"symbol":"3320","market":"TSE","stock_name":"CROSS PLUS INC.","growth":0.86,"dividend":60,"recent_price":1319,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3320"}},"staticQueryHashes":[],"slicesMap":{}}

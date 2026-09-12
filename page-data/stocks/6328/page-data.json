@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6328/","result":{"data":{"stockDetail":{"symbol":"6328","market":"TSE","stock_name":"EBARA JITSUGYO CO.,LTD.","growth":0.92,"dividend":75,"recent_price":2387,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6328"}},"staticQueryHashes":[],"slicesMap":{}}

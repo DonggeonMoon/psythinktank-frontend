@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5933/","result":{"data":{"stockDetail":{"symbol":"5933","market":"TSE","stock_name":"ALINCO INCORPORATED","growth":3.23,"dividend":45,"recent_price":1129,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5933"}},"staticQueryHashes":[],"slicesMap":{}}

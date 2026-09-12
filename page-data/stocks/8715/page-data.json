@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8715/","result":{"data":{"stockDetail":{"symbol":"8715","market":"TSE","stock_name":"Anicom Holdings,Inc.","growth":5.24,"dividend":13.5,"recent_price":1076,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8715"}},"staticQueryHashes":[],"slicesMap":{}}

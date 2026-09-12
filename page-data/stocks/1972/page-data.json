@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1972/","result":{"data":{"stockDetail":{"symbol":"1972","market":"TSE","stock_name":"SANKO METAL INDUSTRIAL CO.,LTD.","growth":null,"dividend":65,"recent_price":1315,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1972"}},"staticQueryHashes":[],"slicesMap":{}}

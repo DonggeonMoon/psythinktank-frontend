@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/TDW/","result":{"data":{"stockDetail":{"symbol":"TDW","market":"NYSE","stock_name":"Tidewater Inc. Common Stock","growth":-5.19,"dividend":0,"recent_price":92,"basis_date":"2026-09-08"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"TDW"}},"staticQueryHashes":[],"slicesMap":{}}

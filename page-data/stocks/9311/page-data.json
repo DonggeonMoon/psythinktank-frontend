@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9311/","result":{"data":{"stockDetail":{"symbol":"9311","market":"TSE","stock_name":"ASAGAMI CORPORATION","growth":-0.48,"dividend":140,"recent_price":7740,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9311"}},"staticQueryHashes":[],"slicesMap":{}}

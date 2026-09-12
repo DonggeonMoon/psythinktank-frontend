@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5658/","result":{"data":{"stockDetail":{"symbol":"5658","market":"TSE","stock_name":"NICHIA STEEL WORKS,LTD.","growth":-2.25,"dividend":10,"recent_price":410,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5658"}},"staticQueryHashes":[],"slicesMap":{}}

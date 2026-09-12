@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2815/","result":{"data":{"stockDetail":{"symbol":"2815","market":"TSE","stock_name":"ARIAKE JAPAN Co.,Ltd.","growth":3,"dividend":180,"recent_price":5420,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2815"}},"staticQueryHashes":[],"slicesMap":{}}

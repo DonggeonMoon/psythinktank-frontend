@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/423A/","result":{"data":{"stockDetail":{"symbol":"423A","market":"TSE","stock_name":"LION OFFICE PRODUCTS CORP.","growth":2.53,"dividend":7,"recent_price":322,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"423A"}},"staticQueryHashes":[],"slicesMap":{}}

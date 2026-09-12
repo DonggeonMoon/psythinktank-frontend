@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1721/","result":{"data":{"stockDetail":{"symbol":"1721","market":"TSE","stock_name":"COMSYS Holdings Corporation","growth":0.79,"dividend":135,"recent_price":5401,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1721"}},"staticQueryHashes":[],"slicesMap":{}}

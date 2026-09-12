@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6278/","result":{"data":{"stockDetail":{"symbol":"6278","market":"TSE","stock_name":"UNION TOOL CO.","growth":5.23,"dividend":150,"recent_price":13430,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6278"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8252/","result":{"data":{"stockDetail":{"symbol":"8252","market":"TSE","stock_name":"MARUI GROUP CO.,LTD.","growth":-5.7,"dividend":134,"recent_price":2921.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8252"}},"staticQueryHashes":[],"slicesMap":{}}

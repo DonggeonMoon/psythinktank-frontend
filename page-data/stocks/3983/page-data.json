@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3983/","result":{"data":{"stockDetail":{"symbol":"3983","market":"TSE","stock_name":"ORO Co.,Ltd.","growth":7.14,"dividend":50,"recent_price":2053,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3983"}},"staticQueryHashes":[],"slicesMap":{}}

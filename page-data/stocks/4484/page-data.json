@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4484/","result":{"data":{"stockDetail":{"symbol":"4484","market":"TSE","stock_name":"LANCERS,INC.","growth":6.38,"dividend":3,"recent_price":298,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4484"}},"staticQueryHashes":[],"slicesMap":{}}

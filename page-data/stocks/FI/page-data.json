@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/FI/","result":{"data":{"stockDetail":{"symbol":"FI","market":"NYSE","stock_name":"Fiserv, Inc. Common Stock","growth":0,"dividend":0,"recent_price":68.70999908447266,"basis_date":"2026-01-07"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"FI"}},"staticQueryHashes":[],"slicesMap":{}}

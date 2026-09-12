@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7601/","result":{"data":{"stockDetail":{"symbol":"7601","market":"TSE","stock_name":"POPLAR CO.,Ltd.","growth":1.69,"dividend":0,"recent_price":165,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7601"}},"staticQueryHashes":[],"slicesMap":{}}

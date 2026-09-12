@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7524/","result":{"data":{"stockDetail":{"symbol":"7524","market":"TSE","stock_name":"MARCHE CORPORATION","growth":null,"dividend":0,"recent_price":175,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7524"}},"staticQueryHashes":[],"slicesMap":{}}

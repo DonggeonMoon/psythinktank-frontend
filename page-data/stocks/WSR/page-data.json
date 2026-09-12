@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/WSR/","result":{"data":{"stockDetail":{"symbol":"WSR","market":"NYSE","stock_name":"Whitestone REIT Common Shares","growth":1.45,"dividend":0.57,"recent_price":null,"basis_date":"2026-07-14"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"WSR"}},"staticQueryHashes":[],"slicesMap":{}}

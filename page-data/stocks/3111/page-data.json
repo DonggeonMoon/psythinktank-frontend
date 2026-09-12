@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3111/","result":{"data":{"stockDetail":{"symbol":"3111","market":"TSE","stock_name":"OMIKENSHI CO.,LTD.","growth":1.22,"dividend":10,"recent_price":185,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3111"}},"staticQueryHashes":[],"slicesMap":{}}

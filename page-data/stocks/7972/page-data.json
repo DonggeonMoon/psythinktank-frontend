@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7972/","result":{"data":{"stockDetail":{"symbol":"7972","market":"TSE","stock_name":"ITOKI CORPORATION","growth":5.23,"dividend":90,"recent_price":2535,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7972"}},"staticQueryHashes":[],"slicesMap":{}}

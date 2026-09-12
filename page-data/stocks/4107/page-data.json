@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4107/","result":{"data":{"stockDetail":{"symbol":"4107","market":"TSE","stock_name":"ISE CHEMICALS CORPORATION","growth":1.24,"dividend":40,"recent_price":3930,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4107"}},"staticQueryHashes":[],"slicesMap":{}}

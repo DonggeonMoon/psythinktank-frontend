@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8214/","result":{"data":{"stockDetail":{"symbol":"8214","market":"TSE","stock_name":"AOKI Holdings Inc.","growth":4.13,"dividend":90,"recent_price":1748,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8214"}},"staticQueryHashes":[],"slicesMap":{}}

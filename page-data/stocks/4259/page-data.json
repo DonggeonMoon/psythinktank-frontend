@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4259/","result":{"data":{"stockDetail":{"symbol":"4259","market":"TSE","stock_name":"ExaWizards Inc.","growth":6.3,"dividend":0,"recent_price":860,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4259"}},"staticQueryHashes":[],"slicesMap":{}}

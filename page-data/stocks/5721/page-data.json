@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5721/","result":{"data":{"stockDetail":{"symbol":"5721","market":"TSE","stock_name":"S・Science Company,Ltd.","growth":8,"dividend":0,"recent_price":57,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5721"}},"staticQueryHashes":[],"slicesMap":{}}

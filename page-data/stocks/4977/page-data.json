@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4977/","result":{"data":{"stockDetail":{"symbol":"4977","market":"TSE","stock_name":"Nitta Gelatin Inc.","growth":-1.05,"dividend":38,"recent_price":1200,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4977"}},"staticQueryHashes":[],"slicesMap":{}}

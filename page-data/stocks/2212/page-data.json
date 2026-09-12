@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2212/","result":{"data":{"stockDetail":{"symbol":"2212","market":"TSE","stock_name":"YAMAZAKI BAKING CO.,LTD.","growth":0.46,"dividend":60,"recent_price":3789,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2212"}},"staticQueryHashes":[],"slicesMap":{}}

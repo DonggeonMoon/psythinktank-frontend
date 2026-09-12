@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/4382/","result":{"data":{"stockDetail":{"symbol":"4382","market":"TSE","stock_name":"HEROZ,Inc.","growth":-11.9,"dividend":0,"recent_price":768,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"4382"}},"staticQueryHashes":[],"slicesMap":{}}

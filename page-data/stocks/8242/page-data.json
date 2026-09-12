@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/8242/","result":{"data":{"stockDetail":{"symbol":"8242","market":"TSE","stock_name":"H2O RETAILING CORPORATION","growth":-2.85,"dividend":48,"recent_price":2889.5,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"8242"}},"staticQueryHashes":[],"slicesMap":{}}

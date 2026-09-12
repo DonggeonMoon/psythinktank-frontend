@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6804/","result":{"data":{"stockDetail":{"symbol":"6804","market":"TSE","stock_name":"Hosiden Corporation","growth":-3.71,"dividend":77,"recent_price":2630,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6804"}},"staticQueryHashes":[],"slicesMap":{}}

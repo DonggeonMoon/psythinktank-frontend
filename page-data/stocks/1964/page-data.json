@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1964/","result":{"data":{"stockDetail":{"symbol":"1964","market":"TSE","stock_name":"Chugai Ro Co.,Ltd.","growth":3.74,"dividend":166,"recent_price":3965,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1964"}},"staticQueryHashes":[],"slicesMap":{}}

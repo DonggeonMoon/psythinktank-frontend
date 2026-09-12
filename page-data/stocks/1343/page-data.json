@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1343/","result":{"data":{"stockDetail":{"symbol":"1343","market":"TSE","stock_name":"NEXT FUNDS REIT INDEX ETF","growth":null,"dividend":94.82,"recent_price":1925,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1343"}},"staticQueryHashes":[],"slicesMap":{}}

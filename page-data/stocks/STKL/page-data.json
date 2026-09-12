@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/STKL/","result":{"data":{"stockDetail":{"symbol":"STKL","market":"NASDAQ","stock_name":"SunOpta, Inc. - Common Stock","growth":6.65,"dividend":0,"recent_price":null,"basis_date":"2026-05-12"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"STKL"}},"staticQueryHashes":[],"slicesMap":{}}

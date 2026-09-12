@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/173A/","result":{"data":{"stockDetail":{"symbol":"173A","market":"TSE","stock_name":"Hammock Inc.","growth":-0.91,"dividend":40,"recent_price":1565,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"173A"}},"staticQueryHashes":[],"slicesMap":{}}

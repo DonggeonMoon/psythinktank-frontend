@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5246/","result":{"data":{"stockDetail":{"symbol":"5246","market":"TSE","stock_name":"ELEMENTS,Inc.","growth":18.39,"dividend":0,"recent_price":808,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5246"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9612/","result":{"data":{"stockDetail":{"symbol":"9612","market":"TSE","stock_name":"LUCKLAND CO.,LTD.","growth":-4.43,"dividend":40,"recent_price":1216,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9612"}},"staticQueryHashes":[],"slicesMap":{}}

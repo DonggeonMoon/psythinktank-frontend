@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5250/","result":{"data":{"stockDetail":{"symbol":"5250","market":"TSE","stock_name":"PRIME STRATEGY CO.,LTD.","growth":12,"dividend":22,"recent_price":1045,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5250"}},"staticQueryHashes":[],"slicesMap":{}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2876/","result":{"data":{"stockDetail":{"symbol":"2876","market":"TSE","stock_name":"Delsole Corporation","growth":null,"dividend":12,"recent_price":476,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2876"}},"staticQueryHashes":[],"slicesMap":{}}

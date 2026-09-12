@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2307/","result":{"data":{"stockDetail":{"symbol":"2307","market":"TSE","stock_name":"CROSS CAT CO.,LTD.","growth":2.92,"dividend":39,"recent_price":1060,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2307"}},"staticQueryHashes":[],"slicesMap":{}}

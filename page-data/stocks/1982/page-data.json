@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/1982/","result":{"data":{"stockDetail":{"symbol":"1982","market":"TSE","stock_name":"Hibiya Engineering,Ltd.","growth":-0.82,"dividend":100,"recent_price":2992,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"1982"}},"staticQueryHashes":[],"slicesMap":{}}

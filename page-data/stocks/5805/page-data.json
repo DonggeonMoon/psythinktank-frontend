@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5805/","result":{"data":{"stockDetail":{"symbol":"5805","market":"TSE","stock_name":"SWCC Corporation","growth":-2.67,"dividend":311,"recent_price":13740,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5805"}},"staticQueryHashes":[],"slicesMap":{}}

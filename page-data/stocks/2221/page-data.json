@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/2221/","result":{"data":{"stockDetail":{"symbol":"2221","market":"TSE","stock_name":"IWATSUKA CONFECTIONERY CO.,LTD.","growth":2.8,"dividend":32,"recent_price":3060,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"2221"}},"staticQueryHashes":[],"slicesMap":{}}

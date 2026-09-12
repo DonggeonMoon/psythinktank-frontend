@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/387A/","result":{"data":{"stockDetail":{"symbol":"387A","market":"TSE","stock_name":"Fuller,Inc.","growth":null,"dividend":0,"recent_price":918,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"387A"}},"staticQueryHashes":[],"slicesMap":{}}

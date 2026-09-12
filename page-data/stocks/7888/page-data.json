@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7888/","result":{"data":{"stockDetail":{"symbol":"7888","market":"TSE","stock_name":"SANKO GOSEI LTD.","growth":-1.44,"dividend":32,"recent_price":896,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7888"}},"staticQueryHashes":[],"slicesMap":{}}

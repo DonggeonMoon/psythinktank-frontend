@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9246/","result":{"data":{"stockDetail":{"symbol":"9246","market":"TSE","stock_name":"ProjectHoldings,Inc.","growth":37.25,"dividend":0,"recent_price":1127,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9246"}},"staticQueryHashes":[],"slicesMap":{}}

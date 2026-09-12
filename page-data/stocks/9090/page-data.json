@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9090/","result":{"data":{"stockDetail":{"symbol":"9090","market":"TSE","stock_name":"AZ-COM MARUWA Holdings Inc.","growth":4.22,"dividend":32,"recent_price":886,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9090"}},"staticQueryHashes":[],"slicesMap":{}}

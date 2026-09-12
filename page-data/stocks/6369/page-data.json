@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/6369/","result":{"data":{"stockDetail":{"symbol":"6369","market":"TSE","stock_name":"TOYO KANETSU K.K.","growth":16.5,"dividend":103,"recent_price":2431,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"6369"}},"staticQueryHashes":[],"slicesMap":{}}

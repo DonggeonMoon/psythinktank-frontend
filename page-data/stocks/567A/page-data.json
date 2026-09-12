@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/567A/","result":{"data":{"stockDetail":{"symbol":"567A","market":"TSE","stock_name":"D-Plus Co.,Ltd.","growth":null,"dividend":0,"recent_price":3000,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"567A"}},"staticQueryHashes":[],"slicesMap":{}}

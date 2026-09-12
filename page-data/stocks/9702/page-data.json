@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9702/","result":{"data":{"stockDetail":{"symbol":"9702","market":"TSE","stock_name":"ISB CORPORATION","growth":5.69,"dividend":70,"recent_price":2372,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9702"}},"staticQueryHashes":[],"slicesMap":{}}

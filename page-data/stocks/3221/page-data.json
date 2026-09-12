@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/3221/","result":{"data":{"stockDetail":{"symbol":"3221","market":"TSE","stock_name":"Yossix Holdings Co.,Ltd.","growth":4.85,"dividend":32,"recent_price":3270,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"3221"}},"staticQueryHashes":[],"slicesMap":{}}

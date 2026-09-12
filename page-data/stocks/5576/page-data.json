@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5576/","result":{"data":{"stockDetail":{"symbol":"5576","market":"TSE","stock_name":"O.B.System Inc.","growth":21.64,"dividend":125,"recent_price":3005,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5576"}},"staticQueryHashes":[],"slicesMap":{}}

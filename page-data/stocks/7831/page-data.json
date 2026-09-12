@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/7831/","result":{"data":{"stockDetail":{"symbol":"7831","market":"TSE","stock_name":"Wellco Holdings Corporation","growth":32.31,"dividend":2,"recent_price":68,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"7831"}},"staticQueryHashes":[],"slicesMap":{}}

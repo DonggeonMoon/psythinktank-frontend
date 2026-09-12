@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/9969/","result":{"data":{"stockDetail":{"symbol":"9969","market":"TSE","stock_name":"SHOKUBUN CO.,LTD.","growth":-12.83,"dividend":2.5,"recent_price":234,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"9969"}},"staticQueryHashes":[],"slicesMap":{}}

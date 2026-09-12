@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-stock-detail-tsx","path":"/stocks/5985/","result":{"data":{"stockDetail":{"symbol":"5985","market":"TSE","stock_name":"SUNCALL CORPORATION","growth":-11.06,"dividend":35,"recent_price":2033,"basis_date":"2026-09-04"},"allShareholder":{"nodes":[]}},"pageContext":{"symbol":"5985"}},"staticQueryHashes":[],"slicesMap":{}}
