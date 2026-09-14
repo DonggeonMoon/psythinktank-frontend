@@ -266,5 +266,5 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
 export default StockDetailPage;
 
 export const Head: HeadFC<DataProps> = ({data}) => (
-    <title>{data.stockDetail ? `${data.stockDetail.stock_name} (${data.stockDetail.symbol})` : "종목 상세"} | PSY Thinktank</title>
+    <title>{data.stockDetail ? `${data.stockDetail.stock_name} (${data.stockDetail.symbol})` : "종목 상세"}</title>
 );
