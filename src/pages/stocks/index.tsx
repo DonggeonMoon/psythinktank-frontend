@@ -243,4 +243,4 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
 export default StockPage;
 
-export const Head: HeadFC = () => <title>종목 탐색 | PSY Thinktank</title>;
+export const Head: HeadFC = () => <title>종목 탐색</title>;
