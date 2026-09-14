@@ -27,6 +27,7 @@ interface Post {
 
 interface BoardDetailContext {
     postId: string;
+    title: string | null;
 }
 
 const formatDate = (timestamp: Timestamp | null) => {
@@ -181,5 +182,5 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
 export default BoardDetailPage;
 
 export const Head: HeadFC<object, BoardDetailContext> = ({pageContext}) => {
-    return <title>게시글 상세보기 | {pageContext.postId}</title>;
+    return <title>{pageContext.title ?? "게시글 상세보기"} | PSY Thinktank</title>;
 };

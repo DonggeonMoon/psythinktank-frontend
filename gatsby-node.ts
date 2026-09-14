@@ -67,6 +67,7 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
     }
     type BoardPost implements Node {
       postId: String
+      title: String
       updatedAt: String
     }
   `
@@ -75,7 +76,7 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
 
 // 게시글은 Firestore에만 존재해서 로컬 json 스냅샷이 없으므로, sitemap에 실제 게시글 URL을
 // 포함시키기 위해 빌드 시점에 Firestore에서 게시글 id 목록만 직접 조회해 노드로 만든다.
-const fetchBoardPosts = async (): Promise<{ postId: string; updatedAt: string | null }[]> => {
+const fetchBoardPosts = async (): Promise<{ postId: string; title: string | null; updatedAt: string | null }[]> => {
     const firebaseConfig = {
         apiKey: process.env.GATSBY_FIREBASE_API_KEY,
         authDomain: process.env.GATSBY_FIREBASE_AUTH_DOMAIN,
@@ -93,9 +94,9 @@ const fetchBoardPosts = async (): Promise<{ postId: string; updatedAt: string | 
     const snapshot = await getDocs(collection(db, "posts"))
 
     return snapshot.docs.map((doc) => {
-        const data = doc.data() as { updatedAt?: Timestamp; createdAt?: Timestamp }
+        const data = doc.data() as { title?: string; updatedAt?: Timestamp; createdAt?: Timestamp }
         const timestamp = data.updatedAt ?? data.createdAt
-        return { postId: doc.id, updatedAt: timestamp ? timestamp.toDate().toISOString() : null }
+        return { postId: doc.id, title: data.title ?? null, updatedAt: timestamp ? timestamp.toDate().toISOString() : null }
     })
 }
 
@@ -212,11 +213,12 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
     // 게시글 상세 페이지는 예전엔 File System Route API의 [articleId] client-only route(matchPath)로
     // 처리해서 빌드 타임에 정적 파일이 생성되지 않았고, 그 결과 구글 크롤러가 접근하면 404가 났다.
     // BoardPost 노드(postId 목록, sourceNodes에서 Firestore로부터 조회)를 기준으로 실제 페이지를 생성한다.
-    const boardResult = await graphql<{ allBoardPost: { nodes: { postId: string }[] } }>(`
+    const boardResult = await graphql<{ allBoardPost: { nodes: { postId: string; title: string | null }[] } }>(`
         query {
             allBoardPost {
                 nodes {
                     postId
+                    title
                 }
             }
         }
@@ -237,7 +239,7 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
         createPage({
             path: `/boards/${node.postId}`,
             component: boardDetailTemplate,
-            context: { postId: node.postId },
+            context: { postId: node.postId, title: node.title },
         })
 
         reporter.info(`Creating page ${index + 1}/${total}: /boards/${node.postId}/`)
