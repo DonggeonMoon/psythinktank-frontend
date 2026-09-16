@@ -14,6 +14,7 @@ export const stockLabels = {
     growthRate: {ko: "성장률", en: "Growth Rate", ja: "成長率", zh: "增长率"},
     dividendPerShare: {ko: "주당 배당금", en: "Dividend per Share", ja: "1株配当", zh: "每股股息"},
     none: {ko: "없음", en: "N/A", ja: "なし", zh: "无"},
+    npsHolding: {ko: "국민연금공단 보유", en: "NPS Holding", ja: "国民年金公団保有", zh: "韩国国民年金公团持股"},
     shareholderTrend: {ko: "주주 지분 변화 추이", en: "Shareholder Stake Trend", ja: "株主持分推移", zh: "股东持股变化趋势"},
     noChartData: {
         ko: "차트를 그릴 데이터가 없습니다.",

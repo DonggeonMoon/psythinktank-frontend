@@ -24,6 +24,7 @@ export const query = graphql`
       dividend
       recent_price
       basis_date
+      nps_holding
     }
     allShareholder(filter: { symbol: { eq: $symbol } }, sort: { date: DESC }) {
       nodes {
@@ -44,6 +45,7 @@ interface StockDetailData {
     dividend: number | null;
     recent_price: number | null;
     basis_date: string | null;
+    nps_holding: boolean | null;
 }
 
 interface ShareholderNode {
@@ -171,6 +173,11 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             </span>
                             <h1 className="text-4xl font-extrabold tracking-tight">{stock.stock_name}</h1>
                             <span className="text-2xl text-slate-400 font-light">{stock.symbol}</span>
+                            {stock.nps_holding && (
+                                <span className="px-2 py-0.5 rounded text-xs font-bold tracking-wider bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400">
+                                    <I18nText dict={stockLabels.npsHolding} lang={lang}/>
+                                </span>
+                            )}
                         </div>
                         <LangSwitcher lang={lang} onChange={setLang}/>
                     </div>

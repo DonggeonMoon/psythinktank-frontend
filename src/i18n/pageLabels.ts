@@ -20,6 +20,12 @@ export const stocksPageLabels = {
     colName: {ko: "종목명", en: "Name", ja: "銘柄名", zh: "股票名称"},
     colTicker: {ko: "티커", en: "Ticker", ja: "ティッカー", zh: "代码"},
     colMarket: {ko: "시장", en: "Market", ja: "市場", zh: "市场"},
+    npsFilterLabel: {
+        ko: "국민연금 보유 종목",
+        en: "NPS holdings",
+        ja: "国民年金保有銘柄",
+        zh: "国民年金持股",
+    },
     noData: {ko: "데이터가 없습니다.", en: "No data available.", ja: "データがありません。", zh: "没有数据。"},
     prev: {ko: "이전", en: "Prev", ja: "前へ", zh: "上一页"},
     next: {ko: "다음", en: "Next", ja: "次へ", zh: "下一页"},

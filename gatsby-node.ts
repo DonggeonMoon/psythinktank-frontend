@@ -58,6 +58,7 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       dividend: Float
       recent_price: Float
       basis_date: String
+      nps_holding: Boolean
     }
     type Shareholder implements Node {
       date: String
