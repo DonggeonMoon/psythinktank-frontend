@@ -19,6 +19,10 @@ import {db} from "../../firebase/client";
 import {useAuth} from "../../contexts/AuthContext";
 import {isStaffRole} from "../../lib/roles";
 import {Chart, registerables} from "chart.js";
+import I18nText from "../../components/I18nText";
+import LangSwitcher from "../../components/LangSwitcher";
+import {performancePageLabels} from "../../i18n/pageLabels";
+import {useAutoLang} from "../../hooks/useAutoLang";
 
 Chart.register(...registerables);
 
@@ -40,6 +44,7 @@ const inputClass =
 const PerformancePage: React.FC<PageProps> = () => {
     const {profile} = useAuth();
     const canManage = isStaffRole(profile?.role);
+    const [lang, setLang] = useAutoLang();
 
     const [isDark, setIsDark] = useState(false);
     useEffect(() => {
@@ -235,18 +240,21 @@ const PerformancePage: React.FC<PageProps> = () => {
             <Header />
 
             <main className="flex-1 mx-auto w-full max-w-6xl px-4 py-10 space-y-10">
-                <header className="space-y-2">
-                    <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
-                        성과
-                    </h1>
-                    <p className="text-sm text-slate-600 dark:text-slate-400">
-                        연도별 추천 종목 수익률(%) 요약과 차트
-                    </p>
+                <header className="flex flex-wrap items-start justify-between gap-3">
+                    <div className="space-y-2">
+                        <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
+                            <I18nText dict={performancePageLabels.title} lang={lang}/>
+                        </h1>
+                        <p className="text-sm text-slate-600 dark:text-slate-400">
+                            <I18nText dict={performancePageLabels.subtitle} lang={lang}/>
+                        </p>
+                    </div>
+                    <LangSwitcher lang={lang} onChange={setLang}/>
                 </header>
 
                 <section className="grid grid-cols-1 gap-4 md:grid-cols-3">
                     <div className="rounded-lg border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-900">
-                        <div className="text-xs text-slate-500 dark:text-slate-400">기간</div>
+                        <div className="text-xs text-slate-500 dark:text-slate-400"><I18nText dict={performancePageLabels.period} lang={lang}/></div>
                         <div className="mt-2 text-xl font-semibold text-slate-900 dark:text-slate-100">
                             {yearGroups.length
                                 ? `${yearGroups[0].year}-${yearGroups[yearGroups.length - 1].year}`
@@ -255,14 +263,14 @@ const PerformancePage: React.FC<PageProps> = () => {
                     </div>
 
                     <div className="rounded-lg border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-900">
-                        <div className="text-xs text-slate-500 dark:text-slate-400">최대 단일 종목 수익률</div>
+                        <div className="text-xs text-slate-500 dark:text-slate-400"><I18nText dict={performancePageLabels.maxReturn} lang={lang}/></div>
                         <div className="mt-2 text-xl font-semibold text-slate-900 dark:text-slate-100">
                             {summary.max ? `${summary.max.toFixed(2)}%` : "-"}
                         </div>
                     </div>
 
                     <div className="rounded-lg border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-900">
-                        <div className="text-xs text-slate-500 dark:text-slate-400">평균(0 제외)</div>
+                        <div className="text-xs text-slate-500 dark:text-slate-400"><I18nText dict={performancePageLabels.avgReturn} lang={lang}/></div>
                         <div className="mt-2 text-xl font-semibold text-slate-900 dark:text-slate-100">
                             {summary.avg ? `${summary.avg.toFixed(2)}%` : "-"}
                         </div>
@@ -367,9 +375,9 @@ const PerformancePage: React.FC<PageProps> = () => {
 
                 <section className="space-y-6">
                     {loading ? (
-                        <p className="text-sm text-slate-400">불러오는 중...</p>
+                        <p className="text-sm text-slate-400"><I18nText dict={performancePageLabels.loading} lang={lang}/></p>
                     ) : yearGroups.length === 0 ? (
-                        <p className="text-sm text-slate-400">등록된 성과 데이터가 없습니다.</p>
+                        <p className="text-sm text-slate-400"><I18nText dict={performancePageLabels.empty} lang={lang}/></p>
                     ) : (
                         yearGroups.map((d) => (
                             <div

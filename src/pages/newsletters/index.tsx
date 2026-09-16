@@ -3,6 +3,10 @@ import {graphql, type HeadFC, type PageProps} from "gatsby";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Ticker from "../../components/Ticker";
+import I18nText from "../../components/I18nText";
+import LangSwitcher from "../../components/LangSwitcher";
+import {newslettersPageLabels} from "../../i18n/pageLabels";
+import {useAutoLang} from "../../hooks/useAutoLang";
 
 export const query = graphql`
   query {
@@ -33,6 +37,7 @@ interface DataProps {
 
 const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const newsletters = data.allFile.nodes;
+    const [lang, setLang] = useAutoLang();
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
@@ -40,15 +45,16 @@ const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
             <main className="flex-1 mx-auto w-full max-w-6xl px-4 py-10 space-y-8">
 
-                <header className="flex items-center justify-between">
+                <header className="flex flex-wrap items-start justify-between gap-3">
                     <div>
                         <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
-                            회보
+                            <I18nText dict={newslettersPageLabels.title} lang={lang}/>
                         </h1>
                         <p className="text-sm text-slate-600 dark:text-slate-400">
-                            제목을 클릭하면 해당 회보 파일을 열람하실 수 있습니다.
+                            <I18nText dict={newslettersPageLabels.subtitle} lang={lang}/>
                         </p>
                     </div>
+                    <LangSwitcher lang={lang} onChange={setLang}/>
                 </header>
 
                 <section>
@@ -57,9 +63,9 @@ const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
                         <div
                             className="grid grid-cols-10 md:grid-cols-12 gap-4 border-b border-slate-100 bg-slate-50/50 px-6 py-3 text-[13px] font-semibold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400">
-                            <div className="hidden md:block col-span-2 text-center">순번</div>
-                            <div className="col-span-7 text-center">제목</div>
-                            <div className="col-span-3 text-center">날짜</div>
+                            <div className="hidden md:block col-span-2 text-center"><I18nText dict={newslettersPageLabels.colIndex} lang={lang}/></div>
+                            <div className="col-span-7 text-center"><I18nText dict={newslettersPageLabels.colTitle} lang={lang}/></div>
+                            <div className="col-span-3 text-center"><I18nText dict={newslettersPageLabels.colDate} lang={lang}/></div>
                         </div>
 
                         <div className="divide-y divide-slate-100 dark:divide-slate-800">
@@ -109,7 +115,7 @@ const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"
                                               d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                                     </svg>
-                                    <p className="text-sm">게시된 회보가 없습니다.</p>
+                                    <p className="text-sm"><I18nText dict={newslettersPageLabels.empty} lang={lang}/></p>
                                 </div>
                             )}
                         </div>

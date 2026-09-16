@@ -1,0 +1,313 @@
+import type {Lang} from "./stockLabels";
+import type {BoardCategory} from "../lib/boardCategory";
+
+type Dict = Record<Lang, string>;
+
+export const boardCategoryI18n: Record<BoardCategory, Dict> = {
+    domestic: {ko: "국내", en: "Domestic", ja: "国内", zh: "国内"},
+    overseas: {ko: "해외", en: "Overseas", ja: "海外", zh: "海外"},
+};
+
+export const stocksPageLabels = {
+    title: {ko: "종목", en: "Stocks", ja: "銘柄", zh: "股票"},
+    subtitle: {ko: "원하는 종목을 찾을 수 있습니다.", en: "Find the stock you're looking for.", ja: "お探しの銘柄を検索できます。", zh: "可以搜索您想查找的股票。"},
+    searchPlaceholder: {
+        ko: "종목명 또는 티커(예: TSLA) 검색",
+        en: "Search by name or ticker (e.g. TSLA)",
+        ja: "銘柄名またはティッカー（例：TSLA）で検索",
+        zh: "按股票名称或代码（如 TSLA）搜索",
+    },
+    colName: {ko: "종목명", en: "Name", ja: "銘柄名", zh: "股票名称"},
+    colTicker: {ko: "티커", en: "Ticker", ja: "ティッカー", zh: "代码"},
+    colMarket: {ko: "시장", en: "Market", ja: "市場", zh: "市场"},
+    noData: {ko: "데이터가 없습니다.", en: "No data available.", ja: "データがありません。", zh: "没有数据。"},
+    prev: {ko: "이전", en: "Prev", ja: "前へ", zh: "上一页"},
+    next: {ko: "다음", en: "Next", ja: "次へ", zh: "下一页"},
+} satisfies Record<string, Dict>;
+
+export const countSummary = (total: string, from: string, to: string, lang: Lang): string => {
+    switch (lang) {
+        case "en":
+            return `${from}–${to} of ${total} results`;
+        case "ja":
+            return `全${total}件中 ${from}–${to}件`;
+        case "zh":
+            return `共${total}条中的第${from}–${to}条`;
+        default:
+            return `총 ${total}건 중 ${from}–${to}건`;
+    }
+};
+
+export const boardsPageLabels = {
+    title: {ko: "게시판", en: "Board", ja: "掲示板", zh: "论坛"},
+    subtitle: {
+        ko: "투자 관련 정보 공유가 가능한 공간입니다.",
+        en: "A space for sharing investment-related information.",
+        ja: "投資関連の情報を共有できる場所です。",
+        zh: "一个可以分享投资相关信息的空间。",
+    },
+    write: {ko: "글쓰기", en: "Write", ja: "投稿する", zh: "发帖"},
+    searchPlaceholder: {ko: "제목 또는 작성자 검색", en: "Search by title or author", ja: "タイトルまたは投稿者で検索", zh: "按标题或作者搜索"},
+    colIndex: {ko: "순번", en: "No.", ja: "番号", zh: "序号"},
+    colTitle: {ko: "제목", en: "Title", ja: "タイトル", zh: "标题"},
+    colAuthor: {ko: "작성자", en: "Author", ja: "投稿者", zh: "作者"},
+    colDate: {ko: "작성일", en: "Date", ja: "投稿日", zh: "发布日期"},
+    colViews: {ko: "조회수", en: "Views", ja: "閲覧数", zh: "浏览量"},
+    loading: {ko: "불러오는 중...", en: "Loading...", ja: "読み込み中...", zh: "加载中..."},
+    notice: {ko: "공지", en: "Notice", ja: "お知らせ", zh: "公告"},
+    emptyTitle: {ko: "등록된 게시글이 없습니다.", en: "No posts yet.", ja: "登録された投稿がありません。", zh: "暂无发布的帖子。"},
+    emptySubtitle: {
+        ko: "첫 번째 게시글의 주인공이 되어보세요!",
+        en: "Be the first to write a post!",
+        ja: "最初の投稿者になってみましょう！",
+        zh: "成为第一个发帖的人吧！",
+    },
+} satisfies Record<string, Dict>;
+
+export const boardDetailLabels = {
+    notFound: {ko: "존재하지 않는 게시글입니다.", en: "This post does not exist.", ja: "存在しない投稿です。", zh: "该帖子不存在。"},
+    backToList: {ko: "목록으로 돌아가기", en: "Back to list", ja: "一覧に戻る", zh: "返回列表"},
+    notice: {ko: "공지사항", en: "Notice", ja: "お知らせ", zh: "公告"},
+    listButton: {ko: "목록 보기", en: "View List", ja: "一覧を見る", zh: "查看列表"},
+    edit: {ko: "수정", en: "Edit", ja: "編集", zh: "编辑"},
+    delete: {ko: "삭제", en: "Delete", ja: "削除", zh: "删除"},
+} satisfies Record<string, Dict>;
+
+export const viewsLabel = (count: string, lang: Lang): string => {
+    switch (lang) {
+        case "en":
+            return `${count} views`;
+        case "ja":
+            return `閲覧数 ${count}`;
+        case "zh":
+            return `浏览量 ${count}`;
+        default:
+            return `조회수 ${count}`;
+    }
+};
+
+export const newslettersPageLabels = {
+    title: {ko: "회보", en: "Newsletters", ja: "会報", zh: "会刊"},
+    subtitle: {
+        ko: "제목을 클릭하면 해당 회보 파일을 열람하실 수 있습니다.",
+        en: "Click a title to open the newsletter file.",
+        ja: "タイトルをクリックすると会報ファイルを閲覧できます。",
+        zh: "点击标题即可查看该会刊文件。",
+    },
+    colIndex: {ko: "순번", en: "No.", ja: "番号", zh: "序号"},
+    colTitle: {ko: "제목", en: "Title", ja: "タイトル", zh: "标题"},
+    colDate: {ko: "날짜", en: "Date", ja: "日付", zh: "日期"},
+    empty: {ko: "게시된 회보가 없습니다.", en: "No newsletters published yet.", ja: "公開された会報がありません。", zh: "暂无已发布的会刊。"},
+} satisfies Record<string, Dict>;
+
+export const aboutPageLabels = {
+    heroTagline: {ko: "빅데이터 기반 금융투자", en: "Big-data-driven investing", ja: "ビッグデータに基づく金融投資", zh: "基于大数据的金融投资"},
+    researchLabTitle: {ko: "빅데이터 분석 연구소", en: "Big Data Research Lab", ja: "ビッグデータ分析研究所", zh: "大数据分析研究所"},
+    distinctionsTagline: {
+        ko: "PSY Thinktank와 함께 투자해야 하는 이유",
+        en: "Why invest with PSY Thinktank",
+        ja: "PSY Thinktankと投資すべき理由",
+        zh: "为什么要与PSY Thinktank一起投资",
+    },
+    servicesTitle: {
+        ko: "PSY Thinktank가 제공하는 서비스",
+        en: "Services PSY Thinktank Provides",
+        ja: "PSY Thinktankが提供するサービス",
+        zh: "PSY Thinktank提供的服务",
+    },
+    servicesTagline: {
+        ko: "성공 투자를 위해 PSY Thinktank는 다양한 서비스를 제공합니다.",
+        en: "PSY Thinktank offers a range of services for successful investing.",
+        ja: "成功する投資のためにPSY Thinktankは多様なサービスを提供します。",
+        zh: "为了成功投资，PSY Thinktank提供多种服务。",
+    },
+    contactTagline: {ko: "PSY Thinktank의 문은 늘 열려있습니다.", en: "PSY Thinktank's door is always open.", ja: "PSY Thinktankの扉はいつでも開いています。", zh: "PSY Thinktank的大门始终敞开。"},
+} satisfies Record<string, Dict>;
+
+type DistinctionItem = { key: string; title: Dict; desc: Dict };
+type FaqItem = { key: string; q: Dict; a: Dict };
+
+export const aboutContent = {
+    introPart1: {
+        ko: "PSY Thinktank는 2017년 젊은 패기를 가진 청년들이 자신의 아이디어와 신기술을 접목하여 투자를 진행하는 비공개 투자 클럽에서 시작되었습니다. 2018년 빅데이터를 연구소로 확대 개편되었으며, 2020년부터 연구소 회보를 연 4회 발간하고 있습니다.",
+        en: "PSY Thinktank began in 2017 as a private investment club where ambitious young people combined their own ideas and new technologies to invest. In 2018 it was expanded and reorganized into a big-data research lab, and since 2020 it has published a research newsletter four times a year.",
+        ja: "PSY Thinktankは2017年、若く意欲的な青年たちが自らのアイデアと新技術を組み合わせて投資を行う非公開の投資クラブとして始まりました。2018年にビッグデータ研究所へと拡大改編され、2020年からは研究所の会報を年4回発行しています。",
+        zh: "PSY Thinktank始于2017年，是一群充满朝气的年轻人将自己的想法与新技术相结合进行投资的非公开投资俱乐部。2018年扩大改组为大数据研究所，自2020年起每年发行4期研究所会刊。",
+    },
+    introPart2: {
+        ko: "회보 발간을 통해 개인 투자자들이 빅데이터에 기반한 의사결정을 할 수 있도록 돕고 있으며, 안정적인 수익률로 보답하고 있습니다. 현재 총 5명의 연구원이 PSY Thinktank에서 활동하고 있습니다.",
+        en: "Through our newsletter, we help individual investors make decisions based on big data, and we repay their trust with stable returns. Currently, a total of five researchers are active at PSY Thinktank.",
+        ja: "会報の発行を通じて個人投資家がビッグデータに基づいた意思決定を行えるよう支援しており、安定した収益率でお応えしています。現在、合計5名の研究員がPSY Thinktankで活動しています。",
+        zh: "通过发行会刊，我们帮助个人投资者做出基于大数据的决策，并以稳定的收益率作为回报。目前共有5名研究员活跃在PSY Thinktank。",
+    },
+    introPart3: {
+        ko: "PSY Thinktank 홈페이지를 방문하여 투자 포트폴리오를 추적함으로써 여러분들도 빅데이터 기반 의사 결정을 진행하실 수 있습니다. 회보를 통해 최신 IT 기술에 기반한 금융투자를 경험하십시오.",
+        en: "By visiting the PSY Thinktank website and tracking our investment portfolio, you too can make big-data-based decisions. Experience financial investing built on the latest IT technology through our newsletter.",
+        ja: "PSY Thinktankのホームページを訪問して投資ポートフォリオを追跡することで、皆様もビッグデータに基づいた意思決定を行うことができます。会報を通じて最新のIT技術に基づいた金融投資を体験してください。",
+        zh: "通过访问PSY Thinktank网站并跟踪投资组合，您也可以进行基于大数据的决策。通过会刊体验基于最新IT技术的金融投资。",
+    },
+    bullet1: {
+        ko: "우리는 IT 기술을 활용하여 빅데이터 정보를 수집·분석하면서도 자만하지 않고 항상 보수적으로 투자를 집행합니다.",
+        en: "We use IT technology to collect and analyze big data, yet we never grow complacent and always execute investments conservatively.",
+        ja: "私たちはIT技術を活用してビッグデータ情報を収集・分析しながらも、決して驕ることなく常に保守的に投資を執行します。",
+        zh: "我们利用IT技术收集和分析大数据信息，但从不自满，始终以稳健的方式执行投资。",
+    },
+    bullet2: {
+        ko: "회보를 통해 우리의 운영 실적을 투명하게 공개합니다.",
+        en: "We transparently disclose our operating performance through our newsletter.",
+        ja: "会報を通じて私たちの運用実績を透明に公開しています。",
+        zh: "我们通过会刊透明地公开我们的运营业绩。",
+    },
+    bullet3: {
+        ko: "컴퓨터 기술 발전과 함께 발전된 투자 전략을 공유하여 개인 투자자들과 기관 투자자들 간의 정보 격차 해소합니다.",
+        en: "As computer technology advances, we share evolving investment strategies to close the information gap between individual and institutional investors.",
+        ja: "コンピュータ技術の発展とともに進化した投資戦略を共有し、個人投資家と機関投資家間の情報格差を解消します。",
+        zh: "随着计算机技术的发展，我们分享不断演进的投资策略，以消除个人投资者与机构投资者之间的信息差距。",
+    },
+    distinctions: [
+        {
+            key: "track-record",
+            title: {ko: "뛰어난 운영 실적", en: "Outstanding Track Record", ja: "優れた運用実績", zh: "卓越的运营业绩"},
+            desc: {
+                ko: "유가증권 시장 호황기뿐 아니라 하락장 속에서도 손실을 최소화한 트랙 레코드를 보유하고 있습니다.",
+                en: "We hold a track record of minimizing losses not only during bull markets but also during downturns.",
+                ja: "有価証券市場の好況期だけでなく下落相場の中でも損失を最小化したトラックレコードを保有しています。",
+                zh: "我们不仅在证券市场繁荣时期，在下跌行情中也保持着将损失降到最低的业绩记录。",
+            },
+        },
+        {
+            key: "experts",
+            title: {ko: "다양한 분야의 전문가 포진", en: "Experts Across Diverse Fields", ja: "多様な分野の専門家陣", zh: "汇聚多领域专家"},
+            desc: {
+                ko: "각 분야의 전문가들이 투자 아이디어에 대한 상호검증을 실시하여 편향을 최소화합니다.",
+                en: "Experts from each field cross-verify investment ideas to minimize bias.",
+                ja: "各分野の専門家が投資アイデアについて相互検証を行い、偏りを最小化します。",
+                zh: "各领域专家对投资构想进行交叉验证，以最大限度地减少偏差。",
+            },
+        },
+        {
+            key: "bigdata-analysis",
+            title: {ko: "빅데이터를 통한 계량적 경제 분석", en: "Quantitative Economic Analysis via Big Data", ja: "ビッグデータによる計量経済分析", zh: "基于大数据的量化经济分析"},
+            desc: {
+                ko: "지배구조, 환경, 평판, CEO에 대한 빅데이터 분석을 통해 통계에 기반한 투자를 수행합니다.",
+                en: "We conduct statistics-based investing through big data analysis of governance, environment, reputation, and CEOs.",
+                ja: "ガバナンス、環境、評判、CEOに関するビッグデータ分析を通じて統計に基づいた投資を行います。",
+                zh: "通过对治理结构、环境、声誉、CEO的大数据分析，进行基于统计的投资。",
+            },
+        },
+        {
+            key: "algo-filtering",
+            title: {ko: "알고리즘을 통한 한계 기업 필터링", en: "Algorithmic Filtering of Marginal Companies", ja: "アルゴリズムによる限界企業フィルタリング", zh: "通过算法筛选边缘企业"},
+            desc: {
+                ko: "자체 개발 알고리즘으로 한계 기업을 필터링하여 상장 폐지로부터 투자자를 보호합니다.",
+                en: "We filter out marginal companies using our proprietary algorithm to protect investors from delisting.",
+                ja: "自社開発のアルゴリズムで限界企業をフィルタリングし、上場廃止から投資者を保護します。",
+                zh: "利用自主研发的算法筛选边缘企业，保护投资者免受退市影响。",
+            },
+        },
+    ] satisfies DistinctionItem[],
+    services: [
+        {
+            key: "newsletter",
+            title: {ko: "회보 발행", en: "Newsletter Publication", ja: "会報の発行", zh: "发行会刊"},
+            desc: {
+                ko: "PSY Thinktank는 분기별로 연구소 회보를 발행하고 있습니다. 회보에는 칼럼, 종목 추천, 시황, 빅데이터 정보 등 기존 투자자들이 접할 수 없었던 투자 전략을 제공하고 있습니다.",
+                en: "PSY Thinktank publishes a research newsletter every quarter. It provides investment strategies previously inaccessible to ordinary investors — columns, stock recommendations, market outlooks, and big-data insights.",
+                ja: "PSY Thinktankは四半期ごとに研究所の会報を発行しています。会報にはコラム、銘柄推薦、市況、ビッグデータ情報など、従来の投資家が触れることのできなかった投資戦略を提供しています。",
+                zh: "PSY Thinktank每季度发行一期研究所会刊，内容包括专栏、股票推荐、市场行情、大数据信息等以往投资者难以接触到的投资策略。",
+            },
+        },
+        {
+            key: "stock-analysis",
+            title: {ko: "빅데이터 기반 종목 분석", en: "Big-Data-Based Stock Analysis", ja: "ビッグデータに基づく銘柄分析", zh: "基于大数据的股票分析"},
+            desc: {
+                ko: "투자자가 보유한 종목에 대한 빅데이터 분석을 제공합니다.",
+                en: "We provide big-data analysis of stocks held by investors.",
+                ja: "投資家が保有する銘柄に対するビッグデータ分析を提供します。",
+                zh: "为投资者持有的股票提供大数据分析。",
+            },
+        },
+        {
+            key: "sector-info",
+            title: {ko: "섹터별 전문정보 제공", en: "Sector-Specific Expert Information", ja: "セクター別専門情報の提供", zh: "提供分行业专业信息"},
+            desc: {
+                ko: "소수의 투자자들만이 이용하던 전문 정보를 무료로 제공하고 있습니다.",
+                en: "We provide, free of charge, specialized information once available only to a small number of investors.",
+                ja: "少数の投資家だけが利用していた専門情報を無料で提供しています。",
+                zh: "免费提供以往只有少数投资者才能获取的专业信息。",
+            },
+        },
+    ] satisfies DistinctionItem[],
+    faq: [
+        {
+            key: "free",
+            q: {ko: "PSY Thinktank 이용은 무료인가요?", en: "Is using PSY Thinktank free?", ja: "PSY Thinktankの利用は無料ですか？", zh: "使用PSY Thinktank是免费的吗？"},
+            a: {
+                ko: "PSY Thinktank는 기본적으로 모든 서비스를 무료로 이용할 수 있습니다. 다만, 후원자들에게는 감사의 의미로 부가적 컨텐츠를 제공하고 있습니다.",
+                en: "All PSY Thinktank services are basically free to use. However, as a token of appreciation, we provide additional content to sponsors.",
+                ja: "PSY Thinktankは基本的にすべてのサービスを無料でご利用いただけます。ただし、後援者の方々には感謝の意味で追加コンテンツを提供しています。",
+                zh: "PSY Thinktank的所有服务基本上都是免费使用的。不过，为表达谢意，我们会为赞助者提供额外内容。",
+            },
+        },
+        {
+            key: "sponsor-benefit",
+            q: {ko: "후원을 하면 얻는 것이 있나요?", en: "What do I get if I sponsor?", ja: "後援すると何か得られるものがありますか？", zh: "赞助后能获得什么吗？"},
+            a: {
+                ko: "후원 금액에 따라 Raw Data 제공 등과 같은 후원자 전용 컨텐츠를 제공하고 있습니다.",
+                en: "Depending on the sponsorship amount, we provide sponsor-only content such as raw data.",
+                ja: "後援金額に応じて、Raw Dataの提供など後援者限定のコンテンツを提供しています。",
+                zh: "根据赞助金额，我们会提供原始数据等赞助者专属内容。",
+            },
+        },
+        {
+            key: "how-to-use",
+            q: {ko: "어떻게 PSY Thinktank를 이용할 수 있나요?", en: "How can I use PSY Thinktank?", ja: "どのようにPSY Thinktankを利用できますか？", zh: "如何使用PSY Thinktank？"},
+            a: {
+                ko: "PSY Thinktank의 모든 서비스는 웹사이트에 구현될 예정입니다.",
+                en: "All PSY Thinktank services will be implemented on the website.",
+                ja: "PSY Thinktankのすべてのサービスはウェブサイトに実装される予定です。",
+                zh: "PSY Thinktank的所有服务都将在网站上实现。",
+            },
+        },
+        {
+            key: "stock-pick-process",
+            q: {ko: "종목 추천은 어떤 방식으로 진행되나요?", en: "How are stock recommendations made?", ja: "銘柄推薦はどのような方式で行われますか？", zh: "股票推荐是如何进行的？"},
+            a: {
+                ko: "빅데이터 수집 및 분석을 통해 1차적으로 주요 기업들을 선별하고 이후 연구원들 간의 토의를 통해서 컴퓨터가 분석할 수 없는 양적 데이터에 대한 판단을 내립니다. 이러한 과정을 거친 후 마지막으로 기업이 가지고 있는 위험요소과 시황을 분석하여 투자를 진행합니다.",
+                en: "We first screen key companies through big-data collection and analysis, then researchers discuss and make judgment calls on qualitative data that computers cannot analyze. After this process, we finally invest based on an analysis of each company's risk factors and market conditions.",
+                ja: "ビッグデータの収集・分析を通じて一次的に主要企業を選別し、その後研究員間の議論を通じてコンピュータでは分析できない定性的データについて判断を下します。このような過程を経た後、最後に企業が抱えるリスク要因と市況を分析して投資を行います。",
+                zh: "首先通过大数据收集和分析初步筛选主要企业，随后研究员们通过讨论对计算机无法分析的定性数据做出判断。经过这一过程后，最后分析企业所具有的风险因素和市场行情，进行投资。",
+            },
+        },
+        {
+            key: "sponsor-communication",
+            q: {
+                ko: "후원 시, 연구원들과의 소통은 무엇을 의미하나요?",
+                en: "What does communication with researchers mean when sponsoring?",
+                ja: "後援時の研究員とのコミュニケーションとは何を意味しますか？",
+                zh: "赞助时与研究员的沟通意味着什么？",
+            },
+            a: {
+                ko: "후원을 하시는 분들은 저희를 지지하고 저희와 같은 목표를 가지고 계신 동료입니다. 동료 간에 서로 투자 아이디어를 공유하고 시황에 대한 각자의 생각을 공유할 수 있습니다.",
+                en: "Sponsors are colleagues who support us and share our goals. As colleagues, you can share investment ideas with one another and exchange your own views on market conditions.",
+                ja: "後援してくださる方々は私たちを支持し、私たちと同じ目標を持つ仲間です。仲間同士で投資アイデアを共有し、市況に対するそれぞれの考えを共有することができます。",
+                zh: "赞助者是支持我们、与我们拥有共同目标的伙伴。伙伴之间可以相互分享投资构想，并交流各自对市场行情的看法。",
+            },
+        },
+    ] satisfies FaqItem[],
+};
+
+export const performancePageLabels = {
+    title: {ko: "성과", en: "Performance", ja: "パフォーマンス", zh: "业绩"},
+    subtitle: {
+        ko: "연도별 추천 종목 수익률(%) 요약과 차트",
+        en: "Yearly summary and chart of recommended stock returns (%)",
+        ja: "年度別推奨銘柄の収益率(%)まとめとチャート",
+        zh: "各年度推荐股票收益率(%)汇总与图表",
+    },
+    period: {ko: "기간", en: "Period", ja: "期間", zh: "期间"},
+    maxReturn: {ko: "최대 단일 종목 수익률", en: "Highest Single-Stock Return", ja: "最大単一銘柄収益率", zh: "最高单只股票收益率"},
+    avgReturn: {ko: "평균(0 제외)", en: "Average (excl. 0)", ja: "平均（0を除く）", zh: "平均值（不含0）"},
+    loading: {ko: "불러오는 중...", en: "Loading...", ja: "読み込み中...", zh: "加载中..."},
+    empty: {ko: "등록된 성과 데이터가 없습니다.", en: "No performance data yet.", ja: "登録されたパフォーマンスデータがありません。", zh: "暂无业绩数据。"},
+} satisfies Record<string, Dict>;
