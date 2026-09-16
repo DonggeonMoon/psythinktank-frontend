@@ -43,7 +43,8 @@ async function fetchStockDetails(client, country) {
                 e.growth,
                 d.value AS dividend,
                 sp.adjust_close AS recent_price,
-                TO_CHAR(sp.date, 'YYYY-MM-DD') AS basis_date
+                TO_CHAR(sp.date, 'YYYY-MM-DD') AS basis_date,
+                (latest_share.holder_name IS NOT NULL) AS nps_holding
             FROM stock s
             LEFT JOIN LATERAL (
                 SELECT growth
@@ -60,6 +61,13 @@ async function fetchStockDetails(client, country) {
                 ORDER BY date DESC
                 LIMIT 1
             ) sp ON true
+            LEFT JOIN LATERAL (
+                SELECT holder_name
+                FROM share
+                WHERE symbol = s.symbol
+                ORDER BY date DESC
+                LIMIT 1
+            ) latest_share ON latest_share.holder_name = '국민연금공단'
             WHERE s.country = $1
             ORDER BY s.symbol;
         `,

@@ -17,6 +17,7 @@ export const query = graphql`
         stock_name
         symbol
         market
+        nps_holding
       }
     }
   }
@@ -26,6 +27,7 @@ interface Stock {
     stock_name: string | null;
     symbol: string | null;
     market: string;
+    nps_holding: boolean | null;
 }
 
 interface DataProps {
@@ -37,13 +39,12 @@ const PAGE_SIZE = 30;
 const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const [lang, setLang] = useAutoLang();
     const [searchTerm, setSearchTerm] = useState("");
+    const [npsOnly, setNpsOnly] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
     const stocks = data.allStockDetail.nodes;
 
     const filteredStocks = useMemo(() => {
         const lowerSearch = searchTerm.toLowerCase().trim();
-
-        if (!lowerSearch) return stocks;
 
         const symbolMatchRank = (symbol: string | null) => {
             const lowerSymbol = symbol?.toLowerCase() ?? "";
@@ -56,11 +57,13 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
         return stocks
             .filter(
                 (stock) =>
-                    stock.stock_name?.toLowerCase().includes(lowerSearch) ||
-                    stock.symbol?.toLowerCase().includes(lowerSearch)
+                    (!npsOnly || stock.nps_holding) &&
+                    (!lowerSearch ||
+                        stock.stock_name?.toLowerCase().includes(lowerSearch) ||
+                        stock.symbol?.toLowerCase().includes(lowerSearch))
             )
             .sort((a, b) => symbolMatchRank(b.symbol) - symbolMatchRank(a.symbol));
-    }, [searchTerm, stocks]);
+    }, [searchTerm, npsOnly, stocks]);
 
     const totalPages = Math.max(1, Math.ceil(filteredStocks.length / PAGE_SIZE));
     const safePage = Math.min(currentPage, totalPages);
@@ -121,6 +124,19 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                 className="w-full rounded-md border border-slate-300 bg-white py-2.5 pl-10 pr-4 text-sm text-slate-900 placeholder:text-slate-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-100 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:placeholder:text-slate-500 dark:focus:border-blue-500 dark:focus:ring-blue-900/30 transition-all"
                             />
                         </div>
+
+                        <label className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400 whitespace-nowrap select-none">
+                            <input
+                                type="checkbox"
+                                checked={npsOnly}
+                                onChange={(e) => {
+                                    setNpsOnly(e.target.checked);
+                                    setCurrentPage(1);
+                                }}
+                                className="h-4 w-4 rounded border-slate-300 text-blue-600 focus:ring-blue-500 dark:border-slate-700 dark:bg-slate-900"
+                            />
+                            <I18nText dict={stocksPageLabels.npsFilterLabel} lang={lang}/>
+                        </label>
                     </div>
 
                     <div
