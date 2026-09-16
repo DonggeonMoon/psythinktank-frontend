@@ -5,6 +5,10 @@ import {Chart, registerables} from "chart.js";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Ticker from "../components/Ticker";
+import I18nText from "../components/I18nText";
+import LangSwitcher from "../components/LangSwitcher";
+import {asOfDate, type Lang, rankLabel, stockLabels} from "../i18n/stockLabels";
+import {useAutoLang} from "../hooks/useAutoLang";
 
 Chart.register(...registerables);
 
@@ -54,8 +58,8 @@ interface DataProps {
     allShareholder: { nodes: ShareholderNode[] };
 }
 
-const getCurrency = (market: string) => {
-    if (market === "KOSPI" || market === "KOSDAQ") return "원";
+const getCurrency = (market: string, lang: Lang) => {
+    if (market === "KOSPI" || market === "KOSDAQ") return stockLabels.krw[lang];
     if (market === "TSE") return "¥";
     return "$";
 };
@@ -64,6 +68,7 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const stock = data.stockDetail;
     const shareholders = data.allShareholder.nodes;
 
+    const [lang, setLang] = useAutoLang();
     const [isDark, setIsDark] = useState(false);
     useEffect(() => {
         const updateIsDark = () => setIsDark(document.documentElement.classList.contains("dark"));
@@ -110,7 +115,7 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
             data: {
                 labels: rankChartData.dates,
                 datasets: rankChartData.rankValues.map((values, idx) => ({
-                    label: `${idx + 1}위`,
+                    label: rankLabel[lang](idx + 1),
                     data: values,
                     borderColor: RANK_COLORS[idx % RANK_COLORS.length],
                     backgroundColor: RANK_COLORS[idx % RANK_COLORS.length],
@@ -127,7 +132,7 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                     y: {
                         ticks: {color: textColor},
                         grid: {color: gridColor},
-                        title: {display: true, text: "지분(%)", color: textColor},
+                        title: {display: true, text: stockLabels.stakePercent[lang], color: textColor},
                     },
                 },
                 plugins: {
@@ -140,14 +145,14 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
             chartRef.current?.destroy();
             chartRef.current = null;
         };
-    }, [rankChartData, isDark]);
+    }, [rankChartData, isDark, lang]);
 
     if (!stock) {
         return (
             <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
                 <Header/>
                 <main className="flex-1 p-10 text-center text-slate-500 dark:text-slate-400">
-                    종목 정보를 찾을 수 없습니다.
+                    <I18nText dict={stockLabels.notFound} lang={lang}/>
                 </main>
                 <Footer/>
             </div>
@@ -159,82 +164,93 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
             <Header/>
             <main className="flex-1 mx-auto w-full max-w-4xl px-4 py-10 space-y-12">
                 <header className="border-b border-slate-200 dark:border-slate-800 pb-8">
-                    <div className="flex items-baseline gap-3">
-                        <span className="px-2 py-0.5 rounded text-xs font-bold tracking-wider bg-blue-100 text-blue-600 dark:bg-blue-900/30">
-                            {stock.market}
-                        </span>
-                        <h1 className="text-4xl font-extrabold tracking-tight">{stock.stock_name}</h1>
-                        <span className="text-2xl text-slate-400 font-light">{stock.symbol}</span>
+                    <div className="flex flex-wrap items-start justify-between gap-3">
+                        <div className="flex items-baseline gap-3 flex-wrap">
+                            <span className="px-2 py-0.5 rounded text-xs font-bold tracking-wider bg-blue-100 text-blue-600 dark:bg-blue-900/30">
+                                {stock.market}
+                            </span>
+                            <h1 className="text-4xl font-extrabold tracking-tight">{stock.stock_name}</h1>
+                            <span className="text-2xl text-slate-400 font-light">{stock.symbol}</span>
+                        </div>
+                        <LangSwitcher lang={lang} onChange={setLang}/>
                     </div>
                 </header>
 
                 <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div className="bg-slate-50 dark:bg-slate-900/50 p-6 rounded-2xl border border-slate-200 dark:border-slate-800">
                         <div className="flex justify-between items-start mb-2">
-                            <p className="text-sm font-medium text-slate-500">최근 종가</p>
+                            <p className="text-sm font-medium text-slate-500"><I18nText dict={stockLabels.recentPrice} lang={lang}/></p>
                             {stock.basis_date && (
                                 <span className="text-[10px] font-mono text-slate-400 bg-slate-100 dark:bg-slate-800 px-1.5 py-0.5 rounded">
-                                    {stock.basis_date} 기준
+                                    <I18nText
+                                        dict={{
+                                            ko: asOfDate(stock.basis_date, "ko"),
+                                            en: asOfDate(stock.basis_date, "en"),
+                                            ja: asOfDate(stock.basis_date, "ja"),
+                                            zh: asOfDate(stock.basis_date, "zh"),
+                                        }}
+                                        lang={lang}
+                                    />
                                 </span>
                             )}
                         </div>
                         <div className="flex items-baseline gap-1">
                             <span className="text-3xl font-bold">
-                                {stock.recent_price != null ? stock.recent_price.toLocaleString() : "없음"}
+                                {stock.recent_price != null ? stock.recent_price.toLocaleString() : <I18nText dict={stockLabels.none} lang={lang}/>}
                             </span>
                             {stock.recent_price != null && (
-                                <span className="text-slate-400 text-sm font-medium">{getCurrency(stock.market)}</span>
+                                <span className="text-slate-400 text-sm font-medium">{getCurrency(stock.market, lang)}</span>
                             )}
                         </div>
                     </div>
 
                     <div className="bg-slate-50 dark:bg-slate-900/50 p-6 rounded-2xl border border-slate-200 dark:border-slate-800">
-                        <p className="text-sm font-medium text-slate-500 mb-2">성장률</p>
+                        <p className="text-sm font-medium text-slate-500 mb-2"><I18nText dict={stockLabels.growthRate} lang={lang}/></p>
                         {stock.growth != null ? (
                             <div className={`text-3xl font-bold ${stock.growth > 0 ? "text-red-500" : stock.growth < 0 ? "text-blue-500" : ""}`}>
                                 {stock.growth > 0 ? "▲" : stock.growth < 0 ? "▼" : ""} {Math.abs(stock.growth).toFixed(2)}%
                             </div>
                         ) : (
-                            <div className="text-3xl font-bold text-slate-300 dark:text-slate-700 font-mono">없음</div>
+                            <div className="text-3xl font-bold text-slate-300 dark:text-slate-700 font-mono"><I18nText dict={stockLabels.none} lang={lang}/></div>
                         )}
                     </div>
 
                     <div className="bg-slate-50 dark:bg-slate-900/50 p-6 rounded-2xl border border-slate-200 dark:border-slate-800">
-                        <p className="text-sm font-medium text-slate-500 mb-2">주당 배당금</p>
+                        <p className="text-sm font-medium text-slate-500 mb-2"><I18nText dict={stockLabels.dividendPerShare} lang={lang}/></p>
                         {stock.dividend != null && stock.dividend > 0 ? (
                             <div className="flex items-baseline gap-1 text-emerald-600 dark:text-emerald-400">
                                 <span className="text-3xl font-bold">{stock.dividend.toLocaleString()}</span>
-                                <span className="text-sm font-medium">{getCurrency(stock.market)}</span>
+                                <span className="text-sm font-medium">{getCurrency(stock.market, lang)}</span>
                             </div>
                         ) : (
-                            <div className="text-3xl font-bold text-slate-300 dark:text-slate-700 font-mono">없음</div>
+                            <div className="text-3xl font-bold text-slate-300 dark:text-slate-700 font-mono"><I18nText dict={stockLabels.none} lang={lang}/></div>
                         )}
                     </div>
                 </section>
 
                 <section className="space-y-4">
-                    <h3 className="text-xl font-bold px-1">주주 지분 변화 추이</h3>
+                    <h3 className="text-xl font-bold px-1"><I18nText dict={stockLabels.shareholderTrend} lang={lang}/></h3>
                     {rankChartData.dates.length > 0 ? (
                         <div className="rounded-2xl border border-slate-200 dark:border-slate-800 p-4" style={{height: 320}}>
                             <canvas ref={canvasRef}/>
                         </div>
                     ) : (
                         <div className="py-10 text-center border-2 border-dashed border-slate-100 dark:border-slate-800 rounded-2xl text-slate-400 text-sm">
-                            차트를 그릴 데이터가 없습니다.
+                            <I18nText dict={stockLabels.noChartData} lang={lang}/>
                         </div>
                     )}
                 </section>
 
                 <section className="space-y-4">
-                    <h3 className="text-xl font-bold px-1">주주 정보</h3>
+                    <h3 className="text-xl font-bold px-1"><I18nText dict={stockLabels.shareholderInfo} lang={lang}/></h3>
                     {shareholders.length > 0 ? (
                         <div className="overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
                             <table className="w-full text-left text-sm border-collapse">
                                 <thead className="bg-slate-50 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-800 text-slate-500">
                                 <tr>
-                                    <th className="px-6 py-4 font-semibold text-center">기준일</th>
-                                    <th className="px-6 py-4 font-semibold text-center">주주명</th>
-                                    <th className="px-6 py-4 font-semibold text-center">지분</th>
+                                    <th className="px-6 py-4 font-semibold text-center"><I18nText dict={stockLabels.baseDate} lang={lang}/></th>
+                                    <th className="px-6 py-4 font-semibold text-center"><I18nText dict={stockLabels.shareholderName} lang={lang}/></th>
+                                    <th className="px-6 py-4 font-semibold text-center"><I18nText dict={stockLabels.stake} lang={lang}/></th>
                                 </tr>
                                 </thead>
                                 <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
@@ -252,7 +268,7 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                         </div>
                     ) : (
                         <div className="py-10 text-center border-2 border-dashed border-slate-100 dark:border-slate-800 rounded-2xl text-slate-400 text-sm">
-                            등록된 주주 정보가 없습니다.
+                            <I18nText dict={stockLabels.noShareholderInfo} lang={lang}/>
                         </div>
                     )}
                 </section>
