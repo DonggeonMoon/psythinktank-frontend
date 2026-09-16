@@ -8,9 +8,13 @@ import Header from "../../components/Header";
 import Ticker from "../../components/Ticker";
 import {db} from "../../firebase/client";
 import {useAuth} from "../../contexts/AuthContext";
-import {BOARD_CATEGORY_LABEL, BoardCategory} from "../../lib/boardCategory";
+import {BoardCategory} from "../../lib/boardCategory";
 import type {Role} from "../../lib/roles";
 import RoleBadge from "../../components/RoleBadge";
+import I18nText from "../../components/I18nText";
+import LangSwitcher from "../../components/LangSwitcher";
+import {boardCategoryI18n, boardsPageLabels} from "../../i18n/pageLabels";
+import {useAutoLang} from "../../hooks/useAutoLang";
 
 interface Post {
     id: string;
@@ -33,6 +37,7 @@ const formatDate = (timestamp: Timestamp | null) => {
 
 const BoardPage: React.FC<PageProps> = () => {
     const {user} = useAuth();
+    const [lang, setLang] = useAutoLang();
     const [category, setCategory] = useState<BoardCategory>("domestic");
     const [searchTerm, setSearchTerm] = useState("");
     const [posts, setPosts] = useState<Post[]>([]);
@@ -86,16 +91,19 @@ const BoardPage: React.FC<PageProps> = () => {
             <Header />
 
             <main className="flex-1 mx-auto w-full max-w-6xl px-4 py-10 space-y-8">
-                <header className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                <header className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
                     <div>
-                        <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">게시판</h1>
-                        <p className="text-sm text-slate-600 dark:text-slate-400">투자 관련 정보 공유가 가능한 공간입니다.</p>
+                        <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100"><I18nText dict={boardsPageLabels.title} lang={lang}/></h1>
+                        <p className="text-sm text-slate-600 dark:text-slate-400"><I18nText dict={boardsPageLabels.subtitle} lang={lang}/></p>
                     </div>
-                    <button
-                        onClick={handleWriteClick}
-                        className="self-end rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 dark:bg-slate-100 dark:text-slate-900 transition-colors sm:self-auto">
-                        글쓰기
-                    </button>
+                    <div className="flex flex-wrap items-center gap-3 self-end sm:self-auto">
+                        <LangSwitcher lang={lang} onChange={setLang}/>
+                        <button
+                            onClick={handleWriteClick}
+                            className="rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 dark:bg-slate-100 dark:text-slate-900 transition-colors">
+                            <I18nText dict={boardsPageLabels.write} lang={lang}/>
+                        </button>
+                    </div>
                 </header>
 
                 <div className="flex gap-2 border-b border-slate-200 dark:border-slate-800">
@@ -109,7 +117,7 @@ const BoardPage: React.FC<PageProps> = () => {
                                     : "border-transparent text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200"
                             }`}
                         >
-                            {BOARD_CATEGORY_LABEL[c]}
+                            <I18nText dict={boardCategoryI18n[c]} lang={lang}/>
                         </button>
                     ))}
                 </div>
@@ -126,7 +134,7 @@ const BoardPage: React.FC<PageProps> = () => {
                             </div>
                             <input
                                 type="text"
-                                placeholder="제목 또는 작성자 검색"
+                                placeholder={boardsPageLabels.searchPlaceholder[lang]}
                                 className="w-full rounded-md border border-slate-300 bg-white py-2 pl-10 pr-4 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:placeholder:text-slate-500 dark:focus:ring-slate-700"
                                 onChange={(e) => setSearchTerm(e.target.value)}
                             />
@@ -135,17 +143,17 @@ const BoardPage: React.FC<PageProps> = () => {
 
                     <div className="overflow-hidden rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950 shadow-sm">
                         <div className="grid grid-cols-6 md:grid-cols-12 gap-4 border-b border-slate-100 bg-slate-50/50 px-6 py-3 text-[13px] font-semibold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400">
-                            <div className="hidden md:block col-span-1 text-center">순번</div>
-                            <div className="col-span-4 md:col-span-5 text-center">제목</div>
-                            <div className="hidden md:block col-span-2 text-center">작성자</div>
-                            <div className="hidden md:block col-span-2 text-center">작성일</div>
-                            <div className="col-span-2 text-center">조회수</div>
+                            <div className="hidden md:block col-span-1 text-center"><I18nText dict={boardsPageLabels.colIndex} lang={lang}/></div>
+                            <div className="col-span-4 md:col-span-5 text-center"><I18nText dict={boardsPageLabels.colTitle} lang={lang}/></div>
+                            <div className="hidden md:block col-span-2 text-center"><I18nText dict={boardsPageLabels.colAuthor} lang={lang}/></div>
+                            <div className="hidden md:block col-span-2 text-center"><I18nText dict={boardsPageLabels.colDate} lang={lang}/></div>
+                            <div className="col-span-2 text-center"><I18nText dict={boardsPageLabels.colViews} lang={lang}/></div>
                         </div>
 
                         <div className="divide-y divide-slate-100 dark:divide-slate-800">
                             {loading ? (
                                 <div className="flex flex-col items-center justify-center py-24 text-slate-400">
-                                    <p className="text-sm font-medium">불러오는 중...</p>
+                                    <p className="text-sm font-medium"><I18nText dict={boardsPageLabels.loading} lang={lang}/></p>
                                 </div>
                             ) : sortedPosts.length > 0 ? (
                                 sortedPosts.map((post, idx) => (
@@ -165,7 +173,7 @@ const BoardPage: React.FC<PageProps> = () => {
                                         <div className="col-span-4 md:col-span-5 flex items-center gap-2 overflow-hidden">
                                             {post.notice && (
                                                 <span className="shrink-0 rounded-md bg-amber-100 px-2 py-0.5 text-[11px] font-bold text-amber-700 dark:bg-amber-900/40 dark:text-amber-400">
-                                                    공지
+                                                    <I18nText dict={boardsPageLabels.notice} lang={lang}/>
                                                 </span>
                                             )}
                                             <span className={`truncate ${post.notice ? "font-semibold text-slate-900 dark:text-white" : "hover:text-blue-600 dark:hover:text-blue-400 transition-colors"}`}>
@@ -192,8 +200,8 @@ const BoardPage: React.FC<PageProps> = () => {
                                     <svg className="w-12 h-12 mb-4 opacity-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                                     </svg>
-                                    <p className="text-sm font-medium">등록된 게시글이 없습니다.</p>
-                                    <p className="text-xs mt-1 opacity-70">첫 번째 게시글의 주인공이 되어보세요!</p>
+                                    <p className="text-sm font-medium"><I18nText dict={boardsPageLabels.emptyTitle} lang={lang}/></p>
+                                    <p className="text-xs mt-1 opacity-70"><I18nText dict={boardsPageLabels.emptySubtitle} lang={lang}/></p>
                                 </div>
                             )}
                         </div>

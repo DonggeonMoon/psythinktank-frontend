@@ -9,9 +9,13 @@ import Ticker from "../components/Ticker";
 import {db} from "../firebase/client";
 import {useAuth} from "../contexts/AuthContext";
 import {isStaffRole, type Role} from "../lib/roles";
-import {BOARD_CATEGORY_LABEL, BoardCategory} from "../lib/boardCategory";
+import {BoardCategory} from "../lib/boardCategory";
 import CommentSection from "../components/CommentSection";
 import RoleBadge from "../components/RoleBadge";
+import I18nText from "../components/I18nText";
+import LangSwitcher from "../components/LangSwitcher";
+import {boardCategoryI18n, boardDetailLabels, viewsLabel} from "../i18n/pageLabels";
+import {useAutoLang} from "../hooks/useAutoLang";
 
 interface Post {
     title: string;
@@ -39,6 +43,7 @@ const formatDate = (timestamp: Timestamp | null) => {
 const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageContext}) => {
     const {postId} = pageContext;
     const {user, profile} = useAuth();
+    const [lang, setLang] = useAutoLang();
     const [post, setPost] = useState<Post | null>(null);
     const [loading, setLoading] = useState(true);
     const [notFound, setNotFound] = useState(false);
@@ -87,7 +92,7 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
             <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
                 <Header/>
                 <main className="flex-1 p-10 text-center text-slate-500 dark:text-slate-400">
-                    존재하지 않는 게시글입니다.
+                    <I18nText dict={boardDetailLabels.notFound} lang={lang}/>
                 </main>
                 <Footer/>
             </div>
@@ -101,10 +106,11 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
             <Header />
 
             <main className="flex-1 mx-auto w-full max-w-4xl px-4 py-10 space-y-8">
-                <div className="flex justify-start">
+                <div className="flex flex-wrap items-start justify-between gap-3">
                     <Link to="/boards" className="text-sm text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 flex items-center gap-1">
-                        ← 목록으로 돌아가기
+                        ← <I18nText dict={boardDetailLabels.backToList} lang={lang}/>
                     </Link>
+                    <LangSwitcher lang={lang} onChange={setLang}/>
                 </div>
 
                 <article className="space-y-6">
@@ -113,12 +119,12 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
                             <div className="flex items-center gap-2">
                                 {post.category && (
                                     <span className="inline-block rounded bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300">
-                                        {BOARD_CATEGORY_LABEL[post.category]}
+                                        <I18nText dict={boardCategoryI18n[post.category]} lang={lang}/>
                                     </span>
                                 )}
                                 {post.notice && (
                                     <span className="inline-block rounded bg-slate-900 px-2 py-0.5 text-xs font-bold text-white dark:bg-slate-100 dark:text-slate-900">
-                                        공지사항
+                                        <I18nText dict={boardDetailLabels.notice} lang={lang}/>
                                     </span>
                                 )}
                             </div>
@@ -137,7 +143,15 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
                                 <span>{formatDate(post.createdAt)}</span>
                             </div>
                             <div>
-                                <span>조회수 {(post.views ?? 0).toLocaleString()}</span>
+                                <I18nText
+                                    dict={{
+                                        ko: viewsLabel((post.views ?? 0).toLocaleString(), "ko"),
+                                        en: viewsLabel((post.views ?? 0).toLocaleString(), "en"),
+                                        ja: viewsLabel((post.views ?? 0).toLocaleString(), "ja"),
+                                        zh: viewsLabel((post.views ?? 0).toLocaleString(), "zh"),
+                                    }}
+                                    lang={lang}
+                                />
                             </div>
                         </div>
                     </header>
@@ -149,7 +163,7 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
 
                     <div className="flex items-center justify-center gap-2 border-t border-slate-100 pt-10 dark:border-slate-800">
                         <Link to="/boards" className="rounded-md border border-slate-300 px-6 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900">
-                            목록 보기
+                            <I18nText dict={boardDetailLabels.listButton} lang={lang}/>
                         </Link>
                         {canManage && (
                             <>
@@ -157,13 +171,13 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
                                     to={`/boards/edit/${postId}`}
                                     className="rounded-md border border-slate-300 px-6 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900"
                                 >
-                                    수정
+                                    <I18nText dict={boardDetailLabels.edit} lang={lang}/>
                                 </Link>
                                 <button
                                     onClick={handleDelete}
                                     className="rounded-md border border-red-300 px-6 py-2 text-sm font-medium text-red-600 hover:bg-red-50 dark:border-red-900/60 dark:text-red-400 dark:hover:bg-red-900/20"
                                 >
-                                    삭제
+                                    <I18nText dict={boardDetailLabels.delete} lang={lang}/>
                                 </button>
                             </>
                         )}

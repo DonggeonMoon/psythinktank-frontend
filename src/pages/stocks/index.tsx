@@ -5,6 +5,10 @@ import {Link} from "gatsby";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Ticker from "../../components/Ticker";
+import I18nText from "../../components/I18nText";
+import LangSwitcher from "../../components/LangSwitcher";
+import {countSummary, stocksPageLabels} from "../../i18n/pageLabels";
+import {useAutoLang} from "../../hooks/useAutoLang";
 
 export const query = graphql`
   query {
@@ -31,6 +35,7 @@ interface DataProps {
 const PAGE_SIZE = 30;
 
 const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
+    const [lang, setLang] = useAutoLang();
     const [searchTerm, setSearchTerm] = useState("");
     const [currentPage, setCurrentPage] = useState(1);
     const stocks = data.allStockDetail.nodes;
@@ -84,15 +89,16 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
             <main className="flex-1 mx-auto w-full max-w-6xl px-4 py-10 space-y-8">
 
-                <header className="flex items-center justify-between">
+                <header className="flex flex-wrap items-start justify-between gap-3">
                     <div>
                         <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
-                            종목
+                            <I18nText dict={stocksPageLabels.title} lang={lang}/>
                         </h1>
                         <p className="text-sm text-slate-600 dark:text-slate-400">
-                            원하는 종목을 찾을 수 있습니다.
+                            <I18nText dict={stocksPageLabels.subtitle} lang={lang}/>
                         </p>
                     </div>
+                    <LangSwitcher lang={lang} onChange={setLang}/>
                 </header>
 
                 <section className="space-y-4">
@@ -109,7 +115,7 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
                             <input
                                 type="text"
-                                placeholder="종목명 또는 티커(예: TSLA) 검색"
+                                placeholder={stocksPageLabels.searchPlaceholder[lang]}
                                 value={searchTerm}
                                 onChange={(e) => handleSearchChange(e.target.value)}
                                 className="w-full rounded-md border border-slate-300 bg-white py-2.5 pl-10 pr-4 text-sm text-slate-900 placeholder:text-slate-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-100 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:placeholder:text-slate-500 dark:focus:border-blue-500 dark:focus:ring-blue-900/30 transition-all"
@@ -122,9 +128,9 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                         <table className="w-full text-left border-collapse">
                             <thead>
                             <tr className="bg-slate-50 dark:bg-slate-900/50 border-b border-slate-200 dark:border-slate-800">
-                                <th className="px-6 py-4 text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 text-center">종목명</th>
-                                <th className="px-6 py-4 text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 text-center">티커</th>
-                                <th className="px-6 py-4 text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 text-center">시장</th>
+                                <th className="px-6 py-4 text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 text-center"><I18nText dict={stocksPageLabels.colName} lang={lang}/></th>
+                                <th className="px-6 py-4 text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 text-center"><I18nText dict={stocksPageLabels.colTicker} lang={lang}/></th>
+                                <th className="px-6 py-4 text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 text-center"><I18nText dict={stocksPageLabels.colMarket} lang={lang}/></th>
                             </tr>
                             </thead>
                             <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
@@ -172,7 +178,7 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                                     d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
                                                 />
                                             </svg>
-                                            <p className="text-sm">데이터가 없습니다.</p>
+                                            <p className="text-sm"><I18nText dict={stocksPageLabels.noData} lang={lang}/></p>
                                         </div>
                                     </td>
                                 </tr>
@@ -184,8 +190,15 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                     {filteredStocks.length > 0 && (
                         <div className="flex items-center justify-between">
                             <p className="text-xs text-slate-500 dark:text-slate-400">
-                                총 {filteredStocks.length.toLocaleString()}건 중 {(safePage - 1) * PAGE_SIZE + 1}
-                                –{Math.min(safePage * PAGE_SIZE, filteredStocks.length)}건
+                                <I18nText
+                                    dict={{
+                                        ko: countSummary(filteredStocks.length.toLocaleString(), String((safePage - 1) * PAGE_SIZE + 1), String(Math.min(safePage * PAGE_SIZE, filteredStocks.length)), "ko"),
+                                        en: countSummary(filteredStocks.length.toLocaleString(), String((safePage - 1) * PAGE_SIZE + 1), String(Math.min(safePage * PAGE_SIZE, filteredStocks.length)), "en"),
+                                        ja: countSummary(filteredStocks.length.toLocaleString(), String((safePage - 1) * PAGE_SIZE + 1), String(Math.min(safePage * PAGE_SIZE, filteredStocks.length)), "ja"),
+                                        zh: countSummary(filteredStocks.length.toLocaleString(), String((safePage - 1) * PAGE_SIZE + 1), String(Math.min(safePage * PAGE_SIZE, filteredStocks.length)), "zh"),
+                                    }}
+                                    lang={lang}
+                                />
                             </p>
 
                             <nav className="flex items-center gap-1">
@@ -195,7 +208,7 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                     disabled={safePage === 1}
                                     className="px-3 py-1.5 text-sm rounded-md border border-slate-300 text-slate-600 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
                                 >
-                                    이전
+                                    <I18nText dict={stocksPageLabels.prev} lang={lang}/>
                                 </button>
 
                                 {pageNumbers[0] > 1 && (
@@ -227,7 +240,7 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                     disabled={safePage === totalPages}
                                     className="px-3 py-1.5 text-sm rounded-md border border-slate-300 text-slate-600 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
                                 >
-                                    다음
+                                    <I18nText dict={stocksPageLabels.next} lang={lang}/>
                                 </button>
                             </nav>
                         </div>
