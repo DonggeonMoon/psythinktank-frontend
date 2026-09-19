@@ -61,6 +61,12 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       nps_holding: Boolean
       overview: String
     }
+    type Investor implements Node {
+      symbol: String
+      base_date: String
+      investor_count: Float
+      avg_price: Float
+    }
     type Shareholder implements Node {
       date: String
       holder_name: String
@@ -177,6 +183,25 @@ export const sourceNodes: GatsbyNode["sourceNodes"] = async ({ actions, createNo
                 children: [],
                 internal: {
                     type: "Shareholder",
+                    contentDigest: createContentDigest(row),
+                },
+            })
+        })
+    }
+
+    const investorFiles = fs.readdirSync(DATA_DIR).filter((f) => f.startsWith("investors-") && f.endsWith(".json"))
+
+    for (const file of investorFiles) {
+        const rows = JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), "utf-8"))
+
+        rows.forEach((row: Record<string, unknown>) => {
+            createNode({
+                ...row,
+                id: createNodeId(`Investor-${row.id}`),
+                parent: null,
+                children: [],
+                internal: {
+                    type: "Investor",
                     contentDigest: createContentDigest(row),
                 },
             })

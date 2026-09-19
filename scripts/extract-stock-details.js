@@ -87,6 +87,16 @@ async function fetchShareholders(client) {
     return res.rows;
 }
 
+async function fetchInvestors(client) {
+    const res = await client.query(`
+        SELECT id, symbol, TO_CHAR(base_date, 'YYYY-MM-DD') AS base_date, investor_count, avg_price
+        FROM naver_pay_investors
+        WHERE deleted_at IS NULL
+        ORDER BY symbol, base_date DESC;
+    `);
+    return res.rows;
+}
+
 async function run() {
     const client = new Client({
         host: '127.0.0.1',
@@ -120,6 +130,11 @@ async function run() {
         const shareRows = await fetchShareholders(client);
         console.log(`📊 주주 정보 조회 건수: ${shareRows.length}`);
         writeChunks(dataDir, 'shareholders', shareRows);
+
+        console.log("🔍 주주 수 정보 조회 중...");
+        const investorRows = await fetchInvestors(client);
+        console.log(`📊 주주 수 정보 조회 건수: ${investorRows.length}`);
+        writeChunks(dataDir, 'investors', investorRows);
 
     } catch (err) {
         console.error("❌ 에러 발생:", err.message);
