@@ -34,6 +34,9 @@ export const stockLabels = {
         zh: "没有已登记的股东信息。",
     },
     overview: {ko: "기업 개요", en: "Company Overview", ja: "企業概要", zh: "公司概况"},
+    investorTrend: {ko: "주주 수 변화 추이", en: "Shareholder Count Trend", ja: "株主数推移", zh: "股东人数变化趋势"},
+    investorCount: {ko: "주주 수", en: "Shareholders", ja: "株主数", zh: "股东人数"},
+    avgPrice: {ko: "평균 단가", en: "Average Price", ja: "平均単価", zh: "平均成本价"},
     notFound: {ko: "종목 정보를 찾을 수 없습니다.", en: "Stock information not found.", ja: "銘柄情報が見つかりません。", zh: "未找到股票信息。"},
     krw: {ko: "원", en: "KRW", ja: "ウォン", zh: "韩元"},
 } satisfies Record<string, Dict>;

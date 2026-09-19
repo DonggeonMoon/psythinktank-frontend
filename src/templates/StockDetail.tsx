@@ -35,6 +35,14 @@ export const query = graphql`
         value
       }
     }
+    allInvestor(filter: { symbol: { eq: $symbol } }, sort: { base_date: ASC }) {
+      nodes {
+        id
+        base_date
+        investor_count
+        avg_price
+      }
+    }
   }
 `;
 
@@ -50,6 +58,13 @@ interface StockDetailData {
     overview: string | null;
 }
 
+interface InvestorNode {
+    id: string;
+    base_date: string;
+    investor_count: number | null;
+    avg_price: number | null;
+}
+
 interface ShareholderNode {
     id: string;
     date: string;
@@ -60,6 +75,7 @@ interface ShareholderNode {
 interface DataProps {
     stockDetail: StockDetailData | null;
     allShareholder: { nodes: ShareholderNode[] };
+    allInvestor: { nodes: InvestorNode[] };
 }
 
 const getCurrency = (market: string, lang: Lang) => {
@@ -71,6 +87,7 @@ const getCurrency = (market: string, lang: Lang) => {
 const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const stock = data.stockDetail;
     const shareholders = data.allShareholder.nodes;
+    const investors = data.allInvestor.nodes;
 
     const [lang, setLang] = useAutoLang();
     const [isDark, setIsDark] = useState(false);
@@ -150,6 +167,72 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
             chartRef.current = null;
         };
     }, [rankChartData, isDark, lang]);
+
+    const investorCanvasRef = useRef<HTMLCanvasElement | null>(null);
+    const investorChartRef = useRef<Chart | null>(null);
+
+    useEffect(() => {
+        if (!investorCanvasRef.current || investors.length === 0) return;
+
+        const textColor = isDark ? "#f1f5f9" : "#0f172a";
+        const gridColor = isDark ? "rgba(148,163,184,0.15)" : "rgba(100,116,139,0.15)";
+
+        investorChartRef.current = new Chart(investorCanvasRef.current, {
+            type: "line",
+            data: {
+                labels: investors.map((i) => i.base_date),
+                datasets: [
+                    {
+                        label: stockLabels.investorCount[lang],
+                        data: investors.map((i) => i.investor_count),
+                        borderColor: RANK_COLORS[0],
+                        backgroundColor: RANK_COLORS[0],
+                        yAxisID: "y",
+                        spanGaps: true,
+                        tension: 0.3,
+                        pointRadius: 3,
+                    },
+                    {
+                        label: stockLabels.avgPrice[lang],
+                        data: investors.map((i) => i.avg_price),
+                        borderColor: RANK_COLORS[1],
+                        backgroundColor: RANK_COLORS[1],
+                        yAxisID: "y1",
+                        spanGaps: true,
+                        tension: 0.3,
+                        pointRadius: 3,
+                    },
+                ],
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {ticks: {color: textColor}, grid: {color: gridColor}},
+                    y: {
+                        position: "left",
+                        ticks: {color: textColor},
+                        grid: {color: gridColor},
+                        title: {display: true, text: stockLabels.investorCount[lang], color: textColor},
+                    },
+                    y1: {
+                        position: "right",
+                        ticks: {color: textColor},
+                        grid: {drawOnChartArea: false},
+                        title: {display: true, text: stockLabels.avgPrice[lang], color: textColor},
+                    },
+                },
+                plugins: {
+                    legend: {labels: {color: textColor}},
+                },
+            },
+        });
+
+        return () => {
+            investorChartRef.current?.destroy();
+            investorChartRef.current = null;
+        };
+    }, [investors, isDark, lang]);
 
     if (!stock) {
         return (
@@ -287,6 +370,19 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                     ) : (
                         <div className="py-10 text-center border-2 border-dashed border-slate-100 dark:border-slate-800 rounded-2xl text-slate-400 text-sm">
                             <I18nText dict={stockLabels.noShareholderInfo} lang={lang}/>
+                        </div>
+                    )}
+                </section>
+
+                <section className="space-y-4">
+                    <h3 className="text-xl font-bold px-1"><I18nText dict={stockLabels.investorTrend} lang={lang}/></h3>
+                    {investors.length > 0 ? (
+                        <div className="rounded-2xl border border-slate-200 dark:border-slate-800 p-4" style={{height: 320}}>
+                            <canvas ref={investorCanvasRef}/>
+                        </div>
+                    ) : (
+                        <div className="py-10 text-center border-2 border-dashed border-slate-100 dark:border-slate-800 rounded-2xl text-slate-400 text-sm">
+                            <I18nText dict={stockLabels.noChartData} lang={lang}/>
                         </div>
                     )}
                 </section>
