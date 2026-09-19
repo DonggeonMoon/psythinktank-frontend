@@ -64,10 +64,10 @@ async function fetchStockDetails(client, country) {
             LEFT JOIN LATERAL (
                 SELECT holder_name
                 FROM share
-                WHERE symbol = s.symbol
+                WHERE symbol = s.symbol and holder_name like '%국민연금공단%'
                 ORDER BY date DESC
                 LIMIT 1
-            ) latest_share ON latest_share.holder_name = '국민연금공단'
+            ) latest_share on true
             WHERE s.country = $1
             ORDER BY s.symbol;
         `,
