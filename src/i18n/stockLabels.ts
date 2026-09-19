@@ -33,6 +33,7 @@ export const stockLabels = {
         ja: "登録された株主情報がありません。",
         zh: "没有已登记的股东信息。",
     },
+    overview: {ko: "기업 개요", en: "Company Overview", ja: "企業概要", zh: "公司概况"},
     notFound: {ko: "종목 정보를 찾을 수 없습니다.", en: "Stock information not found.", ja: "銘柄情報が見つかりません。", zh: "未找到股票信息。"},
     krw: {ko: "원", en: "KRW", ja: "ウォン", zh: "韩元"},
 } satisfies Record<string, Dict>;
