@@ -36,6 +36,11 @@ function writeChunks(dataDir, prefix, rows) {
 async function fetchStockDetails(client, country) {
     const query = {
         text: `
+            WITH nps_symbols AS (
+                SELECT DISTINCT symbol
+                FROM share
+                WHERE holder_name LIKE '%국민연금공단%'
+            )
             SELECT
                 s.symbol,
                 s.market,
@@ -44,7 +49,7 @@ async function fetchStockDetails(client, country) {
                 d.value AS dividend,
                 sp.adjust_close AS recent_price,
                 TO_CHAR(sp.date, 'YYYY-MM-DD') AS basis_date,
-                (latest_share.holder_name IS NOT NULL) AS nps_holding
+                (nps.symbol IS NOT NULL) AS nps_holding
             FROM stock s
             LEFT JOIN LATERAL (
                 SELECT growth
@@ -61,13 +66,7 @@ async function fetchStockDetails(client, country) {
                 ORDER BY date DESC
                 LIMIT 1
             ) sp ON true
-            LEFT JOIN LATERAL (
-                SELECT holder_name
-                FROM share
-                WHERE symbol = s.symbol and holder_name like '%국민연금공단%'
-                ORDER BY date DESC
-                LIMIT 1
-            ) latest_share on true
+            LEFT JOIN nps_symbols nps ON nps.symbol = s.symbol
             WHERE s.country = $1
             ORDER BY s.symbol;
         `,
