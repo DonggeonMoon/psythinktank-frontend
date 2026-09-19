@@ -45,6 +45,7 @@ async function fetchStockDetails(client, country) {
                 s.symbol,
                 s.market,
                 s.local_name AS stock_name,
+                s.overview,
                 e.growth,
                 d.value AS dividend,
                 sp.adjust_close AS recent_price,
