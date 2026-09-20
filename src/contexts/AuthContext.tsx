@@ -7,6 +7,7 @@ import {
     EmailAuthProvider,
     onAuthStateChanged,
     reauthenticateWithCredential,
+    sendEmailVerification,
     sendPasswordResetEmail,
     signInWithEmailAndPassword,
     signOut,
@@ -124,7 +125,18 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     const login = async (email: string, password: string) => {
         if (!auth) throw new Error("Firebase Auth가 초기화되지 않았습니다.");
-        await signInWithEmailAndPassword(auth, email, password);
+        const { user: signedIn } = await signInWithEmailAndPassword(auth, email, password);
+        if (signedIn.emailVerified || !db) return;
+
+        // 마이그레이션된 기존 회원은 이메일 인증 이력이 없으므로 신규 가입자에게만 인증을 요구한다.
+        const snapshot = await getDoc(doc(db, "users", signedIn.uid));
+        if (snapshot.exists() && snapshot.data().legacyUserId != null) return;
+
+        await sendEmailVerification(signedIn).catch(() => {});
+        await signOut(auth);
+        const error = new Error("이메일 인증이 필요합니다.") as Error & { code?: string };
+        error.code = "auth/email-not-verified";
+        throw error;
     };
 
     const logout = async () => {
@@ -180,7 +192,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             throw error;
         }
 
-        setProfile({ nickname: trimmedNickname, role: "member", privacyConsentVersion: PRIVACY_CONSENT_VERSION });
+        await sendEmailVerification(credential.user);
+        await signOut(auth);
     };
 
     const updateNickname = async (nickname: string) => {
