@@ -254,4 +254,4 @@ const SignupPage: React.FC<PageProps> = () => {
 
 export default SignupPage;
 
-export const Head: HeadFC = () => <title>회원가입</title>;
+export const Head: HeadFC = () => <title>회원 가입</title>;

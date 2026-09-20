@@ -189,6 +189,11 @@ const EditPage: React.FC<PageProps> = ({params}) => {
     );
 };
 
-export const Head: HeadFC = () => <link rel="stylesheet" href="/toastui-editor.css"/>;
-
 export default EditPage;
+
+export const Head: HeadFC = () => (
+    <>
+        <title>글 수정</title>
+        <link rel="stylesheet" href="/toastui-editor.css"/>;
+    </>
+);
