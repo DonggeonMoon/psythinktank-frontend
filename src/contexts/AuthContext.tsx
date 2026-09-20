@@ -14,7 +14,7 @@ import {
     updatePassword,
     type User,
 } from "firebase/auth";
-import { deleteDoc, doc, getDoc, serverTimestamp, setDoc, updateDoc, writeBatch } from "firebase/firestore";
+import { doc, getDoc, serverTimestamp, setDoc, updateDoc, writeBatch } from "firebase/firestore";
 import { auth, db } from "../firebase/client";
 import type { Role } from "../lib/roles";
 import { PRIVACY_CONSENT_VERSION } from "../lib/privacyConsent";
@@ -246,7 +246,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
         const credential = EmailAuthProvider.credential(currentUser.email as string, currentPassword);
         await reauthenticateWithCredential(currentUser, credential);
-        await deleteDoc(doc(db, "users", currentUser.uid));
+        const batch = writeBatch(db);
+        batch.delete(doc(db, "users", currentUser.uid));
+        batch.delete(doc(db, "emails", normalizeEmail(currentUser.email as string)));
+        if (profile?.nickname) {
+            batch.delete(doc(db, "nicknames", profile.nickname));
+        }
+        await batch.commit();
         await deleteUser(currentUser);
     };
 
