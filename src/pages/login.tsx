@@ -23,7 +23,7 @@ const LoginPage: React.FC<PageProps> = () => {
             await navigate("/");
         } catch (err) {
             if ((err as { code?: string })?.code === "auth/email-not-verified") {
-                setError("이메일 인증이 완료되지 않았습니다. 인증 메일을 다시 보냈으니 메일함을 확인해주세요.");
+                setError("이메일 인증이 완료되지 않았습니다. 인증 메일을 다시 보냈으니 메일함을 확인해주세요. 받은 메일함에 안 보이면 스팸함도 꼭 확인해주세요.");
                 return;
             }
             setError("이메일 또는 비밀번호가 올바르지 않습니다.");
