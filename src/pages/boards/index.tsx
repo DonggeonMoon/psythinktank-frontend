@@ -15,6 +15,7 @@ import I18nText from "../../components/I18nText";
 import LangSwitcher from "../../components/LangSwitcher";
 import {boardCategoryI18n, boardsPageLabels} from "../../i18n/pageLabels";
 import {useAutoLang} from "../../hooks/useAutoLang";
+import {usePersistedState} from "../../hooks/usePersistedState";
 
 interface Post {
     id: string;
@@ -38,8 +39,8 @@ const formatDate = (timestamp: Timestamp | null) => {
 const BoardPage: React.FC<PageProps> = () => {
     const {user} = useAuth();
     const [lang, setLang] = useAutoLang();
-    const [category, setCategory] = useState<BoardCategory>("domestic");
-    const [searchTerm, setSearchTerm] = useState("");
+    const [category, setCategory] = usePersistedState<BoardCategory>("boards:category", "domestic");
+    const [searchTerm, setSearchTerm] = usePersistedState("boards:searchTerm", "");
     const [posts, setPosts] = useState<Post[]>([]);
     const [loading, setLoading] = useState(true);
 

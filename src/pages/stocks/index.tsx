@@ -1,5 +1,5 @@
 import * as React from "react";
-import {useMemo, useState} from "react";
+import {useMemo} from "react";
 import {graphql, type HeadFC, type PageProps} from "gatsby";
 import {Link} from "gatsby";
 import Footer from "../../components/Footer";
@@ -9,6 +9,7 @@ import I18nText from "../../components/I18nText";
 import LangSwitcher from "../../components/LangSwitcher";
 import {countSummary, stocksPageLabels} from "../../i18n/pageLabels";
 import {useAutoLang} from "../../hooks/useAutoLang";
+import {usePersistedState} from "../../hooks/usePersistedState";
 
 export const query = graphql`
   query {
@@ -38,9 +39,9 @@ const PAGE_SIZE = 30;
 
 const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const [lang, setLang] = useAutoLang();
-    const [searchTerm, setSearchTerm] = useState("");
-    const [npsOnly, setNpsOnly] = useState(false);
-    const [currentPage, setCurrentPage] = useState(1);
+    const [searchTerm, setSearchTerm] = usePersistedState("stocks:searchTerm", "");
+    const [npsOnly, setNpsOnly] = usePersistedState("stocks:npsOnly", false);
+    const [currentPage, setCurrentPage] = usePersistedState("stocks:page", 1);
     const stocks = data.allStockDetail.nodes;
 
     const filteredStocks = useMemo(() => {
@@ -220,7 +221,7 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             <nav className="flex items-center gap-1">
                                 <button
                                     type="button"
-                                    onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+                                    onClick={() => setCurrentPage(Math.max(1, safePage - 1))}
                                     disabled={safePage === 1}
                                     className="px-3 py-1.5 text-sm rounded-md border border-slate-300 text-slate-600 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
                                 >
@@ -252,7 +253,7 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
                                 <button
                                     type="button"
-                                    onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+                                    onClick={() => setCurrentPage(Math.min(totalPages, safePage + 1))}
                                     disabled={safePage === totalPages}
                                     className="px-3 py-1.5 text-sm rounded-md border border-slate-300 text-slate-600 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
                                 >
