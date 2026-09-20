@@ -4,11 +4,7 @@ const DarkToggle = () => {
     const [isDark, setIsDark] = useState(false)
 
     useEffect(() => {
-        const saved = localStorage.getItem("theme")
-        if (saved === "dark") {
-            document.documentElement.classList.add("dark")
-            setIsDark(true)
-        }
+        setIsDark(document.documentElement.classList.contains("dark"))
     }, [])
 
     const toggle = () => {

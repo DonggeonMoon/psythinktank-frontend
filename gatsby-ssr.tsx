@@ -6,8 +6,12 @@ export const wrapRootElement: GatsbySSR["wrapRootElement"] = ({ element }) => (
     <AuthProvider>{element}</AuthProvider>
 )
 
+// 정적 HTML은 항상 라이트로 렌더되므로, 첫 페인트 전에 저장된 테마를 적용해 다크모드가 잠깐 풀리는 깜빡임을 막는다.
+const themeInitScript = `try{if(localStorage.getItem("theme")==="dark")document.documentElement.classList.add("dark")}catch(e){}`
+
 export const onRenderBody: GatsbySSR["onRenderBody"] = ({setHeadComponents}) => {
     setHeadComponents([
+        <script key="theme-init" dangerouslySetInnerHTML={{__html: themeInitScript}}/>,
         <meta key="google-site-verification" name="google-site-verification"
               content="FEZ-QQqTHTmdnS8FzNs-7TOeveE9vAmN9_fs3MgIzq4"/>,
         <meta key="naver-site-verification" name="naver-site-verification" content="188aec7f07541b21448d05fb0b92073950c81bdc" />
