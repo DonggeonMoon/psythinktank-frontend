@@ -142,9 +142,12 @@ const SignupPage: React.FC<PageProps> = () => {
                     <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-4">
                         이메일 인증을 완료해주세요
                     </h1>
-                    <p className="text-sm text-slate-600 dark:text-slate-400 mb-8">
+                    <p className="text-sm text-slate-600 dark:text-slate-400 mb-2">
                         <span className="font-medium text-slate-900 dark:text-slate-100">{verificationSentTo}</span>
                         으로 인증 메일을 보냈습니다. 메일의 링크를 눌러 인증을 마치면 로그인할 수 있습니다.
+                    </p>
+                    <p className="text-sm text-amber-600 dark:text-amber-400 mb-8">
+                        메일이 스팸함으로 분류되었을 수 있으니, 받은 메일함에 안 보이면 스팸함도 꼭 확인해주세요.
                     </p>
                     <Link
                         to="/login"
