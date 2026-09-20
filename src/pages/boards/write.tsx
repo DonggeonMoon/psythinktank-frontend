@@ -149,4 +149,9 @@ const WritePage: React.FC<PageProps> = ({location}) => {
 
 export default WritePage;
 
-export const Head: HeadFC = () => <title>글쓰기</title>;
+export const Head: HeadFC = () => (
+    <>
+        <title>글쓰기</title>
+        <link rel="stylesheet" href="/toastui-editor.css"/>
+    </>
+);

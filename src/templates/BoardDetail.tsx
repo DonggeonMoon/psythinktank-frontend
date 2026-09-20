@@ -196,5 +196,10 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
 export default BoardDetailPage;
 
 export const Head: HeadFC<object, BoardDetailContext> = ({pageContext}) => {
-    return <title>{pageContext.title ?? "게시글 상세보기"}</title>;
+    return (
+        <>
+            <title>{pageContext.title ?? "게시글 상세보기"}</title>
+            <link rel="stylesheet" href="/toastui-editor.css"/>
+        </>
+    );
 };

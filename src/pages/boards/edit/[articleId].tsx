@@ -1,6 +1,6 @@
 import * as React from "react";
 import {useEffect, useRef, useState} from "react";
-import {navigate, PageProps} from "gatsby";
+import {navigate, HeadFC, PageProps} from "gatsby";
 import {doc, getDoc, updateDoc, serverTimestamp} from "firebase/firestore";
 import Footer from "../../../components/Footer";
 import Header from "../../../components/Header";
@@ -188,5 +188,7 @@ const EditPage: React.FC<PageProps> = ({params}) => {
         </div>
     );
 };
+
+export const Head: HeadFC = () => <link rel="stylesheet" href="/toastui-editor.css"/>;
 
 export default EditPage;
