@@ -7,3 +7,4 @@ src/gatsby-types.d.ts
 !.env.example
 scripts/serviceAccountKey.json
 src/data/
+.DS_Store
