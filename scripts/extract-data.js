@@ -33,7 +33,7 @@ async function fetchData(client, country, criteria) {
             SELECT
                 s.symbol,
                 s.market,
-                s.local_name as stock_name,
+                COALESCE(s.korean_name, s.english_name) as stock_name,
                 e.growth,
                 d.value as dividend,
                 spb.adjust_close as recent_price,
