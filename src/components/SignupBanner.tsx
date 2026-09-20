@@ -40,22 +40,27 @@ const SignupBanner: React.FC = () => {
     return (
         <div
             role="status"
-            className="fixed bottom-4 right-4 z-50 flex items-center gap-3 rounded-lg border border-slate-200 bg-white px-4 py-3 shadow-lg dark:border-slate-700 dark:bg-slate-900"
+            className="fixed bottom-4 right-4 z-50 flex flex-col gap-3 rounded-lg border border-slate-200 bg-white px-4 py-3 shadow-lg dark:border-slate-700 dark:bg-slate-900"
         >
+            <div className="flex items-center justify-between gap-3">
+                <p className="text-sm font-medium text-slate-900 dark:text-slate-100">
+                    PSYThinktank 회원이 되어주세요
+                </p>
+                <button
+                    type="button"
+                    onClick={dismiss}
+                    aria-label="닫기"
+                    className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
+                >
+                    ✕
+                </button>
+            </div>
             <Link
                 to="/signup/agree"
-                className="text-sm font-medium text-slate-900 hover:underline dark:text-slate-100"
+                className="rounded-md bg-slate-900 px-4 py-2 text-center text-sm font-medium text-white hover:opacity-90 dark:bg-slate-100 dark:text-slate-900 transition-colors"
             >
-                PSYThinktank 회원 가입하기
+                회원 가입
             </Link>
-            <button
-                type="button"
-                onClick={dismiss}
-                aria-label="닫기"
-                className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
-            >
-                ✕
-            </button>
         </div>
     );
 };
