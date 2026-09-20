@@ -151,7 +151,7 @@ export default WritePage;
 
 export const Head: HeadFC = () => (
     <>
-        <title>글쓰기</title>
+        <title>글 쓰기</title>
         <link rel="stylesheet" href="/toastui-editor.css"/>
     </>
 );
