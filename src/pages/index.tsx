@@ -4,6 +4,7 @@ import {Link} from "gatsby";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Ticker from "../components/Ticker";
+import {usePersistedState} from "../hooks/usePersistedState";
 
 export const query = graphql`
   query {
@@ -64,7 +65,7 @@ interface DataProps {
 }
 
 const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
-    const [selectedCountry, setSelectedCountry] = React.useState<'KR' | 'US' | 'JP'>('KR');
+    const [selectedCountry, setSelectedCountry] = usePersistedState<'KR' | 'US' | 'JP'>('index:country', 'KR');
 
     const displayData = React.useMemo(() => {
         switch (selectedCountry) {
