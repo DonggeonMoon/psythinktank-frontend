@@ -28,6 +28,7 @@ const SignupPage: React.FC<PageProps> = () => {
     const [passwordConfirm, setPasswordConfirm] = useState("");
     const [error, setError] = useState<string | null>(null);
     const [submitting, setSubmitting] = useState(false);
+    const [verificationSentTo, setVerificationSentTo] = useState<string | null>(null);
 
     useEffect(() => {
         if (!consumeAgreedToPrivacyConsent()) {
@@ -102,7 +103,7 @@ const SignupPage: React.FC<PageProps> = () => {
         setSubmitting(true);
         try {
             await signup(email, password, trimmedNickname);
-            await navigate("/");
+            setVerificationSentTo(email.trim());
         } catch (err) {
             const code = (err as { code?: string })?.code;
             if (code === "auth/email-already-in-use") {
@@ -128,6 +129,30 @@ const SignupPage: React.FC<PageProps> = () => {
             <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
                 <Header/>
                 <main className="flex-1"/>
+                <Footer/>
+            </div>
+        );
+    }
+
+    if (verificationSentTo) {
+        return (
+            <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
+                <Header/>
+                <main className="flex-1 mx-auto w-full max-w-sm px-4 py-16 text-center">
+                    <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-4">
+                        이메일 인증을 완료해주세요
+                    </h1>
+                    <p className="text-sm text-slate-600 dark:text-slate-400 mb-8">
+                        <span className="font-medium text-slate-900 dark:text-slate-100">{verificationSentTo}</span>
+                        으로 인증 메일을 보냈습니다. 메일의 링크를 눌러 인증을 마치면 로그인할 수 있습니다.
+                    </p>
+                    <Link
+                        to="/login"
+                        className="inline-block rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 dark:bg-slate-100 dark:text-slate-900 transition-colors"
+                    >
+                        로그인으로 이동
+                    </Link>
+                </main>
                 <Footer/>
             </div>
         );
