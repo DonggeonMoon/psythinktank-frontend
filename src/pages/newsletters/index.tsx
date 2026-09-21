@@ -80,7 +80,7 @@ const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                     >
 
                                         <div
-                                            className="hidden md:block col-span-2 font-mono text-slate-400 dark:text-slate-500">
+                                            className="hidden md:block col-span-2 text-center font-mono text-slate-400 dark:text-slate-500">
                                             {newsletters.length - idx}
                                         </div>
 
@@ -103,7 +103,7 @@ const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
 
                                         <div
-                                            className="col-span-3 text-right font-mono text-slate-400 dark:text-slate-500 text-xs">
+                                            className="col-span-3 text-center font-mono text-slate-400 dark:text-slate-500 text-xs">
                                             {item.modifiedTime}
                                         </div>
                                     </a>

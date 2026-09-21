@@ -200,7 +200,7 @@ const AdminMembersPage: React.FC<PageProps> = () => {
                                 >
                                     <div className="flex items-center justify-between gap-2 md:contents">
                                         <div className="truncate font-medium md:col-start-1 md:col-span-3 md:font-normal">{m.nickname}</div>
-                                        <div className="w-14 text-center md:w-auto md:col-start-11 md:col-span-2 md:text-right">
+                                        <div className="w-14 text-center md:w-auto md:col-start-11 md:col-span-2 md:text-center">
                                             {!canManageRoles || m.uid === user?.uid || m.role === "admin" ? (
                                                 <span className="text-xs text-slate-300 dark:text-slate-600">-</span>
                                             ) : m.role === "member" ? (
@@ -221,8 +221,8 @@ const AdminMembersPage: React.FC<PageProps> = () => {
                                         </div>
                                     </div>
                                     <div className="truncate text-slate-500 dark:text-slate-400 md:col-start-4 md:col-span-4">{m.email}</div>
-                                    <div className="md:col-start-8 md:col-span-2">{ROLE_LABEL[m.role]}</div>
-                                    <div className="text-xs text-slate-400 md:col-start-10 md:col-span-1">{formatDate(m.createdAt)}</div>
+                                    <div className="md:col-start-8 md:col-span-2 md:text-center">{ROLE_LABEL[m.role]}</div>
+                                    <div className="text-xs text-slate-400 md:col-start-10 md:col-span-1 md:text-center">{formatDate(m.createdAt)}</div>
                                 </div>
                             ))
                         )}

@@ -337,7 +337,7 @@ const PerformancePage: React.FC<PageProps> = () => {
                                     <tr className="border-b border-slate-200 text-left text-xs text-slate-500 dark:border-slate-800 dark:text-slate-400">
                                         <th className="py-2 pr-4 text-center">연도</th>
                                         <th className="py-2 pr-4 text-center">종목</th>
-                                        <th className="py-2 pr-4 text-center">수익률</th>
+                                        <th className="py-2 pr-4 text-right">수익률</th>
                                         <th className="py-2 pr-4 text-center">관리</th>
                                     </tr>
                                 </thead>
@@ -346,11 +346,11 @@ const PerformancePage: React.FC<PageProps> = () => {
                                         .sort((a, b) => b.year - a.year)
                                         .map((entry) => (
                                             <tr key={entry.id}>
-                                                <td className="py-2 pr-4 text-slate-700 dark:text-slate-300">{entry.year}</td>
+                                                <td className="py-2 pr-4 text-center text-slate-700 dark:text-slate-300">{entry.year}</td>
                                                 <td className="py-2 pr-4 text-slate-700 dark:text-slate-300">{entry.stockName}</td>
-                                                <td className="py-2 pr-4 font-mono text-slate-700 dark:text-slate-300">{entry.returnRate}%</td>
-                                                <td className="py-2 pr-4 text-right">
-                                                    <div className="flex flex-col items-end gap-1 sm:flex-row sm:items-center sm:justify-end sm:gap-2">
+                                                <td className="py-2 pr-4 text-right font-mono text-slate-700 dark:text-slate-300">{entry.returnRate}%</td>
+                                                <td className="py-2 pr-4 text-center">
+                                                    <div className="flex flex-col items-center gap-1 sm:flex-row sm:justify-center sm:gap-2">
                                                         <button
                                                             onClick={() => startEdit(entry)}
                                                             className="text-slate-500 hover:text-slate-900 dark:hover:text-white"
