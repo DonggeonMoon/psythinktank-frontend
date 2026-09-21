@@ -51,6 +51,7 @@ async function fetchData(client, country, criteria) {
               AND d.value > 0
               AND spa.adjust_close > 0
               AND ((spb.adjust_close - spa.adjust_close) / spa.adjust_close * 100) < 0
+              AND count - change > 100
             ORDER BY e.growth DESC LIMIT 100;
         `,
         values: [country, date_recent, date_past],
