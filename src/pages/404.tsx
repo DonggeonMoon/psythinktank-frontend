@@ -1,5 +1,15 @@
 import * as React from "react"
 import { Link, HeadFC, PageProps } from "gatsby"
+import BoardDetailPage, { Head as BoardDetailHead } from "../templates/BoardDetail"
+
+const BOARD_PATH_PATTERN = /^\/boards\/([^/]+)\/?$/
+
+const matchBoardPostId = (pathname: string | undefined) => {
+    const match = pathname?.match(BOARD_PATH_PATTERN)
+    if (!match) return null
+    const postId = decodeURIComponent(match[1])
+    return postId === "write" || postId === "edit" ? null : postId
+}
 
 
 const wrapperStyle: React.CSSProperties = {
@@ -40,7 +50,14 @@ const emphasisStyle: React.CSSProperties = {
     color: "#40366F",
 }
 
-const NotFoundPage: React.FC<PageProps> = () => {
+const NotFoundPage: React.FC<PageProps> = (props) => {
+    // 마지막 배포 이후 작성된 게시글은 정적 페이지가 없어 GitHub Pages가 404.html을 내려주므로,
+    // 경로가 /boards/:id 형태면 게시글 상세 화면을 클라이언트에서 직접 렌더링한다.
+    const postId = matchBoardPostId(props.location?.pathname)
+    if (postId) {
+        return <BoardDetailPage {...(props as PageProps<object, { postId: string; title: string | null }>)} pageContext={{ postId, title: null }} />
+    }
+
     return (
         <div style={wrapperStyle}>
             <img style={imageStyle}
@@ -61,4 +78,8 @@ const NotFoundPage: React.FC<PageProps> = () => {
 
 export default NotFoundPage
 
-export const Head: HeadFC = () => <title>Not found</title>
+export const Head: HeadFC = (props) => {
+    const postId = matchBoardPostId(props.location?.pathname)
+    if (postId) return <BoardDetailHead {...props} pageContext={{ postId, title: null }} />
+    return <title>Not found</title>
+}
