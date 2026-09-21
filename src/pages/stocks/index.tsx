@@ -163,12 +163,12 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                                 {stock.stock_name}
                                             </Link>
                                         </td>
-                                        <td className="px-6 py-4">
+                                        <td className="px-6 py-4 text-center">
                                                 <span className="font-mono text-sm text-slate-500 dark:text-slate-400">
                                                     {stock.symbol}
                                                 </span>
                                         </td>
-                                        <td className="px-6 py-4">
+                                        <td className="px-6 py-4 text-center">
                                                 <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium
                                                     ${stock.market === 'KOSPI' || stock.market === 'KOSDAQ' ? 'bg-red-50 text-red-700 dark:bg-red-900/20 dark:text-red-400' :
                                                     stock.market === 'TSE' ? 'bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300' :
