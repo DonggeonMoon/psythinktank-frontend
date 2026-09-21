@@ -21,7 +21,10 @@ const ToastEditor = forwardRef<ToastEditorHandle, ToastEditorProps>(
             let cancelled = false;
 
             // @toast-ui/editor는 최상단에서 navigator를 참조해서 SSR 번들에서 못 씀 -> 브라우저에서만 동적 로드
-            import("@toast-ui/editor").then(({default: ToastUiEditor}) => {
+            Promise.all([
+                import("@toast-ui/editor"),
+                import("@toast-ui/editor/dist/i18n/ko-kr"),
+            ]).then(([{default: ToastUiEditor}]) => {
                 if (cancelled || !containerRef.current) return;
                 editorRef.current = new ToastUiEditor({
                     el: containerRef.current,
@@ -30,6 +33,7 @@ const ToastEditor = forwardRef<ToastEditorHandle, ToastEditorProps>(
                     previewStyle: "vertical",
                     initialValue: initialValue || " ",
                     hideModeSwitch: true,
+                    language: "ko-KR",
                 });
             });
 
