@@ -85,10 +85,20 @@ const formatTradingValue = (value: string | number | null | undefined, unit: str
     return `${Math.round(num).toLocaleString()}${unit}`;
 };
 
+type SortKey = 'growth' | 'dividend' | 'recent_price' | 'median_trading_value_1y' | 'price_growth';
+type SortDirection = 'asc' | 'desc';
+
 const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const [selectedCountry, setSelectedCountry] = usePersistedState<'KR' | 'US' | 'JP'>('index:country', 'KR');
     const [showTradingValueTooltip, setShowTradingValueTooltip] = React.useState(false);
     const tradingValueTooltipRef = React.useRef<HTMLDivElement>(null);
+    const [sortKey, setSortKey] = React.useState<SortKey>('growth');
+    const [sortDirection, setSortDirection] = React.useState<SortDirection>('desc');
+
+    const handleSort = (key: SortKey, direction: SortDirection) => {
+        setSortKey(key);
+        setSortDirection(direction);
+    };
 
     React.useEffect(() => {
         if (!showTradingValueTooltip) return;
@@ -114,7 +124,51 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
         }
     }, [selectedCountry, data]);
 
+    const rankedNodes = React.useMemo(
+        () => displayData.nodes.map((stock, index) => ({...stock, rank: index + 1})),
+        [displayData.nodes]
+    );
+
+    const sortedNodes = React.useMemo(() => {
+        const sorted = [...rankedNodes];
+        sorted.sort((a, b) => {
+            const aValue = Number(a[sortKey]) || 0;
+            const bValue = Number(b[sortKey]) || 0;
+            return sortDirection === 'asc' ? aValue - bValue : bValue - aValue;
+        });
+        return sorted;
+    }, [rankedNodes, sortKey, sortDirection]);
+
     const lastUpdateDate = displayData.nodes.length > 0 ? displayData.nodes[0].basis_date : "-";
+
+    const SortButtons: React.FC<{ column: SortKey; label: string }> = ({column, label}) => (
+        <span className="inline-flex flex-col ml-1 leading-none">
+            <button
+                type="button"
+                aria-label={`${label} 오름차순 정렬`}
+                onClick={() => handleSort(column, 'asc')}
+                className={`text-[9px] leading-none ${
+                    sortKey === column && sortDirection === 'asc'
+                        ? 'text-blue-600 dark:text-blue-400'
+                        : 'text-slate-300 hover:text-slate-500 dark:text-slate-600 dark:hover:text-slate-400'
+                }`}
+            >
+                ▲
+            </button>
+            <button
+                type="button"
+                aria-label={`${label} 내림차순 정렬`}
+                onClick={() => handleSort(column, 'desc')}
+                className={`text-[9px] leading-none ${
+                    sortKey === column && sortDirection === 'desc'
+                        ? 'text-blue-600 dark:text-blue-400'
+                        : 'text-slate-300 hover:text-slate-500 dark:text-slate-600 dark:hover:text-slate-400'
+                }`}
+            >
+                ▼
+            </button>
+        </span>
+    );
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
@@ -175,10 +229,19 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             className="grid grid-cols-8 md:grid-cols-14 gap-4 border-b border-slate-200 bg-slate-50/50 px-6 py-4 text-xs font-bold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400 uppercase tracking-wider">
                             <div className="col-span-1 text-center">순위</div>
                             <div className="col-span-3 text-center">기업명 / 티커</div>
-                            <div className="col-span-2 text-center">성장률</div>
-                            <div className="hidden md:block col-span-2 text-center">주당 배당금</div>
+                            <div className="col-span-2 flex items-center justify-center">
+                                <span>성장률</span>
+                                <SortButtons column="growth" label="성장률"/>
+                            </div>
+                            <div className="hidden md:flex col-span-2 items-center justify-center">
+                                <span>주당 배당금</span>
+                                <SortButtons column="dividend" label="주당 배당금"/>
+                            </div>
                             <div className="hidden md:flex col-span-2 flex-col items-center justify-center leading-tight">
-                                <span>현재가</span>
+                                <div className="flex items-center justify-center">
+                                    <span>현재가</span>
+                                    <SortButtons column="recent_price" label="현재가"/>
+                                </div>
                                 <span className="normal-case text-[10px] font-normal text-slate-400 dark:text-slate-500">
                                     ({lastUpdateDate} 종가)
                                 </span>
@@ -194,6 +257,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                 >
                                     ⓘ
                                 </button>
+                                <SortButtons column="median_trading_value_1y" label="연간 거래대금 중앙값"/>
                                 {showTradingValueTooltip && (
                                     <div
                                         className="absolute top-full mt-2 w-max max-w-[220px] rounded-md bg-slate-800 px-3 py-2 text-[11px] font-normal normal-case text-white shadow-lg z-10 dark:bg-slate-700">
@@ -201,17 +265,20 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                     </div>
                                 )}
                             </div>
-                            <div className="col-span-2 text-center">연간 가격 증감률</div>
+                            <div className="col-span-2 flex items-center justify-center">
+                                <span>연간 가격 증감률</span>
+                                <SortButtons column="price_growth" label="연간 가격 증감률"/>
+                            </div>
                         </div>
 
                         <div className="divide-y divide-slate-100 dark:divide-slate-800">
-                            {displayData.nodes.length > 0 ? (
-                                displayData.nodes.map((stock, index) => (
+                            {sortedNodes.length > 0 ? (
+                                sortedNodes.map((stock) => (
                                     <div key={stock.symbol}
                                          className="grid grid-cols-8 md:grid-cols-14 gap-4 px-6 py-5 text-sm items-center hover:bg-slate-50/80 dark:hover:bg-slate-900/40 transition-all">
                                         <div
                                             className="col-span-1 text-center font-mono font-bold text-slate-400 dark:text-slate-600">
-                                            {index + 1}
+                                            {stock.rank}
                                         </div>
                                         <div className="col-span-3 flex flex-col gap-0.5">
                                             <Link
