@@ -17,6 +17,7 @@ export const query = graphql`
         dividend
         recent_price
         price_growth
+        median_trading_value_1y
         basis_date
       }
     }
@@ -29,6 +30,7 @@ export const query = graphql`
         dividend
         recent_price
         price_growth
+        median_trading_value_1y
         basis_date
       }
     }
@@ -41,6 +43,7 @@ export const query = graphql`
         dividend
         recent_price
         price_growth
+        median_trading_value_1y
         basis_date
       }
     }
@@ -55,6 +58,7 @@ interface StockNode {
     dividend: number;
     recent_price: number;
     price_growth: number;
+    median_trading_value_1y: string | null;
     basis_date: string;
 }
 
@@ -64,8 +68,40 @@ interface DataProps {
     japan: { nodes: StockNode[] };
 }
 
+const formatTradingValue = (value: string | number | null | undefined, unit: string) => {
+    const num = Number(value);
+    if (!Number.isFinite(num) || num <= 0) return '-';
+
+    const scales: [number, string][] = unit === '$'
+        ? [[1e9, 'B'], [1e6, 'M'], [1e3, 'K']]
+        : [[1e12, '조'], [1e8, '억'], [1e4, '만']];
+
+    for (const [scale, suffix] of scales) {
+        if (num >= scale) {
+            const scaled = num / scale;
+            return `${scaled.toFixed(scaled >= 100 ? 0 : 1)}${suffix}${unit}`;
+        }
+    }
+    return `${Math.round(num).toLocaleString()}${unit}`;
+};
+
 const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const [selectedCountry, setSelectedCountry] = usePersistedState<'KR' | 'US' | 'JP'>('index:country', 'KR');
+    const [showTradingValueTooltip, setShowTradingValueTooltip] = React.useState(false);
+    const tradingValueTooltipRef = React.useRef<HTMLDivElement>(null);
+
+    React.useEffect(() => {
+        if (!showTradingValueTooltip) return;
+
+        const handleClickOutside = (event: MouseEvent) => {
+            if (!tradingValueTooltipRef.current?.contains(event.target as Node)) {
+                setShowTradingValueTooltip(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, [showTradingValueTooltip]);
 
     const displayData = React.useMemo(() => {
         switch (selectedCountry) {
@@ -136,12 +172,35 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                     <div
                         className="rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950 overflow-hidden shadow-sm">
                         <div
-                            className="grid grid-cols-8 md:grid-cols-12 gap-4 border-b border-slate-200 bg-slate-50/50 px-6 py-4 text-xs font-bold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400 uppercase tracking-wider">
+                            className="grid grid-cols-8 md:grid-cols-14 gap-4 border-b border-slate-200 bg-slate-50/50 px-6 py-4 text-xs font-bold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400 uppercase tracking-wider">
                             <div className="col-span-1 text-center">순위</div>
                             <div className="col-span-3 text-center">기업명 / 티커</div>
                             <div className="col-span-2 text-center">성장률</div>
                             <div className="hidden md:block col-span-2 text-center">주당 배당금</div>
-                            <div className="hidden md:block col-span-2 text-center">현재가 ({lastUpdateDate} 종가)</div>
+                            <div className="hidden md:flex col-span-2 flex-col items-center justify-center leading-tight">
+                                <span>현재가</span>
+                                <span className="normal-case text-[10px] font-normal text-slate-400 dark:text-slate-500">
+                                    ({lastUpdateDate} 종가)
+                                </span>
+                            </div>
+                            <div ref={tradingValueTooltipRef}
+                                 className="hidden md:flex col-span-2 flex-wrap items-center justify-center gap-x-1 gap-y-0.5 text-center leading-tight relative">
+                                <span>연간 거래대금 중앙값</span>
+                                <button
+                                    type="button"
+                                    onClick={() => setShowTradingValueTooltip((prev) => !prev)}
+                                    aria-label="연간 거래대금 중앙값 설명 보기"
+                                    className="rounded-full text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300 transition-colors"
+                                >
+                                    ⓘ
+                                </button>
+                                {showTradingValueTooltip && (
+                                    <div
+                                        className="absolute top-full mt-2 w-max max-w-[220px] rounded-md bg-slate-800 px-3 py-2 text-[11px] font-normal normal-case text-white shadow-lg z-10 dark:bg-slate-700">
+                                        연간 추정 거래대금의 중앙값
+                                    </div>
+                                )}
+                            </div>
                             <div className="col-span-2 text-center">연간 가격 증감률</div>
                         </div>
 
@@ -149,9 +208,9 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             {displayData.nodes.length > 0 ? (
                                 displayData.nodes.map((stock, index) => (
                                     <div key={stock.symbol}
-                                         className="grid grid-cols-8 md:grid-cols-12 gap-4 px-6 py-5 text-sm items-center hover:bg-slate-50/80 dark:hover:bg-slate-900/40 transition-all">
+                                         className="grid grid-cols-8 md:grid-cols-14 gap-4 px-6 py-5 text-sm items-center hover:bg-slate-50/80 dark:hover:bg-slate-900/40 transition-all">
                                         <div
-                                            className="col-span-1 font-mono font-bold text-slate-400 dark:text-slate-600">
+                                            className="col-span-1 text-center font-mono font-bold text-slate-400 dark:text-slate-600">
                                             {index + 1}
                                         </div>
                                         <div className="col-span-3 flex flex-col gap-0.5">
@@ -184,6 +243,10 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                         <div
                                             className="hidden md:block col-span-2 text-right font-mono font-medium text-slate-700 dark:text-slate-200">
                                             {stock.recent_price ? stock.recent_price.toLocaleString() : '0'}{displayData.unit}
+                                        </div>
+                                        <div
+                                            className="hidden md:block col-span-2 text-right font-mono font-medium text-slate-700 dark:text-slate-200">
+                                            {formatTradingValue(stock.median_trading_value_1y, displayData.unit)}
                                         </div>
                                         <div className="col-span-2 text-right font-semibold text-rose-500">
                                             {stock.price_growth}%
