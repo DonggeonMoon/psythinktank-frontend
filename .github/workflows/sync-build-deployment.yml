@@ -71,5 +71,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-          cname: psythinktank.com
+          cname: www.psythinktank.com
           force_orphan: true
