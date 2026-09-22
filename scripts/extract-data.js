@@ -61,6 +61,7 @@ async function fetchData(client, country, criteria) {
               AND spa.adjust_close > 0
               AND ((spb.adjust_close - spa.adjust_close) / spa.adjust_close * 100) < 0
               AND count - change > 100
+              AND UPPER(COALESCE(s.korean_name, s.english_name)) !~ '홀딩스|HOLDINGS'
             ORDER BY e.growth DESC LIMIT 100;
         `,
         values: [country, date_recent, date_past],
