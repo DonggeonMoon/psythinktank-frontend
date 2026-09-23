@@ -66,6 +66,21 @@ const requireCurrentUser = () => {
     return auth.currentUser;
 };
 
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
+// 회원가입 중 닉네임/이메일 중복으로 Firestore 배치가 실패하면 방금 만든 Auth 계정을 되돌려야 하는데,
+// 이 롤백 자체가 일시적인 네트워크 문제로 실패하면 프로필 없는 고아 계정이 영구히 남는다. 몇 차례 재시도해서 그 확률을 낮춘다.
+const deleteUserWithRetry = async (user: User, attempts = 3) => {
+    for (let attempt = 1; attempt <= attempts; attempt++) {
+        try {
+            await deleteUser(user);
+            return;
+        } catch {
+            if (attempt < attempts) await sleep(attempt * 500);
+        }
+    }
+};
+
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [user, setUser] = useState<User | null>(null);
     const [profile, setProfile] = useState<UserProfile | null>(null);
@@ -186,7 +201,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             });
             await batch.commit();
         } catch {
-            await deleteUser(credential.user).catch(() => {});
+            await deleteUserWithRetry(credential.user);
             const error = new Error("닉네임 또는 이메일이 이미 사용 중입니다.") as Error & { code?: string };
             error.code = "signup/duplicate";
             throw error;
