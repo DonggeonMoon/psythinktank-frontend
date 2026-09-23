@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import Ticker from "../components/Ticker";
 import I18nText from "../components/I18nText";
 import LangSwitcher from "../components/LangSwitcher";
+import CommentSection from "../components/CommentSection";
 import {asOfDate, type Lang, rankLabel, stockLabels} from "../i18n/stockLabels";
 import {useAutoLang} from "../hooks/useAutoLang";
 
@@ -386,6 +387,8 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                         </div>
                     )}
                 </section>
+
+                <CommentSection parentCollection="stocks" parentId={stock.symbol}/>
             </main>
             <Ticker/>
             <Footer/>

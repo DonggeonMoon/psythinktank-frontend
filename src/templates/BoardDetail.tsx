@@ -183,7 +183,7 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
                         )}
                     </div>
 
-                    <CommentSection postId={postId}/>
+                    <CommentSection parentCollection="posts" parentId={postId}/>
                 </article>
             </main>
 

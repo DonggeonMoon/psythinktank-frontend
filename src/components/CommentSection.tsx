@@ -38,7 +38,12 @@ const formatDateTime = (timestamp: Timestamp | null) => {
 const inputClass =
     "w-full rounded-md border border-slate-300 bg-white px-4 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:focus:ring-slate-700";
 
-const CommentSection: React.FC<{ postId: string }> = ({postId}) => {
+interface CommentSectionProps {
+    parentCollection: "posts" | "stocks";
+    parentId: string;
+}
+
+const CommentSection: React.FC<CommentSectionProps> = ({parentCollection, parentId}) => {
     const {user, profile} = useAuth();
     const [comments, setComments] = useState<Comment[]>([]);
     const [loading, setLoading] = useState(true);
@@ -47,7 +52,7 @@ const CommentSection: React.FC<{ postId: string }> = ({postId}) => {
     const [editingId, setEditingId] = useState<string | null>(null);
     const [editContent, setEditContent] = useState("");
 
-    const commentsRef = (firestore: Firestore) => collection(firestore, "posts", postId, "comments");
+    const commentsRef = (firestore: Firestore) => collection(firestore, parentCollection, parentId, "comments");
 
     const loadComments = async () => {
         if (!db) return;
@@ -73,7 +78,7 @@ const CommentSection: React.FC<{ postId: string }> = ({postId}) => {
     useEffect(() => {
         loadComments();
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [postId]);
+    }, [parentCollection, parentId]);
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -105,7 +110,7 @@ const CommentSection: React.FC<{ postId: string }> = ({postId}) => {
 
     const handleEditSave = async (commentId: string) => {
         if (!db || !editContent.trim()) return;
-        await updateDoc(doc(db, "posts", postId, "comments", commentId), {
+        await updateDoc(doc(db, parentCollection, parentId, "comments", commentId), {
             content: editContent.trim(),
             updatedAt: serverTimestamp(),
         });
@@ -118,7 +123,7 @@ const CommentSection: React.FC<{ postId: string }> = ({postId}) => {
         if (!window.confirm("이 댓글을 삭제하시겠습니까?")) return;
 
         const isAuthor = user.uid === comment.authorUid;
-        await updateDoc(doc(db, "posts", postId, "comments", comment.id), {
+        await updateDoc(doc(db, parentCollection, parentId, "comments", comment.id), {
             content: "",
             deleted: true,
             deletedReason: isAuthor ? "self" : "policy",
