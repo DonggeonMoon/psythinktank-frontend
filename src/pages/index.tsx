@@ -141,6 +141,24 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
     const lastUpdateDate = displayData.nodes.length > 0 ? displayData.nodes[0].basis_date : "-";
 
+    const toggleSort = (key: SortKey) => {
+        if (sortKey === key) {
+            setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc');
+        } else {
+            handleSort(key, 'desc');
+        }
+    };
+
+    const SortLabel: React.FC<{ column: SortKey; label: string }> = ({column, label}) => (
+        <button
+            type="button"
+            onClick={() => toggleSort(column)}
+            className="font-bold uppercase tracking-wider hover:text-slate-900 dark:hover:text-slate-200 transition-colors"
+        >
+            {label}
+        </button>
+    );
+
     const SortButtons: React.FC<{ column: SortKey; label: string }> = ({column, label}) => (
         <span className="inline-flex flex-col ml-1 leading-none">
             <button
@@ -230,16 +248,16 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             <div className="col-span-1 text-center">순위</div>
                             <div className="col-span-3 text-center">기업명 / 티커</div>
                             <div className="col-span-2 flex items-center justify-center">
-                                <span>성장률</span>
+                                <SortLabel column="growth" label="성장률"/>
                                 <SortButtons column="growth" label="성장률"/>
                             </div>
                             <div className="hidden md:flex col-span-2 items-center justify-center">
-                                <span>주당 배당금</span>
+                                <SortLabel column="dividend" label="주당 배당금"/>
                                 <SortButtons column="dividend" label="주당 배당금"/>
                             </div>
                             <div className="hidden md:flex col-span-2 flex-col items-center justify-center leading-tight">
                                 <div className="flex items-center justify-center">
-                                    <span>현재가</span>
+                                    <SortLabel column="recent_price" label="현재가"/>
                                     <SortButtons column="recent_price" label="현재가"/>
                                 </div>
                                 <span className="normal-case text-[10px] font-normal text-slate-400 dark:text-slate-500">
@@ -248,7 +266,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             </div>
                             <div ref={tradingValueTooltipRef}
                                  className="hidden md:flex col-span-2 flex-wrap items-center justify-center gap-x-1 gap-y-0.5 text-center leading-tight relative">
-                                <span>연간 거래대금 중앙값</span>
+                                <SortLabel column="median_trading_value_1y" label="연간 거래대금 중앙값"/>
                                 <button
                                     type="button"
                                     onClick={() => setShowTradingValueTooltip((prev) => !prev)}
@@ -266,7 +284,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                 )}
                             </div>
                             <div className="col-span-2 flex items-center justify-center">
-                                <span>연간 가격 증감률</span>
+                                <SortLabel column="price_growth" label="연간 가격 증감률"/>
                                 <SortButtons column="price_growth" label="연간 가격 증감률"/>
                             </div>
                         </div>
