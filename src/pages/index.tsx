@@ -92,8 +92,8 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const [selectedCountry, setSelectedCountry] = usePersistedState<'KR' | 'US' | 'JP'>('index:country', 'KR');
     const [showTradingValueTooltip, setShowTradingValueTooltip] = React.useState(false);
     const tradingValueTooltipRef = React.useRef<HTMLDivElement>(null);
-    const [sortKey, setSortKey] = React.useState<SortKey>('growth');
-    const [sortDirection, setSortDirection] = React.useState<SortDirection>('desc');
+    const [sortKey, setSortKey] = usePersistedState<SortKey>('index:sortKey', 'growth');
+    const [sortDirection, setSortDirection] = usePersistedState<SortDirection>('index:sortDirection', 'desc');
 
     const handleSort = (key: SortKey, direction: SortDirection) => {
         setSortKey(key);
