@@ -185,7 +185,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                 </h2>
                             </div>
                             <p className="text-sm text-slate-500 dark:text-slate-400">
-                                {selectedCountry === 'KR' ? '국내' : selectedCountry === 'US' ? '미국' : '일본'} 우량 기업 리스트입니다.
+                                성장률 기준 상위 종목 목록입니다.
                             </p>
                         </div>
 
