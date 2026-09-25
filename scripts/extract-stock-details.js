@@ -48,7 +48,7 @@ async function fetchStockDetails(client, country) {
                 s.overview,
                 e.growth,
                 d.value AS dividend,
-                sp.adjust_close AS recent_price,
+                sp.close AS recent_price,
                 TO_CHAR(sp.date, 'YYYY-MM-DD') AS basis_date,
                 (nps.symbol IS NOT NULL) AS nps_holding
             FROM stock s
@@ -61,7 +61,7 @@ async function fetchStockDetails(client, country) {
             ) e ON true
             LEFT JOIN dividend d ON d.symbol = s.symbol
             LEFT JOIN LATERAL (
-                SELECT adjust_close, date
+                SELECT close, date
                 FROM stock_price
                 WHERE symbol = s.symbol
                 ORDER BY date DESC

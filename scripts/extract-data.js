@@ -36,9 +36,9 @@ async function fetchData(client, country, criteria) {
                 COALESCE(s.korean_name, s.english_name) as stock_name,
                 e.growth,
                 d.value as dividend,
-                spb.adjust_close as recent_price,
-                spa.adjust_close as previous_price,
-                ROUND(((spb.adjust_close - spa.adjust_close) / NULLIF(spa.adjust_close, 0) * 100)::numeric, 2) as price_growth,
+                spb.close as recent_price,
+                spa.close as previous_price,
+                ROUND(((spb.close - spa.close) / NULLIF(spa.close, 0) * 100)::numeric, 2) as price_growth,
                 TO_CHAR(spb.date, 'YYYY-MM-DD') as basis_date,
                 ROUND(va.median_trading_value::numeric, 0) as median_trading_value_1y
             FROM employees e
@@ -48,7 +48,7 @@ async function fetchData(client, country, criteria) {
                      INNER JOIN stock_price spa ON e.symbol = spa.symbol AND spa.date = $3
                      LEFT JOIN LATERAL (
                 SELECT
-                    percentile_cont(0.5) within group (order by sp.volume * sp.adjust_close) as median_trading_value
+                    percentile_cont(0.5) within group (order by sp.volume * sp.close) as median_trading_value
                 FROM stock_price sp
                 WHERE sp.symbol = e.symbol
                   AND sp.date >= $2::date - INTERVAL '1 year'
@@ -58,8 +58,8 @@ async function fetchData(client, country, criteria) {
               AND e.basis_date = (SELECT MAX(basis_date) FROM employees WHERE symbol = e.symbol)
               AND e.growth > 10
               AND d.value > 0
-              AND spa.adjust_close > 0
-              AND ((spb.adjust_close - spa.adjust_close) / spa.adjust_close * 100) < 0
+              AND spa.close > 0
+              AND ((spb.close - spa.close) / spa.close * 100) < 0
               AND count - change > 100
               AND UPPER(COALESCE(s.korean_name, s.english_name)) !~ '홀딩스|HOLDINGS'
             ORDER BY e.growth DESC LIMIT 100;
