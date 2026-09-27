@@ -257,24 +257,24 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
             <Header/>
             <main className="flex-1 mx-auto w-full max-w-4xl px-4 py-10 space-y-12">
                 <header className="border-b border-slate-200 dark:border-slate-800 pb-8">
-                    <div className="flex flex-wrap items-start justify-between gap-3">
-                        <div className="flex items-baseline gap-3 flex-wrap">
-                            <span className="px-2 py-0.5 rounded text-xs font-bold tracking-wider bg-blue-100 text-blue-600 dark:bg-blue-900/30">
-                                {stock.market}
+                    <div className="flex items-baseline gap-3 flex-wrap">
+                        <span className="px-2 py-0.5 rounded text-xs font-bold tracking-wider bg-blue-100 text-blue-600 dark:bg-blue-900/30">
+                            {stock.market}
+                        </span>
+                        <h1 className="text-4xl font-extrabold tracking-tight">{stock.stock_name}</h1>
+                        <span className="text-2xl text-slate-400 font-light">{stock.symbol}</span>
+                        {stock.nps_holding && (
+                            <span className="px-2 py-0.5 rounded text-xs font-bold tracking-wider bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400">
+                                <I18nText dict={stockLabels.npsHolding} lang={lang}/>
                             </span>
-                            <h1 className="text-4xl font-extrabold tracking-tight">{stock.stock_name}</h1>
-                            <span className="text-2xl text-slate-400 font-light">{stock.symbol}</span>
-                            {stock.nps_holding && (
-                                <span className="px-2 py-0.5 rounded text-xs font-bold tracking-wider bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400">
-                                    <I18nText dict={stockLabels.npsHolding} lang={lang}/>
-                                </span>
-                            )}
-                        </div>
-                        <LangSwitcher lang={lang} onChange={setLang}/>
+                        )}
                     </div>
                     {showLocalName && (
                         <p className="mt-2 text-lg text-slate-500 dark:text-slate-400">{stock.local_name}</p>
                     )}
+                    <div className="mt-2 flex justify-end">
+                        <LangSwitcher lang={lang} onChange={setLang}/>
+                    </div>
                 </header>
 
                 <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
