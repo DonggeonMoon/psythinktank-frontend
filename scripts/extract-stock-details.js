@@ -45,6 +45,8 @@ async function fetchStockDetails(client, country) {
                 s.symbol,
                 s.market,
                 COALESCE(s.korean_name, s.english_name) AS stock_name,
+                s.local_name,
+                s.country,
                 s.overview,
                 e.growth,
                 d.value AS dividend,
