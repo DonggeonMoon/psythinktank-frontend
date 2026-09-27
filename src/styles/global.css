@@ -2,6 +2,26 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+/* 다크 모드에서 slate 팔레트를 #101013 기반 뉴트럴 스케일로 재정의 (dark:*-slate-* 클래스 전체에 일괄 적용) */
+.dark {
+    color-scheme: dark;
+    --color-slate-50: #f7f7f9;
+    --color-slate-100: #ececf1;
+    --color-slate-200: #dcdce3;
+    --color-slate-300: #c2c2cc;
+    --color-slate-400: #9a9aa5;
+    --color-slate-500: #6b6b75;
+    --color-slate-600: #4a4a53;
+    --color-slate-700: #313138;
+    --color-slate-800: #232328;
+    --color-slate-900: #18181c;
+    --color-slate-950: #101013;
+}
+
+.dark body {
+    background-color: var(--color-slate-950);
+}
+
 /* 숫자 입력 필드 스핀 버튼(위아래 화살표) 숨김 */
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
