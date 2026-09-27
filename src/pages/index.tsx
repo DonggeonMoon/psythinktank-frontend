@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Ticker from "../components/Ticker";
 import {usePersistedState} from "../hooks/usePersistedState";
+import {useScrollRestore} from "../hooks/useScrollRestore";
 
 export const query = graphql`
   query {
@@ -88,7 +89,8 @@ const formatTradingValue = (value: string | number | null | undefined, unit: str
 type SortKey = 'growth' | 'dividend' | 'recent_price' | 'median_trading_value_1y' | 'price_growth';
 type SortDirection = 'asc' | 'desc';
 
-const IndexPage: React.FC<PageProps<DataProps>> = ({data}) => {
+const IndexPage: React.FC<PageProps<DataProps>> = ({data, location}) => {
+    useScrollRestore('index:scroll', location.key, location.pathname);
     const [selectedCountry, setSelectedCountry] = usePersistedState<'KR' | 'US' | 'JP'>('index:country', 'KR');
     const [showTradingValueTooltip, setShowTradingValueTooltip] = React.useState(false);
     const tradingValueTooltipRef = React.useRef<HTMLDivElement>(null);
