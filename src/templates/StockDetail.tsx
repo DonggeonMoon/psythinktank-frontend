@@ -21,6 +21,8 @@ export const query = graphql`
       symbol
       market
       stock_name
+      local_name
+      country
       growth
       dividend
       recent_price
@@ -51,6 +53,8 @@ interface StockDetailData {
     symbol: string;
     market: string;
     stock_name: string;
+    local_name: string | null;
+    country: string | null;
     growth: number | null;
     dividend: number | null;
     recent_price: number | null;
@@ -89,6 +93,7 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const stock = data.stockDetail;
     const shareholders = data.allShareholder.nodes;
     const investors = data.allInvestor.nodes;
+    const showLocalName = !!stock?.local_name && (stock.country === "JAPAN" || stock.country === "USA");
 
     const [lang, setLang] = useAutoLang();
     const [isDark, setIsDark] = useState(false);
@@ -267,6 +272,9 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                         </div>
                         <LangSwitcher lang={lang} onChange={setLang}/>
                     </div>
+                    {showLocalName && (
+                        <p className="mt-2 text-lg text-slate-500 dark:text-slate-400">{stock.local_name}</p>
+                    )}
                 </header>
 
                 <section className="grid grid-cols-1 md:grid-cols-3 gap-6">

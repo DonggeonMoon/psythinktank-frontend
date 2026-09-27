@@ -53,6 +53,7 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       symbol: String
       market: String
       stock_name: String
+      local_name: String
       country: String
       growth: Float
       dividend: Float
