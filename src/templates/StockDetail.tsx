@@ -6,10 +6,9 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Ticker from "../components/Ticker";
 import I18nText from "../components/I18nText";
-import LangSwitcher from "../components/LangSwitcher";
 import CommentSection from "../components/CommentSection";
 import {asOfDate, type Lang, rankLabel, stockLabels} from "../i18n/stockLabels";
-import {useAutoLang} from "../hooks/useAutoLang";
+import {useLang} from "../contexts/LangContext";
 
 Chart.register(...registerables);
 
@@ -95,7 +94,7 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const investors = data.allInvestor.nodes;
     const showLocalName = !!stock?.local_name && (stock.country === "JAPAN" || stock.country === "USA");
 
-    const [lang, setLang] = useAutoLang();
+    const {lang} = useLang();
     const [isDark, setIsDark] = useState(false);
     useEffect(() => {
         const updateIsDark = () => setIsDark(document.documentElement.classList.contains("dark"));
@@ -272,9 +271,6 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                     {showLocalName && (
                         <p className="mt-2 text-lg text-slate-500 dark:text-slate-400">{stock.local_name}</p>
                     )}
-                    <div className="mt-2 flex justify-end">
-                        <LangSwitcher lang={lang} onChange={setLang}/>
-                    </div>
                 </header>
 
                 <section className="grid grid-cols-1 md:grid-cols-3 gap-6">

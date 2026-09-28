@@ -2,7 +2,7 @@ export type Lang = "ko" | "en" | "ja" | "zh";
 
 export const LANGS: { code: Lang; label: string; flag: string }[] = [
     {code: "ko", label: "한국어", flag: "🇰🇷"},
-    {code: "en", label: "EN", flag: "🇺🇸"},
+    {code: "en", label: "English", flag: "🇺🇸"},
     {code: "ja", label: "日本語", flag: "🇯🇵"},
     {code: "zh", label: "中文", flag: "🇨🇳"},
 ];

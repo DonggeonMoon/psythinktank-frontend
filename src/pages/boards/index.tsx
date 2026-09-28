@@ -12,9 +12,8 @@ import {BoardCategory} from "../../lib/boardCategory";
 import type {Role} from "../../lib/roles";
 import RoleBadge from "../../components/RoleBadge";
 import I18nText from "../../components/I18nText";
-import LangSwitcher from "../../components/LangSwitcher";
 import {boardCategoryI18n, boardsPageLabels} from "../../i18n/pageLabels";
-import {useAutoLang} from "../../hooks/useAutoLang";
+import {useLang} from "../../contexts/LangContext";
 import {usePersistedState} from "../../hooks/usePersistedState";
 
 interface Post {
@@ -38,7 +37,7 @@ const formatDate = (timestamp: Timestamp | null) => {
 
 const BoardPage: React.FC<PageProps> = () => {
     const {user} = useAuth();
-    const [lang, setLang] = useAutoLang();
+    const {lang} = useLang();
     const [category, setCategory] = usePersistedState<BoardCategory>("boards:category", "domestic");
     const [searchTerm, setSearchTerm] = usePersistedState("boards:searchTerm", "");
     const [posts, setPosts] = useState<Post[]>([]);
@@ -98,7 +97,6 @@ const BoardPage: React.FC<PageProps> = () => {
                         <p className="text-sm text-slate-600 dark:text-slate-400"><I18nText dict={boardsPageLabels.subtitle} lang={lang}/></p>
                     </div>
                     <div className="flex flex-wrap items-center gap-3 self-end sm:self-auto">
-                        <LangSwitcher lang={lang} onChange={setLang}/>
                         <button
                             onClick={handleWriteClick}
                             className="rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 dark:bg-slate-100 dark:text-slate-900 transition-colors">
