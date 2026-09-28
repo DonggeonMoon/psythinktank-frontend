@@ -4,24 +4,28 @@ import DarkModeToggle from "./DarkModeToggle";
 import LangSwitcher from "./LangSwitcher";
 import {useAuth} from "../contexts/AuthContext";
 import {isStaffRole} from "../lib/roles";
+import I18nText from "./I18nText";
+import {useLang} from "../contexts/LangContext";
+import {headerLabels} from "../i18n/pageLabels";
 
 const NAV_LINKS = [
-    {to: "/stocks", label: "종목"},
-    {to: "/boards", label: "게시판"},
-    {to: "/newsletters", label: "회보"},
-    {to: "/performance", label: "성과"},
-    {to: "/about", label: "소개"},
+    {to: "/stocks", label: headerLabels.stocks},
+    {to: "/boards", label: headerLabels.boards},
+    {to: "/newsletters", label: headerLabels.newsletters},
+    {to: "/performance", label: headerLabels.performance},
+    {to: "/about", label: headerLabels.about},
 ];
 
 const Header = () => {
     const {user, profile, loading, logout} = useAuth();
+    const {lang} = useLang();
     const [menuOpen, setMenuOpen] = React.useState(false);
 
     const navItems = (className: string) => (
         <>
             {NAV_LINKS.map(({to, label}) => (
                 <Link key={to} to={to} className={className}>
-                    {label}
+                    <I18nText dict={label} lang={lang}/>
                 </Link>
             ))}
         </>
@@ -38,20 +42,20 @@ const Header = () => {
                         to="/admin/members"
                         className="rounded-md border border-slate-300 px-3 py-1 text-sm dark:border-slate-700 hover:text-slate-900 dark:hover:text-white transition-colors"
                     >
-                        회원 관리
+                        <I18nText dict={headerLabels.adminMembers} lang={lang}/>
                     </Link>
                 )}
                 <Link
                     to="/mypage"
                     className="rounded-md border border-slate-300 px-3 py-1 text-sm dark:border-slate-700 hover:text-slate-900 dark:hover:text-white transition-colors"
                 >
-                    마이페이지
+                    <I18nText dict={headerLabels.mypage} lang={lang}/>
                 </Link>
                 <button
                     onClick={() => logout()}
                     className="rounded-md border border-slate-300 px-3 py-1 text-sm dark:border-slate-700 hover:text-slate-900 dark:hover:text-white transition-colors"
                 >
-                    로그아웃
+                    <I18nText dict={headerLabels.logout} lang={lang}/>
                 </button>
             </div>
         ) : (
@@ -59,7 +63,7 @@ const Header = () => {
                 to="/login"
                 className="rounded-md border border-slate-300 px-3 py-1 text-sm dark:border-slate-700 hover:text-slate-900 dark:hover:text-white transition-colors"
             >
-                로그인
+                <I18nText dict={headerLabels.login} lang={lang}/>
             </Link>
         )
     );
@@ -81,7 +85,7 @@ const Header = () => {
                             <button
                                 type="button"
                                 onClick={() => setMenuOpen(true)}
-                                aria-label="사용자 메뉴 열기"
+                                aria-label={headerLabels.openMenu[lang]}
                                 className="rounded-full border border-slate-300 p-2 dark:border-slate-700"
                             >
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
@@ -110,12 +114,12 @@ const Header = () => {
                             className="flex w-64 max-w-[80%] flex-col gap-3 border-l border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
                             <div className="mb-2 flex items-center justify-between">
                                 <span className="text-base font-semibold text-slate-800 dark:text-slate-200">
-                                    메뉴
+                                    <I18nText dict={headerLabels.menu} lang={lang}/>
                                 </span>
                                 <button
                                     type="button"
                                     onClick={() => setMenuOpen(false)}
-                                    aria-label="메뉴 닫기"
+                                    aria-label={headerLabels.closeMenu[lang]}
                                     className="p-1 text-slate-600 dark:text-slate-400"
                                 >
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
@@ -138,7 +142,7 @@ const Header = () => {
                                                 onClick={() => setMenuOpen(false)}
                                                 className="rounded-md border border-slate-300 px-3 py-2 text-sm dark:border-slate-700"
                                             >
-                                                회원 관리
+                                                <I18nText dict={headerLabels.adminMembers} lang={lang}/>
                                             </Link>
                                         )}
                                         <Link
@@ -146,7 +150,7 @@ const Header = () => {
                                             onClick={() => setMenuOpen(false)}
                                             className="rounded-md border border-slate-300 px-3 py-2 text-sm dark:border-slate-700"
                                         >
-                                            마이페이지
+                                            <I18nText dict={headerLabels.mypage} lang={lang}/>
                                         </Link>
                                         <button
                                             onClick={() => {
@@ -155,7 +159,7 @@ const Header = () => {
                                             }}
                                             className="rounded-md border border-slate-300 px-3 py-2 text-left text-sm dark:border-slate-700"
                                         >
-                                            로그아웃
+                                            <I18nText dict={headerLabels.logout} lang={lang}/>
                                         </button>
                                     </>
                                 ) : (
@@ -164,7 +168,7 @@ const Header = () => {
                                         onClick={() => setMenuOpen(false)}
                                         className="rounded-md border border-slate-300 px-3 py-2 text-sm dark:border-slate-700"
                                     >
-                                        로그인
+                                        <I18nText dict={headerLabels.login} lang={lang}/>
                                     </Link>
                                 )
                             )}
