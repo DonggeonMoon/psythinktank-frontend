@@ -12,7 +12,7 @@ async function getCriteria(client, country) {
     const res = await client.query({
         text: `
             SELECT 
-                (SELECT date FROM stock_price WHERE symbol = $1 AND date <= CURRENT_DATE - INTERVAL '1 week' ORDER BY date DESC LIMIT 1) as date_recent,
+                (SELECT date FROM stock_price WHERE symbol = $1 AND date <= CURRENT_DATE ORDER BY date DESC LIMIT 1) as date_recent,
                 (SELECT date FROM stock_price WHERE symbol = $1 AND date <= CURRENT_DATE - INTERVAL '1 year' ORDER BY date DESC LIMIT 1) as date_past
         `,
         values: [benchmarkSymbol]
