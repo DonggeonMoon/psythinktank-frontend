@@ -1,6 +1,7 @@
 import * as React from "react";
 import {Link} from "gatsby";
 import DarkModeToggle from "./DarkModeToggle";
+import LangSwitcher from "./LangSwitcher";
 import {useAuth} from "../contexts/AuthContext";
 import {isStaffRole} from "../lib/roles";
 
@@ -90,6 +91,7 @@ const Header = () => {
                                     <path d="M5 20c0-3.5 3.13-6 7-6s7 2.5 7 6"/>
                                 </svg>
                             </button>
+                            <LangSwitcher/>
                             <DarkModeToggle/>
                         </div>
                     </div>
@@ -186,6 +188,7 @@ const Header = () => {
 
                     <div className="flex items-center gap-4">
                         {authArea}
+                        <LangSwitcher/>
                         <DarkModeToggle/>
                     </div>
                 </div>

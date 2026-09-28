@@ -20,9 +20,8 @@ import {useAuth} from "../../contexts/AuthContext";
 import {isStaffRole} from "../../lib/roles";
 import {Chart, registerables} from "chart.js";
 import I18nText from "../../components/I18nText";
-import LangSwitcher from "../../components/LangSwitcher";
 import {performancePageLabels} from "../../i18n/pageLabels";
-import {useAutoLang} from "../../hooks/useAutoLang";
+import {useLang} from "../../contexts/LangContext";
 
 Chart.register(...registerables);
 
@@ -44,7 +43,7 @@ const inputClass =
 const PerformancePage: React.FC<PageProps> = () => {
     const {profile} = useAuth();
     const canManage = isStaffRole(profile?.role);
-    const [lang, setLang] = useAutoLang();
+    const {lang} = useLang();
 
     const [isDark, setIsDark] = useState(false);
     useEffect(() => {
@@ -249,7 +248,6 @@ const PerformancePage: React.FC<PageProps> = () => {
                             <I18nText dict={performancePageLabels.subtitle} lang={lang}/>
                         </p>
                     </div>
-                    <LangSwitcher lang={lang} onChange={setLang}/>
                 </header>
 
                 <section className="grid grid-cols-1 gap-4 md:grid-cols-3">

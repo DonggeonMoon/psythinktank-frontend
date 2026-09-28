@@ -13,9 +13,8 @@ import {BoardCategory} from "../lib/boardCategory";
 import CommentSection from "../components/CommentSection";
 import RoleBadge from "../components/RoleBadge";
 import I18nText from "../components/I18nText";
-import LangSwitcher from "../components/LangSwitcher";
 import {boardCategoryI18n, boardDetailLabels, viewsLabel} from "../i18n/pageLabels";
-import {useAutoLang} from "../hooks/useAutoLang";
+import {useLang} from "../contexts/LangContext";
 
 interface Post {
     title: string;
@@ -43,7 +42,7 @@ const formatDate = (timestamp: Timestamp | null) => {
 const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageContext}) => {
     const {postId} = pageContext;
     const {user, profile} = useAuth();
-    const [lang, setLang] = useAutoLang();
+    const {lang} = useLang();
     const [post, setPost] = useState<Post | null>(null);
     const [loading, setLoading] = useState(true);
     const [notFound, setNotFound] = useState(false);
@@ -110,7 +109,6 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
                     <Link to="/boards" className="text-sm text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 flex items-center gap-1">
                         ← <I18nText dict={boardDetailLabels.backToList} lang={lang}/>
                     </Link>
-                    <LangSwitcher lang={lang} onChange={setLang}/>
                 </div>
 
                 <article className="space-y-6">

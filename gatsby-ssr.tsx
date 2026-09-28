@@ -1,9 +1,12 @@
 import React from "react"
 import type {GatsbySSR} from "gatsby"
 import { AuthProvider } from "./src/contexts/AuthContext"
+import { LangProvider } from "./src/contexts/LangContext"
 
 export const wrapRootElement: GatsbySSR["wrapRootElement"] = ({ element }) => (
-    <AuthProvider>{element}</AuthProvider>
+    <AuthProvider>
+        <LangProvider>{element}</LangProvider>
+    </AuthProvider>
 )
 
 // 정적 HTML은 항상 라이트로 렌더되므로, 첫 페인트 전에 저장된 테마를 적용해 다크모드가 잠깐 풀리는 깜빡임을 막는다.

@@ -4,9 +4,8 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Ticker from "../../components/Ticker";
 import I18nText from "../../components/I18nText";
-import LangSwitcher from "../../components/LangSwitcher";
 import {newslettersPageLabels} from "../../i18n/pageLabels";
-import {useAutoLang} from "../../hooks/useAutoLang";
+import {useLang} from "../../contexts/LangContext";
 
 export const query = graphql`
   query {
@@ -37,7 +36,7 @@ interface DataProps {
 
 const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const newsletters = data.allFile.nodes;
-    const [lang, setLang] = useAutoLang();
+    const {lang} = useLang();
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
@@ -54,7 +53,6 @@ const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             <I18nText dict={newslettersPageLabels.subtitle} lang={lang}/>
                         </p>
                     </div>
-                    <LangSwitcher lang={lang} onChange={setLang}/>
                 </header>
 
                 <section>

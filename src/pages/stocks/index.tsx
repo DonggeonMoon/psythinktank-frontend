@@ -6,9 +6,8 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Ticker from "../../components/Ticker";
 import I18nText from "../../components/I18nText";
-import LangSwitcher from "../../components/LangSwitcher";
 import {countSummary, stocksPageLabels} from "../../i18n/pageLabels";
-import {useAutoLang} from "../../hooks/useAutoLang";
+import {useLang} from "../../contexts/LangContext";
 import {usePersistedState} from "../../hooks/usePersistedState";
 
 export const query = graphql`
@@ -38,7 +37,7 @@ interface DataProps {
 const PAGE_SIZE = 30;
 
 const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
-    const [lang, setLang] = useAutoLang();
+    const {lang} = useLang();
     const [searchTerm, setSearchTerm] = usePersistedState("stocks:searchTerm", "");
     const [npsOnly, setNpsOnly] = usePersistedState("stocks:npsOnly", false);
     const [currentPage, setCurrentPage] = usePersistedState("stocks:page", 1);
@@ -102,7 +101,6 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                             <I18nText dict={stocksPageLabels.subtitle} lang={lang}/>
                         </p>
                     </div>
-                    <LangSwitcher lang={lang} onChange={setLang}/>
                 </header>
 
                 <section className="space-y-4">

@@ -6,12 +6,11 @@ import aboutImg from "../../images/about.jpg";
 import feature1 from "../../images/featured-1.png";
 import Ticker from "../../components/Ticker";
 import I18nText from "../../components/I18nText";
-import LangSwitcher from "../../components/LangSwitcher";
 import {aboutContent, aboutPageLabels} from "../../i18n/pageLabels";
-import {useAutoLang} from "../../hooks/useAutoLang";
+import {useLang} from "../../contexts/LangContext";
 
 const AboutPage: React.FC<PageProps> = () => {
-    const [lang, setLang] = useAutoLang();
+    const {lang} = useLang();
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
@@ -30,7 +29,6 @@ const AboutPage: React.FC<PageProps> = () => {
                                 <I18nText dict={aboutPageLabels.heroTagline} lang={lang}/>
                             </p>
                         </div>
-                        <LangSwitcher lang={lang} onChange={setLang}/>
                     </header>
 
                     <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
