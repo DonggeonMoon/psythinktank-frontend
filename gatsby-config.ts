@@ -59,11 +59,11 @@ const config: GatsbyConfig = {
                       // 실제 콘텐츠가 없는 자리표시자라 sitemap에서 제외한다.
                       ...allPages.filter((page) => !page.path.includes("[") && !detailPaths.has(page.path)),
                       ...allBoardPosts.map((post) => ({
-                          path: `/boards/${post.postId}`,
+                          path: `/boards/${post.postId}/`,
                           lastmod: post.updatedAt,
                       })),
                       ...allStocks.map((stock) => ({
-                          path: `/stocks/${stock.symbol}`,
+                          path: `/stocks/${stock.symbol}/`,
                           lastmod: buildTime,
                       })),
                   ]
