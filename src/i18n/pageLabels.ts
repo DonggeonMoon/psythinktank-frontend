@@ -317,3 +317,18 @@ export const performancePageLabels = {
     loading: {ko: "불러오는 중...", en: "Loading...", ja: "読み込み中...", zh: "加载中..."},
     empty: {ko: "등록된 성과 데이터가 없습니다.", en: "No performance data yet.", ja: "登録されたパフォーマンスデータがありません。", zh: "暂无业绩数据。"},
 } satisfies Record<string, Dict>;
+
+export const headerLabels = {
+    stocks: {ko: "종목", en: "Stocks", ja: "銘柄", zh: "股票"},
+    boards: {ko: "게시판", en: "Board", ja: "掲示板", zh: "论坛"},
+    newsletters: {ko: "회보", en: "Newsletters", ja: "会報", zh: "会刊"},
+    performance: {ko: "성과", en: "Performance", ja: "成果", zh: "业绩"},
+    about: {ko: "소개", en: "About", ja: "紹介", zh: "简介"},
+    adminMembers: {ko: "회원 관리", en: "Members", ja: "会員管理", zh: "会员管理"},
+    mypage: {ko: "마이페이지", en: "My Page", ja: "マイページ", zh: "我的页面"},
+    logout: {ko: "로그아웃", en: "Log out", ja: "ログアウト", zh: "退出登录"},
+    login: {ko: "로그인", en: "Log in", ja: "ログイン", zh: "登录"},
+    menu: {ko: "메뉴", en: "Menu", ja: "メニュー", zh: "菜单"},
+    openMenu: {ko: "사용자 메뉴 열기", en: "Open user menu", ja: "ユーザーメニューを開く", zh: "打开用户菜单"},
+    closeMenu: {ko: "메뉴 닫기", en: "Close menu", ja: "メニューを閉じる", zh: "关闭菜单"},
+} satisfies Record<string, Dict>;
