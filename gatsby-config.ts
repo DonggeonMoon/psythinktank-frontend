@@ -1,5 +1,7 @@
 import type { GatsbyConfig } from "gatsby";
 
+const buildTime = new Date().toISOString();
+
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `psythinktank`,
@@ -32,7 +34,6 @@ const config: GatsbyConfig = {
                   allStockDetail {
                     nodes {
                       symbol
-                      basis_date
                     }
                   }
                 }
@@ -44,7 +45,7 @@ const config: GatsbyConfig = {
               }: {
                   allSitePage: { nodes: { path: string }[] }
                   allBoardPost: { nodes: { postId: string; updatedAt: string | null }[] }
-                  allStockDetail: { nodes: { symbol: string; basis_date: string | null }[] }
+                  allStockDetail: { nodes: { symbol: string }[] }
               }) => {
                   // 게시글/종목 상세 경로는 allSitePage에도 잡히지만 lastmod 정보가 없으니,
                   // allBoardPost/allStockDetail 쪽 항목(lastmod 포함)으로 대체하기 위해 allPages에서는 제외한다.
@@ -63,7 +64,7 @@ const config: GatsbyConfig = {
                       })),
                       ...allStocks.map((stock) => ({
                           path: `/stocks/${stock.symbol}`,
-                          lastmod: stock.basis_date,
+                          lastmod: buildTime,
                       })),
                   ]
               },
