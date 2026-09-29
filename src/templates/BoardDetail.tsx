@@ -19,32 +19,41 @@ import {useLang} from "../contexts/LangContext";
 interface Post {
     title: string;
     contentHtml: string;
-    authorUid: string;
-    authorName: string;
+    authorUid: string | null;
+    authorName: string | null;
     authorRole: Role | null;
-    createdAt: Timestamp | null;
+    createdAt: string | null;
     views: number;
     notice: boolean;
-    category: BoardCategory;
+    category: BoardCategory | null;
+}
+
+interface FirestorePost extends Omit<Post, "createdAt"> {
+    createdAt: Timestamp | null;
 }
 
 interface BoardDetailContext {
     postId: string;
     title: string | null;
+    description?: string | null;
+    // 빌드 시점 스냅샷(contentHtml은 gatsby-node에서 이미 sanitize됨). 정적 HTML에 본문을 담기 위해 초기 상태로 쓴다.
+    post?: Post | null;
 }
 
-const formatDate = (timestamp: Timestamp | null) => {
-    if (!timestamp) return "-";
-    const d = timestamp.toDate();
-    return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
+// 빌드 서버(UTC)와 브라우저 타임존이 달라 hydration 시 날짜가 어긋나지 않도록 KST로 고정한다.
+const dateFormatter = new Intl.DateTimeFormat("en-CA", {timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit"});
+
+const formatDate = (iso: string | null) => {
+    if (!iso) return "-";
+    return dateFormatter.format(new Date(iso)).replace(/-/g, ".");
 };
 
 const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageContext}) => {
     const {postId} = pageContext;
     const {user, profile} = useAuth();
     const {lang} = useLang();
-    const [post, setPost] = useState<Post | null>(null);
-    const [loading, setLoading] = useState(true);
+    const [post, setPost] = useState<Post | null>(pageContext.post ?? null);
+    const [loading, setLoading] = useState(!pageContext.post);
     const [notFound, setNotFound] = useState(false);
 
     useEffect(() => {
@@ -59,7 +68,12 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
                 return;
             }
 
-            setPost(snapshot.data() as Post);
+            const data = snapshot.data() as FirestorePost;
+            setPost({
+                ...data,
+                contentHtml: DOMPurify.sanitize(data.contentHtml ?? ""),
+                createdAt: data.createdAt ? data.createdAt.toDate().toISOString() : null,
+            });
             setLoading(false);
 
             updateDoc(postRef, {views: increment(1)}).catch(() => {});
@@ -97,8 +111,6 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
             </div>
         );
     }
-
-    const sanitizedHtml = DOMPurify.sanitize(post.contentHtml);
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
@@ -156,7 +168,7 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
 
                     <div
                         className="toastui-editor-contents py-4 min-h-[300px] text-slate-900 dark:text-slate-100 dark:[&_*]:!text-slate-100"
-                        dangerouslySetInnerHTML={{__html: sanitizedHtml}}
+                        dangerouslySetInnerHTML={{__html: post.contentHtml}}
                     />
 
                     <div className="flex items-center justify-center gap-2 border-t border-slate-100 pt-10 dark:border-slate-800">
@@ -194,9 +206,15 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
 export default BoardDetailPage;
 
 export const Head: HeadFC<object, BoardDetailContext> = ({pageContext}) => {
+    const title = pageContext.title ?? "게시글 상세보기";
+    const description = pageContext.description;
     return (
         <>
-            <title>{pageContext.title ?? "게시글 상세보기"}</title>
+            <title>{title}</title>
+            <meta property="og:title" content={title}/>
+            <meta property="og:type" content="article"/>
+            {description && <meta name="description" content={description}/>}
+            {description && <meta property="og:description" content={description}/>}
             <link rel="stylesheet" href="/toastui-editor.css"/>
         </>
     );
