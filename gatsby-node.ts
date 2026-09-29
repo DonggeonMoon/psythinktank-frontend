@@ -2,6 +2,8 @@ import type { GatsbyNode } from "gatsby"
 import * as fs from "fs"
 import * as path from "path"
 import * as dotenv from "dotenv"
+import { JSDOM } from "jsdom"
+import createDOMPurify from "dompurify"
 import { initializeApp, getApps } from "firebase/app"
 import { initializeFirestore, getFirestore, collection, getDocs, type Timestamp } from "firebase/firestore"
 
@@ -78,14 +80,50 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       postId: String
       title: String
       updatedAt: String
+      createdAt: String
+      contentHtml: String
+      description: String
+      authorUid: String
+      authorName: String
+      authorRole: String
+      notice: Boolean
+      category: String
+      views: Float
     }
   `
     createTypes(typeDefs)
 }
 
-// 게시글은 Firestore에만 존재해서 로컬 json 스냅샷이 없으므로, sitemap에 실제 게시글 URL을
-// 포함시키기 위해 빌드 시점에 Firestore에서 게시글 id 목록만 직접 조회해 노드로 만든다.
-const fetchBoardPosts = async (): Promise<{ postId: string; title: string | null; updatedAt: string | null }[]> => {
+interface BoardPostData {
+    postId: string
+    title: string | null
+    updatedAt: string | null
+    createdAt: string | null
+    contentHtml: string
+    description: string
+    authorUid: string | null
+    authorName: string | null
+    authorRole: string | null
+    notice: boolean
+    category: string | null
+    views: number
+}
+
+// Node에는 DOM이 없어서 기본 DOMPurify 인스턴스는 sanitize를 하지 못하고 입력을 그대로 돌려준다.
+// 회원이 작성한 HTML이 정적 페이지에 그대로 박히면 저장형 XSS가 되므로 jsdom window로 인스턴스를 만든다.
+const jsdomWindow = new JSDOM("").window
+const purify = createDOMPurify(jsdomWindow as unknown as Parameters<typeof createDOMPurify>[0])
+
+const toExcerpt = (html: string, maxLength = 160) => {
+    const container = jsdomWindow.document.createElement("div")
+    container.innerHTML = html
+    const text = (container.textContent ?? "").replace(/\s+/g, " ").trim()
+    return text.length > maxLength ? `${text.slice(0, maxLength)}…` : text
+}
+
+// 게시글은 Firestore에만 존재해서 로컬 json 스냅샷이 없으므로, sitemap과 게시글 상세 정적 페이지를
+// 만들기 위해 빌드 시점에 Firestore에서 게시글을 직접 조회해 노드로 만든다.
+const fetchBoardPosts = async (): Promise<BoardPostData[]> => {
     const firebaseConfig = {
         apiKey: process.env.GATSBY_FIREBASE_API_KEY,
         authDomain: process.env.GATSBY_FIREBASE_AUTH_DOMAIN,
@@ -103,9 +141,34 @@ const fetchBoardPosts = async (): Promise<{ postId: string; title: string | null
     const snapshot = await getDocs(collection(db, "posts"))
 
     return snapshot.docs.map((doc) => {
-        const data = doc.data() as { title?: string; updatedAt?: Timestamp; createdAt?: Timestamp }
+        const data = doc.data() as {
+            title?: string
+            contentHtml?: string
+            authorUid?: string
+            authorName?: string
+            authorRole?: string
+            notice?: boolean
+            category?: string
+            views?: number
+            updatedAt?: Timestamp
+            createdAt?: Timestamp
+        }
         const timestamp = data.updatedAt ?? data.createdAt
-        return { postId: doc.id, title: data.title ?? null, updatedAt: timestamp ? timestamp.toDate().toISOString() : null }
+        const contentHtml = purify.sanitize(data.contentHtml ?? "")
+        return {
+            postId: doc.id,
+            title: data.title ?? null,
+            updatedAt: timestamp ? timestamp.toDate().toISOString() : null,
+            createdAt: data.createdAt ? data.createdAt.toDate().toISOString() : null,
+            contentHtml,
+            description: toExcerpt(contentHtml),
+            authorUid: data.authorUid ?? null,
+            authorName: data.authorName ?? null,
+            authorRole: data.authorRole ?? null,
+            notice: data.notice ?? false,
+            category: data.category ?? null,
+            views: data.views ?? 0,
+        }
     })
 }
 
@@ -240,13 +303,22 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
 
     // 게시글 상세 페이지는 예전엔 File System Route API의 [articleId] client-only route(matchPath)로
     // 처리해서 빌드 타임에 정적 파일이 생성되지 않았고, 그 결과 구글 크롤러가 접근하면 404가 났다.
-    // BoardPost 노드(postId 목록, sourceNodes에서 Firestore로부터 조회)를 기준으로 실제 페이지를 생성한다.
-    const boardResult = await graphql<{ allBoardPost: { nodes: { postId: string; title: string | null }[] } }>(`
+    // BoardPost 노드(sourceNodes에서 Firestore로부터 조회)를 기준으로 제목/본문이 담긴 실제 페이지를 생성한다.
+    const boardResult = await graphql<{ allBoardPost: { nodes: Omit<BoardPostData, "updatedAt">[] } }>(`
         query {
             allBoardPost {
                 nodes {
                     postId
                     title
+                    createdAt
+                    contentHtml
+                    description
+                    authorUid
+                    authorName
+                    authorRole
+                    notice
+                    category
+                    views
                 }
             }
         }
@@ -264,10 +336,11 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
     boardPostNodes.forEach((node, index) => {
         if (!node.postId) return
 
+        const { postId, title, description, ...post } = node
         createPage({
-            path: `/boards/${node.postId}`,
+            path: `/boards/${postId}`,
             component: boardDetailTemplate,
-            context: { postId: node.postId, title: node.title },
+            context: { postId, title, description, post: { ...post, title: title ?? "" } },
         })
 
         reporter.info(`Creating page ${index + 1}/${total}: /boards/${node.postId}/`)
