@@ -15,6 +15,16 @@ const themeInitScript = `try{if(localStorage.getItem("theme")==="dark")document.
 export const onRenderBody: GatsbySSR["onRenderBody"] = ({setHeadComponents}) => {
     setHeadComponents([
         <script key="theme-init" dangerouslySetInnerHTML={{__html: themeInitScript}}/>,
+        ...(process.env.NODE_ENV === "production" ? [
+            <script key="gtag-src" async src="https://www.googletagmanager.com/gtag/js?id=G-5G1PG29YJH"/>,
+            <script key="gtag-init" dangerouslySetInnerHTML={{__html: `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5G1PG29YJH');
+`}}/>,
+        ] : []),
         <meta key="google-site-verification" name="google-site-verification"
               content="FEZ-QQqTHTmdnS8FzNs-7TOeveE9vAmN9_fs3MgIzq4"/>,
         <meta key="naver-site-verification" name="naver-site-verification" content="188aec7f07541b21448d05fb0b92073950c81bdc" />
