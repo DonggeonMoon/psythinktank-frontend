@@ -6,6 +6,10 @@ import Footer from "../components/Footer";
 import Ticker from "../components/Ticker";
 import {usePersistedState} from "../hooks/usePersistedState";
 import {useScrollRestore} from "../hooks/useScrollRestore";
+import I18nText from "../components/I18nText";
+import {useLang} from "../contexts/LangContext";
+import {type Lang, stockLabels} from "../i18n/stockLabels";
+import {closingPriceOf, indexPageLabels as labels, sortAriaLabel} from "../i18n/pageLabels";
 
 export const query = graphql`
   query {
@@ -69,13 +73,20 @@ interface DataProps {
     japan: { nodes: StockNode[] };
 }
 
-const formatTradingValue = (value: string | number | null | undefined, unit: string) => {
+const LOCAL_SCALES: Record<Lang, [number, string][]> = {
+    ko: [[1e12, '조'], [1e8, '억'], [1e4, '만']],
+    en: [[1e12, 'T'], [1e9, 'B'], [1e6, 'M'], [1e3, 'K']],
+    ja: [[1e12, '兆'], [1e8, '億'], [1e4, '万']],
+    zh: [[1e12, '万亿'], [1e8, '亿'], [1e4, '万']],
+};
+
+const formatTradingValue = (value: string | number | null | undefined, unit: string, lang: Lang) => {
     const num = Number(value);
     if (!Number.isFinite(num) || num <= 0) return '-';
 
     const scales: [number, string][] = unit === '$'
         ? [[1e9, 'B'], [1e6, 'M'], [1e3, 'K']]
-        : [[1e12, '조'], [1e8, '억'], [1e4, '만']];
+        : LOCAL_SCALES[lang];
 
     for (const [scale, suffix] of scales) {
         if (num >= scale) {
@@ -91,6 +102,7 @@ type SortDirection = 'asc' | 'desc';
 
 const IndexPage: React.FC<PageProps<DataProps>> = ({data, location}) => {
     useScrollRestore('index:scroll', location.key, location.pathname);
+    const {lang} = useLang();
     const [selectedCountry, setSelectedCountry] = usePersistedState<'KR' | 'US' | 'JP'>('index:country', 'KR');
     const [showTradingValueTooltip, setShowTradingValueTooltip] = React.useState(false);
     const tradingValueTooltipRef = React.useRef<HTMLDivElement>(null);
@@ -122,9 +134,9 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data, location}) => {
             case 'JP':
                 return {nodes: data.japan.nodes, unit: '¥'};
             default:
-                return {nodes: data.korea.nodes, unit: '원'};
+                return {nodes: data.korea.nodes, unit: stockLabels.krw[lang]};
         }
-    }, [selectedCountry, data]);
+    }, [selectedCountry, data, lang]);
 
     const rankedNodes = React.useMemo(
         () => displayData.nodes.map((stock, index) => ({...stock, rank: index + 1})),
@@ -151,21 +163,21 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data, location}) => {
         }
     };
 
-    const SortLabel: React.FC<{ column: SortKey; label: string }> = ({column, label}) => (
+    const SortLabel: React.FC<{ column: SortKey; label: Record<Lang, string> }> = ({column, label}) => (
         <button
             type="button"
             onClick={() => toggleSort(column)}
             className="font-bold uppercase tracking-wider hover:text-slate-900 dark:hover:text-slate-200 transition-colors"
         >
-            {label}
+            <I18nText dict={label} lang={lang}/>
         </button>
     );
 
-    const SortButtons: React.FC<{ column: SortKey; label: string }> = ({column, label}) => (
+    const SortButtons: React.FC<{ column: SortKey; label: Record<Lang, string> }> = ({column, label}) => (
         <span className="inline-flex flex-col ml-1 leading-none">
             <button
                 type="button"
-                aria-label={`${label} 오름차순 정렬`}
+                aria-label={sortAriaLabel(label[lang], 'asc', lang)}
                 onClick={() => handleSort(column, 'asc')}
                 className={`text-[9px] leading-none ${
                     sortKey === column && sortDirection === 'asc'
@@ -177,7 +189,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data, location}) => {
             </button>
             <button
                 type="button"
-                aria-label={`${label} 내림차순 정렬`}
+                aria-label={sortAriaLabel(label[lang], 'desc', lang)}
                 onClick={() => handleSort(column, 'desc')}
                 className={`text-[9px] leading-none ${
                     sortKey === column && sortDirection === 'desc'
@@ -201,11 +213,11 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data, location}) => {
                         <div className="space-y-2">
                             <div className="flex items-center gap-3">
                                 <h2 className="text-3xl font-bold text-slate-700 dark:text-slate-300">
-                                    성장성 Top 100
+                                    <I18nText dict={labels.title} lang={lang}/>
                                 </h2>
                             </div>
                             <p className="text-sm text-slate-500 dark:text-slate-400">
-                                성장률 기준 상위 종목 목록입니다.
+                                <I18nText dict={labels.subtitle} lang={lang}/>
                             </p>
                         </div>
 
@@ -218,7 +230,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data, location}) => {
                                         : "border border-slate-300 text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
                                 }`}
                             >
-                                🇰🇷 국내
+                                🇰🇷 <I18nText dict={labels.countryKR} lang={lang}/>
                             </button>
                             <button
                                 onClick={() => setSelectedCountry('US')}
@@ -228,7 +240,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data, location}) => {
                                         : "border border-slate-300 text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
                                 }`}
                             >
-                                🇺🇸 미국
+                                🇺🇸 <I18nText dict={labels.countryUS} lang={lang}/>
                             </button>
                             <button
                                 onClick={() => setSelectedCountry('JP')}
@@ -238,7 +250,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data, location}) => {
                                         : "border border-slate-300 text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
                                 }`}
                             >
-                                🇯🇵 일본
+                                🇯🇵 <I18nText dict={labels.countryJP} lang={lang}/>
                             </button>
                         </div>
                     </div>
@@ -247,47 +259,47 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data, location}) => {
                         className="rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950 overflow-hidden shadow-sm">
                         <div
                             className="grid grid-cols-8 md:grid-cols-14 gap-4 border-b border-slate-200 bg-slate-50/50 px-6 py-4 text-xs font-bold text-slate-500 dark:border-slate-800 dark:bg-slate-900/50 dark:text-slate-400 uppercase tracking-wider">
-                            <div className="col-span-1 text-center">순위</div>
-                            <div className="col-span-3 text-center">기업명 / 티커</div>
+                            <div className="col-span-1 text-center"><I18nText dict={labels.colRank} lang={lang}/></div>
+                            <div className="col-span-3 text-center"><I18nText dict={labels.colNameTicker} lang={lang}/></div>
                             <div className="col-span-2 flex items-center justify-center">
-                                <SortLabel column="growth" label="성장률"/>
-                                <SortButtons column="growth" label="성장률"/>
+                                <SortLabel column="growth" label={labels.colGrowth}/>
+                                <SortButtons column="growth" label={labels.colGrowth}/>
                             </div>
                             <div className="hidden md:flex col-span-2 items-center justify-center">
-                                <SortLabel column="dividend" label="주당 배당금"/>
-                                <SortButtons column="dividend" label="주당 배당금"/>
+                                <SortLabel column="dividend" label={labels.colDividend}/>
+                                <SortButtons column="dividend" label={labels.colDividend}/>
                             </div>
                             <div className="hidden md:flex col-span-2 flex-col items-center justify-center leading-tight">
                                 <div className="flex items-center justify-center">
-                                    <SortLabel column="recent_price" label="현재가"/>
-                                    <SortButtons column="recent_price" label="현재가"/>
+                                    <SortLabel column="recent_price" label={labels.colPrice}/>
+                                    <SortButtons column="recent_price" label={labels.colPrice}/>
                                 </div>
                                 <span className="normal-case text-[10px] font-normal text-slate-400 dark:text-slate-500">
-                                    ({lastUpdateDate} 종가)
+                                    {closingPriceOf(lastUpdateDate, lang)}
                                 </span>
                             </div>
                             <div ref={tradingValueTooltipRef}
                                  className="hidden md:flex col-span-2 flex-wrap items-center justify-center gap-x-1 gap-y-0.5 text-center leading-tight relative">
-                                <SortLabel column="median_trading_value_1y" label="연간 거래대금 중앙값"/>
+                                <SortLabel column="median_trading_value_1y" label={labels.colTradingValue}/>
                                 <button
                                     type="button"
                                     onClick={() => setShowTradingValueTooltip((prev) => !prev)}
-                                    aria-label="연간 거래대금 중앙값 설명 보기"
+                                    aria-label={labels.showTradingValueInfo[lang]}
                                     className="rounded-full text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300 transition-colors"
                                 >
                                     ⓘ
                                 </button>
-                                <SortButtons column="median_trading_value_1y" label="연간 거래대금 중앙값"/>
+                                <SortButtons column="median_trading_value_1y" label={labels.colTradingValue}/>
                                 {showTradingValueTooltip && (
                                     <div
                                         className="absolute top-full mt-2 w-max max-w-[220px] rounded-md bg-slate-800 px-3 py-2 text-[11px] font-normal normal-case text-white shadow-lg z-10 dark:bg-slate-700">
-                                        연간 추정 거래대금의 중앙값
+                                        <I18nText dict={labels.tradingValueTooltip} lang={lang}/>
                                     </div>
                                 )}
                             </div>
                             <div className="col-span-2 flex items-center justify-center">
-                                <SortLabel column="price_growth" label="연간 가격 증감률"/>
-                                <SortButtons column="price_growth" label="연간 가격 증감률"/>
+                                <SortLabel column="price_growth" label={labels.colPriceGrowth}/>
+                                <SortButtons column="price_growth" label={labels.colPriceGrowth}/>
                             </div>
                         </div>
 
@@ -333,7 +345,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data, location}) => {
                                         </div>
                                         <div
                                             className="hidden md:block col-span-2 text-right font-mono font-medium text-slate-700 dark:text-slate-200">
-                                            {formatTradingValue(stock.median_trading_value_1y, displayData.unit)}
+                                            {formatTradingValue(stock.median_trading_value_1y, displayData.unit, lang)}
                                         </div>
                                         <div className="col-span-2 text-right font-semibold text-rose-500">
                                             {stock.price_growth}%
@@ -341,7 +353,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data, location}) => {
                                     </div>
                                 ))
                             ) : (
-                                <div className="py-32 text-center text-slate-400 italic">데이터가 없습니다.</div>
+                                <div className="py-32 text-center text-slate-400 italic"><I18nText dict={labels.noData} lang={lang}/></div>
                             )}
                         </div>
                     </div>

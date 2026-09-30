@@ -318,6 +318,66 @@ export const performancePageLabels = {
     empty: {ko: "등록된 성과 데이터가 없습니다.", en: "No performance data yet.", ja: "登録されたパフォーマンスデータがありません。", zh: "暂无业绩数据。"},
 } satisfies Record<string, Dict>;
 
+export const indexPageLabels = {
+    title: {ko: "성장성 Top 100", en: "Top 100 by Growth", ja: "成長性 Top 100", zh: "成长性 Top 100"},
+    subtitle: {
+        ko: "성장률 기준 상위 종목 목록입니다.",
+        en: "Top stocks ranked by growth rate.",
+        ja: "成長率上位の銘柄一覧です。",
+        zh: "按增长率排名的前列股票列表。",
+    },
+    countryKR: {ko: "국내", en: "Korea", ja: "韓国", zh: "韩国"},
+    countryUS: {ko: "미국", en: "USA", ja: "米国", zh: "美国"},
+    countryJP: {ko: "일본", en: "Japan", ja: "日本", zh: "日本"},
+    colRank: {ko: "순위", en: "Rank", ja: "順位", zh: "排名"},
+    colNameTicker: {ko: "기업명 / 티커", en: "Company / Ticker", ja: "企業名 / ティッカー", zh: "公司名称 / 代码"},
+    colGrowth: {ko: "성장률", en: "Growth Rate", ja: "成長率", zh: "增长率"},
+    colDividend: {ko: "주당 배당금", en: "Dividend per Share", ja: "1株配当", zh: "每股股息"},
+    colPrice: {ko: "현재가", en: "Price", ja: "現在値", zh: "现价"},
+    colTradingValue: {ko: "연간 거래대금 중앙값", en: "Median Annual Trading Value", ja: "年間売買代金の中央値", zh: "年度成交额中位数"},
+    tradingValueTooltip: {
+        ko: "연간 추정 거래대금의 중앙값",
+        en: "Median of estimated annual trading value",
+        ja: "年間推定売買代金の中央値",
+        zh: "年度估算成交额的中位数",
+    },
+    showTradingValueInfo: {
+        ko: "연간 거래대금 중앙값 설명 보기",
+        en: "Show description of median annual trading value",
+        ja: "年間売買代金の中央値の説明を見る",
+        zh: "查看年度成交额中位数说明",
+    },
+    colPriceGrowth: {ko: "연간 가격 증감률", en: "1Y Price Change", ja: "年間価格騰落率", zh: "年度价格涨跌幅"},
+    noData: {ko: "데이터가 없습니다.", en: "No data available.", ja: "データがありません。", zh: "没有数据。"},
+} satisfies Record<string, Dict>;
+
+export const closingPriceOf = (date: string, lang: Lang): string => {
+    switch (lang) {
+        case "en":
+            return `(close ${date})`;
+        case "ja":
+            return `(${date} 終値)`;
+        case "zh":
+            return `(${date} 收盘价)`;
+        default:
+            return `(${date} 종가)`;
+    }
+};
+
+export const sortAriaLabel = (label: string, direction: "asc" | "desc", lang: Lang): string => {
+    const asc = direction === "asc";
+    switch (lang) {
+        case "en":
+            return `Sort by ${label} ${asc ? "ascending" : "descending"}`;
+        case "ja":
+            return `${label}で${asc ? "昇順" : "降順"}に並べ替え`;
+        case "zh":
+            return `按${label}${asc ? "升序" : "降序"}排序`;
+        default:
+            return `${label} ${asc ? "오름차순" : "내림차순"} 정렬`;
+    }
+};
+
 export const headerLabels = {
     stocks: {ko: "종목", en: "Stocks", ja: "銘柄", zh: "股票"},
     boards: {ko: "게시판", en: "Board", ja: "掲示板", zh: "论坛"},
