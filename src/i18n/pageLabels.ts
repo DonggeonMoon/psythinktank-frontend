@@ -316,7 +316,21 @@ export const performancePageLabels = {
     avgReturn: {ko: "평균(0 제외)", en: "Average (excl. 0)", ja: "平均（0を除く）", zh: "平均值（不含0）"},
     loading: {ko: "불러오는 중...", en: "Loading...", ja: "読み込み中...", zh: "加载中..."},
     empty: {ko: "등록된 성과 데이터가 없습니다.", en: "No performance data yet.", ja: "登録されたパフォーマンスデータがありません。", zh: "暂无业绩数据。"},
+    holding: {ko: "보유중", en: "Holding", ja: "保有中", zh: "持有中"},
+    returnRate: {ko: "수익률(%)", en: "Returns (%)", ja: "収益率(%)", zh: "收益率(%)"},
 } satisfies Record<string, Dict>;
+
+export const yearLabel = (year: number, lang: Lang): string => {
+    switch (lang) {
+        case "en":
+            return `${year}`;
+        case "ja":
+        case "zh":
+            return `${year}年`;
+        default:
+            return `${year}년`;
+    }
+};
 
 export const indexPageLabels = {
     title: {ko: "성장성 Top 100", en: "Top 100 by Growth", ja: "成長性 Top 100", zh: "成长性 Top 100"},
