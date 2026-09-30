@@ -20,7 +20,7 @@ import {useAuth} from "../../contexts/AuthContext";
 import {isStaffRole} from "../../lib/roles";
 import {Chart, registerables} from "chart.js";
 import I18nText from "../../components/I18nText";
-import {performancePageLabels} from "../../i18n/pageLabels";
+import {performancePageLabels, yearLabel} from "../../i18n/pageLabels";
 import {useLang} from "../../contexts/LangContext";
 
 Chart.register(...registerables);
@@ -99,11 +99,11 @@ const PerformancePage: React.FC<PageProps> = () => {
             .map(([year, list]) => ({
                 year,
                 dataPoints: list.map((e) => ({
-                    label: e.returnRate === 0 ? `${e.stockName}[보유중]` : e.stockName,
+                    label: e.returnRate === 0 ? `${e.stockName}[${performancePageLabels.holding[lang]}]` : e.stockName,
                     y: e.returnRate,
                 })),
             }));
-    }, [entries]);
+    }, [entries, lang]);
 
     const chartInstances = React.useRef<Map<string, Chart>>(new Map());
 
@@ -126,7 +126,7 @@ const PerformancePage: React.FC<PageProps> = () => {
                     labels: d.dataPoints.map((p) => p.label),
                     datasets: [
                         {
-                            label: `${d.year} 년 수익률(%)`,
+                            label: `${yearLabel(d.year, lang)} ${performancePageLabels.returnRate[lang]}`,
                             data: d.dataPoints.map((p) => p.y),
                             backgroundColor: d.dataPoints.map((_, i) => barColor(i)),
                         },
@@ -139,7 +139,7 @@ const PerformancePage: React.FC<PageProps> = () => {
                         legend: {display: false},
                         title: {
                             display: true,
-                            text: `${d.year} 년 PSY THINKTANK 수익률(%)`,
+                            text: `${yearLabel(d.year, lang)} PSY THINKTANK ${performancePageLabels.returnRate[lang]}`,
                             color: textColor,
                             font: {size: 18},
                         },
@@ -166,7 +166,7 @@ const PerformancePage: React.FC<PageProps> = () => {
             chartInstances.current.forEach((chart) => chart.destroy())
             chartInstances.current.clear()
         }
-    }, [yearGroups, isDark])
+    }, [yearGroups, isDark, lang])
 
     const summary = useMemo(() => {
         const realized = entries.map((e) => e.returnRate).filter((v) => v !== 0)
@@ -385,7 +385,7 @@ const PerformancePage: React.FC<PageProps> = () => {
                                 <div className="relative border-b border-slate-200 dark:border-slate-800">
                                     <div className="px-6 py-4">
                                         <div className="text-sm font-semibold text-slate-900 dark:text-slate-100">
-                                            {d.year}년
+                                            {yearLabel(d.year, lang)}
                                         </div>
                                     </div>
                                 </div>
