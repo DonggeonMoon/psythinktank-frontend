@@ -201,7 +201,7 @@ const AdminMembersPage: React.FC<PageProps> = () => {
                                     <div className="flex items-center justify-between gap-2 md:contents">
                                         <div className="truncate font-medium md:col-start-1 md:col-span-3 md:font-normal">{m.nickname}</div>
                                         <div className="w-14 text-center md:w-auto md:col-start-11 md:col-span-2 md:text-center">
-                                            {!canManageRoles || m.uid === user?.uid || m.role === "admin" ? (
+                                            {!canManageRoles || m.uid === user?.uid || m.role === "admin" || m.role === "bot" ? (
                                                 <span className="text-xs text-slate-300 dark:text-slate-600">-</span>
                                             ) : m.role === "member" ? (
                                                 <button
