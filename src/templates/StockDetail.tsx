@@ -402,6 +402,14 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
 export default StockDetailPage;
 
-export const Head: HeadFC<DataProps> = ({data}) => (
-    <title>{data.stockDetail ? `${data.stockDetail.stock_name} (${data.stockDetail.symbol})` : "종목 상세"}</title>
-);
+export const Head: HeadFC<DataProps> = ({data}) => {
+    const title = data.stockDetail
+        ? `${data.stockDetail.stock_name}(${data.stockDetail.symbol}) 기업 개요·배당·주주 지분 현황`
+        : "종목 상세";
+    return (
+        <>
+            <title>{title}</title>
+            <meta property="og:title" content={title}/>
+        </>
+    );
+};
