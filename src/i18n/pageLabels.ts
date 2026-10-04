@@ -27,6 +27,9 @@ export const stocksPageLabels = {
         zh: "国民年金持股",
     },
     noData: {ko: "데이터가 없습니다.", en: "No data available.", ja: "データがありません。", zh: "没有数据。"},
+} satisfies Record<string, Dict>;
+
+export const paginationLabels = {
     prev: {ko: "이전", en: "Prev", ja: "前へ", zh: "上一页"},
     next: {ko: "다음", en: "Next", ja: "次へ", zh: "下一页"},
 } satisfies Record<string, Dict>;

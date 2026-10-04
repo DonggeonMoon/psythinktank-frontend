@@ -6,7 +6,8 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Ticker from "../../components/Ticker";
 import I18nText from "../../components/I18nText";
-import {countSummary, stocksPageLabels} from "../../i18n/pageLabels";
+import {stocksPageLabels} from "../../i18n/pageLabels";
+import Pagination from "../../components/Pagination";
 import {useLang} from "../../contexts/LangContext";
 import {usePersistedState} from "../../hooks/usePersistedState";
 
@@ -72,14 +73,6 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
         const start = (safePage - 1) * PAGE_SIZE;
         return filteredStocks.slice(start, start + PAGE_SIZE);
     }, [filteredStocks, safePage]);
-
-    const pageNumbers = useMemo(() => {
-        const windowSize = 5;
-        const start = Math.max(1, safePage - Math.floor(windowSize / 2));
-        const end = Math.min(totalPages, start + windowSize - 1);
-        const adjustedStart = Math.max(1, end - windowSize + 1);
-        return Array.from({length: end - adjustedStart + 1}, (_, i) => adjustedStart + i);
-    }, [safePage, totalPages]);
 
     const handleSearchChange = (value: string) => {
         setSearchTerm(value);
@@ -202,64 +195,13 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                         </table>
                     </div>
 
-                    {filteredStocks.length > 0 && (
-                        <div className="flex items-center justify-between">
-                            <p className="text-xs text-slate-500 dark:text-slate-400">
-                                <I18nText
-                                    dict={{
-                                        ko: countSummary(filteredStocks.length.toLocaleString(), String((safePage - 1) * PAGE_SIZE + 1), String(Math.min(safePage * PAGE_SIZE, filteredStocks.length)), "ko"),
-                                        en: countSummary(filteredStocks.length.toLocaleString(), String((safePage - 1) * PAGE_SIZE + 1), String(Math.min(safePage * PAGE_SIZE, filteredStocks.length)), "en"),
-                                        ja: countSummary(filteredStocks.length.toLocaleString(), String((safePage - 1) * PAGE_SIZE + 1), String(Math.min(safePage * PAGE_SIZE, filteredStocks.length)), "ja"),
-                                        zh: countSummary(filteredStocks.length.toLocaleString(), String((safePage - 1) * PAGE_SIZE + 1), String(Math.min(safePage * PAGE_SIZE, filteredStocks.length)), "zh"),
-                                    }}
-                                    lang={lang}
-                                />
-                            </p>
-
-                            <nav className="flex items-center gap-1">
-                                <button
-                                    type="button"
-                                    onClick={() => setCurrentPage(Math.max(1, safePage - 1))}
-                                    disabled={safePage === 1}
-                                    className="px-3 py-1.5 text-sm rounded-md border border-slate-300 text-slate-600 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
-                                >
-                                    <I18nText dict={stocksPageLabels.prev} lang={lang}/>
-                                </button>
-
-                                {pageNumbers[0] > 1 && (
-                                    <span className="px-2 text-sm text-slate-400">…</span>
-                                )}
-
-                                {pageNumbers.map((page) => (
-                                    <button
-                                        type="button"
-                                        key={page}
-                                        onClick={() => setCurrentPage(page)}
-                                        className={`px-3 py-1.5 text-sm rounded-md font-medium transition-colors ${
-                                            page === safePage
-                                                ? "bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900"
-                                                : "border border-slate-300 text-slate-600 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
-                                        }`}
-                                    >
-                                        {page}
-                                    </button>
-                                ))}
-
-                                {pageNumbers[pageNumbers.length - 1] < totalPages && (
-                                    <span className="px-2 text-sm text-slate-400">…</span>
-                                )}
-
-                                <button
-                                    type="button"
-                                    onClick={() => setCurrentPage(Math.min(totalPages, safePage + 1))}
-                                    disabled={safePage === totalPages}
-                                    className="px-3 py-1.5 text-sm rounded-md border border-slate-300 text-slate-600 disabled:opacity-40 disabled:cursor-not-allowed hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
-                                >
-                                    <I18nText dict={stocksPageLabels.next} lang={lang}/>
-                                </button>
-                            </nav>
-                        </div>
-                    )}
+                    <Pagination
+                        total={filteredStocks.length}
+                        page={safePage}
+                        pageSize={PAGE_SIZE}
+                        onChange={setCurrentPage}
+                        lang={lang}
+                    />
                 </section>
             </main>
 

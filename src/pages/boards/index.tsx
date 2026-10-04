@@ -2,7 +2,7 @@ import * as React from "react";
 import {useEffect, useState} from "react";
 import type {HeadFC, PageProps} from "gatsby";
 import {Link, navigate} from "gatsby";
-import {collection, getDocs, limit, orderBy, query, Timestamp} from "firebase/firestore";
+import {collection, getDocs, orderBy, query, Timestamp} from "firebase/firestore";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Ticker from "../../components/Ticker";
@@ -11,6 +11,7 @@ import {useAuth} from "../../contexts/AuthContext";
 import {BoardCategory} from "../../lib/boardCategory";
 import type {Role} from "../../lib/roles";
 import RoleBadge from "../../components/RoleBadge";
+import Pagination from "../../components/Pagination";
 import I18nText from "../../components/I18nText";
 import {boardCategoryI18n, boardsPageLabels} from "../../i18n/pageLabels";
 import {useLang} from "../../contexts/LangContext";
@@ -29,6 +30,8 @@ interface Post {
 
 const CATEGORIES: BoardCategory[] = ["domestic", "overseas"];
 
+const PAGE_SIZE = 20;
+
 const formatDate = (timestamp: Timestamp | null) => {
     if (!timestamp) return "-";
     const d = timestamp.toDate();
@@ -40,6 +43,7 @@ const BoardPage: React.FC<PageProps> = () => {
     const {lang} = useLang();
     const [category, setCategory] = usePersistedState<BoardCategory>("boards:category", "domestic");
     const [searchTerm, setSearchTerm] = usePersistedState("boards:searchTerm", "");
+    const [currentPage, setCurrentPage] = usePersistedState("boards:page", 1);
     const [posts, setPosts] = useState<Post[]>([]);
     const [loading, setLoading] = useState(true);
 
@@ -48,7 +52,7 @@ const BoardPage: React.FC<PageProps> = () => {
 
         (async () => {
             const snapshot = await getDocs(
-                query(collection(db, "posts"), orderBy("createdAt", "desc"), limit(50))
+                query(collection(db, "posts"), orderBy("createdAt", "desc"))
             );
             setPosts(
                 snapshot.docs.map((d) => {
@@ -84,7 +88,23 @@ const BoardPage: React.FC<PageProps> = () => {
                 post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
                 post.authorName.toLowerCase().includes(searchTerm.toLowerCase()))
     );
-    const sortedPosts = [...filteredPosts].sort((a, b) => (a.notice === b.notice ? 0 : a.notice ? -1 : 1));
+    const noticePosts = filteredPosts.filter((post) => post.notice);
+    const regularPosts = filteredPosts.filter((post) => !post.notice);
+
+    const totalPages = Math.max(1, Math.ceil(regularPosts.length / PAGE_SIZE));
+    const safePage = Math.min(currentPage, totalPages);
+    const pageOffset = (safePage - 1) * PAGE_SIZE;
+    const pagedPosts = [...noticePosts, ...regularPosts.slice(pageOffset, pageOffset + PAGE_SIZE)];
+
+    const handleCategoryChange = (next: BoardCategory) => {
+        setCategory(next);
+        setCurrentPage(1);
+    };
+
+    const handleSearchChange = (value: string) => {
+        setSearchTerm(value);
+        setCurrentPage(1);
+    };
 
     return (
         <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
@@ -109,7 +129,7 @@ const BoardPage: React.FC<PageProps> = () => {
                     {CATEGORIES.map((c) => (
                         <button
                             key={c}
-                            onClick={() => setCategory(c)}
+                            onClick={() => handleCategoryChange(c)}
                             className={`px-4 py-2 text-sm font-medium border-b-2 -mb-px transition-colors ${
                                 category === c
                                     ? "border-slate-900 text-slate-900 dark:border-slate-100 dark:text-slate-100"
@@ -135,7 +155,8 @@ const BoardPage: React.FC<PageProps> = () => {
                                 type="text"
                                 placeholder={boardsPageLabels.searchPlaceholder[lang]}
                                 className="w-full rounded-md border border-slate-300 bg-white py-2 pl-10 pr-4 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:placeholder:text-slate-500 dark:focus:ring-slate-700"
-                                onChange={(e) => setSearchTerm(e.target.value)}
+                                value={searchTerm}
+                                onChange={(e) => handleSearchChange(e.target.value)}
                             />
                         </div>
                     </div>
@@ -154,8 +175,8 @@ const BoardPage: React.FC<PageProps> = () => {
                                 <div className="flex flex-col items-center justify-center py-24 text-slate-400">
                                     <p className="text-sm font-medium"><I18nText dict={boardsPageLabels.loading} lang={lang}/></p>
                                 </div>
-                            ) : sortedPosts.length > 0 ? (
-                                sortedPosts.map((post, idx) => (
+                            ) : pagedPosts.length > 0 ? (
+                                pagedPosts.map((post, idx) => (
                                     <Link
                                         to={`/boards/${post.id}`}
                                         key={post.id}
@@ -166,7 +187,7 @@ const BoardPage: React.FC<PageProps> = () => {
                                         }`}
                                     >
                                         <div className="hidden md:block col-span-1 text-center font-mono text-xs text-slate-400 dark:text-slate-500">
-                                            {post.notice ? "-" : sortedPosts.length - idx}
+                                            {post.notice ? "-" : regularPosts.length - pageOffset - (idx - noticePosts.length)}
                                         </div>
 
                                         <div className="col-span-4 md:col-span-5 flex items-center gap-2 overflow-hidden">
@@ -205,6 +226,16 @@ const BoardPage: React.FC<PageProps> = () => {
                             )}
                         </div>
                     </div>
+
+                    {!loading && (
+                        <Pagination
+                            total={regularPosts.length}
+                            page={safePage}
+                            pageSize={PAGE_SIZE}
+                            onChange={setCurrentPage}
+                            lang={lang}
+                        />
+                    )}
                 </section>
             </main>
 
