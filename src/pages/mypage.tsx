@@ -5,9 +5,14 @@ import {navigate} from "gatsby";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import {useAuth} from "../contexts/AuthContext";
-import {isValidPassword, PASSWORD_REQUIREMENT_MESSAGE} from "../lib/validation";
+import {useLang} from "../contexts/LangContext";
+import I18nText from "../components/I18nText";
+import {isValidPassword} from "../lib/validation";
+import type {Lang} from "../i18n/stockLabels";
+import {commonAuthLabels, myPageLabels} from "../i18n/authLabels";
 
 type NicknameStatus = "idle" | "checking" | "available" | "unavailable";
+type Message = Record<Lang, string>;
 
 const inputClass =
     "w-full rounded-md border border-slate-300 bg-white px-4 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:focus:ring-slate-700";
@@ -16,9 +21,10 @@ const sectionClass = "space-y-4 rounded-xl border border-slate-200 bg-white p-6 
 
 const MyPage: React.FC<PageProps> = () => {
     const {user, profile, loading, updateNickname, checkNicknameAvailable, changePassword, deleteAccount} = useAuth();
+    const {lang} = useLang();
 
     const [nickname, setNickname] = useState("");
-    const [nicknameMessage, setNicknameMessage] = useState<string | null>(null);
+    const [nicknameMessage, setNicknameMessage] = useState<Message | null>(null);
     const [nicknameSubmitting, setNicknameSubmitting] = useState(false);
     const [nicknameStatus, setNicknameStatus] = useState<NicknameStatus>("idle");
     const [checkedNickname, setCheckedNickname] = useState<string | null>(null);
@@ -26,12 +32,12 @@ const MyPage: React.FC<PageProps> = () => {
     const [currentPassword, setCurrentPassword] = useState("");
     const [newPassword, setNewPassword] = useState("");
     const [newPasswordConfirm, setNewPasswordConfirm] = useState("");
-    const [passwordMessage, setPasswordMessage] = useState<string | null>(null);
+    const [passwordMessage, setPasswordMessage] = useState<Message | null>(null);
     const [passwordSubmitting, setPasswordSubmitting] = useState(false);
 
     const [showWithdraw, setShowWithdraw] = useState(false);
     const [withdrawPassword, setWithdrawPassword] = useState("");
-    const [withdrawMessage, setWithdrawMessage] = useState<string | null>(null);
+    const [withdrawMessage, setWithdrawMessage] = useState<Message | null>(null);
     const [withdrawSubmitting, setWithdrawSubmitting] = useState(false);
 
     useEffect(() => {
@@ -79,20 +85,20 @@ const MyPage: React.FC<PageProps> = () => {
 
         const trimmedNickname = nickname.trim();
         if (trimmedNickname !== profile?.nickname && (nicknameStatus !== "available" || checkedNickname !== trimmedNickname)) {
-            setNicknameMessage("닉네임 중복 확인을 완료해주세요.");
+            setNicknameMessage(commonAuthLabels.nicknameCheckRequired);
             return;
         }
 
         setNicknameSubmitting(true);
         try {
             await updateNickname(trimmedNickname);
-            setNicknameMessage("닉네임이 변경되었습니다.");
+            setNicknameMessage(myPageLabels.nicknameChanged);
             setNicknameStatus("idle");
             setCheckedNickname(null);
         } catch (err) {
             const code = (err as { code?: string })?.code;
             setNicknameMessage(
-                code === "nickname/already-in-use" ? "이미 사용 중인 닉네임입니다. 다시 확인해주세요." : "닉네임 변경에 실패했습니다."
+                code === "nickname/already-in-use" ? myPageLabels.nicknameTakenRetry : myPageLabels.nicknameChangeFailed
             );
         } finally {
             setNicknameSubmitting(false);
@@ -104,23 +110,23 @@ const MyPage: React.FC<PageProps> = () => {
         setPasswordMessage(null);
 
         if (newPassword !== newPasswordConfirm) {
-            setPasswordMessage("새 비밀번호가 일치하지 않습니다.");
+            setPasswordMessage(myPageLabels.newPasswordMismatch);
             return;
         }
         if (!isValidPassword(newPassword)) {
-            setPasswordMessage(PASSWORD_REQUIREMENT_MESSAGE);
+            setPasswordMessage(commonAuthLabels.passwordRequirement);
             return;
         }
 
         setPasswordSubmitting(true);
         try {
             await changePassword(currentPassword, newPassword);
-            setPasswordMessage("비밀번호가 변경되었습니다.");
+            setPasswordMessage(myPageLabels.passwordChanged);
             setCurrentPassword("");
             setNewPassword("");
             setNewPasswordConfirm("");
         } catch {
-            setPasswordMessage("현재 비밀번호가 올바르지 않습니다.");
+            setPasswordMessage(myPageLabels.currentPasswordWrong);
         } finally {
             setPasswordSubmitting(false);
         }
@@ -134,7 +140,7 @@ const MyPage: React.FC<PageProps> = () => {
             await deleteAccount(withdrawPassword);
             await navigate("/");
         } catch {
-            setWithdrawMessage("비밀번호가 올바르지 않습니다.");
+            setWithdrawMessage(myPageLabels.passwordWrong);
             setWithdrawSubmitting(false);
         }
     };
@@ -144,17 +150,17 @@ const MyPage: React.FC<PageProps> = () => {
             <Header/>
 
             <main className="flex-1 mx-auto w-full max-w-lg px-4 py-10 space-y-6">
-                <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">내 정보</h1>
+                <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100"><I18nText dict={myPageLabels.title} lang={lang}/></h1>
 
                 <section className={sectionClass}>
-                    <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400">계정</h2>
+                    <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400"><I18nText dict={myPageLabels.account} lang={lang}/></h2>
                     <p className="text-sm text-slate-700 dark:text-slate-300">{user.email}</p>
                 </section>
 
                 <form onSubmit={handleNicknameSubmit} className={sectionClass}>
-                    <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400">닉네임 변경</h2>
+                    <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400"><I18nText dict={myPageLabels.changeNickname} lang={lang}/></h2>
                     <div>
-                        <label htmlFor="nickname" className={labelClass}>닉네임</label>
+                        <label htmlFor="nickname" className={labelClass}><I18nText dict={commonAuthLabels.nickname} lang={lang}/></label>
                         <div className="flex gap-2">
                             <input
                                 id="nickname"
@@ -171,32 +177,32 @@ const MyPage: React.FC<PageProps> = () => {
                                 disabled={!nickname.trim() || nicknameStatus === "checking"}
                                 className="shrink-0 rounded-md border border-slate-300 px-3 text-sm font-medium text-slate-700 hover:bg-slate-100 disabled:opacity-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
                             >
-                                중복확인
+                                <I18nText dict={commonAuthLabels.checkDuplicate} lang={lang}/>
                             </button>
                         </div>
                         {nicknameStatus === "available" && (
-                            <p className="mt-1 text-sm text-emerald-600 dark:text-emerald-400">사용 가능한 닉네임입니다.</p>
+                            <p className="mt-1 text-sm text-emerald-600 dark:text-emerald-400"><I18nText dict={commonAuthLabels.nicknameAvailable} lang={lang}/></p>
                         )}
                         {nicknameStatus === "unavailable" && (
-                            <p className="mt-1 text-sm text-red-600 dark:text-red-400">이미 사용 중인 닉네임입니다.</p>
+                            <p className="mt-1 text-sm text-red-600 dark:text-red-400"><I18nText dict={commonAuthLabels.nicknameTaken} lang={lang}/></p>
                         )}
                     </div>
                     {nicknameMessage && (
-                        <p className="text-sm text-slate-600 dark:text-slate-400">{nicknameMessage}</p>
+                        <p className="text-sm text-slate-600 dark:text-slate-400">{nicknameMessage[lang]}</p>
                     )}
                     <button
                         type="submit"
                         disabled={nicknameSubmitting}
                         className="rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 disabled:opacity-50 dark:bg-slate-100 dark:text-slate-900 transition-colors"
                     >
-                        {nicknameSubmitting ? "저장 중..." : "닉네임 저장"}
+                        {nicknameSubmitting ? myPageLabels.saving[lang] : myPageLabels.saveNickname[lang]}
                     </button>
                 </form>
 
                 <form onSubmit={handlePasswordSubmit} className={sectionClass}>
-                    <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400">비밀번호 변경</h2>
+                    <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400"><I18nText dict={myPageLabels.changePassword} lang={lang}/></h2>
                     <div>
-                        <label htmlFor="currentPassword" className={labelClass}>현재 비밀번호</label>
+                        <label htmlFor="currentPassword" className={labelClass}><I18nText dict={myPageLabels.currentPassword} lang={lang}/></label>
                         <input
                             id="currentPassword"
                             type="password"
@@ -208,7 +214,7 @@ const MyPage: React.FC<PageProps> = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="newPassword" className={labelClass}>새 비밀번호</label>
+                        <label htmlFor="newPassword" className={labelClass}><I18nText dict={myPageLabels.newPassword} lang={lang}/></label>
                         <input
                             id="newPassword"
                             type="password"
@@ -218,10 +224,10 @@ const MyPage: React.FC<PageProps> = () => {
                             onChange={(e) => setNewPassword(e.target.value)}
                             className={inputClass}
                         />
-                        <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">{PASSWORD_REQUIREMENT_MESSAGE}</p>
+                        <p className="mt-1 text-xs text-slate-500 dark:text-slate-400"><I18nText dict={commonAuthLabels.passwordRequirement} lang={lang}/></p>
                     </div>
                     <div>
-                        <label htmlFor="newPasswordConfirm" className={labelClass}>새 비밀번호 확인</label>
+                        <label htmlFor="newPasswordConfirm" className={labelClass}><I18nText dict={myPageLabels.newPasswordConfirm} lang={lang}/></label>
                         <input
                             id="newPasswordConfirm"
                             type="password"
@@ -233,19 +239,19 @@ const MyPage: React.FC<PageProps> = () => {
                         />
                     </div>
                     {passwordMessage && (
-                        <p className="text-sm text-slate-600 dark:text-slate-400">{passwordMessage}</p>
+                        <p className="text-sm text-slate-600 dark:text-slate-400">{passwordMessage[lang]}</p>
                     )}
                     <button
                         type="submit"
                         disabled={passwordSubmitting}
                         className="rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 disabled:opacity-50 dark:bg-slate-100 dark:text-slate-900 transition-colors"
                     >
-                        {passwordSubmitting ? "변경 중..." : "비밀번호 변경"}
+                        {passwordSubmitting ? myPageLabels.changing[lang] : myPageLabels.changePassword[lang]}
                     </button>
                 </form>
 
                 <section className="space-y-4 rounded-xl border border-red-200 bg-red-50/30 p-6 dark:border-red-900/40 dark:bg-red-900/10">
-                    <h2 className="text-sm font-semibold text-red-600 dark:text-red-400">회원 탈퇴</h2>
+                    <h2 className="text-sm font-semibold text-red-600 dark:text-red-400"><I18nText dict={myPageLabels.withdraw} lang={lang}/></h2>
 
                     {!showWithdraw ? (
                         <button
@@ -253,15 +259,15 @@ const MyPage: React.FC<PageProps> = () => {
                             onClick={() => setShowWithdraw(true)}
                             className="rounded-md border border-red-300 px-4 py-2 text-sm font-medium text-red-600 hover:bg-red-100 dark:border-red-900/60 dark:text-red-400 dark:hover:bg-red-900/20 transition-colors"
                         >
-                            회원 탈퇴
+                            <I18nText dict={myPageLabels.withdraw} lang={lang}/>
                         </button>
                     ) : (
                         <form onSubmit={handleWithdraw} className="space-y-4">
                             <p className="text-sm text-red-600 dark:text-red-400">
-                                탈퇴하면 계정과 프로필 정보가 삭제되며 복구할 수 없습니다.
+                                <I18nText dict={myPageLabels.withdrawWarning} lang={lang}/>
                             </p>
                             <div>
-                                <label htmlFor="withdrawPassword" className={labelClass}>비밀번호 확인</label>
+                                <label htmlFor="withdrawPassword" className={labelClass}><I18nText dict={commonAuthLabels.passwordConfirm} lang={lang}/></label>
                                 <input
                                     id="withdrawPassword"
                                     type="password"
@@ -273,7 +279,7 @@ const MyPage: React.FC<PageProps> = () => {
                                 />
                             </div>
                             {withdrawMessage && (
-                                <p className="text-sm text-red-600 dark:text-red-400">{withdrawMessage}</p>
+                                <p className="text-sm text-red-600 dark:text-red-400">{withdrawMessage[lang]}</p>
                             )}
                             <div className="flex gap-2">
                                 <button
@@ -281,14 +287,14 @@ const MyPage: React.FC<PageProps> = () => {
                                     disabled={withdrawSubmitting}
                                     className="rounded-md bg-red-600 px-4 py-2 text-sm font-medium text-white hover:opacity-90 disabled:opacity-50 transition-colors"
                                 >
-                                    {withdrawSubmitting ? "탈퇴 처리 중..." : "탈퇴 진행"}
+                                    {withdrawSubmitting ? myPageLabels.withdrawing[lang] : myPageLabels.withdrawConfirm[lang]}
                                 </button>
                                 <button
                                     type="button"
                                     onClick={() => setShowWithdraw(false)}
                                     className="rounded-md border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 dark:border-slate-700 dark:text-slate-300 transition-colors"
                                 >
-                                    취소
+                                    <I18nText dict={commonAuthLabels.cancel} lang={lang}/>
                                 </button>
                             </div>
                         </form>

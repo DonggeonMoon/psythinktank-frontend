@@ -5,11 +5,16 @@ import {Link} from "gatsby";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import {useAuth} from "../contexts/AuthContext";
+import {useLang} from "../contexts/LangContext";
+import I18nText from "../components/I18nText";
+import type {Lang} from "../i18n/stockLabels";
+import {commonAuthLabels, findPasswordLabels} from "../i18n/authLabels";
 
 const FindPasswordPage: React.FC<PageProps> = () => {
     const {resetPassword} = useAuth();
+    const {lang} = useLang();
     const [email, setEmail] = useState("");
-    const [error, setError] = useState<string | null>(null);
+    const [error, setError] = useState<Record<Lang, string> | null>(null);
     const [sent, setSent] = useState(false);
     const [submitting, setSubmitting] = useState(false);
 
@@ -23,7 +28,7 @@ const FindPasswordPage: React.FC<PageProps> = () => {
         } catch (err) {
             const code = (err as { code?: string })?.code;
             if (code === "auth/invalid-email") {
-                setError("올바른 이메일 형식이 아닙니다.");
+                setError(findPasswordLabels.invalidEmail);
                 setSubmitting(false);
                 return;
             }
@@ -40,34 +45,34 @@ const FindPasswordPage: React.FC<PageProps> = () => {
 
             <main className="flex-1 mx-auto w-full max-w-sm px-4 py-20">
                 <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-2 text-center">
-                    비밀번호 찾기
+                    <I18nText dict={findPasswordLabels.title} lang={lang}/>
                 </h1>
                 <p className="mb-8 text-center text-sm text-slate-500 dark:text-slate-400">
-                    가입하신 이메일로 비밀번호 재설정 메일을 보내드립니다.
+                    <I18nText dict={findPasswordLabels.subtitle} lang={lang}/>
                 </p>
 
                 {sent ? (
                     <div className="space-y-6 text-center">
                         <div className="space-y-2">
                             <p className="text-sm text-slate-700 dark:text-slate-300">
-                                입력하신 이메일 주소로 비밀번호 재설정 메일을 보냈습니다.
+                                <I18nText dict={findPasswordLabels.sent} lang={lang}/>
                             </p>
                             <p className="text-sm text-amber-600 dark:text-amber-400">
-                                메일이 스팸함으로 분류되었을 수 있으니, 받은 메일함에 안 보이면 스팸함도 꼭 확인해주세요.
+                                <I18nText dict={commonAuthLabels.spamNotice} lang={lang}/>
                             </p>
                         </div>
                         <Link
                             to="/login"
                             className="inline-block rounded-md bg-slate-900 px-6 py-2 text-sm font-medium text-white hover:opacity-90 dark:bg-slate-100 dark:text-slate-900 transition-colors"
                         >
-                            로그인으로 돌아가기
+                            <I18nText dict={findPasswordLabels.backToLogin} lang={lang}/>
                         </Link>
                     </div>
                 ) : (
                     <form onSubmit={handleSubmit} className="space-y-4">
                         <div>
                             <label htmlFor="email" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">
-                                이메일
+                                <I18nText dict={commonAuthLabels.email} lang={lang}/>
                             </label>
                             <input
                                 id="email"
@@ -80,19 +85,19 @@ const FindPasswordPage: React.FC<PageProps> = () => {
                             />
                         </div>
 
-                        {error && <p className="text-sm text-red-600 dark:text-red-400">{error}</p>}
+                        {error && <p className="text-sm text-red-600 dark:text-red-400">{error[lang]}</p>}
 
                         <button
                             type="submit"
                             disabled={submitting}
                             className="w-full rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 disabled:opacity-50 dark:bg-slate-100 dark:text-slate-900 transition-colors"
                         >
-                            {submitting ? "전송 중..." : "재설정 메일 보내기"}
+                            {submitting ? findPasswordLabels.submitting[lang] : findPasswordLabels.submit[lang]}
                         </button>
 
                         <p className="text-center text-sm text-slate-500 dark:text-slate-400">
                             <Link to="/login" className="text-slate-900 dark:text-slate-100 hover:underline">
-                                로그인으로 돌아가기
+                                <I18nText dict={findPasswordLabels.backToLogin} lang={lang}/>
                             </Link>
                         </p>
                     </form>

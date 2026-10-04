@@ -5,8 +5,12 @@ import {Link, navigate} from "gatsby";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import {useAuth} from "../contexts/AuthContext";
-import {isValidPassword, PASSWORD_REQUIREMENT_MESSAGE} from "../lib/validation";
+import {useLang} from "../contexts/LangContext";
+import I18nText from "../components/I18nText";
+import {isValidPassword} from "../lib/validation";
 import {consumeAgreedToPrivacyConsent} from "../lib/privacyConsent";
+import type {Lang} from "../i18n/stockLabels";
+import {commonAuthLabels, signupPageLabels, verificationSentMessage} from "../i18n/authLabels";
 
 const inputClass =
     "w-full rounded-md border border-slate-300 bg-white px-4 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:focus:ring-slate-700";
@@ -15,8 +19,20 @@ const labelClass = "block text-sm font-medium text-slate-700 dark:text-slate-300
 type EmailStatus = "idle" | "checking" | "available" | "unavailable";
 type NicknameStatus = "idle" | "checking" | "available" | "unavailable";
 
+const renderVerificationSent = (email: string, lang: Lang) => {
+    const [before, after] = verificationSentMessage(lang);
+    return (
+        <>
+            {before}
+            <span className="font-medium text-slate-900 dark:text-slate-100">{email}</span>
+            {after}
+        </>
+    );
+};
+
 const SignupPage: React.FC<PageProps> = () => {
     const {signup, checkEmailAvailable, checkNicknameAvailable} = useAuth();
+    const {lang} = useLang();
     const [checkingConsent, setCheckingConsent] = useState(true);
     const [email, setEmail] = useState("");
     const [emailStatus, setEmailStatus] = useState<EmailStatus>("idle");
@@ -26,7 +42,7 @@ const SignupPage: React.FC<PageProps> = () => {
     const [checkedNickname, setCheckedNickname] = useState<string | null>(null);
     const [password, setPassword] = useState("");
     const [passwordConfirm, setPasswordConfirm] = useState("");
-    const [error, setError] = useState<string | null>(null);
+    const [error, setError] = useState<Record<Lang, string> | null>(null);
     const [submitting, setSubmitting] = useState(false);
     const [verificationSentTo, setVerificationSentTo] = useState<string | null>(null);
 
@@ -84,19 +100,19 @@ const SignupPage: React.FC<PageProps> = () => {
         const trimmedNickname = nickname.trim();
 
         if (emailStatus !== "available" || checkedEmail !== trimmedEmail) {
-            setError("이메일 중복 확인을 완료해주세요.");
+            setError(signupPageLabels.emailCheckRequired);
             return;
         }
         if (nicknameStatus !== "available" || checkedNickname !== trimmedNickname) {
-            setError("닉네임 중복 확인을 완료해주세요.");
+            setError(commonAuthLabels.nicknameCheckRequired);
             return;
         }
         if (password !== passwordConfirm) {
-            setError("비밀번호가 일치하지 않습니다.");
+            setError(signupPageLabels.passwordMismatch);
             return;
         }
         if (!isValidPassword(password)) {
-            setError(PASSWORD_REQUIREMENT_MESSAGE);
+            setError(commonAuthLabels.passwordRequirement);
             return;
         }
 
@@ -107,17 +123,17 @@ const SignupPage: React.FC<PageProps> = () => {
         } catch (err) {
             const code = (err as { code?: string })?.code;
             if (code === "auth/email-already-in-use") {
-                setError("이미 가입된 이메일입니다.");
+                setError(commonAuthLabels.emailTaken);
                 setEmailStatus("idle");
                 setCheckedEmail(null);
             } else if (code === "signup/duplicate") {
-                setError("닉네임 또는 이메일이 이미 사용 중입니다. 다시 확인해주세요.");
+                setError(signupPageLabels.duplicate);
                 setEmailStatus("idle");
                 setCheckedEmail(null);
                 setNicknameStatus("idle");
                 setCheckedNickname(null);
             } else {
-                setError("회원가입에 실패했습니다. 입력값을 확인해주세요.");
+                setError(signupPageLabels.failed);
             }
         } finally {
             setSubmitting(false);
@@ -140,20 +156,27 @@ const SignupPage: React.FC<PageProps> = () => {
                 <Header/>
                 <main className="flex-1 mx-auto w-full max-w-sm px-4 py-16 text-center">
                     <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-4">
-                        이메일 인증을 완료해주세요
+                        <I18nText dict={signupPageLabels.verifyTitle} lang={lang}/>
                     </h1>
                     <p className="text-sm text-slate-600 dark:text-slate-400 mb-2">
-                        <span className="font-medium text-slate-900 dark:text-slate-100">{verificationSentTo}</span>
-                        으로 인증 메일을 보냈습니다. 메일의 링크를 눌러 인증을 마치면 로그인할 수 있습니다.
+                        <I18nText
+                            lang={lang}
+                            dict={{
+                                ko: renderVerificationSent(verificationSentTo, "ko"),
+                                en: renderVerificationSent(verificationSentTo, "en"),
+                                ja: renderVerificationSent(verificationSentTo, "ja"),
+                                zh: renderVerificationSent(verificationSentTo, "zh"),
+                            }}
+                        />
                     </p>
                     <p className="text-sm text-amber-600 dark:text-amber-400 mb-8">
-                        메일이 스팸함으로 분류되었을 수 있으니, 받은 메일함에 안 보이면 스팸함도 꼭 확인해주세요.
+                        <I18nText dict={commonAuthLabels.spamNotice} lang={lang}/>
                     </p>
                     <Link
                         to="/login"
                         className="inline-block rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 dark:bg-slate-100 dark:text-slate-900 transition-colors"
                     >
-                        로그인으로 이동
+                        <I18nText dict={signupPageLabels.goToLogin} lang={lang}/>
                     </Link>
                 </main>
                 <Footer/>
@@ -167,12 +190,12 @@ const SignupPage: React.FC<PageProps> = () => {
 
             <main className="flex-1 mx-auto w-full max-w-sm px-4 py-16">
                 <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-8 text-center">
-                    회원가입
+                    <I18nText dict={commonAuthLabels.signup} lang={lang}/>
                 </h1>
 
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <div>
-                        <label htmlFor="email" className={labelClass}>이메일</label>
+                        <label htmlFor="email" className={labelClass}><I18nText dict={commonAuthLabels.email} lang={lang}/></label>
                         <div className="flex gap-2">
                             <input
                                 id="email"
@@ -189,19 +212,19 @@ const SignupPage: React.FC<PageProps> = () => {
                                 disabled={!email.trim() || emailStatus === "checking"}
                                 className="shrink-0 rounded-md border border-slate-300 px-3 text-sm font-medium text-slate-700 hover:bg-slate-100 disabled:opacity-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
                             >
-                                중복확인
+                                <I18nText dict={commonAuthLabels.checkDuplicate} lang={lang}/>
                             </button>
                         </div>
                         {emailStatus === "available" && (
-                            <p className="mt-1 text-sm text-emerald-600 dark:text-emerald-400">사용 가능한 이메일입니다.</p>
+                            <p className="mt-1 text-sm text-emerald-600 dark:text-emerald-400"><I18nText dict={commonAuthLabels.emailAvailable} lang={lang}/></p>
                         )}
                         {emailStatus === "unavailable" && (
-                            <p className="mt-1 text-sm text-red-600 dark:text-red-400">이미 가입된 이메일입니다.</p>
+                            <p className="mt-1 text-sm text-red-600 dark:text-red-400"><I18nText dict={commonAuthLabels.emailTaken} lang={lang}/></p>
                         )}
                     </div>
 
                     <div>
-                        <label htmlFor="nickname" className={labelClass}>닉네임</label>
+                        <label htmlFor="nickname" className={labelClass}><I18nText dict={commonAuthLabels.nickname} lang={lang}/></label>
                         <div className="flex gap-2">
                             <input
                                 id="nickname"
@@ -218,19 +241,19 @@ const SignupPage: React.FC<PageProps> = () => {
                                 disabled={!nickname.trim() || nicknameStatus === "checking"}
                                 className="shrink-0 rounded-md border border-slate-300 px-3 text-sm font-medium text-slate-700 hover:bg-slate-100 disabled:opacity-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
                             >
-                                중복확인
+                                <I18nText dict={commonAuthLabels.checkDuplicate} lang={lang}/>
                             </button>
                         </div>
                         {nicknameStatus === "available" && (
-                            <p className="mt-1 text-sm text-emerald-600 dark:text-emerald-400">사용 가능한 닉네임입니다.</p>
+                            <p className="mt-1 text-sm text-emerald-600 dark:text-emerald-400"><I18nText dict={commonAuthLabels.nicknameAvailable} lang={lang}/></p>
                         )}
                         {nicknameStatus === "unavailable" && (
-                            <p className="mt-1 text-sm text-red-600 dark:text-red-400">이미 사용 중인 닉네임입니다.</p>
+                            <p className="mt-1 text-sm text-red-600 dark:text-red-400"><I18nText dict={commonAuthLabels.nicknameTaken} lang={lang}/></p>
                         )}
                     </div>
 
                     <div>
-                        <label htmlFor="password" className={labelClass}>비밀번호</label>
+                        <label htmlFor="password" className={labelClass}><I18nText dict={commonAuthLabels.password} lang={lang}/></label>
                         <input
                             id="password"
                             type="password"
@@ -240,11 +263,11 @@ const SignupPage: React.FC<PageProps> = () => {
                             onChange={(e) => setPassword(e.target.value)}
                             className={inputClass}
                         />
-                        <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">{PASSWORD_REQUIREMENT_MESSAGE}</p>
+                        <p className="mt-1 text-xs text-slate-500 dark:text-slate-400"><I18nText dict={commonAuthLabels.passwordRequirement} lang={lang}/></p>
                     </div>
 
                     <div>
-                        <label htmlFor="passwordConfirm" className={labelClass}>비밀번호 확인</label>
+                        <label htmlFor="passwordConfirm" className={labelClass}><I18nText dict={commonAuthLabels.passwordConfirm} lang={lang}/></label>
                         <input
                             id="passwordConfirm"
                             type="password"
@@ -256,20 +279,20 @@ const SignupPage: React.FC<PageProps> = () => {
                         />
                     </div>
 
-                    {error && <p className="text-sm text-red-600 dark:text-red-400">{error}</p>}
+                    {error && <p className="text-sm text-red-600 dark:text-red-400">{error[lang]}</p>}
 
                     <button
                         type="submit"
                         disabled={submitting}
                         className="w-full rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 disabled:opacity-50 dark:bg-slate-100 dark:text-slate-900 transition-colors"
                     >
-                        {submitting ? "가입 중..." : "회원가입"}
+                        {submitting ? signupPageLabels.submitting[lang] : commonAuthLabels.signup[lang]}
                     </button>
 
                     <p className="text-center text-sm text-slate-500 dark:text-slate-400">
-                        이미 계정이 있으신가요?{" "}
+                        <I18nText dict={signupPageLabels.haveAccount} lang={lang}/>{" "}
                         <Link to="/login" className="text-slate-900 dark:text-slate-100 hover:underline">
-                            로그인
+                            <I18nText dict={commonAuthLabels.login} lang={lang}/>
                         </Link>
                     </p>
                 </form>
