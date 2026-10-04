@@ -33,3 +33,15 @@ export const commentLabels = {
     },
     unknownAuthor: {ko: "알 수 없음", en: "Unknown", ja: "不明", zh: "未知"},
 } satisfies Record<string, Dict>;
+
+export const signupBannerLabels = {
+    title: {
+        ko: "PSYThinktank 회원이 되어주세요",
+        en: "Become a PSYThinktank member",
+        ja: "PSYThinktankの会員になりませんか",
+        zh: "成为PSYThinktank会员吧",
+    },
+    close: {ko: "닫기", en: "Close", ja: "閉じる", zh: "关闭"},
+    signup: {ko: "회원 가입", en: "Sign up", ja: "会員登録", zh: "注册"},
+    login: {ko: "로그인", en: "Log in", ja: "ログイン", zh: "登录"},
+} satisfies Record<string, Dict>;

@@ -2,12 +2,16 @@ import * as React from "react";
 import {useEffect, useState} from "react";
 import {Link} from "gatsby";
 import {useAuth} from "../contexts/AuthContext";
+import {useLang} from "../contexts/LangContext";
+import I18nText from "./I18nText";
+import {signupBannerLabels} from "../i18n/authLabels";
 
 const DISMISS_KEY = "signupBanner:dismissed";
 const HIDDEN_PATHS = ["/login", "/signup", "/consent", "/find-password"];
 
 const SignupBanner: React.FC = () => {
     const {user, loading} = useAuth();
+    const {lang} = useLang();
     const [scrolledHalf, setScrolledHalf] = useState(false);
     const [dismissed, setDismissed] = useState(true);
 
@@ -44,12 +48,12 @@ const SignupBanner: React.FC = () => {
         >
             <div className="flex items-start justify-between gap-3">
                 <p className="text-base font-semibold text-slate-900 dark:text-slate-100">
-                    PSYThinktank 회원이 되어주세요
+                    <I18nText dict={signupBannerLabels.title} lang={lang}/>
                 </p>
                 <button
                     type="button"
                     onClick={dismiss}
-                    aria-label="닫기"
+                    aria-label={signupBannerLabels.close[lang]}
                     className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
                 >
                     ✕
@@ -59,13 +63,13 @@ const SignupBanner: React.FC = () => {
                 to="/signup/agree"
                 className="rounded-md bg-slate-900 px-4 py-2.5 text-center text-base font-medium text-white hover:opacity-90 dark:bg-slate-100 dark:text-slate-900 transition-colors"
             >
-                회원 가입
+                <I18nText dict={signupBannerLabels.signup} lang={lang}/>
             </Link>
             <Link
                 to="/login"
                 className="rounded-md border border-slate-300 px-4 py-2.5 text-center text-base font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors"
             >
-                로그인
+                <I18nText dict={signupBannerLabels.login} lang={lang}/>
             </Link>
         </div>
     );
