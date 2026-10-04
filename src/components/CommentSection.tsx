@@ -17,6 +17,9 @@ import {db} from "../firebase/client";
 import {useAuth} from "../contexts/AuthContext";
 import {isStaffRole, type Role} from "../lib/roles";
 import RoleBadge from "./RoleBadge";
+import I18nText from "./I18nText";
+import {useLang} from "../contexts/LangContext";
+import {commentLabels} from "../i18n/authLabels";
 
 interface Comment {
     id: string;
@@ -45,6 +48,7 @@ interface CommentSectionProps {
 
 const CommentSection: React.FC<CommentSectionProps> = ({parentCollection, parentId}) => {
     const {user, profile} = useAuth();
+    const {lang} = useLang();
     const [comments, setComments] = useState<Comment[]>([]);
     const [loading, setLoading] = useState(true);
     const [newContent, setNewContent] = useState("");
@@ -89,7 +93,7 @@ const CommentSection: React.FC<CommentSectionProps> = ({parentCollection, parent
             await addDoc(commentsRef(db), {
                 content: newContent.trim(),
                 authorUid: user.uid,
-                authorName: profile?.nickname ?? "알 수 없음",
+                authorName: profile?.nickname ?? commentLabels.unknownAuthor.ko,
                 authorRole: profile?.role ?? "member",
                 deleted: false,
                 deletedReason: null,
@@ -120,7 +124,7 @@ const CommentSection: React.FC<CommentSectionProps> = ({parentCollection, parent
 
     const handleDelete = async (comment: Comment) => {
         if (!db || !user) return;
-        if (!window.confirm("이 댓글을 삭제하시겠습니까?")) return;
+        if (!window.confirm(commentLabels.confirmDelete[lang])) return;
 
         const isAuthor = user.uid === comment.authorUid;
         await updateDoc(doc(db, parentCollection, parentId, "comments", comment.id), {
@@ -135,7 +139,7 @@ const CommentSection: React.FC<CommentSectionProps> = ({parentCollection, parent
     return (
         <section className="space-y-4 border-t border-slate-100 pt-8 dark:border-slate-800">
             <h2 className="text-sm font-semibold text-slate-500 dark:text-slate-400">
-                댓글 {comments.filter((c) => !c.deleted).length}
+                <I18nText dict={commentLabels.heading} lang={lang}/> {comments.filter((c) => !c.deleted).length}
             </h2>
 
             {user ? (
@@ -143,7 +147,7 @@ const CommentSection: React.FC<CommentSectionProps> = ({parentCollection, parent
                     <textarea
                         value={newContent}
                         onChange={(e) => setNewContent(e.target.value)}
-                        placeholder="댓글을 입력하세요"
+                        placeholder={commentLabels.placeholder[lang]}
                         rows={3}
                         className={inputClass}
                     />
@@ -153,27 +157,29 @@ const CommentSection: React.FC<CommentSectionProps> = ({parentCollection, parent
                             disabled={submitting || !newContent.trim()}
                             className="rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 disabled:opacity-50 dark:bg-slate-100 dark:text-slate-900 transition-colors"
                         >
-                            등록
+                            <I18nText dict={commentLabels.submit} lang={lang}/>
                         </button>
                     </div>
                 </form>
             ) : (
                 <p className="text-sm text-slate-500 dark:text-slate-400">
-                    <Link to="/login" className="underline hover:text-slate-900 dark:hover:text-white">로그인</Link> 후 댓글을 작성할 수 있습니다.
+                    <Link to="/login" className="underline hover:text-slate-900 dark:hover:text-white"><I18nText dict={commentLabels.loginLink} lang={lang}/></Link>
+                    <I18nText dict={commentLabels.loginSuffix} lang={lang}/>
                 </p>
             )}
 
             {loading ? (
-                <p className="text-sm text-slate-400">불러오는 중...</p>
+                <p className="text-sm text-slate-400"><I18nText dict={commentLabels.loading} lang={lang}/></p>
             ) : (
                 <ul className="divide-y divide-slate-100 dark:divide-slate-800">
                     {comments.map((comment) => (
                         <li key={comment.id} className="py-4 space-y-1">
                             {comment.deleted ? (
                                 <p className="text-sm italic text-slate-400 dark:text-slate-600">
-                                    {comment.deletedReason === "policy"
-                                        ? "사이트 정책 위반으로 삭제된 댓글입니다."
-                                        : "삭제된 댓글입니다."}
+                                    <I18nText
+                                        dict={comment.deletedReason === "policy" ? commentLabels.deletedByPolicy : commentLabels.deleted}
+                                        lang={lang}
+                                    />
                                 </p>
                             ) : (
                                 <>
@@ -190,14 +196,14 @@ const CommentSection: React.FC<CommentSectionProps> = ({parentCollection, parent
                                                         onClick={() => startEdit(comment)}
                                                         className="hover:text-slate-900 dark:hover:text-white"
                                                     >
-                                                        수정
+                                                        <I18nText dict={commentLabels.edit} lang={lang}/>
                                                     </button>
                                                 )}
                                                 <button
                                                     onClick={() => handleDelete(comment)}
                                                     className="hover:text-red-600 dark:hover:text-red-400"
                                                 >
-                                                    삭제
+                                                    <I18nText dict={commentLabels.delete} lang={lang}/>
                                                 </button>
                                             </div>
                                         )}
@@ -216,13 +222,13 @@ const CommentSection: React.FC<CommentSectionProps> = ({parentCollection, parent
                                                     onClick={() => setEditingId(null)}
                                                     className="rounded-md border border-slate-300 px-3 py-1 dark:border-slate-700"
                                                 >
-                                                    취소
+                                                    <I18nText dict={commentLabels.cancel} lang={lang}/>
                                                 </button>
                                                 <button
                                                     onClick={() => handleEditSave(comment.id)}
                                                     className="rounded-md bg-slate-900 px-3 py-1 text-white dark:bg-slate-100 dark:text-slate-900"
                                                 >
-                                                    저장
+                                                    <I18nText dict={commentLabels.save} lang={lang}/>
                                                 </button>
                                             </div>
                                         </div>
