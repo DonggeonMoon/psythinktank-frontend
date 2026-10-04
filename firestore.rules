@@ -15,6 +15,11 @@ service cloud.firestore {
       return request.auth != null && currentRole() in ["manager", "admin"];
     }
 
+    // 봇은 운영진 권한이 없고, 관계 데이터처럼 자동화가 필요한 곳에서만 운영진과 같이 허용한다.
+    function isStaffOrBot() {
+      return request.auth != null && currentRole() in ["manager", "admin", "bot"];
+    }
+
     function isAdmin() {
       return request.auth != null && currentRole() == "admin";
     }
@@ -123,6 +128,27 @@ service cloud.firestore {
       allow create: if canCreateComment();
       allow update: if canUpdateComment();
       allow delete: if false;
+    }
+
+    // 게시글-종목 관계. 문서 ID를 {postId}_{symbol}로 고정해 같은 관계의 중복 저장을 막는다.
+    // 게시글 작성/삭제와 같은 batch로 커밋되므로, 생성은 getAfter(커밋 후 게시글)로,
+    // 삭제는 get(커밋 전 게시글)으로 게시글 작성자 여부를 확인한다.
+    match /related_posts/{relationId} {
+      allow read: if true;
+
+      allow create: if request.auth != null
+                    && request.resource.data.keys().hasOnly(["postId", "symbol", "createdAt"])
+                    && request.resource.data.postId is string
+                    && request.resource.data.symbol is string
+                    && relationId == request.resource.data.postId + "_" + request.resource.data.symbol
+                    && (getAfter(/databases/$(database)/documents/posts/$(request.resource.data.postId)).data.authorUid == request.auth.uid
+                          || isStaffOrBot());
+
+      allow update: if false;
+
+      allow delete: if request.auth != null
+                    && (get(/databases/$(database)/documents/posts/$(resource.data.postId)).data.authorUid == request.auth.uid
+                          || isStaffOrBot());
     }
 
     match /performance/{entryId} {

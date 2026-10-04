@@ -1,14 +1,32 @@
 import * as React from "react";
 import {useEffect, useRef, useState} from "react";
-import {navigate, HeadFC, PageProps} from "gatsby";
-import {doc, getDoc, updateDoc, serverTimestamp} from "firebase/firestore";
+import {graphql, navigate, HeadFC, PageProps} from "gatsby";
+import {doc, getDoc, serverTimestamp, writeBatch} from "firebase/firestore";
 import Footer from "../../../components/Footer";
 import Header from "../../../components/Header";
 import ToastEditor, {ToastEditorHandle} from "../../../components/ToastEditor";
+import StockPicker, {type PickableStock} from "../../../components/StockPicker";
 import {db} from "../../../firebase/client";
 import {useAuth} from "../../../contexts/AuthContext";
 import {isStaffRole} from "../../../lib/roles";
 import {BOARD_CATEGORY_LABEL, BoardCategory} from "../../../lib/boardCategory";
+import {fetchRelatedSymbols, stageRelatedStocks} from "../../../lib/relatedPosts";
+
+export const query = graphql`
+  query {
+    allStockDetail(sort: { symbol: ASC }) {
+      nodes {
+        symbol
+        stock_name
+        market
+      }
+    }
+  }
+`;
+
+interface DataProps {
+    allStockDetail: { nodes: PickableStock[] };
+}
 
 const CATEGORIES: BoardCategory[] = ["domestic", "overseas"];
 
@@ -20,7 +38,7 @@ interface Post {
     category: BoardCategory;
 }
 
-const EditPage: React.FC<PageProps> = ({params}) => {
+const EditPage: React.FC<PageProps<DataProps>> = ({data: pageData, params}) => {
     const {articleId} = params;
     const {user, profile, loading: authLoading} = useAuth();
 
@@ -28,6 +46,8 @@ const EditPage: React.FC<PageProps> = ({params}) => {
     const [title, setTitle] = useState("");
     const [category, setCategory] = useState<BoardCategory>("domestic");
     const [notice, setNotice] = useState(false);
+    const [initialSymbols, setInitialSymbols] = useState<string[]>([]);
+    const [relatedSymbols, setRelatedSymbols] = useState<string[]>([]);
     const [loading, setLoading] = useState(true);
     const [forbidden, setForbidden] = useState(false);
     const [submitting, setSubmitting] = useState(false);
@@ -57,6 +77,9 @@ const EditPage: React.FC<PageProps> = ({params}) => {
             setTitle(data.title);
             setCategory(data.category ?? "domestic");
             setNotice(data.notice ?? false);
+            const symbols = await fetchRelatedSymbols(db, articleId);
+            setInitialSymbols(symbols);
+            setRelatedSymbols(symbols);
             setLoading(false);
         })();
     }, [articleId, authLoading, user, profile]);
@@ -103,13 +126,16 @@ const EditPage: React.FC<PageProps> = ({params}) => {
 
         setSubmitting(true);
         try {
-            await updateDoc(doc(db, "posts", articleId), {
+            const batch = writeBatch(db);
+            batch.update(doc(db, "posts", articleId), {
                 title: title.trim(),
                 contentHtml,
                 category,
                 notice: isStaffRole(profile?.role) ? notice : post.notice,
                 updatedAt: serverTimestamp(),
             });
+            stageRelatedStocks(batch, db, articleId, initialSymbols, relatedSymbols);
+            await batch.commit();
             await navigate(`/boards/${articleId}`);
         } catch {
             setError("게시글 수정에 실패했습니다.");
@@ -151,6 +177,8 @@ const EditPage: React.FC<PageProps> = ({params}) => {
                     />
 
                     <ToastEditor ref={editorRef} initialValue={post.contentHtml}/>
+
+                    <StockPicker stocks={pageData.allStockDetail.nodes} value={relatedSymbols} onChange={setRelatedSymbols}/>
 
                     {isStaffRole(profile?.role) && (
                         <label className="flex items-center gap-2 text-sm text-slate-700 dark:text-slate-300">

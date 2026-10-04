@@ -77,6 +77,7 @@ export const boardDetailLabels = {
     listButton: {ko: "목록 보기", en: "View List", ja: "一覧を見る", zh: "查看列表"},
     edit: {ko: "수정", en: "Edit", ja: "編集", zh: "编辑"},
     delete: {ko: "삭제", en: "Delete", ja: "削除", zh: "删除"},
+    relatedStocks: {ko: "관련 종목", en: "Related Stocks", ja: "関連銘柄", zh: "相关股票"},
 } satisfies Record<string, Dict>;
 
 export const viewsLabel = (count: string, lang: Lang): string => {

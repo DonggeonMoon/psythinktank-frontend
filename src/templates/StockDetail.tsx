@@ -7,7 +7,8 @@ import Footer from "../components/Footer";
 import Ticker from "../components/Ticker";
 import I18nText from "../components/I18nText";
 import CommentSection from "../components/CommentSection";
-import {asOfDate, type Lang, rankLabel, stockLabels} from "../i18n/stockLabels";
+import RelatedPosts from "../components/RelatedPosts";
+import {asOfDate, getCurrency, rankLabel, stockLabels} from "../i18n/stockLabels";
 import {useLang} from "../contexts/LangContext";
 
 Chart.register(...registerables);
@@ -81,12 +82,6 @@ interface DataProps {
     allShareholder: { nodes: ShareholderNode[] };
     allInvestor: { nodes: InvestorNode[] };
 }
-
-const getCurrency = (market: string, lang: Lang) => {
-    if (market === "KOSPI" || market === "KOSDAQ") return stockLabels.krw[lang];
-    if (market === "TSE") return "¥";
-    return "$";
-};
 
 const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
     const stock = data.stockDetail;
@@ -391,6 +386,8 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                         </div>
                     )}
                 </section>
+
+                <RelatedPosts symbol={stock.symbol}/>
 
                 <CommentSection parentCollection="stocks" parentId={stock.symbol}/>
             </main>

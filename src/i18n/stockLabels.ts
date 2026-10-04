@@ -39,7 +39,14 @@ export const stockLabels = {
     avgPrice: {ko: "평균 단가", en: "Average Price", ja: "平均単価", zh: "平均成本价"},
     notFound: {ko: "종목 정보를 찾을 수 없습니다.", en: "Stock information not found.", ja: "銘柄情報が見つかりません。", zh: "未找到股票信息。"},
     krw: {ko: "원", en: "KRW", ja: "ウォン", zh: "韩元"},
+    relatedPosts: {ko: "관련 글", en: "Related Posts", ja: "関連記事", zh: "相关文章"},
 } satisfies Record<string, Dict>;
+
+export const getCurrency = (market: string | null, lang: Lang) => {
+    if (market === "KOSPI" || market === "KOSDAQ") return stockLabels.krw[lang];
+    if (market === "TSE") return "¥";
+    return "$";
+};
 
 export const rankLabel: Record<Lang, (n: number) => string> = {
     ko: (n) => `${n}위`,

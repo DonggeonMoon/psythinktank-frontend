@@ -1,7 +1,7 @@
 import * as React from "react";
 import {useEffect, useState} from "react";
 import {Link, navigate, type HeadFC, type PageProps} from "gatsby";
-import {deleteDoc, doc, getDoc, increment, Timestamp, updateDoc} from "firebase/firestore";
+import {doc, getDoc, increment, Timestamp, updateDoc, writeBatch} from "firebase/firestore";
 import DOMPurify from "dompurify";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -12,9 +12,12 @@ import {isStaffRole, type Role} from "../lib/roles";
 import {BoardCategory} from "../lib/boardCategory";
 import CommentSection from "../components/CommentSection";
 import RoleBadge from "../components/RoleBadge";
+import RelatedStocks, {type RelatedStock} from "../components/RelatedStocks";
 import I18nText from "../components/I18nText";
 import {boardCategoryI18n, boardDetailLabels, viewsLabel} from "../i18n/pageLabels";
 import {useLang} from "../contexts/LangContext";
+import {fetchRelatedSymbols, stageRelatedStocks} from "../lib/relatedPosts";
+import {formatDate} from "../lib/date";
 
 interface Post {
     title: string;
@@ -38,15 +41,8 @@ interface BoardDetailContext {
     description?: string | null;
     // 빌드 시점 스냅샷(contentHtml은 gatsby-node에서 이미 sanitize됨). 정적 HTML에 본문을 담기 위해 초기 상태로 쓴다.
     post?: Post | null;
+    relatedStocks?: RelatedStock[];
 }
-
-// 빌드 서버(UTC)와 브라우저 타임존이 달라 hydration 시 날짜가 어긋나지 않도록 KST로 고정한다.
-const dateFormatter = new Intl.DateTimeFormat("en-CA", {timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit"});
-
-const formatDate = (iso: string | null) => {
-    if (!iso) return "-";
-    return dateFormatter.format(new Date(iso)).replace(/-/g, ".");
-};
 
 const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageContext}) => {
     const {postId} = pageContext;
@@ -86,7 +82,10 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
         if (!db || !postId) return;
         if (!window.confirm("이 게시글을 삭제하시겠습니까?")) return;
 
-        await deleteDoc(doc(db, "posts", postId));
+        const batch = writeBatch(db);
+        stageRelatedStocks(batch, db, postId, await fetchRelatedSymbols(db, postId), []);
+        batch.delete(doc(db, "posts", postId));
+        await batch.commit();
         await navigate("/boards");
     };
 
@@ -170,6 +169,8 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
                         className="toastui-editor-contents py-4 min-h-[300px] text-slate-900 dark:text-slate-100 dark:[&_*]:!text-slate-100"
                         dangerouslySetInnerHTML={{__html: post.contentHtml}}
                     />
+
+                    <RelatedStocks postId={postId} initialStocks={pageContext.relatedStocks ?? []}/>
 
                     <div className="flex items-center justify-center gap-2 border-t border-slate-100 pt-10 dark:border-slate-800">
                         <Link to="/boards" className="rounded-md border border-slate-300 px-6 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900">

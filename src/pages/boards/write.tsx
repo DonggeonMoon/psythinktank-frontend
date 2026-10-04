@@ -1,19 +1,36 @@
 import * as React from "react";
 import {useEffect, useRef, useState} from "react";
-import type {HeadFC, PageProps} from "gatsby";
-import {navigate} from "gatsby";
-import {addDoc, collection, serverTimestamp} from "firebase/firestore";
+import {graphql, navigate, type HeadFC, type PageProps} from "gatsby";
+import {collection, doc, serverTimestamp, writeBatch} from "firebase/firestore";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import ToastEditor, {ToastEditorHandle} from "../../components/ToastEditor";
+import StockPicker, {type PickableStock} from "../../components/StockPicker";
 import {db} from "../../firebase/client";
 import {useAuth} from "../../contexts/AuthContext";
 import {isStaffRole} from "../../lib/roles";
 import {BOARD_CATEGORY_LABEL, BoardCategory} from "../../lib/boardCategory";
+import {stageRelatedStocks} from "../../lib/relatedPosts";
+
+export const query = graphql`
+  query {
+    allStockDetail(sort: { symbol: ASC }) {
+      nodes {
+        symbol
+        stock_name
+        market
+      }
+    }
+  }
+`;
+
+interface DataProps {
+    allStockDetail: { nodes: PickableStock[] };
+}
 
 const CATEGORIES: BoardCategory[] = ["domestic", "overseas"];
 
-const WritePage: React.FC<PageProps> = ({location}) => {
+const WritePage: React.FC<PageProps<DataProps>> = ({data, location}) => {
     const {user, profile, loading} = useAuth();
     const initialCategory = new URLSearchParams(location.search).get("category");
     const [category, setCategory] = useState<BoardCategory>(
@@ -21,6 +38,7 @@ const WritePage: React.FC<PageProps> = ({location}) => {
     );
     const [title, setTitle] = useState("");
     const [notice, setNotice] = useState(false);
+    const [relatedSymbols, setRelatedSymbols] = useState<string[]>([]);
     const [submitting, setSubmitting] = useState(false);
     const [error, setError] = useState<string | null>(null);
     const editorRef = useRef<ToastEditorHandle>(null);
@@ -55,7 +73,10 @@ const WritePage: React.FC<PageProps> = ({location}) => {
 
         setSubmitting(true);
         try {
-            const docRef = await addDoc(collection(db, "posts"), {
+            // 관계 문서 생성 규칙이 게시글 작성자를 확인하므로, 게시글과 관계를 한 batch로 함께 커밋한다.
+            const docRef = doc(collection(db, "posts"));
+            const batch = writeBatch(db);
+            batch.set(docRef, {
                 title: title.trim(),
                 contentHtml,
                 category,
@@ -68,6 +89,8 @@ const WritePage: React.FC<PageProps> = ({location}) => {
                 createdAt: serverTimestamp(),
                 updatedAt: serverTimestamp(),
             });
+            stageRelatedStocks(batch, db, docRef.id, [], relatedSymbols);
+            await batch.commit();
             await navigate(`/boards/${docRef.id}`);
         } catch {
             setError("게시글 등록에 실패했습니다.");
@@ -109,6 +132,8 @@ const WritePage: React.FC<PageProps> = ({location}) => {
                     />
 
                     <ToastEditor ref={editorRef}/>
+
+                    <StockPicker stocks={data.allStockDetail.nodes} value={relatedSymbols} onChange={setRelatedSymbols}/>
 
                     {isStaffRole(profile?.role) && (
                         <label className="flex items-center gap-2 text-sm text-slate-700 dark:text-slate-300">

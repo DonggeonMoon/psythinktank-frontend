@@ -89,6 +89,7 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       notice: Boolean
       category: String
       views: Float
+      relatedSymbols: [String]
     }
   `
     createTypes(typeDefs)
@@ -107,6 +108,15 @@ interface BoardPostData {
     notice: boolean
     category: string | null
     views: number
+    relatedSymbols: string[]
+}
+
+interface RelatedStock {
+    symbol: string
+    stock_name: string | null
+    market: string | null
+    recent_price: number | null
+    growth: number | null
 }
 
 // Node에는 DOM이 없어서 기본 DOMPurify 인스턴스는 sanitize를 하지 못하고 입력을 그대로 돌려준다.
@@ -138,7 +148,18 @@ const fetchBoardPosts = async (): Promise<BoardPostData[]> => {
     const app = existingApp ?? initializeApp(firebaseConfig, appName)
     const db = existingApp ? getFirestore(app) : initializeFirestore(app, { experimentalAutoDetectLongPolling: true })
 
-    const snapshot = await getDocs(collection(db, "posts"))
+    const [snapshot, relationSnapshot] = await Promise.all([
+        getDocs(collection(db, "posts")),
+        // 관계 조회가 실패해도(규칙 미배포 등) 게시글 페이지 생성까지 막히지 않도록 빈 결과로 대체한다.
+        getDocs(collection(db, "related_posts")).catch(() => ({ docs: [] })),
+    ])
+
+    const symbolsByPost = new Map<string, string[]>()
+    relationSnapshot.docs.forEach((doc) => {
+        const { postId, symbol } = doc.data() as { postId?: string; symbol?: string }
+        if (!postId || !symbol) return
+        symbolsByPost.set(postId, [...(symbolsByPost.get(postId) ?? []), symbol])
+    })
 
     return snapshot.docs.map((doc) => {
         const data = doc.data() as {
@@ -168,6 +189,7 @@ const fetchBoardPosts = async (): Promise<BoardPostData[]> => {
             notice: data.notice ?? false,
             category: data.category ?? null,
             views: data.views ?? 0,
+            relatedSymbols: (symbolsByPost.get(doc.id) ?? []).sort(),
         }
     })
 }
@@ -276,11 +298,15 @@ export const sourceNodes: GatsbyNode["sourceNodes"] = async ({ actions, createNo
 export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions, reporter }) => {
     const { createPage } = actions
 
-    const stockResult = await graphql<{ allStockDetail: { nodes: { symbol: string }[] } }>(`
+    const stockResult = await graphql<{ allStockDetail: { nodes: RelatedStock[] } }>(`
         query {
             allStockDetail {
                 nodes {
                     symbol
+                    stock_name
+                    market
+                    recent_price
+                    growth
                 }
             }
         }
@@ -292,6 +318,7 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
     }
 
     const stockNodes = stockResult.data?.allStockDetail.nodes ?? []
+    const stockBySymbol = new Map(stockNodes.map((node) => [node.symbol, node]))
 
     stockNodes.forEach((node) => {
         createPage({
@@ -319,6 +346,7 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
                     notice
                     category
                     views
+                    relatedSymbols
                 }
             }
         }
@@ -336,11 +364,12 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
     boardPostNodes.forEach((node, index) => {
         if (!node.postId) return
 
-        const { postId, title, description, ...post } = node
+        const { postId, title, description, relatedSymbols, ...post } = node
+        const relatedStocks = (relatedSymbols ?? []).flatMap((symbol) => stockBySymbol.get(symbol) ?? [])
         createPage({
             path: `/boards/${postId}`,
             component: boardDetailTemplate,
-            context: { postId, title, description, post: { ...post, title: title ?? "" } },
+            context: { postId, title, description, relatedStocks, post: { ...post, title: title ?? "" } },
         })
 
         reporter.info(`Creating page ${index + 1}/${total}: /boards/${node.postId}/`)
