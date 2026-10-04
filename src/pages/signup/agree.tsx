@@ -4,9 +4,13 @@ import type {HeadFC, PageProps} from "gatsby";
 import {navigate} from "gatsby";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import I18nText from "../../components/I18nText";
+import {useLang} from "../../contexts/LangContext";
 import {PRIVACY_CONSENT_TEXT, setAgreedToPrivacyConsent} from "../../lib/privacyConsent";
+import {consentLabels} from "../../i18n/authLabels";
 
 const AgreePage: React.FC<PageProps> = () => {
+    const {lang} = useLang();
     const [agreed, setAgreed] = useState(false);
 
     const handleContinue = () => {
@@ -21,11 +25,11 @@ const AgreePage: React.FC<PageProps> = () => {
 
             <main className="flex-1 mx-auto w-full max-w-lg px-4 py-16">
                 <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-6 text-center">
-                    개인정보 수집 및 이용 동의
+                    <I18nText dict={consentLabels.title} lang={lang}/>
                 </h1>
 
                 <div className="rounded-md border border-slate-200 bg-slate-50 p-4 text-sm text-slate-700 whitespace-pre-wrap max-h-96 overflow-y-auto dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300">
-                    {PRIVACY_CONSENT_TEXT}
+                    <I18nText dict={PRIVACY_CONSENT_TEXT} lang={lang}/>
                 </div>
 
                 <label className="mt-6 flex items-center gap-2 text-sm text-slate-700 dark:text-slate-300">
@@ -34,7 +38,7 @@ const AgreePage: React.FC<PageProps> = () => {
                         checked={agreed}
                         onChange={(e) => setAgreed(e.target.checked)}
                     />
-                    위 개인정보 수집 및 이용에 동의합니다. (필수)
+                    <I18nText dict={consentLabels.agreeCheckbox} lang={lang}/>
                 </label>
 
                 <button
@@ -43,7 +47,7 @@ const AgreePage: React.FC<PageProps> = () => {
                     disabled={!agreed}
                     className="mt-6 w-full rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:opacity-90 disabled:opacity-50 dark:bg-slate-100 dark:text-slate-900 transition-colors"
                 >
-                    동의하고 계속하기
+                    <I18nText dict={consentLabels.agreeAndContinue} lang={lang}/>
                 </button>
             </main>
 
