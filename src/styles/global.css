@@ -33,3 +33,92 @@ input[type="number"] {
     appearance: textfield;
     -moz-appearance: textfield;
 }
+
+/* 테두리를 따라 빛 조각이 한 바퀴 이동하는 카드(animated gradient border).
+   conic-gradient로 각도를 돌리면 직사각형에서는 변의 위치마다 이동 속도가 달라 보여서,
+   offset-path로 테두리 경로 위를 일정한 속도로 움직인다.
+   사용법: 컨테이너에 animated-gradient-border 클래스를 주고, 마지막 자식으로 <AnimatedGradientBorder/>을 넣는다.
+   --gradient-border-size는 빛 길이로, 둘레가 긴 컨테이너일수록 길게 잡아야 빛이 너무 빨리 스쳐 보이지 않는다.
+   --gradient-border-height는 빛 두께로, 높이가 낮은 카드에서 반대편 테두리까지 비치지 않을 만큼만 둔다.
+   --gradient-border-turn은 빛이 지나는 경로의 모서리 반지름이다. 카드 모서리보다 크게 둥글려서 빛이 모서리를
+   천천히 돌아 나가게 하며, 값이 클수록 모서리에서 더 느리고 부드럽게 꺾인다. */
+@layer components {
+    .animated-gradient-border {
+        --gradient-border-size: 120px;
+        --gradient-border-height: 56px;
+        --gradient-border-turn: 40px;
+        --gradient-border-base: var(--color-slate-200);
+        --gradient-border-color: var(--color-blue-500);
+        --gradient-border-peak: var(--color-indigo-600);
+        position: relative;
+        border: 2px solid var(--gradient-border-base);
+        box-shadow: 0 0 14px -6px color-mix(in srgb, var(--gradient-border-color) 45%, transparent);
+        transition: box-shadow 0.3s ease;
+    }
+
+    .animated-gradient-border:hover {
+        box-shadow: 0 0 28px -4px color-mix(in srgb, var(--gradient-border-color) 60%, transparent);
+    }
+
+    /* 다크 배경에서는 같은 파랑이 가라앉아 보여서 더 밝은 하늘색 계열로 피크를 올린다. */
+    :where(.dark) .animated-gradient-border {
+        --gradient-border-base: var(--color-slate-700);
+        --gradient-border-color: var(--color-blue-400);
+        --gradient-border-peak: var(--color-sky-200);
+    }
+
+    /* 컨테이너의 테두리 영역(2px 링)만 남기고 마스킹해서, 안에서 움직이는 빛이 테두리 위에만 보이게 한다. */
+    .animated-gradient-border-track {
+        position: absolute;
+        inset: -2px;
+        padding: 2px;
+        border-radius: inherit;
+        pointer-events: none;
+        mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+    }
+
+    .animated-gradient-border-light {
+        position: absolute;
+        width: var(--gradient-border-size);
+        height: var(--gradient-border-height);
+        /* 경로 모서리를 카드 모서리(12~16px)에 맞추면 빛이 한 번에 90도 꺾여 튀어 보이고, 회전 없는 원형 광원은
+           모서리에서 두 변을 동시에 비춰 건너뛰듯 빨라 보인다. 크게 둥글린 경로를 따라 타원형 빛을 진행 방향으로
+           서서히 돌리면, 경로 속도는 일정해도 테두리 위의 빛은 모서리에서 느려지며 부드럽게 꺾인다. */
+        background: radial-gradient(closest-side, var(--gradient-border-peak), var(--gradient-border-color) 40%, transparent);
+        offset-path: rect(0 auto auto 0 round var(--gradient-border-turn));
+        offset-rotate: auto;
+        offset-anchor: 50% 50%;
+        opacity: 0;
+        /* 2.6초 동안 한 바퀴 돈 뒤 10초 쉰다: 2.6 / 12.6 ≈ 20.6% */
+        animation: animated-gradient-border-move 12.6s linear infinite;
+    }
+}
+
+@keyframes animated-gradient-border-move {
+    0% {
+        offset-distance: 0%;
+        opacity: 1;
+    }
+    20.6% {
+        offset-distance: 100%;
+        opacity: 1;
+    }
+    20.7%, 100% {
+        offset-distance: 100%;
+        opacity: 0;
+    }
+}
+
+@supports not (offset-path: rect(0 auto auto 0)) {
+    .animated-gradient-border-light {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animated-gradient-border-light {
+        display: none;
+    }
+}
