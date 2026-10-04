@@ -80,6 +80,9 @@ const config: GatsbyConfig = {
           options: {
               name: "data",
               path: `${__dirname}/src/data/`,
+              // 청크 파일은 gatsby-node의 sourceNodes가 직접 읽어 노드로 만든다. 여기서도 읽으면 36MB를 한 번 더 파싱하고
+              // gatsby-transformer-json이 파일마다 GraphQL 타입(Shareholders1873Json 등)을 수천 개 추론해 develop/build가 크게 느려진다.
+              ignore: ["**/shareholders-*.json", "**/investors-*.json", "**/stock-details-*.json"],
           },
       },
       {
