@@ -13,6 +13,8 @@ import {useLang} from "../contexts/LangContext";
 
 Chart.register(...registerables);
 
+const SHAREHOLDER_PREVIEW_COUNT = 10;
+
 const RANK_COLORS = ["#2563eb", "#dc2626", "#16a34a", "#d97706", "#7c3aed", "#0891b2", "#db2777", "#65a30d"];
 
 export const query = graphql`
@@ -91,6 +93,7 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
     const {lang} = useLang();
     const [isDark, setIsDark] = useState(false);
+    const [showAllShareholders, setShowAllShareholders] = useState(false);
     useEffect(() => {
         const updateIsDark = () => setIsDark(document.documentElement.classList.contains("dark"));
         updateIsDark();
@@ -355,8 +358,14 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                 </tr>
                                 </thead>
                                 <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
-                                {shareholders.map((item) => (
-                                    <tr key={item.id} className="hover:bg-slate-50/50 dark:hover:bg-slate-900/30 transition-colors">
+                                {/* 접힌 행도 정적 HTML에 남겨 검색엔진이 전체 주주 정보를 읽을 수 있도록, 렌더링은 하고 CSS로만 숨긴다. */}
+                                {shareholders.map((item, idx) => (
+                                    <tr
+                                        key={item.id}
+                                        className={`hover:bg-slate-50/50 dark:hover:bg-slate-900/30 transition-colors ${
+                                            !showAllShareholders && idx >= SHAREHOLDER_PREVIEW_COUNT ? "hidden" : ""
+                                        }`}
+                                    >
                                         <td className="px-6 py-4 text-slate-500 font-mono text-xs">{item.date}</td>
                                         <td className="px-6 py-4 font-medium">{item.holder_name}</td>
                                         <td className="px-6 py-4 text-right font-bold text-slate-900 dark:text-slate-100">
@@ -366,6 +375,19 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                 ))}
                                 </tbody>
                             </table>
+                            {shareholders.length > SHAREHOLDER_PREVIEW_COUNT && (
+                                <button
+                                    type="button"
+                                    onClick={() => setShowAllShareholders((prev) => !prev)}
+                                    className="w-full border-t border-slate-200 dark:border-slate-800 py-3 text-sm font-medium text-slate-600 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-900/50 transition-colors"
+                                >
+                                    {showAllShareholders ? (
+                                        <><I18nText dict={stockLabels.showLess} lang={lang}/> ▲</>
+                                    ) : (
+                                        <><I18nText dict={stockLabels.showMore} lang={lang}/> (+{shareholders.length - SHAREHOLDER_PREVIEW_COUNT}) ▼</>
+                                    )}
+                                </button>
+                            )}
                         </div>
                     ) : (
                         <div className="py-10 text-center border-2 border-dashed border-slate-100 dark:border-slate-800 rounded-2xl text-slate-400 text-sm">
