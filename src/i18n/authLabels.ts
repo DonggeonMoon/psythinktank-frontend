@@ -17,6 +17,12 @@ export const commonAuthLabels = {
         ja: "パスワードは8文字以上で、英字・数字・記号をそれぞれ1文字以上含める必要があります。",
         zh: "密码须至少8位，且至少包含一个字母、一个数字和一个特殊字符。",
     },
+    invalidEmail: {
+        ko: "올바른 이메일 형식이 아닙니다.",
+        en: "Please enter a valid email address.",
+        ja: "正しいメールアドレスの形式ではありません。",
+        zh: "邮箱格式不正确。",
+    },
     emailAvailable: {ko: "사용 가능한 이메일입니다.", en: "This email is available.", ja: "使用可能なメールアドレスです。", zh: "该邮箱可以使用。"},
     emailTaken: {ko: "이미 가입된 이메일입니다.", en: "This email is already registered.", ja: "既に登録されているメールアドレスです。", zh: "该邮箱已被注册。"},
     nicknameAvailable: {ko: "사용 가능한 닉네임입니다.", en: "This nickname is available.", ja: "使用可能なニックネームです。", zh: "该昵称可以使用。"},

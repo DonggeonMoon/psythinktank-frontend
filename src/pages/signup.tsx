@@ -7,7 +7,7 @@ import Header from "../components/Header";
 import {useAuth} from "../contexts/AuthContext";
 import {useLang} from "../contexts/LangContext";
 import I18nText from "../components/I18nText";
-import {isValidPassword} from "../lib/validation";
+import {isValidEmail, isValidPassword} from "../lib/validation";
 import {consumeAgreedToPrivacyConsent} from "../lib/privacyConsent";
 import type {Lang} from "../i18n/stockLabels";
 import {commonAuthLabels, signupPageLabels, verificationSentMessage} from "../i18n/authLabels";
@@ -16,7 +16,7 @@ const inputClass =
     "w-full rounded-md border border-slate-300 bg-white px-4 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:focus:ring-slate-700";
 const labelClass = "block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1";
 
-type EmailStatus = "idle" | "checking" | "available" | "unavailable";
+type EmailStatus = "idle" | "checking" | "available" | "unavailable" | "invalid";
 type NicknameStatus = "idle" | "checking" | "available" | "unavailable";
 
 const renderVerificationSent = (email: string, lang: Lang) => {
@@ -62,6 +62,10 @@ const SignupPage: React.FC<PageProps> = () => {
     const handleEmailCheck = async () => {
         const trimmed = email.trim();
         if (!trimmed) return;
+        if (!isValidEmail(trimmed)) {
+            setEmailStatus("invalid");
+            return;
+        }
 
         setEmailStatus("checking");
         try {
@@ -220,6 +224,9 @@ const SignupPage: React.FC<PageProps> = () => {
                         )}
                         {emailStatus === "unavailable" && (
                             <p className="mt-1 text-sm text-red-600 dark:text-red-400"><I18nText dict={commonAuthLabels.emailTaken} lang={lang}/></p>
+                        )}
+                        {emailStatus === "invalid" && (
+                            <p className="mt-1 text-sm text-red-600 dark:text-red-400"><I18nText dict={commonAuthLabels.invalidEmail} lang={lang}/></p>
                         )}
                     </div>
 
