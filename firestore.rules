@@ -60,9 +60,13 @@ service cloud.firestore {
     }
 
     // 이메일 문서 ID = 소문자로 정규화한 이메일. 구조는 nicknames와 동일 (전역 유일성 보장, update 금지).
+    // 남의 이메일을 선점해 그 사람의 가입을 막지 못하도록 본인 계정 이메일로만 생성할 수 있다.
     match /emails/{email} {
       allow read: if true;
-      allow create: if request.auth != null && request.resource.data.uid == request.auth.uid;
+      allow create: if request.auth != null
+                    && request.resource.data.uid == request.auth.uid
+                    && request.auth.token.email != null
+                    && email == request.auth.token.email.lower();
       allow update: if false;
       allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
     }

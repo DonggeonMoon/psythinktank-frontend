@@ -119,6 +119,19 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                         .catch(() => {});
                 }
 
+                // 마이그레이션된 기존 회원은 emails/{email} 문서 없이 들어와 이메일 중복 검사를 통과했다.
+                // 일괄 백필 이후에도 누락분이 생기면 로그인 시점에 메운다.
+                if (userProfile && firebaseUser.email) {
+                    const emailRef = doc(firestore, "emails", normalizeEmail(firebaseUser.email));
+                    getDoc(emailRef)
+                        .then((emailSnapshot) => {
+                            if (!emailSnapshot.exists()) {
+                                return setDoc(emailRef, { uid: firebaseUser.uid });
+                            }
+                        })
+                        .catch(() => {});
+                }
+
                 // 마이그레이션된 옛날 회원 등, 최신 버전의 개인정보 동의를 아직 안 받은 계정은
                 // 동의 페이지로 보내 재동의를 받는다.
                 if (
