@@ -13,6 +13,8 @@ import {BoardCategory} from "../lib/boardCategory";
 import CommentSection from "../components/CommentSection";
 import RoleBadge from "../components/RoleBadge";
 import RelatedStocks, {type RelatedStock} from "../components/RelatedStocks";
+import AdjacentPosts from "../components/AdjacentPosts";
+import type {AdjacentPosts as AdjacentPostsData} from "../lib/adjacentPosts";
 import I18nText from "../components/I18nText";
 import {boardCategoryI18n, boardDetailLabels, viewsLabel} from "../i18n/pageLabels";
 import {useLang} from "../contexts/LangContext";
@@ -42,6 +44,7 @@ interface BoardDetailContext {
     // 빌드 시점 스냅샷(contentHtml은 gatsby-node에서 이미 sanitize됨). 정적 HTML에 본문을 담기 위해 초기 상태로 쓴다.
     post?: Post | null;
     relatedStocks?: RelatedStock[];
+    adjacentPosts?: AdjacentPostsData;
 }
 
 const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageContext}) => {
@@ -172,26 +175,35 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
 
                     <RelatedStocks postId={postId} initialStocks={pageContext.relatedStocks ?? []}/>
 
-                    <div className="flex items-center justify-center gap-2 border-t border-slate-100 pt-10 dark:border-slate-800">
-                        <Link to="/boards" className="rounded-md border border-slate-300 px-6 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900">
-                            <I18nText dict={boardDetailLabels.listButton} lang={lang}/>
-                        </Link>
-                        {canManage && (
-                            <>
-                                <Link
-                                    to={`/boards/edit/${postId}`}
-                                    className="rounded-md border border-slate-300 px-6 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900"
-                                >
-                                    <I18nText dict={boardDetailLabels.edit} lang={lang}/>
-                                </Link>
-                                <button
-                                    onClick={handleDelete}
-                                    className="rounded-md border border-red-300 px-6 py-2 text-sm font-medium text-red-600 hover:bg-red-50 dark:border-red-900/60 dark:text-red-400 dark:hover:bg-red-900/20"
-                                >
-                                    <I18nText dict={boardDetailLabels.delete} lang={lang}/>
-                                </button>
-                            </>
-                        )}
+                    <div className="pt-6">
+                        <AdjacentPosts
+                            postId={postId}
+                            category={post.category}
+                            createdAt={post.createdAt}
+                            initial={pageContext.adjacentPosts ?? {prev: null, next: null}}
+                        />
+
+                        <div className="flex items-center justify-center gap-2 border-t border-slate-100 pt-10 dark:border-slate-800">
+                            <Link to="/boards" className="rounded-md border border-slate-300 px-6 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900">
+                                <I18nText dict={boardDetailLabels.listButton} lang={lang}/>
+                            </Link>
+                            {canManage && (
+                                <>
+                                    <Link
+                                        to={`/boards/edit/${postId}`}
+                                        className="rounded-md border border-slate-300 px-6 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900"
+                                    >
+                                        <I18nText dict={boardDetailLabels.edit} lang={lang}/>
+                                    </Link>
+                                    <button
+                                        onClick={handleDelete}
+                                        className="rounded-md border border-red-300 px-6 py-2 text-sm font-medium text-red-600 hover:bg-red-50 dark:border-red-900/60 dark:text-red-400 dark:hover:bg-red-900/20"
+                                    >
+                                        <I18nText dict={boardDetailLabels.delete} lang={lang}/>
+                                    </button>
+                                </>
+                            )}
+                        </div>
                     </div>
 
                     <CommentSection parentCollection="posts" parentId={postId}/>

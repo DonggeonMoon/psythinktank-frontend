@@ -81,6 +81,9 @@ export const boardDetailLabels = {
     edit: {ko: "수정", en: "Edit", ja: "編集", zh: "编辑"},
     delete: {ko: "삭제", en: "Delete", ja: "削除", zh: "删除"},
     relatedStocks: {ko: "관련 종목", en: "Related Stocks", ja: "関連銘柄", zh: "相关股票"},
+    prevPost: {ko: "이전글", en: "Previous", ja: "前の投稿", zh: "上一篇"},
+    nextPost: {ko: "다음글", en: "Next", ja: "次の投稿", zh: "下一篇"},
+    noAdjacentPost: {ko: "글이 없습니다.", en: "No post.", ja: "投稿がありません。", zh: "没有帖子。"},
 } satisfies Record<string, Dict>;
 
 export const viewsLabel = (count: string, lang: Lang): string => {

@@ -361,6 +361,24 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
     const boardDetailTemplate = path.resolve("./src/templates/BoardDetail.tsx")
     const total = boardPostNodes.length
 
+    // 이전글/다음글은 같은 카테고리 안에서 작성일 순으로 정한다. 게시판 목록처럼 카테고리가 없으면 국내로 본다.
+    type AdjacentPost = { postId: string; title: string; createdAt: string | null }
+    const adjacentByPost = new Map<string, { prev: AdjacentPost | null; next: AdjacentPost | null }>()
+    const postsByCategory = new Map<string, typeof boardPostNodes>()
+    boardPostNodes.forEach((node) => {
+        if (!node.postId || !node.createdAt) return
+        const category = node.category ?? "domestic"
+        postsByCategory.set(category, [...(postsByCategory.get(category) ?? []), node])
+    })
+    postsByCategory.forEach((nodes) => {
+        const sorted = [...nodes].sort((a, b) => (b.createdAt ?? "").localeCompare(a.createdAt ?? ""))
+        const toAdjacent = (node?: (typeof sorted)[number]): AdjacentPost | null =>
+            node ? { postId: node.postId, title: node.title ?? "", createdAt: node.createdAt } : null
+        sorted.forEach((node, i) => {
+            adjacentByPost.set(node.postId, { prev: toAdjacent(sorted[i + 1]), next: toAdjacent(sorted[i - 1]) })
+        })
+    })
+
     boardPostNodes.forEach((node, index) => {
         if (!node.postId) return
 
@@ -369,7 +387,14 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
         createPage({
             path: `/boards/${postId}`,
             component: boardDetailTemplate,
-            context: { postId, title, description, relatedStocks, post: { ...post, title: title ?? "" } },
+            context: {
+                postId,
+                title,
+                description,
+                relatedStocks,
+                adjacentPosts: adjacentByPost.get(postId) ?? { prev: null, next: null },
+                post: { ...post, title: title ?? "" },
+            },
         })
 
         reporter.info(`Creating page ${index + 1}/${total}: /boards/${node.postId}/`)
