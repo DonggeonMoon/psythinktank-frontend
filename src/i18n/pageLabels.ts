@@ -321,7 +321,6 @@ export const performancePageLabels = {
     period: {ko: "기간", en: "Period", ja: "期間", zh: "期间"},
     maxReturn: {ko: "최대 단일 종목 수익률", en: "Highest Single-Stock Return", ja: "最大単一銘柄収益率", zh: "最高单只股票收益率"},
     avgReturn: {ko: "평균(0 제외)", en: "Average (excl. 0)", ja: "平均（0を除く）", zh: "平均值（不含0）"},
-    loading: {ko: "불러오는 중...", en: "Loading...", ja: "読み込み中...", zh: "加载中..."},
     empty: {ko: "등록된 성과 데이터가 없습니다.", en: "No performance data yet.", ja: "登録されたパフォーマンスデータがありません。", zh: "暂无业绩数据。"},
     holding: {ko: "보유중", en: "Holding", ja: "保有中", zh: "持有中"},
     returnRate: {ko: "수익률(%)", en: "Returns (%)", ja: "収益率(%)", zh: "收益率(%)"},

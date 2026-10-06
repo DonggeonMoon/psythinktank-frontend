@@ -1,5 +1,5 @@
 import * as React from "react";
-import type {HeadFC, PageProps} from "gatsby";
+import {graphql, type HeadFC, type PageProps} from "gatsby";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import {useEffect, useMemo, useState} from "react";
@@ -11,7 +11,7 @@ import {
     doc,
     getDocs,
     orderBy,
-    query,
+    query as firestoreQuery,
     serverTimestamp,
     updateDoc,
 } from "firebase/firestore";
@@ -40,7 +40,13 @@ interface YearGroup {
 const inputClass =
     "rounded-md border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:focus:ring-slate-700";
 
-const PerformancePage: React.FC<PageProps> = () => {
+interface PerformancePageData {
+    allPerformanceEntry: {
+        nodes: { entryId: string; year: number; stockName: string; returnRate: number }[];
+    };
+}
+
+const PerformancePage: React.FC<PageProps<PerformancePageData>> = ({data}) => {
     const {profile} = useAuth();
     const canManage = isStaffRole(profile?.role);
     const {lang} = useLang();
@@ -55,8 +61,10 @@ const PerformancePage: React.FC<PageProps> = () => {
         return () => observer.disconnect();
     }, []);
 
-    const [entries, setEntries] = useState<PerformanceEntry[]>([]);
-    const [loading, setLoading] = useState(true);
+    // 빌드 시점 스냅샷으로 먼저 그려서 정적 HTML에 성과가 담기게 하고, 마운트 후 최신 데이터로 갱신한다.
+    const [entries, setEntries] = useState<PerformanceEntry[]>(() =>
+        data.allPerformanceEntry.nodes.map(({entryId, ...rest}) => ({id: entryId, ...rest}))
+    );
 
     const [formYear, setFormYear] = useState("");
     const [formStock, setFormStock] = useState("");
@@ -66,7 +74,7 @@ const PerformancePage: React.FC<PageProps> = () => {
 
     const loadEntries = async () => {
         if (!db) return;
-        const snapshot = await getDocs(query(collection(db, "performance"), orderBy("year", "asc")));
+        const snapshot = await getDocs(firestoreQuery(collection(db, "performance"), orderBy("year", "asc")));
         setEntries(
             snapshot.docs.map((d) => {
                 const data = d.data();
@@ -78,7 +86,6 @@ const PerformancePage: React.FC<PageProps> = () => {
                 };
             })
         );
-        setLoading(false);
     };
 
     useEffect(() => {
@@ -372,9 +379,7 @@ const PerformancePage: React.FC<PageProps> = () => {
                 )}
 
                 <section className="space-y-6">
-                    {loading ? (
-                        <p className="text-sm text-slate-400"><I18nText dict={performancePageLabels.loading} lang={lang}/></p>
-                    ) : yearGroups.length === 0 ? (
+                    {yearGroups.length === 0 ? (
                         <p className="text-sm text-slate-400"><I18nText dict={performancePageLabels.empty} lang={lang}/></p>
                     ) : (
                         yearGroups.map((d) => (
@@ -409,5 +414,18 @@ const PerformancePage: React.FC<PageProps> = () => {
 }
 
 export default PerformancePage
+
+export const query = graphql`
+    query PerformancePage {
+        allPerformanceEntry(sort: {year: ASC}) {
+            nodes {
+                entryId
+                year
+                stockName
+                returnRate
+            }
+        }
+    }
+`
 
 export const Head: HeadFC = () => <title>성과</title>

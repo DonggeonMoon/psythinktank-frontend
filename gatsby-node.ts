@@ -91,6 +91,12 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       views: Float
       relatedSymbols: [String]
     }
+    type PerformanceEntry implements Node {
+      entryId: String
+      year: Int
+      stockName: String
+      returnRate: Float
+    }
   `
     createTypes(typeDefs)
 }
@@ -109,6 +115,13 @@ interface BoardPostData {
     category: string | null
     views: number
     relatedSymbols: string[]
+}
+
+interface PerformanceEntryData {
+    entryId: string
+    year: number
+    stockName: string
+    returnRate: number
 }
 
 interface RelatedStock {
@@ -131,9 +144,7 @@ const toExcerpt = (html: string, maxLength = 160) => {
     return text.length > maxLength ? `${text.slice(0, maxLength)}…` : text
 }
 
-// 게시글은 Firestore에만 존재해서 로컬 json 스냅샷이 없으므로, sitemap과 게시글 상세 정적 페이지를
-// 만들기 위해 빌드 시점에 Firestore에서 게시글을 직접 조회해 노드로 만든다.
-const fetchBoardPosts = async (): Promise<BoardPostData[]> => {
+const getBuildFirestore = () => {
     const firebaseConfig = {
         apiKey: process.env.GATSBY_FIREBASE_API_KEY,
         authDomain: process.env.GATSBY_FIREBASE_AUTH_DOMAIN,
@@ -141,12 +152,19 @@ const fetchBoardPosts = async (): Promise<BoardPostData[]> => {
         appId: process.env.GATSBY_FIREBASE_APP_ID,
     }
 
-    if (!firebaseConfig.apiKey || !firebaseConfig.projectId) return []
+    if (!firebaseConfig.apiKey || !firebaseConfig.projectId) return null
 
     const appName = "gatsby-node-sitemap"
     const existingApp = getApps().find((app) => app.name === appName)
     const app = existingApp ?? initializeApp(firebaseConfig, appName)
-    const db = existingApp ? getFirestore(app) : initializeFirestore(app, { experimentalAutoDetectLongPolling: true })
+    return existingApp ? getFirestore(app) : initializeFirestore(app, { experimentalAutoDetectLongPolling: true })
+}
+
+// 게시글은 Firestore에만 존재해서 로컬 json 스냅샷이 없으므로, sitemap과 게시글 상세 정적 페이지를
+// 만들기 위해 빌드 시점에 Firestore에서 게시글을 직접 조회해 노드로 만든다.
+const fetchBoardPosts = async (): Promise<BoardPostData[]> => {
+    const db = getBuildFirestore()
+    if (!db) return []
 
     const [snapshot, relationSnapshot] = await Promise.all([
         getDocs(collection(db, "posts")),
@@ -194,6 +212,23 @@ const fetchBoardPosts = async (): Promise<BoardPostData[]> => {
     })
 }
 
+// 성과 페이지도 Firestore에만 데이터가 있어서, 빌드 시점에 조회해 정적 HTML에 수익률이 담기도록 한다.
+const fetchPerformanceEntries = async (): Promise<PerformanceEntryData[]> => {
+    const db = getBuildFirestore()
+    if (!db) return []
+
+    const snapshot = await getDocs(collection(db, "performance"))
+    return snapshot.docs.map((doc) => {
+        const data = doc.data() as { year?: number; stockName?: string; returnRate?: number }
+        return {
+            entryId: doc.id,
+            year: data.year ?? 0,
+            stockName: data.stockName ?? "",
+            returnRate: data.returnRate ?? 0,
+        }
+    })
+}
+
 // stock-details-*.json / shareholders-*.json는 50개 단위로 청크된 여러 파일로 나뉘어 있어서,
 // gatsby-transformer-json의 파일명 기반 타입 추론 대신 직접 노드를 만들어 하나의 타입으로 합친다.
 export const sourceNodes: GatsbyNode["sourceNodes"] = async ({ actions, createNodeId, createContentDigest, reporter }) => {
@@ -217,6 +252,24 @@ export const sourceNodes: GatsbyNode["sourceNodes"] = async ({ actions, createNo
         )
     } catch (error) {
         reporter.warn(`게시글 sitemap용 Firestore 조회 실패, 게시글 URL 없이 진행합니다: ${error}`)
+    }
+
+    try {
+        const entries = await fetchPerformanceEntries()
+        entries.forEach((entry) =>
+            createNode({
+                ...entry,
+                id: createNodeId(`PerformanceEntry-${entry.entryId}`),
+                parent: null,
+                children: [],
+                internal: {
+                    type: "PerformanceEntry",
+                    contentDigest: createContentDigest(entry),
+                },
+            })
+        )
+    } catch (error) {
+        reporter.warn(`성과 데이터 Firestore 조회 실패, 빈 성과 페이지로 진행합니다: ${error}`)
     }
 
     if (!fs.existsSync(DATA_DIR)) return
