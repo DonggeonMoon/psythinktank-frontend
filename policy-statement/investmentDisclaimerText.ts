@@ -1,0 +1,80 @@
+import type {Lang} from "../src/i18n/stockLabels";
+
+export const INVESTMENT_DISCLAIMER_TEXT: Record<Lang, string> = {
+    ko: `PSY Thinktank(이하 "서비스")에서 제공하는 모든 정보를 이용하시기 전에 아래 내용을 반드시 확인해 주시기 바랍니다.
+
+1. 투자 권유 및 투자 자문이 아닙니다
+서비스에서 제공하는 종목 정보, 성장성·배당 지표, 성과 자료, 회보, 게시글 등 모든 콘텐츠는 일반적인 정보 제공 및 학습을 목적으로 하며, 특정 금융투자상품의 매수·매도를 권유하거나 개별 이용자에게 맞춘 투자 자문을 제공하는 것이 아닙니다. 서비스는 「자본시장과 금융투자업에 관한 법률」에 따른 투자자문업자 또는 투자일임업자가 아닙니다.
+
+2. 투자 판단과 책임은 이용자 본인에게 있습니다
+모든 투자 결정은 이용자 본인의 판단과 책임 하에 이루어져야 합니다. 서비스는 이용자가 서비스의 정보를 참고하여 내린 투자 결정으로 발생한 손실이나 손해에 대해 어떠한 법적 책임도 지지 않습니다.
+
+3. 정보의 정확성
+서비스의 데이터는 공개된 외부 출처에서 수집·가공한 것으로, 정확성·완전성·적시성을 보장하지 않으며 실제 시세와 차이가 있거나 지연될 수 있습니다. 중요한 투자 결정 전에는 반드시 공식 공시 자료와 증권사 정보 등을 직접 확인하시기 바랍니다.
+
+4. 과거 성과는 미래 수익을 보장하지 않습니다
+성과 페이지 등에 표시되는 수익률은 과거 기록이며, 거래 비용·세금·환율 등이 반영되지 않았을 수 있습니다. 과거의 성과가 미래의 수익을 보장하지 않으며, 투자 원금의 손실이 발생할 수 있습니다.
+
+5. 회원 게시물
+게시판과 댓글에 회원이 작성한 의견은 작성자 개인의 견해이며 서비스의 입장과 무관합니다. 서비스는 회원 게시물의 정확성을 검증하거나 보증하지 않습니다.
+
+6. 이해관계
+서비스 운영자 및 작성자는 서비스에서 언급한 종목을 보유하고 있거나 향후 매매할 수 있습니다.`,
+    en: `Please read the following carefully before using any information provided by PSY Thinktank (the "Service").
+
+1. Not a solicitation or investment advice
+All content on the Service, including stock information, growth and dividend metrics, performance records, newsletters, and posts, is provided for general information and educational purposes only. It is not a recommendation to buy or sell any financial investment product, nor investment advice tailored to any individual. The Service is not a registered investment adviser or discretionary investment manager under Korea's Financial Investment Services and Capital Markets Act.
+
+2. Investment decisions are your own responsibility
+All investment decisions must be made at your own judgment and risk. The Service bears no legal liability for any loss or damage resulting from investment decisions made with reference to its information.
+
+3. Accuracy of information
+Data on the Service is collected and processed from public external sources. Its accuracy, completeness, and timeliness are not guaranteed, and it may differ from or lag behind actual market prices. Always verify official disclosures and information from your brokerage before making important investment decisions.
+
+4. Past performance does not guarantee future results
+Returns shown on the Performance page and elsewhere are historical records and may not reflect trading costs, taxes, or exchange rates. Past performance does not guarantee future returns, and you may lose some or all of your principal.
+
+5. Member content
+Opinions posted by members on boards and in comments are their own and do not represent the Service. The Service does not verify or guarantee the accuracy of member content.
+
+6. Conflicts of interest
+The operators and authors of the Service may hold, or may in the future trade, the stocks mentioned on the Service.`,
+    ja: `PSY Thinktank（以下「本サービス」）が提供するすべての情報をご利用になる前に、以下の内容を必ずご確認ください。
+
+1. 投資勧誘および投資助言ではありません
+本サービスが提供する銘柄情報、成長性・配当指標、パフォーマンス資料、ニュースレター、投稿などすべてのコンテンツは、一般的な情報提供および学習を目的としたものであり、特定の金融商品の売買を勧誘するものでも、個々の利用者に合わせた投資助言を提供するものでもありません。本サービスは、韓国「資本市場と金融投資業に関する法律」に基づく投資助言業者または投資一任業者ではありません。
+
+2. 投資判断と責任は利用者ご本人にあります
+すべての投資判断は、利用者ご本人の判断と責任において行ってください。本サービスは、利用者が本サービスの情報を参考にして行った投資判断により生じた損失または損害について、いかなる法的責任も負いません。
+
+3. 情報の正確性
+本サービスのデータは公開された外部の情報源から収集・加工したものであり、正確性・完全性・適時性を保証するものではなく、実際の相場と異なる場合や遅延する場合があります。重要な投資判断の前には、必ず公式の開示資料や証券会社の情報などを直接ご確認ください。
+
+4. 過去の実績は将来の収益を保証しません
+パフォーマンスページなどに表示される収益率は過去の記録であり、取引コスト・税金・為替レートなどが反映されていない場合があります。過去の実績は将来の収益を保証するものではなく、投資元本を割り込む損失が生じる可能性があります。
+
+5. 会員の投稿
+掲示板およびコメントに会員が投稿した意見は投稿者個人の見解であり、本サービスの立場とは関係ありません。本サービスは会員の投稿の正確性を検証または保証しません。
+
+6. 利害関係
+本サービスの運営者および執筆者は、本サービスで言及した銘柄を保有している、または今後売買する可能性があります。`,
+    zh: `在使用PSY Thinktank（以下简称"本服务"）提供的任何信息之前，请务必仔细阅读以下内容。
+
+1. 不构成投资劝诱或投资咨询
+本服务提供的股票信息、成长性及股息指标、业绩资料、通讯、帖子等所有内容仅供一般信息参考及学习之用，并非劝诱买卖任何金融投资产品，也不是针对个别用户的投资咨询。本服务并非韩国《资本市场与金融投资业法》规定的投资咨询业者或全权委托投资业者。
+
+2. 投资判断及责任由用户本人承担
+所有投资决定均应由用户本人自行判断并承担责任。对于用户参考本服务信息作出的投资决定所造成的任何损失或损害，本服务不承担任何法律责任。
+
+3. 信息的准确性
+本服务的数据收集并加工自公开的外部来源，不保证其准确性、完整性及时效性，可能与实际行情存在差异或有所延迟。在作出重要投资决定前，请务必直接核实官方公告资料及证券公司信息等。
+
+4. 过往业绩不代表未来收益
+业绩页面等处显示的收益率为过往记录，可能未计入交易成本、税费、汇率等因素。过往业绩不保证未来收益，投资本金可能发生亏损。
+
+5. 会员发布内容
+会员在论坛及评论中发表的意见仅代表其个人观点，与本服务立场无关。本服务不核实也不保证会员发布内容的准确性。
+
+6. 利益关系
+本服务的运营者及作者可能持有或将来买卖本服务所提及的股票。`,
+};

@@ -412,3 +412,9 @@ export const headerLabels = {
     openMenu: {ko: "사용자 메뉴 열기", en: "Open user menu", ja: "ユーザーメニューを開く", zh: "打开用户菜单"},
     closeMenu: {ko: "메뉴 닫기", en: "Close menu", ja: "メニューを閉じる", zh: "关闭菜单"},
 } satisfies Record<string, Dict>;
+
+export const policyLabels = {
+    privacyPolicy: {ko: "개인정보 처리방침", en: "Privacy Policy", ja: "個人情報処理方針", zh: "个人信息处理方针"},
+    termsOfService: {ko: "이용약관", en: "Terms of Service", ja: "利用規約", zh: "使用条款"},
+    investmentDisclaimer: {ko: "투자 면책 고지", en: "Investment Disclaimer", ja: "投資免責事項", zh: "投资免责声明"},
+} satisfies Record<string, Dict>;
