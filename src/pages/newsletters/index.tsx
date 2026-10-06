@@ -17,7 +17,6 @@ export const query = graphql`
         id
         name
         publicURL
-        modifiedTime(formatString: "YYYY-MM-DD")
       }
     }
   }
@@ -27,15 +26,26 @@ interface NewsletterFile {
     id: string;
     name: string;
     publicURL: string | null;
-    modifiedTime: string;
 }
 
 interface DataProps {
     allFile: { nodes: NewsletterFile[] };
 }
 
+// CI 체크아웃 시 파일 수정 시각이 빌드 시각으로 바뀌므로, 발행일은 파일명 "회보 N권(YYYYMM)"에서 읽는다.
+const parseNewsletterName = (name: string) => {
+    const volume = name.match(/(\d+)권/);
+    const date = name.match(/\((\d{4})(\d{2})\)/);
+    return {
+        volume: volume ? Number(volume[1]) : 0,
+        date: date ? `${date[1]}-${date[2]}-01` : "-",
+    };
+};
+
 const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
-    const newsletters = data.allFile.nodes;
+    const newsletters = data.allFile.nodes
+        .map((node) => ({...node, ...parseNewsletterName(node.name)}))
+        .sort((a, b) => b.volume - a.volume);
     const {lang} = useLang();
 
     return (
@@ -102,7 +112,7 @@ const NewsletterPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
                                         <div
                                             className="col-span-3 text-center font-mono text-slate-400 dark:text-slate-500 text-xs">
-                                            {item.modifiedTime}
+                                            {item.date}
                                         </div>
                                     </a>
                                 ))
