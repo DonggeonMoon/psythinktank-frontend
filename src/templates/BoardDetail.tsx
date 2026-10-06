@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import {Link, navigate, type HeadFC, type PageProps} from "gatsby";
 import {doc, getDoc, increment, Timestamp, updateDoc, writeBatch} from "firebase/firestore";
 import DOMPurify from "dompurify";
+import {POST_SANITIZE_CONFIG} from "../lib/sanitizeConfig";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Ticker from "../components/Ticker";
@@ -70,7 +71,7 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
             const data = snapshot.data() as FirestorePost;
             setPost({
                 ...data,
-                contentHtml: DOMPurify.sanitize(data.contentHtml ?? ""),
+                contentHtml: DOMPurify.sanitize(data.contentHtml ?? "", POST_SANITIZE_CONFIG),
                 createdAt: data.createdAt ? data.createdAt.toDate().toISOString() : null,
             });
             setLoading(false);
@@ -129,7 +130,7 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
                     <header className="space-y-4 border-b border-slate-100 pb-8 dark:border-slate-800">
                         <div className="space-y-2">
                             <div className="flex items-center gap-2">
-                                {post.category && (
+                                {post.category && boardCategoryI18n[post.category] && (
                                     <span className="inline-block rounded bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-600 dark:bg-slate-800 dark:text-slate-300">
                                         <I18nText dict={boardCategoryI18n[post.category]} lang={lang}/>
                                     </span>

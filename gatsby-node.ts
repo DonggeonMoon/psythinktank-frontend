@@ -4,6 +4,7 @@ import * as path from "path"
 import * as dotenv from "dotenv"
 import { JSDOM } from "jsdom"
 import createDOMPurify from "dompurify"
+import { POST_SANITIZE_CONFIG } from "./src/lib/sanitizeConfig"
 import { initializeApp, getApps } from "firebase/app"
 import { initializeFirestore, getFirestore, collection, getDocs, type Timestamp } from "firebase/firestore"
 
@@ -193,7 +194,7 @@ const fetchBoardPosts = async (): Promise<BoardPostData[]> => {
             createdAt?: Timestamp
         }
         const timestamp = data.updatedAt ?? data.createdAt
-        const contentHtml = purify.sanitize(data.contentHtml ?? "")
+        const contentHtml = purify.sanitize(data.contentHtml ?? "", POST_SANITIZE_CONFIG)
         return {
             postId: doc.id,
             title: data.title ?? null,
@@ -205,7 +206,7 @@ const fetchBoardPosts = async (): Promise<BoardPostData[]> => {
             authorName: data.authorName ?? null,
             authorRole: data.authorRole ?? null,
             notice: data.notice ?? false,
-            category: data.category ?? null,
+            category: data.category === "domestic" || data.category === "overseas" ? data.category : null,
             views: data.views ?? 0,
             relatedSymbols: (symbolsByPost.get(doc.id) ?? []).sort(),
         }
