@@ -29,7 +29,6 @@ export const consumeAgreedToPrivacyConsent = () => {
     try {
         sessionStorage.removeItem(AGREED_KEY);
     } catch {
-        // 무시
     }
     return agreed;
 };

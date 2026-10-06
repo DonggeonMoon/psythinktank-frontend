@@ -324,7 +324,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({data, location}) => {
                                                     {stock.symbol}
                                                 </span>
                                                 <span
-                                                    className="h-2 w-[1px] bg-slate-200 dark:bg-slate-700"/> {/* 구분선 */}
+                                                    className="h-2 w-[1px] bg-slate-200 dark:bg-slate-700"/>
                                                 <span
                                                     className="text-[10px] font-bold uppercase text-slate-400 dark:text-slate-500">
                                                     {stock.market}
