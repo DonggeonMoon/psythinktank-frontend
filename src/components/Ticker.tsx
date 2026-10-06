@@ -2,7 +2,7 @@ import * as React from "react";
 
 const Ticker = () => {
     return (
-        <section className="sticky bottom-0 z-40 overflow-hidden border-y border-slate-200 bg-slate-100 py-3 dark:border-slate-800 dark:bg-slate-900">
+        <section className="hidden sticky bottom-0 z-40 overflow-hidden border-y border-slate-200 bg-slate-100 py-3 dark:border-slate-800 dark:bg-slate-900">
             <div
                 className="flex whitespace-nowrap"
                 style={{
