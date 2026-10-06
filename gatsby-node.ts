@@ -352,7 +352,7 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
     const { createPage } = actions
 
     const stockResult = await graphql<{ allStockDetail: { nodes: RelatedStock[] } }>(`
-        query {
+        query StockDetailPages {
             allStockDetail {
                 nodes {
                     symbol
@@ -385,7 +385,7 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
     // 처리해서 빌드 타임에 정적 파일이 생성되지 않았고, 그 결과 구글 크롤러가 접근하면 404가 났다.
     // BoardPost 노드(sourceNodes에서 Firestore로부터 조회)를 기준으로 제목/본문이 담긴 실제 페이지를 생성한다.
     const boardResult = await graphql<{ allBoardPost: { nodes: Omit<BoardPostData, "updatedAt">[] } }>(`
-        query {
+        query BoardDetailPages {
             allBoardPost {
                 nodes {
                     postId
