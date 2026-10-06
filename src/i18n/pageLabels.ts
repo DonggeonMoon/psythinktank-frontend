@@ -340,7 +340,7 @@ export const yearLabel = (year: number, lang: Lang): string => {
 };
 
 export const indexPageLabels = {
-    title: {ko: "성장성 Top 100", en: "Top 100 by Growth", ja: "成長性 Top 100", zh: "成长性 Top 100"},
+    title: {ko: "성장성 Top", en: "Top by Growth", ja: "成長性 Top", zh: "成长性 Top"},
     subtitle: {
         ko: "성장률 기준 상위 종목 목록입니다.",
         en: "Top stocks ranked by growth rate.",
