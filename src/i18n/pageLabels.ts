@@ -121,6 +121,13 @@ export const boardEditorLabels = {
     },
 } satisfies Record<string, Dict>;
 
+export const notFoundLabels = {
+    imageAlt: {ko: "열일하는 늑대 개발자", en: "A hard-working wolf developer", ja: "働き者のオオカミ開発者", zh: "努力工作的狼开发者"},
+    prefix: {ko: "", en: "This page ", ja: "", zh: "该页面"},
+    emphasis: {ko: "존재하지 않는", en: "does not exist", ja: "存在しない", zh: "不存在"},
+    suffix: {ko: " 페이지입니다.", en: ".", ja: "ページです。", zh: "。"},
+} satisfies Record<string, Dict>;
+
 export const maxStocksReached =(max: number, lang: Lang): string => {
     switch (lang) {
         case "en":

@@ -5,6 +5,7 @@ interface I18nTextProps {
     dict: Record<Lang, React.ReactNode>;
     lang: Lang;
     className?: string;
+    style?: React.CSSProperties;
     as?: keyof JSX.IntrinsicElements;
 }
 
@@ -13,12 +14,12 @@ interface I18nTextProps {
  * HTML always contains every language for crawlers) and hides the inactive
  * ones with CSS instead of conditionally rendering only the selected one.
  */
-const I18nText: React.FC<I18nTextProps> = ({dict, lang, className, as = "span"}) => {
+const I18nText: React.FC<I18nTextProps> = ({dict, lang, className, style, as = "span"}) => {
     const Tag = as as React.ElementType;
     return (
         <>
             {(Object.keys(dict) as Lang[]).map((code) => (
-                <Tag key={code} lang={code} className={[className, code === lang ? "" : "hidden"].filter(Boolean).join(" ")}>
+                <Tag key={code} lang={code} className={[className, code === lang ? "" : "hidden"].filter(Boolean).join(" ")} style={style}>
                     {dict[code]}
                 </Tag>
             ))}
