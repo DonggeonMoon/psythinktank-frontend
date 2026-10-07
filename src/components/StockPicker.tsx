@@ -1,6 +1,8 @@
 import * as React from "react";
 import {useMemo, useState} from "react";
 import {MAX_RELATED_STOCKS} from "../lib/relatedPosts";
+import {useLang} from "../contexts/LangContext";
+import {boardEditorLabels, maxStocksReached, removeStockAriaLabel} from "../i18n/pageLabels";
 
 export interface PickableStock {
     symbol: string | null;
@@ -17,6 +19,7 @@ interface StockPickerProps {
 const MAX_SUGGESTIONS = 10;
 
 const StockPicker: React.FC<StockPickerProps> = ({stocks, value, onChange}) => {
+    const {lang} = useLang();
     const [term, setTerm] = useState("");
 
     const bySymbol = useMemo(() => new Map(stocks.map((s) => [s.symbol, s])), [stocks]);
@@ -55,7 +58,7 @@ const StockPicker: React.FC<StockPickerProps> = ({stocks, value, onChange}) => {
     return (
         <div className="space-y-2">
             <p className="text-sm font-medium text-slate-700 dark:text-slate-300">
-                관련 종목 <span className="text-slate-400">({value.length}/{MAX_RELATED_STOCKS})</span>
+                {boardEditorLabels.relatedStocks[lang]} <span className="text-slate-400">({value.length}/{MAX_RELATED_STOCKS})</span>
             </p>
 
             {value.length > 0 && (
@@ -73,7 +76,7 @@ const StockPicker: React.FC<StockPickerProps> = ({stocks, value, onChange}) => {
                                     type="button"
                                     onClick={() => onChange(value.filter((s) => s !== symbol))}
                                     className="text-slate-400 hover:text-red-500"
-                                    aria-label={`${symbol} 제거`}
+                                    aria-label={removeStockAriaLabel(symbol, lang)}
                                 >
                                     ×
                                 </button>
@@ -86,7 +89,7 @@ const StockPicker: React.FC<StockPickerProps> = ({stocks, value, onChange}) => {
             <div className="relative">
                 <input
                     type="text"
-                    placeholder={isFull ? `최대 ${MAX_RELATED_STOCKS}개까지 선택할 수 있습니다` : "종목명 또는 종목코드로 검색"}
+                    placeholder={isFull ? maxStocksReached(MAX_RELATED_STOCKS, lang) : boardEditorLabels.stockSearchPlaceholder[lang]}
                     value={term}
                     disabled={isFull}
                     onChange={(e) => setTerm(e.target.value)}

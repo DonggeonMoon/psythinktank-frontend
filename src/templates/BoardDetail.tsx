@@ -84,7 +84,7 @@ const BoardDetailPage: React.FC<PageProps<object, BoardDetailContext>> = ({pageC
 
     const handleDelete = async () => {
         if (!db || !postId) return;
-        if (!window.confirm("이 게시글을 삭제하시겠습니까?")) return;
+        if (!window.confirm(boardDetailLabels.confirmDelete[lang])) return;
 
         const batch = writeBatch(db);
         stageRelatedStocks(batch, db, postId, await fetchRelatedSymbols(db, postId), []);

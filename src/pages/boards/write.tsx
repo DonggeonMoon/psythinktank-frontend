@@ -9,7 +9,9 @@ import StockPicker, {type PickableStock} from "../../components/StockPicker";
 import {db} from "../../firebase/client";
 import {useAuth} from "../../contexts/AuthContext";
 import {isStaffRole} from "../../lib/roles";
-import {BOARD_CATEGORY_LABEL, BoardCategory} from "../../lib/boardCategory";
+import {BoardCategory} from "../../lib/boardCategory";
+import {useLang} from "../../contexts/LangContext";
+import {boardCategoryI18n, boardEditorLabels} from "../../i18n/pageLabels";
 import {stageRelatedStocks} from "../../lib/relatedPosts";
 
 export const query = graphql`
@@ -32,6 +34,7 @@ const CATEGORIES: BoardCategory[] = ["domestic", "overseas"];
 
 const WritePage: React.FC<PageProps<DataProps>> = ({data, location}) => {
     const {user, profile, loading} = useAuth();
+    const {lang} = useLang();
     const initialCategory = new URLSearchParams(location.search).get("category");
     const [category, setCategory] = useState<BoardCategory>(
         initialCategory === "overseas" ? "overseas" : "domestic"
@@ -40,7 +43,7 @@ const WritePage: React.FC<PageProps<DataProps>> = ({data, location}) => {
     const [notice, setNotice] = useState(false);
     const [relatedSymbols, setRelatedSymbols] = useState<string[]>([]);
     const [submitting, setSubmitting] = useState(false);
-    const [error, setError] = useState<string | null>(null);
+    const [error, setError] = useState<keyof typeof boardEditorLabels | null>(null);
     const editorRef = useRef<ToastEditorHandle>(null);
 
     useEffect(() => {
@@ -64,7 +67,7 @@ const WritePage: React.FC<PageProps<DataProps>> = ({data, location}) => {
         setError(null);
 
         if (!title.trim()) {
-            setError("제목을 입력해주세요.");
+            setError("titleRequired");
             return;
         }
         if (!db) return;
@@ -93,7 +96,7 @@ const WritePage: React.FC<PageProps<DataProps>> = ({data, location}) => {
             await batch.commit();
             await navigate(`/boards/${docRef.id}`);
         } catch {
-            setError("게시글 등록에 실패했습니다.");
+            setError("createFailed");
             setSubmitting(false);
         }
     };
@@ -103,7 +106,7 @@ const WritePage: React.FC<PageProps<DataProps>> = ({data, location}) => {
             <Header/>
 
             <main className="flex-1 mx-auto w-full max-w-4xl px-4 py-10 space-y-6">
-                <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">글쓰기</h1>
+                <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">{boardEditorLabels.writeTitle[lang]}</h1>
 
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <div className="flex gap-2">
@@ -118,14 +121,14 @@ const WritePage: React.FC<PageProps<DataProps>> = ({data, location}) => {
                                         : "border-slate-300 text-slate-600 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-400 dark:hover:bg-slate-900"
                                 }`}
                             >
-                                {BOARD_CATEGORY_LABEL[c]}
+                                {boardCategoryI18n[c][lang]}
                             </button>
                         ))}
                     </div>
 
                     <input
                         type="text"
-                        placeholder="제목을 입력하세요"
+                        placeholder={boardEditorLabels.titlePlaceholder[lang]}
                         value={title}
                         onChange={(e) => setTitle(e.target.value)}
                         className="w-full rounded-md border border-slate-300 bg-white px-4 py-3 text-base text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:focus:ring-slate-700"
@@ -142,11 +145,11 @@ const WritePage: React.FC<PageProps<DataProps>> = ({data, location}) => {
                                 checked={notice}
                                 onChange={(e) => setNotice(e.target.checked)}
                             />
-                            공지사항으로 등록
+                            {boardEditorLabels.registerAsNotice[lang]}
                         </label>
                     )}
 
-                    {error && <p className="text-sm text-red-600 dark:text-red-400">{error}</p>}
+                    {error && <p className="text-sm text-red-600 dark:text-red-400">{boardEditorLabels[error][lang]}</p>}
 
                     <div className="flex justify-end gap-2">
                         <button
@@ -154,14 +157,14 @@ const WritePage: React.FC<PageProps<DataProps>> = ({data, location}) => {
                             onClick={() => navigate("/boards")}
                             className="rounded-md border border-slate-300 px-6 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900"
                         >
-                            취소
+                            {boardEditorLabels.cancel[lang]}
                         </button>
                         <button
                             type="submit"
                             disabled={submitting}
                             className="rounded-md bg-slate-900 px-6 py-2 text-sm font-medium text-white hover:opacity-90 disabled:opacity-50 dark:bg-slate-100 dark:text-slate-900 transition-colors"
                         >
-                            {submitting ? "등록 중..." : "등록"}
+                            {submitting ? boardEditorLabels.submitting[lang] : boardEditorLabels.submit[lang]}
                         </button>
                     </div>
                 </form>

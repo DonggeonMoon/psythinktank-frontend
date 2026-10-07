@@ -1,6 +1,8 @@
 import * as React from "react";
 import {forwardRef, useEffect, useImperativeHandle, useRef, useState} from "react";
 import type Editor from "@toast-ui/editor";
+import {useLang} from "../contexts/LangContext";
+import {boardEditorLabels} from "../i18n/pageLabels";
 
 export interface ToastEditorHandle {
     getHTML: () => string;
@@ -15,6 +17,7 @@ type EditMode = "wysiwyg" | "html";
 
 const ToastEditor = forwardRef<ToastEditorHandle, ToastEditorProps>(
     ({initialValue = "", height = "500px"}, ref) => {
+        const {lang} = useLang();
         const containerRef = useRef<HTMLDivElement>(null);
         const editorRef = useRef<Editor | null>(null);
         // Toast UI는 지원하지 않는 태그/속성을 버리므로, WYSIWYG에서 손대지 않았다면 HTML 모드에 원본을 그대로 보여준다
@@ -84,7 +87,7 @@ const ToastEditor = forwardRef<ToastEditorHandle, ToastEditorProps>(
             <div>
                 <div className="flex justify-end gap-1">
                     <button type="button" onClick={() => switchMode("wysiwyg")} className={tabClass(mode === "wysiwyg")}>
-                        에디터
+                        {boardEditorLabels.editorTab[lang]}
                     </button>
                     <button type="button" onClick={() => switchMode("html")} className={tabClass(mode === "html")}>
                         HTML

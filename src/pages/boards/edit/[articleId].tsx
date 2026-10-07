@@ -9,7 +9,9 @@ import StockPicker, {type PickableStock} from "../../../components/StockPicker";
 import {db} from "../../../firebase/client";
 import {useAuth} from "../../../contexts/AuthContext";
 import {isStaffRole} from "../../../lib/roles";
-import {BOARD_CATEGORY_LABEL, BoardCategory} from "../../../lib/boardCategory";
+import {BoardCategory} from "../../../lib/boardCategory";
+import {useLang} from "../../../contexts/LangContext";
+import {boardCategoryI18n, boardEditorLabels} from "../../../i18n/pageLabels";
 import {fetchRelatedSymbols, stageRelatedStocks} from "../../../lib/relatedPosts";
 
 export const query = graphql`
@@ -41,6 +43,7 @@ interface Post {
 const EditPage: React.FC<PageProps<DataProps>> = ({data: pageData, params}) => {
     const {articleId} = params;
     const {user, profile, loading: authLoading} = useAuth();
+    const {lang} = useLang();
 
     const [post, setPost] = useState<Post | null>(null);
     const [title, setTitle] = useState("");
@@ -51,7 +54,7 @@ const EditPage: React.FC<PageProps<DataProps>> = ({data: pageData, params}) => {
     const [loading, setLoading] = useState(true);
     const [forbidden, setForbidden] = useState(false);
     const [submitting, setSubmitting] = useState(false);
-    const [error, setError] = useState<string | null>(null);
+    const [error, setError] = useState<keyof typeof boardEditorLabels | null>(null);
     const editorRef = useRef<ToastEditorHandle>(null);
 
     useEffect(() => {
@@ -105,7 +108,7 @@ const EditPage: React.FC<PageProps<DataProps>> = ({data: pageData, params}) => {
             <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
                 <Header/>
                 <main className="flex-1 p-10 text-center text-slate-500 dark:text-slate-400">
-                    수정 권한이 없거나 존재하지 않는 게시글입니다.
+                    {boardEditorLabels.forbidden[lang]}
                 </main>
                 <Footer/>
             </div>
@@ -117,7 +120,7 @@ const EditPage: React.FC<PageProps<DataProps>> = ({data: pageData, params}) => {
         setError(null);
 
         if (!title.trim()) {
-            setError("제목을 입력해주세요.");
+            setError("titleRequired");
             return;
         }
         if (!db || !articleId) return;
@@ -138,7 +141,7 @@ const EditPage: React.FC<PageProps<DataProps>> = ({data: pageData, params}) => {
             await batch.commit();
             await navigate(`/boards/${articleId}`);
         } catch {
-            setError("게시글 수정에 실패했습니다.");
+            setError("updateFailed");
             setSubmitting(false);
         }
     };
@@ -148,7 +151,7 @@ const EditPage: React.FC<PageProps<DataProps>> = ({data: pageData, params}) => {
             <Header/>
 
             <main className="flex-1 mx-auto w-full max-w-4xl px-4 py-10 space-y-6">
-                <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">글 수정</h1>
+                <h1 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">{boardEditorLabels.editTitle[lang]}</h1>
 
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <div className="flex gap-2">
@@ -163,14 +166,14 @@ const EditPage: React.FC<PageProps<DataProps>> = ({data: pageData, params}) => {
                                         : "border-slate-300 text-slate-600 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-400 dark:hover:bg-slate-900"
                                 }`}
                             >
-                                {BOARD_CATEGORY_LABEL[c]}
+                                {boardCategoryI18n[c][lang]}
                             </button>
                         ))}
                     </div>
 
                     <input
                         type="text"
-                        placeholder="제목을 입력하세요"
+                        placeholder={boardEditorLabels.titlePlaceholder[lang]}
                         value={title}
                         onChange={(e) => setTitle(e.target.value)}
                         className="w-full rounded-md border border-slate-300 bg-white px-4 py-3 text-base text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100 dark:focus:ring-slate-700"
@@ -187,11 +190,11 @@ const EditPage: React.FC<PageProps<DataProps>> = ({data: pageData, params}) => {
                                 checked={notice}
                                 onChange={(e) => setNotice(e.target.checked)}
                             />
-                            공지사항으로 등록
+                            {boardEditorLabels.registerAsNotice[lang]}
                         </label>
                     )}
 
-                    {error && <p className="text-sm text-red-600 dark:text-red-400">{error}</p>}
+                    {error && <p className="text-sm text-red-600 dark:text-red-400">{boardEditorLabels[error][lang]}</p>}
 
                     <div className="flex justify-end gap-2">
                         <button
@@ -199,14 +202,14 @@ const EditPage: React.FC<PageProps<DataProps>> = ({data: pageData, params}) => {
                             onClick={() => navigate(`/boards/${articleId}`)}
                             className="rounded-md border border-slate-300 px-6 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-900"
                         >
-                            취소
+                            {boardEditorLabels.cancel[lang]}
                         </button>
                         <button
                             type="submit"
                             disabled={submitting}
                             className="rounded-md bg-slate-900 px-6 py-2 text-sm font-medium text-white hover:opacity-90 disabled:opacity-50 dark:bg-slate-100 dark:text-slate-900 transition-colors"
                         >
-                            {submitting ? "저장 중..." : "저장"}
+                            {submitting ? boardEditorLabels.saving[lang] : boardEditorLabels.save[lang]}
                         </button>
                     </div>
                 </form>

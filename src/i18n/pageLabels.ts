@@ -84,7 +84,68 @@ export const boardDetailLabels = {
     prevPost: {ko: "이전글", en: "Previous", ja: "前の投稿", zh: "上一篇"},
     nextPost: {ko: "다음글", en: "Next", ja: "次の投稿", zh: "下一篇"},
     noAdjacentPost: {ko: "글이 없습니다.", en: "No post.", ja: "投稿がありません。", zh: "没有帖子。"},
+    confirmDelete: {
+        ko: "이 게시글을 삭제하시겠습니까?",
+        en: "Delete this post?",
+        ja: "この投稿を削除しますか？",
+        zh: "确定要删除这篇帖子吗？",
+    },
 } satisfies Record<string, Dict>;
+
+export const boardEditorLabels = {
+    writeTitle: {ko: "글쓰기", en: "Write a Post", ja: "投稿する", zh: "发帖"},
+    editTitle: {ko: "글 수정", en: "Edit Post", ja: "投稿を編集", zh: "编辑帖子"},
+    titlePlaceholder: {ko: "제목을 입력하세요", en: "Enter a title", ja: "タイトルを入力してください", zh: "请输入标题"},
+    titleRequired: {ko: "제목을 입력해주세요.", en: "Please enter a title.", ja: "タイトルを入力してください。", zh: "请输入标题。"},
+    registerAsNotice: {ko: "공지사항으로 등록", en: "Post as notice", ja: "お知らせとして登録", zh: "设为公告"},
+    cancel: {ko: "취소", en: "Cancel", ja: "キャンセル", zh: "取消"},
+    submit: {ko: "등록", en: "Post", ja: "投稿", zh: "发布"},
+    submitting: {ko: "등록 중...", en: "Posting...", ja: "投稿中...", zh: "发布中..."},
+    save: {ko: "저장", en: "Save", ja: "保存", zh: "保存"},
+    saving: {ko: "저장 중...", en: "Saving...", ja: "保存中...", zh: "保存中..."},
+    createFailed: {ko: "게시글 등록에 실패했습니다.", en: "Failed to publish the post.", ja: "投稿の登録に失敗しました。", zh: "帖子发布失败。"},
+    updateFailed: {ko: "게시글 수정에 실패했습니다.", en: "Failed to update the post.", ja: "投稿の編集に失敗しました。", zh: "帖子修改失败。"},
+    forbidden: {
+        ko: "수정 권한이 없거나 존재하지 않는 게시글입니다.",
+        en: "This post does not exist or you don't have permission to edit it.",
+        ja: "編集権限がないか、存在しない投稿です。",
+        zh: "该帖子不存在或您没有编辑权限。",
+    },
+    editorTab: {ko: "에디터", en: "Editor", ja: "エディター", zh: "编辑器"},
+    relatedStocks: {ko: "관련 종목", en: "Related Stocks", ja: "関連銘柄", zh: "相关股票"},
+    stockSearchPlaceholder: {
+        ko: "종목명 또는 종목코드로 검색",
+        en: "Search by stock name or code",
+        ja: "銘柄名または銘柄コードで検索",
+        zh: "按股票名称或代码搜索",
+    },
+} satisfies Record<string, Dict>;
+
+export const maxStocksReached =(max: number, lang: Lang): string => {
+    switch (lang) {
+        case "en":
+            return `You can select up to ${max} stocks`;
+        case "ja":
+            return `最大${max}件まで選択できます`;
+        case "zh":
+            return `最多可选择${max}只股票`;
+        default:
+            return `최대 ${max}개까지 선택할 수 있습니다`;
+    }
+};
+
+export const removeStockAriaLabel = (symbol: string, lang: Lang): string => {
+    switch (lang) {
+        case "en":
+            return `Remove ${symbol}`;
+        case "ja":
+            return `${symbol}を削除`;
+        case "zh":
+            return `移除${symbol}`;
+        default:
+            return `${symbol} 제거`;
+    }
+};
 
 export const viewsLabel = (count: string, lang: Lang): string => {
     switch (lang) {
