@@ -27,7 +27,7 @@ export const onRenderBody: GatsbySSR["onRenderBody"] = ({setHeadComponents}) => 
         ] : []),
         <meta key="google-site-verification" name="google-site-verification"
               content="FEZ-QQqTHTmdnS8FzNs-7TOeveE9vAmN9_fs3MgIzq4"/>,
-        <meta key="naver-site-verification" name="naver-site-verification" content="188aec7f07541b21448d05fb0b92073950c81bdc" />
+        <meta key="naver-site-verification" name="naver-site-verification" content="369cd357a5de6d37d15f6442853e994b465851cf" />
     ])
 }
 
