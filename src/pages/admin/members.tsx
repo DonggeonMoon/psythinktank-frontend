@@ -196,7 +196,7 @@ const AdminMembersPage: React.FC<PageProps> = () => {
                             members.map((m) => (
                                 <div
                                     key={m.uid}
-                                    className="flex flex-col gap-1 px-6 py-4 text-sm text-slate-700 dark:text-slate-300 md:grid md:grid-cols-12 md:items-center md:gap-4"
+                                    className="flex flex-col gap-1 px-6 py-4 text-sm text-slate-700 dark:text-slate-300 md:grid md:grid-cols-12 md:grid-flow-dense md:items-center md:gap-4"
                                 >
                                     <div className="flex items-center justify-between gap-2 md:contents">
                                         <div className="truncate font-medium md:col-start-1 md:col-span-3 md:font-normal">{m.nickname}</div>
