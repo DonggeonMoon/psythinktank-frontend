@@ -80,6 +80,12 @@ export const signupBannerLabels = {
         ja: "PSYThinktankの会員になりませんか",
         zh: "成为PSYThinktank会员吧",
     },
+    subtitle: {
+        ko: "이메일만으로 가입 가능해요",
+        en: "Sign up with just your email",
+        ja: "メールアドレスだけで登録できます",
+        zh: "仅凭邮箱即可注册",
+    },
     close: {ko: "닫기", en: "Close", ja: "閉じる", zh: "关闭"},
     signup: {ko: "회원 가입", en: "Sign up", ja: "会員登録", zh: "注册"},
     login: {ko: "로그인", en: "Log in", ja: "ログイン", zh: "登录"},

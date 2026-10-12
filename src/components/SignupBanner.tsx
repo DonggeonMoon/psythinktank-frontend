@@ -47,9 +47,14 @@ const SignupBanner: React.FC = () => {
             className="fixed bottom-4 right-4 left-4 z-50 flex flex-col gap-4 rounded-xl border border-slate-200 bg-white p-5 shadow-lg sm:left-auto sm:w-96 dark:border-slate-700 dark:bg-slate-900"
         >
             <div className="flex items-start justify-between gap-3">
-                <p className="text-base font-semibold text-slate-900 dark:text-slate-100">
-                    <I18nText dict={signupBannerLabels.title} lang={lang}/>
-                </p>
+                <div className="flex flex-col gap-1">
+                    <p className="text-base font-semibold text-slate-900 dark:text-slate-100">
+                        <I18nText dict={signupBannerLabels.title} lang={lang}/>
+                    </p>
+                    <p className="text-xs text-slate-500 dark:text-slate-400">
+                        <I18nText dict={signupBannerLabels.subtitle} lang={lang}/>
+                    </p>
+                </div>
                 <button
                     type="button"
                     onClick={dismiss}
