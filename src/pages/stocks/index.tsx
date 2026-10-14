@@ -19,6 +19,7 @@ export const query = graphql`
         local_name
         symbol
         market
+        country
         nps_holding
       }
     }
@@ -30,6 +31,7 @@ interface Stock {
     local_name: string | null;
     symbol: string | null;
     market: string;
+    country: string | null;
     nps_holding: boolean | null;
 }
 
@@ -156,6 +158,9 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                                             >
                                                 {stock.stock_name}
                                             </Link>
+                                            {!!stock.local_name && (stock.country === "JAPAN" || stock.country === "USA") && (
+                                                <p className="mt-0.5 text-xs font-normal text-slate-500 dark:text-slate-400">{stock.local_name}</p>
+                                            )}
                                         </td>
                                         <td className="px-6 py-4 text-center">
                                                 <span className="font-mono text-sm text-slate-500 dark:text-slate-400">
