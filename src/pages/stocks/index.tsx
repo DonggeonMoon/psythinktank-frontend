@@ -16,6 +16,7 @@ export const query = graphql`
     allStockDetail(sort: { symbol: ASC }) {
       nodes {
         stock_name
+        local_name
         symbol
         market
         nps_holding
@@ -26,6 +27,7 @@ export const query = graphql`
 
 interface Stock {
     stock_name: string | null;
+    local_name: string | null;
     symbol: string | null;
     market: string;
     nps_holding: boolean | null;
@@ -61,6 +63,7 @@ const StockPage: React.FC<PageProps<DataProps>> = ({data}) => {
                     (!npsOnly || stock.nps_holding) &&
                     (!lowerSearch ||
                         stock.stock_name?.toLowerCase().includes(lowerSearch) ||
+                        stock.local_name?.toLowerCase().includes(lowerSearch) ||
                         stock.symbol?.toLowerCase().includes(lowerSearch))
             )
             .sort((a, b) => symbolMatchRank(b.symbol) - symbolMatchRank(a.symbol));

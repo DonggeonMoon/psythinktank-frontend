@@ -20,6 +20,7 @@ export const query = graphql`
       nodes {
         symbol
         stock_name
+        local_name
         market
       }
     }

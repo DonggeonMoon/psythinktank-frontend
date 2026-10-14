@@ -7,6 +7,7 @@ import {boardEditorLabels, maxStocksReached, removeStockAriaLabel} from "../i18n
 export interface PickableStock {
     symbol: string | null;
     stock_name: string | null;
+    local_name: string | null;
     market: string | null;
 }
 
@@ -32,7 +33,7 @@ const StockPicker: React.FC<StockPickerProps> = ({stocks, value, onChange}) => {
             const symbol = s.symbol?.toLowerCase() ?? "";
             if (symbol === lower) return 3;
             if (symbol.startsWith(lower)) return 2;
-            if (s.stock_name?.toLowerCase().startsWith(lower)) return 1;
+            if (s.stock_name?.toLowerCase().startsWith(lower) || s.local_name?.toLowerCase().startsWith(lower)) return 1;
             return 0;
         };
 
@@ -41,7 +42,9 @@ const StockPicker: React.FC<StockPickerProps> = ({stocks, value, onChange}) => {
                 (s) =>
                     !!s.symbol &&
                     !value.includes(s.symbol) &&
-                    (s.symbol.toLowerCase().includes(lower) || s.stock_name?.toLowerCase().includes(lower))
+                    (s.symbol.toLowerCase().includes(lower) ||
+                        s.stock_name?.toLowerCase().includes(lower) ||
+                        s.local_name?.toLowerCase().includes(lower))
             )
             .sort((a, b) => rank(b) - rank(a))
             .slice(0, MAX_SUGGESTIONS);
