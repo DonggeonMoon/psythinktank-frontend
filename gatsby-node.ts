@@ -5,6 +5,7 @@ import * as dotenv from "dotenv"
 import { JSDOM } from "jsdom"
 import createDOMPurify from "dompurify"
 import { POST_SANITIZE_CONFIG } from "./src/lib/sanitizeConfig"
+import { MAX_STOCK_SIBLING_POSTS } from "./src/lib/relatedPosts"
 import { initializeApp, getApps } from "firebase/app"
 import { initializeFirestore, getFirestore, collection, getDocs, type Timestamp } from "firebase/firestore"
 
@@ -433,6 +434,32 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
         })
     })
 
+    // 관련 종목이 겹치는 다른 글. 겹치는 종목 수가 많은 순, 같으면 최신 순으로 고른다.
+    const postIdsBySymbol = new Map<string, string[]>()
+    boardPostNodes.forEach((node) => {
+        (node.relatedSymbols ?? []).forEach((symbol) => {
+            postIdsBySymbol.set(symbol, [...(postIdsBySymbol.get(symbol) ?? []), node.postId])
+        })
+    })
+    const boardPostById = new Map(boardPostNodes.map((node) => [node.postId, node]))
+    const getStockSiblingPosts = (postId: string, symbols: string[]): AdjacentPost[] => {
+        const sharedCount = new Map<string, number>()
+        symbols.forEach((symbol) => {
+            (postIdsBySymbol.get(symbol) ?? []).forEach((id) => {
+                if (id !== postId) sharedCount.set(id, (sharedCount.get(id) ?? 0) + 1)
+            })
+        })
+        return Array.from(sharedCount.keys())
+            .flatMap((id) => {
+                const node = boardPostById.get(id)
+                return node ? [{ postId: id, title: node.title ?? "", createdAt: node.createdAt }] : []
+            })
+            .sort((a, b) =>
+                (sharedCount.get(b.postId) ?? 0) - (sharedCount.get(a.postId) ?? 0)
+                || (b.createdAt ?? "").localeCompare(a.createdAt ?? ""))
+            .slice(0, MAX_STOCK_SIBLING_POSTS)
+    }
+
     boardPostNodes.forEach((node, index) => {
         if (!node.postId) return
 
@@ -447,6 +474,7 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
                 description,
                 relatedStocks,
                 adjacentPosts: adjacentByPost.get(postId) ?? { prev: null, next: null },
+                stockSiblingPosts: getStockSiblingPosts(postId, relatedSymbols ?? []),
                 post: { ...post, title: title ?? "" },
             },
         })

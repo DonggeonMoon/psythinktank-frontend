@@ -33,10 +33,7 @@ export interface RelatedPost {
 // Firestore의 "in" 조건은 값 30개까지만 허용된다.
 const IN_QUERY_LIMIT = 30;
 
-export const fetchRelatedPosts = async (db: Firestore, symbol: string): Promise<RelatedPost[]> => {
-    const relations = await getDocs(query(collection(db, RELATED_POSTS), where("symbol", "==", symbol)));
-    const postIds = Array.from(new Set(relations.docs.map((d) => d.data().postId as string)));
-
+const fetchPostsByIds = async (db: Firestore, postIds: string[]): Promise<RelatedPost[]> => {
     const chunks: string[][] = [];
     for (let i = 0; i < postIds.length; i += IN_QUERY_LIMIT) chunks.push(postIds.slice(i, i + IN_QUERY_LIMIT));
 
@@ -53,8 +50,36 @@ export const fetchRelatedPosts = async (db: Firestore, symbol: string): Promise<
                 title: data.title ?? "",
                 createdAt: data.createdAt ? data.createdAt.toDate().toISOString() : null,
             };
-        })
-        .sort((a, b) => (b.createdAt ?? "").localeCompare(a.createdAt ?? ""));
+        });
+};
+
+const byNewest = (a: RelatedPost, b: RelatedPost) => (b.createdAt ?? "").localeCompare(a.createdAt ?? "");
+
+export const fetchRelatedPosts = async (db: Firestore, symbol: string): Promise<RelatedPost[]> => {
+    const relations = await getDocs(query(collection(db, RELATED_POSTS), where("symbol", "==", symbol)));
+    const postIds = Array.from(new Set(relations.docs.map((d) => d.data().postId as string)));
+    return (await fetchPostsByIds(db, postIds)).sort(byNewest);
+};
+
+export const MAX_STOCK_SIBLING_POSTS = 5;
+
+// 겹치는 관련 종목이 많은 글을 우선하고, 같으면 최신 글 순으로 보여준다.
+export const fetchStockSiblingPosts = async (db: Firestore, postId: string): Promise<RelatedPost[]> => {
+    const symbols = await fetchRelatedSymbols(db, postId);
+    if (symbols.length === 0) return [];
+
+    // 글당 관련 종목은 MAX_RELATED_STOCKS(10)개라 "in" 한 번으로 조회된다.
+    const relations = await getDocs(query(collection(db, RELATED_POSTS), where("symbol", "in", symbols)));
+    const sharedCount = new Map<string, number>();
+    relations.docs.forEach((d) => {
+        const id = d.data().postId as string;
+        if (id !== postId) sharedCount.set(id, (sharedCount.get(id) ?? 0) + 1);
+    });
+
+    const posts = await fetchPostsByIds(db, Array.from(sharedCount.keys()));
+    return posts
+        .sort((a, b) => (sharedCount.get(b.postId) ?? 0) - (sharedCount.get(a.postId) ?? 0) || byNewest(a, b))
+        .slice(0, MAX_STOCK_SIBLING_POSTS);
 };
 
 export const stageRelatedStocks = (
