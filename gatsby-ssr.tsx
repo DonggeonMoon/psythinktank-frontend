@@ -12,8 +12,19 @@ export const wrapRootElement: GatsbySSR["wrapRootElement"] = ({ element }) => (
 // 정적 HTML은 항상 라이트로 렌더되므로, 첫 페인트 전에 저장된 테마를 적용해 다크모드가 잠깐 풀리는 깜빡임을 막는다.
 const themeInitScript = `try{if(localStorage.getItem("theme")==="dark")document.documentElement.classList.add("dark")}catch(e){}`
 
-export const onRenderBody: GatsbySSR["onRenderBody"] = ({setHeadComponents}) => {
+const SITE_URL = "https://www.psythinktank.com"
+
+// 404 페이지는 존재하지 않는 모든 URL에 대신 응답하므로 canonical을 박으면 엉뚱한 주소로 색인이 몰린다.
+// [articleId] 같은 File System Route 자리표시자 경로도 실제 URL이 아니라 제외한다.
+const getCanonicalUrl = (pathname: string) => {
+    if (pathname.startsWith("/404") || pathname.startsWith("/dev-404-page") || pathname.includes("[")) return null
+    return `${SITE_URL}${pathname.endsWith("/") ? pathname : `${pathname}/`}`
+}
+
+export const onRenderBody: GatsbySSR["onRenderBody"] = ({pathname, setHeadComponents}) => {
+    const canonicalUrl = getCanonicalUrl(pathname)
     setHeadComponents([
+        ...(canonicalUrl ? [<link key="canonical" rel="canonical" href={canonicalUrl}/>] : []),
         <script key="theme-init" dangerouslySetInnerHTML={{__html: themeInitScript}}/>,
         ...(process.env.NODE_ENV === "production" ? [
             <script key="gtag-src" async src="https://www.googletagmanager.com/gtag/js?id=G-5G1PG29YJH"/>,
