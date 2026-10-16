@@ -23,7 +23,6 @@ export const stockLabels = {
         zh: "没有可用于绘制图表的数据。",
     },
     shareholderInfo: {ko: "주주 정보", en: "Shareholder Information", ja: "株主情報", zh: "股东信息"},
-    baseDate: {ko: "기준일", en: "Date", ja: "基準日", zh: "基准日"},
     shareholderName: {ko: "주주명", en: "Shareholder", ja: "株主名", zh: "股东名称"},
     stake: {ko: "지분", en: "Stake", ja: "持分", zh: "股份"},
     stakePercent: {ko: "지분(%)", en: "Stake (%)", ja: "持分(%)", zh: "股份(%)"},
@@ -55,6 +54,13 @@ export const rankLabel: Record<Lang, (n: number) => string> = {
     en: (n) => `${n}${n === 1 ? "st" : n === 2 ? "nd" : n === 3 ? "rd" : "th"}`,
     ja: (n) => `${n}位`,
     zh: (n) => `第${n}名`,
+};
+
+export const shareholderCount: Record<Lang, (n: number) => string> = {
+    ko: (n) => `주주 ${n}명`,
+    en: (n) => `${n} shareholder${n === 1 ? "" : "s"}`,
+    ja: (n) => `株主${n}名`,
+    zh: (n) => `股东${n}名`,
 };
 
 export const asOfDate = (date: string, lang: Lang): string => {

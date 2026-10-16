@@ -8,12 +8,12 @@ import Ticker from "../components/Ticker";
 import I18nText from "../components/I18nText";
 import CommentSection from "../components/CommentSection";
 import RelatedPosts from "../components/RelatedPosts";
-import {asOfDate, getCurrency, rankLabel, stockLabels} from "../i18n/stockLabels";
+import {asOfDate, getCurrency, rankLabel, shareholderCount, stockLabels} from "../i18n/stockLabels";
 import {useLang} from "../contexts/LangContext";
 
 Chart.register(...registerables);
 
-const SHAREHOLDER_PREVIEW_COUNT = 10;
+const SHAREHOLDER_DATE_PREVIEW_COUNT = 10;
 
 const RANK_COLORS = ["#2563eb", "#dc2626", "#16a34a", "#d97706", "#7c3aed", "#0891b2", "#db2777", "#65a30d"];
 
@@ -93,7 +93,7 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
 
     const {lang} = useLang();
     const [isDark, setIsDark] = useState(false);
-    const [showAllShareholders, setShowAllShareholders] = useState(false);
+    const [showAllShareholderDates, setShowAllShareholderDates] = useState(false);
     useEffect(() => {
         const updateIsDark = () => setIsDark(document.documentElement.classList.contains("dark"));
         updateIsDark();
@@ -102,6 +102,13 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
         observer.observe(document.documentElement, {attributes: true, attributeFilter: ["class"]});
         return () => observer.disconnect();
     }, []);
+
+    // 쿼리가 날짜 내림차순이라 그룹도 최신 날짜부터 쌓인다.
+    const shareholderGroups = useMemo(() => {
+        const byDate = new Map<string, ShareholderNode[]>();
+        shareholders.forEach((s) => byDate.set(s.date, [...(byDate.get(s.date) ?? []), s]));
+        return Array.from(byDate, ([date, items]) => ({date, items: [...items].sort((a, b) => b.value - a.value)}));
+    }, [shareholders]);
 
     const rankChartData = useMemo(() => {
         const byDate = new Map<string, { holder_name: string; value: number }[]>();
@@ -348,43 +355,61 @@ const StockDetailPage: React.FC<PageProps<DataProps>> = ({data}) => {
                 <section className="space-y-4">
                     <h3 className="text-xl font-bold px-1"><I18nText dict={stockLabels.shareholderInfo} lang={lang}/></h3>
                     {shareholders.length > 0 ? (
-                        <div className="overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
-                            <table className="w-full text-left text-sm border-collapse">
-                                <thead className="bg-slate-50 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-800 text-slate-500">
-                                <tr>
-                                    <th className="px-6 py-4 font-semibold text-center"><I18nText dict={stockLabels.baseDate} lang={lang}/></th>
-                                    <th className="px-6 py-4 font-semibold text-center"><I18nText dict={stockLabels.shareholderName} lang={lang}/></th>
-                                    <th className="px-6 py-4 font-semibold text-center"><I18nText dict={stockLabels.stake} lang={lang}/></th>
-                                </tr>
-                                </thead>
-                                <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
-                                {/* 접힌 행도 정적 HTML에 남겨 검색엔진이 전체 주주 정보를 읽을 수 있도록, 렌더링은 하고 CSS로만 숨긴다. */}
-                                {shareholders.map((item, idx) => (
-                                    <tr
-                                        key={item.id}
-                                        className={`hover:bg-slate-50/50 dark:hover:bg-slate-900/30 transition-colors ${
-                                            !showAllShareholders && idx >= SHAREHOLDER_PREVIEW_COUNT ? "hidden" : ""
-                                        }`}
-                                    >
-                                        <td className="px-6 py-4 text-slate-500 font-mono text-xs">{item.date}</td>
-                                        <td className="px-6 py-4 font-medium">{item.holder_name}</td>
-                                        <td className="px-6 py-4 text-right font-bold text-slate-900 dark:text-slate-100">
-                                            {item.value.toLocaleString()}
-                                        </td>
-                                    </tr>
-                                ))}
-                                </tbody>
-                            </table>
-                            {shareholders.length > SHAREHOLDER_PREVIEW_COUNT && (
+                        <div className="overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm divide-y divide-slate-200 dark:divide-slate-800">
+                            {/* 접힌 날짜와 더보기로 숨긴 날짜도 정적 HTML에 남겨 검색엔진이 전체 주주 정보를 읽을 수 있도록, details와 CSS로만 숨긴다. */}
+                            {shareholderGroups.map((group, idx) => (
+                                <details
+                                    key={group.date}
+                                    open={idx === 0}
+                                    className={`group ${!showAllShareholderDates && idx >= SHAREHOLDER_DATE_PREVIEW_COUNT ? "hidden" : ""}`}
+                                >
+                                    <summary className="flex cursor-pointer list-none items-center justify-between gap-3 bg-slate-50 px-6 py-4 hover:bg-slate-100 dark:bg-slate-900/80 dark:hover:bg-slate-900 transition-colors [&::-webkit-details-marker]:hidden">
+                                        <span className="flex items-center gap-3">
+                                            <span className="font-mono text-sm font-semibold">{group.date}</span>
+                                            <span className="text-xs text-slate-500">
+                                                <I18nText
+                                                    dict={{
+                                                        ko: shareholderCount.ko(group.items.length),
+                                                        en: shareholderCount.en(group.items.length),
+                                                        ja: shareholderCount.ja(group.items.length),
+                                                        zh: shareholderCount.zh(group.items.length),
+                                                    }}
+                                                    lang={lang}
+                                                />
+                                            </span>
+                                        </span>
+                                        <span className="text-xs text-slate-400 transition-transform group-open:rotate-180">▼</span>
+                                    </summary>
+                                    <table className="w-full text-left text-sm border-collapse">
+                                        <thead className="border-y border-slate-100 dark:border-slate-800 text-slate-500">
+                                        <tr>
+                                            <th className="px-6 py-3 font-semibold text-center"><I18nText dict={stockLabels.shareholderName} lang={lang}/></th>
+                                            <th className="px-6 py-3 font-semibold text-center"><I18nText dict={stockLabels.stake} lang={lang}/></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
+                                        {group.items.map((item) => (
+                                            <tr key={item.id} className="hover:bg-slate-50/50 dark:hover:bg-slate-900/30 transition-colors">
+                                                <td className="px-6 py-4 font-medium">{item.holder_name}</td>
+                                                <td className="px-6 py-4 text-right font-bold text-slate-900 dark:text-slate-100">
+                                                    {item.value.toLocaleString()}
+                                                </td>
+                                            </tr>
+                                        ))}
+                                        </tbody>
+                                    </table>
+                                </details>
+                            ))}
+                            {shareholderGroups.length > SHAREHOLDER_DATE_PREVIEW_COUNT && (
                                 <button
                                     type="button"
-                                    onClick={() => setShowAllShareholders((prev) => !prev)}
-                                    className="w-full border-t border-slate-200 dark:border-slate-800 py-3 text-sm font-medium text-slate-600 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-900/50 transition-colors"
+                                    onClick={() => setShowAllShareholderDates((prev) => !prev)}
+                                    className="w-full py-3 text-sm font-medium text-slate-600 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-900/50 transition-colors"
                                 >
-                                    {showAllShareholders ? (
+                                    {showAllShareholderDates ? (
                                         <><I18nText dict={stockLabels.showLess} lang={lang}/> ▲</>
                                     ) : (
-                                        <><I18nText dict={stockLabels.showMore} lang={lang}/> (+{shareholders.length - SHAREHOLDER_PREVIEW_COUNT}) ▼</>
+                                        <><I18nText dict={stockLabels.showMore} lang={lang}/> (+{shareholderGroups.length - SHAREHOLDER_DATE_PREVIEW_COUNT}) ▼</>
                                     )}
                                 </button>
                             )}
