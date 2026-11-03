@@ -63,6 +63,12 @@ async function fetchData(client, country, criteria) {
               AND ((spb.close - spa.close) / spa.close * 100) < 0
               AND count - change > 100
               AND UPPER(COALESCE(s.korean_name, s.english_name)) !~ '홀딩스|HOLDINGS'
+              AND NOT EXISTS (
+                  SELECT 1 FROM merger m
+                  WHERE m.symbol = s.symbol
+                    AND m.deleted_at IS NULL
+                    AND COALESCE(m.effective_date, m.decision_date, m.disclosure_date) >= $3
+              )
             ORDER BY e.growth DESC LIMIT 100;
         `,
         values: [country, date_recent, date_past],
