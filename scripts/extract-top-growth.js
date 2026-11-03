@@ -1,7 +1,6 @@
 const { Client } = require('pg');
 const fs = require('fs');
 const path = require('path');
-const { dividendLateral } = require('./annual-dividend-query');
 
 async function getCriteria(client, country) {
     const benchmarkSymbol = {
@@ -44,7 +43,28 @@ async function fetchData(client, country, criteria) {
                 ROUND(va.median_trading_value::numeric, 0) as median_trading_value_1y
             FROM employees e
                      INNER JOIN stock s ON e.symbol = s.symbol
-                     ${dividendLateral('e.symbol', 's.country')}
+                     -- 한국은 같은 결산일에 ANNUAL(연간 합계)과 PERIOD(기말분)가 공존하므로 ANNUAL만 쓰고, 미국·일본은 PERIOD만 있어 최근 1년치를 합산한다.
+                     LEFT JOIN LATERAL (
+                         SELECT CASE
+                             WHEN s.country = 'KOREA' THEN (
+                                 SELECT value
+                                 FROM dividend
+                                 WHERE symbol = e.symbol
+                                   AND type = 'ANNUAL'
+                                   AND deleted_at IS NULL
+                                 ORDER BY basis_date DESC
+                                 LIMIT 1
+                             )
+                             ELSE (
+                                 SELECT SUM(value)
+                                 FROM dividend
+                                 WHERE symbol = e.symbol
+                                   AND type = 'PERIOD'
+                                   AND deleted_at IS NULL
+                                   AND basis_date > CURRENT_DATE - INTERVAL '1 year'
+                             )
+                         END AS value
+                     ) d ON true
                      INNER JOIN stock_price spb ON e.symbol = spb.symbol AND spb.date = $2
                      INNER JOIN stock_price spa ON e.symbol = spa.symbol AND spa.date = $3
                      LEFT JOIN LATERAL (

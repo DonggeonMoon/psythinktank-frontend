@@ -1,7 +1,6 @@
 const { Client } = require('pg');
 const fs = require('fs');
 const path = require('path');
-const { dividendLateral } = require('./annual-dividend-query');
 
 const CHUNK_SIZE = 50;
 
@@ -62,7 +61,28 @@ async function fetchStockDetails(client, country) {
                 ORDER BY basis_date DESC
                 LIMIT 1
             ) e ON true
-            ${dividendLateral('s.symbol', 's.country')}
+            -- 한국은 같은 결산일에 ANNUAL(연간 합계)과 PERIOD(기말분)가 공존하므로 ANNUAL만 쓰고, 미국·일본은 PERIOD만 있어 최근 1년치를 합산한다.
+            LEFT JOIN LATERAL (
+                SELECT CASE
+                    WHEN s.country = 'KOREA' THEN (
+                        SELECT value
+                        FROM dividend
+                        WHERE symbol = s.symbol
+                          AND type = 'ANNUAL'
+                          AND deleted_at IS NULL
+                        ORDER BY basis_date DESC
+                        LIMIT 1
+                    )
+                    ELSE (
+                        SELECT SUM(value)
+                        FROM dividend
+                        WHERE symbol = s.symbol
+                          AND type = 'PERIOD'
+                          AND deleted_at IS NULL
+                          AND basis_date > CURRENT_DATE - INTERVAL '1 year'
+                    )
+                END AS value
+            ) d ON true
             LEFT JOIN LATERAL (
                 SELECT close, date
                 FROM stock_price
