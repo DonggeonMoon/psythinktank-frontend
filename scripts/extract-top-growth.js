@@ -1,6 +1,7 @@
 const { Client } = require('pg');
 const fs = require('fs');
 const path = require('path');
+const { dividendLateral } = require('./annual-dividend-query');
 
 async function getCriteria(client, country) {
     const benchmarkSymbol = {
@@ -43,7 +44,7 @@ async function fetchData(client, country, criteria) {
                 ROUND(va.median_trading_value::numeric, 0) as median_trading_value_1y
             FROM employees e
                      INNER JOIN stock s ON e.symbol = s.symbol
-                     INNER JOIN dividend d ON e.symbol = d.symbol
+                     ${dividendLateral('e.symbol', 's.country')}
                      INNER JOIN stock_price spb ON e.symbol = spb.symbol AND spb.date = $2
                      INNER JOIN stock_price spa ON e.symbol = spa.symbol AND spa.date = $3
                      LEFT JOIN LATERAL (

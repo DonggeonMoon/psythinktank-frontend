@@ -1,6 +1,7 @@
 const { Client } = require('pg');
 const fs = require('fs');
 const path = require('path');
+const { dividendLateral } = require('./annual-dividend-query');
 
 const CHUNK_SIZE = 50;
 
@@ -61,7 +62,7 @@ async function fetchStockDetails(client, country) {
                 ORDER BY basis_date DESC
                 LIMIT 1
             ) e ON true
-            LEFT JOIN dividend d ON d.symbol = s.symbol
+            ${dividendLateral('s.symbol', 's.country')}
             LEFT JOIN LATERAL (
                 SELECT close, date
                 FROM stock_price
