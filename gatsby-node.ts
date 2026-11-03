@@ -32,6 +32,7 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       recent_price: Float
       price_growth: Float
       basis_date: String
+      median_trading_value_1y: String
     }
     type StocksUsaJson implements Node {
       symbol: String
@@ -42,6 +43,7 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       recent_price: Float
       price_growth: Float
       basis_date: String
+      median_trading_value_1y: String
     }
     type StocksJapanJson implements Node {
       symbol: String
@@ -52,6 +54,7 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       recent_price: Float
       price_growth: Float
       basis_date: String
+      median_trading_value_1y: String
     }
     type StockDetail implements Node {
       symbol: String
