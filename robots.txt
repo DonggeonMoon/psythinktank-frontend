@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /mypage/
+Disallow: /boards/write/
+Disallow: /boards/edit/
+Disallow: /consent/
+
+Sitemap: https://www.psythinktank.com/sitemap-index.xml
